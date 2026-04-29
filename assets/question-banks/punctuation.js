@@ -1467,6 +1467,1514 @@
             "MAP"
           ]
         }
+      },
+      {
+        "question": "Use this context for sentence 1, 2, and 3: Kyle was furious that Katherine spilt Dr. Pepper all over his new white sweatshirt. (1) Sheesh (2) How did Katherine expect him to react (3) Choose the appropriate end punctuation for sentence 1.",
+        "choices": [
+          ".",
+          "!",
+          "?",
+          "*"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: .. . (period); This sentence is making a statement.",
+          "incorrect": [
+            "",
+            "Not: !. Use the mechanics rule and sentence context to check this choice.",
+            "Not: ?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: *. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 4
+        }
+      },
+      {
+        "question": "Use this context for sentence 1, 2, and 3: Kyle was furious that Katherine spilt Dr. Pepper all over his new white sweatshirt. (1) Sheesh (2) How did Katherine expect him to react (3) Choose the appropriate end punctuation for sentence 2.",
+        "choices": [
+          "!",
+          "?",
+          ",",
+          "."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: !. ! (exclamation point); This sentence expresses strong emotion.",
+          "incorrect": [
+            "",
+            "Not: ?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: ,. Use the mechanics rule and sentence context to check this choice.",
+            "Not: .. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 5
+        }
+      },
+      {
+        "question": "Use this context for sentence 1, 2, and 3: Kyle was furious that Katherine spilt Dr. Pepper all over his new white sweatshirt. (1) Sheesh (2) How did Katherine expect him to react (3) Choose the appropriate end punctuation for sentence 3.",
+        "choices": [
+          ".",
+          "?",
+          ":",
+          "!"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: ?. ? (question mark); This sentence inquires and asks a question.",
+          "incorrect": [
+            "Not: .. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: :. Use the mechanics rule and sentence context to check this choice.",
+            "Not: !. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 6
+        }
+      },
+      {
+        "question": "Look at the adjectives below meaning “wet.” Which word has the most intense meaning?",
+        "choices": [
+          "mo ist",
+          "damp",
+          "soggy",
+          "drenched"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: drenched. drenched Drenched wet thoroughly, soaked.; –",
+          "incorrect": [
+            "Not: mo ist. Use the mechanics rule and sentence context to check this choice.",
+            "Not: damp. Use the mechanics rule and sentence context to check this choice.",
+            "Not: soggy. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 14
+        }
+      },
+      {
+        "question": "Choose the correct way to write the underlined portion of the sentence below. The itsy bitsy spider is a well-known nursery rhyme still sung in households today.",
+        "choices": [
+          "“T he Itsy Bitsy spider”",
+          "“The Itsy Bitsy Spider”",
+          "The Itsy Bitsy Spider",
+          "The Itsy Bitsy spider"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: “The Itsy Bitsy Spider”. Song titles should be put i n quotation marks. “The Itsy Bitsy Spider”",
+          "incorrect": [
+            "Not: “T he Itsy Bitsy spider”. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: The Itsy Bitsy Spider. Use the mechanics rule and sentence context to check this choice.",
+            "Not: The Itsy Bitsy spider. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 19
+        }
+      },
+      {
+        "question": "Identify what type of sentence the following is. Why were you not present in class yesterday?",
+        "choices": [
+          "exclamatory",
+          "interrogative",
+          "imperative",
+          "declarative"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: interrogative. interrogative An interrogative sentence asks a question and ends in a question mark.",
+          "incorrect": [
+            "Not: exclamatory. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: imperative. Use the mechanics rule and sentence context to check this choice.",
+            "Not: declarative. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 25
+        }
+      },
+      {
+        "question": "Look at the letter below. Identify which line(s) contain an error. Febuary 5, 2020 (1) Dear Miranda, (2) Would you like to come visit next summer? (3 so much to do. (4) There is) We could go hiking, biking or ice skating. (5) We would have so much fun. (6) Your Friend, (7) Melissa",
+        "choices": [
+          "Line 2, 5, and 7",
+          "Line 1, 2, and 5",
+          "Line 1, 5, and 7",
+          "Line 5 and 7"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Line 1, 5, and 7. 5, and 7; Line 1: Febuary should be February. Line 5: (use the oxford comma) Line 1, hiking, biking, or ice skating. Line 7: (only the first word in a salutation is capitalized) Your friend,",
+          "incorrect": [
+            "Not: Line 2, 5, and 7. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Line 1, 2, and 5. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Line 5 and 7. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 29
+        }
+      },
+      {
+        "question": "What is the purpose of an exclamatory sentence?",
+        "choices": [
+          "t o explain something",
+          "to expand on an idea",
+          "to share an experience",
+          "to show emotion"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: to show emotion. to show emotion An exclamatory sentence expresses strong feelings in the form of an; exclamation.",
+          "incorrect": [
+            "Not: t o explain something. Use the mechanics rule and sentence context to check this choice.",
+            "Not: to expand on an idea. Use the mechanics rule and sentence context to check this choice.",
+            "Not: to share an experience. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 35
+        }
+      },
+      {
+        "question": "Choose the punctuation mark that is needed in the sentence. If no more punctuation is needed, choose “None.” Do you think the movie is scary",
+        "choices": [
+          ".",
+          "!",
+          "?",
+          "None"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ?. ? Do you think the movie is scary? The sentence asks a question, so it ends with a; question mark.",
+          "incorrect": [
+            "Not: .. Use the mechanics rule and sentence context to check this choice.",
+            "Not: !. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: None. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 41
+        }
+      },
+      {
+        "question": "Choose the line that has a punctuation error. If there is no error, choose “No mistakes.”",
+        "choices": [
+          "A bear has sharp claws",
+          "A large bear may weigh as",
+          "much as 900 pounds.",
+          "No mistakes"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: A bear has sharp claws. A bear has sharp claws; This is a complete sentence and should end in a p eriod (.).",
+          "incorrect": [
+            "",
+            "Not: A large bear may weigh as. Use the mechanics rule and sentence context to check this choice.",
+            "Not: much as 900 pounds.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: No mistakes. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 42
+        }
+      },
+      {
+        "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” Summers are hot in Las Vegas Nevada.",
+        "choices": [
+          "Las Vegas Nevada,",
+          "Las, Vegas Nevada.",
+          "Las Vegas, Nevada.",
+          "Correct as is."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Las Vegas, Nevada.. Las Vegas, Nevada The correct punctuation is: City, State.",
+          "incorrect": [
+            "Not: Las Vegas Nevada,. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Las, Vegas Nevada.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Correct as is.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 44
+        }
+      },
+      {
+        "question": "Which of the following sentences is punctuated correctly?",
+        "choices": [
+          "I like t o ride my bike and my sister does as well.",
+          "I like to ride my bike, and my sister does as well.",
+          "I like to ride my bike; and my sister does as well.",
+          "I like to ride my bike. And my sister does as well."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: I like to ride my bike, and my sister does as well.. I like to ride my bike, and my sister does as well. The sentence uses a com ma before the coordinating conjunction “and.” This conjunction joins two sentences with the same type of idea.",
+          "incorrect": [
+            "Not: I like t o ride my bike and my sister does as well.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: I like to ride my bike; and my sister does as well.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: I like to ride my bike. And my sister does as well.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 49
+        }
+      },
+      {
+        "question": "Identify what type of sentence the following sentence is. That was amazing!",
+        "choices": [
+          "exclamatory",
+          "interrogative",
+          "imperative",
+          "declarative"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: exclamatory. exclamatory; A type of sentence that expresses strong feelings.",
+          "incorrect": [
+            "",
+            "Not: interrogative. Use the mechanics rule and sentence context to check this choice.",
+            "Not: imperative. Use the mechanics rule and sentence context to check this choice.",
+            "Not: declarative. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 50
+        }
+      },
+      {
+        "question": "Choose the line that has a n err or. If there is no error, choo se “No mistakes.”",
+        "choices": [
+          "I fig ured out how to put",
+          "the puzzle together. it",
+          "on ly took me three days.",
+          "No mistakes"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: the puzzle together. it. the puzzle together. It; A sentence begins with a capital letter “It.”",
+          "incorrect": [
+            "Not: I fig ured out how to put. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: on ly took me three days.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: No mistakes. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 52
+        }
+      },
+      {
+        "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, cho ose “Correct as is.” I like to ride my bike but my sister prefer s to ride a h orse.",
+        "choices": [
+          "bike but,",
+          "bike. But",
+          "bike, but",
+          "Correct as is."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: bike, but. bike, but; The sentence uses a comma before the coordinating conjunction “but.” This conjunction joins two sentenc es withequal but opp osite ideas.",
+          "incorrect": [
+            "Not: bike but,. Use the mechanics rule and sentence context to check this choice.",
+            "Not: bike. But. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Correct as is.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 54
+        }
+      },
+      {
+        "question": "Choose the word that best c ompletes the sentence. Sheri was a(n) _______. She was full of ene rgy and enthu siasm. She didn’t let anythin g get her down.",
+        "choices": [
+          "angel",
+          "bully",
+          "fireball",
+          "p istol"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: fireball. fireball f ireball a highly energetic person w ith unusual initiative.; –",
+          "incorrect": [
+            "Not: angel. Use the mechanics rule and sentence context to check this choice.",
+            "Not: bully. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: p istol. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 57
+        }
+      },
+      {
+        "question": "Choose the punctuation mark that is needed in the sentence. If no more punctuation is needed, choose “None.” Katherine Matthew, and Paige all went to the carnival.",
+        "choices": [
+          ".",
+          "!",
+          ",",
+          "None"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ,. , (comma) Katherine, Matthew, and Paige all we nt to t he carnival.",
+          "incorrect": [
+            "Not: .. Use the mechanics rule and sentence context to check this choice.",
+            "Not: !. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: None. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 61
+        }
+      },
+      {
+        "question": "Choose the line that has a punctuation error. If there is no error, choose “No mistakes.”",
+        "choices": [
+          "Th omas called his mother.",
+          "He forgot his homework again,",
+          "and knew hed be in trouble with his teacher.",
+          "No mistakes"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: and knew hed be in trouble with his teacher.. and knew hed be in trouble with his teacher.; “Hed” should be “He’d” (the contraction for he would).",
+          "incorrect": [
+            "Not: Th omas called his mother.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: He forgot his homework again,. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: No mistakes. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 62
+        }
+      },
+      {
+        "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” “Turn down the volume on the radio” yelled Noah’s mother.",
+        "choices": [
+          "rad io,” yelled",
+          "radio.” Yelled",
+          "radio.” yelled",
+          "Correct as is."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: rad io,” yelled. radio,” yelled; “Turn down the volume on the radio,” yelled Noah’s mother.",
+          "incorrect": [
+            "",
+            "Not: radio.” Yelled. Use the mechanics rule and sentence context to check this choice.",
+            "Not: radio.” yelled. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Correct as is.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 64
+        }
+      },
+      {
+        "question": "What would be the correct punctuation to end the following se ntence? Put your book down",
+        "choices": [
+          ". (p eriod)",
+          "! (exclamation)",
+          "? (question)",
+          "None"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: . (p eriod). . (period); Put your book down. The period at the end signif ies a statement is being made.",
+          "incorrect": [
+            "",
+            "Not: ! (exclamation). Use the mechanics rule and sentence context to check this choice.",
+            "Not: ? (question). Use the mechanics rule and sentence context to check this choice.",
+            "Not: None. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 69
+        }
+      },
+      {
+        "question": "Read the sentence below. Then choose the line that has a punctuation error. If there is no error, choose “No mistakes.” I learned how to do my own laundry. It wasn’t as difficult as I thought it would be.",
+        "choices": [
+          "I le arned how to do",
+          "my own laundry. It wasn’t",
+          "as difficult as I thought it would be.",
+          "No mistakes"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: No mistakes. No mistakes.",
+          "incorrect": [
+            "Not: I le arned how to do. Use the mechanics rule and sentence context to check this choice.",
+            "Not: my own laundry. It wasn’t. Use the mechanics rule and sentence context to check this choice.",
+            "Not: as difficult as I thought it would be.. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 72
+        }
+      },
+      {
+        "question": "Which sentence has the correct punctuation?",
+        "choices": [
+          "The girls stood around chatting, and teasing each other.",
+          "My brothers were watching a movie last night wh en, they heard a loud bang.",
+          "We all ran for the door, and Hilda rushed to open it.",
+          "We glanced at each other and, Kelsey burst into tears."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: We all ran for the door, and Hilda rushed to open it.. We all ran for the door, and Hilda rushed to open it. A comma belongs before the coordinating conjunction in a sentence, in this case, the word “and.” A has a comma before a conjunction, but the comma isn’t needed because “and teasing e ach other” isn’t an independent clause.",
+          "incorrect": [
+            "Not: The girls stood around chatting, and teasing each other.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: My brothers were watching a movie last night wh en, they heard a loud bang.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: We glanced at each other and, Kelsey burst into tears.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 86
+        }
+      },
+      {
+        "question": "Read the sentence below. Then choose a more p recise and descriptive word to replace the underlined word in the sentence. The cat crawled along the grass, desperate not to be seen.",
+        "choices": [
+          "slit hered",
+          "moved",
+          "walked",
+          "leapt"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: slit hered. slithered; The word “slithered” is more precise because it’shows intensity of the motion. Slither move smoothly over a surface with a twisting or oscillating moti on. –",
+          "incorrect": [
+            "",
+            "Not: moved. Use the mechanics rule and sentence context to check this choice.",
+            "Not: walked. Use the mechanics rule and sentence context to check this choice.",
+            "Not: leapt. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 94
+        }
+      },
+      {
+        "question": "Identify what type of sentence the following is. I have too much homework to do.",
+        "choices": [
+          "exclamatory",
+          "interrogative",
+          "imperative",
+          "declarative"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: declarative. declarative; A declarative sentence states a fact.",
+          "incorrect": [
+            "Not: exclamatory. Use the mechanics rule and sentence context to check this choice.",
+            "Not: interrogative. Use the mechanics rule and sentence context to check this choice.",
+            "Not: imperative. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 95
+        }
+      },
+      {
+        "question": "Identify what type of sentence the following is. Wash the dishes now so they will be clean for dinner.",
+        "choices": [
+          "exclamatory",
+          "interrogative",
+          "imperative",
+          "declarative"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: imperative. imperative An imperative sentence forms a command or a request.",
+          "incorrect": [
+            "Not: exclamatory. Use the mechanics rule and sentence context to check this choice.",
+            "Not: interrogative. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: declarative. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 105
+        }
+      },
+      {
+        "question": "Identify what type of sentence the following is. Did you wash your hands before dinner?",
+        "choices": [
+          "exclamatory",
+          "interrogative",
+          "imperative",
+          "declarative"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: interrogative. interrogative An interrogative sentence asks a direct question and is punctuated with a; question mark.",
+          "incorrect": [
+            "Not: exclamatory. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: imperative. Use the mechanics rule and sentence context to check this choice.",
+            "Not: declarative. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 115
+        }
       }
     ],
     "metadata": {
@@ -2282,6 +3790,64 @@
             "Not: Dr. Lee moved to Elm Ave yesterday. The words are right, but the mechanics are not."
           ]
         }
+      },
+      {
+        "question": "Choose the word that fits best in the blank and shows the correct punctuation. I am traveling with my middle school class to _____________ this summer.",
+        "choices": [
+          "Washington: D.",
+          "Washington, dc C. Washington dc",
+          "",
+          "Washington, D.C.,"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Washington, D.C.,. Washington, D.C., When writing “Washington” and “D.C.” together, add a comma after if “Washington” as well as a comma after “D.C.” the sentence continues after “D.C.”",
+          "incorrect": [
+            "Not: Washington: D.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Washington, dc C. Washington dc. Use the mechanics rule and sentence context to check this choice.",
+            "Not: . Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-periods-abbreviations",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 63
+        }
       }
     ],
     "metadata": {
@@ -3096,6 +4662,934 @@
             "Not: \"I found the map\" said Nora, \"but the trail is missing.\". Missing a needed comma.",
             "Not: \"I found the map,\" said Nora, \"But the trail is missing.\". The words match, but capitalization does not."
           ]
+        }
+      },
+      {
+        "question": "Choose the sentence that is punctuated correctly.",
+        "choices": [
+          "“Did you remember to buy milk,” asked Danny?",
+          "“Did you remember to buy milk”? asked Danny.",
+          "Danny asked, “Did you remember to buy milk?” to",
+          "Danny asked, “Did you remember to buy milk”?"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Danny asked, “Did you remember to buy milk?” to. Danny asked, “Did you remember to buy milk?” Commas and quotation marks set of direct speech.",
+          "incorrect": [
+            "Not: “Did you remember to buy milk,” asked Danny?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “Did you remember to buy milk”? asked Danny.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Danny asked, “Did you remember to buy milk”?. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 1
+        }
+      },
+      {
+        "question": "Choose the punctuation that means Joseph’s mother is speaking to him. Joseph mother said you have to make your bed.",
+        "choices": [
+          "Joseph’s mother said you have to make your bed.",
+          "“Joseph, Mother said you have to make your bed.”",
+          "Joseph Mother said, “You have to make your bed.”",
+          "“Joseph,” Mother said, “you have to make your bed.”"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: “Joseph,” Mother said, “you have to make your bed.”. “Joseph,” Mother said, “you have to make your bed.”",
+          "incorrect": [
+            "Not: Joseph’s mother said you have to make your bed.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “Joseph, Mother said you have to make your bed.”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Joseph Mother said, “You have to make your bed.”. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 3
+        }
+      },
+      {
+        "question": "What is the correct way to write the sentence below? My father asked me what are you wearing to the dance.",
+        "choices": [
+          "The sentence is correct.",
+          "My father asked me, “what are you wearing to t he dance?”",
+          "My father asked me, “What are you wearing to the dance”?",
+          "My father asked me, “What are you wearing to the dance?”"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: My father asked me, “What are you wearing to the dance?”. My father asked me, “What are you wearing to the dance?” Commas and quotation marks set off direct speech.",
+          "incorrect": [
+            "Not: The sentence is correct.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: My father asked me, “what are you wearing to t he dance?”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: My father asked me, “What are you wearing to the dance”?. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 9
+        }
+      },
+      {
+        "question": "Read the following paragraph and determine which sentence has the incorrect punctuation of direct speech. (1) (2) I was so excited for the first day of school. My alarm went off, and I jumped out of bed. n’t forget to brush your teeth before you come downstairs” mom said. (3) “Do (4) “Where’s my toothbrush?” I replied back.",
+        "choices": [
+          "Sentence 1",
+          "Sentence",
+          "Sentence",
+          "Sentence"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Sentence. Sentence 3; Sentence 3 is incorrect because there should be a comma inside the ending quotation mark.",
+          "incorrect": [
+            "Not: Sentence 1. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Sentence. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Sentence. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 22
+        }
+      },
+      {
+        "question": "Choose the punctuation that means a third character is shouting at Joseph to tell him his mother said to make his bed. Joseph mother said you have to make your bed.",
+        "choices": [
+          "“Jose ph,” Mother said, “you have to make your bed!”",
+          "“Joseph, Mother said you have to make your bed!”",
+          "“Joseph,” Mother said, “you have to make your b ed?”",
+          "“Joseph, Mother said you have to make your bed.”"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: “Joseph, Mother said you have to make your bed!”. “Joseph, Mother said you have to make your bed!” This is the only choice that implies another character is speaking, and it has an exclamation point at the end t o indicate excitement or shouting.",
+          "incorrect": [
+            "Not: “Jose ph,” Mother said, “you have to make your bed!”. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: “Joseph,” Mother said, “you have to make your b ed?”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “Joseph, Mother said you have to make your bed.”. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 31
+        }
+      },
+      {
+        "question": "Which sentence uses commas and quotation marks correctly?",
+        "choices": [
+          "M artha asked, “How long were you on vacation f or?”",
+          "“Martha asked, how long were you on vacation for?”",
+          "Martha asked? “How long were you on vacation for.”",
+          "Martha asked “How long were you on vacation for?”"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: M artha asked, “How long were you on vacation f or?”. ? Martha asked, “How long were you on vacation for”",
+          "incorrect": [
+            "",
+            "Not: “Martha asked, how long were you on vacation for?”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Martha asked? “How long were you on vacation for.”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Martha asked “How long were you on vacation for?”. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 45
+        }
+      },
+      {
+        "question": "Choose the punctuation mark that is needed in the sentence. If no m ore punctuation is needed, choo se “None.” “Mom wo n’t let us have another coo kie,” said Joanne.",
+        "choices": [
+          ".",
+          ",",
+          "!",
+          "No ne"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: No ne. None; The sentenc e is correctly punctuated.",
+          "incorrect": [
+            "Not: .. Use the mechanics rule and sentence context to check this choice.",
+            "Not: ,. Use the mechanics rule and sentence context to check this choice.",
+            "Not: !. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 51
+        }
+      },
+      {
+        "question": "Which sentence uses commas and quotation marks correctly?",
+        "choices": [
+          "Mom said “Yes!”",
+          "Mom said, “Yes!”",
+          "“Mom said, Yes!”",
+          "Mo m said. “Yes!”"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Mom said, “Yes!”. Mom said, “Yes!”",
+          "incorrect": [
+            "Not: Mom said “Yes!”. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: “Mom said, Yes!”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Mo m said. “Yes!”. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 55
+        }
+      },
+      {
+        "question": "Which sentence uses commas and quotation marks correctly?",
+        "choices": [
+          "Are we there yet, “asked Justin?”",
+          "“Are we there yet?” asked Justin.",
+          "“Are we there yet?”, asked Justin.",
+          "“Are we there yet?” asked Justin?"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: “Are we there yet?” asked Justin.. “Are we there yet?” aske d Justin.",
+          "incorrect": [
+            "Not: Are we there yet, “asked Justin?”. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: “Are we there yet?”, asked Justin.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “Are we there yet?” asked Justin?. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 65
+        }
+      },
+      {
+        "question": "Choose the punctuation mark that is needed in the sentence. If no more punctuation is needed, choose “None.” “This dessert is delicious, said Jamie.",
+        "choices": [
+          ",",
+          "?",
+          "”",
+          "None"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ”. ” (quotation mark); “This dessert is delicious,” said Jamie.",
+          "incorrect": [
+            "Not: ,. Use the mechanics rule and sentence context to check this choice.",
+            "Not: ?. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: None. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 71
+        }
+      },
+      {
+        "question": "Which sentence uses commas and quotation marks correctly?",
+        "choices": [
+          "“It’s a good book” Lee said.",
+          "“It’s a good book,” Lee said.",
+          "“It’s a good book, Lee said”.",
+          "“It’s a good book”, Lee said."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: “It’s a good book,” Lee said.. “It’s a good book,” Lee said.",
+          "incorrect": [
+            "Not: “It’s a good book” Lee said.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: “It’s a good book, Lee said”.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “It’s a good book”, Lee said.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 75
+        }
+      },
+      {
+        "question": "What is the correct way to write the sentence bel ow? Tori’s French teacher asked her what the answer was to the question.",
+        "choices": [
+          "The sentence is correct.",
+          "Tori’s French teacher asked her “what the answer was to the question?”",
+          "“Tori’s French teacher asked her what the answer was to the question.”",
+          "Tori’s French teacher asked her, “what the answer was to the question.”"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The sentence is correct.. The sentence is correct. There are no errors. The writer is m erely explaining what the teacher asked, not quoting him directly",
+          "incorrect": [
+            "",
+            "Not: Tori’s French teacher asked her “what the answer was to the question?”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “Tori’s French teacher asked her what the answer was to the question.”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Tori’s French teacher asked her, “what the answer was to the question.”. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 82
+        }
+      },
+      {
+        "question": "Which sentence uses commas and quotation marks correctly?",
+        "choices": [
+          "“I answered the door,” and said I think you have the wrong house.",
+          "I answered the door and said, “I think you have the wrong house.”",
+          "“I answered the door” and said, “I think you have the wrong house.”",
+          "I answered the door and said, “that I think you have the wrong house.”"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: I answered the door and said, “I think you have the wrong house.”. ech I answered the door and said, “I think you have the wrong house.” Only the direct spe quotation marks. (“I think you have the wrong house”) should be in",
+          "incorrect": [
+            "Not: “I answered the door,” and said I think you have the wrong house.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: “I answered the door” and said, “I think you have the wrong house.”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: I answered the door and said, “that I think you have the wrong house.”. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 85
+        }
+      },
+      {
+        "question": "Where in the following sentence would you place a comma? “I was thinking” she said “what should I’make for dinner?”",
+        "choices": [
+          "after the word “thinking” and after the word “what”",
+          "after the word “said” and after the word “should”",
+          "after the word “thinking” and after the word “said”",
+          "after the word “said” and after the word “dinner”"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: after the word “thinking” and after the word “said”. after; If direct speech is broken up by the word “thinking” and after the word “said” information about who is speaking, you need a comma to end the first pi ece of speech and a full stop or another comma before the second piece of speech.",
+          "incorrect": [
+            "Not: after the word “thinking” and after the word “what”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: after the word “said” and after the word “should”. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: after the word “said” and after the word “dinner”. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 92
+        }
+      },
+      {
+        "question": "Read the following paragraph and determine which sentence has the incorrect punctuation of direct speech. (1) I got to basketball practice late, because my alarm didn’t go off. (2) “Run laps,” my coach said. (3) “Do I really have to I asked him.” (4) My coach responded, “Yes, get on? the court!”",
+        "choices": [
+          "Sentence 1",
+          "Sentence",
+          "Sentence",
+          "Sentence"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Sentence. Sentence 3; Sentence 3 is incorrect because the entire sentence is i n quotation marks. Do I really have to I asked him. Only the direct speech should be: “?”",
+          "incorrect": [
+            "Not: Sentence 1. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Sentence. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Sentence. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 102
+        }
+      },
+      {
+        "question": "How should the following sentence be punctuated? “Don’t forget to feed the dog before you leave” Mom said.",
+        "choices": [
+          "A quotation mark after the word said",
+          "A comma after the word leave",
+          "forget A comma after the word",
+          "A period after the word leave"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: A comma after the word leave. a comma after the word leave. A comma is used to separate the spoken words from the dialog tag.",
+          "incorrect": [
+            "Not: A quotation mark after the word said. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: forget A comma after the word. Use the mechanics rule and sentence context to check this choice.",
+            "Not: A period after the word leave. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-quotation-marks",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 113
         }
       }
     ],
@@ -5638,6 +8132,586 @@
           "Test focus": [
             "MAP"
           ]
+        }
+      },
+      {
+        "question": "Where in the following sentence would you place a comma? Mom makes me breakfast before school but I don’t have enough time to eat it.",
+        "choices": [
+          "after the word “breakfast”",
+          "after the word “school”",
+          "after the word “have”",
+          "after the word “time”"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: after the word “school”. after school Put a comma before the coordinating conjunction (but) when it the word “”; is used to connect two independent clauses.",
+          "incorrect": [
+            "Not: after the word “breakfast”. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: after the word “have”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: after the word “time”. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 12
+        }
+      },
+      {
+        "question": "How should the following sentence be punctuated? The weather was cold and wet outside yet we really needed the rain.",
+        "choices": [
+          "A comma belongs after the word “” outside",
+          "A comma belongs after the word “cold”",
+          "A comma belongs after the word “yet”",
+          "This sentence does not need a comma."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: A comma belongs after the word “” outside. outside yet after the word “”; The comma belongs before the coordinating conjunction, “.”",
+          "incorrect": [
+            "",
+            "Not: A comma belongs after the word “cold”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: A comma belongs after the word “yet”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: This sentence does not need a comma.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 13
+        }
+      },
+      {
+        "question": "What is the purpose of an imperative sentence?",
+        "choices": [
+          "t o ask a question",
+          "to give a command",
+          "to show emotion",
+          "to make a statement"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: to give a command. to give a command; An i mperative sentence is a type of sentence that gives instructions or advice, and expresses a command, an order, a direction, or a request.",
+          "incorrect": [
+            "Not: t o ask a question. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: to show emotion. Use the mechanics rule and sentence context to check this choice.",
+            "Not: to make a statement. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 15
+        }
+      },
+      {
+        "question": "How should the following sentence be punctuated? She didn’t speak to anyone and nobody spoke to her.",
+        "choices": [
+          "A comma belongs after the word “anyone”",
+          "A comma belongs after the word “nobody”",
+          "A comma belongs after the word “spoke”",
+          "This sentence does not need a comma."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: A comma belongs after the word “anyone”. A comma belongs after the word “anyone” A comma is used before the conjunction; “and” which joins sentences that have related or similar ideas.",
+          "incorrect": [
+            "",
+            "Not: A comma belongs after the word “nobody”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: A comma belongs after the word “spoke”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: This sentence does not need a comma.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 28
+        }
+      },
+      {
+        "question": "Which uses a comma correctly before a coordinating conjunction?",
+        "choices": [
+          "I in vited Stacy but now, I wish I didn’t.",
+          "We bought a larger car so, we would have more room.",
+          "The basketball is in the garage, but it is flat.",
+          "You can have a sandwich, or, you can have pizza."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The basketball is in the garage, but it is flat.. The basketball is in the garage, but it is flat. The conjunction “but” shows a relationship between the ideas and it is preceded by a comma (,).",
+          "incorrect": [
+            "Not: I in vited Stacy but now, I wish I didn’t.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: We bought a larger car so, we would have more room.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: You can have a sandwich, or, you can have pizza.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 76
+        }
+      },
+      {
+        "question": "What is the purpose of a declarative sentence?",
+        "choices": [
+          "t o give a command",
+          "to ask a question",
+          "to show emotion",
+          "to make a statement"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: to make a statement. to make a statement; A declarative sentence makes a statement and ends in a period.",
+          "incorrect": [
+            "Not: t o give a command. Use the mechanics rule and sentence context to check this choice.",
+            "Not: to ask a question. Use the mechanics rule and sentence context to check this choice.",
+            "Not: to show emotion. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 78
+        }
+      },
+      {
+        "question": "What is the purpose of an imperative sentence?",
+        "choices": [
+          "t o ask a question",
+          "to show emotion",
+          "to make a statement",
+          "to give a command"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: to give a command. to give a command Imperative sentences are used to command or instruct, make a; request, or offer advice.",
+          "incorrect": [
+            "Not: t o ask a question. Use the mechanics rule and sentence context to check this choice.",
+            "Not: to show emotion. Use the mechanics rule and sentence context to check this choice.",
+            "Not: to make a statement. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 89
+        }
+      },
+      {
+        "question": "How should the following sentence be punctuated? A huge gust of wind hit our house and our patio furniture was thrown from the deck.",
+        "choices": [
+          "A comma belongs after the word “” hit",
+          "A comma belongs after the word “” house",
+          "A comma belongs after the word “and”",
+          "This sentence does not need a comma."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: A comma belongs after the word “” house. after the word “house”; The comma belongs bef ore the coordinating conjunction, “and.”",
+          "incorrect": [
+            "Not: A comma belongs after the word “” hit. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: A comma belongs after the word “and”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: This sentence does not need a comma.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 93
+        }
+      },
+      {
+        "question": "How should the following sentence be punctuated? She didn’t speak to anyone and nobody spoke to her.",
+        "choices": [
+          "A comma belongs after the word “anyone”",
+          "A comma belongs after the word “nobody”",
+          "A comma belongs after the word “spoke”",
+          "This sentence does not need a comma."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: A comma belongs after the word “anyone”. A comma is used before the conjunction A comma belongs after the word “anyone”; “and” which joins sentences that have related or similar ideas.",
+          "incorrect": [
+            "",
+            "Not: A comma belongs after the word “nobody”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: A comma belongs after the word “spoke”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: This sentence does not need a comma.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 108
+        }
+      },
+      {
+        "question": "Where in the following sentence would you place a? comma I like cooking new dishes and eating meat but I don’t like washing dishes.",
+        "choices": [
+          "after the word “and”",
+          "before the word “and”",
+          "after the word “but",
+          "before the word “but”"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: before the word “but”. the word “but”; The conjunction “but” is used to join two ideas together that are before opposites.",
+          "incorrect": [
+            "Not: after the word “and”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: before the word “and”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: after the word “but. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 112
         }
       }
     ],
@@ -10831,6 +13905,412 @@
             "MAP"
           ],
           "sequence": 79
+        }
+      },
+      {
+        "question": "Which punctuation best follows “Wow”? Wow () I can’t believe that I won’the spelling bee!",
+        "choices": [
+          ".",
+          "?",
+          ":",
+          "!"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: !. ! (exclamation point); An exclamation point is the appropriate end punctuation for the interjection, “Wow!” which expresses surprise and excitemen t.",
+          "incorrect": [
+            "Not: .. Use the mechanics rule and sentence context to check this choice.",
+            "Not: ?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: :. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 32
+        }
+      },
+      {
+        "question": "Choose the sentence that contains a punctuation error.",
+        "choices": [
+          "Cynthia wants to go to a friend’s house after school, but her mother won’t let her.",
+          "Dad dashed out the door for work, but forgot his briefcase.",
+          "Sami forgot to close the door when she left, so her dog got out.",
+          "Christopher and Charles joined the soccer team; Jimmy and Kyle joined the swim team."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Dad dashed out the door for work, but forgot his briefcase.. Dad dashed out the door for work, but forgot his briefcase. Commas are used before the coordinating conjunction in a compound sentence. The comma in the sentence is not needed. It is not a compound sentence because it has only one subject.",
+          "incorrect": [
+            "Not: Cynthia wants to go to a friend’s house after school, but her mother won’t let her.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Sami forgot to close the door when she left, so her dog got out.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Christopher and Charles joined the soccer team; Jimmy and Kyle joined the swim team.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 33
+        }
+      },
+      {
+        "question": "Choose the word that fits best in the blank and shows the correct pun ctuation. ___________ don’t forget that yo u have a pian o lesson after school.",
+        "choices": [
+          "Sophia",
+          "Sophia:",
+          "Sop hia,",
+          "So phia;"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Sop hia,. Sophia,-Sophia, don’t forget that you have a piano lesson after s chool. When ad dres sing a person directly, the name used must be offset with a co mma.",
+          "incorrect": [
+            "Not: Sophia. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Sophia:. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: So phia;. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 53
+        }
+      },
+      {
+        "question": "Choose the sentence that is punctuated correctly.",
+        "choices": [
+          "Befor e I leave the house each day I grab my l unch.",
+          "The dog ran across the yard, and retrieved the frisbee.",
+          "I don’t like to watch Hall mark movies but I like Hallmark greeting cards.",
+          "Our teacher gave us each a pencil before she gave us the test."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Our teacher gave us each a pencil before she gave us the test.. Our teacher gave us each a pencil before she gav e us the test. This is the only sentence that is punctuated correctly.",
+          "incorrect": [
+            "Not: Befor e I leave the house each day I grab my l unch.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: The dog ran across the yard, and retrieved the frisbee.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: I don’t like to watch Hall mark movies but I like Hallmark greeting cards.. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 81
+        }
+      },
+      {
+        "question": "Which of the following statements would be an e xample of informal language?",
+        "choices": [
+          "Excuse me, I am a bit hungry at the moment. Would there be anything to eat?",
+          "If it would not be too much trouble, could I get a bite to eat?",
+          "Please pass me the mashed potatoes.",
+          "I’m really hungry for some turkey and dressing."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: I’m really hungry for some turkey and dressing.. I’m really hungry for some turkey and dressing. Informal language is used when speaking or writing to friends and family. It has less strict grammar and often has shorter sentences.",
+          "incorrect": [
+            "Not: Excuse me, I am a bit hungry at the moment. Would there be anything to eat?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: If it would not be too much trouble, could I get a bite to eat?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Please pass me the mashed potatoes.. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 104
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? I f you pour juice over you’re video game it will br eak.",
+        "choices": [
+          "If you pour juice",
+          "over you’re video game",
+          "it will break.",
+          "no errors"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: over you’re video game. ove The correct r you’re video game. word should be “your” meaning belon ging to or associated with the person.",
+          "incorrect": [
+            "Not: If you pour juice. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: it will break.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: no errors. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 106
+        }
+      },
+      {
+        "question": "Choose the sentence that is punctuated correctly.",
+        "choices": [
+          "The snake was small black, and s. limy",
+          "Th snake slithered across my toes and, mom jumped on top of the table to get away.",
+          "I don’t like snakes but I do like spiders.",
+          "My favor ite food is chocolate, but I really like potato chips too."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: My favor ite food is chocolate, but I really like potato chips too.. My favorite food is chocolate, but I really like potato chips too. But is a conjunction used to join two ideas that are opposite. A comma is used before the conjunction “but.”",
+          "incorrect": [
+            "Not: The snake was small black, and s. limy. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Th snake slithered across my toes and, mom jumped on top of the table to get away.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: I don’t like snakes but I do like spiders.. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Mechanics and punctuation questions ask you to use marks such as commas, quotation marks, periods, and apostrophes correctly.",
+          "example": "Read the sentence aloud and decide which punctuation mark shows the sentence meaning.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 117
         }
       }
     ],

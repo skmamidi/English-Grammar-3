@@ -1595,6 +1595,412 @@
             "MAP"
           ]
         }
+      },
+      {
+        "question": "Which of the following would most likely not be capitalized?",
+        "choices": [
+          "first word of a quote",
+          "words in titles",
+          "time periods",
+          "first word after a colon"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: first word after a colon. word after a colon In most cases, you don’t need to capitalize after a colon (:) unless it is; a proper noun.",
+          "incorrect": [
+            "Not: first word of a quote. Use the mechanics rule and sentence context to check this choice.",
+            "Not: words in titles. Use the mechanics rule and sentence context to check this choice.",
+            "Not: time periods. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 23
+        }
+      },
+      {
+        "question": "Choose the answer that fits best in the blank and shows co rrect capitalization and punctuation. The new sch ool will open ____________.",
+        "choices": [
+          "August 15 2020",
+          "august 15, 20 20",
+          "August, 15 2 020",
+          "August 15, 202 0"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: August 15, 202 0. August 15, 202 0",
+          "incorrect": [
+            "Not: August 15 2020. Use the mechanics rule and sentence context to check this choice.",
+            "Not: august 15, 20 20. Use the mechanics rule and sentence context to check this choice.",
+            "Not: August, 15 2 020. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 59
+        }
+      },
+      {
+        "question": "Choose the sentence that shows correct punctuation and capitalization.",
+        "choices": [
+          "Christ ine gave joshua her stuffed animal.",
+          "We can leave now but, we have to say good-bye first.",
+          "That dress is gorgeous?",
+          "Is blue your favorite color?"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Is blue your favorite color?. Is blue your favorite color?",
+          "incorrect": [
+            "Not: Christ ine gave joshua her stuffed animal.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: We can leave now but, we have to say good-bye first.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: That dress is gorgeous?. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 74
+        }
+      },
+      {
+        "question": "Choose the sentence that shows correct punctuation and capitalization.",
+        "choices": [
+          "Amanda screamed, “cockroach!” Oh my gosh, there is a",
+          "“Don’t forget to make your bed, said mother.”",
+          "“Is it a long movie” asked Jeff?",
+          "“let’s go play outside,” suggested Victoria."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Amanda screamed, “cockroach!” Oh my gosh, there is a. Amanda screamed, “Oh my gosh, there is a cockroach!”",
+          "incorrect": [
+            "",
+            "Not: “Don’t forget to make your bed, said mother.”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “Is it a long movie” asked Jeff?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “let’s go play outside,” suggested Victoria.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 84
+        }
+      },
+      {
+        "question": "Identify the sentence with the correct capitalization.",
+        "choices": [
+          "Zach ordered Grilled Cheese from a restaura nt called Grilled Cheese company in Dallas, Texas.",
+          "Zach ordered grilled cheese from a Restaurant ca lled Grilled Cheese Company in Dallas, Texas.",
+          "Zach ordered grilled cheese from a restaurant called Grilled Cheese Company in Dallas, Texas.",
+          "Zach ordered grilled cheese from a restaura nt called grilled cheese company in Dallas, Texas."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Zach ordered grilled cheese from a restaurant called Grilled Cheese Company in Dallas, Texas.. Zach ordered grilled cheese from a restaurant called Grilled Cheese Company in Dallas, Texas. The proper pronouns in the sentence that should be capitali zed are Zachary (name), Grilled Cheese Company (restaurant name), Dallas (city), a nd Texas (state). N o other nouns should be capitalized.",
+          "incorrect": [
+            "Not: Zach ordered Grilled Cheese from a restaura nt called Grilled Cheese company in Dallas, Texas.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Zach ordered grilled cheese from a Restaurant ca lled Grilled Cheese Company in Dallas, Texas.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Zach ordered grilled cheese from a restaura nt called grilled cheese company in Dallas, Texas.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 91
+        }
+      },
+      {
+        "question": "Which word in the following sentence should be capitalized? We camped out all night at the store to take advantage of the christmas sa le.",
+        "choices": [
+          "camp ed",
+          "night",
+          "store",
+          "christmas"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: christmas. christmas; Christmas is a proper noun (a holiday) and should be capitalized.",
+          "incorrect": [
+            "Not: camp ed. Use the mechanics rule and sentence context to check this choice.",
+            "Not: night. Use the mechanics rule and sentence context to check this choice.",
+            "Not: store. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 101
+        }
+      },
+      {
+        "question": "Identify the sentence with the correct capitalization.",
+        "choices": [
+          "We welcome mayor davis as our Lead Speaker.",
+          "We welcome mayor Davis as our lead speaker.",
+          "We welcome Mayor Davis as our lead speaker.",
+          "We welcome Mayor Davis as our Lead Speaker."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: We welcome Mayor Davis as our lead speaker.. We welcome Mayor Davis as our lead speaker. A person’s title if it comes before their name should be capitalized.",
+          "incorrect": [
+            "Not: We welcome mayor davis as our Lead Speaker.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: We welcome mayor Davis as our lead speaker.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: We welcome Mayor Davis as our Lead Speaker.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 111
+        }
       }
     ],
     "metadata": {
@@ -2869,6 +3275,238 @@
           "Test focus": [
             "MAP"
           ]
+        }
+      },
+      {
+        "question": "Choose the sentence that is punctuated correctly.",
+        "choices": [
+          "“Go od grief!” he said, “Is that true?”",
+          "I’m so hungry, “I could eat an elephant.”",
+          "“” My sister is the absolute best",
+          "Christmas is my favorite holiday, “Armando said.”"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: “Go od grief!” he said, “Is that true?”. “Good grief!” he said, “Is that true?” Use an exclamation mark to indicate strong feeling or a raised voice in speech. Use a question mark after a direct questi on. Use quotation marks for direct quotes.",
+          "incorrect": [
+            "",
+            "Not: I’m so hungry, “I could eat an elephant.”. Use the mechanics rule and sentence context to check this choice.",
+            "Not: “” My sister is the absolute best. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Christmas is my favorite holiday, “Armando said.”. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 37
+        }
+      },
+      {
+        "question": "Which of the following should not be capitalized?",
+        "choices": [
+          "common nouns",
+          "proper nouns",
+          "days of the week",
+          "first letter of a sentence"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: common nouns. common nouns; A common noun is a generic name for a person, place or thing. They are not capitalized.",
+          "incorrect": [
+            "",
+            "Not: proper nouns. Use the mechanics rule and sentence context to check this choice.",
+            "Not: days of the week. Use the mechanics rule and sentence context to check this choice.",
+            "Not: first letter of a sentence. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 73
+        }
+      },
+      {
+        "question": "Identify the words that need to be capitalized in the below sentence. Although fall and winter are my favorite seasons, our family gathering on easter makes april my favorite month.",
+        "choices": [
+          "Fall, April",
+          "Easter, April",
+          "Fall, Winter",
+          "Seasons, April"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Easter, April. Easter, April Holidays and months are always capitalized.",
+          "incorrect": [
+            "Not: Fall, April. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Fall, Winter. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Seasons, April. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 83
+        }
+      },
+      {
+        "question": "Which of the following should not be capitalized?",
+        "choices": [
+          "p roper nouns",
+          "common nouns",
+          "days of the week",
+          "first letter of a sentence"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: common nouns. common nouns; Common nouns are not capitali zed.",
+          "incorrect": [
+            "Not: p roper nouns. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: days of the week. Use the mechanics rule and sentence context to check this choice.",
+            "Not: first letter of a sentence. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 103
         }
       }
     ],
@@ -7521,6 +8159,238 @@
             "MAP"
           ]
         }
+      },
+      {
+        "question": "Choose the title of the book that has correct capitalization In Mr. Joyner’s English class, we are reading the tale of the body thief.",
+        "choices": [
+          "The Tale Of The Body Thief",
+          "The tale of the Body Thief",
+          "The Tale of the Body Thief",
+          "The tale of The Body Thief"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The Tale of the Body Thief. The Tale of the Bod y Thief; Capitalize the first word and all the main words. Do not capitalize articles, conjunctions and prepositions.",
+          "incorrect": [
+            "Not: The Tale Of The Body Thief. Use the mechanics rule and sentence context to check this choice.",
+            "Not: The tale of the Body Thief. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: The tale of The Body Thief. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 39
+        }
+      },
+      {
+        "question": "Correctly capitalize the underlined portion of the below address. dr. m. michael jarvis 161 east victory street abilene, tx 79601",
+        "choices": [
+          "D R. M. Michael Jarvis",
+          "Dr. M. Michael Jarvis",
+          "Dr. M. michael jarvis",
+          "Dr. m. Michael Jarvis"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Dr. M. Michael Jarvis. Dr. M. Michael Jarvis; Titles, initials, a nd names of people should all be capitalized.",
+          "incorrect": [
+            "Not: D R. M. Michael Jarvis. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Dr. M. michael jarvis. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Dr. m. Michael Jarvis. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 99
+        }
+      },
+      {
+        "question": "Correctly capitalize the underlined portion of the below address. dr. m. michael jarvis 161 east victory street abilene, tx 79601",
+        "choices": [
+          "16 1 east Victory Street",
+          "161 East victory Street",
+          "161 east victory Street",
+          "161 East Victory Street"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: 161 East Victory Street. 161 East Victory Street Street names are capitalized.",
+          "incorrect": [
+            "Not: 16 1 east Victory Street. Use the mechanics rule and sentence context to check this choice.",
+            "Not: 161 East victory Street. Use the mechanics rule and sentence context to check this choice.",
+            "Not: 161 east victory Street. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 109
+        }
+      },
+      {
+        "question": "Correctly capitalize the underlined portion of the below address. dr. m. michael jarvis 161 east victory street abilene, tx 79601",
+        "choices": [
+          "Abilene, TX 79601",
+          "Abilene, Tx 79601",
+          "abilene, TX 79601",
+          "abilene, Tx 79601"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Abilene, TX 79601. Abilene, TX 79601; Names of cities and abbreviations for states are capitalized.",
+          "incorrect": [
+            "",
+            "Not: Abilene, Tx 79601. Use the mechanics rule and sentence context to check this choice.",
+            "Not: abilene, TX 79601. Use the mechanics rule and sentence context to check this choice.",
+            "Not: abilene, Tx 79601. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 119
+        }
       }
     ],
     "metadata": {
@@ -9454,6 +10324,180 @@
           "Test focus": [
             "MAP"
           ]
+        }
+      },
+      {
+        "question": "Identify the words that need to be capitalized in the below sentence. The riverside high school band will perform during half time.",
+        "choices": [
+          "Riverside High School Band",
+          "Riverside High School",
+          "Riverside High",
+          "Riverside"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Riverside High School Band. Riverside High School Band; The Riverside High School Band is a proper noun because it names a particular place or thing.",
+          "incorrect": [
+            "",
+            "Not: Riverside High School. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Riverside High. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Riverside. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 2
+        }
+      },
+      {
+        "question": "Identify the sentence with the correct capitalization.",
+        "choices": [
+          "Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.",
+          "Adam went to mcDonald’s and ordered a Pepsi, although he preferred a Coke.",
+          "Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.",
+          "Adam went to McDonald’s and ordered a Pepsi, although her preferred a Coke."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.. Adam went to McDonald’s and ordered a Pepsi, although her preferred a C oke. Capitalize names of people (Adam), places (McDonald’s), and products (Pepsi and Coke)",
+          "incorrect": [
+            "Not: Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Adam went to mcDonald’s and ordered a Pepsi, although he preferred a Coke.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Adam went to McDonald’s and ordered a Pepsi, although her preferred a Coke.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 11
+        }
+      },
+      {
+        "question": "Which word (s) in the following sentence should be capitalized? Every year my dad, frank, takes our family on vacation to the grand canyon.",
+        "choices": [
+          "Dad, Frank, Grand",
+          "Dad, Frank, Grand, Canyon",
+          "Frank, Grand",
+          "Frank, Gr and, Canyon"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Frank, Gr and, Canyon. Frank, Grand, Canyon Proper nouns are names (Frank) and places (Grand Canyon).",
+          "incorrect": [
+            "Not: Dad, Frank, Grand. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Dad, Frank, Grand, Canyon. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Frank, Grand. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
+          "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 21
         }
       }
     ],

@@ -6581,6 +6581,714 @@
             "MAP"
           ]
         }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. The burglar’s fingerprint was left on the door. It was the most _______ evidence during the jury trial. With this evidence, they had to convict her.",
+        "choices": [
+          "obvious",
+          "easy",
+          "damaging",
+          "saddening"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: damaging. damaging; damaging having a detrimental effect on someone or something. –",
+          "incorrect": [
+            "Not: obvious. Use the mechanics rule and sentence context to check this choice.",
+            "Not: easy. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: saddening. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 7
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. If I happen to be all alone and in an _____ mood, I play a game of solitaire.",
+        "choices": [
+          "id al",
+          "idol",
+          "idle",
+          "idlle"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: idle. idle avoiding work; lazy.; –",
+          "incorrect": [
+            "Not: id al. Use the mechanics rule and sentence context to check this choice.",
+            "Not: idol. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: idlle. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 17
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. I chose to have chocolate ________ for dessert. It is my favorite.",
+        "choices": [
+          "mousse",
+          "moose",
+          "muse",
+          "muosse"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: mousse. mousse; – a sweet and savory dish made as a smooth light mass with whipped cream, beaten egg white and flavored with chocolate.",
+          "incorrect": [
+            "",
+            "Not: moose. Use the mechanics rule and sentence context to check this choice.",
+            "Not: muse. Use the mechanics rule and sentence context to check this choice.",
+            "Not: muosse. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 27
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. Someone who decides to _______ a car has committed a crime.",
+        "choices": [
+          "st ill",
+          "steel",
+          "steal",
+          "stell"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: steal. steal; Steal to take without permission. –",
+          "incorrect": [
+            "Not: st ill. Use the mechanics rule and sentence context to check this choice.",
+            "Not: steel. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: stell. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 34
+        }
+      },
+      {
+        "question": "Choose the word that fits best in the blank and shows the correct punctuation. Today is your ____________ birthday.",
+        "choices": [
+          "f athers’",
+          "father’s",
+          "fathers’s",
+          "Father’s"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: father’s. father’s; Apostrophe + “s” shows possession. Whose birthday? father’s birthday",
+          "incorrect": [
+            "Not: f athers’. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: fathers’s. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Father’s. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 43
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. The mayor ______ into the town hall meeting to show off his new suit. H e had a very high opinion of himself.",
+        "choices": [
+          "meandered",
+          "strutted",
+          "walked",
+          "skipped"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: strutted. strutted strut to walk with a stiff, erect, and apparently arrogant or conceited gait.; –",
+          "incorrect": [
+            "Not: meandered. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: walked. Use the mechanics rule and sentence context to check this choice.",
+            "Not: skipped. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 47
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. Kyle was __________ about his citizenship award. He had never wanted anything more!",
+        "choices": [
+          "jo yous",
+          "elated",
+          "satisfied",
+          "justified"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: elated. elated; elated ecstatically happy. –",
+          "incorrect": [
+            "Not: jo yous. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: satisfied. Use the mechanics rule and sentence context to check this choice.",
+            "Not: justified. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 67
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. The football fans __________ to the front of the line so they could be the first to buy tickets.",
+        "choices": [
+          "clamb ered",
+          "strolled",
+          "skipped",
+          "walked"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: clamb ered. clambered Clambered to climb, move, or get in or out of something in an awkward or; – laborious way. This is how the fans might move to get to the front of the line in order to be the first to get tickets.",
+          "incorrect": [
+            "",
+            "Not: strolled. Use the mechanics rule and sentence context to check this choice.",
+            "Not: skipped. Use the mechanics rule and sentence context to check this choice.",
+            "Not: walked. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 77
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. Later that day my grandpa bought me a ________ of new shoes.",
+        "choices": [
+          "p ear",
+          "pair",
+          "pare",
+          "pier"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: pair. pair a set of two things used together or considered a unit.; –",
+          "incorrect": [
+            "Not: p ear. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: pare. Use the mechanics rule and sentence context to check this choice.",
+            "Not: pier. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 87
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. My mother and I went to the store to _____ me a new pair of tennis shoes.",
+        "choices": [
+          "by",
+          "buy",
+          "bye",
+          "bi"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: buy. buy; buy obtain in exchange for payment. –",
+          "incorrect": [
+            "Not: by. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: bye. Use the mechanics rule and sentence context to check this choice.",
+            "Not: bi. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 97
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. Gloria was told that it would take two weeks for her sprained ankle to ______.",
+        "choices": [
+          "h eel",
+          "heal",
+          "he’ll",
+          "hail"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: heal. heal become sound or healthy again.; –",
+          "incorrect": [
+            "Not: h eel. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: he’ll. Use the mechanics rule and sentence context to check this choice.",
+            "Not: hail. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 107
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. There were so many ________ in the doctor’s waiting room.",
+        "choices": [
+          "patients",
+          "patience",
+          "patents",
+          "pateince"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: patients. patients Patient – a person receiving medical treatment.",
+          "incorrect": [
+            "",
+            "Not: patience. Use the mechanics rule and sentence context to check this choice.",
+            "Not: patents. Use the mechanics rule and sentence context to check this choice.",
+            "Not: pateince. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 114
+        }
       }
     ],
     "metadata": {
@@ -26637,6 +27345,1245 @@
           "Test focus": [
             "MAP"
           ]
+        }
+      },
+      {
+        "question": "Which word in the list below is not spelled correctly?",
+        "choices": [
+          "mischievous",
+          "collateral",
+          "convenience",
+          "accommodate"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: collateral. collateral; collateral-The correct spelling is collateral meaning something that is pledged as security for repayment of a loan.",
+          "incorrect": [
+            "Not: mischievous. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: convenience. Use the mechanics rule and sentence context to check this choice.",
+            "Not: accommodate. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 8
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? The heard of cattle ate twice as many bales of hay during the winter.",
+        "choices": [
+          "The heard of cattle",
+          "ate twice as many bales",
+          "of hay durin g the winter.",
+          "no errors"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The heard of cattle. The heard of cattle; The correct use would be herd meaning a large group of animal s.",
+          "incorrect": [
+            "",
+            "Not: ate twice as many bales. Use the mechanics rule and sentence context to check this choice.",
+            "Not: of hay durin g the winter.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: no errors. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 16
+        }
+      },
+      {
+        "question": "Which word in the list below is spelled correctly? in",
+        "choices": [
+          "raspberry",
+          "recommend",
+          "restaurant",
+          "ridiculous"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: raspberry. rasberry Correct spelling: raspberry an edible soft fruit.; –",
+          "incorrect": [
+            "",
+            "Not: recommend. Use the mechanics rule and sentence context to check this choice.",
+            "Not: restaurant. Use the mechanics rule and sentence context to check this choice.",
+            "Not: ridiculous. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 20
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? The baby bird’s high pitched cheap could be heard from inside the house.",
+        "choices": [
+          "The baby bird’s",
+          "high pitched",
+          "cheap could be heard",
+          "from inside the house."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: cheap could be heard. word should be “cheap could be hea The correct rd; cheep” meaning a high pitched, squeaky cry made by a bird.",
+          "incorrect": [
+            "Not: The baby bird’s. Use the mechanics rule and sentence context to check this choice.",
+            "Not: high pitched. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: from inside the house.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 26
+        }
+      },
+      {
+        "question": "Which word in the list below is spelled correctly? in",
+        "choices": [
+          "exceed",
+          "enough",
+          "embarrass",
+          "exaggerate"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: exaggerate. exagerate Correct spelling: exaggerate – represent something as being larger, better, or; worse than it really is.",
+          "incorrect": [
+            "Not: exceed. Use the mechanics rule and sentence context to check this choice.",
+            "Not: enough. Use the mechanics rule and sentence context to check this choice.",
+            "Not: embarrass. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 30
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? I rode my bike to the store, but my bicycle petal broke.",
+        "choices": [
+          "I rode my bike to",
+          "the store, but my",
+          "bicycle petal broke.",
+          "no errors"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: bicycle petal broke.. bicycle petal broke. The correct word should be pedal meaning a foot operated lever used for powering a bicycle; it is propelled by the legs.",
+          "incorrect": [
+            "Not: I rode my bike to. Use the mechanics rule and sentence context to check this choice.",
+            "Not: the store, but my. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: no errors. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 36
+        }
+      },
+      {
+        "question": "Which word in the list below is spelled correctly? in",
+        "choices": [
+          "accommodate",
+          "acknowledge",
+          "accidentally",
+          "acquaintance"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: accommodate. accomodate Correct spelling: accommodate meaning (1) to provide lodging or sufficient; space for (2) fit in with the wishes or needs of.",
+          "incorrect": [
+            "",
+            "Not: acknowledge. Use the mechanics rule and sentence context to check this choice.",
+            "Not: accidentally. Use the mechanics rule and sentence context to check this choice.",
+            "Not: acquaintance. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 40
+        }
+      },
+      {
+        "question": "Find the misspelled word.",
+        "choices": [
+          "ost rich",
+          "wings",
+          "horse",
+          "vehicel"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: vehicel. vehicel vehicle a thing used for transporting people or goods.; –",
+          "incorrect": [
+            "Not: ost rich. Use the mechanics rule and sentence context to check this choice.",
+            "Not: wings. Use the mechanics rule and sentence context to check this choice.",
+            "Not: horse. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 46
+        }
+      },
+      {
+        "question": "Find the word that is co rrectly spelled.",
+        "choices": [
+          "cranberries",
+          "monkies",
+          "carrys",
+          "m arrys"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: cranberries. cranberries Correct spelling: monkeys, carries, marr ies",
+          "incorrect": [
+            "",
+            "Not: monkies. Use the mechanics rule and sentence context to check this choice.",
+            "Not: carrys. Use the mechanics rule and sentence context to check this choice.",
+            "Not: m arrys. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 56
+        }
+      },
+      {
+        "question": "In whic h section of the following sentence is a word used incorrectly? Aunt Joann e scent me a bunch of red sweaters.",
+        "choices": [
+          "Aunt Joanne",
+          "scent me a bunc h",
+          "of red sweaters.",
+          "No errors"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: scent me a bunc h. scent me a bunc h; It should be “sent me a bunch.”",
+          "incorrect": [
+            "Not: Aunt Joanne. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: of red sweaters.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: No errors. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 60
+        }
+      },
+      {
+        "question": "Choose the word that is incorrectly spelled in the sentence below. Carrington ordered steak for dinner, but the serve r forgot to bring her a steak knive to cut with.",
+        "choices": [
+          "or dered",
+          "steak",
+          "server",
+          "knive"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: knive. knive Singular is knife; plural is k nives.",
+          "incorrect": [
+            "Not: or dered. Use the mechanics rule and sentence context to check this choice.",
+            "Not: steak. Use the mechanics rule and sentence context to check this choice.",
+            "Not: server. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 66
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? I will write a note to accept your invitation.",
+        "choices": [
+          "I will write a",
+          "note to accept",
+          "your invitation.",
+          "No errors"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: No errors. No errors.",
+          "incorrect": [
+            "Not: I will write a. Use the mechanics rule and sentence context to check this choice.",
+            "Not: note to accept. Use the mechanics rule and sentence context to check this choice.",
+            "Not: your invitation.. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 70
+        }
+      },
+      {
+        "question": "Which word below is spelled incorrectly?",
+        "choices": [
+          "misp elled",
+          "deceive",
+          "vacuum",
+          "accomplish"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: misp elled. mispelled; The correct spelling is “misspelled.”",
+          "incorrect": [
+            "",
+            "Not: deceive. Use the mechanics rule and sentence context to check this choice.",
+            "Not: vacuum. Use the mechanics rule and sentence context to check this choice.",
+            "Not: accomplish. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 79
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? We could not wait to eat the meet my dad grilled.",
+        "choices": [
+          "We could not wait",
+          "to eat the meet",
+          "my dad grilled.",
+          "No errors"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: to eat the meet. to eat the meet; The correct spelling should be m eat: food; usually the flesh of an animal.",
+          "incorrect": [
+            "Not: We could not wait. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: my dad grilled.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: No errors. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Basic Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 80
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? My mom wants me to learn how to knit and so my own clothes.",
+        "choices": [
+          "My mom wants me",
+          "to learn how to knit and",
+          "so my own clothes.",
+          "No errors"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: so my own clothes.. so my own clothes. should be replaced with sew meaning to join, fasten or repair “So” “” by making stitches with a needle.",
+          "incorrect": [
+            "Not: My mom wants me. Use the mechanics rule and sentence context to check this choice.",
+            "Not: to learn how to knit and. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: No errors. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 88
+        }
+      },
+      {
+        "question": "Which word in the list below is spelled correctly?",
+        "choices": [
+          "p roblum",
+          "cumpas",
+          "axcept",
+          "catch"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: catch. catch Other correct spellings would be: problem, compass, accept.",
+          "incorrect": [
+            "Not: p roblum. Use the mechanics rule and sentence context to check this choice.",
+            "Not: cumpas. Use the mechanics rule and sentence context to check this choice.",
+            "Not: axcept. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Proficient Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 90
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? I threw the ball up so high in the sky it got lost in the bright son.",
+        "choices": [
+          "I t hrew the ball up",
+          "so high in the sky",
+          "it got lost in the bright son.",
+          "no errors"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: it got lost in the bright son.. it got lost in the bright son. The correct use would be sun (star around which the earth orbits) and not son (a boy or man in relation to either or both of his parents.)",
+          "incorrect": [
+            "Not: I t hrew the ball up. Use the mechanics rule and sentence context to check this choice.",
+            "Not: so high in the sky. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: no errors. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 96
+        }
+      },
+      {
+        "question": "Which word in the list below is spelled correctly? in",
+        "choices": [
+          "cookout",
+          "outdoors",
+          "shoreline",
+          "pollinator"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: pollinator. pollinator Correct spelling: pollinator an animal that causes plants to make fruit or; – seeds.",
+          "incorrect": [
+            "Not: cookout. Use the mechanics rule and sentence context to check this choice.",
+            "Not: outdoors. Use the mechanics rule and sentence context to check this choice.",
+            "Not: shoreline. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 100
+        }
+      },
+      {
+        "question": "Which word in the list below is spelled correctly? in",
+        "choices": [
+          "government",
+          "beautiful",
+          "libraries",
+          "doubtful"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: government. goverment Correct spelling: government the governing body of a nation, state, or; – community.",
+          "incorrect": [
+            "",
+            "Not: beautiful. Use the mechanics rule and sentence context to check this choice.",
+            "Not: libraries. Use the mechanics rule and sentence context to check this choice.",
+            "Not: doubtful. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Proficient Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 110
+        }
+      },
+      {
+        "question": "In which section of the following sentence is a word used incorrectly? I think there dog is the meanest dog in the neighborhood.",
+        "choices": [
+          "I think there dog",
+          "is the meanest dog",
+          "in the neighborhood.",
+          "no e rrors"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I think there dog. I think there dog; The correct spelling and usage should be “their” meaning belonging to or associated with.",
+          "incorrect": [
+            "",
+            "Not: is the meanest dog. Use the mechanics rule and sentence context to check this choice.",
+            "Not: in the neighborhood.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: no e rrors. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 116
+        }
+      },
+      {
+        "question": "Which word in the list below is spelled correctly? in",
+        "choices": [
+          "restaurant",
+          "rhythm",
+          "eachother",
+          "height"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: eachother. eachother Correct spelling: each other. This should be two words.",
+          "incorrect": [
+            "Not: restaurant. Use the mechanics rule and sentence context to check this choice.",
+            "Not: rhythm. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: height. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Spelling and word-choice questions ask you to choose the correctly spelled word or the word that fits the sentence meaning.",
+          "example": "Read the sentence and check whether the word has the right spelling and meaning.",
+          "link": "https://www.readingrockets.org/topics/spelling-and-word-study",
+          "linkText": "Reading Rockets - Spelling and Word Study"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling",
+            "word choice",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 120
         }
       }
     ],

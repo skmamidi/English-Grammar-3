@@ -174116,6 +174116,528 @@
           "sourceSet": "grammar-formal-informal-language",
           "sequence": 180
         }
+      },
+      {
+        "question": "Select the sentence that is an example of formal English.",
+        "choices": [
+          "Hey dude, what’s up?",
+          "Bro, what are you doing after school?",
+          "Would you like me to relay the message to your mother?",
+          "Did you see that wicked shirt he had on?"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Would you like me to relay the message to your mother?. Would you like me to relay the message to your mother? Formal language is used in business and polite conversation.",
+          "incorrect": [
+            "Not: Hey dude, what’s up?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Bro, what are you doing after school?. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: Did you see that wicked shirt he had on?. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Advanced Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 10
+        }
+      },
+      {
+        "question": "Identify the type of language used in the following statement. Would you mind spelling your last name?",
+        "choices": [
+          "f ormal",
+          "semi-formal",
+          "informal",
+          "informational"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: f ormal. formal; Formal language is used in business or polite conversation.",
+          "incorrect": [
+            "",
+            "Not: semi-formal. Use the mechanics rule and sentence context to check this choice.",
+            "Not: informal. Use the mechanics rule and sentence context to check this choice.",
+            "Not: informational. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Advanced Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 18
+        }
+      },
+      {
+        "question": "Which of the following statements would be an example of formal language?",
+        "choices": [
+          "She caught on very quickly.",
+          "She understood very quickly.",
+          "She’s got it!",
+          "She knows her stuff."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: She understood very quickly.. She understood very quickly. “Understood” is a more formal way of saying “caught on.”",
+          "incorrect": [
+            "Not: She caught on very quickly.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: She’s got it!. Use the mechanics rule and sentence context to check this choice.",
+            "Not: She knows her stuff.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Advanced Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 24
+        }
+      },
+      {
+        "question": "Which of the following statements uses informal language?",
+        "choices": [
+          "Please empty the dishwasher.",
+          "My teacher and I met to discuss my B+ on my written assignment.",
+          "Do you want to go with us?",
+          "We would love for you to attend the award ceremony with our family."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Do you want to go with us?. Do you want to go with us? Informal language is u sed when speaking or writing to friends or family, has less strict grammar, and is shorter.",
+          "incorrect": [
+            "Not: Please empty the dishwasher.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: My teacher and I met to discuss my B+ on my written assignment.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: We would love for you to attend the award ceremony with our family.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Advanced Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 38
+        }
+      },
+      {
+        "question": "Which of the following statements would be using formal language?",
+        "choices": [
+          "Pa y attention.",
+          "Listen up.",
+          "Follow the rules.",
+          "Please obey the rules while you are present."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Please obey the rules while you are present.. Please obey the rules while you are present. This is formal language and is used in business or polite conversation.",
+          "incorrect": [
+            "Not: Pa y attention.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Listen up.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Follow the rules.. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Basic Quiz 1_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 48
+        }
+      },
+      {
+        "question": "Which of the following would be an example of informal language?",
+        "choices": [
+          "Are we there y et?",
+          "At what time do you expect us to be finished with our trip?",
+          "Has the time co me for our trip to be over?",
+          "Have we arrived at o ur destination at this tim e?"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Are we there y et?. Are we there yet? Informal language is used when s peaking or writing to friends and family. It is less strict grammar and shorter sentence s.",
+          "incorrect": [
+            "",
+            "Not: At what time do you expect us to be finished with our trip?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Has the time co me for our trip to be over?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Have we arrived at o ur destination at this tim e?. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Basic Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 58
+        }
+      },
+      {
+        "question": "Which of the following would be an example of formal language?",
+        "choices": [
+          "I’ll get it done.",
+          "The job will be completed in a year’s time.",
+          "We’ll finish it.",
+          "It’ll get done in time."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The job will be completed in a year’s time.. The job will be completed in a year’s tim e. F or mal language is used in business and polite conversation.",
+          "incorrect": [
+            "Not: I’ll get it done.. Use the mechanics rule and sentence context to check this choice.",
+            "",
+            "Not: We’ll finish it.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: It’ll get done in time.. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Basic Quiz 3_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 68
+        }
+      },
+      {
+        "question": "Identify the type of language used in the following statement. Please refrain from smoking in the building.",
+        "choices": [
+          "f ormal",
+          "semi-formal",
+          "informal",
+          "informational"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: f ormal. formal; Formal language is used in business or polite conversation. “Please” helps to determine that this is formal language.",
+          "incorrect": [
+            "",
+            "Not: semi-formal. Use the mechanics rule and sentence context to check this choice.",
+            "Not: informal. Use the mechanics rule and sentence context to check this choice.",
+            "Not: informational. Use the mechanics rule and sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Proficient Quiz 2_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 98
+        }
+      },
+      {
+        "question": "Which of the following statements uses formal language?",
+        "choices": [
+          "Nice to meet you.",
+          "Hey, how are you doing?",
+          "Nice to meet ya.",
+          "It is a pleasure to meet you."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: It is a pleasure to meet you.. It is a pleasure to meet you. Formal language is used in business and polite conversation.",
+          "incorrect": [
+            "Not: Nice to meet you.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Hey, how are you doing?. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Nice to meet ya.. Use the mechanics rule and sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Formal language and sentence-style questions ask you to choose wording that fits the audience and purpose.",
+          "example": "Formal English avoids slang and uses clear, polite wording.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "formal language",
+            "mechanics",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the mechanics or punctuation rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-formal-informal-language",
+          "sourceFile": "Proficient Quiz 4_Language_Mechanics and Punctuation_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "mechanics-and-punctuation",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 118
+        }
       }
     ],
     "metadata": {

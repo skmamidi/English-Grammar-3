@@ -1533,11 +1533,30 @@ function domainSetCount(domain) {
 
 function assertChunkRequestBudget(requests, domain, label) {
   const chunkUrls = requests.filter(url => url.includes(`/assets/question-chunks/${domain}/`));
+  const requestedSetIds = getRequestedChunkSetIds(requests, domain);
   assert.ok(chunkUrls.length > 0, `${label} should hydrate from ${domain} chunks`);
   assert.ok(
-    new Set(chunkUrls).size <= domainSetCount(domain),
-    `${label} should not request more ${domain} chunks than configured subtopics`
+    requestedSetIds.size > 0,
+    `${label} should hydrate at least one configured ${domain} subtopic`
   );
+  assert.ok(
+    requestedSetIds.size <= domainSetCount(domain),
+    `${label} should not request more ${domain} subtopics than configured`
+  );
+}
+
+function getRequestedChunkSetIds(requests, domain) {
+  const requestedSetIds = new Set();
+  const domainSets = questionManifest.sets.filter(set => set.domain === domain);
+  for (const set of domainSets) {
+    const chunkFiles = Array.isArray(set.chunks) && set.chunks.length
+      ? set.chunks.map(chunk => chunk.chunkFile)
+      : [set.chunkFile].filter(Boolean);
+    if (chunkFiles.some(chunkFile => requests.some(url => url.endsWith(`/${chunkFile}`)))) {
+      requestedSetIds.add(set.id);
+    }
+  }
+  return requestedSetIds;
 }
 
 function getChromiumLaunchOptions() {

@@ -19,6 +19,7 @@ test('learner state repository reads empty normalized state when no progress exi
   assert.deepEqual(state.reports.sessions, []);
   assert.deepEqual(state.reports.questionReports, []);
   assert.equal(state.activeQuiz, null);
+  assert.deepEqual(state.reviewSchedules, []);
 });
 
 test('learner state repository normalizes legacy active quiz full-question saves', () => {
@@ -118,6 +119,48 @@ test('learner state repository stores adaptive review queue refs and item status
   const mastered = repository.markReviewItemMastered('grammar-sentence-types-q0001', '2030-04-29T12:02:00.000Z');
   assert.equal(mastered.items[0].status, 'mastered');
   assert.equal(mastered.items[0].masteredAt, '2030-04-29T12:02:00.000Z');
+});
+
+test('learner state repository stores spaced repetition schedules as refs', () => {
+  const repository = createRepository();
+  const schedules = repository.updateReviewSchedules([{
+    questionRef: {
+      id: 'grammar-sentence-types-q0001',
+      sourceSet: 'grammar-sentence-types',
+      version: 1,
+      contentHash: 'sha256:abc',
+      sequence: 1
+    },
+    skillIds: ['grammar.sentence-analysis'],
+    correct: true,
+    question: 'do not copy'
+  }], '2030-04-29T12:00:00.000Z');
+
+  assert.equal(schedules.length, 1);
+  assert.equal(schedules[0].ref.id, 'grammar-sentence-types-q0001');
+  assert.equal(schedules[0].dueAt, '2030-05-01T12:00:00.000Z');
+  assert.equal(JSON.stringify(repository.getProgress().reviewSchedules).includes('do not copy'), false);
+  assert.equal(repository.getReviewSchedules()[0].ref.id, 'grammar-sentence-types-q0001');
+});
+
+test('learner state repository drops corrupt spaced repetition schedule entries', () => {
+  const normalized = normalizeLearnerState({
+    reviewSchedules: [
+      null,
+      { ref: { id: '' }, dueAt: '2030-04-29T12:00:00.000Z' },
+      {
+        ref: { id: 'grammar-sentence-types-q0002', sourceSet: 'grammar-sentence-types' },
+        skillIds: ['grammar.sentence-analysis'],
+        intervalDays: 2,
+        ease: 2.4,
+        dueAt: '2030-05-01T12:00:00.000Z',
+        lastReviewedAt: '2030-04-29T12:00:00.000Z'
+      }
+    ]
+  });
+
+  assert.equal(normalized.reviewSchedules.length, 1);
+  assert.equal(normalized.reviewSchedules[0].ref.id, 'grammar-sentence-types-q0002');
 });
 
 test('learner state repository upserts question reports without conflating report and question ids', () => {

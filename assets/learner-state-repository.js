@@ -12,6 +12,8 @@
     (typeof require === 'function' ? require('./assignment-domain') : null);
   const reviewDomain = root.GrammarQuestAdaptiveReviewDomain ||
     (typeof require === 'function' ? require('./adaptive-review-domain') : null);
+  const spacedRepetitionDomain = root.GrammarQuestSpacedRepetitionDomain ||
+    (typeof require === 'function' ? require('./spaced-repetition-domain') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
@@ -117,6 +119,24 @@
       return getProgress().reviewQueue;
     }
 
+    function getReviewSchedules() {
+      return getProgress().reviewSchedules;
+    }
+
+    function saveReviewSchedules(schedules) {
+      return updateProgress(progress => {
+        progress.reviewSchedules = normalizeReviewSchedules(schedules);
+        return progress;
+      }).reviewSchedules;
+    }
+
+    function updateReviewSchedules(outcomes, reviewedAt) {
+      return updateProgress(progress => {
+        progress.reviewSchedules = applyReviewOutcomes(progress.reviewSchedules, outcomes, reviewedAt || now());
+        return progress;
+      }).reviewSchedules;
+    }
+
     function saveReviewQueue(queue) {
       return updateProgress(progress => {
         progress.reviewQueue = normalizeReviewQueue(queue);
@@ -145,6 +165,7 @@
       clearActiveQuiz,
       getActiveQuiz,
       getProgress,
+      getReviewSchedules,
       getReviewQueue,
       listAssignments,
       markAssignmentCompleted,
@@ -153,7 +174,9 @@
       markReviewItemSeen,
       saveActiveQuiz,
       saveProgress,
+      saveReviewSchedules,
       saveReviewQueue,
+      updateReviewSchedules,
       updateProgress,
       upsertAssignment,
       upsertQuestionReport
@@ -286,6 +309,7 @@
       activeQuiz: normalizeActiveQuiz(input.activeQuiz),
       assignments: normalizeAssignments(input.assignments),
       reviewQueue: normalizeReviewQueue(input.reviewQueue),
+      reviewSchedules: normalizeReviewSchedules(input.reviewSchedules),
       mastery: normalizeMastery(input.mastery),
       lastUpdatedAt: input.lastUpdatedAt || ''
     };
@@ -310,6 +334,41 @@
           updatedAt: queue && queue.updatedAt || '',
           items: (Array.isArray(queue && queue.items) ? queue.items : []).map(normalizeReviewItemFallback).filter(item => item.questionRef.id)
         };
+  }
+
+  function normalizeReviewSchedules(schedules) {
+    if (spacedRepetitionDomain && typeof spacedRepetitionDomain.normalizeSchedules === 'function') {
+      return spacedRepetitionDomain.normalizeSchedules(schedules);
+    }
+    return (Array.isArray(schedules) ? schedules : []).map(normalizeScheduleFallback).filter(schedule => schedule.ref.id);
+  }
+
+  function normalizeScheduleFallback(schedule) {
+    const input = schedule && typeof schedule === 'object' ? schedule : {};
+    const ref = input.ref || input.questionRef || {};
+    return {
+      ref: {
+        id: String(ref.id || ref.questionId || ''),
+        sourceSet: String(ref.sourceSet || ref.setId || ''),
+        version: Number(ref.version || ref.questionVersion) || 0,
+        contentHash: String(ref.contentHash || ref.questionHash || ''),
+        sequence: Number(ref.sequence) || 0
+      },
+      skillIds: normalizeStringArray(input.skillIds),
+      intervalDays: Math.max(1, Math.round(Number(input.intervalDays) || 1)),
+      ease: Math.max(1.6, Number(input.ease) || 2),
+      dueAt: safeIso(input.dueAt) || '',
+      lastReviewedAt: safeIso(input.lastReviewedAt) || '',
+      streak: Math.max(0, Math.round(Number(input.streak) || 0)),
+      lapses: Math.max(0, Math.round(Number(input.lapses) || 0))
+    };
+  }
+
+  function applyReviewOutcomes(existingSchedules, outcomes, reviewedAt) {
+    if (spacedRepetitionDomain && typeof spacedRepetitionDomain.applyReviewOutcomes === 'function') {
+      return spacedRepetitionDomain.applyReviewOutcomes(existingSchedules, outcomes, { now: reviewedAt });
+    }
+    return normalizeReviewSchedules(existingSchedules);
   }
 
   function normalizeReviewItemFallback(item) {
@@ -498,6 +557,12 @@
       .filter(Boolean);
   }
 
+  function safeIso(value) {
+    if (!value) return '';
+    const date = new Date(value);
+    return Number.isFinite(date.getTime()) ? date.toISOString() : '';
+  }
+
   return {
     createIndexedDbLearnerStateAdapter,
     createLearnerStateRepository,
@@ -506,6 +571,7 @@
     normalizeReports,
     normalizeActiveQuiz,
     normalizeQuestionReport,
-    normalizeReviewQueue
+    normalizeReviewQueue,
+    normalizeReviewSchedules
   };
 });

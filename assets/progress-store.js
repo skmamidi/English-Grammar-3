@@ -41,7 +41,8 @@
       standards: {}
     },
     assignments: [],
-    reviewQueue: null
+    reviewQueue: null,
+    reviewSchedules: []
   };
 
   function getDefaultProgress() {
@@ -50,7 +51,8 @@
       reports: getDefaultReports(),
       mastery: getDefaultMastery(),
       assignments: [],
-      reviewQueue: null
+      reviewQueue: null,
+      reviewSchedules: []
     });
   }
 
@@ -85,7 +87,37 @@
     normalized.mastery = normalizeMastery(normalized.mastery);
     normalized.assignments = normalizeAssignments(normalized.assignments);
     normalized.reviewQueue = normalizeReviewQueue(normalized.reviewQueue);
+    normalized.reviewSchedules = normalizeReviewSchedules(normalized.reviewSchedules);
     return normalized;
+  }
+
+  function normalizeReviewSchedules(schedules) {
+    const domain = window.GrammarQuestSpacedRepetitionDomain;
+    if (domain && typeof domain.normalizeSchedules === "function") {
+      return domain.normalizeSchedules(schedules);
+    }
+    return (Array.isArray(schedules) ? schedules : []).map(normalizeReviewScheduleFallback).filter(schedule => schedule.ref.id);
+  }
+
+  function normalizeReviewScheduleFallback(schedule) {
+    const input = schedule && typeof schedule === "object" ? schedule : {};
+    const ref = input.ref || input.questionRef || {};
+    return {
+      ref: {
+        id: String(ref.id || ref.questionId || ""),
+        sourceSet: String(ref.sourceSet || ref.setId || ""),
+        version: Number(ref.version || ref.questionVersion) || 0,
+        contentHash: String(ref.contentHash || ref.questionHash || ""),
+        sequence: Number(ref.sequence) || 0
+      },
+      skillIds: normalizeStringArray(input.skillIds),
+      intervalDays: Math.max(1, Math.round(Number(input.intervalDays) || 1)),
+      ease: Math.max(1.6, Number(input.ease) || 2),
+      dueAt: safeIso(input.dueAt) || "",
+      lastReviewedAt: safeIso(input.lastReviewedAt) || "",
+      streak: Math.max(0, Math.round(Number(input.streak) || 0)),
+      lapses: Math.max(0, Math.round(Number(input.lapses) || 0))
+    };
   }
 
   function normalizeReviewQueue(queue) {

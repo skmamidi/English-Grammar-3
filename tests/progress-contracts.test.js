@@ -49,6 +49,9 @@ function loadProgressStoreForTest(options = {}) {
   if (options.learnerStateRepository) {
     context.window.GrammarQuestLearnerStateRepository = options.learnerStateRepository;
   }
+  if (options.spacedRepetitionDomain) {
+    context.window.GrammarQuestSpacedRepetitionDomain = options.spacedRepetitionDomain;
+  }
   vm.createContext(context);
   vm.runInContext(
     fs.readFileSync(path.join(__dirname, '..', 'assets', 'progress-store.js'), 'utf8'),
@@ -310,6 +313,26 @@ test('progress store projects skill-id mastery from saved sessions', () => {
     questionRefs: ['grammar-sentence-types-q0001']
   });
   assert.equal(progress.mastery.standards['L.3-6.1'].total, 1);
+});
+
+test('runtime progress store normalizes and updates spaced repetition schedules', () => {
+  const { progressStore } = loadProgressStoreForTest({
+    spacedRepetitionDomain: require('../assets/spaced-repetition-domain')
+  });
+  const schedules = progressStore.updateReviewSchedules([{
+    questionRef: {
+      id: 'grammar-sentence-types-q0001',
+      sourceSet: 'grammar-sentence-types',
+      version: 1,
+      contentHash: 'sha256:abc',
+      sequence: 1
+    },
+    skillIds: ['grammar.sentence-analysis'],
+    correct: true
+  }], '2030-04-29T12:00:00.000Z', { sync: false });
+
+  assert.equal(schedules[0].dueAt, '2030-05-01T12:00:00.000Z');
+  assert.equal(progressStore.getReviewSchedules()[0].ref.id, 'grammar-sentence-types-q0001');
 });
 
 test('runtime progress store delegates active quiz and saved sessions to learner state repository', () => {

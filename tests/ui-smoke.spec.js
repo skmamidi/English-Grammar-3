@@ -200,6 +200,13 @@ async function main() {
       await page.close();
     });
 
+    await runCase(failures, 'due spaced review indicator starts review and updates schedule', async () => {
+      const page = await newPage(browser);
+      await visitClean(page, server.baseURL, 'index.html');
+      await assertDueReviewCompletionFlow(page, server.baseURL, getManifestQuestionRef('grammar-sentence-types'));
+      await page.close();
+    });
+
     if (process.env.QUESTION_CHUNK_PRELOAD) {
       await runCase(failures, 'question chunk preloading stays budgeted and separate from required payload', async () => {
         const page = await newPage(browser, { enableQuestionChunkPreload: true });
@@ -1202,6 +1209,72 @@ async function assertAdaptiveReviewCompletionFlow(page, baseURL, questionRef) {
     await page.evaluate(() => localStorage.getItem('grammarQuestActiveReviewRequest')),
     null,
     'active review request should be cleared'
+  );
+}
+
+async function assertDueReviewCompletionFlow(page, baseURL, questionRef) {
+  await page.evaluate(ref => {
+    localStorage.setItem('grammarQuestProgress', JSON.stringify({
+      reviewSchedules: [{
+        ref,
+        skillIds: ['grammar.sentence-analysis'],
+        intervalDays: 2,
+        ease: 2.4,
+        dueAt: '2000-01-01T00:00:00.000Z',
+        lastReviewedAt: '1999-12-30T00:00:00.000Z',
+        streak: 1,
+        lapses: 0,
+        question: 'do not persist in due review'
+      }],
+      mastery: {
+        skills: {
+          'grammar.sentence-analysis': {
+            correct: 4,
+            total: 4,
+            questionRefs: [ref.id]
+          }
+        }
+      },
+      reports: { sessions: [], questionReports: [] }
+    }));
+  }, questionRef);
+  await page.reload({ waitUntil: 'domcontentloaded' });
+  await assertVisible(page, '#start-due-review', 'due review entry');
+  await page.click('#start-due-review');
+  await page.waitForLoadState('domcontentloaded').catch(() => {});
+  if (!page.url().startsWith(`${baseURL}/topics/grammar/subtopics/sentence-types.html`)) {
+    assert.fail(`due review did not navigate to review quiz: ${page.url()}`);
+  }
+  await assertVisible(page, '#start-btn', 'due review quiz start');
+  const activeRequest = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestActiveReviewRequest') || '{}'));
+  assert.equal(activeRequest.queue.items[0].reason, 'due_for_review');
+  assert.equal(activeRequest.queue.items[0].questionRef.id, questionRef.id);
+  assert.equal(JSON.stringify(activeRequest.queue).includes('do not persist'), false);
+
+  await page.click('#start-btn');
+  for (let step = 0; step < 20 && !(await exists(page, '#restart-btn')); step += 1) {
+    await assertVisible(page, '.question-box', 'due review question');
+    await page.evaluate(() => {
+      const confidence = document.querySelector('.confidence-btn[data-confidence="certain"]');
+      if (confidence) confidence.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    });
+    await page.waitForFunction(() => Array.from(document.querySelectorAll('#choices .choice-btn')).some(button => !button.disabled));
+    await page.evaluate(() => window.GrammarQuestQuizEngine.answerVisibleChoiceForTest());
+    if (await exists(page, '#restart-btn')) break;
+    await page.waitForSelector('#next-question-btn, #restart-btn', { state: 'visible', timeout: 1000 });
+    if (await exists(page, '#next-question-btn')) await page.click('#next-question-btn');
+  }
+  await assertVisible(page, '#restart-btn', 'due review results');
+
+  const progress = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}'));
+  const schedule = progress.reviewSchedules.find(item => item.ref.id === questionRef.id);
+  assert.ok(schedule, 'due review schedule should remain saved');
+  assert.notEqual(schedule.dueAt, '2000-01-01T00:00:00.000Z');
+  assert.ok(schedule.lastReviewedAt, 'due review completion should update last reviewed time');
+  assert.equal(
+    await page.evaluate(() => localStorage.getItem('grammarQuestActiveReviewRequest')),
+    null,
+    'active due review request should be cleared'
   );
 }
 

@@ -151,6 +151,20 @@ test('system admin operational capabilities do not imply learner data access', (
     true
   );
   assert.equal(
+    access.canAccess(admin, access.Capabilities.viewAdminConsole, {
+      type: access.ResourceTypes.ADMIN_CONSOLE,
+      id: 'operations'
+    }),
+    true
+  );
+  assert.equal(
+    access.canAccess(admin, access.Capabilities.updateFeatureFlags, {
+      type: access.ResourceTypes.FEATURE_FLAG,
+      id: 'server-selection'
+    }),
+    true
+  );
+  assert.equal(
     access.canAccess(admin, access.Capabilities.viewOwnProgress, {
       type: access.ResourceTypes.LEARNER_PROGRESS,
       learnerId: 'learner-1'

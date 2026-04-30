@@ -22,6 +22,22 @@ test('system admin can perform operational actions only on operational resources
     type: access.ResourceTypes.SYSTEM_SETTING,
     id: 'selection-runtime-health'
   }), true);
+  assert.equal(access.canAccess(admin, access.Capabilities.viewAdminConsole, {
+    type: access.ResourceTypes.ADMIN_CONSOLE,
+    id: 'operations'
+  }), true);
+  assert.equal(access.canAccess(admin, access.Capabilities.viewReleaseManifest, {
+    type: access.ResourceTypes.RELEASE_MANIFEST,
+    id: 'local'
+  }), true);
+  assert.equal(access.canAccess(admin, access.Capabilities.viewTelemetrySummary, {
+    type: access.ResourceTypes.TELEMETRY_SUMMARY,
+    id: 'selection-health'
+  }), true);
+  assert.equal(access.canAccess(admin, access.Capabilities.viewAuditSummary, {
+    type: access.ResourceTypes.AUDIT_LOG,
+    id: 'operations'
+  }), true);
   assert.equal(access.canAccess(admin, access.Capabilities.supportImpersonation, {
     type: access.ResourceTypes.LEARNER_PROGRESS,
     learnerId: 'learner-1'
@@ -51,6 +67,14 @@ test('admin actions are denied to guardian teacher student and unknown roles', (
     }), false);
     assert.equal(access.canAccess(actor, access.Capabilities.viewAuditLogs, {
       type: access.ResourceTypes.AUDIT_LOG
+    }), false);
+    assert.equal(access.canAccess(actor, access.Capabilities.viewAdminConsole, {
+      type: access.ResourceTypes.ADMIN_CONSOLE,
+      id: 'operations'
+    }), false);
+    assert.equal(access.canAccess(actor, access.Capabilities.viewTelemetrySummary, {
+      type: access.ResourceTypes.TELEMETRY_SUMMARY,
+      id: 'selection-health'
     }), false);
   });
 });

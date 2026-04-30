@@ -57,6 +57,35 @@ test('underlined-word prompts expose renderable underline targets', () => {
   assert.match(html, /<u>After<\/u>/);
   assert.match(html, /<u>several<\/u>/);
   assert.match(html, /<u>the<\/u>/);
+
+  const antonym = result.questions.find(item => item.question.id === 'vocabulary-synonyms-antonyms-q0084');
+  assert.ok(antonym, 'expected antonym underlined-word question in live bank');
+  assert.match(renderQuizPromptForTest(antonym.question), /<u>devastated<\/u>/);
+  assert.match(renderVisualQuizPromptForTest(antonym.question), /<u>devastated<\/u>/);
+});
+
+test('all live underlined prompts render an underline in the prompt or choices', () => {
+  const result = validateContent();
+  const missing = result.questions
+    .filter(record => /\bunderlined\b/i.test(record.question.question || ''))
+    .map(record => {
+      const promptHtml = renderQuizPromptForTest(record.question);
+      const visualHtml = renderVisualQuizPromptForTest(record.question);
+      const choiceHtml = (record.question.choices || [])
+        .map((choice, index) => renderQuizChoiceForTest(record.question, choice, index))
+        .join(' ');
+      return {
+        record,
+        html: [promptHtml, visualHtml, choiceHtml].join(' ')
+      };
+    })
+    .filter(item => !/<u>/.test(item.html));
+
+  assert.equal(
+    missing.length,
+    0,
+    missing.map(item => `${item.record.relativeFile} ${item.record.setId} ${item.record.location || questionLabel(item.record)}: "${item.record.question.question}"`).join('\n')
+  );
 });
 
 test('live question banks do not render strategy hints that reveal the correct answer', () => {
@@ -541,6 +570,14 @@ function runVisualSceneEnhancer(bank) {
 
 function renderQuizPromptForTest(question) {
   return loadQuizEngineTestApi().renderQuestionPromptForTest(question);
+}
+
+function renderVisualQuizPromptForTest(question) {
+  return loadQuizEngineTestApi().renderVisualQuestionPromptForTest(question);
+}
+
+function renderQuizChoiceForTest(question, choice, index) {
+  return loadQuizEngineTestApi().renderAnswerChoiceForTest(question, choice, index);
 }
 
 function getStrategyClueForTest(question, scene) {

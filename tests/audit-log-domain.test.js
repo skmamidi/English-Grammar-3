@@ -94,3 +94,33 @@ test('learner data lifecycle audit events redact backup and tombstone details', 
   assert.equal(JSON.stringify(event).includes('secret'), false);
   assert.equal(event.metadata.backupEnvelope, '[REDACTED]');
 });
+
+test('feature flag update audit event requires reason and redacts unsafe values', () => {
+  const event = audit.buildFeatureFlagUpdateAuditEvent(
+    { id: 'admin-1', role: access.Roles.SYSTEM_ADMIN },
+    { id: 'server-selection' },
+    {
+      reason: 'Pilot rollout',
+      previous: { serverSelectionEnabled: false, privateKeyRef: 'secret-ref' },
+      next: { serverSelectionEnabled: true, authToken: 'token-123' }
+    },
+    { id: () => 'audit-flag-1', now: () => '2030-04-29T12:00:00.000Z' }
+  );
+
+  assert.equal(event.id, 'audit-flag-1');
+  assert.equal(event.action, access.Capabilities.updateFeatureFlags);
+  assert.equal(event.resourceType, access.ResourceTypes.FEATURE_FLAG);
+  assert.equal(event.resourceId, 'server-selection');
+  assert.equal(event.metadata.reason, 'Pilot rollout');
+  assert.equal(JSON.stringify(event).includes('secret-ref'), false);
+  assert.equal(JSON.stringify(event).includes('token-123'), false);
+
+  assert.throws(
+    () => audit.buildFeatureFlagUpdateAuditEvent(
+      { id: 'admin-1', role: access.Roles.SYSTEM_ADMIN },
+      { id: 'server-selection' },
+      { reason: '' }
+    ),
+    /audit_reason_required/
+  );
+});

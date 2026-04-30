@@ -44,12 +44,17 @@
     manageUsers: 'manageUsers',
     manageUserRoles: 'manageUserRoles',
     manageFeatureFlags: 'manageFeatureFlags',
+    updateFeatureFlags: 'feature-flag:update',
     manageSelectionRollout: 'manageSelectionRollout',
     manageContentArtifacts: 'manageContentArtifacts',
     reviewContentPublication: 'content-publication:review',
     approveContentPublication: 'content-publication:approve',
     publishContentPublication: 'content-publication:publish',
     managePublicSigningKeys: 'managePublicSigningKeys',
+    viewAdminConsole: 'admin-console:view',
+    viewReleaseManifest: 'release-manifest:view',
+    viewTelemetrySummary: 'telemetry-summary:view',
+    viewAuditSummary: 'audit-summary:view',
     viewOperationalHealth: 'viewOperationalHealth',
     viewAuditLogs: 'viewAuditLogs',
     manageSystemSettings: 'manageSystemSettings',
@@ -67,6 +72,9 @@
     CONTENT_ARTIFACT: 'contentArtifact',
     CONTENT_PUBLICATION: 'contentPublication',
     FEATURE_FLAG: 'featureFlag',
+    RELEASE_MANIFEST: 'releaseManifest',
+    TELEMETRY_SUMMARY: 'telemetrySummary',
+    ADMIN_CONSOLE: 'adminConsole',
     AUDIT_LOG: 'auditLog',
     SYSTEM_SETTING: 'systemSetting'
   });
@@ -113,8 +121,13 @@
       Capabilities.manageUsers,
       Capabilities.manageUserRoles,
       Capabilities.manageFeatureFlags,
+      Capabilities.updateFeatureFlags,
       Capabilities.manageSelectionRollout,
       Capabilities.managePublicSigningKeys,
+      Capabilities.viewAdminConsole,
+      Capabilities.viewReleaseManifest,
+      Capabilities.viewTelemetrySummary,
+      Capabilities.viewAuditSummary,
       Capabilities.approveLearnerDataDeletion,
       Capabilities.restoreLearnerDataBackup,
       Capabilities.viewOperationalHealth,
@@ -336,10 +349,13 @@
   function canSystemAdminAccess(action, resource) {
     if (action === Capabilities.manageContent || action === Capabilities.manageContentArtifacts) return resource.type === ResourceTypes.CONTENT_ARTIFACT;
     if (action === Capabilities.manageUsers || action === Capabilities.manageUserRoles) return resource.type === ResourceTypes.SYSTEM_SETTING || resource.type === '';
-    if (action === Capabilities.manageFeatureFlags || action === Capabilities.manageSelectionRollout) return resource.type === ResourceTypes.FEATURE_FLAG;
+    if ([Capabilities.manageFeatureFlags, Capabilities.updateFeatureFlags, Capabilities.manageSelectionRollout].includes(action)) return resource.type === ResourceTypes.FEATURE_FLAG;
+    if (action === Capabilities.viewAdminConsole) return resource.type === ResourceTypes.ADMIN_CONSOLE;
+    if (action === Capabilities.viewReleaseManifest) return resource.type === ResourceTypes.RELEASE_MANIFEST;
+    if (action === Capabilities.viewTelemetrySummary) return resource.type === ResourceTypes.TELEMETRY_SUMMARY;
     if (action === Capabilities.managePublicSigningKeys || action === Capabilities.viewOperationalHealth) return resource.type === ResourceTypes.SYSTEM_SETTING;
     if (action === Capabilities.approveLearnerDataDeletion || action === Capabilities.restoreLearnerDataBackup) return resource.type === ResourceTypes.LEARNER_PROGRESS;
-    if (action === Capabilities.viewAuditLogs) return resource.type === ResourceTypes.AUDIT_LOG;
+    if (action === Capabilities.viewAuditLogs || action === Capabilities.viewAuditSummary) return resource.type === ResourceTypes.AUDIT_LOG;
     if (action === Capabilities.manageSystemSettings) return resource.type === ResourceTypes.SYSTEM_SETTING;
     if (action === Capabilities.manageAssignments) return false;
     return false;

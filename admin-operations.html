@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>System Admin Operations</title>
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="container">
+      <a href="index.html" class="logo">English Language Mastery</a>
+      <nav class="header-actions" aria-label="Quick links">
+        <a href="index.html" class="back-link">All practice</a>
+        <a href="reports.html" class="header-icon-link" aria-label="Teacher and parent reports" title="Reports">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M4 19V5"></path>
+            <path d="M4 19h16"></path>
+            <path d="M8 16v-5"></path>
+            <path d="M12 16V8"></path>
+            <path d="M16 16v-7"></path>
+            <path d="M20 16v-3"></path>
+          </svg>
+        </a>
+        <a href="admin-operations.html" class="header-icon-link active" aria-label="System admin operations" title="Operations">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M4 6h16"></path>
+            <path d="M4 12h16"></path>
+            <path d="M4 18h16"></path>
+            <path d="M8 4v4"></path>
+            <path d="M14 10v4"></path>
+            <path d="M18 16v4"></path>
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container admin-ops-shell">
+    <section class="admin-ops-hero">
+      <div>
+        <div class="quest-kicker">System Admin</div>
+        <h1 class="page-title">Operations Console</h1>
+        <p class="page-subtitle">Release metadata, feature flags, runtime health, cache status, and redacted audit review.</p>
+      </div>
+      <div class="admin-ops-status" id="admin-ops-status" aria-live="polite">Loading</div>
+    </section>
+
+    <section class="admin-denied hidden" id="admin-denied" aria-live="polite">
+      <div class="quest-kicker">Restricted</div>
+      <h2>Access denied</h2>
+      <p>This console is limited to operational system admin access.</p>
+    </section>
+
+    <section class="admin-console hidden" id="admin-console" aria-label="System admin operations console">
+      <section class="admin-ops-band" data-admin-section="release" aria-labelledby="admin-release-title">
+        <div class="admin-ops-section-heading">
+          <div>
+            <span class="quest-kicker">Release</span>
+            <h2 id="admin-release-title">Release and Artifacts</h2>
+          </div>
+        </div>
+        <div class="admin-ops-grid" id="admin-release-grid"></div>
+      </section>
+
+      <section class="admin-ops-band" data-admin-section="feature-flags" aria-labelledby="admin-flags-title">
+        <div class="admin-ops-section-heading">
+          <div>
+            <span class="quest-kicker">Configuration</span>
+            <h2 id="admin-flags-title">Feature Flags</h2>
+          </div>
+          <button class="btn btn-secondary" id="admin-flag-save" type="button" disabled>Read only</button>
+        </div>
+        <div class="admin-ops-table-wrap">
+          <table class="admin-ops-table">
+            <thead>
+              <tr>
+                <th scope="col">Flag</th>
+                <th scope="col">State</th>
+              </tr>
+            </thead>
+            <tbody id="admin-flags-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="admin-ops-band" data-admin-section="selection-health" aria-labelledby="admin-selection-title">
+        <div class="admin-ops-section-heading">
+          <div>
+            <span class="quest-kicker">Runtime</span>
+            <h2 id="admin-selection-title">Selection API Health</h2>
+          </div>
+        </div>
+        <div class="admin-ops-grid" id="admin-selection-grid"></div>
+      </section>
+
+      <section class="admin-ops-band" data-admin-section="cache" aria-labelledby="admin-cache-title">
+        <div class="admin-ops-section-heading">
+          <div>
+            <span class="quest-kicker">Offline</span>
+            <h2 id="admin-cache-title">Cache Status</h2>
+          </div>
+        </div>
+        <div class="admin-ops-grid" id="admin-cache-grid"></div>
+      </section>
+
+      <section class="admin-ops-band" data-admin-section="audit" aria-labelledby="admin-audit-title">
+        <div class="admin-ops-section-heading">
+          <div>
+            <span class="quest-kicker">Audit</span>
+            <h2 id="admin-audit-title">Recent Operational Events</h2>
+          </div>
+        </div>
+        <div class="admin-ops-table-wrap">
+          <table class="admin-ops-table">
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Action</th>
+                <th scope="col">Resource</th>
+                <th scope="col">Reason</th>
+              </tr>
+            </thead>
+            <tbody id="admin-audit-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="admin-ops-band" data-admin-section="warnings" aria-labelledby="admin-warnings-title">
+        <div class="admin-ops-section-heading">
+          <div>
+            <span class="quest-kicker">Warnings</span>
+            <h2 id="admin-warnings-title">Operational Warnings</h2>
+          </div>
+        </div>
+        <ul class="admin-warning-list" id="admin-warning-list"></ul>
+      </section>
+    </section>
+  </main>
+
+  <script src="assets/firebase-config.js"></script>
+  <script src="assets/feature-flag-domain.js"></script>
+  <script src="assets/access-control.js"></script>
+  <script src="assets/audit-log-domain.js"></script>
+  <script src="assets/admin-operations-domain.js"></script>
+  <script src="assets/admin-operations-service.js"></script>
+  <script src="assets/release-manifest.js"></script>
+  <script src="assets/question-manifest.js"></script>
+  <script src="assets/auth-service.js"></script>
+  <script src="assets/admin-operations-ui.js"></script>
+</body>
+</html>

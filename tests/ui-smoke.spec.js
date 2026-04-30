@@ -121,6 +121,7 @@ const VIEWPORTS = {
 const VIEWPORT_SMOKE_PAGES = [
   'index.html',
   'assignments.html',
+  'admin-operations.html',
   'topics/grammar/index.html',
   'topics/grammar/subtopics/sentence-types.html',
   'reports.html',
@@ -147,6 +148,7 @@ async function main() {
         await visitClean(page, server.baseURL, file);
         await assertVisible(page, 'body', file);
         if (file === 'reports.html') await assertReportsPage(page, server.baseURL);
+        if (file === 'admin-operations.html') await assertAdminOperationsPage(page);
         await page.close();
       });
     }
@@ -206,6 +208,18 @@ async function main() {
       const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'index.html');
       await assertDueReviewCompletionFlow(page, server.baseURL, getManifestQuestionRef('grammar-sentence-types'));
+      await page.close();
+    });
+
+    await runCase(failures, 'system admin operations console denies non-admin roles', async () => {
+      const page = await newPage(browser, browserTracker, {
+        authState: { signedIn: true, user: { uid: 'teacher-1' }, role: 'teacher' }
+      });
+      await visitClean(page, server.baseURL, 'admin-operations.html');
+      await assertVisible(page, '#admin-denied', 'admin denied state');
+      const text = await textContent(page, '#admin-denied');
+      assert.match(text, /Access denied/i);
+      assert.equal(await page.locator('#admin-console').isVisible(), false);
       await page.close();
     });
 
@@ -792,11 +806,15 @@ async function newPage(browser, browserTracker, options = {}) {
       disableServiceWorker: true,
       enableQuestionChunkPreload: Boolean(config.enableQuestionChunkPreload)
     });
+    window.__GQ_AUTH_STATE = config.authState || null;
     window.__GQ_PRELOAD_EVENTS = [];
     window.addEventListener('grammarquest:question-preload-completed', event => {
       window.__GQ_PRELOAD_EVENTS.push(event.detail || {});
     });
-  }, { enableQuestionChunkPreload: options.enableQuestionChunkPreload && enableQuestionChunkPreload });
+  }, {
+    authState: options.authState || null,
+    enableQuestionChunkPreload: options.enableQuestionChunkPreload && enableQuestionChunkPreload
+  });
   const untrackFirebaseRoute = browserTracker.trackRoute('assets/firebase-config.js');
   page.on('close', untrackFirebaseRoute);
   await page.route('**/assets/firebase-config.js', route => {
@@ -815,6 +833,14 @@ async function newPage(browser, browserTracker, options = {}) {
       body: `
         (function () {
           function state() {
+            if (window.__GQ_AUTH_STATE) return Object.assign({
+              enabled: false,
+              signedIn: true,
+              parentMode: false,
+              studentMode: false,
+              activeStudent: null,
+              syncStatus: 'local'
+            }, window.__GQ_AUTH_STATE);
             var parentMode = new URLSearchParams(window.location.search).get('parentBrowse') === '1';
             return {
               enabled: false,
@@ -1024,6 +1050,19 @@ async function assertReportsPage(page, baseURL) {
   assert.equal(reviewed.id, 'question-report-dashboard');
   assert.equal(reviewed.questionId, 'grammar-sentence-types-q0002');
   assert.equal(reviewed.grownupNote, 'Reviewed by QA');
+}
+
+async function assertAdminOperationsPage(page) {
+  await assertVisible(page, '#admin-console', 'admin-operations.html');
+  await assertVisible(page, '[data-admin-section="release"]', 'admin release section');
+  await assertVisible(page, '[data-admin-section="feature-flags"]', 'admin feature flags section');
+  await assertVisible(page, '[data-admin-section="selection-health"]', 'admin selection health section');
+  await assertVisible(page, '[data-admin-section="audit"]', 'admin audit section');
+  const text = await textContent(page, '#admin-console');
+  assert.match(text, /Release/i);
+  assert.match(text, /Feature Flags/i);
+  assert.match(text, /Selection API/i);
+  assert.equal(/Smoke Student|Which sentence|correct answer|selected choice/i.test(text), false, 'admin console should not render learner or question content');
 }
 
 async function assertManifestBackedTopicIndex(page, requests, file) {

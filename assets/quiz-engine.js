@@ -78,6 +78,13 @@
     renderQuestionPromptForTest(question) {
       return renderDisplayPrompt(getDisplayPromptParts(question && question.question, question), 'question');
     },
+    renderAnswerChoiceForTest(question, choice, index) {
+      return renderAnswerChoiceText(question, choice, index);
+    },
+    renderVisualQuestionPromptForTest(question) {
+      const prompt = getDisplayPromptParts(question && question.question, question);
+      return prompt.type === 'passage' ? renderVisualPassagePrompt(prompt) : renderVisualPlainPrompt(prompt);
+    },
     getQuestionStrategyClueForTest(question, scene) {
       return getQuestionStrategyClue(question, scene);
     }
@@ -649,7 +656,7 @@
           ${q.choices.map((choice, idx) => `
             <button class="choice-btn" data-index="${idx}" ${choicesDisabled}>
               <span class="choice-letter">${String.fromCharCode(65 + idx)}</span>
-              <span>${escapeHtml(choice)}</span>
+              <span>${renderAnswerChoiceText(q, choice, idx)}</span>
             </button>
           `).join('')}
         </div>
@@ -1281,15 +1288,15 @@
       <div class="visual-prompt-card visual-prompt-card-passage">
         <div class="prompt-passage">
           <span>Passage</span>
-          <p>${escapeHtml(prompt.passage)}</p>
+          <p>${renderPromptTextWithUnderlines(prompt.passage, prompt.underlineTargets)}</p>
         </div>
         ${prompt.annotation ? `
-          <p class="prompt-annotation">${escapeHtml(prompt.annotation)}</p>
+          <p class="prompt-annotation">${renderPromptTextWithUnderlines(prompt.annotation, prompt.underlineTargets)}</p>
         ` : ''}
         ${prompt.task ? `
           <div class="prompt-task">
             <span>Question</span>
-            <strong>${escapeHtml(prompt.task)}</strong>
+            <strong>${renderPromptTextWithUnderlines(prompt.task, prompt.underlineTargets)}</strong>
           </div>
         ` : ''}
       </div>
@@ -1303,26 +1310,162 @@
       <div class="visual-prompt-card visual-prompt-card-plain">
         <div class="prompt-task">
           <span>Question</span>
-          <strong>${escapeHtml(text)}</strong>
+          <strong>${renderPromptTextWithUnderlines(text, prompt.underlineTargets)}</strong>
         </div>
       </div>
     `;
   }
 
+  function renderAnswerChoiceText(question, choice, index) {
+    const targets = getChoiceUnderlineTargets(question, choice, index);
+    return renderPromptTextWithUnderlines(choice, targets);
+  }
+
+  function getChoiceUnderlineTargets(question, choice, index) {
+    const promptText = question && question.question || '';
+    if (!/underlined/i.test(promptText)) return [];
+    if (getUnderlineTargets(promptText, question).length) return [];
+    const explanation = question && question.explanation || {};
+    const explanationText = [
+      explanation.correct,
+      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect : [])
+    ].filter(Boolean).join(' ');
+    const choiceText = String(choice || '');
+    const inferred = getBestUnderlineCandidate(choiceText, explanationText);
+    if (inferred) return [inferred];
+    const capitalized = getInteriorCapitalizedPhrase(choiceText);
+    if (capitalized) return [capitalized];
+    const possessive = choiceText.match(/\b[A-Za-z]+[’']s\b/);
+    if (possessive) return [possessive[0]];
+    const fallback = getUnderlineBodyCandidates(choiceText)
+      .filter(word => !/^(correct|sentence)$/i.test(word))
+      .sort((a, b) => b.length - a.length)[0];
+    return fallback ? [fallback] : [];
+  }
+
+  function getBestUnderlineCandidate(text, explanationText) {
+    const scored = getUnderlineBodyCandidates(text)
+      .map(candidate => ({
+        candidate,
+        score: getUnderlineCandidateScore(candidate, explanationText)
+      }))
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score || b.candidate.length - a.candidate.length);
+    return scored.length ? scored[0].candidate : '';
+  }
+
+  function getInteriorCapitalizedPhrase(text) {
+    const matches = String(text || '').match(/\b[A-Z][A-Za-z’'-]*(?:\s+[A-Z][A-Za-z’'-]*)*/g) || [];
+    const candidates = matches
+      .map(match => match.trim())
+      .filter(match => {
+        const index = String(text || '').indexOf(match);
+        return index > 0 && !/^(I|Correct|Answer|Not)$/.test(match);
+      });
+    return candidates.sort((a, b) => b.length - a.length)[0] || '';
+  }
+
   function getUnderlineTargets(promptText, question) {
     if (!/underlined/i.test(promptText || '')) return [];
+    const explicitTargets = getExplicitUnderlineTargets(question);
     const choices = question && Array.isArray(question.choices) ? question.choices : [];
     const body = getUnderlineSearchText(promptText);
-    const seen = new Set();
-    return choices
+    const choiceTargets = choices
       .flatMap(choice => getUnderlineChoiceCandidates(choice))
       .filter(choice => choice && !/^correct as is\.?$/i.test(choice) && choice.length <= 80)
       .filter(choice => {
-        const key = choice.toLowerCase();
-        if (seen.has(key)) return false;
-        seen.add(key);
         return choiceAppearsInText(body, choice);
       });
+    const inferredTargets = getInferredUnderlineTargets(promptText, question);
+    return uniqueUnderlineTargets(explicitTargets.concat(choiceTargets, inferredTargets))
+      .filter(target => choiceAppearsInText(promptText, target));
+  }
+
+  function getExplicitUnderlineTargets(question) {
+    if (!question) return [];
+    const targets = Array.isArray(question.underlineTargets)
+      ? question.underlineTargets
+      : question.underlineTarget
+        ? [question.underlineTarget]
+        : [];
+    return targets.map(target => String(target || '').trim()).filter(Boolean);
+  }
+
+  function uniqueUnderlineTargets(targets) {
+    const seen = new Set();
+    return (Array.isArray(targets) ? targets : [])
+      .map(target => String(target || '').trim().replace(/\s+/g, ' '))
+      .filter(Boolean)
+      .filter(target => {
+        const key = target.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+  }
+
+  function getInferredUnderlineTargets(promptText, question) {
+    if (!/\bunderlined\s+(?:word|words|phrase|portion|expression|idiom|sentence)s?\b/i.test(promptText || '')) return [];
+    const body = getUnderlineSearchText(promptText);
+    if (!/\w/.test(body)) return [];
+    const explanation = question && question.explanation || {};
+    const explanationText = [
+      explanation.correct,
+      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect : [])
+    ].filter(Boolean).join(' ');
+    const candidates = getUnderlineBodyCandidates(body);
+    const scored = candidates
+      .map(candidate => ({
+        candidate,
+        score: getUnderlineCandidateScore(candidate, explanationText)
+      }))
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score || b.candidate.length - a.candidate.length);
+    return scored.length ? [scored[0].candidate] : [];
+  }
+
+  function getUnderlineBodyCandidates(body) {
+    const words = String(body || '').match(/[A-Za-z][A-Za-z'-]*/g) || [];
+    const stopWords = new Set([
+      'about', 'after', 'again', 'also', 'because', 'before', 'below', 'could', 'each',
+      'every', 'from', 'have', 'into', 'little', 'many', 'more', 'most', 'much',
+      'that', 'their', 'there', 'these', 'they', 'this', 'those', 'very', 'what',
+      'when', 'where', 'which', 'while', 'with', 'word', 'words', 'would'
+    ]);
+    return uniqueUnderlineTargets(words)
+      .filter(word => word.length > 2 && !stopWords.has(word.toLowerCase()));
+  }
+
+  function getUnderlineCandidateScore(candidate, explanationText) {
+    const candidateText = normalizeUnderlineMatchText(candidate);
+    const explanation = normalizeUnderlineMatchText(explanationText);
+    if (!candidateText || !explanation) return 0;
+    const stem = getUnderlineStem(candidateText);
+    let score = 0;
+    if (buildFlexibleWordRegExp(candidateText).test(explanation)) score += 8;
+    if (stem.length > 3 && new RegExp(`(^|\\s)${escapeRegExp(stem)}[a-z']*(?=\\s|$)`, 'i').test(explanation)) score += 5;
+    if (new RegExp(`(^|\\s)${escapeRegExp(stem)}[a-z']*\\s+(?:means?|is|are|was|were|would|shows?|refers?)\\b`, 'i').test(explanation)) score += 4;
+    if (/\b(?:antonym|opposite|synonym|meaning|means|replace|definition)\b/i.test(explanation)) score += 1;
+    return score;
+  }
+
+  function normalizeUnderlineMatchText(value) {
+    return String(value || '')
+      .toLowerCase()
+      .replace(/[“”]/g, '"')
+      .replace(/[‘’]/g, "'")
+      .replace(/[^a-z0-9'\s-]+/g, ' ')
+      .trim()
+      .replace(/\s+/g, ' ');
+  }
+
+  function getUnderlineStem(value) {
+    let stem = normalizeUnderlineMatchText(value).replace(/^'+|'+$/g, '');
+    if (stem.length > 5 && stem.endsWith('ing')) stem = stem.slice(0, -3);
+    if (stem.length > 5 && stem.endsWith('ed')) stem = stem.slice(0, -2);
+    if (stem.length > 4 && stem.endsWith('s')) stem = stem.slice(0, -1);
+    if (stem.endsWith('at')) stem += 'e';
+    return stem;
   }
 
   function getUnderlineChoiceCandidates(choice) {
@@ -1335,7 +1478,16 @@
   function getUnderlineSearchText(promptText) {
     const text = String(promptText || '');
     const questionIndex = text.indexOf('?');
-    return questionIndex >= 0 ? text.slice(questionIndex + 1) : text;
+    if (questionIndex >= 0) return text.slice(questionIndex + 1);
+    const lookBackIndex = text.search(/\blook at\s+the\s+underlined\b/i);
+    if (lookBackIndex > 0) return text.slice(0, lookBackIndex);
+    const markerMatch = text.match(/\bunderlined\s+(?:word|words|phrase|portion|expression|idiom|sentence)s?\b[^.?!]*[.?!]\s*/i);
+    if (markerMatch) {
+      return markerMatch.index > 40
+        ? text.slice(0, markerMatch.index)
+        : text.slice(markerMatch.index + markerMatch[0].length);
+    }
+    return text;
   }
 
   function choiceAppearsInText(text, choice) {

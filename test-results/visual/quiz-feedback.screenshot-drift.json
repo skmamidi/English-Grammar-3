@@ -2,10 +2,10 @@
   "caseName": "quiz-feedback",
   "warning": "Screenshot encoding metadata changed while semantic visual summary matched.",
   "screenshotOnlyDrift": true,
-  "byteDelta": 15,
+  "byteDelta": 19941,
   "actual": {
-    "screenshotSha256": "329a5bceed2b5964d4a7317e75d8fdb5624d80f0e7ebe1cfef195106ac895790",
-    "screenshotBytes": 253264
+    "screenshotSha256": "29d697c1d75ae58ec41cfae29dd57f4218e557bd3c09e5a952514376b69dc7e7",
+    "screenshotBytes": 233308
   },
   "expected": {
     "screenshotSha256": "01c7a77142d228f5917a031fff64e11eb00f70f5c0e9b718d4f6161c0f0bbcbb",
@@ -13,7 +13,7 @@
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.15",
+    "browserVersion": "147.0.7727.117",
     "platform": "darwin",
     "viewport": {
       "width": 1280,

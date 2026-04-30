@@ -34,6 +34,14 @@
     }, metadata, options);
   }
 
+  function buildFeatureFlagUpdateAuditEvent(actor, resource, metadata = {}, options = {}) {
+    if (!String(metadata && metadata.reason || '').trim()) throw new Error('audit_reason_required');
+    return buildAuditEvent(actor, 'feature-flag:update', {
+      type: 'featureFlag',
+      id: resource && resource.id || resource && resource.resourceId || 'feature-flags'
+    }, metadata, options);
+  }
+
   function sanitizeAuditMetadata(metadata) {
     if (Array.isArray(metadata)) return metadata.map(item => sanitizeAuditMetadata(item));
     if (!metadata || typeof metadata !== 'object') return metadata;
@@ -77,6 +85,7 @@
 
   return {
     buildAuditEvent,
+    buildFeatureFlagUpdateAuditEvent,
     buildLearnerDataLifecycleAuditEvent,
     canUseSupportAccess,
     sanitizeAuditMetadata,

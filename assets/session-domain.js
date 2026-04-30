@@ -24,6 +24,7 @@
       parentPreview,
       studentMode: Boolean(state.studentMode),
       syncStatus: state.syncStatus || (signedIn ? 'idle' : 'local'),
+      telemetryConsent: normalizeTelemetryConsent(state.telemetryConsent),
       expiresAt: state.expiresAt || ''
     };
   }
@@ -51,8 +52,25 @@
       parentPreview: preservePreview,
       studentMode: false,
       syncStatus: 'local',
+      telemetryConsent: normalizeTelemetryConsent(previous.telemetryConsent),
       expiresAt: ''
     };
+  }
+
+  function normalizeTelemetryConsent(consent) {
+    const input = consent && typeof consent === 'object' ? consent : {};
+    return {
+      telemetry: input.telemetry === true,
+      optOut: input.optOut === true
+    };
+  }
+
+  function canSendAppTelemetry(session, options = {}) {
+    const normalized = normalizeSessionState(session);
+    const consent = normalizeTelemetryConsent(options.consent || normalized.telemetryConsent);
+    if (options.enabled !== true) return false;
+    if (!normalized.signedIn || normalized.parentPreview) return false;
+    return consent.telemetry === true && consent.optOut !== true;
   }
 
   function shouldClearActiveStudentOnSignOut(previousState) {
@@ -71,8 +89,10 @@
   return {
     SESSION_SIGNED_OUT_EVENT,
     buildSignedOutState,
+    canSendAppTelemetry,
     isSessionExpired,
     normalizeSessionState,
+    normalizeTelemetryConsent,
     shouldClearActiveStudentOnSignOut
   };
 });

@@ -19,6 +19,27 @@ test('question preloader is disabled unless explicitly enabled', async () => {
   assert.deepEqual(events.map(event => event.type), ['grammarquest:question-preload-skipped']);
 });
 
+test('question preloader accepts central feature flag config with legacy fallback', async () => {
+  const fetched = [];
+  const preloader = createQuestionPreloader({
+    config: {
+      GrammarQuestFeatureFlags: {
+        preloadingEnabled: true
+      }
+    },
+    fetch: async url => {
+      fetched.push(url);
+      return { ok: true, headers: { get: () => '64000' } };
+    },
+    requestIdleCallback: callback => callback()
+  });
+
+  const result = await preloader.preload({ candidates: [candidate('grammar-sentence-types')] });
+
+  assert.equal(result.status, 'completed');
+  assert.equal(fetched.length, 1);
+});
+
 test('question preloader fetches candidates with force-cache and suppresses duplicates', async () => {
   const fetched = [];
   const events = [];

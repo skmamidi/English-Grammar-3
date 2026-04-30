@@ -16,12 +16,23 @@
     (typeof require === 'function' ? require('./spaced-repetition-domain') : null);
   const questionReportDomain = root.GrammarQuestQuestionReportDomain ||
     (typeof require === 'function' ? require('./question-report-domain') : null);
+  const syncDomain = root.GrammarQuestLearnerStateSyncDomain ||
+    (typeof require === 'function' ? require('./learner-state-sync-domain') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
       throw new Error('learner_state_repository_requires_adapter');
     }
     const now = typeof options.now === 'function' ? options.now : () => new Date().toISOString();
+    const syncAdapter = options.syncAdapter || null;
+    const learnerId = String(options.learnerId || 'current-learner');
+    const syncStatus = {
+      enabled: !!syncAdapter,
+      pending: false,
+      revision: 0,
+      lastSyncedAt: '',
+      lastError: null
+    };
 
     function getProgress() {
       const raw = adapter.read();
@@ -33,7 +44,62 @@
         lastUpdatedAt: progress && progress.lastUpdatedAt || now()
       }));
       adapter.write(normalized);
+      if (syncAdapter) {
+        syncStatus.pending = true;
+        syncStatus.lastError = null;
+      }
       return normalized;
+    }
+
+    async function reconcileSync() {
+      if (!syncAdapter) return { status: 'disabled', state: getProgress() };
+      try {
+        const localState = getProgress();
+        const remoteRecord = await syncAdapter.readLearnerState(learnerId);
+        if (!remoteRecord) return await writeSyncState(localState, 0, 'pushed');
+        const remote = normalizeSyncRecord(remoteRecord);
+        const merged = mergeSyncStates(localState, remote.state);
+        adapter.write(merged);
+        return await writeSyncState(merged, remote.revision, 'merged');
+      } catch (error) {
+        syncStatus.pending = true;
+        syncStatus.lastError = syncError(error);
+        return { status: 'failed', error: syncStatus.lastError, state: getProgress() };
+      }
+    }
+
+    async function flushSync() {
+      if (!syncAdapter) return { status: 'disabled', state: getProgress() };
+      try {
+        const revision = typeof syncAdapter.getRevision === 'function'
+          ? await syncAdapter.getRevision(learnerId)
+          : syncStatus.revision;
+        return await writeSyncState(getProgress(), revision, 'synced');
+      } catch (error) {
+        syncStatus.pending = true;
+        syncStatus.lastError = syncError(error);
+        return { status: 'failed', error: syncStatus.lastError, state: getProgress() };
+      }
+    }
+
+    function getSyncStatus() {
+      return Object.assign({}, syncStatus, {
+        lastError: syncStatus.lastError ? Object.assign({}, syncStatus.lastError) : null
+      });
+    }
+
+    async function writeSyncState(state, revision, successStatus) {
+      const record = await syncAdapter.writeLearnerState(learnerId, normalizeLearnerState(state), {
+        revision,
+        source: 'learner-state-repository',
+        now: now()
+      });
+      const normalizedRecord = normalizeSyncRecord(record);
+      syncStatus.pending = false;
+      syncStatus.revision = normalizedRecord.revision;
+      syncStatus.lastSyncedAt = normalizedRecord.updatedAt;
+      syncStatus.lastError = null;
+      return { status: successStatus, record: normalizedRecord, state: normalizedRecord.state };
     }
 
     function updateProgress(mutator) {
@@ -205,12 +271,14 @@
       appendSavedSession,
       archiveAssignment,
       clearActiveQuiz,
+      flushSync,
       getActiveQuiz,
       getProgress,
       getLearnerDashboardSource,
       getQuestionReport,
       getReviewSchedules,
       getReviewQueue,
+      getSyncStatus,
       listLearnerDashboardSources,
       listAssignments,
       listQuestionReports,
@@ -218,6 +286,7 @@
       markAssignmentStarted,
       markReviewItemMastered,
       markReviewItemSeen,
+      reconcileSync,
       saveActiveQuiz,
       saveProgress,
       saveReviewSchedules,
@@ -340,6 +409,31 @@
         reject(target && target.error || new Error('indexeddb_request_failed'));
       };
     });
+  }
+
+  function normalizeSyncRecord(record) {
+    if (syncDomain && typeof syncDomain.normalizeSyncRecord === 'function') return syncDomain.normalizeSyncRecord(record);
+    return {
+      schemaVersion: 1,
+      learnerId: String(record && record.learnerId || ''),
+      revision: Math.max(0, Number(record && record.revision) || 0),
+      updatedAt: record && record.updatedAt || '',
+      source: record && record.source || '',
+      state: normalizeLearnerState(record && record.state)
+    };
+  }
+
+  function mergeSyncStates(localState, remoteState) {
+    if (syncDomain && typeof syncDomain.mergeLearnerStates === 'function') return syncDomain.mergeLearnerStates(localState, remoteState);
+    return normalizeLearnerState(Object.assign({}, localState || {}, remoteState || {}));
+  }
+
+  function syncError(error) {
+    return {
+      code: String(error && error.code || 'sync_failed'),
+      message: String(error && error.message || 'learner_state_sync_failed'),
+      retryable: error && error.retryable === true
+    };
   }
 
   function normalizeLearnerState(raw) {

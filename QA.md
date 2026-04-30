@@ -47,6 +47,7 @@ npm run questions:normalize
 npm run questions:write
 npm run test:unit
 npm run test:ui
+npm run test:ui:teardown
 npm run test:fast
 npm run test:browser
 npm run test:browser:all
@@ -63,6 +64,15 @@ npm run test:ui:all
 ```
 
 The all-subtopic mode visits every `topics/*/subtopics/*.html` page and checks that `#quiz-root` renders either a start screen or a coming-soon state without console/page errors.
+
+Use the focused teardown command when reproducing browser shutdown failures:
+
+```bash
+npm run test:ui:teardown
+QUESTION_SELECTION_API=1 npm run test:ui:teardown
+```
+
+That mode keeps the regular UI smoke assertions intact and prints the browser teardown method when cleanup succeeds.
 
 ## Notes
 
@@ -115,6 +125,7 @@ The all-subtopic mode visits every `topics/*/subtopics/*.html` page and checks t
 - Content QA warnings are cleanup backlog unless explicitly promoted to errors. Known live warnings currently include missing exact `hard` difficulty coverage in a few sets, repeated choice text in legacy-imported questions, and terse explanations that need answer-specific rationale.
 - The default UI smoke enforces request and byte budgets for manifest-backed topic indexes and representative chunked pages. Content QA still prints total question-bank payload, per-topic payload, and largest single bank as a broader size snapshot.
 - The UI smoke runner starts a small local static server itself. It stubs Firebase/auth in the browser so the tests validate static rendering, quiz flow, reports, and parent-preview behavior without external network state.
+- Browser teardown is explicit: tracked pages and contexts close first, `browser.close()` is attempted normally, and process-level termination is used only as a bounded fallback after tracked browser resources have drained.
 - UI smoke includes desktop, tablet, and mobile viewport coverage for representative learner, topic, reports, character library, and parent-preview flows. The accessibility smoke checks keyboard focus visibility, accessible names for interactive controls, and keyboard-operable answer buttons.
 - Visual regression coverage lives in `tests/visual-regression.spec.js` with reviewed JSON baselines under `tests/visual-baselines/`. Semantic layout fields are the hard gate; screenshot hash and byte-size drift writes `test-results/visual/*.screenshot-drift.json` for diagnostics when the semantic summary still matches. Update baselines only with `UPDATE_VISUAL_BASELINES=1 npm run test:visual` after reviewing intentional visual changes, using Playwright-managed Chromium for reviewed updates. Shared token roles live in `assets/design-tokens.css`.
 - Offline smoke verifies that a warmed quiz reloads from cached shell assets and chunks, and that an uncached question chunk shows an explicit offline fallback. Run it with `npm run test:offline`.

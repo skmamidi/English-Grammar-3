@@ -4,8 +4,8 @@
   "screenshotOnlyDrift": true,
   "byteDelta": 3,
   "actual": {
-    "screenshotSha256": "484323eeef013c79da9611f857b54134b7317b9fcf1f20637ad59a4326150152",
-    "screenshotBytes": 253252
+    "screenshotSha256": "6546986071744ad31a3c3476292d35f0e4803682fea956fe160f89b2af2f0966",
+    "screenshotBytes": 253246
   },
   "expected": {
     "screenshotSha256": "01c7a77142d228f5917a031fff64e11eb00f70f5c0e9b718d4f6161c0f0bbcbb",

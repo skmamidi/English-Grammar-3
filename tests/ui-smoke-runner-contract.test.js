@@ -102,12 +102,57 @@ test('browser close helper closes remaining contexts before browser.close', asyn
   const browser = fakeBrowser();
   await newTrackedPage(browser, {}, tracker);
 
-  await closeBrowserWithDiagnostics(browser, tracker, 50);
+  const result = await closeBrowserWithDiagnostics(browser, tracker, 50);
 
   assert.equal(browser.contexts[0].closed, true);
   assert.equal(browser.closed, true);
+  assert.equal(result.method, 'browser.close');
   assert.equal(tracker.pages.size, 0);
   assert.equal(tracker.contexts.size, 0);
+});
+
+test('browser close fallback is not used while tracked contexts remain open', async () => {
+  const tracker = createBrowserResourceTracker();
+  const process = fakeBrowserProcess();
+  const browser = fakeBrowser({
+    closeHangs: true,
+    process,
+    contextCloseHangs: true
+  });
+  await newTrackedPage(browser, {}, tracker);
+
+  await assert.rejects(
+    closeBrowserWithDiagnostics(browser, tracker, 10),
+    /browser\.close timed out after 10ms;.*open contexts: 1;.*process pid: 4321;.*fallback: not attempted/
+  );
+  assert.equal(process.killCalls.length, 0, 'process fallback should not hide tracked resource leaks');
+});
+
+test('browser close timeout kills launched browser process after tracked resources drain', async () => {
+  const tracker = createBrowserResourceTracker();
+  const process = fakeBrowserProcess();
+  const browser = fakeBrowser({ closeHangs: true, process });
+  await newTrackedPage(browser, {}, tracker);
+
+  const result = await closeBrowserWithDiagnostics(browser, tracker, 25);
+
+  assert.equal(result.method, 'process.kill');
+  assert.deepEqual(process.killCalls, ['SIGTERM']);
+  assert.equal(tracker.pages.size, 0);
+  assert.equal(tracker.contexts.size, 0);
+});
+
+test('browser close process fallback failure reports process diagnostics', async () => {
+  const tracker = createBrowserResourceTracker();
+  const process = fakeBrowserProcess({ exits: false });
+  const browser = fakeBrowser({ closeHangs: true, process, connected: true });
+  await newTrackedPage(browser, {}, tracker);
+
+  await assert.rejects(
+    closeBrowserWithDiagnostics(browser, tracker, 10),
+    /browser\.close timed out after 10ms;.*browser connected before close: true;.*process pid: 4321;.*process killed: true;.*fallback: process SIGTERM timed out/
+  );
+  assert.deepEqual(process.killCalls, ['SIGTERM']);
 });
 
 test('browser close timeout includes open page diagnostics', async () => {
@@ -118,7 +163,7 @@ test('browser close timeout includes open page diagnostics', async () => {
 
   await assert.rejects(
     closeBrowserWithDiagnostics(browser, tracker, 10),
-    /browser\.close timed out after 10ms; open contexts: 0; open pages: 0; page URLs: http:\/\/127\.0\.0\.1:4173\/topics\/grammar\/index\.html/
+    /browser\.close timed out after 10ms; open contexts: 0; open pages: 0; page URLs: http:\/\/127\.0\.0\.1:4173\/topics\/grammar\/index\.html;.*browser connected before close: true/
   );
 });
 
@@ -133,6 +178,12 @@ function fakeBrowser(options = {}) {
   const browser = {
     contexts: [],
     closed: false,
+    isConnected() {
+      return options.connected !== false && !browser.closed;
+    },
+    process() {
+      return options.process || null;
+    },
     async newContext(contextOptions) {
       const context = new EventEmitter();
       context.options = contextOptions;
@@ -152,6 +203,7 @@ function fakeBrowser(options = {}) {
         return page;
       };
       context.close = async () => {
+        if (options.contextCloseHangs) return new Promise(() => {});
         context.closed = true;
         context.pages.forEach(page => {
           if (!page._closed) {
@@ -171,4 +223,25 @@ function fakeBrowser(options = {}) {
     }
   };
   return browser;
+}
+
+function fakeBrowserProcess(options = {}) {
+  const process = new EventEmitter();
+  process.pid = 4321;
+  process.killed = Boolean(options.killed);
+  process.exitCode = options.exitCode ?? null;
+  process.signalCode = options.signalCode ?? null;
+  process.killCalls = [];
+  process.kill = signal => {
+    process.killCalls.push(signal);
+    process.killed = true;
+    if (options.exits !== false) {
+      setTimeout(() => {
+        process.signalCode = signal;
+        process.emit('exit', process.exitCode, signal);
+      }, 0);
+    }
+    return true;
+  };
+  return process;
 }

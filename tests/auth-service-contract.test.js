@@ -32,3 +32,9 @@ test('auth sign-out contract clears stale admin role and capabilities', () => {
   assert.deepEqual(signedOut.capabilities, []);
   assert.equal(signedOut.activeStudent, null);
 });
+
+test('auth service exposes telemetry opt-out contract without learner context', () => {
+  assert.match(authSource, /telemetryConsent/);
+  assert.match(authSource, /setTelemetryOptOut/);
+  assert.doesNotMatch(authSource, /telemetryConsent:\s*\{[^}]*activeStudent/s);
+});

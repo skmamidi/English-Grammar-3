@@ -41,6 +41,12 @@ test('server selection domain feature flags are explicit and deny by default', (
     enableServerQuestionSelection: true,
     serverQuestionSelectionPilotDomains: ['sound-symbols']
   }), false);
+  assert.equal(isServerSelectionDomainEnabled('grammar', {
+    GrammarQuestFeatureFlags: {
+      serverSelectionEnabled: true,
+      serverSelectionPilotDomains: ['grammar']
+    }
+  }), true);
 });
 
 test('all rollout domains are chunk-backed and produce ref-only mixed responses', async () => {

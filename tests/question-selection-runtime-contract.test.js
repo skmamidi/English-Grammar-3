@@ -150,6 +150,90 @@ test('runtime config TTL controls selection response expiry', async () => {
   assert.equal(response.expiresAt, '2030-04-29T12:00:42.000Z');
 });
 
+test('selection runtime returns structured API errors for rejected origins and oversized bodies', async () => {
+  const runtime = createSelectionRuntime({
+    config: buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_ALLOWED_ORIGINS: 'https://grammar.example',
+      SELECTION_MAX_REQUEST_BYTES: '64',
+      SELECTION_MAX_QUESTIONS: '4'
+    }),
+    manifestProvider: () => runtimeManifest,
+    chunkSetProvider: loadRuntimeSet,
+    clock: () => new Date('2030-04-29T12:00:00.000Z'),
+    logger: null
+  });
+
+  const originResult = await runtime.handleSelectionHttpRequest({
+    method: 'POST',
+    origin: 'https://evil.example',
+    body: requestFixture()
+  });
+  const sizeResult = await runtime.handleSelectionHttpRequest({
+    method: 'POST',
+    origin: 'https://grammar.example',
+    rawBody: JSON.stringify(Object.assign({}, requestFixture(), { extra: 'x'.repeat(100) }))
+  });
+
+  assert.equal(originResult.error.code, 'unauthorized_origin');
+  assert.equal(sizeResult.error.code, 'payload_too_large');
+  assert.equal(JSON.stringify(originResult).includes('grammar-sentence-types-q0001'), false);
+});
+
+test('selection runtime returns structured retryable errors for rate limits', async () => {
+  const runtime = createSelectionRuntime({
+    config: buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_ALLOWED_ORIGINS: 'https://grammar.example',
+      SELECTION_MAX_QUESTIONS: '4'
+    }),
+    manifestProvider: () => runtimeManifest,
+    chunkSetProvider: loadRuntimeSet,
+    rateLimitAdapter: {
+      async checkLimit() {
+        return { allow: false };
+      }
+    },
+    clock: () => new Date('2030-04-29T12:00:00.000Z'),
+    logger: null
+  });
+
+  const result = await runtime.handleSelectionHttpRequest({
+    method: 'POST',
+    origin: 'https://grammar.example',
+    body: requestFixture()
+  });
+
+  assert.equal(result.error.code, 'rate_limited');
+  assert.equal(result.error.retryable, true);
+});
+
+test('selection runtime maps domain validation failures to safe API error envelopes', async () => {
+  const runtime = createSelectionRuntime({
+    config: buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_ALLOWED_ORIGINS: 'https://grammar.example',
+      SELECTION_MAX_QUESTIONS: '4'
+    }),
+    manifestProvider: () => runtimeManifest,
+    chunkSetProvider: loadRuntimeSet,
+    clock: () => new Date('2030-04-29T12:00:00.000Z'),
+    logger: null
+  });
+
+  const result = await runtime.handleSelectionHttpRequest({
+    method: 'POST',
+    origin: 'https://grammar.example',
+    body: Object.assign({}, requestFixture(), { domain: 'vocabulary' })
+  });
+
+  assert.equal(result.error.code, 'invalid_request');
+  assert.equal(JSON.stringify(result).includes('private'), false);
+});
+
 test('runtime and security docs do not commit private signing key material', () => {
   const files = [
     'server/question-selection-runtime.js',

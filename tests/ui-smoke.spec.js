@@ -883,7 +883,10 @@ async function newPage(browser, browserTracker, options = {}) {
 
 async function recordTeardown(failures, name, closeResource) {
   try {
-    await closeResource();
+    const result = await closeResource();
+    if (process.env.QA_UI_TEARDOWN_DEBUG && result) {
+      console.log(`TEARDOWN ${name} ${JSON.stringify(result)}`);
+    }
   } catch (error) {
     console.error(`FAIL ${name}`);
     console.error(error.stack || error.message || error);

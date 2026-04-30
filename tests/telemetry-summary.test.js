@@ -6,6 +6,9 @@ const {
   loadSelectionTelemetryEvents,
   summarizeSelectionTelemetry
 } = require('../scripts/telemetry/summarize-selection-events');
+const {
+  summarizeAppTelemetryEvents
+} = require('../scripts/telemetry/summarize-app-events');
 
 const fixturePath = path.join(__dirname, 'fixtures', 'telemetry', 'selection-events.ndjson');
 
@@ -41,4 +44,21 @@ test('selection telemetry summary rejects unsafe exported fields', () => {
     }]),
     /unsafe telemetry field/
   );
+});
+
+test('app telemetry summary groups errors, service worker failures, and coarse performance', () => {
+  const summary = summarizeAppTelemetryEvents([
+    { type: 'app_error', route: '/index.html', category: 'type_error' },
+    { type: 'service_worker_failed', route: '/index.html', category: 'registration_failed' },
+    { type: 'long_task_detected', route: '/quiz.html', timing: { longTaskMs: 120 } },
+    { type: 'page_performance_summary', route: '/quiz.html', timing: { loadMs: 100 } },
+    { type: 'page_performance_summary', route: '/quiz.html', timing: { loadMs: 300 } }
+  ]);
+
+  assert.equal(summary.totalEvents, 5);
+  assert.equal(summary.errorsByRoute['/index.html'].type_error, 1);
+  assert.equal(summary.serviceWorkerFailures.registration_failed, 1);
+  assert.equal(summary.longTaskCount, 1);
+  assert.equal(summary.performance.loadMs.p50, 100);
+  assert.equal(summary.performance.loadMs.p95, 300);
 });

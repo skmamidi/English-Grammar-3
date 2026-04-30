@@ -11,7 +11,8 @@
     STUDENT: 'student',
     PARENT_GUARDIAN: 'parent_guardian',
     TEACHER: 'teacher',
-    SYSTEM_ADMIN: 'system_admin'
+    SYSTEM_ADMIN: 'system_admin',
+    CONTENT_REVIEWER: 'content_reviewer'
   });
 
   const Capabilities = Object.freeze({
@@ -41,6 +42,9 @@
     manageFeatureFlags: 'manageFeatureFlags',
     manageSelectionRollout: 'manageSelectionRollout',
     manageContentArtifacts: 'manageContentArtifacts',
+    reviewContentPublication: 'content-publication:review',
+    approveContentPublication: 'content-publication:approve',
+    publishContentPublication: 'content-publication:publish',
     managePublicSigningKeys: 'managePublicSigningKeys',
     viewOperationalHealth: 'viewOperationalHealth',
     viewAuditLogs: 'viewAuditLogs',
@@ -57,6 +61,7 @@
     ASSIGNMENT: 'assignment',
     CLASS_SUMMARY: 'classSummary',
     CONTENT_ARTIFACT: 'contentArtifact',
+    CONTENT_PUBLICATION: 'contentPublication',
     FEATURE_FLAG: 'featureFlag',
     AUDIT_LOG: 'auditLog',
     SYSTEM_SETTING: 'systemSetting'
@@ -103,6 +108,11 @@
       Capabilities.viewOperationalHealth,
       Capabilities.viewAuditLogs,
       Capabilities.manageSystemSettings
+    ]),
+    [Roles.CONTENT_REVIEWER]: Object.freeze([
+      Capabilities.reviewContentPublication,
+      Capabilities.approveContentPublication,
+      Capabilities.publishContentPublication
     ])
   });
 
@@ -151,6 +161,9 @@
     }
     if (actor.role === Roles.SYSTEM_ADMIN) {
       return canSystemAdminAccess(capability, resource);
+    }
+    if (actor.role === Roles.CONTENT_REVIEWER) {
+      return canContentReviewerAccess(capability, resource);
     }
     return false;
   }
@@ -311,6 +324,14 @@
     if (action === Capabilities.manageSystemSettings) return resource.type === ResourceTypes.SYSTEM_SETTING;
     if (action === Capabilities.manageAssignments) return false;
     return false;
+  }
+
+  function canContentReviewerAccess(action, resource) {
+    return [
+      Capabilities.reviewContentPublication,
+      Capabilities.approveContentPublication,
+      Capabilities.publishContentPublication
+    ].includes(action) && resource.type === ResourceTypes.CONTENT_PUBLICATION;
   }
 
   function normalizeIdList(value) {

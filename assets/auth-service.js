@@ -65,6 +65,7 @@ const state = {
   activeStudent: loadActiveStudent(),
   sessionMode: loadSessionMode(),
   syncStatus: firebaseSettings.enabled ? "idle" : "local",
+  telemetryConsent: { telemetry: false, optOut: false },
   firebase: null,
   modal: null
 };
@@ -84,6 +85,7 @@ window.GrammarQuestAuth = {
   loadManagedStudents,
   loadStudentProgress,
   updateStudentQuestionReport,
+  setTelemetryOptOut,
   signOut
 };
 
@@ -508,6 +510,15 @@ async function signOut() {
   dispatchSessionSignedOut(previousState, "user_sign_out");
   notifyAuthState();
   renderAuthUi();
+}
+
+function setTelemetryOptOut(optOut) {
+  state.telemetryConsent = {
+    telemetry: optOut !== true,
+    optOut: optOut === true
+  };
+  notifyAuthState();
+  return Object.assign({}, state.telemetryConsent);
 }
 
 function dispatchSessionSignedOut(previousState, reason) {
@@ -1530,6 +1541,7 @@ function getPublicState() {
     parentMode: !!state.user && state.sessionMode !== "student",
     studentMode: state.sessionMode === "student" && !!state.activeStudent,
     syncStatus: state.syncStatus,
+    telemetryConsent: Object.assign({}, state.telemetryConsent),
     signedIn: !!state.user
   };
 }

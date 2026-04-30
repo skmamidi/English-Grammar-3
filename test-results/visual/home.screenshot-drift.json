@@ -2,14 +2,14 @@
   "caseName": "home",
   "warning": "Screenshot encoding metadata changed while semantic visual summary matched.",
   "screenshotOnlyDrift": true,
-  "byteDelta": 11700,
+  "byteDelta": 6940,
   "actual": {
     "screenshotSha256": "6b2dd3511ab24e6aa992d282a201a6dd4c35c30229ed39c5f9a184abda5cb9d4",
     "screenshotBytes": 126978
   },
   "expected": {
-    "screenshotSha256": "f2b1e4715e98de9adb28b8cb83b155c05166d63d32ff1e7f6e944492fcc71641",
-    "screenshotBytes": 138678
+    "screenshotSha256": "080fea3e42b3584d952656075defb69b933066f9588cc6f006f8025988b2563f",
+    "screenshotBytes": 133918
   },
   "runtime": {
     "browserName": "chromium",

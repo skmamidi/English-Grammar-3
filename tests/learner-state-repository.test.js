@@ -8,6 +8,7 @@ const {
   createLocalStorageLearnerStateAdapter,
   normalizeLearnerState
 } = require('../assets/learner-state-repository');
+const { createFakeLearnerStateSyncAdapter } = require('./helpers/fake-learner-state-sync-adapter');
 
 const fixtureRoot = path.join(__dirname, 'fixtures', 'learner-state');
 
@@ -251,6 +252,42 @@ test('learner state repository saves and clears active quiz refs atomically', ()
   assert.equal(repository.getActiveQuiz(), null);
 });
 
+test('learner state repository can reconcile local-first state with injected sync adapter', async () => {
+  const storage = createMemoryStorage();
+  const syncAdapter = createFakeLearnerStateSyncAdapter();
+  await syncAdapter.writeLearnerState('learner-1', {
+    reports: { sessions: [{ id: 'session-remote', completedAt: '2030-04-30T12:00:00.000Z' }] },
+    totalGems: 7
+  }, { revision: 0, now: '2030-04-30T12:00:00.000Z' });
+  const repository = createRepository(storage, { learnerId: 'learner-1', syncAdapter });
+  repository.saveProgress({
+    reports: { sessions: [{ id: 'session-local', completedAt: '2030-04-29T12:00:00.000Z' }] },
+    totalGems: 3
+  });
+
+  const result = await repository.reconcileSync();
+
+  assert.equal(result.status, 'merged');
+  assert.deepEqual(repository.getProgress().reports.sessions.map(session => session.id), ['session-remote', 'session-local']);
+  assert.equal(repository.getProgress().totalGems, 7);
+  assert.equal(repository.getSyncStatus().revision, 2);
+});
+
+test('learner state repository reports sync write failures without corrupting local state', async () => {
+  const syncAdapter = createFakeLearnerStateSyncAdapter({ mode: 'unavailable' });
+  const repository = createRepository(createMemoryStorage(), {
+    learnerId: 'learner-1',
+    syncAdapter
+  });
+  repository.saveProgress({ totalGems: 11 });
+
+  const result = await repository.flushSync();
+
+  assert.equal(result.status, 'failed');
+  assert.equal(repository.getProgress().totalGems, 11);
+  assert.equal(repository.getSyncStatus().pending, true);
+});
+
 test('learner state repository quarantines corrupt JSON and returns empty state', () => {
   const storage = createMemoryStorage();
   storage.setItem('grammarQuestProgress', '{bad json');
@@ -274,13 +311,13 @@ test('learner state repository surfaces controlled storage write errors', () => 
   );
 });
 
-function createRepository(storage = createMemoryStorage()) {
+function createRepository(storage = createMemoryStorage(), options = {}) {
   return createLearnerStateRepository(createLocalStorageLearnerStateAdapter(storage, {
     storageKey: 'grammarQuestProgress',
     corruptBackupKey: 'grammarQuestProgress.corrupt'
-  }), {
+  }), Object.assign({
     now: () => '2030-04-29T12:00:00.000Z'
-  });
+  }, options));
 }
 
 function createMemoryStorage(overrides = {}) {

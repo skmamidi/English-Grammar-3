@@ -35,6 +35,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['test:a11y'], 'node tests/accessibility-smoke.spec.js');
   assert.equal(pkg.scripts['test:offline'], 'node tests/offline-smoke.spec.js');
   assert.equal(pkg.scripts['test:visual'], 'node tests/visual-regression.spec.js');
+  assert.equal(pkg.scripts['test:ui:teardown'], 'QA_UI_TEARDOWN_DEBUG=1 node tests/ui-smoke.spec.js');
   assert.equal(pkg.scripts['test:api:perf'], 'STRICT_PERF_BUDGETS=1 node --test tests/question-selection-api-budget.test.js');
   assert.match(pkg.scripts['test:unit'], /tests\/access-control\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/guardian-access\.test\.js/);
@@ -57,6 +58,19 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/service-worker-cache\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
+  assert.match(pkg.scripts['release:manifest'], /generate-release-manifest/);
+});
+
+test('release manifest and rollback playbook contracts exist', () => {
+  const generator = fs.readFileSync(path.join(repoRoot, 'scripts', 'generate-release-manifest.js'), 'utf8');
+  const checklist = fs.readFileSync(path.join(repoRoot, 'docs', 'release-checklist.md'), 'utf8');
+  const rollback = fs.readFileSync(path.join(repoRoot, 'docs', 'operations', 'release-and-rollback.md'), 'utf8');
+
+  assert.match(generator, /buildReleaseManifest/);
+  assert.match(checklist, /release manifest/i);
+  assert.match(rollback, /disable server selection/i);
+  assert.match(rollback, /disable preloading/i);
+  assert.match(rollback, /service worker cache/i);
 });
 
 test('github qa workflow uses npm ci, installs chromium, and runs npm test', () => {
@@ -242,6 +256,7 @@ test('scheduled full regression workflow is reproducible and artifact-backed', (
   assert.match(workflow, /cache:\s*npm/);
   assert.match(workflow, /run:\s*npm ci/);
   assert.match(workflow, /run:\s*npx playwright install --with-deps chromium/);
+  assert.match(workflow, /run:\s*npm run release:manifest/);
   assert.match(workflow, /run:\s*npm run test:full/);
   assert.match(workflow, /actions\/upload-artifact@v7/);
   assert.match(workflow, /if:\s*failure\(\)/);

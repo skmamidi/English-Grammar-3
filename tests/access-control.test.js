@@ -159,6 +159,33 @@ test('system admin operational capabilities do not imply learner data access', (
   );
 });
 
+test('content reviewer can approve publication without system admin learner powers', () => {
+  const reviewer = access.normalizeActor({
+    id: 'reviewer-1',
+    role: access.Roles.CONTENT_REVIEWER
+  });
+
+  assert.equal(access.canAccess(reviewer, access.Capabilities.reviewContentPublication, {
+    type: access.ResourceTypes.CONTENT_PUBLICATION,
+    id: 'pub-1'
+  }), true);
+  assert.equal(access.canAccess(reviewer, access.Capabilities.approveContentPublication, {
+    type: access.ResourceTypes.CONTENT_PUBLICATION,
+    id: 'pub-1'
+  }), true);
+  assert.equal(access.canAccess(reviewer, access.Capabilities.publishContentPublication, {
+    type: access.ResourceTypes.CONTENT_PUBLICATION,
+    id: 'pub-1'
+  }), true);
+  assert.equal(access.canAccess(reviewer, access.Capabilities.manageUsers, {
+    type: access.ResourceTypes.SYSTEM_SETTING
+  }), false);
+  assert.equal(access.canAccess(reviewer, access.Capabilities.viewOwnProgress, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-1'
+  }), false);
+});
+
 test('unknown roles and unknown actions deny by default', () => {
   const actor = access.normalizeActor({ id: 'mystery', role: 'principal' });
 

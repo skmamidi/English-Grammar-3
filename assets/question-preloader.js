@@ -23,7 +23,9 @@
     async function preload(input = {}) {
       const config = options.config || getConfig();
       const dispatch = typeof options.dispatchEvent === 'function' ? options.dispatchEvent : dispatchWindowEvent;
-      if (!config.enableQuestionChunkPreload) {
+      const flags = normalizeCentralFlags(config);
+      const preloadingEnabled = flags ? flags.preloadingEnabled === true : config.enableQuestionChunkPreload === true;
+      if (!preloadingEnabled) {
         dispatch(createEvent(SKIPPED_EVENT, { reason: 'disabled' }));
         return { status: 'disabled', candidates: [] };
       }
@@ -90,6 +92,17 @@
     return root.GRAMMAR_QUEST_CONFIG && typeof root.GRAMMAR_QUEST_CONFIG === 'object'
       ? root.GRAMMAR_QUEST_CONFIG
       : {};
+  }
+
+  function normalizeCentralFlags(config) {
+    const source = config.GrammarQuestFeatureFlags || config.featureFlags ||
+      root.GrammarQuestFeatureFlags || root.GRAMMAR_QUEST_FEATURE_FLAGS;
+    if (!source) return null;
+    const domainApi = root.GrammarQuestFeatureFlagDomain ||
+      (typeof require === 'function' ? require('./feature-flag-domain') : null);
+    return domainApi && typeof domainApi.normalizeFeatureFlags === 'function'
+      ? domainApi.normalizeFeatureFlags(source)
+      : source;
   }
 
   function getNetworkInfo() {

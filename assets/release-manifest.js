@@ -1,0 +1,8 @@
+window.GrammarQuestReleaseManifest = {
+  "releaseId": "local",
+  "appVersion": "1.0.0",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "questionManifestSourceHash": "sha256:5befa5430dac78fdcffdec318ad6223b39900923f78aad40bd1a8ecf5a29c596",
+  "serviceWorkerCacheVersion": "gq-5befa5430dac78fdcff",
+  "featureFlagConfigHash": "sha256:local"
+};

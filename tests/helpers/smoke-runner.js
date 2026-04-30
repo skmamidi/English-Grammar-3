@@ -124,14 +124,47 @@ async function newTrackedPage(browser, options = {}, tracker = createBrowserReso
 
 async function closeBrowserWithDiagnostics(browser, tracker, timeoutMs = 5000) {
   const beforeClose = tracker && typeof tracker.snapshot === 'function' ? tracker.snapshot() : emptyBrowserSnapshot();
+  const browserProcess = getBrowserProcess(browser);
+  const beforeProcess = snapshotBrowserProcess(browserProcess);
+  const connectedBeforeClose = isBrowserConnected(browser);
   await closeTrackedPagesAndContexts(tracker, Math.min(3000, timeoutMs));
   try {
-    return await withTimeout(browser.close(), timeoutMs, 'browser.close');
+    await withTimeout(browser.close(), timeoutMs, 'browser.close');
+    return { method: 'browser.close' };
   } catch (error) {
     const afterClose = tracker && typeof tracker.snapshot === 'function' ? tracker.snapshot() : emptyBrowserSnapshot();
-    const timeoutError = new Error(`${error.message}; ${formatBrowserSnapshot(afterClose, beforeClose)}`);
-    timeoutError.cause = error;
-    throw timeoutError;
+    const baseMessage = `${error.message}; ${formatBrowserSnapshot(afterClose, beforeClose)}; ${formatBrowserProcessSnapshot({
+      connectedBeforeClose,
+      connectedAfterClose: isBrowserConnected(browser),
+      processSnapshot: snapshotBrowserProcess(browserProcess) || beforeProcess
+    })}`;
+    if (hasOpenBrowserResources(afterClose)) {
+      const timeoutError = new Error(`${baseMessage}; fallback: not attempted because tracked resources remain open`);
+      timeoutError.cause = error;
+      throw timeoutError;
+    }
+    if (!browserProcess || typeof browserProcess.kill !== 'function') {
+      const timeoutError = new Error(`${baseMessage}; fallback: unavailable`);
+      timeoutError.cause = error;
+      throw timeoutError;
+    }
+    if (browserProcess.killed) {
+      return { method: 'process.kill', signal: 'already-killed' };
+    }
+    const fallbackTimeoutMs = Math.min(1000, Math.max(50, timeoutMs));
+    try {
+      browserProcess.kill('SIGTERM');
+      await waitForProcessExit(browserProcess, fallbackTimeoutMs);
+      return { method: 'process.kill', signal: 'SIGTERM' };
+    } catch (fallbackError) {
+      const timeoutError = new Error(`${baseMessage}; ${formatBrowserProcessSnapshot({
+        connectedBeforeClose,
+        connectedAfterClose: isBrowserConnected(browser),
+        processSnapshot: snapshotBrowserProcess(browserProcess)
+      })}; fallback: process SIGTERM timed out after ${fallbackTimeoutMs}ms`);
+      timeoutError.cause = error;
+      throw timeoutError;
+    }
   }
 }
 
@@ -194,6 +227,61 @@ function formatBrowserSnapshot(current, beforeClose) {
     `active routes: ${routes.length ? routes.join(', ') : '(none)'}`,
     `recent failed requests: ${failed.length ? failed.map(item => `${item.url} ${item.errorText}`.trim()).join(', ') : '(none)'}`
   ].join('; ');
+}
+
+function hasOpenBrowserResources(snapshot) {
+  return Boolean(snapshot && (snapshot.openContextCount > 0 || snapshot.openPageCount > 0));
+}
+
+function getBrowserProcess(browser) {
+  try {
+    return browser && typeof browser.process === 'function' ? browser.process() : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function isBrowserConnected(browser) {
+  try {
+    return browser && typeof browser.isConnected === 'function' ? Boolean(browser.isConnected()) : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function snapshotBrowserProcess(browserProcess) {
+  if (!browserProcess) return null;
+  return {
+    pid: typeof browserProcess.pid === 'number' ? browserProcess.pid : null,
+    killed: Boolean(browserProcess.killed),
+    exitCode: typeof browserProcess.exitCode === 'number' ? browserProcess.exitCode : null,
+    signalCode: browserProcess.signalCode || null
+  };
+}
+
+function formatBrowserProcessSnapshot(details) {
+  const processSnapshot = details.processSnapshot;
+  return [
+    `browser connected before close: ${formatMaybe(details.connectedBeforeClose)}`,
+    `browser connected after close: ${formatMaybe(details.connectedAfterClose)}`,
+    `process pid: ${processSnapshot && processSnapshot.pid !== null ? processSnapshot.pid : '(unavailable)'}`,
+    `process killed: ${processSnapshot ? processSnapshot.killed : '(unavailable)'}`,
+    `process exitCode: ${processSnapshot && processSnapshot.exitCode !== null ? processSnapshot.exitCode : '(pending)'}`,
+    `process signalCode: ${processSnapshot && processSnapshot.signalCode ? processSnapshot.signalCode : '(none)'}`
+  ].join('; ');
+}
+
+function formatMaybe(value) {
+  return value === null || typeof value === 'undefined' ? '(unavailable)' : String(value);
+}
+
+function waitForProcessExit(browserProcess, timeoutMs) {
+  if (!browserProcess || typeof browserProcess.once !== 'function') return Promise.resolve();
+  if (typeof browserProcess.exitCode === 'number' || browserProcess.signalCode) return Promise.resolve();
+  return withTimeout(new Promise(resolve => {
+    browserProcess.once('exit', resolve);
+    browserProcess.once('close', resolve);
+  }), timeoutMs, 'browser process exit');
 }
 
 function isPageClosed(page) {

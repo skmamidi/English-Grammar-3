@@ -3,8 +3,10 @@ const test = require('node:test');
 
 const {
   buildSignedOutState,
+  canSendAppTelemetry,
   isSessionExpired,
   normalizeSessionState,
+  normalizeTelemetryConsent,
   shouldClearActiveStudentOnSignOut
 } = require('../assets/session-domain');
 
@@ -68,4 +70,12 @@ test('local parent preview remains distinct from authenticated guardian sign-out
 
   assert.equal(shouldClearActiveStudentOnSignOut(previewState), false);
   assert.equal(buildSignedOutState(previewState).activeStudent.id, 'preview-student');
+});
+
+test('telemetry consent is disabled by default and opt-out suppresses transport', () => {
+  assert.deepEqual(normalizeTelemetryConsent({}), { telemetry: false, optOut: false });
+  assert.equal(canSendAppTelemetry({ signedIn: false }, { enabled: true, consent: { telemetry: true } }), false);
+  assert.equal(canSendAppTelemetry({ signedIn: true }, { enabled: true, consent: { telemetry: true } }), true);
+  assert.equal(canSendAppTelemetry({ signedIn: true }, { enabled: true, consent: { telemetry: true, optOut: true } }), false);
+  assert.equal(canSendAppTelemetry({ parentPreview: true }, { enabled: true, consent: { telemetry: true } }), false);
 });

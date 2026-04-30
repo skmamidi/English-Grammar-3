@@ -2,11 +2,17 @@ const {
   buildSelectionResponse,
   selectQuestionRefs
 } = require('./question-selection-service');
+const {
+  createApiError,
+  toApiErrorEnvelope
+} = require('./api-error-contract');
+const { guardApiRequest } = require('./api-request-guard');
 
 const DEFAULT_RUNTIME_MODE = 'local';
 const DEFAULT_TTL_SECONDS = 300;
 const DEFAULT_MAX_QUESTIONS = 60;
 const DEFAULT_POLICY_VERSION = 1;
+const DEFAULT_MAX_REQUEST_BYTES = 16 * 1024;
 
 function buildRuntimeConfig(env = {}) {
   return {
@@ -16,7 +22,9 @@ function buildRuntimeConfig(env = {}) {
     privateKeyRef: stringOrEmpty(env.SELECTION_PRIVATE_KEY_REF),
     responseTtlSeconds: positiveInteger(env.SELECTION_RESPONSE_TTL_SECONDS, DEFAULT_TTL_SECONDS),
     allowedDomains: list(env.SELECTION_ALLOWED_DOMAINS),
-    maxQuestions: positiveInteger(env.SELECTION_MAX_QUESTIONS, DEFAULT_MAX_QUESTIONS)
+    allowedOrigins: list(env.SELECTION_ALLOWED_ORIGINS),
+    maxQuestions: positiveInteger(env.SELECTION_MAX_QUESTIONS, DEFAULT_MAX_QUESTIONS),
+    maxRequestBytes: positiveInteger(env.SELECTION_MAX_REQUEST_BYTES, DEFAULT_MAX_REQUEST_BYTES)
   };
 }
 
@@ -33,6 +41,9 @@ function validateRuntimeConfig(config) {
   }
   if (!Number.isInteger(cfg.maxQuestions) || cfg.maxQuestions < 1) {
     throw new Error('SELECTION_MAX_QUESTIONS must be a positive integer');
+  }
+  if (!Number.isInteger(cfg.maxRequestBytes) || cfg.maxRequestBytes < 1) {
+    throw new Error('SELECTION_MAX_REQUEST_BYTES must be a positive integer');
   }
   if (!Array.isArray(cfg.allowedDomains) || !cfg.allowedDomains.length) {
     throw new Error('SELECTION_ALLOWED_DOMAINS must list at least one domain');
@@ -90,6 +101,22 @@ function createSelectionRuntime(dependencies = {}) {
         });
       }
       return response;
+    },
+    async handleSelectionHttpRequest(httpRequest) {
+      const guarded = await guardApiRequest(httpRequest, {
+        allowedOrigins: config.allowedOrigins,
+        allowedMethods: ['POST'],
+        maxBodyBytes: config.maxRequestBytes,
+        rateLimitAdapter: dependencies.rateLimitAdapter,
+        route: 'selection'
+      });
+      if (!guarded.ok) return guarded;
+      try {
+        const response = await this.handleSelectionRequest(guarded.body);
+        return { ok: true, requestId: guarded.requestId, response };
+      } catch (error) {
+        return toApiErrorEnvelope(mapSelectionError(error), { requestId: guarded.requestId });
+      }
     }
   };
 }
@@ -103,6 +130,15 @@ function rejectDisabledDomains(request, config) {
     selectionPolicyVersion: config.selectionPolicyVersion,
     count: Math.min(config.maxQuestions, Number(request && request.count) || config.maxQuestions)
   });
+}
+
+function mapSelectionError(error) {
+  const message = String(error && error.message || '');
+  if (/integrity/i.test(message)) return createApiError('integrity_failed', 'Selection integrity failed.');
+  if (/domain|setId|mode|required|unsupported|enabled|chunk-backed|selection request/i.test(message)) {
+    return createApiError('invalid_request', 'Selection request is invalid.');
+  }
+  return createApiError('selection_unavailable', 'Selection is unavailable.', { retryable: true });
 }
 
 function list(value) {

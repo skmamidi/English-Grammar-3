@@ -1,0 +1,23 @@
+{
+  "input": {
+    "now": "2030-04-29T12:00:00.000Z",
+    "recentSessions": [
+      {
+        "completedAt": "2030-04-19T12:00:00.000Z",
+        "attempts": [
+          { "questionId": "recover-old-1", "correct": false, "skillIds": ["punctuation.commas"], "difficulty": "medium", "gradeLevel": 5 },
+          { "questionId": "recover-old-2", "correct": false, "skillIds": ["punctuation.commas"], "difficulty": "medium", "gradeLevel": 5 }
+        ]
+      },
+      {
+        "completedAt": "2030-04-29T12:00:00.000Z",
+        "attempts": [
+          { "questionId": "recover-new-1", "correct": true, "skillIds": ["punctuation.commas"], "difficulty": "medium", "gradeLevel": 5 },
+          { "questionId": "recover-new-2", "correct": true, "skillIds": ["punctuation.commas"], "difficulty": "medium", "gradeLevel": 5 },
+          { "questionId": "recover-new-3", "correct": true, "skillIds": ["punctuation.commas"], "difficulty": "hard", "gradeLevel": 5 }
+        ]
+      }
+    ]
+  },
+  "expectedTopReasonCodes": []
+}

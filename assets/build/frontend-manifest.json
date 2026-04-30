@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "assets/build/app-entry.js",
-      "bytes": 354,
-      "sha256": "51969c2d68489f760afdc9d87cd3c0530f9fe812c5cf0b7af7b20018bcca1e89"
+      "bytes": 732,
+      "sha256": "e526c0315ac695d1a08f7a8ee987637f20fe12b78fefa4eb841c3da563a61ca2"
     },
     {
       "path": "assets/build/privacy-settings-ui.js",

@@ -1,0 +1,16 @@
+{
+  "input": {
+    "now": "2030-04-29T12:00:00.000Z",
+    "recentSessions": [
+      {
+        "completedAt": "2030-04-29T12:00:00.000Z",
+        "attempts": [
+          { "questionId": "ready-q1", "correct": true, "skillIds": ["vocabulary.context"], "difficulty": "medium", "gradeLevel": 4 },
+          { "questionId": "ready-q2", "correct": true, "skillIds": ["vocabulary.context"], "difficulty": "medium", "gradeLevel": 4 },
+          { "questionId": "ready-q3", "correct": true, "skillIds": ["vocabulary.context"], "difficulty": "hard", "gradeLevel": 4 }
+        ]
+      }
+    ]
+  },
+  "expectedTopReasonCodes": []
+}

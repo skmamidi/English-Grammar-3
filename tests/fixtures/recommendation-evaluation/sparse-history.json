@@ -1,0 +1,14 @@
+{
+  "input": {
+    "now": "2030-04-29T12:00:00.000Z",
+    "recentSessions": [
+      {
+        "completedAt": "2030-04-29T12:00:00.000Z",
+        "attempts": [
+          { "questionId": "sparse-q1", "correct": false, "skillIds": ["grammar.fragments"], "difficulty": "easy", "gradeLevel": 3 }
+        ]
+      }
+    ]
+  },
+  "expectedTopReasonCodes": []
+}

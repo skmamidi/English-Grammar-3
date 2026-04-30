@@ -402,6 +402,23 @@ body {
   accent-color: var(--primary);
 }
 
+.shell-banner {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-raised);
+  color: var(--text-strong);
+  padding: 0.55rem 1rem;
+  text-align: center;
+}
+
+.shell-banner.hidden {
+  display: none;
+}
+
+.shell-banner-error {
+  background: var(--warning-light);
+  color: var(--warning);
+}
+
 @media (max-width: 720px) {
   .admin-ops-hero,
   .settings-hero,

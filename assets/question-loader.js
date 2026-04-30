@@ -33,7 +33,10 @@
 
     if (isOffline() && !(await hasCachedQuestionChunks(sourcePaths))) {
       window.GRAMMAR_QUEST_OFFLINE_CHUNK_MISSING = true;
-      throw new Error(`Question loader: "${setId}" is unavailable offline until its chunk has been loaded once.`);
+      const quotaMessage = window.GRAMMAR_QUEST_CACHE_QUOTA_EXCEEDED
+        ? ' Device storage is full, so cached questions may have been cleared.'
+        : '';
+      throw new Error(`Question loader: "${setId}" is unavailable offline until its chunk has been loaded once.${quotaMessage}`);
     }
 
     await loadQuestionScripts(sourcePaths);

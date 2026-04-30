@@ -7,6 +7,7 @@
 })(typeof self !== 'undefined' ? self : globalThis, function () {
   'use strict';
 
+  const offlinePolicy = getOfflinePolicyApi();
   const CACHE_PREFIX = 'grammarquest';
   const DEFAULT_SOURCE_HASH = 'dev';
   const PRECACHE_URLS = [
@@ -45,7 +46,8 @@
     const key = getSourceHashCacheKey(sourceHash);
     return {
       static: `${CACHE_PREFIX}-static-${key}`,
-      chunks: `${CACHE_PREFIX}-chunks-${key}`
+      chunks: `${CACHE_PREFIX}-chunks-${key}`,
+      metadata: `${CACHE_PREFIX}-metadata-${key}`
     };
   }
 
@@ -65,11 +67,43 @@
     return /\/assets\/question-banks\/[^/]+\.js$/.test(url.pathname);
   }
 
+  function classifyServiceWorkerCacheRequest(input = {}) {
+    return offlinePolicy.classifyOfflineCacheRequest(input);
+  }
+
+  function createServiceWorkerCacheRecord(input = {}) {
+    return offlinePolicy.createCacheMetadataRecord(input);
+  }
+
+  function evaluateServiceWorkerCacheCleanup(input = {}) {
+    return offlinePolicy.evaluateOfflineCacheCleanup(input);
+  }
+
+  function isQuotaExceededError(error) {
+    return offlinePolicy.classifyQuotaError(error).code === 'quota_exceeded';
+  }
+
+  function getOfflineCachePolicy(input) {
+    return offlinePolicy.normalizeOfflineCachePolicy(input);
+  }
+
+  function getOfflinePolicyApi() {
+    if (typeof self !== 'undefined' && self.GrammarQuestOfflineCachePolicy) return self.GrammarQuestOfflineCachePolicy;
+    if (typeof globalThis !== 'undefined' && globalThis.GrammarQuestOfflineCachePolicy) return globalThis.GrammarQuestOfflineCachePolicy;
+    if (typeof require === 'function') return require('./offline-cache-policy');
+    return null;
+  }
+
   return {
     CACHE_PREFIX,
     buildCacheNames,
     buildPrecacheUrls,
+    classifyServiceWorkerCacheRequest,
+    createServiceWorkerCacheRecord,
+    evaluateServiceWorkerCacheCleanup,
     getSourceHashCacheKey,
+    getOfflineCachePolicy,
+    isQuotaExceededError,
     isChunkRequest,
     isRetiredFullBankRequest,
     isStaticAssetRequest

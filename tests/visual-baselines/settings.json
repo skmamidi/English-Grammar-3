@@ -1,0 +1,59 @@
+{
+  "name": "settings",
+  "file": "settings.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.15",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
+  "screenshotSha256": "9bde9bbe1fb7ceaca70f79dce718f04f337494a78b785ee825471f034c5f14f2",
+  "screenshotBytes": 65359,
+  "summary": {
+    "title": "Privacy Settings",
+    "semanticTextHash": "-548327333",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery All practice",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 75
+        }
+      },
+      {
+        "selector": "#privacy-settings",
+        "text": "TELEMETRY Data Sharing Controls Save Product diagnostics Allow privacy-safe app usage signals. Error diagnostics Help catch broken pages and failed resources. Performance diagnosti",
+        "visible": true,
+        "rect": {
+          "x": 214,
+          "y": 262,
+          "width": 852,
+          "height": 430
+        }
+      },
+      {
+        "selector": ".privacy-toggle-row",
+        "text": "Product diagnostics Allow privacy-safe app usage signals.",
+        "visible": true,
+        "rect": {
+          "x": 231,
+          "y": 341,
+          "width": 818,
+          "height": 75
+        }
+      }
+    ]
+  }
+}

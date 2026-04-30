@@ -32,9 +32,11 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts.test, /npm run test:ui/);
   assert.match(pkg.scripts.test, /npm run test:a11y/);
   assert.match(pkg.scripts.test, /npm run test:offline/);
+  assert.match(pkg.scripts['test:fast'], /npm run qa:app-shell/);
   assert.equal(pkg.scripts['test:a11y'], 'node tests/accessibility-smoke.spec.js');
   assert.equal(pkg.scripts['test:offline'], 'node tests/offline-smoke.spec.js');
   assert.equal(pkg.scripts['test:visual'], 'node tests/visual-regression.spec.js');
+  assert.equal(pkg.scripts['test:perf'], 'node tests/runtime-performance-smoke.spec.js');
   assert.equal(pkg.scripts['test:ui:teardown'], 'QA_UI_TEARDOWN_DEBUG=1 node tests/ui-smoke.spec.js');
   assert.equal(pkg.scripts['test:api:perf'], 'STRICT_PERF_BUDGETS=1 node --test tests/question-selection-api-budget.test.js');
   assert.equal(pkg.scripts['test:rules'], 'node --test tests/backend-policy-rules.test.js');
@@ -42,11 +44,17 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['security:licenses'], 'node scripts/security/check-licenses.js');
   assert.equal(pkg.scripts['security:audit'], 'npm audit --audit-level=high');
   assert.equal(pkg.scripts['build:frontend'], 'node scripts/build-frontend.js');
+  assert.equal(pkg.scripts['qa:app-shell'], 'node scripts/qa/app-shell-size-budget.js');
   assert.equal(pkg.scripts['qa:app-shell-size'], 'node scripts/qa/app-shell-size-budget.js');
+  assert.equal(pkg.scripts['qa:pr-readiness'], 'node scripts/qa/pr-readiness-monitor.js');
   assert.match(pkg.scripts['test:unit'], /tests\/access-control\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/frontend-build-contract\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/domain-type-contract\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/app-shell-size-budget\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/runtime-performance-probe\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/page-shell\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/component-harness\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/components\/status-components\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/secret-scan\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/license-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/guardian-access\.test\.js/);
@@ -66,11 +74,18 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/assignment-quiz-adapter\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/adaptive-review-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/adaptive-review-selection\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/mastery-model-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/mastery-projection-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/spaced-repetition-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/review-schedule-projection\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/learning-analytics-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/recommendation-evaluation\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/recommendation-fairness\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/chunk-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/pr-readiness-monitor\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/ui-smoke-runner-contract\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/offline-cache-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/service-worker-cache\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
@@ -109,6 +124,22 @@ test('github qa workflow uses npm ci, installs chromium, and runs npm test', () 
   assert.doesNotMatch(workflow, /ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION/);
   assert.doesNotMatch(workflow, /actions\/checkout@v4/);
   assert.doesNotMatch(workflow, /actions\/setup-node@v4/);
+});
+
+test('scheduled PR readiness monitor checks recent completions and ready queue', () => {
+  const workflow = fs.readFileSync(path.join(repoRoot, '.github', 'workflows', 'pr-readiness-monitor.yml'), 'utf8');
+  const registry = readJson('docs/prs/status.json');
+
+  assert.match(workflow, /cron:\s*'\*\/30 \* \* \* \*'/);
+  assert.match(workflow, /FORCE_JAVASCRIPT_ACTIONS_TO_NODE24:\s*true/);
+  assert.match(workflow, /actions\/checkout@v6/);
+  assert.match(workflow, /actions\/setup-node@v6/);
+  assert.match(workflow, /node-version:\s*24/);
+  assert.match(workflow, /run:\s*npm run qa:pr-readiness/);
+  assert.match(workflow, /run:\s*npm run test:fast/);
+  assert.equal(registry.policy.readyPrMinimum, 5);
+  assert.ok(registry.prs.filter(pr => pr.status === 'ready').length >= 5);
+  assert.ok(registry.prs.some(pr => pr.status === 'completed' && pr.review?.status === 'passed'));
 });
 
 test('github workflows use approved pinned action majors and no insecure runtime opt-out', () => {
@@ -281,7 +312,7 @@ test('visual regression suite and design token contract exist', () => {
 test('package scripts expose fast browser and full regression gates', () => {
   const pkg = readJson('package.json');
 
-  assert.equal(pkg.scripts['test:fast'], 'npm run qa:questions && npm run test:unit');
+  assert.equal(pkg.scripts['test:fast'], 'npm run qa:questions && npm run qa:app-shell && npm run test:unit');
   assert.equal(pkg.scripts['test:browser'], 'npm run test:ui');
   assert.equal(pkg.scripts['test:browser:all'], 'npm run test:ui:all');
   assert.match(pkg.scripts['test:full'], /npm run test:fast/);
@@ -290,6 +321,7 @@ test('package scripts expose fast browser and full regression gates', () => {
   assert.match(pkg.scripts['test:full'], /npm run test:browser:all/);
   assert.match(pkg.scripts['test:full'], /npm run test:a11y/);
   assert.match(pkg.scripts['test:full'], /npm run test:visual/);
+  assert.match(pkg.scripts['test:full'], /npm run test:perf/);
   assert.match(pkg.scripts['test:full'], /npm run test:offline/);
 });
 

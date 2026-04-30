@@ -1,0 +1,16 @@
+{
+  "input": {
+    "now": "2030-04-29T12:00:00.000Z",
+    "recentSessions": [
+      {
+        "completedAt": "2030-04-28T12:00:00.000Z",
+        "attempts": [
+          { "questionId": "grammar-q1", "correct": false, "skillIds": ["grammar.subject-verb"], "difficulty": "medium", "gradeLevel": 5, "question": "raw prompt" },
+          { "questionId": "grammar-q2", "correct": false, "skillIds": ["grammar.subject-verb"], "difficulty": "medium", "gradeLevel": 5, "answer": "raw answer" },
+          { "questionId": "grammar-q3", "correct": true, "skillIds": ["grammar.subject-verb"], "difficulty": "medium", "gradeLevel": 5 }
+        ]
+      }
+    ]
+  },
+  "expectedTopReasonCodes": ["low_recent_accuracy"]
+}

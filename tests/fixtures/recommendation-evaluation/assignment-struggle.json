@@ -1,0 +1,13 @@
+{
+  "input": {
+    "now": "2030-04-29T12:00:00.000Z",
+    "assignments": [
+      {
+        "id": "assignment-grammar",
+        "accuracy": 0.5,
+        "scope": { "skillIds": ["grammar.fragments"] }
+      }
+    ]
+  },
+  "expectedTopReasonCodes": ["assignment_struggle"]
+}

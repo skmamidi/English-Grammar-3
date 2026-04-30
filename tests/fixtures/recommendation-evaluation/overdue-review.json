@@ -1,0 +1,15 @@
+{
+  "input": {
+    "now": "2030-04-29T12:00:00.000Z",
+    "reviewSchedule": [
+      {
+        "ref": { "id": "due-q1", "sourceSet": "grammar-fragments" },
+        "skillIds": ["grammar.fragments"],
+        "dueAt": "2030-04-28T12:00:00.000Z",
+        "intervalDays": 1,
+        "ease": 2
+      }
+    ]
+  },
+  "expectedTopReasonCodes": ["overdue_review"]
+}

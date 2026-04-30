@@ -61,6 +61,7 @@ test('question preloader fetches candidates with force-cache and suppresses dupl
   assert.equal(fetched.length, 1);
   assert.equal(fetched[0].url, 'assets/question-chunks/grammar/grammar-sentence-types.js');
   assert.equal(fetched[0].options.cache, 'force-cache');
+  assert.equal(fetched[0].options.headers['X-GrammarQuest-Cache-Intent'], 'preload');
   assert.ok(events.some(event => event.type === 'grammarquest:question-preload-completed'));
   assert.ok(events.some(event => event.detail.reason === 'duplicate'));
 });

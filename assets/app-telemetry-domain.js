@@ -59,9 +59,15 @@
     const input = timing && typeof timing === 'object' ? timing : {};
     return Object.keys(input).sort().reduce((result, key) => {
       const value = Math.round(Number(input[key]));
-      if (Number.isFinite(value) && value >= 0) result[key] = Math.min(value, 60 * 1000);
+      if (Number.isFinite(value) && value >= 0) result[key] = Math.min(value, getTimingLimit(key));
       return result;
     }, {});
+  }
+
+  function getTimingLimit(key) {
+    if (/bytes$/i.test(key)) return 25 * 1024 * 1024;
+    if (/count$/i.test(key)) return 100 * 1000;
+    return 60 * 1000;
   }
 
   function safeIso(value) {

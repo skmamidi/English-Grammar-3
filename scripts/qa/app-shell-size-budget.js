@@ -2,44 +2,60 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+const { DEFAULT_APP_SHELL_BUDGET_LIMITS } = require('./app-shell-budget-config');
 
 const repoRoot = path.resolve(__dirname, '..', '..');
-const DEFAULT_LIMITS = Object.freeze({
-  javascriptFileBytes: 96 * 1024,
-  javascriptTotalBytes: 160 * 1024,
-  cssFileBytes: 160 * 1024,
-  cssTotalBytes: 180 * 1024,
-  htmlFileBytes: 80 * 1024,
-  htmlTotalBytes: 420 * 1024,
-  serviceWorkerBytes: 32 * 1024
-});
+const QUESTION_CONTENT_PATTERN = /(^|\/)assets\/question-(chunks|bank-source|banks|manifest)(\/|\.|$)/;
+const SERVICE_WORKER_FILES = new Set([
+  'sw.js',
+  'assets/service-worker-core.js',
+  'assets/service-worker-registration.js'
+]);
+const ASSET_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.webp', '.gif', '.svg', '.ico', '.woff', '.woff2', '.ttf', '.otf']);
 
 function checkAppShellSizeBudget(options = {}) {
   const root = options.root || repoRoot;
-  return evaluateAppShellFiles(collectAppShellFiles(root), options.limits || DEFAULT_LIMITS);
+  const requiredFiles = options.requiredFiles || [
+    'index.html',
+    'assets/styles.css',
+    'sw.js'
+  ];
+  return evaluateAppShellFiles(collectAppShellFiles(root), options.limits || DEFAULT_APP_SHELL_BUDGET_LIMITS, { requiredFiles });
 }
 
 function collectAppShellFiles(root) {
   return [
-    ...collectFiles(path.join(root, 'assets', 'build'), 'javascript', root, file => file.endsWith('.js')),
-    ...collectFiles(path.join(root, 'assets'), 'css', root, file => file === 'styles.css'),
-    ...collectFiles(root, 'html', root, file => file.endsWith('.html')),
-    ...['sw.js', 'assets/service-worker-core.js', 'assets/service-worker-registration.js']
+    ...collectFiles(path.join(root, 'assets'), root, categorizeAssetFile),
+    ...collectFiles(root, root, (fileName, fullPath) => path.dirname(fullPath) === root && fileName.endsWith('.html') ? 'html' : ''),
+    ...collectFiles(path.join(root, 'topics'), root, fileName => fileName.endsWith('.html') ? 'html' : ''),
+    ...['sw.js']
       .map(file => path.join(root, file))
       .filter(file => fs.existsSync(file))
       .map(file => describeFile(root, file, 'serviceWorker'))
-  ].filter(file => !/assets\/question-(chunks|manifest)/.test(file.path));
+  ];
 }
 
-function collectFiles(dir, category, root, predicate) {
+function collectFiles(dir, root, categorize) {
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir, { withFileTypes: true })
     .flatMap(entry => {
       if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === 'test-results') return [];
       const full = path.join(dir, entry.name);
-      if (entry.isDirectory()) return collectFiles(full, category, root, predicate);
-      return predicate(entry.name, full) ? [describeFile(root, full, category)] : [];
+      if (entry.isDirectory()) return collectFiles(full, root, categorize);
+      const category = categorize(entry.name, full);
+      return category ? [describeFile(root, full, category)] : [];
     });
+}
+
+function categorizeAssetFile(fileName, fullPath) {
+  const relativePath = path.relative(repoRoot, fullPath).split(path.sep).join('/');
+  if (SERVICE_WORKER_FILES.has(relativePath)) return 'serviceWorker';
+  if (fileName === 'release-manifest.json' || relativePath === 'assets/build/frontend-manifest.json') return 'releaseMetadata';
+  const ext = path.extname(fileName).toLowerCase();
+  if (ext === '.js') return 'javascript';
+  if (ext === '.css') return 'css';
+  if (ASSET_EXTENSIONS.has(ext)) return 'asset';
+  return '';
 }
 
 function describeFile(root, fullPath, category) {
@@ -50,43 +66,132 @@ function describeFile(root, fullPath, category) {
   };
 }
 
-function evaluateAppShellFiles(files, limits = DEFAULT_LIMITS) {
+function evaluateAppShellFiles(files, limits = DEFAULT_APP_SHELL_BUDGET_LIMITS, options = {}) {
   const normalizedFiles = (Array.isArray(files) ? files : []).map(file => ({
     path: String(file.path || ''),
     bytes: Math.max(0, Number(file.bytes) || 0),
     category: String(file.category || '')
   }));
-  const totals = normalizedFiles.reduce((result, file) => {
+  const excludedFiles = normalizedFiles.filter(file => isQuestionContent(file.path, file.category));
+  const shellFiles = normalizedFiles.filter(file => !isQuestionContent(file.path, file.category));
+  const totals = shellFiles.reduce((result, file) => {
     if (file.category === 'javascript') result.javascriptBytes += file.bytes;
     if (file.category === 'css') result.cssBytes += file.bytes;
     if (file.category === 'html') result.htmlBytes += file.bytes;
     if (file.category === 'serviceWorker') result.serviceWorkerBytes += file.bytes;
+    if (file.category === 'asset') result.assetBytes += file.bytes;
+    if (file.category === 'releaseMetadata') result.releaseMetadataBytes += file.bytes;
     return result;
-  }, { javascriptBytes: 0, cssBytes: 0, htmlBytes: 0, serviceWorkerBytes: 0 });
+  }, {
+    javascriptBytes: 0,
+    cssBytes: 0,
+    htmlBytes: 0,
+    serviceWorkerBytes: 0,
+    assetBytes: 0,
+    releaseMetadataBytes: 0
+  });
   const errors = [];
-  normalizedFiles.forEach(file => {
-    const fileLimit = getFileLimit(file.category, limits);
-    if (fileLimit && file.bytes > fileLimit) {
-      errors.push(`${file.category} app shell file ${file.path} is ${file.bytes} bytes, over ${fileLimit}`);
+  const warnings = [];
+  shellFiles.forEach(file => {
+    addBudgetResult({ file, budget: getFileBudget(file.category, limits), warnings, errors });
+  });
+  addTotalBudgetResult('javascript', totals.javascriptBytes, limits.javascriptTotal, warnings, errors);
+  addTotalBudgetResult('css', totals.cssBytes, limits.cssTotal, warnings, errors);
+  addTotalBudgetResult('html', totals.htmlBytes, limits.htmlTotal, warnings, errors);
+  addTotalBudgetResult('service worker', totals.serviceWorkerBytes, limits.serviceWorkerTotal, warnings, errors);
+  addTotalBudgetResult('asset', totals.assetBytes, limits.assetTotal, warnings, errors);
+  addTotalBudgetResult('release metadata', totals.releaseMetadataBytes, limits.releaseMetadataTotal, warnings, errors);
+  normalizeStringArray(options.requiredFiles).forEach(requiredPath => {
+    if (!shellFiles.some(file => file.path === requiredPath)) {
+      errors.push(makeResult({
+        category: 'required',
+        path: requiredPath,
+        bytes: 0,
+        limitBytes: 0,
+        message: `missing required app shell asset ${requiredPath}`
+      }));
     }
   });
-  if (totals.javascriptBytes > limits.javascriptTotalBytes) errors.push(`javascript app shell total is ${totals.javascriptBytes} bytes, over ${limits.javascriptTotalBytes}`);
-  if (totals.cssBytes > limits.cssTotalBytes) errors.push(`css app shell total is ${totals.cssBytes} bytes, over ${limits.cssTotalBytes}`);
-  if (totals.htmlBytes > limits.htmlTotalBytes) errors.push(`html app shell total is ${totals.htmlBytes} bytes, over ${limits.htmlTotalBytes}`);
-  if (totals.serviceWorkerBytes > limits.serviceWorkerBytes) errors.push(`service worker app shell total is ${totals.serviceWorkerBytes} bytes, over ${limits.serviceWorkerBytes}`);
   return {
-    files: normalizedFiles.sort((left, right) => left.path.localeCompare(right.path)),
+    files: shellFiles.sort((left, right) => left.path.localeCompare(right.path)),
+    excludedFiles: excludedFiles.sort((left, right) => left.path.localeCompare(right.path)),
+    topOffenders: shellFiles.slice().sort((left, right) => right.bytes - left.bytes || left.path.localeCompare(right.path)).slice(0, 10),
     totals,
+    warnings,
     errors
   };
 }
 
-function getFileLimit(category, limits) {
-  if (category === 'javascript') return limits.javascriptFileBytes;
-  if (category === 'css') return limits.cssFileBytes;
-  if (category === 'html') return limits.htmlFileBytes;
-  if (category === 'serviceWorker') return limits.serviceWorkerBytes;
-  return 0;
+function addBudgetResult({ file, budget, warnings, errors }) {
+  if (!budget) return;
+  if (file.bytes > budget.failBytes) {
+    errors.push(makeResult({
+      category: file.category,
+      path: file.path,
+      bytes: file.bytes,
+      limitBytes: budget.failBytes,
+      message: `${file.category} app shell file ${file.path} is ${file.bytes} bytes, over ${budget.failBytes}`
+    }));
+  }
+  if (file.bytes > budget.warnBytes) {
+    warnings.push(makeResult({
+      category: file.category,
+      path: file.path,
+      bytes: file.bytes,
+      limitBytes: budget.warnBytes,
+      message: `${file.category} app shell file ${file.path} is ${file.bytes} bytes, over warning ${budget.warnBytes}`
+    }));
+  }
+}
+
+function addTotalBudgetResult(category, bytes, budget, warnings, errors) {
+  if (!budget) return;
+  if (bytes > budget.failBytes) {
+    errors.push(makeResult({
+      category,
+      path: '',
+      bytes,
+      limitBytes: budget.failBytes,
+      message: `${category} app shell total is ${bytes} bytes, over ${budget.failBytes}`
+    }));
+  }
+  if (bytes > budget.warnBytes) {
+    warnings.push(makeResult({
+      category,
+      path: '',
+      bytes,
+      limitBytes: budget.warnBytes,
+      message: `${category} app shell total is ${bytes} bytes, over warning ${budget.warnBytes}`
+    }));
+  }
+}
+
+function makeResult({ category, path, bytes, limitBytes, message }) {
+  return {
+    category,
+    path,
+    bytes,
+    limitBytes,
+    deltaBytes: Math.max(0, bytes - limitBytes),
+    message
+  };
+}
+
+function getFileBudget(category, limits) {
+  if (category === 'javascript') return limits.javascriptFile;
+  if (category === 'css') return limits.cssFile;
+  if (category === 'html') return limits.htmlFile;
+  if (category === 'asset') return limits.assetFile;
+  if (category === 'serviceWorker') return limits.serviceWorkerTotal;
+  return null;
+}
+
+function isQuestionContent(filePath, category) {
+  return category === 'questionContent' || QUESTION_CONTENT_PATTERN.test(filePath);
+}
+
+function normalizeStringArray(values) {
+  return (Array.isArray(values) ? values : []).map(value => String(value || '').trim()).filter(Boolean);
 }
 
 if (require.main === module) {
@@ -94,8 +199,14 @@ if (require.main === module) {
   result.files.forEach(file => {
     console.log(`${file.category.padEnd(13)} ${String(file.bytes).padStart(7)} ${file.path}`);
   });
+  if (result.excludedFiles.length) {
+    console.log(`Excluded question content artifacts: ${result.excludedFiles.length}`);
+  }
+  if (result.warnings.length) {
+    result.warnings.forEach(warning => console.warn(`WARNING: ${warning.message} (+${warning.deltaBytes} bytes)`));
+  }
   if (result.errors.length) {
-    result.errors.forEach(error => console.error(`ERROR: ${error}`));
+    result.errors.forEach(error => console.error(`ERROR: ${error.message} (+${error.deltaBytes} bytes)`));
     process.exit(1);
   }
   console.log('App shell size budget passed.');

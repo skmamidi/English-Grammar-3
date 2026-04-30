@@ -46,6 +46,31 @@ test('loader requires manifest entries to provide chunkFile', async () => {
   assert.deepEqual(context.loadedScriptPaths, []);
 });
 
+test('loader surfaces storage quota recovery when offline chunks were not retained', async () => {
+  const context = createLoaderContext({
+    manifest: {
+      sets: [{
+        id: 'grammar-sentence-types',
+        domain: 'grammar',
+        chunkFile: 'assets/question-chunks/grammar/grammar-sentence-types.js'
+      }]
+    },
+    navigator: { onLine: false },
+    URL,
+    quotaExceeded: true,
+    caches: {
+      keys: async () => []
+    }
+  });
+
+  vm.runInContext(loaderScript, context, { filename: 'assets/question-loader.js' });
+
+  await assert.rejects(
+    () => context.window.GrammarQuestQuestionLoader.loadSet('grammar-sentence-types'),
+    /storage is full/i
+  );
+});
+
 test('loader resolves a set by id from chunk manifest', async () => {
   const context = createLoaderContext({
     manifest: buildIndexManifest(loadManifest())
@@ -720,9 +745,12 @@ function createLoaderContext(options = {}) {
   const window = {
     QUESTION_BANK: options.bank || {},
     QUESTION_MANIFEST: options.manifest,
+    location: options.location || { href: 'http://grammar-quest.test/topics/grammar/subtopics/sentence-types.html' },
     GrammarQuestSelectionCore: require('../assets/quiz-selection-core'),
     GrammarQuestSelectionIntegrity: selectionIntegrity,
     GRAMMAR_QUEST_CONFIG: options.config || {},
+    GRAMMAR_QUEST_CACHE_QUOTA_EXCEEDED: options.quotaExceeded === true,
+    caches: options.caches,
     dispatchEvent(event) {
       events.push({ name: event.type, detail: event.detail });
     }
@@ -731,6 +759,9 @@ function createLoaderContext(options = {}) {
     window,
     console: Object.assign({}, console, { warn() {} }),
     document: null,
+    navigator: options.navigator || { onLine: true },
+    URL: options.URL || URL,
+    caches: options.caches,
     loadedScriptPaths: [],
     events,
     CustomEvent: function CustomEvent(type, init) {

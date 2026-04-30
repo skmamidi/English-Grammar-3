@@ -61,7 +61,12 @@
       for (const candidate of pending) {
         fetched.add(candidate.chunkFile);
         try {
-          const response = await fetcher(resolveChunkUrl(candidate.chunkFile), { cache: 'force-cache' });
+          const response = await fetcher(resolveChunkUrl(candidate.chunkFile), {
+            cache: 'force-cache',
+            headers: {
+              'X-GrammarQuest-Cache-Intent': 'preload'
+            }
+          });
           const headerBytes = response && response.headers && typeof response.headers.get === 'function'
             ? Number(response.headers.get('content-length')) || 0
             : 0;

@@ -29,6 +29,7 @@ async function main() {
         const page = await newPage(browser);
         await visitClean(page, server.baseURL, file);
         await assertControlsHaveAccessibleNames(page, file);
+        if (file === 'settings.html') await assertSettingsShellAccessibility(page);
         await assertFocusedControlIsVisible(page, file);
         if (file.includes('/subtopics/')) await assertAnswerButtonsAreAccessible(page, file);
         await page.close();
@@ -171,6 +172,20 @@ async function assertAnswerButtonsAreAccessible(page, file) {
     assert.equal(button.disabled, false, `${file} answer button should be keyboard operable`);
     assert.ok(button.tabIndex >= 0, `${file} answer button should be reachable by keyboard`);
   });
+}
+
+async function assertSettingsShellAccessibility(page) {
+  const result = await page.evaluate(() => {
+    const banner = document.querySelector('[data-shell-offline-banner]');
+    return {
+      shellReady: document.documentElement.dataset.pageShell,
+      bannerRole: banner && banner.getAttribute('role'),
+      bannerLive: banner && banner.getAttribute('aria-live')
+    };
+  });
+  assert.equal(result.shellReady, 'ready');
+  assert.equal(result.bannerRole, 'status');
+  assert.equal(result.bannerLive, 'polite');
 }
 
 function getChromiumLaunchOptions() {

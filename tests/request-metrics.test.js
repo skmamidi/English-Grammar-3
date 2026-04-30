@@ -11,13 +11,19 @@ test('request metrics categorize manifest, full banks, and chunks', () => {
     'http://127.0.0.1:4173/assets/question-manifest.js',
     'http://127.0.0.1:4173/assets/question-banks/grammar.js',
     'http://127.0.0.1:4173/assets/question-chunks/capitalization/capitalization-proper-names-titles.js',
-    'http://127.0.0.1:4173/assets/styles.css'
+    'http://127.0.0.1:4173/assets/styles.css',
+    'http://127.0.0.1:4173/assets/build/app-entry.js',
+    'http://127.0.0.1:4173/sw.js',
+    'http://127.0.0.1:4173/assets/build/frontend-manifest.json'
   ];
   const responses = [
     { url: requests[0], status: 200, bytes: 40 },
     { url: requests[1], status: 200, bytes: 900 },
     { url: requests[2], status: 200, bytes: 100 },
-    { url: requests[3], status: 200, bytes: 300 }
+    { url: requests[3], status: 200, bytes: 300 },
+    { url: requests[4], status: 200, bytes: 200 },
+    { url: requests[5], status: 200, bytes: 90 },
+    { url: requests[6], status: 200, bytes: 30 }
   ];
 
   const metrics = summarizeRequestMetrics({ requests, responses });
@@ -26,8 +32,19 @@ test('request metrics categorize manifest, full banks, and chunks', () => {
   assert.equal(metrics.questionBankBytes, 900);
   assert.equal(metrics.questionChunkBytes, 100);
   assert.equal(metrics.questionPayloadBytes, 1040);
+  assert.equal(metrics.appShellCssBytes, 300);
+  assert.equal(metrics.appShellJsBytes, 200);
+  assert.equal(metrics.serviceWorkerBytes, 90);
+  assert.equal(metrics.releaseMetadataBytes, 30);
+  assert.equal(metrics.appShellBytes, 620);
   assert.deepEqual(metrics.loadedFullBanks, ['assets/question-banks/grammar.js']);
   assert.deepEqual(metrics.loadedChunks, ['assets/question-chunks/capitalization/capitalization-proper-names-titles.js']);
+  assert.deepEqual(metrics.appShellAssets, [
+    'assets/build/app-entry.js',
+    'assets/build/frontend-manifest.json',
+    'assets/styles.css',
+    'sw.js'
+  ]);
 });
 
 test('request metrics count each delivery asset once', () => {
@@ -60,7 +77,38 @@ test('request metrics separate preload chunks from required chunk payload', () =
   assert.deepEqual(metrics.preloadedChunks, ['assets/question-chunks/grammar/grammar-run-on-sentences.js']);
   assert.equal(metrics.questionChunkBytes, 58000);
   assert.equal(metrics.preloadChunkBytes, 64000);
+  assert.equal(metrics.requiredCachedBytes, 58000);
+  assert.equal(metrics.preloadCachedBytes, 64000);
+  assert.equal(metrics.evictedChunkCount, 0);
+  assert.equal(metrics.staleCacheCleanupCount, 0);
   assert.equal(metrics.questionPayloadBytes, metrics.manifestBytes + metrics.questionBankBytes + metrics.questionChunkBytes);
+});
+
+test('request metrics include offline cache policy telemetry counters', () => {
+  const metrics = summarizeRequestMetrics({
+    cacheEvents: [
+      {
+        type: 'grammarquest:offline-cache-cleanup',
+        detail: {
+          requiredCachedBytes: 120000,
+          preloadCachedBytes: 64000,
+          evictedChunkCount: 2,
+          staleCacheCleanupCount: 1
+        }
+      },
+      {
+        detail: {
+          requiredCachedBytes: 8000,
+          evictedChunkCount: 1
+        }
+      }
+    ]
+  });
+
+  assert.equal(metrics.requiredCachedBytes, 128000);
+  assert.equal(metrics.preloadCachedBytes, 64000);
+  assert.equal(metrics.evictedChunkCount, 3);
+  assert.equal(metrics.staleCacheCleanupCount, 1);
 });
 
 test('normalizeAssetPath removes origins and query strings', () => {

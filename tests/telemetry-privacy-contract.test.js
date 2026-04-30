@@ -58,3 +58,14 @@ test('selection telemetry privacy guard rejects unsafe learner, question, and ra
     );
   });
 });
+
+test('telemetry contract documents bounded recommendation and aggregate analytics fields', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const docs = fs.readFileSync(path.join(__dirname, '..', 'docs', 'telemetry-contract.md'), 'utf8');
+
+  assert.match(docs, /Weak-skill recommendation telemetry/);
+  assert.match(docs, /recommendation count, reason code, skill ID, and target type/);
+  assert.match(docs, /Aggregate learning analytics/);
+  assert.match(docs, /must not include learner names, learner IDs, raw questions, answers, or explanations/);
+});

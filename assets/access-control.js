@@ -35,6 +35,10 @@
     importOwnLearnerProgress: 'learner-progress:import-own',
     importLinkedLearnerProgress: 'learner-progress:import-linked',
     importAssignedLearnerProgress: 'learner-progress:import-assigned',
+    requestLearnerDataDeletion: 'learner-data:request-delete',
+    approveLearnerDataDeletion: 'learner-data:approve-delete',
+    exportLearnerDataBackup: 'learner-data:export-backup',
+    restoreLearnerDataBackup: 'learner-data:restore-backup',
     manageAssignments: 'manageAssignments',
     manageContent: 'manageContent',
     manageUsers: 'manageUsers',
@@ -74,7 +78,9 @@
       Capabilities.viewOwnProgress,
       Capabilities.resumeOwnQuiz,
       Capabilities.exportOwnLearnerProgress,
-      Capabilities.importOwnLearnerProgress
+      Capabilities.importOwnLearnerProgress,
+      Capabilities.requestLearnerDataDeletion,
+      Capabilities.exportLearnerDataBackup
     ]),
     [Roles.PARENT_GUARDIAN]: Object.freeze([
       Capabilities.viewAssignments,
@@ -82,7 +88,9 @@
       Capabilities.viewLinkedLearnerDashboard,
       Capabilities.viewOwnQuestionReportStatus,
       Capabilities.exportLinkedLearnerProgress,
-      Capabilities.importLinkedLearnerProgress
+      Capabilities.importLinkedLearnerProgress,
+      Capabilities.requestLearnerDataDeletion,
+      Capabilities.exportLearnerDataBackup
     ]),
     [Roles.TEACHER]: Object.freeze([
       Capabilities.viewAssignments,
@@ -94,6 +102,8 @@
       Capabilities.resolveQuestionReport,
       Capabilities.exportAssignedLearnerProgress,
       Capabilities.importAssignedLearnerProgress,
+      Capabilities.requestLearnerDataDeletion,
+      Capabilities.exportLearnerDataBackup,
       Capabilities.manageAssignments
     ]),
     [Roles.SYSTEM_ADMIN]: Object.freeze([
@@ -105,6 +115,8 @@
       Capabilities.manageFeatureFlags,
       Capabilities.manageSelectionRollout,
       Capabilities.managePublicSigningKeys,
+      Capabilities.approveLearnerDataDeletion,
+      Capabilities.restoreLearnerDataBackup,
       Capabilities.viewOperationalHealth,
       Capabilities.viewAuditLogs,
       Capabilities.manageSystemSettings
@@ -129,7 +141,8 @@
       linkedLearnerIds: normalizeIdList(input.linkedLearnerIds),
       assignedLearnerIds: normalizeIdList(input.assignedLearnerIds),
       assignedClassIds: normalizeIdList(input.assignedClassIds),
-      classroomProgressTransferEnabled: input.classroomProgressTransferEnabled === true
+      classroomProgressTransferEnabled: input.classroomProgressTransferEnabled === true,
+      learnerDataDeletionEnabled: input.learnerDataDeletionEnabled === true
     };
   }
 
@@ -259,7 +272,7 @@
     if (action === Capabilities.viewOwnProgress) {
       return resource.type === ResourceTypes.LEARNER_PROGRESS && sameId(actor.learnerId, resource.learnerId);
     }
-    if ([Capabilities.exportOwnLearnerProgress, Capabilities.importOwnLearnerProgress].includes(action)) {
+    if ([Capabilities.exportOwnLearnerProgress, Capabilities.importOwnLearnerProgress, Capabilities.requestLearnerDataDeletion, Capabilities.exportLearnerDataBackup].includes(action)) {
       return resource.type === ResourceTypes.LEARNER_PROGRESS && sameId(actor.learnerId, resource.learnerId);
     }
     if (action === Capabilities.resumeOwnQuiz) {
@@ -275,7 +288,7 @@
     if (action === Capabilities.viewOwnQuestionReportStatus) {
       return resource.type === ResourceTypes.QUESTION_REPORT && actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
     }
-    if ([Capabilities.exportLinkedLearnerProgress, Capabilities.importLinkedLearnerProgress].includes(action)) {
+    if ([Capabilities.exportLinkedLearnerProgress, Capabilities.importLinkedLearnerProgress, Capabilities.requestLearnerDataDeletion, Capabilities.exportLearnerDataBackup].includes(action)) {
       return resource.type === ResourceTypes.LEARNER_PROGRESS && actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
     }
     if (![Capabilities.viewLinkedLearnerReports, Capabilities.viewLinkedLearnerDashboard].includes(action)) return false;
@@ -303,9 +316,14 @@
     if ([Capabilities.triageQuestionReport, Capabilities.assignQuestionReport, Capabilities.resolveQuestionReport].includes(action)) {
       return resource.type === ResourceTypes.QUESTION_REPORT && actor.assignedLearnerIds.includes(resource.learnerId);
     }
-    if ([Capabilities.exportAssignedLearnerProgress, Capabilities.importAssignedLearnerProgress].includes(action)) {
+    if ([Capabilities.exportAssignedLearnerProgress, Capabilities.importAssignedLearnerProgress, Capabilities.exportLearnerDataBackup].includes(action)) {
       return resource.type === ResourceTypes.LEARNER_PROGRESS &&
         actor.classroomProgressTransferEnabled === true &&
+        actor.assignedLearnerIds.includes(resource.learnerId);
+    }
+    if (action === Capabilities.requestLearnerDataDeletion) {
+      return resource.type === ResourceTypes.LEARNER_PROGRESS &&
+        actor.learnerDataDeletionEnabled === true &&
         actor.assignedLearnerIds.includes(resource.learnerId);
     }
     if (action === Capabilities.manageAssignments) {
@@ -320,6 +338,7 @@
     if (action === Capabilities.manageUsers || action === Capabilities.manageUserRoles) return resource.type === ResourceTypes.SYSTEM_SETTING || resource.type === '';
     if (action === Capabilities.manageFeatureFlags || action === Capabilities.manageSelectionRollout) return resource.type === ResourceTypes.FEATURE_FLAG;
     if (action === Capabilities.managePublicSigningKeys || action === Capabilities.viewOperationalHealth) return resource.type === ResourceTypes.SYSTEM_SETTING;
+    if (action === Capabilities.approveLearnerDataDeletion || action === Capabilities.restoreLearnerDataBackup) return resource.type === ResourceTypes.LEARNER_PROGRESS;
     if (action === Capabilities.viewAuditLogs) return resource.type === ResourceTypes.AUDIT_LOG;
     if (action === Capabilities.manageSystemSettings) return resource.type === ResourceTypes.SYSTEM_SETTING;
     if (action === Capabilities.manageAssignments) return false;

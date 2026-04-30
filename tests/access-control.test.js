@@ -260,3 +260,31 @@ test('learner progress import export is learner scoped and denies system admin b
     learnerId: 'learner-2'
   }), false);
 });
+
+test('learner data lifecycle capabilities are scoped and operationally approved', () => {
+  const student = access.normalizeActor({ role: access.Roles.STUDENT, learnerId: 'learner-1' });
+  const guardian = access.normalizeActor({ role: access.Roles.PARENT_GUARDIAN, linkedLearnerIds: ['learner-1'] });
+  const teacher = access.normalizeActor({ role: access.Roles.TEACHER, assignedLearnerIds: ['learner-2'], learnerDataDeletionEnabled: true });
+  const admin = access.normalizeActor({ role: access.Roles.SYSTEM_ADMIN });
+
+  assert.equal(access.canAccess(student, access.Capabilities.requestLearnerDataDeletion, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(guardian, access.Capabilities.requestLearnerDataDeletion, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(teacher, access.Capabilities.requestLearnerDataDeletion, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-2'
+  }), true);
+  assert.equal(access.canAccess(admin, access.Capabilities.approveLearnerDataDeletion, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(admin, access.Capabilities.restoreLearnerDataBackup, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-1'
+  }), true);
+});

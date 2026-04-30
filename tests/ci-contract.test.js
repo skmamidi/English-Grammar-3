@@ -37,6 +37,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['test:visual'], 'node tests/visual-regression.spec.js');
   assert.equal(pkg.scripts['test:ui:teardown'], 'QA_UI_TEARDOWN_DEBUG=1 node tests/ui-smoke.spec.js');
   assert.equal(pkg.scripts['test:api:perf'], 'STRICT_PERF_BUDGETS=1 node --test tests/question-selection-api-budget.test.js');
+  assert.equal(pkg.scripts['test:rules'], 'node --test tests/backend-policy-rules.test.js');
   assert.match(pkg.scripts['test:unit'], /tests\/access-control\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/guardian-access\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/system-admin-access\.test\.js/);
@@ -45,8 +46,13 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-telemetry\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-api-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-service\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/backend-policy-rules\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-state-repository\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/learner-data-lifecycle-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/learner-data-retention-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/assignment-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/assignment-repository-contract\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/classroom-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/assignment-quiz-adapter\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/adaptive-review-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/adaptive-review-selection\.test\.js/);
@@ -84,6 +90,7 @@ test('github qa workflow uses npm ci, installs chromium, and runs npm test', () 
   assert.match(workflow, /timeout-minutes:\s*10/);
   assert.match(workflow, /run:\s*npm ci/);
   assert.match(workflow, /run:\s*npx playwright install --with-deps chromium/);
+  assert.match(workflow, /run:\s*npm run test:rules/);
   assert.match(workflow, /run:\s*npm test/);
   assert.doesNotMatch(workflow, /node-version:\s*20/);
   assert.doesNotMatch(workflow, /ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION/);

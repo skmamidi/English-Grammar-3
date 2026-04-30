@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "learnerId": "learner-1",
+  "revision": 1,
+  "updatedAt": "2030-04-28T12:00:00.000Z",
+  "source": "remote-fixture",
+  "state": {
+    "activeQuiz": {
+      "setId": "grammar",
+      "updatedAt": "2030-04-28T12:00:00.000Z",
+      "questionRefs": [
+        {
+          "id": "grammar-q0001",
+          "contentHash": "sha256:one"
+        }
+      ],
+      "questionSnapshots": [
+        {
+          "id": "grammar-q0001",
+          "question": "Snapshot fallback"
+        }
+      ]
+    }
+  }
+}

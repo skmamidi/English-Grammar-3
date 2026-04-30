@@ -288,6 +288,67 @@ test('learner state repository reports sync write failures without corrupting lo
   assert.equal(repository.getSyncStatus().pending, true);
 });
 
+test('learner state repository records deletion requests and tombstones deleted state', () => {
+  const repository = createRepository();
+  repository.saveProgress({ totalGems: 12, reports: { sessions: [{ id: 'session-1' }] } });
+
+  const request = repository.requestLearnerDataDeletion({
+    learnerId: 'learner-1',
+    requestedBy: { id: 'student-1', role: 'student', learnerId: 'learner-1' },
+    reason: 'student request'
+  });
+  repository.approveLearnerDataDeletion(request.deletionRequestId, {
+    id: 'admin-1',
+    role: 'system_admin'
+  });
+  const deleted = repository.deleteLearnerState(request.deletionRequestId);
+
+  assert.equal(deleted.tombstone.learnerId, 'learner-1');
+  assert.equal(repository.getProgress().totalGems, 0);
+  assert.equal(repository.getProgress().deletionTombstones[0].deletionRequestId, request.deletionRequestId);
+  assert.equal(repository.listDeletionRequests()[0].status, 'completed');
+});
+
+test('learner state repository previews restore and blocks stale backups after tombstone', () => {
+  const repository = createRepository();
+  repository.writeDeletionTombstone({
+    learnerId: 'learner-1',
+    deletionRequestId: 'delete-1',
+    deletedAt: '2030-05-01T12:00:00.000Z'
+  });
+
+  assert.equal(repository.restoreLearnerStateFromBackup({
+    app: { exportedAt: '2030-04-30T12:00:00.000Z' },
+    data: { progress: { totalGems: 5 } }
+  }, { preview: true }).allowed, false);
+
+  const restored = repository.restoreLearnerStateFromBackup({
+    app: { exportedAt: '2030-05-02T12:00:00.000Z' },
+    data: { progress: { totalGems: 5 } }
+  }, { confirm: true });
+
+  assert.equal(restored.allowed, true);
+  assert.equal(repository.getProgress().totalGems, 5);
+});
+
+test('learner state repository quarantines corrupt remote sync records before local writes', async () => {
+  const storage = createMemoryStorage();
+  const syncAdapter = createFakeLearnerStateSyncAdapter();
+  await syncAdapter.writeLearnerState('learner-1', {
+    totalGems: 99,
+    reports: { questionReports: [{ id: 'report-corrupt', status: 'open' }] }
+  }, { revision: 0, now: '2030-04-30T12:00:00.000Z' });
+  const repository = createRepository(storage, { learnerId: 'learner-1', syncAdapter });
+  repository.saveProgress({ totalGems: 7 });
+
+  const result = await repository.reconcileSync();
+
+  assert.equal(result.status, 'failed');
+  assert.equal(result.error.code, 'record_corrupt');
+  assert.equal(repository.getProgress().totalGems, 7);
+  assert.equal(repository.getProgress().reports.questionReports.length, 0);
+});
+
 test('learner state repository quarantines corrupt JSON and returns empty state', () => {
   const storage = createMemoryStorage();
   storage.setItem('grammarQuestProgress', '{bad json');

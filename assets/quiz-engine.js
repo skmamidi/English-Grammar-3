@@ -124,7 +124,7 @@
   }
 
   window.addEventListener('grammarquest:parent-browse', () => {
-    if (activeSet && currentIndex === 0 && !answered) {
+    if (activeSet && quizContainer && quizContainer.querySelector('.start-screen')) {
       currentQuestions = selectCurrentQuestions();
       renderStartScreen(activeSet);
     }
@@ -530,7 +530,6 @@
       reviewAttemptRecords = [];
       sessionStartedAt = Date.now();
       questionStartedAt = 0;
-      if (!isParentMode()) saveActiveQuiz();
       startAssessmentGuard('quiz');
       renderQuestion();
     });

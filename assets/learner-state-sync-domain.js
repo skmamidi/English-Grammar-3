@@ -34,22 +34,74 @@
   }
 
   function resolveSyncConflict(localRecord, remoteRecord, options = {}) {
-    const local = normalizeSyncRecord(localRecord);
-    const remote = normalizeSyncRecord(remoteRecord);
+    const local = normalizeSyncedLearnerRecord(localRecord);
+    const remote = normalizeSyncedLearnerRecord(remoteRecord);
     if (local.learnerId && remote.learnerId && local.learnerId !== remote.learnerId) {
       throw new Error('learner_state_sync_learner_mismatch');
     }
-    const mergedState = mergeLearnerStates(local.state, remote.state, options);
-    const revision = Math.max(local.revision, remote.revision) + 1;
+    const merged = mergeLearnerStateRecords(local, remote, options);
     return {
       status: 'merged',
-      record: normalizeSyncRecord({
+      record: normalizeSyncedLearnerRecord({
         learnerId: local.learnerId || remote.learnerId,
-        revision,
-        updatedAt: options.now || maxIso(local.updatedAt, remote.updatedAt),
+        revision: merged.winningRevision,
+        updatedAt: merged.mergedAt,
         source: options.source || 'conflict-resolution',
-        state: mergedState
+        state: merged.state
       })
+    };
+  }
+
+  function mergeLearnerStateRecords(localRecord, remoteRecord, options = {}) {
+    const local = normalizeSyncedLearnerRecord(localRecord);
+    const remote = normalizeSyncedLearnerRecord(remoteRecord);
+    if (local.learnerId && remote.learnerId && local.learnerId !== remote.learnerId) {
+      throw new Error('learner_state_sync_learner_mismatch');
+    }
+    const resolved = resolveLearnerStateConflict(local.state, remote.state, options);
+    const conflicts = resolved.conflicts.slice();
+    if (local.revision !== remote.revision || local.updatedAt !== remote.updatedAt) {
+      conflicts.push({
+        type: 'record_revision',
+        localRevision: local.revision,
+        remoteRevision: remote.revision,
+        localUpdatedAt: local.updatedAt,
+        remoteUpdatedAt: remote.updatedAt
+      });
+    }
+    return {
+      state: resolved.state,
+      conflicts,
+      warnings: resolved.warnings,
+      winningRevision: Math.max(local.revision, remote.revision) + 1,
+      mergedAt: currentIso(options)
+    };
+  }
+
+  function resolveLearnerStateConflict(localState, remoteState, options = {}) {
+    const local = normalizeState(localState);
+    const warnings = [];
+    try {
+      assertMergeableState(remoteState);
+    } catch (error) {
+      warnings.push({
+        code: 'remote_record_corrupt',
+        message: error && error.message || 'learner_state_sync_record_corrupt'
+      });
+      return {
+        state: local,
+        conflicts: [{ type: 'remote_quarantined' }],
+        warnings,
+        winningRevision: 0,
+        mergedAt: currentIso(options)
+      };
+    }
+    return {
+      state: mergeLearnerStates(local, remoteState, options),
+      conflicts: collectStateConflicts(local, normalizeState(remoteState)),
+      warnings,
+      winningRevision: 0,
+      mergedAt: currentIso(options)
     };
   }
 
@@ -68,8 +120,53 @@
     };
   }
 
+  function normalizeSyncedLearnerRecord(record) {
+    return normalizeSyncRecord(record);
+  }
+
   function migrateServerRecord(record) {
     return normalizeSyncRecord(record);
+  }
+
+  function assertMergeableState(state) {
+    const normalized = normalizeState(state);
+    (normalized.reports.questionReports || []).forEach(report => {
+      if (report && report.id && !report.questionId) throw new Error('learner_state_sync_record_corrupt:question_report_missing_question_id');
+    });
+    (normalized.reports.sessions || []).forEach(session => {
+      if (session && !session.id) throw new Error('learner_state_sync_record_corrupt:session_missing_id');
+    });
+    (normalized.assignments || []).forEach(assignment => {
+      if (assignment && !assignment.id) throw new Error('learner_state_sync_record_corrupt:assignment_missing_id');
+    });
+    (normalized.reviewQueue.items || []).forEach(item => {
+      const itemId = reviewItemId(item);
+      if (item && !itemId) throw new Error('learner_state_sync_record_corrupt:review_item_missing_id');
+    });
+    (normalized.reviewSchedules || []).forEach(schedule => {
+      if (schedule && !scheduleId(schedule)) throw new Error('learner_state_sync_record_corrupt:schedule_missing_ref');
+    });
+    return normalized;
+  }
+
+  function collectStateConflicts(local, remote) {
+    const conflicts = [];
+    collectOverlappingIds('session', local.reports.sessions, remote.reports.sessions, conflicts);
+    collectOverlappingIds('question_report', local.reports.questionReports, remote.reports.questionReports, conflicts);
+    collectOverlappingIds('assignment', local.assignments, remote.assignments, conflicts);
+    collectOverlappingIds('review_schedule', local.reviewSchedules, remote.reviewSchedules, conflicts, scheduleId);
+    if (local.activeQuiz && remote.activeQuiz && activeQuizTimestamp(local.activeQuiz) !== activeQuizTimestamp(remote.activeQuiz)) {
+      conflicts.push({ type: 'active_quiz', resolution: 'newest_updatedAt' });
+    }
+    return conflicts;
+  }
+
+  function collectOverlappingIds(type, localValues, remoteValues, conflicts, idFor = item => item && item.id) {
+    const localIds = new Set((Array.isArray(localValues) ? localValues : []).map(idFor).map(safeString).filter(Boolean));
+    (Array.isArray(remoteValues) ? remoteValues : []).forEach(item => {
+      const id = safeString(idFor(item));
+      if (id && localIds.has(id)) conflicts.push({ type, id });
+    });
   }
 
   function stripQuestionPayload(value) {
@@ -185,6 +282,11 @@
     return values.map(safeIso).filter(Boolean).sort(compareIso).pop() || '';
   }
 
+  function currentIso(options = {}) {
+    const value = typeof options.now === 'function' ? options.now() : options.now;
+    return safeIso(value) || new Date().toISOString();
+  }
+
   function compareIso(left, right) {
     return (Date.parse(left || '') || 0) - (Date.parse(right || '') || 0);
   }
@@ -201,11 +303,15 @@
 
   return {
     CURRENT_SYNC_SCHEMA_VERSION,
+    assertMergeableState,
     containsQuestionPayload,
+    mergeLearnerStateRecords,
     mergeLearnerStates,
     migrateServerRecord,
+    normalizeSyncedLearnerRecord,
     normalizeSyncRecord,
     resolveSyncConflict,
+    resolveLearnerStateConflict,
     stripQuestionPayload
   };
 });

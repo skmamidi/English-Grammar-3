@@ -12,6 +12,10 @@ const {
   createSelectionRuntime,
   validateRuntimeConfig
 } = require('../server/question-selection-runtime');
+const {
+  BACKEND_STORAGE_PATHS,
+  assertBackendReadableDocumentSafe
+} = require('../server/backend-policy-rules');
 const testKeys = require('./fixtures/selection-test-keys.json');
 
 const repoRoot = path.resolve(__dirname, '..');
@@ -249,6 +253,14 @@ test('runtime and security docs do not commit private signing key material', () 
     assert.doesNotMatch(source, /"d"\s*:/);
     assert.doesNotMatch(source, /privateKey\s*[:=]\s*['"`{]/);
   });
+});
+
+test('backend-readable config rejects private selection signing key references', () => {
+  assert.throws(() => assertBackendReadableDocumentSafe(BACKEND_STORAGE_PATHS.featureFlag('selection-api'), {
+    enabled: true,
+    signingKeyId: 'selection-key-prod-2026-04',
+    privateKeyRef: 'projects/app/secrets/selection-key-prod-2026-04'
+  }), /backend_readable_secret_field/);
 });
 
 async function signedResponse() {

@@ -30,6 +30,8 @@ test('learning dashboard projection summarizes parent support signals without qu
     recentPracticeCount: 1,
     accuracy: 0.5,
     activeAssignmentCount: 1,
+    lateAssignmentCount: 0,
+    assignmentCompletionRate: 0,
     dueReviewCount: 1,
     openQuestionReportCount: 1
   });
@@ -58,6 +60,24 @@ test('learning dashboard projection uses teacher intervention language', () => {
   });
 
   assert.equal(projection.skillHighlights[0].message, 'Intervention priority: Context clues is below target accuracy.');
+});
+
+test('learning dashboard projection includes class assignment aggregates without learner pii', () => {
+  const projection = dashboard.buildLearningDashboardProjection({
+    learner: { id: 'class-a' },
+    roleView: 'teacher',
+    assignments: [
+      { id: 'a1', title: 'One', status: 'completed', scope: { skillIds: ['grammar.subject-verb'] } },
+      { id: 'a2', title: 'Two', status: 'active', dueAt: '2030-04-28T12:00:00.000Z', learnerName: 'Hidden Name' },
+      { id: 'a3', title: 'Three', status: 'in_progress', dueAt: '2030-05-01T12:00:00.000Z' }
+    ],
+    now
+  });
+
+  assert.equal(projection.summary.activeAssignmentCount, 2);
+  assert.equal(projection.summary.lateAssignmentCount, 1);
+  assert.equal(projection.summary.assignmentCompletionRate, 0.33);
+  assert.equal(JSON.stringify(projection).includes('Hidden Name'), false);
 });
 
 test('learning dashboard projection can include safe weak-skill recommendation cards', () => {

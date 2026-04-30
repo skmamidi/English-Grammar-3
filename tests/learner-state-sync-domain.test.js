@@ -4,9 +4,12 @@ const test = require('node:test');
 const {
   CURRENT_SYNC_SCHEMA_VERSION,
   containsQuestionPayload,
+  mergeLearnerStateRecords,
   mergeLearnerStates,
+  normalizeSyncedLearnerRecord,
   normalizeSyncRecord,
-  resolveSyncConflict
+  resolveSyncConflict,
+  resolveLearnerStateConflict
 } = require('../assets/learner-state-sync-domain');
 
 test('sync merge appends stable saved sessions and merges reports by report id', () => {
@@ -121,4 +124,46 @@ test('older server sync schema normalizes to the current record contract', () =>
   assert.equal(record.schemaVersion, CURRENT_SYNC_SCHEMA_VERSION);
   assert.equal(record.state.badges[0], 'legacy-sync');
   assert.equal(record.state.reports.sessions[0].id, 'session-1');
+});
+
+test('sync record merge returns deterministic conflict metadata and injected merge time', () => {
+  const local = normalizeSyncedLearnerRecord({
+    learnerId: 'learner-1',
+    revision: 2,
+    updatedAt: '2030-04-29T12:00:00.000Z',
+    state: {
+      totalGems: 4,
+      reports: { sessions: [{ id: 'session-local', completedAt: '2030-04-29T12:00:00.000Z' }] }
+    }
+  });
+  const remote = normalizeSyncedLearnerRecord({
+    learnerId: 'learner-1',
+    revision: 5,
+    updatedAt: '2030-04-30T12:00:00.000Z',
+    state: {
+      totalGems: 9,
+      reports: { sessions: [{ id: 'session-remote', completedAt: '2030-04-30T12:00:00.000Z' }] }
+    }
+  });
+
+  const first = mergeLearnerStateRecords(local, remote, { now: () => '2030-05-01T12:00:00.000Z' });
+  const second = mergeLearnerStateRecords(remote, local, { now: () => '2030-05-01T12:00:00.000Z' });
+
+  assert.deepEqual(first.state, second.state);
+  assert.equal(first.state.totalGems, 9);
+  assert.deepEqual(first.state.reports.sessions.map(session => session.id), ['session-remote', 'session-local']);
+  assert.equal(first.winningRevision, 6);
+  assert.equal(first.mergedAt, '2030-05-01T12:00:00.000Z');
+  assert.ok(first.conflicts.some(conflict => conflict.type === 'record_revision'));
+});
+
+test('state conflict resolver quarantines corrupt remote records and preserves local state', () => {
+  const local = { totalGems: 12, reports: { questionReports: [{ id: 'report-local', questionId: 'q1' }] } };
+  const corruptRemote = { totalGems: 99, reports: { questionReports: [{ id: 'report-corrupt', status: 'open' }] } };
+
+  const result = resolveLearnerStateConflict(local, corruptRemote, { now: () => '2030-05-01T12:00:00.000Z' });
+
+  assert.equal(result.state.totalGems, 12);
+  assert.equal(result.state.reports.questionReports.length, 1);
+  assert.equal(result.warnings[0].code, 'remote_record_corrupt');
 });

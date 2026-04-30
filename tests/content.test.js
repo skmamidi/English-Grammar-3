@@ -79,6 +79,32 @@ test('live question banks do not render strategy hints that reveal the correct a
   );
 });
 
+test('generated visual scene clues do not reveal the correct answer', () => {
+  const result = validateContent();
+  runVisualSceneEnhancer(result.bankLoad.bank);
+
+  const leaks = result.questions
+    .map(record => {
+      const scene = record.question.visualScene || record.question.generatedVisualScene;
+      return {
+        record,
+        clue: scene && scene.clue || '',
+        leak: scene && getStrategyHintAnswerLeak(record.question, scene.clue)
+      };
+    })
+    .filter(item => item.leak);
+
+  assert.equal(
+    leaks.length,
+    0,
+    leaks.map(item => `${item.record.relativeFile} ${item.record.setId} ${item.record.location || questionLabel(item.record)}: scene clue "${item.clue}" reveals "${item.record.question.choices[item.record.question.correct]}"`).join('\n')
+  );
+
+  const cloud = result.questions.find(record => record.question.id === 'vocabulary-vowel-sounds-q0006');
+  assert.ok(cloud, 'expected cloud vowel-sound fixture');
+  assert.equal(cloud.question.generatedVisualScene.clue, "'ou' and 'ow' both make the /ow/ sound");
+});
+
 test('strategy hints ignore authored examples and scene clues that reveal the answer', () => {
   const question = makeQaQuestion(1, {
     question: 'Which word best completes the sentence: They ___ playing soccer.',
@@ -330,6 +356,44 @@ test('content QA errors for empty or repeated choices', () => {
   assertIssue(result.errors, 'duplicate-correct-answer-text');
 });
 
+test('content QA rejects word-pattern prompts where only the answer shows the visual cue', () => {
+  const questions = [
+    makeQaQuestion(1, {
+      question: 'Which word has an r-controlled vowel?',
+      choices: ['bird', 'bad', 'bead', 'bend'],
+      correct: 0,
+      explanation: {
+        correct: 'Answer: bird. In bird, the vowel is controlled by r.',
+        incorrect: [
+          '',
+          'Not: bad. This word does not include the r-controlled vowel pattern.',
+          'Not: bead. This word does not include the r-controlled vowel pattern.',
+          'Not: bend. This word does not include the r-controlled vowel pattern.'
+        ]
+      }
+    }),
+    makeQaQuestion(2, {
+      question: 'Which word uses ai to spell the long a sound?',
+      choices: ['ran', 'rain', 'rake', 'ring'],
+      correct: 1,
+      explanation: {
+        correct: 'Answer: rain. In rain, ai spells the long a sound.',
+        incorrect: [
+          'Not: ran. This word does not include ai.',
+          '',
+          'Not: rake. This word does not include ai.',
+          'Not: ring. This word does not include ai.'
+        ]
+      }
+    })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.errors, 'isolated-word-pattern-cue', { questionId: 'content-qa-fixture-q0001' });
+  assertIssue(result.errors, 'isolated-word-pattern-cue', { questionId: 'content-qa-fixture-q0002' });
+});
+
 test('content QA warns for placeholders, whitespace, weak explanations, and long choices', () => {
   const longChoice = `${'A very long answer choice '.repeat(12)}that will be hard to scan on a phone.`;
   const questions = [
@@ -523,9 +587,18 @@ function getStrategyHintAnswerLeak(question, clue) {
   const correct = normalizeStrategyHintText(question.choices[question.correct]);
   const clueText = normalizeStrategyHintText(clue);
   if (!correct || !clueText) return false;
+  if (isGenericHintAnswerText(correct)) return false;
   if (clueText === correct) return true;
   if (correct.length < 2) return false;
   return buildStrategyHintLeakRegExp(correct).test(clueText);
+}
+
+function isGenericHintAnswerText(value) {
+  return new Set([
+    'a', 'an', 'the', 'is', 'are', 'was', 'were', 'has', 'have', 'had',
+    'how', 'why', 'when', 'where', 'who', 'what', 'sentence', 'question',
+    'statement', 'command'
+  ]).has(String(value || ''));
 }
 
 function normalizeStrategyHintText(value) {

@@ -161,6 +161,8 @@
     }
   ];
 
+  const defaultSceneClue = 'Use the rule or sound pattern in the prompt, then test every choice.';
+
   window.GrammarQuestVisualQuestionScenes = {
     applyVisualScenes
   };
@@ -179,7 +181,7 @@
         const sequence = question && question.metadata && question.metadata.sequence;
         if (question.visualScene) return;
         if (setId === 'grammar-sentence-types' && sentenceTypeScenes[sequence]) {
-          question.generatedVisualScene = sentenceTypeScenes[sequence];
+          question.generatedVisualScene = sanitizeSceneClue(question, sentenceTypeScenes[sequence], getSafeFallbackClue(question, profiles[profiles.length - 1]));
           return;
         }
         question.generatedVisualScene = buildAdaptiveScene(setId, set, question, index);
@@ -197,10 +199,10 @@
     const secondLine = getSecondLine(profile, question);
     const moods = getSceneMoods(question, profile);
 
-    return scene(title, setting, profile.board, profile.narration, [
+    return sanitizeSceneClue(question, scene(title, setting, profile.board, profile.narration, [
       line(actors[0], moods[0], firstLine),
       line(actors[1], moods[1], secondLine)
-    ], prompt, getClue(profile, question));
+    ], prompt, getClue(profile, question)), getSafeFallbackClue(question, profile));
   }
 
   function getProfile(setId, set, question) {
@@ -327,8 +329,73 @@
 
   function getClue(profile, question) {
     const definition = question && question.studyAid && question.studyAid.definition;
-    if (definition) return shorten(definition, 88);
+    if (definition) return shorten(stripExampleTail(definition), 88);
     return profile.clue;
+  }
+
+  function sanitizeSceneClue(question, sceneData, fallback) {
+    if (!sceneData || !isSceneClueAnswerLeak(question, sceneData.clue)) return sceneData;
+    const trimmed = stripExampleTail(sceneData.clue);
+    const safeClue = !isSceneClueAnswerLeak(question, trimmed)
+      ? trimmed
+      : fallback || defaultSceneClue;
+    return Object.assign({}, sceneData, {
+      clue: shorten(safeClue, 88)
+    });
+  }
+
+  function getSafeFallbackClue(question, profile) {
+    const prompt = cleanPrompt(question && question.question);
+    if (/same vowel sound|vowel sound|phonics|diphthong/i.test(prompt)) {
+      return 'Listen for the vowel sound named in the prompt, then compare each choice.';
+    }
+    if (/sentence type|declarative|interrogative|imperative|exclamatory/i.test(prompt)) {
+      return 'Decide whether the sentence asks, tells, commands, or shows strong feeling.';
+    }
+    return profile && profile.clue || defaultSceneClue;
+  }
+
+  function stripExampleTail(value) {
+    return String(value || '')
+      .replace(/\s*,?\s+as in\b[\s\S]*$/i, '')
+      .replace(/\s*,?\s+for example\b[\s\S]*$/i, '')
+      .replace(/\s*,?\s+such as\b[\s\S]*$/i, '')
+      .trim();
+  }
+
+  function isSceneClueAnswerLeak(question, clue) {
+    if (!clue || !question || !Array.isArray(question.choices) || !Number.isInteger(question.correct)) return false;
+    const correctText = normalizeSceneLeakText(question.choices[question.correct]);
+    const clueText = normalizeSceneLeakText(clue);
+    if (!correctText || !clueText) return false;
+    if (isGenericSceneAnswerText(correctText)) return false;
+    if (clueText === correctText) return true;
+    if (correctText.length < 2) return false;
+    return buildSceneLeakRegExp(correctText).test(clueText);
+  }
+
+  function isGenericSceneAnswerText(value) {
+    return new Set([
+      'a', 'an', 'the', 'is', 'are', 'was', 'were', 'has', 'have', 'had',
+      'how', 'why', 'when', 'where', 'who', 'what', 'sentence', 'question',
+      'statement', 'command'
+    ]).has(String(value || ''));
+  }
+
+  function normalizeSceneLeakText(value) {
+    return String(value || '')
+      .toLowerCase()
+      .replace(/[“”]/g, '"')
+      .replace(/[‘’]/g, "'")
+      .replace(/[\u2010-\u2015]/g, '-')
+      .replace(/[^a-z0-9'-]+/g, ' ')
+      .trim()
+      .replace(/\s+/g, ' ');
+  }
+
+  function buildSceneLeakRegExp(value) {
+    const escaped = String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`(^|\\s)${escaped}(?=\\s|$)`);
   }
 
   function inferSetting(question, set) {

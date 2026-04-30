@@ -27,6 +27,8 @@
         recentPracticeCount: sessions.filter(session => isRecent(session.completedAt, now)).length,
         accuracy: calculateAccuracy(sessions),
         activeAssignmentCount: assignments.filter(item => ['active', 'in_progress'].includes(item.status)).length,
+        lateAssignmentCount: assignments.filter(item => ['active', 'in_progress'].includes(item.status) && isLate(item, now)).length,
+        assignmentCompletionRate: calculateAssignmentCompletionRate(assignments),
         dueReviewCount: reviewItems.filter(item => isDue(item, now)).length,
         openQuestionReportCount: questionReports.filter(report => !CLOSED_REPORT_STATUSES.has(report.status)).length
       },
@@ -122,6 +124,7 @@
         id: safeString(assignment && assignment.id),
         title: safeString(assignment && assignment.title),
         status: safeString(assignment && assignment.status || 'active'),
+        dueAt: safeString(assignment && assignment.dueAt),
         skillIds: normalizeStringArray(scope.skillIds || assignment && assignment.skillIds),
         assignmentId: safeString(assignment && assignment.id)
       };
@@ -181,6 +184,16 @@
     if (!['queued', 'due', ''].includes(item.status)) return false;
     const due = toTime(item.dueAt);
     return !due || due <= now;
+  }
+
+  function isLate(item, now) {
+    const due = toTime(item.dueAt);
+    return due > 0 && due < now;
+  }
+
+  function calculateAssignmentCompletionRate(assignments) {
+    if (!assignments.length) return 0;
+    return round(assignments.filter(item => item.status === 'completed').length / assignments.length);
   }
 
   function isRecent(value, now) {

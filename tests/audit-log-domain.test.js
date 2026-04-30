@@ -78,3 +78,19 @@ test('question report triage audit events redact report notes and question paylo
   assert.equal(event.metadata.questionText, '[REDACTED]');
   assert.equal(event.metadata.explanation, '[REDACTED]');
 });
+
+test('learner data lifecycle audit events redact backup and tombstone details', () => {
+  const event = audit.buildLearnerDataLifecycleAuditEvent(
+    { id: 'admin-1', role: access.Roles.SYSTEM_ADMIN },
+    'learner_data_deleted',
+    { learnerId: 'learner-1', deletionRequestId: 'delete-1' },
+    { backupEnvelope: { authToken: 'secret' }, tombstone: { learnerId: 'learner-1' } },
+    { id: () => 'audit-delete-1', now: () => '2030-04-29T12:00:00.000Z' }
+  );
+
+  assert.equal(event.action, 'learner_data_deleted');
+  assert.equal(event.resourceType, access.ResourceTypes.LEARNER_PROGRESS);
+  assert.equal(event.resourceId, 'learner-1');
+  assert.equal(JSON.stringify(event).includes('secret'), false);
+  assert.equal(event.metadata.backupEnvelope, '[REDACTED]');
+});

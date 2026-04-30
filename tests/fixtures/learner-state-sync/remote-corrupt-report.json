@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "learnerId": "learner-1",
+  "revision": 3,
+  "updatedAt": "2030-04-30T12:00:00.000Z",
+  "source": "remote-fixture",
+  "state": {
+    "reports": {
+      "questionReports": [
+        {
+          "id": "report-corrupt",
+          "status": "open"
+        }
+      ]
+    }
+  }
+}

@@ -2,10 +2,10 @@
   "caseName": "quiz-feedback",
   "warning": "Screenshot encoding metadata changed while semantic visual summary matched.",
   "screenshotOnlyDrift": true,
-  "byteDelta": 3,
+  "byteDelta": 15,
   "actual": {
-    "screenshotSha256": "6546986071744ad31a3c3476292d35f0e4803682fea956fe160f89b2af2f0966",
-    "screenshotBytes": 253246
+    "screenshotSha256": "329a5bceed2b5964d4a7317e75d8fdb5624d80f0e7ebe1cfef195106ac895790",
+    "screenshotBytes": 253264
   },
   "expected": {
     "screenshotSha256": "01c7a77142d228f5917a031fff64e11eb00f70f5c0e9b718d4f6161c0f0bbcbb",

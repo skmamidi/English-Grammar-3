@@ -1,0 +1,47 @@
+{
+  "student": {
+    "id": "student-user-a",
+    "role": "student",
+    "learnerId": "learner-a"
+  },
+  "guardianLinked": {
+    "id": "guardian-linked",
+    "role": "parent_guardian",
+    "linkedLearnerIds": ["learner-a"]
+  },
+  "guardianUnrelated": {
+    "id": "guardian-unrelated",
+    "role": "parent_guardian",
+    "linkedLearnerIds": ["learner-b"]
+  },
+  "teacherAssigned": {
+    "id": "teacher-assigned",
+    "role": "teacher",
+    "assignedLearnerIds": ["learner-a"],
+    "assignedClassIds": ["class-a"],
+    "classroomProgressTransferEnabled": true
+  },
+  "teacherUnrelated": {
+    "id": "teacher-unrelated",
+    "role": "teacher",
+    "assignedLearnerIds": ["learner-b"],
+    "assignedClassIds": ["class-b"]
+  },
+  "systemAdmin": {
+    "id": "admin-1",
+    "role": "system_admin"
+  },
+  "contentReviewer": {
+    "id": "reviewer-1",
+    "role": "content_reviewer"
+  },
+  "unknownRole": {
+    "id": "unknown-1",
+    "role": "principal"
+  },
+  "parentPreview": {
+    "id": "preview",
+    "role": "",
+    "parentBrowse": true
+  }
+}

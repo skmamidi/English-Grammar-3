@@ -144,6 +144,22 @@ const QUALITY_RULES = [{
     }
   }
 }, {
+  id: 'isolated-word-pattern-cue',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    if (!Array.isArray(question.choices) || !Number.isInteger(question.correct)) return;
+    const cue = getWordPatternCue(question.question);
+    if (!cue) return;
+    const matchingIndexes = question.choices
+      .map((choice, index) => cue.choiceHasCue(choice) ? index : -1)
+      .filter(index => index >= 0);
+    if (matchingIndexes.length === 1 && matchingIndexes[0] === question.correct) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), `Only the correct answer contains the visible cue "${cue.label}", making the word-pattern item too easy to eliminate.`, this.id, getQuestionId(question));
+    }
+  }
+}, {
   id: 'missing-underlined-choice-target',
   defaultSeverity: 'error',
   scope: 'question',
@@ -456,6 +472,34 @@ function normalizeText(value) {
 
 function normalizeChoiceText(value) {
   return String(value || '').trim().replace(/\s+/g, ' ');
+}
+
+function getWordPatternCue(prompt) {
+  const text = String(prompt || '');
+  if (!/\bwhich\s+word\b/i.test(text)) return null;
+  if (/\br-controlled\s+vowel\b/i.test(text)) {
+    return {
+      label: 'r',
+      choiceHasCue: choice => /r/i.test(String(choice || ''))
+    };
+  }
+  const vowelTeam = text.match(/\bvowel\s+team\s+([a-z]{2,})\b/i);
+  if (vowelTeam) {
+    const pattern = vowelTeam[1].toLowerCase();
+    return {
+      label: pattern,
+      choiceHasCue: choice => String(choice || '').toLowerCase().includes(pattern)
+    };
+  }
+  const soundSpelling = text.match(/\buses?\s+([a-z]{2,})\s+to\s+spell\b/i);
+  if (soundSpelling) {
+    const pattern = soundSpelling[1].toLowerCase();
+    return {
+      label: pattern,
+      choiceHasCue: choice => String(choice || '').toLowerCase().includes(pattern)
+    };
+  }
+  return null;
 }
 
 function isChoiceBasedUnderlinedPrompt(prompt) {

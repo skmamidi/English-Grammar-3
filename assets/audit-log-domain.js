@@ -8,7 +8,7 @@
   'use strict';
 
   const REDACTED = '[REDACTED]';
-  const sensitiveKeyPattern = /(private.*key|secret|token|password|credential|learneranswer|selectedchoice|correctchoice|question|choices|explanation|snapshot)/i;
+  const sensitiveKeyPattern = /(private.*key|secret|token|password|credential|backupEnvelope|learneranswer|selectedchoice|correctchoice|question|choices|explanation|snapshot)/i;
 
   function buildAuditEvent(actor, action, resource, metadata = {}, options = {}) {
     const normalizedActor = normalizeActor(actor);
@@ -25,6 +25,13 @@
       createdAt: String(now() || ''),
       metadata: sanitizeAuditMetadata(metadata)
     };
+  }
+
+  function buildLearnerDataLifecycleAuditEvent(actor, action, resource, metadata = {}, options = {}) {
+    return buildAuditEvent(actor, action, {
+      type: 'learnerProgress',
+      id: resource && resource.learnerId || resource && resource.id || '',
+    }, metadata, options);
   }
 
   function sanitizeAuditMetadata(metadata) {
@@ -70,6 +77,7 @@
 
   return {
     buildAuditEvent,
+    buildLearnerDataLifecycleAuditEvent,
     canUseSupportAccess,
     sanitizeAuditMetadata,
     validateAuditEvent

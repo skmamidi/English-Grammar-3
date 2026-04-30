@@ -3,16 +3,20 @@
 
   const domain = root.GrammarQuestLearnerProgressTransferDomain ||
     (typeof require === 'function' ? require('./learner-progress-transfer-domain') : null);
-  const api = factory(domain);
+  const syncMigrations = root.GrammarQuestLearnerStateServerMigrations ||
+    (typeof require === 'function' ? require('./learner-state-server-migrations') : null);
+  const lifecycleDomain = root.GrammarQuestLearnerDataLifecycleDomain ||
+    (typeof require === 'function' ? require('./learner-data-lifecycle-domain') : null);
+  const api = factory(domain, syncMigrations, lifecycleDomain);
   if (typeof module === 'object' && module.exports) module.exports = api;
   root.GrammarQuestLearnerProgressTransferService = api;
-})(typeof window !== 'undefined' ? window : globalThis, function (domain) {
+})(typeof window !== 'undefined' ? window : globalThis, function (domain, syncMigrations, lifecycleDomain) {
   'use strict';
 
   function exportLearnerProgress(repository, learnerId, options = {}) {
     const source = repository.getLearnerDashboardSource(learnerId);
     const progress = repository.getProgress();
-    return domain.createProgressExportEnvelope({
+    const envelope = domain.createProgressExportEnvelope({
       learner: { id: learnerId, displayLabel: options.displayLabel || '' },
       includeDisplayLabel: options.includeDisplayLabel === true,
       app: { name: 'Grammar Quest', version: options.appVersion || '', exportedAt: typeof options.now === 'function' ? options.now() : new Date().toISOString() },
@@ -27,6 +31,15 @@
         reviewSchedules: source.reviewSchedules
       }
     });
+    if (options.mode === 'backup') {
+      envelope.backup = {
+        mode: 'backup',
+        createdAt: envelope.app.exportedAt,
+        retention: options.retention || 'standard'
+      };
+      envelope.integrity.digest = domain.digestEnvelope(envelope);
+    }
+    return envelope;
   }
 
   function validateProgressExport(envelope) {
@@ -76,6 +89,56 @@
     });
   }
 
+  function createSyncRecordFromProgressImport(envelope, options = {}) {
+    const validation = validateProgressExport(envelope);
+    if (!validation.valid) throw new Error(`invalid_progress_export:${validation.errors.join(',')}`);
+    if (!syncMigrations || typeof syncMigrations.createLearnerStateServerRecord !== 'function') {
+      throw new Error('learner_state_sync_migrations_unavailable');
+    }
+    const data = envelope.data || {};
+    const state = {
+      streakDays: data.progress && data.progress.streakDays,
+      totalGems: data.progress && data.progress.totalGems,
+      quizzesCompleted: data.progress && data.progress.quizzesCompleted,
+      bestScore: data.progress && data.progress.bestScore,
+      mastery: data.progress && data.progress.mastery,
+      reports: {
+        sessions: data.sessions || [],
+        questionReports: data.questionReports || []
+      },
+      assignments: data.assignments || [],
+      reviewQueue: data.reviewQueue || null,
+      reviewSchedules: data.reviewSchedules || [],
+      activeQuiz: data.activeQuiz || null
+    };
+    return syncMigrations.createLearnerStateServerRecord(options.learnerId || envelope.learner.id, state, {
+      revision: options.revision,
+      now: options.now,
+      source: options.source || 'progress-import'
+    });
+  }
+
+  function previewBackupRestore(envelope, existingState = {}) {
+    const validation = validateProgressExport(envelope);
+    const learnerId = envelope && envelope.learner && envelope.learner.id || '';
+    const tombstone = newestTombstone(existingState.deletionTombstones, learnerId);
+    const restore = lifecycleDomain && lifecycleDomain.canRestoreBackup
+      ? lifecycleDomain.canRestoreBackup({
+          backupExportedAt: envelope && envelope.app && envelope.app.exportedAt,
+          tombstone
+        })
+      : { allowed: validation.valid, warnings: [] };
+    return {
+      valid: validation.valid,
+      allowed: validation.valid && restore.allowed,
+      warnings: validation.errors.concat(restore.warnings || []),
+      counts: {
+        sessions: envelope && envelope.data && Array.isArray(envelope.data.sessions) ? envelope.data.sessions.length : 0,
+        reports: envelope && envelope.data && Array.isArray(envelope.data.questionReports) ? envelope.data.questionReports.length : 0
+      }
+    };
+  }
+
   function collectConflicts(type, incoming, existing, conflicts) {
     const existingIds = new Set((Array.isArray(existing) ? existing : []).map(item => item && item.id).filter(Boolean));
     (Array.isArray(incoming) ? incoming : []).forEach(item => {
@@ -94,5 +157,19 @@
     return Array.from(byId.values());
   }
 
-  return { applyProgressImport, createProgressExportEnvelope: domain.createProgressExportEnvelope, exportLearnerProgress, previewProgressImport, validateProgressExport };
+  function newestTombstone(tombstones, learnerId) {
+    return (Array.isArray(tombstones) ? tombstones : [])
+      .filter(tombstone => !learnerId || tombstone.learnerId === learnerId)
+      .sort((a, b) => (Date.parse(b.deletedAt) || 0) - (Date.parse(a.deletedAt) || 0))[0] || null;
+  }
+
+  return {
+    applyProgressImport,
+    createProgressExportEnvelope: domain.createProgressExportEnvelope,
+    createSyncRecordFromProgressImport,
+    exportLearnerProgress,
+    previewBackupRestore,
+    previewProgressImport,
+    validateProgressExport
+  };
 });

@@ -18,6 +18,10 @@
     (typeof require === 'function' ? require('./question-report-domain') : null);
   const syncDomain = root.GrammarQuestLearnerStateSyncDomain ||
     (typeof require === 'function' ? require('./learner-state-sync-domain') : null);
+  const syncMigrations = root.GrammarQuestLearnerStateServerMigrations ||
+    (typeof require === 'function' ? require('./learner-state-server-migrations') : null);
+  const lifecycleDomain = root.GrammarQuestLearnerDataLifecycleDomain ||
+    (typeof require === 'function' ? require('./learner-data-lifecycle-domain') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
@@ -57,8 +61,14 @@
         const localState = getProgress();
         const remoteRecord = await syncAdapter.readLearnerState(learnerId);
         if (!remoteRecord) return await writeSyncState(localState, 0, 'pushed');
-        const remote = normalizeSyncRecord(remoteRecord);
-        const merged = mergeSyncStates(localState, remote.state);
+        const remote = migrateSyncRecord(remoteRecord);
+        const mergedResult = mergeSyncRecords({
+          learnerId,
+          revision: syncStatus.revision,
+          updatedAt: localState.lastUpdatedAt,
+          state: localState
+        }, remote, { now });
+        const merged = mergedResult.state;
         adapter.write(merged);
         return await writeSyncState(merged, remote.revision, 'merged');
       } catch (error) {
@@ -267,6 +277,80 @@
       }).reviewQueue;
     }
 
+    function requestLearnerDataDeletion(input) {
+      const request = lifecycleDomain.createLearnerDataDeletionRequest(input, {
+        now,
+        id: () => `delete_${now().replace(/[^0-9]/g, '')}`
+      });
+      updateProgress(progress => {
+        progress.deletionRequests = [request].concat(progress.deletionRequests || []);
+        return progress;
+      });
+      return request;
+    }
+
+    function approveLearnerDataDeletion(deletionRequestId, actor) {
+      let approved = null;
+      updateProgress(progress => {
+        progress.deletionRequests = (progress.deletionRequests || []).map(request => {
+          if (request.deletionRequestId !== deletionRequestId) return request;
+          approved = lifecycleDomain.approveLearnerDataDeletion(request, actor, { now });
+          return approved;
+        });
+        if (!approved) throw new Error(`learner_data_deletion_request_not_found:${deletionRequestId}`);
+        return progress;
+      });
+      return approved;
+    }
+
+    function deleteLearnerState(deletionRequestId) {
+      const state = getProgress();
+      const request = (state.deletionRequests || []).find(item => item.deletionRequestId === deletionRequestId);
+      if (!request) throw new Error(`learner_data_deletion_request_not_found:${deletionRequestId}`);
+      const completed = lifecycleDomain.completeLearnerDataDeletion(request, { now });
+      const next = normalizeLearnerState({
+        deletionRequests: [completed].concat((state.deletionRequests || []).filter(item => item.deletionRequestId !== deletionRequestId)),
+        deletionTombstones: [completed.tombstone].concat(state.deletionTombstones || []),
+        lastUpdatedAt: now()
+      });
+      adapter.write(next);
+      return completed;
+    }
+
+    function writeDeletionTombstone(tombstone) {
+      const normalized = lifecycleDomain.createDeletionTombstone(tombstone, { now });
+      updateProgress(progress => {
+        progress.deletionTombstones = [normalized].concat(progress.deletionTombstones || []);
+        return progress;
+      });
+      return normalized;
+    }
+
+    function listDeletionRequests() {
+      return getProgress().deletionRequests;
+    }
+
+    function restoreLearnerStateFromBackup(envelope, options = {}) {
+      const backupExportedAt = envelope && envelope.app && envelope.app.exportedAt || envelope && envelope.backup && envelope.backup.createdAt;
+      const tombstone = newestTombstone(getProgress().deletionTombstones, options.learnerId || envelope && envelope.learner && envelope.learner.id || 'learner-1');
+      const restore = lifecycleDomain.canRestoreBackup({ backupExportedAt, tombstone });
+      const result = Object.assign({ valid: true }, restore);
+      if (!result.allowed || options.preview === true) return result;
+      if (options.confirm !== true) throw new Error('learner_data_restore_requires_confirmation');
+      const data = envelope && envelope.data || {};
+      const progress = Object.assign({}, data.progress || {}, {
+        reports: { sessions: data.sessions || [], questionReports: data.questionReports || [] },
+        assignments: data.assignments || [],
+        reviewQueue: data.reviewQueue || null,
+        reviewSchedules: data.reviewSchedules || [],
+        activeQuiz: data.activeQuiz || null,
+        deletionTombstones: getProgress().deletionTombstones,
+        deletionRequests: getProgress().deletionRequests
+      });
+      saveProgress(progress);
+      return result;
+    }
+
     return {
       appendSavedSession,
       archiveAssignment,
@@ -286,6 +370,12 @@
       markAssignmentStarted,
       markReviewItemMastered,
       markReviewItemSeen,
+      requestLearnerDataDeletion,
+      approveLearnerDataDeletion,
+      deleteLearnerState,
+      writeDeletionTombstone,
+      listDeletionRequests,
+      restoreLearnerStateFromBackup,
       reconcileSync,
       saveActiveQuiz,
       saveProgress,
@@ -423,6 +513,20 @@
     };
   }
 
+  function migrateSyncRecord(record) {
+    if (syncMigrations && typeof syncMigrations.migrateLearnerStateServerRecord === 'function') {
+      return syncMigrations.migrateLearnerStateServerRecord(record);
+    }
+    return normalizeSyncRecord(record);
+  }
+
+  function mergeSyncRecords(localRecord, remoteRecord, options = {}) {
+    if (syncDomain && typeof syncDomain.mergeLearnerStateRecords === 'function') {
+      return syncDomain.mergeLearnerStateRecords(localRecord, remoteRecord, options);
+    }
+    return { state: mergeSyncStates(localRecord.state, remoteRecord.state), conflicts: [], warnings: [] };
+  }
+
   function mergeSyncStates(localState, remoteState) {
     if (syncDomain && typeof syncDomain.mergeLearnerStates === 'function') return syncDomain.mergeLearnerStates(localState, remoteState);
     return normalizeLearnerState(Object.assign({}, localState || {}, remoteState || {}));
@@ -452,8 +556,28 @@
       reviewQueue: normalizeReviewQueue(input.reviewQueue),
       reviewSchedules: normalizeReviewSchedules(input.reviewSchedules),
       mastery: normalizeMastery(input.mastery),
+      deletionRequests: normalizeDeletionRequests(input.deletionRequests),
+      deletionTombstones: normalizeDeletionTombstones(input.deletionTombstones),
       lastUpdatedAt: input.lastUpdatedAt || ''
     };
+  }
+
+  function normalizeDeletionRequests(requests) {
+    return (Array.isArray(requests) ? requests : [])
+      .map(request => lifecycleDomain && lifecycleDomain.normalizeDeletionRequest ? lifecycleDomain.normalizeDeletionRequest(request) : request)
+      .filter(request => request && request.deletionRequestId);
+  }
+
+  function normalizeDeletionTombstones(tombstones) {
+    return (Array.isArray(tombstones) ? tombstones : [])
+      .map(tombstone => lifecycleDomain && lifecycleDomain.createDeletionTombstone ? lifecycleDomain.createDeletionTombstone(tombstone) : tombstone)
+      .filter(tombstone => tombstone && tombstone.learnerId && tombstone.deletedAt);
+  }
+
+  function newestTombstone(tombstones, learnerId) {
+    return normalizeDeletionTombstones(tombstones)
+      .filter(tombstone => !learnerId || tombstone.learnerId === learnerId)
+      .sort((a, b) => (Date.parse(b.deletedAt) || 0) - (Date.parse(a.deletedAt) || 0))[0] || null;
   }
 
   function buildLearnerDashboardSource(state, learnerId) {

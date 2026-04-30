@@ -684,6 +684,14 @@ async function main() {
       await page.close();
     });
 
+    await runCase(failures, 'fresh quiz start is not converted into resume prompt', async () => {
+      const page = await newPage(browser, browserTracker);
+      const file = 'topics/capitalization/subtopics/proper-names-titles.html';
+      await visitClean(page, server.baseURL, file);
+      await assertFreshQuizStartStaysInQuestion(page, file);
+      await page.close();
+    });
+
     await runCase(failures, 'active quiz resume falls back to snapshots when refs cannot load', async () => {
       const page = await newPage(browser, browserTracker);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
@@ -1409,6 +1417,23 @@ async function assertLoaderBackedResume(page, file) {
   assert.ok(resumed.activeQuiz.questionRefs[0].id.startsWith('capitalization-proper-names-titles-q'));
   assert.equal(resumed.activeQuiz.schemaVersion, 2);
   assert.equal(resumed.activeQuiz.questions, undefined);
+}
+
+async function assertFreshQuizStartStaysInQuestion(page, file) {
+  await assertVisible(page, '#start-btn', file);
+  await page.click('#start-btn');
+  await assertVisible(page, '.question-box', `${file} started question`);
+
+  const activeQuizAfterStart = await page.evaluate(() => {
+    return JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').activeQuiz || null;
+  });
+  assert.equal(activeQuizAfterStart, null, `${file} should not save a resumable quiz before the first answer`);
+
+  await page.evaluate(() => {
+    window.dispatchEvent(new CustomEvent('grammarquest:parent-browse', { detail: {} }));
+  });
+  await assertVisible(page, '.question-box', `${file} question remains after auth refresh`);
+  assert.equal(await exists(page, '#resume-quiz-btn'), false, `${file} should not show resume prompt for a fresh start`);
 }
 
 async function assertSnapshotFallbackResume(page, file, options) {

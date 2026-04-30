@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "learnerId": "learner-1",
+  "revision": 2,
+  "updatedAt": "2030-04-29T12:00:00.000Z",
+  "source": "local-fixture",
+  "state": {
+    "totalGems": 4,
+    "reports": {
+      "sessions": [
+        {
+          "id": "session-local",
+          "completedAt": "2030-04-29T12:00:00.000Z"
+        }
+      ],
+      "questionReports": [
+        {
+          "id": "report-local",
+          "questionId": "grammar-q0001",
+          "status": "open",
+          "updatedAt": "2030-04-29T12:00:00.000Z"
+        }
+      ]
+    }
+  }
+}

@@ -359,6 +359,19 @@ test('content QA warns for placeholders, whitespace, weak explanations, and long
   assertIssue(result.warnings, 'overlong-choice');
 });
 
+test('content QA can emit deterministic explanation review candidates', () => {
+  const result = validateContent();
+  const candidate = validateLoadedContent(result.bankLoad, { explanationReviewCandidates: true })
+    .explanationReviewCandidates
+    .find(item => item.signals.some(signal => signal.type === 'weak-explanation-rationale'));
+
+  assert.ok(candidate, 'expected weak explanation QA candidate');
+  assert.ok(candidate.questionIdentity.questionId);
+  assert.match(candidate.sourceLocation.file, /^assets\/question-bank-source\//);
+  assert.match(candidate.sourceLocation.jsonPointer, /^\/sets\/.+\/questions\/\d+\/explanation$/);
+  assert.equal(JSON.stringify(candidate).includes('"question"'), false);
+});
+
 function makeQuestion(id, sourceSet, sequence, overrides = {}) {
   return Object.assign({
     id,

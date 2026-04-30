@@ -35,6 +35,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['test:a11y'], 'node tests/accessibility-smoke.spec.js');
   assert.equal(pkg.scripts['test:offline'], 'node tests/offline-smoke.spec.js');
   assert.equal(pkg.scripts['test:visual'], 'node tests/visual-regression.spec.js');
+  assert.equal(pkg.scripts['test:api:perf'], 'STRICT_PERF_BUDGETS=1 node --test tests/question-selection-api-budget.test.js');
   assert.match(pkg.scripts['test:unit'], /tests\/access-control\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/guardian-access\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/system-admin-access\.test\.js/);
@@ -87,10 +88,13 @@ test('ui smoke runner has deterministic teardown guards', () => {
   const smoke = fs.readFileSync(path.join(repoRoot, 'tests', 'ui-smoke.spec.js'), 'utf8');
   const helper = fs.readFileSync(path.join(repoRoot, 'tests', 'helpers', 'smoke-runner.js'), 'utf8');
 
-  assert.match(smoke, /closeOpenPages/);
-  assert.match(smoke, /withTimeout\(browser\.close\(\),\s*5000,\s*['"]browser\.close['"]\)/);
+  assert.match(smoke, /createBrowserResourceTracker/);
+  assert.match(smoke, /closeTrackedPagesAndContexts\(browserTracker,\s*3000\)/);
+  assert.match(smoke, /closeBrowserWithDiagnostics\(browser,\s*browserTracker,\s*5000\)/);
   assert.match(smoke, /closeServerWithTimeout\(server,\s*sockets,\s*3000\)/);
   assert.match(helper, /clearTimeout\(timeoutId\)/);
+  assert.match(helper, /openContextCount/);
+  assert.match(helper, /pageUrls/);
   assert.match(helper, /closeAllConnections/);
   assert.match(helper, /socket\.destroy\(\)/);
   assert.doesNotMatch(smoke, /process\.exit\(0\)\s*;\s*\/\//);
@@ -277,6 +281,7 @@ test('release checklist documents full gates and generated artifact freshness', 
   assert.match(checklist, /npm run test:fast/);
   assert.match(checklist, /npm run test:browser/);
   assert.match(checklist, /npm run test:full/);
+  assert.match(checklist, /npm run test:api:perf/);
   assert.match(checklist, /scheduled full regression/i);
   assert.match(checklist, /telemetry/i);
   assert.match(checklist, /fallback/i);

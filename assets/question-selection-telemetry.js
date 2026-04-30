@@ -19,7 +19,9 @@
     'grammarquest:review-queue-generated',
     'grammarquest:review-item-stale-ref',
     'grammarquest:review-quiz-started',
-    'grammarquest:review-quiz-completed'
+    'grammarquest:review-quiz-completed',
+    'grammarquest:weak-skill-recommendations-generated',
+    'grammarquest:weak-skill-recommendation-clicked'
   ];
 
   const EVENT_MAP = {
@@ -30,7 +32,9 @@
     'grammarquest:review-queue-generated': 'review.queue_generated',
     'grammarquest:review-item-stale-ref': 'review.item_stale_ref',
     'grammarquest:review-quiz-started': 'review.quiz_started',
-    'grammarquest:review-quiz-completed': 'review.quiz_completed'
+    'grammarquest:review-quiz-completed': 'review.quiz_completed',
+    'grammarquest:weak-skill-recommendations-generated': 'recommendation.generated',
+    'grammarquest:weak-skill-recommendation-clicked': 'recommendation.clicked'
   };
 
   const UNSAFE_TELEMETRY_FIELDS = [
@@ -64,6 +68,18 @@
     const hydrateLatencyMs = safeNonNegativeNumber(input.hydrateMs || input.hydrateLatencyMs);
     const policyVersion = safeNonNegativeInt(input.selectionPolicyVersion || input.policyVersion);
     const now = typeof options.now === 'function' ? options.now : () => new Date();
+    if (normalizedEventName.startsWith('recommendation.')) {
+      return {
+        event: normalizedEventName,
+        eventName: normalizedEventName,
+        eventVersion: 1,
+        occurredAt: safeIsoTimestamp(input.occurredAt) || now().toISOString(),
+        recommendationCount: safeNonNegativeInt(input.recommendationCount),
+        reasonCode: safeRecommendationReason(input.reasonCode),
+        skillId: safeSkillId(input.skillId),
+        targetType: safeRecommendationTarget(input.targetType)
+      };
+    }
     const normalized = {
       event: normalizedEventName,
       eventName: normalizedEventName,
@@ -199,6 +215,21 @@
   function safeReviewSource(value) {
     const source = safeString(value);
     return source === 'review' ? source : safeSource(source);
+  }
+
+  function safeRecommendationReason(value) {
+    const reason = safeString(value);
+    return /^[a-z0-9_-]+$/.test(reason) ? reason : '';
+  }
+
+  function safeSkillId(value) {
+    const skillId = safeString(value);
+    return /^[a-z0-9.-]+$/.test(skillId) ? skillId : '';
+  }
+
+  function safeRecommendationTarget(value) {
+    const targetType = safeString(value);
+    return ['subtopic', 'assignment', 'review', 'practice-plan', 'dashboard'].includes(targetType) ? targetType : '';
   }
 
   function safeNonNegativeInt(value) {

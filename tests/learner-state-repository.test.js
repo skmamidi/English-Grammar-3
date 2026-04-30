@@ -177,6 +177,52 @@ test('learner state repository upserts question reports without conflating repor
   assert.equal(report.questionId, 'grammar-sentence-types-q0001');
 });
 
+test('learner state repository lists and transitions question reports', () => {
+  const repository = createRepository();
+  repository.upsertQuestionReport({
+    id: 'report-1',
+    questionId: 'grammar-sentence-types-q0001',
+    learnerId: 'learner-1',
+    status: 'open'
+  });
+
+  assert.equal(repository.listQuestionReports({ status: 'open' }).length, 1);
+  assert.equal(repository.getQuestionReport('report-1').questionIdentity.questionId, 'grammar-sentence-types-q0001');
+
+  const transitioned = repository.transitionQuestionReport('report-1', {
+    type: 'assign',
+    assignedTo: 'reviewer-1',
+    actor: { id: 'teacher-1', role: 'teacher', capabilities: ['question-report:triage', 'question-report:assign'] }
+  });
+
+  assert.equal(transitioned.status, 'assigned');
+});
+
+test('learner state repository returns normalized dashboard sources without question payloads', () => {
+  const repository = createRepository();
+  repository.saveProgress({
+    reports: {
+      sessions: [{
+        id: 'session-1',
+        studentId: 'learner-1',
+        attempts: [{ questionId: 'grammar-q0001', correct: true, question: 'raw prompt' }]
+      }],
+      questionReports: [{ id: 'report-1', learnerId: 'learner-1', questionId: 'grammar-q0001', status: 'open', answer: 'raw answer' }]
+    },
+    assignments: [{ id: 'assignment-1', status: 'active', assignedTo: { learnerIds: ['learner-1'] } }],
+    reviewQueue: { queueId: 'review-1', items: [{ questionRef: { id: 'grammar-q0001' }, dueAt: '2030-04-29T12:00:00.000Z' }] }
+  });
+
+  const source = repository.getLearnerDashboardSource('learner-1');
+
+  assert.equal(source.learner.id, 'learner-1');
+  assert.equal(source.sessions.length, 1);
+  assert.equal(source.assignments.length, 1);
+  assert.equal(source.questionReports.length, 1);
+  assert.equal(JSON.stringify(source).includes('raw prompt'), false);
+  assert.equal(JSON.stringify(source).includes('raw answer'), false);
+});
+
 test('learner state repository saves and clears active quiz refs atomically', () => {
   const repository = createRepository();
   repository.saveActiveQuiz({

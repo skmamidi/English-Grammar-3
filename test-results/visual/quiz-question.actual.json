@@ -1,0 +1,59 @@
+{
+  "name": "quiz-question",
+  "file": "topics/grammar/subtopics/sentence-types.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.117",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
+  "screenshotSha256": "e3ce029406402300f127cd9a7a388420114cab145664a2ed201827035fb54754",
+  "screenshotBytes": 230794,
+  "summary": {
+    "title": "Sentence Types",
+    "bodyTextHash": "-1749641716",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← Back to Topic",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "Question 1 of 15 0 day streak 0 gems Combo 0 Score: 0 / 0 Math Book Moment QUESTION After correct punctuation is added, what type is the math book sentence? Test the word job insid",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 87,
+          "width": 1032,
+          "height": 949
+        }
+      },
+      {
+        "selector": ".question-box",
+        "text": "Math Book Moment QUESTION After correct punctuation is added, what type is the math book sentence? Test the word job inside... What type is this sentence after correct punctuation.",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 146,
+          "width": 1032,
+          "height": 867
+        }
+      }
+    ]
+  }
+}

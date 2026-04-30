@@ -21,6 +21,19 @@
     resumeOwnQuiz: 'resumeOwnQuiz',
     viewLinkedLearnerReports: 'viewLinkedLearnerReports',
     viewAssignedLearnerReports: 'viewAssignedLearnerReports',
+    viewLinkedLearnerDashboard: 'dashboard:view-linked-learner',
+    viewAssignedLearnerDashboard: 'dashboard:view-assigned-learner',
+    viewClassDashboardSummary: 'dashboard:view-class-summary',
+    triageQuestionReport: 'question-report:triage',
+    assignQuestionReport: 'question-report:assign',
+    resolveQuestionReport: 'question-report:resolve',
+    viewOwnQuestionReportStatus: 'question-report:view-own-status',
+    exportOwnLearnerProgress: 'learner-progress:export-own',
+    exportLinkedLearnerProgress: 'learner-progress:export-linked',
+    exportAssignedLearnerProgress: 'learner-progress:export-assigned',
+    importOwnLearnerProgress: 'learner-progress:import-own',
+    importLinkedLearnerProgress: 'learner-progress:import-linked',
+    importAssignedLearnerProgress: 'learner-progress:import-assigned',
     manageAssignments: 'manageAssignments',
     manageContent: 'manageContent',
     manageUsers: 'manageUsers',
@@ -42,6 +55,7 @@
     SAVED_SESSION: 'savedSession',
     QUESTION_REPORT: 'questionReport',
     ASSIGNMENT: 'assignment',
+    CLASS_SUMMARY: 'classSummary',
     CONTENT_ARTIFACT: 'contentArtifact',
     FEATURE_FLAG: 'featureFlag',
     AUDIT_LOG: 'auditLog',
@@ -53,15 +67,28 @@
       Capabilities.takeQuiz,
       Capabilities.viewAssignments,
       Capabilities.viewOwnProgress,
-      Capabilities.resumeOwnQuiz
+      Capabilities.resumeOwnQuiz,
+      Capabilities.exportOwnLearnerProgress,
+      Capabilities.importOwnLearnerProgress
     ]),
     [Roles.PARENT_GUARDIAN]: Object.freeze([
       Capabilities.viewAssignments,
-      Capabilities.viewLinkedLearnerReports
+      Capabilities.viewLinkedLearnerReports,
+      Capabilities.viewLinkedLearnerDashboard,
+      Capabilities.viewOwnQuestionReportStatus,
+      Capabilities.exportLinkedLearnerProgress,
+      Capabilities.importLinkedLearnerProgress
     ]),
     [Roles.TEACHER]: Object.freeze([
       Capabilities.viewAssignments,
       Capabilities.viewAssignedLearnerReports,
+      Capabilities.viewAssignedLearnerDashboard,
+      Capabilities.viewClassDashboardSummary,
+      Capabilities.triageQuestionReport,
+      Capabilities.assignQuestionReport,
+      Capabilities.resolveQuestionReport,
+      Capabilities.exportAssignedLearnerProgress,
+      Capabilities.importAssignedLearnerProgress,
       Capabilities.manageAssignments
     ]),
     [Roles.SYSTEM_ADMIN]: Object.freeze([
@@ -91,7 +118,8 @@
       learnerId: safeString(input.learnerId),
       linkedLearnerIds: normalizeIdList(input.linkedLearnerIds),
       assignedLearnerIds: normalizeIdList(input.assignedLearnerIds),
-      assignedClassIds: normalizeIdList(input.assignedClassIds)
+      assignedClassIds: normalizeIdList(input.assignedClassIds),
+      classroomProgressTransferEnabled: input.classroomProgressTransferEnabled === true
     };
   }
 
@@ -178,6 +206,14 @@
     return canAccess(normalized, Capabilities.viewAssignments, resource);
   }
 
+  function canViewLearnerDashboard(actor, learnerId) {
+    const normalized = normalizeActor(actor);
+    const resource = { type: ResourceTypes.LEARNER_PROGRESS, learnerId };
+    return canAccess(normalized, Capabilities.viewOwnProgress, resource)
+      || canAccess(normalized, Capabilities.viewLinkedLearnerDashboard, resource)
+      || canAccess(normalized, Capabilities.viewAssignedLearnerDashboard, resource);
+  }
+
   function canOpenParentPreview(mode) {
     if (mode === 'parentBrowse' || mode === 'parent_preview') return true;
     const input = mode && typeof mode === 'object' ? mode : {};
@@ -210,6 +246,9 @@
     if (action === Capabilities.viewOwnProgress) {
       return resource.type === ResourceTypes.LEARNER_PROGRESS && sameId(actor.learnerId, resource.learnerId);
     }
+    if ([Capabilities.exportOwnLearnerProgress, Capabilities.importOwnLearnerProgress].includes(action)) {
+      return resource.type === ResourceTypes.LEARNER_PROGRESS && sameId(actor.learnerId, resource.learnerId);
+    }
     if (action === Capabilities.resumeOwnQuiz) {
       return resource.type === ResourceTypes.ACTIVE_QUIZ && sameId(actor.learnerId, resource.ownerLearnerId);
     }
@@ -220,7 +259,13 @@
     if (action === Capabilities.viewAssignments) {
       return resource.type === ResourceTypes.ASSIGNMENT && actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
     }
-    if (action !== Capabilities.viewLinkedLearnerReports) return false;
+    if (action === Capabilities.viewOwnQuestionReportStatus) {
+      return resource.type === ResourceTypes.QUESTION_REPORT && actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
+    }
+    if ([Capabilities.exportLinkedLearnerProgress, Capabilities.importLinkedLearnerProgress].includes(action)) {
+      return resource.type === ResourceTypes.LEARNER_PROGRESS && actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
+    }
+    if (![Capabilities.viewLinkedLearnerReports, Capabilities.viewLinkedLearnerDashboard].includes(action)) return false;
     if (![
       ResourceTypes.LEARNER_PROGRESS,
       ResourceTypes.SAVED_SESSION,
@@ -235,9 +280,20 @@
       return resource.type === ResourceTypes.ASSIGNMENT &&
         (actor.assignedLearnerIds.includes(resource.learnerId) || actor.assignedClassIds.includes(resource.classId));
     }
-    if (action === Capabilities.viewAssignedLearnerReports) {
+    if (action === Capabilities.viewAssignedLearnerReports || action === Capabilities.viewAssignedLearnerDashboard) {
       if (![ResourceTypes.LEARNER_PROGRESS, ResourceTypes.SAVED_SESSION, ResourceTypes.QUESTION_REPORT].includes(resource.type)) return false;
       return actor.assignedLearnerIds.includes(resource.learnerId);
+    }
+    if (action === Capabilities.viewClassDashboardSummary) {
+      return resource.type === ResourceTypes.CLASS_SUMMARY && actor.assignedClassIds.includes(resource.classId);
+    }
+    if ([Capabilities.triageQuestionReport, Capabilities.assignQuestionReport, Capabilities.resolveQuestionReport].includes(action)) {
+      return resource.type === ResourceTypes.QUESTION_REPORT && actor.assignedLearnerIds.includes(resource.learnerId);
+    }
+    if ([Capabilities.exportAssignedLearnerProgress, Capabilities.importAssignedLearnerProgress].includes(action)) {
+      return resource.type === ResourceTypes.LEARNER_PROGRESS &&
+        actor.classroomProgressTransferEnabled === true &&
+        actor.assignedLearnerIds.includes(resource.learnerId);
     }
     if (action === Capabilities.manageAssignments) {
       return resource.type === ResourceTypes.ASSIGNMENT &&
@@ -281,6 +337,7 @@
     canViewLearnerReports,
     canViewQuestionReports,
     canViewAssignments,
+    canViewLearnerDashboard,
     createGuardianActor,
     filterGuardianVisibleReports,
     getRoleCapabilities,

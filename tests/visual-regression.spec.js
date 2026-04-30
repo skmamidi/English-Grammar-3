@@ -33,9 +33,9 @@ const CASES = [
   { name: 'capitalization-topic', file: 'topics/capitalization/index.html' },
   { name: 'grammar-topic', file: 'topics/grammar/index.html' },
   { name: 'subtopic-start', file: 'topics/grammar/subtopics/sentence-types.html', waitFor: '#start-btn' },
-  { name: 'quiz-question', file: 'topics/grammar/subtopics/sentence-types.html', state: startQuiz },
-  { name: 'quiz-feedback', file: 'topics/grammar/subtopics/sentence-types.html', state: answerQuestion },
-  { name: 'quiz-results', file: 'topics/capitalization/subtopics/books-magazines-songs-plays.html', state: finishQuiz },
+  { name: 'quiz-question', file: 'topics/grammar/subtopics/sentence-types.html', state: startQuiz, selectors: ['.app-header', '#quiz-root', '.question-box'] },
+  { name: 'quiz-feedback', file: 'topics/grammar/subtopics/sentence-types.html', state: answerQuestion, selectors: ['.app-header', '#quiz-root', '.question-box'] },
+  { name: 'quiz-results', file: 'topics/capitalization/subtopics/books-magazines-songs-plays.html', state: finishQuiz, selectors: ['.app-header', '#quiz-root', '.results-card', '.results-box'] },
   { name: 'reports', file: 'reports.html' },
   { name: 'parent-preview', file: 'topics/capitalization/subtopics/proper-names-titles.html?parentBrowse=1', waitFor: '#start-btn' },
   { name: 'offline-unavailable', file: 'topics/grammar/subtopics/run-on-sentences.html', state: forceOfflineUnavailable }
@@ -108,8 +108,7 @@ async function toVisualSignature(page, visualCase) {
   await stabilizePage(page);
   const screenshot = await page.screenshot({ fullPage: false });
   const browser = page.context().browser();
-  const summary = await page.evaluate(() => {
-    const selectors = ['.app-header', '.card', '#quiz-root', '#start-btn', '.question-box', '.feedback', '.results-card', '.auth-widget'];
+  const summary = await page.evaluate(selectors => {
     const elements = selectors.map(selector => {
       const element = document.querySelector(selector);
       if (!element) return null;
@@ -126,9 +125,10 @@ async function toVisualSignature(page, visualCase) {
         }
       };
     }).filter(Boolean);
+    const semanticText = elements.map(element => `${element.selector}:${element.text}`).join('\n');
     return {
       title: document.title,
-      bodyTextHash: hashText(document.body.innerText || ''),
+      semanticTextHash: hashText(semanticText),
       elements
     };
 
@@ -139,7 +139,7 @@ async function toVisualSignature(page, visualCase) {
       }
       return String(hash);
     }
-  });
+  }, visualCase.selectors || defaultVisualSelectors());
   const viewport = page.viewportSize();
   const signature = {
     name: visualCase.name,
@@ -160,6 +160,10 @@ async function toVisualSignature(page, visualCase) {
     signature,
     screenshot
   };
+}
+
+function defaultVisualSelectors() {
+  return ['.app-header', '.card', '#quiz-root', '#start-btn', '.question-box', '.feedback', '.results-card', '.auth-widget'];
 }
 
 async function stabilizePage(page) {

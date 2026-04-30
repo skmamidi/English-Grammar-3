@@ -1,7 +1,11 @@
 const assert = require('node:assert/strict');
+const { EventEmitter } = require('node:events');
 const test = require('node:test');
 const {
+  closeBrowserWithDiagnostics,
   closeServerWithTimeout,
+  createBrowserResourceTracker,
+  newTrackedPage,
   runCase,
   withTimeout
 } = require('./helpers/smoke-runner');
@@ -78,9 +82,93 @@ test('server close destroys stuck sockets and reports a bounded timeout', async 
   assert.equal(destroyed, 1);
 });
 
+test('tracked page close drains the owning browser context', async () => {
+  const tracker = createBrowserResourceTracker();
+  const browser = fakeBrowser();
+  const page = await newTrackedPage(browser, { viewport: { width: 390, height: 844 } }, tracker);
+
+  assert.equal(tracker.pages.size, 1);
+  assert.equal(tracker.contexts.size, 1);
+
+  await page.close();
+
+  assert.equal(browser.contexts[0].closed, true);
+  assert.equal(tracker.pages.size, 0);
+  assert.equal(tracker.contexts.size, 0);
+});
+
+test('browser close helper closes remaining contexts before browser.close', async () => {
+  const tracker = createBrowserResourceTracker();
+  const browser = fakeBrowser();
+  await newTrackedPage(browser, {}, tracker);
+
+  await closeBrowserWithDiagnostics(browser, tracker, 50);
+
+  assert.equal(browser.contexts[0].closed, true);
+  assert.equal(browser.closed, true);
+  assert.equal(tracker.pages.size, 0);
+  assert.equal(tracker.contexts.size, 0);
+});
+
+test('browser close timeout includes open page diagnostics', async () => {
+  const tracker = createBrowserResourceTracker();
+  const browser = fakeBrowser({ closeHangs: true });
+  const page = await newTrackedPage(browser, {}, tracker);
+  page._url = 'http://127.0.0.1:4173/topics/grammar/index.html';
+
+  await assert.rejects(
+    closeBrowserWithDiagnostics(browser, tracker, 10),
+    /browser\.close timed out after 10ms; open contexts: 0; open pages: 0; page URLs: http:\/\/127\.0\.0\.1:4173\/topics\/grammar\/index\.html/
+  );
+});
+
 function silentLogger() {
   return {
     log() {},
     error() {}
   };
+}
+
+function fakeBrowser(options = {}) {
+  const browser = {
+    contexts: [],
+    closed: false,
+    async newContext(contextOptions) {
+      const context = new EventEmitter();
+      context.options = contextOptions;
+      context.closed = false;
+      context.pages = [];
+      context.newPage = async () => {
+        const page = new EventEmitter();
+        page._closed = false;
+        page._url = 'about:blank';
+        page.url = () => page._url;
+        page.isClosed = () => page._closed;
+        page.close = async () => {
+          page._closed = true;
+          page.emit('close');
+        };
+        context.pages.push(page);
+        return page;
+      };
+      context.close = async () => {
+        context.closed = true;
+        context.pages.forEach(page => {
+          if (!page._closed) {
+            page._closed = true;
+            page.emit('close');
+          }
+        });
+        context.emit('close');
+      };
+      browser.contexts.push(context);
+      return context;
+    },
+    close() {
+      if (options.closeHangs) return new Promise(() => {});
+      browser.closed = true;
+      return Promise.resolve();
+    }
+  };
+  return browser;
 }

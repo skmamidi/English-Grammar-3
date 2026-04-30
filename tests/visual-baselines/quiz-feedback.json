@@ -15,11 +15,11 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "ecdb94e332ab19fbc304a09ef23420d1ee0dd9283622f44e6bbf338f52c425b8",
-  "screenshotBytes": 259808,
+  "screenshotSha256": "01c7a77142d228f5917a031fff64e11eb00f70f5c0e9b718d4f6161c0f0bbcbb",
+  "screenshotBytes": 253249,
   "summary": {
     "title": "Sentence Types",
-    "bodyTextHash": "475542686",
+    "semanticTextHash": "-773680378",
     "elements": [
       {
         "selector": ".app-header",

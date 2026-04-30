@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question Report Triage</title>
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="container">
+      <a href="index.html" class="logo">English Language Mastery</a>
+      <nav class="header-actions" aria-label="Quick links">
+        <a href="reports.html" class="back-link">Reports</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container reports-shell">
+    <section class="reports-hero">
+      <div>
+        <div class="quest-kicker">Content Review</div>
+        <h1 class="page-title">Question Report Triage</h1>
+        <p class="page-subtitle">Review reported question identity, status, category, priority, and reviewer actions without loading full question banks.</p>
+      </div>
+      <label class="report-filter" for="report-status-filter">Status
+        <select id="report-status-filter">
+          <option value="">All</option>
+          <option value="open">Open</option>
+          <option value="needs_review">Needs review</option>
+          <option value="assigned">Assigned</option>
+          <option value="resolved">Resolved</option>
+          <option value="deferred">Deferred</option>
+          <option value="duplicate">Duplicate</option>
+        </select>
+      </label>
+    </section>
+    <section class="reports-board" id="question-report-triage-root" aria-label="Question report triage"></section>
+  </main>
+  <script src="assets/question-report-domain.js"></script>
+  <script src="assets/learner-state-repository.js"></script>
+  <script src="assets/question-report-triage-ui.js"></script>
+</body>
+</html>

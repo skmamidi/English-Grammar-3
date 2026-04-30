@@ -14,6 +14,8 @@
     (typeof require === 'function' ? require('./adaptive-review-domain') : null);
   const spacedRepetitionDomain = root.GrammarQuestSpacedRepetitionDomain ||
     (typeof require === 'function' ? require('./spaced-repetition-domain') : null);
+  const questionReportDomain = root.GrammarQuestQuestionReportDomain ||
+    (typeof require === 'function' ? require('./question-report-domain') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
@@ -75,6 +77,37 @@
       });
     }
 
+    function listQuestionReports(filters = {}) {
+      const status = String(filters.status || '').trim();
+      const learnerId = String(filters.learnerId || '').trim();
+      return getProgress().reports.questionReports
+        .map(report => normalizeTriageQuestionReport(report))
+        .filter(report => !status || report.status === status)
+        .filter(report => !learnerId || report.learnerId === learnerId);
+    }
+
+    function getQuestionReport(id) {
+      const report = listQuestionReports().find(item => item.id === id);
+      if (!report) throw new Error(`question_report_not_found:${id}`);
+      return report;
+    }
+
+    function transitionQuestionReport(id, transition) {
+      let updated = null;
+      updateProgress(progress => {
+        const reports = normalizeReports(progress.reports);
+        reports.questionReports = reports.questionReports.map(report => {
+          if (!report || report.id !== id) return report;
+          updated = applyQuestionReportTransition(report, transition);
+          return updated;
+        });
+        if (!updated) throw new Error(`question_report_not_found:${id}`);
+        progress.reports = normalizeReports(reports);
+        return progress;
+      });
+      return normalizeTriageQuestionReport(updated);
+    }
+
     function listAssignments() {
       return getProgress().assignments;
     }
@@ -123,6 +156,15 @@
       return getProgress().reviewSchedules;
     }
 
+    function getLearnerDashboardSource(learnerId) {
+      const state = getProgress();
+      return buildLearnerDashboardSource(state, learnerId);
+    }
+
+    function listLearnerDashboardSources(learnerIds) {
+      return normalizeStringArray(learnerIds).map(getLearnerDashboardSource);
+    }
+
     function saveReviewSchedules(schedules) {
       return updateProgress(progress => {
         progress.reviewSchedules = normalizeReviewSchedules(schedules);
@@ -165,9 +207,13 @@
       clearActiveQuiz,
       getActiveQuiz,
       getProgress,
+      getLearnerDashboardSource,
+      getQuestionReport,
       getReviewSchedules,
       getReviewQueue,
+      listLearnerDashboardSources,
       listAssignments,
+      listQuestionReports,
       markAssignmentCompleted,
       markAssignmentStarted,
       markReviewItemMastered,
@@ -176,6 +222,7 @@
       saveProgress,
       saveReviewSchedules,
       saveReviewQueue,
+      transitionQuestionReport,
       updateReviewSchedules,
       updateProgress,
       upsertAssignment,
@@ -312,6 +359,81 @@
       reviewSchedules: normalizeReviewSchedules(input.reviewSchedules),
       mastery: normalizeMastery(input.mastery),
       lastUpdatedAt: input.lastUpdatedAt || ''
+    };
+  }
+
+  function buildLearnerDashboardSource(state, learnerId) {
+    const normalized = normalizeLearnerState(state);
+    const id = String(learnerId || 'current-learner');
+    const sessions = normalized.reports.sessions
+      .filter(session => belongsToLearner(session, id))
+      .map(sanitizeSessionForDashboard);
+    const questionReports = normalized.reports.questionReports
+      .filter(report => belongsToLearner(report, id))
+      .map(sanitizeQuestionReportForDashboard);
+    const assignments = normalized.assignments
+      .filter(assignment => assignmentBelongsToLearner(assignment, id))
+      .map(sanitizeAssignmentForDashboard);
+    return {
+      learner: { id },
+      sessions,
+      assignments,
+      reviewQueue: normalized.reviewQueue,
+      reviewSchedules: normalized.reviewSchedules,
+      questionReports,
+      mastery: normalized.mastery
+    };
+  }
+
+  function belongsToLearner(record, learnerId) {
+    const owner = record && (record.learnerId || record.studentId || record.ownerLearnerId);
+    return !owner || owner === learnerId;
+  }
+
+  function assignmentBelongsToLearner(assignment, learnerId) {
+    const assignedTo = assignment && assignment.assignedTo || {};
+    const learnerIds = normalizeStringArray(assignedTo.learnerIds);
+    return !learnerIds.length || learnerIds.includes(learnerId);
+  }
+
+  function sanitizeSessionForDashboard(session) {
+    return {
+      id: String(session.id || ''),
+      learnerId: String(session.learnerId || session.studentId || ''),
+      completedAt: String(session.completedAt || ''),
+      attempts: (Array.isArray(session.attempts) ? session.attempts : []).map(attempt => ({
+        questionId: String(attempt.questionId || attempt.id || ''),
+        questionVersion: Number(attempt.questionVersion) || 0,
+        questionHash: String(attempt.questionHash || attempt.contentHash || ''),
+        correct: attempt.correct === true,
+        skillIds: normalizeStringArray(attempt.skillIds),
+        standardIds: normalizeStringArray(attempt.standardIds)
+      }))
+    };
+  }
+
+  function sanitizeQuestionReportForDashboard(report) {
+    return {
+      id: String(report.id || ''),
+      learnerId: String(report.learnerId || report.studentId || report.ownerLearnerId || ''),
+      questionId: String(report.questionId || ''),
+      questionVersion: Number(report.questionVersion) || 0,
+      questionHash: String(report.questionHash || report.contentHash || ''),
+      status: String(report.status || 'open'),
+      category: String(report.category || 'other'),
+      createdAt: String(report.createdAt || ''),
+      updatedAt: String(report.updatedAt || '')
+    };
+  }
+
+  function sanitizeAssignmentForDashboard(assignment) {
+    return {
+      id: String(assignment.id || ''),
+      title: String(assignment.title || ''),
+      status: String(assignment.status || 'active'),
+      assignedTo: assignment.assignedTo || {},
+      scope: assignment.scope || {},
+      dueAt: String(assignment.dueAt || '')
     };
   }
 
@@ -553,6 +675,23 @@
     });
   }
 
+  function normalizeTriageQuestionReport(report) {
+    return questionReportDomain && typeof questionReportDomain.normalizeQuestionReport === 'function'
+      ? questionReportDomain.normalizeQuestionReport(report)
+      : normalizeQuestionReport(report);
+  }
+
+  function applyQuestionReportTransition(report, transition = {}) {
+    if (!questionReportDomain) return report;
+    const options = Object.assign({}, transition, { now: transition.now || new Date().toISOString() });
+    if (transition.type === 'assign') return questionReportDomain.assignQuestionReport(report, options);
+    if (transition.type === 'resolve') return questionReportDomain.resolveQuestionReport(report, options);
+    if (transition.type === 'duplicate') return questionReportDomain.markDuplicateQuestionReport(report, options);
+    if (transition.type === 'defer') return questionReportDomain.deferQuestionReport(report, options);
+    if (transition.type === 'reopen') return questionReportDomain.reopenQuestionReport(report, options);
+    throw new Error(`unknown_question_report_transition:${transition.type || ''}`);
+  }
+
   function getReportQuestionId(report) {
     if (report.questionId) return String(report.questionId);
     if (looksLikeStableQuestionId(report.id)) return String(report.id);
@@ -612,6 +751,7 @@
     normalizeReports,
     normalizeActiveQuiz,
     normalizeQuestionReport,
+    buildLearnerDashboardSource,
     normalizeReviewQueue,
     normalizeReviewSchedules
   };

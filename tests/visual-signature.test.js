@@ -6,6 +6,7 @@ const test = require('node:test');
 
 const {
   assertVisualSignatureMatches,
+  buildSemanticDiff,
   writeScreenshotDriftArtifact,
   writeVisualFailureArtifacts
 } = require('./helpers/visual-signature');
@@ -22,12 +23,24 @@ test('visual signatures still fail when semantic summary changes', () => {
   const actual = signature({
     summary: {
       title: 'Sentence Types',
-      bodyTextHash: 'changed',
-      elements: []
+      semanticTextHash: 'changed',
+      elements: [{
+        selector: '#quiz-root',
+        text: 'Question 2 of 15',
+        visible: true,
+        rect: { x: 124, y: 87, width: 1032, height: 1614 }
+      }]
     }
   });
 
   assert.throws(() => assertVisualSignatureMatches(actual, expected), /visual signature mismatch/);
+});
+
+test('visual signatures ignore unreviewed body text drift when selector summary matches', () => {
+  const expected = signature({ summary: Object.assign({}, signature().summary, { bodyTextHash: 'old-body' }) });
+  const actual = signature({ summary: Object.assign({}, signature().summary, { bodyTextHash: 'new-body' }) });
+
+  assert.doesNotThrow(() => assertVisualSignatureMatches(actual, expected));
 });
 
 test('visual signatures allow large screenshot encoder drift when semantic summary is unchanged', () => {
@@ -48,7 +61,7 @@ test('visual signatures still fail when key element layout changes', () => {
     screenshotSha256: 'actual',
     summary: {
       title: 'Sentence Types',
-      bodyTextHash: '475542686',
+      semanticTextHash: '475542686',
       elements: [{
         selector: '#quiz-root',
         text: 'Question 1 of 15',
@@ -77,6 +90,55 @@ test('visual failure artifacts include actual expected and screenshot files', ()
   assert.equal(JSON.parse(fs.readFileSync(path.join(outputDir, 'quiz-feedback.actual.json'), 'utf8')).screenshotSha256, 'actual');
   assert.equal(JSON.parse(fs.readFileSync(path.join(outputDir, 'quiz-feedback.expected.json'), 'utf8')).screenshotSha256, 'expected');
   assert.equal(fs.readFileSync(path.join(outputDir, 'quiz-feedback.png'), 'utf8'), 'png-bytes');
+});
+
+test('visual failure artifacts include scoped semantic selector diffs', () => {
+  const outputDir = fs.mkdtempSync(path.join(os.tmpdir(), 'visual-artifacts-'));
+  const expected = signature();
+  const actual = signature({
+    summary: {
+      title: 'Sentence Types',
+      semanticTextHash: 'changed',
+      elements: [{
+        selector: '#quiz-root',
+        text: 'Question 2 of 15',
+        visible: true,
+        rect: { x: 124, y: 87, width: 1032, height: 1614 }
+      }]
+    }
+  });
+
+  writeVisualFailureArtifacts({
+    actual,
+    expected,
+    outputDir,
+    caseName: 'quiz-question'
+  });
+
+  const artifact = JSON.parse(fs.readFileSync(path.join(outputDir, 'quiz-question.semantic-diff.json'), 'utf8'));
+  assert.deepEqual(artifact.changedSelectors.map(item => item.selector), ['#quiz-root']);
+  assert.equal(artifact.hashDelta.expected, expected.summary.semanticTextHash);
+  assert.equal(artifact.hashDelta.actual, 'changed');
+});
+
+test('semantic diff names changed reviewed selectors only', () => {
+  const expected = signature();
+  const actual = signature({
+    summary: Object.assign({}, signature().summary, {
+      elements: [{
+        selector: '#quiz-root',
+        text: 'Question 1 of 15 updated',
+        visible: true,
+        rect: { x: 124, y: 87, width: 1032, height: 1614 }
+      }]
+    })
+  });
+
+  const diff = buildSemanticDiff(actual, expected);
+
+  assert.deepEqual(diff.changedSelectors.map(item => item.selector), ['#quiz-root']);
+  assert.equal(diff.changedSelectors[0].expected.text, 'Question 1 of 15');
+  assert.equal(diff.changedSelectors[0].actual.text, 'Question 1 of 15 updated');
 });
 
 test('screenshot drift artifact records metadata without failing semantic match', () => {
@@ -109,7 +171,7 @@ function signature(overrides = {}) {
     screenshotBytes: 259808,
     summary: {
       title: 'Sentence Types',
-      bodyTextHash: '475542686',
+      semanticTextHash: '475542686',
       elements: [{
         selector: '#quiz-root',
         text: 'Question 1 of 15',

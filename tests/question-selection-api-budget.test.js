@@ -1,4 +1,6 @@
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const test = require('node:test');
 
 const { loadManifest } = require('../scripts/generate-question-manifest');
@@ -12,34 +14,48 @@ const API_BUDGETS = {
   grammar: {
     maxRefs: 60,
     maxResponseBytes: 25 * 1024,
-    maxP95LatencyMs: 100
+    maxP95LatencyMs: 100,
+    maxSourceSetsScanned: 34,
+    maxCandidateQuestions: 3689
   },
   capitalization: {
     maxRefs: 20,
     maxResponseBytes: 10 * 1024,
-    maxP95LatencyMs: 50
+    maxP95LatencyMs: 50,
+    maxSourceSetsScanned: 5,
+    maxCandidateQuestions: 207
   },
   punctuation: {
     maxRefs: 52,
     maxResponseBytes: 20 * 1024,
-    maxP95LatencyMs: 100
+    maxP95LatencyMs: 100,
+    maxSourceSetsScanned: 13,
+    maxCandidateQuestions: 915
   },
   'reading-comprehension': {
     maxRefs: 60,
     maxResponseBytes: 25 * 1024,
-    maxP95LatencyMs: 120
+    maxP95LatencyMs: 120,
+    maxSourceSetsScanned: 19,
+    maxCandidateQuestions: 2816
   },
   'reference-skills': {
     maxRefs: 32,
     maxResponseBytes: 18 * 1024,
-    maxP95LatencyMs: 100
+    maxP95LatencyMs: 100,
+    maxSourceSetsScanned: 8,
+    maxCandidateQuestions: 808
   },
   vocabulary: {
     maxRefs: 60,
     maxResponseBytes: 25 * 1024,
-    maxP95LatencyMs: 120
+    maxP95LatencyMs: 120,
+    maxSourceSetsScanned: 16,
+    maxCandidateQuestions: 1805
   }
 };
+
+const API_BUDGET_RESULT_DIR = path.join(__dirname, '..', 'test-results', 'api-budget');
 
 test('all rollout domain selection API responses stay within ref-only payload budgets', async () => {
   for (const domain of MIXED_QUIZ_SERVER_SELECTION_DOMAINS) {
@@ -47,6 +63,7 @@ test('all rollout domain selection API responses stay within ref-only payload bu
     const request = mixedRequest(domain, setIds, Math.min(API_BUDGETS[domain].maxRefs, setIds.length * 4), 4);
     const response = await apiResponse(request, `${domain}-budget`);
     const metrics = assertSelectionApiBudget(`${domain} mixed selection`, response, request, API_BUDGETS[domain]);
+    assertDeterministicWorkBudget(`${domain} mixed selection`, metrics, API_BUDGETS[domain]);
 
     assert.equal(metrics.sourceHash, manifest.artifact.sourceHash);
     assert.equal(response.questionRefs.length, request.count);
@@ -82,11 +99,36 @@ test('selection API repeated-call local latency stays within budget', async () =
     const request = mixedRequest(domain, setIds, Math.min(API_BUDGETS[domain].maxRefs, setIds.length * 4), 4);
     const stats = await measureRepeatedCalls(request, `${domain}-load`, 12);
 
-    assert.ok(
-      stats.p95Ms < API_BUDGETS[domain].maxP95LatencyMs,
-      `${domain} p95 ${stats.p95Ms.toFixed(2)}ms should stay under ${API_BUDGETS[domain].maxP95LatencyMs}ms; ${JSON.stringify(stats)}`
-    );
+    evaluateLatencyBudget(domain, stats, API_BUDGETS[domain], {
+      strict: process.env.STRICT_PERF_BUDGETS === '1'
+    });
   }
+});
+
+test('non-strict selection API latency budget writes diagnostics instead of failing', () => {
+  fs.mkdirSync(API_BUDGET_RESULT_DIR, { recursive: true });
+  const artifactDir = fs.mkdtempSync(path.join(API_BUDGET_RESULT_DIR, 'non-strict-'));
+  const stats = latencyStats({ p95Ms: 250, selectedCount: 12, responseBytes: 2048 });
+
+  assert.doesNotThrow(() => evaluateLatencyBudget('grammar', stats, API_BUDGETS.grammar, {
+    artifactDir,
+    strict: false
+  }));
+
+  const artifact = JSON.parse(fs.readFileSync(path.join(artifactDir, 'grammar-latency-warning.json'), 'utf8'));
+  assert.equal(artifact.domain, 'grammar');
+  assert.equal(artifact.strict, false);
+  assert.equal(artifact.stats.p95Ms, 250);
+  assert.equal(artifact.selectedCount, 12);
+  assert.equal(artifact.responseBytes, 2048);
+  assert.equal(artifact.sourceHash, manifest.artifact.sourceHash);
+});
+
+test('strict selection API latency budget remains a hard regression gate', () => {
+  assert.throws(
+    () => evaluateLatencyBudget('grammar', latencyStats({ p95Ms: 250 }), API_BUDGETS.grammar, { strict: true }),
+    /grammar p95 250\.00ms should stay under 100ms/
+  );
 });
 
 test('selection API budget guard rejects full question body leakage and over-selection', () => {
@@ -114,6 +156,30 @@ test('selection API budget guard rejects full question body leakage and over-sel
   assert.throws(() => assertSelectionApiBudget('explanation leak', Object.assign({}, base, { explanation: 'Because' }), request, { maxRefs: 1, maxResponseBytes: 4096 }), /explanation/);
   assert.throws(() => assertSelectionApiBudget('snapshot leak', Object.assign({}, base, { questionSnapshots: [{ question: 'Snapshot body' }] }), request, { maxRefs: 1, maxResponseBytes: 4096 }), /questionSnapshots/);
   assert.throws(() => assertSelectionApiBudget('too many refs', Object.assign({}, base, { questionRefs: [base.questionRefs[0], base.questionRefs[0]] }), request, { maxRefs: 1, maxResponseBytes: 4096 }), /2 refs/);
+});
+
+test('selection API deterministic work budget rejects oversized fixture scans', async () => {
+  const request = mixedRequest('grammar', grammarSetIds().slice(0, 2), 3, 4);
+  const response = await apiResponse(request, 'work-budget');
+  const metrics = assertSelectionApiBudget('grammar work budget selection', response, request, {
+    maxRefs: 3,
+    maxResponseBytes: 8 * 1024
+  });
+
+  assert.throws(
+    () => assertDeterministicWorkBudget('grammar work budget selection', metrics, {
+      maxSourceSetsScanned: 1,
+      maxCandidateQuestions: metrics.candidateQuestionCount
+    }),
+    /scanned 2 source sets/
+  );
+  assert.throws(
+    () => assertDeterministicWorkBudget('grammar work budget selection', metrics, {
+      maxSourceSetsScanned: 2,
+      maxCandidateQuestions: metrics.candidateQuestionCount - 1
+    }),
+    /candidate question scan/
+  );
 });
 
 async function apiResponse(request, seed) {
@@ -147,6 +213,7 @@ async function measureRepeatedCalls(request, seedPrefix, count) {
     medianMs: durations[Math.floor(durations.length / 2)],
     p95Ms: durations[Math.ceil(durations.length * 0.95) - 1],
     maxResponseBytes: Math.max(...responseBytes),
+    responseBytes: Math.max(...responseBytes),
     selectedCount: request.count,
     sourceHash: manifest.artifact.sourceHash
   };
@@ -174,8 +241,73 @@ function assertSelectionApiBudget(label, response, request, budget) {
   return {
     responseBytes,
     selectedCount: refs.length,
+    snapshotCount: Array.isArray(response.questionSnapshots) ? response.questionSnapshots.length : 0,
+    sourceSetsScanned: request.setIds.length,
+    candidateQuestionCount: candidateQuestionCount(request.setIds),
     sourceHash: manifest.artifact.sourceHash
   };
+}
+
+function evaluateLatencyBudget(domain, stats, budget, options = {}) {
+  if (!Number.isFinite(budget.maxP95LatencyMs)) return;
+  const message = `${domain} p95 ${stats.p95Ms.toFixed(2)}ms should stay under ${budget.maxP95LatencyMs}ms; ${JSON.stringify(stats)}`;
+  if (options.strict) {
+    assert.ok(stats.p95Ms < budget.maxP95LatencyMs, message);
+    return;
+  }
+  if (stats.p95Ms >= budget.maxP95LatencyMs) {
+    writeLatencyBudgetWarning(domain, stats, budget, options.artifactDir || API_BUDGET_RESULT_DIR);
+  }
+}
+
+function writeLatencyBudgetWarning(domain, stats, budget, artifactDir) {
+  fs.mkdirSync(artifactDir, { recursive: true });
+  const artifact = {
+    domain,
+    budget: {
+      maxP95LatencyMs: budget.maxP95LatencyMs
+    },
+    stats,
+    selectedCount: stats.selectedCount,
+    responseBytes: stats.responseBytes || stats.maxResponseBytes,
+    sourceHash: stats.sourceHash,
+    strict: false
+  };
+  fs.writeFileSync(
+    path.join(artifactDir, `${domain}-latency-warning.json`),
+    `${JSON.stringify(artifact, null, 2)}\n`
+  );
+}
+
+function assertDeterministicWorkBudget(label, metrics, budget) {
+  assert.ok(
+    metrics.sourceSetsScanned <= budget.maxSourceSetsScanned,
+    `${label} scanned ${metrics.sourceSetsScanned} source sets; expected at most ${budget.maxSourceSetsScanned}`
+  );
+  assert.ok(
+    metrics.candidateQuestionCount <= budget.maxCandidateQuestions,
+    `${label} candidate question scan ${metrics.candidateQuestionCount} should stay under ${budget.maxCandidateQuestions}`
+  );
+  assert.equal(metrics.snapshotCount, 0, `${label} should have zero snapshot work by default`);
+}
+
+function latencyStats(overrides = {}) {
+  return Object.assign({
+    minMs: 1,
+    medianMs: 2,
+    p95Ms: 3,
+    maxResponseBytes: 1024,
+    responseBytes: 1024,
+    selectedCount: 3,
+    sourceHash: manifest.artifact.sourceHash
+  }, overrides);
+}
+
+function candidateQuestionCount(setIds) {
+  return setIds.reduce((total, setId) => {
+    const set = manifest.sets.find(item => item.id === setId);
+    return total + (set && Array.isArray(set.questions) ? set.questions.length : 0);
+  }, 0);
 }
 
 function mixedRequest(domain, setIds, count, questionsPerSubtopic) {

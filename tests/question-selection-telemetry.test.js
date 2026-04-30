@@ -55,6 +55,34 @@ test('selection telemetry normalizes API-used details to a privacy-safe schema',
   assert.equal(JSON.stringify(normalized).includes('Maya'), false);
 });
 
+test('weak skill recommendation telemetry exposes only safe recommendation fields', () => {
+  const generated = telemetry.normalizeSelectionTelemetry('grammarquest:weak-skill-recommendations-generated', {
+    recommendationCount: 2,
+    reasonCode: 'low_recent_accuracy',
+    skillId: 'grammar.subject-verb',
+    targetType: 'subtopic',
+    learnerName: 'Maya',
+    question: 'Raw prompt',
+    explanation: 'Raw explanation'
+  }, {
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+
+  assert.deepEqual(generated, {
+    event: 'recommendation.generated',
+    eventName: 'recommendation.generated',
+    eventVersion: 1,
+    occurredAt: '2030-04-29T12:00:00.000Z',
+    recommendationCount: 2,
+    reasonCode: 'low_recent_accuracy',
+    skillId: 'grammar.subject-verb',
+    targetType: 'subtopic'
+  });
+  assert.equal(JSON.stringify(generated).includes('Maya'), false);
+  assert.equal(JSON.stringify(generated).includes('Raw prompt'), false);
+});
+
+
 test('selection telemetry categorizes fallback reasons without raw error text', () => {
   const cases = [
     ['selection API returned 503', 'api_unavailable'],

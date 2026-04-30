@@ -52,6 +52,7 @@ function validateLoadedContent(bankLoad, options = {}) {
     issues,
     errors: issues.filter(issue => issue.level === 'error'),
     warnings: issues.filter(issue => issue.level === 'warning'),
+    explanationReviewCandidates: options.explanationReviewCandidates ? buildExplanationReviewCandidates(questions, issues) : undefined,
     sizeSummary: getBankSizeSummary(bankLoad)
   };
 }
@@ -517,7 +518,17 @@ function formatBytes(bytes) {
 }
 
 function runCli() {
-  const result = validateContent();
+  const wantsJson = process.argv.includes('--json');
+  const result = validateContent({ explanationReviewCandidates: wantsJson });
+  if (wantsJson) {
+    console.log(JSON.stringify({
+      errors: result.errors,
+      warnings: result.warnings,
+      explanationReviewCandidates: result.explanationReviewCandidates
+    }, null, 2));
+    if (result.errors.length) process.exitCode = 1;
+    return;
+  }
   const warningLimit = Number(process.env.CONTENT_QA_WARNING_LIMIT || 80);
   const shouldPrintAllWarnings = process.env.CONTENT_QA_ALL_WARNINGS === '1';
   const printableIssues = result.issues.filter(issue => issue.level === 'error');
@@ -560,12 +571,43 @@ function summarizeIssuesByRule(issues) {
   }, {});
 }
 
+function buildExplanationReviewCandidates(questions, issues) {
+  const weakIssues = issues.filter(issue => issue.ruleId === 'weak-explanation-rationale');
+  return weakIssues.map(issue => {
+    const record = questions.find(item => item.question && item.question.id === issue.questionId);
+    const question = record && record.question || {};
+    const metadata = question.metadata || {};
+    return {
+      id: `explanation-review-${issue.questionId}`,
+      questionIdentity: {
+        questionId: issue.questionId,
+        version: Number(question.version) || 0,
+        contentHash: question.contentHash || '',
+        sourceSet: metadata.sourceSet || issue.setId,
+        sequence: Number(metadata.sequence) || 0
+      },
+      sourceLocation: {
+        file: issue.relativeFile || '',
+        jsonPointer: `/sets/${issue.setId}/questions/${Math.max(0, (record && record.questionNumber || 1) - 1)}/explanation`
+      },
+      signals: [{
+        type: issue.ruleId,
+        severity: issue.level,
+        message: issue.message,
+        source: 'content-qa'
+      }],
+      status: 'candidate'
+    };
+  });
+}
+
 if (require.main === module) runCli();
 
 module.exports = {
   validateContent,
   validateLoadedContent,
   QUALITY_RULES,
+  buildExplanationReviewCandidates,
   summarizeIssuesByRule,
   formatBytes
 };

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Learning Dashboard</title>
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-dashboard-role="teacher">
+  <header class="app-header">
+    <div class="container">
+      <a href="index.html" class="logo">English Language Mastery</a>
+      <nav class="header-actions" aria-label="Quick links">
+        <a href="assignments.html" class="back-link">Assignments</a>
+        <a href="reports.html" class="back-link">Reports</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container reports-shell">
+    <section class="reports-hero">
+      <div>
+        <div class="quest-kicker">Teacher Dashboard</div>
+        <h1 class="page-title">Instruction Priorities</h1>
+        <p class="page-subtitle">A compact view of assigned learner progress, weak skills, active assignments, review items, and reports.</p>
+      </div>
+      <label class="report-filter" for="learner-selector">Learner<select id="learner-selector"></select></label>
+    </section>
+    <div id="learning-dashboard-root"></div>
+  </main>
+  <script src="assets/access-control.js"></script>
+  <script src="assets/learner-state-repository.js"></script>
+  <script src="assets/learning-dashboard-domain.js"></script>
+  <script src="assets/weak-skill-recommendation-policy.js"></script>
+  <script src="assets/recommendation-route-resolver.js"></script>
+  <script src="assets/weak-skill-recommendation-domain.js"></script>
+  <script src="assets/auth-service.js"></script>
+  <script src="assets/dashboard-ui.js"></script>
+</body>
+</html>

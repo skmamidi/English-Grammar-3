@@ -19,7 +19,7 @@
   "screenshotBytes": 230203,
   "summary": {
     "title": "Proper Names and Titles of People",
-    "bodyTextHash": "-423737302",
+    "semanticTextHash": "149786081",
     "elements": [
       {
         "selector": ".app-header",

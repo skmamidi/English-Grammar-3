@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "app": { "name": "Grammar Quest", "version": "1.0.0", "exportedAt": "2030-04-29T12:00:00.000Z" },
+  "learner": { "id": "learner-1", "displayLabel": "" },
+  "artifactProvenance": { "manifestVersion": 1, "sourceHash": "sha256:abc" },
+  "data": { "progress": {}, "sessions": [], "activeQuiz": null, "questionReports": [], "assignments": [], "reviewQueue": null, "reviewSchedules": [] },
+  "integrity": { "digest": "fixture-populated-by-domain-tests" }
+}

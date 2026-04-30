@@ -63,3 +63,18 @@ test('support impersonation policy denies by default and requires explicit contr
     expiresAt: '2030-04-29T13:00:00.000Z'
   }), false);
 });
+
+test('question report triage audit events redact report notes and question payloads', () => {
+  const event = audit.buildAuditEvent(
+    { id: 'reviewer-1', role: access.Roles.TEACHER },
+    'question_report_resolved',
+    { type: access.ResourceTypes.QUESTION_REPORT, id: 'report-1' },
+    { notes: 'Fixed typo', questionText: 'Raw prompt', explanation: 'Raw explanation' },
+    { id: () => 'audit-1', now: () => '2030-04-29T12:00:00.000Z' }
+  );
+
+  assert.equal(event.action, 'question_report_resolved');
+  assert.equal(event.metadata.notes, 'Fixed typo');
+  assert.equal(event.metadata.questionText, '[REDACTED]');
+  assert.equal(event.metadata.explanation, '[REDACTED]');
+});

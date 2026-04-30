@@ -187,3 +187,49 @@ test('visible actions are capability based for a resource', () => {
   assert.ok(actions.includes(access.Capabilities.viewLinkedLearnerReports));
   assert.equal(actions.includes(access.Capabilities.manageUsers), false);
 });
+
+test('question report triage is reviewer scoped and parent can only view own status', () => {
+  const teacher = access.normalizeActor({ role: access.Roles.TEACHER, assignedLearnerIds: ['learner-1'] });
+  const guardian = access.normalizeActor({ role: access.Roles.PARENT_GUARDIAN, linkedLearnerIds: ['learner-1'] });
+
+  assert.equal(access.canAccess(teacher, access.Capabilities.triageQuestionReport, {
+    type: access.ResourceTypes.QUESTION_REPORT,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(teacher, access.Capabilities.resolveQuestionReport, {
+    type: access.ResourceTypes.QUESTION_REPORT,
+    learnerId: 'learner-2'
+  }), false);
+  assert.equal(access.canAccess(guardian, access.Capabilities.viewOwnQuestionReportStatus, {
+    type: access.ResourceTypes.QUESTION_REPORT,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(guardian, access.Capabilities.triageQuestionReport, {
+    type: access.ResourceTypes.QUESTION_REPORT,
+    learnerId: 'learner-1'
+  }), false);
+});
+
+test('learner progress import export is learner scoped and denies system admin by default', () => {
+  const student = access.normalizeActor({ role: access.Roles.STUDENT, learnerId: 'learner-1' });
+  const guardian = access.normalizeActor({ role: access.Roles.PARENT_GUARDIAN, linkedLearnerIds: ['learner-1'] });
+  const teacher = access.normalizeActor({ role: access.Roles.TEACHER, assignedLearnerIds: ['learner-2'], classroomProgressTransferEnabled: true });
+  const admin = access.normalizeActor({ role: access.Roles.SYSTEM_ADMIN });
+
+  assert.equal(access.canAccess(student, access.Capabilities.exportOwnLearnerProgress, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(guardian, access.Capabilities.importLinkedLearnerProgress, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(teacher, access.Capabilities.exportAssignedLearnerProgress, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-2'
+  }), true);
+  assert.equal(access.canAccess(admin, access.Capabilities.exportAssignedLearnerProgress, {
+    type: access.ResourceTypes.LEARNER_PROGRESS,
+    learnerId: 'learner-2'
+  }), false);
+});

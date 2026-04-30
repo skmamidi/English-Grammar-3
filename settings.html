@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Settings</title>
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="container">
+      <a href="index.html" class="logo">English Language Mastery</a>
+      <nav class="header-actions" aria-label="Quick links">
+        <a href="index.html" class="back-link">Practice</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container reports-shell">
+    <section class="reports-hero">
+      <div>
+        <div class="quest-kicker">Settings</div>
+        <h1 class="page-title">Progress Transfer</h1>
+        <p class="page-subtitle">Export or import validated learner progress without exposing auth tokens or raw question payloads.</p>
+      </div>
+      <button class="btn btn-primary" type="button" id="export-progress">Export JSON</button>
+    </section>
+    <section class="student-report-card">
+      <label class="report-filter" for="import-progress-file">Import JSON
+        <input id="import-progress-file" type="file" accept="application/json">
+      </label>
+      <label class="report-filter" for="import-policy">Conflict policy
+        <select id="import-policy">
+          <option value="skip">Skip existing</option>
+          <option value="merge">Merge</option>
+          <option value="replace">Replace</option>
+        </select>
+      </label>
+      <pre id="import-preview" aria-live="polite"></pre>
+      <button class="btn btn-secondary" type="button" id="apply-import" disabled>Apply import</button>
+    </section>
+  </main>
+  <script src="assets/learner-state-repository.js"></script>
+  <script src="assets/learner-progress-transfer-domain.js"></script>
+  <script src="assets/learner-progress-transfer-service.js"></script>
+  <script src="assets/progress-transfer-ui.js"></script>
+</body>
+</html>

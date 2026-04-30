@@ -15,11 +15,11 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "f2b1e4715e98de9adb28b8cb83b155c05166d63d32ff1e7f6e944492fcc71641",
-  "screenshotBytes": 138678,
+  "screenshotSha256": "080fea3e42b3584d952656075defb69b933066f9588cc6f006f8025988b2563f",
+  "screenshotBytes": 133918,
   "summary": {
     "title": "English Language Mastery",
-    "bodyTextHash": "-776809241",
+    "semanticTextHash": "1516074770",
     "elements": [
       {
         "selector": ".app-header",

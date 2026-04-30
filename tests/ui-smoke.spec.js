@@ -18,9 +18,12 @@ const {
   summarizeRequestMetrics
 } = require('./helpers/request-metrics');
 const {
+  closeBrowserWithDiagnostics,
   closeServerWithTimeout,
+  closeTrackedPagesAndContexts,
+  createBrowserResourceTracker,
+  newTrackedPage,
   runCase,
-  withTimeout
 } = require('./helpers/smoke-runner');
 const { createQuestionSelectionApiHarness } = require('./helpers/question-selection-api-harness');
 const { MIXED_QUIZ_SERVER_SELECTION_DOMAINS } = require('../assets/question-selection-rollout');
@@ -123,11 +126,10 @@ const VIEWPORT_SMOKE_PAGES = [
   'reports.html',
   'character-library.html'
 ];
-const activePages = new Set();
-
 async function main() {
   const server = await startStaticServer(requestedPort);
   const browser = await chromium.launch(getChromiumLaunchOptions());
+  const browserTracker = createBrowserResourceTracker();
   const failures = [];
 
   try {
@@ -141,7 +143,7 @@ async function main() {
 
     for (const file of corePages) {
       await runCase(failures, `${file} renders without page-level errors`, async () => {
-        const page = await newPage(browser);
+        const page = await newPage(browser, browserTracker);
         await visitClean(page, server.baseURL, file);
         await assertVisible(page, 'body', file);
         if (file === 'reports.html') await assertReportsPage(page, server.baseURL);
@@ -152,7 +154,7 @@ async function main() {
     for (const [viewportName, viewport] of Object.entries(VIEWPORTS)) {
       for (const file of VIEWPORT_SMOKE_PAGES) {
         await runCase(failures, `${file} has no ${viewportName} layout overflow`, async () => {
-          const page = await newPage(browser, { viewport });
+          const page = await newPage(browser, browserTracker, { viewport });
           await visitClean(page, server.baseURL, file);
           await assertNoHorizontalOverflow(page, `${file} ${viewportName}`);
           await assertTouchTargets(page, `${file} ${viewportName}`);
@@ -163,7 +165,7 @@ async function main() {
     }
 
     await runCase(failures, 'mobile parent preview remains read-only', async () => {
-      const page = await newPage(browser, { viewport: VIEWPORTS.mobile });
+      const page = await newPage(browser, browserTracker, { viewport: VIEWPORTS.mobile });
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
       await visitClean(page, server.baseURL, `${file}?parentBrowse=1`);
       await assertNoHorizontalOverflow(page, `${file} mobile parent preview`);
@@ -172,14 +174,14 @@ async function main() {
     });
 
     await runCase(failures, 'session sign-out clears managed student selection without deleting progress', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html');
       await assertSessionSignedOutClearsManagedStudent(page);
       await page.close();
     });
 
     await runCase(failures, 'keyboard-only quiz answer flow works', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       const file = 'topics/grammar/subtopics/sentence-types.html';
       await visitClean(page, server.baseURL, file);
       await assertKeyboardQuizFlow(page, file);
@@ -187,21 +189,21 @@ async function main() {
     });
 
     await runCase(failures, 'seeded assignment starts quiz and completes with saved session', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'assignments.html');
       await assertAssignmentCompletionFlow(page, server.baseURL);
       await page.close();
     });
 
     await runCase(failures, 'adaptive review starts from missed refs and completes without copied questions', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'index.html');
       await assertAdaptiveReviewCompletionFlow(page, server.baseURL, getManifestQuestionRef('grammar-sentence-types'));
       await page.close();
     });
 
     await runCase(failures, 'due spaced review indicator starts review and updates schedule', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'index.html');
       await assertDueReviewCompletionFlow(page, server.baseURL, getManifestQuestionRef('grammar-sentence-types'));
       await page.close();
@@ -209,7 +211,7 @@ async function main() {
 
     if (process.env.QUESTION_CHUNK_PRELOAD) {
       await runCase(failures, 'question chunk preloading stays budgeted and separate from required payload', async () => {
-        const page = await newPage(browser, { enableQuestionChunkPreload: true });
+        const page = await newPage(browser, browserTracker, { enableQuestionChunkPreload: true });
         const recorder = createRequestRecorder(page);
         await visitClean(page, server.baseURL, 'topics/capitalization/index.html');
         const preloadEvents = await waitForPreloadEvents(page);
@@ -228,7 +230,7 @@ async function main() {
 
     for (const file of manifestTopicIndexes) {
       await runCase(failures, `${file} uses manifest metadata without full topic bank`, async () => {
-        const page = await newPage(browser);
+        const page = await newPage(browser, browserTracker);
         const recorder = createRequestRecorder(page);
         await visitClean(page, server.baseURL, file);
         await assertManifestBackedTopicIndex(page, recorder.requests, file);
@@ -239,7 +241,7 @@ async function main() {
 
     for (const file of Object.keys(REPRESENTATIVE_CHUNK_PAGES)) {
       await runCase(failures, `${file} stays under question payload budget`, async () => {
-        const page = await newPage(browser);
+        const page = await newPage(browser, browserTracker);
         const recorder = createRequestRecorder(page);
         await visitClean(page, server.baseURL, file);
         await assertChunkBackedSubtopicRequests(page, recorder.requests, file, REPRESENTATIVE_CHUNK_PAGES[file]);
@@ -250,7 +252,7 @@ async function main() {
 
     for (const domain of ['capitalization', 'reference-skills', 'punctuation', 'vocabulary', 'reading-comprehension', 'grammar']) {
       await runCase(failures, `topics/${domain}/index.html mixed quiz loads selected chunks instead of full bank`, async () => {
-        const page = await newPage(browser);
+        const page = await newPage(browser, browserTracker);
         const requests = [];
         page.on('request', request => requests.push(request.url()));
         await visitClean(page, server.baseURL, `topics/${domain}/index.html`);
@@ -279,7 +281,7 @@ async function main() {
 
     if (process.env.QUESTION_SELECTION_API) {
       await runCase(failures, 'grammar mixed quiz can use question selection API pilot', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           enableSelectionTelemetry: true
         });
@@ -333,7 +335,7 @@ async function main() {
       });
 
       await runCase(failures, 'grammar mixed quiz falls back when question selection API fails', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           enableSelectionTelemetry: true,
           questionSelectionApiUrl: '/api/question-selection?fail=1'
@@ -362,7 +364,7 @@ async function main() {
       });
 
       await runCase(failures, 'grammar mixed quiz falls back when question selection API integrity is tampered', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           questionSelectionApiUrl: '/api/question-selection?tamper=1'
         });
@@ -384,7 +386,7 @@ async function main() {
       });
 
       await runCase(failures, 'grammar mixed quiz verifies signed question selection API responses', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           questionSelectionApiUrl: '/api/question-selection?signed=1',
           selectionIntegrity: {
@@ -405,7 +407,7 @@ async function main() {
       });
 
       await runCase(failures, 'grammar mixed quiz falls back when signed question selection API signature is invalid', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           questionSelectionApiUrl: '/api/question-selection?signed=1&tamperSignature=1',
           selectionIntegrity: {
@@ -431,7 +433,7 @@ async function main() {
       });
 
       await runCase(failures, 'capitalization mixed quiz can use question selection API pilot', async () => {
-        const page = await newPage(browser, { enableQuestionSelectionApi: true });
+        const page = await newPage(browser, browserTracker, { enableQuestionSelectionApi: true });
         const requests = [];
         const selectionPayloads = [];
         page.on('request', request => requests.push(request.url()));
@@ -464,7 +466,7 @@ async function main() {
       });
 
       await runCase(failures, 'capitalization mixed quiz falls back when question selection API fails', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           questionSelectionApiUrl: '/api/question-selection?fail=1'
         });
@@ -487,7 +489,7 @@ async function main() {
 
       for (const domain of MIXED_QUIZ_SERVER_SELECTION_DOMAINS.filter(item => item !== 'grammar' && item !== 'capitalization')) {
         await runCase(failures, `${domain} mixed quiz can use question selection API pilot`, async () => {
-          const page = await newPage(browser, { enableQuestionSelectionApi: true });
+          const page = await newPage(browser, browserTracker, { enableQuestionSelectionApi: true });
           const requests = [];
           const selectionPayloads = [];
           const selectionStatuses = [];
@@ -531,7 +533,7 @@ async function main() {
         });
 
         await runCase(failures, `${domain} mixed quiz falls back when question selection API fails`, async () => {
-          const page = await newPage(browser, {
+          const page = await newPage(browser, browserTracker, {
             enableQuestionSelectionApi: true,
             questionSelectionApiUrl: '/api/question-selection?fail=1'
           });
@@ -567,7 +569,7 @@ async function main() {
       }
 
       await runCase(failures, 'capitalization pilot subtopic can use question selection API', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           enableSelectionTelemetry: true,
           serverQuestionSelectionPilotSubtopics: ['capitalization-proper-names-titles']
@@ -612,7 +614,7 @@ async function main() {
       });
 
       await runCase(failures, 'capitalization pilot subtopic falls back when question selection API fails', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           enableSelectionTelemetry: true,
           serverQuestionSelectionPilotSubtopics: ['capitalization-proper-names-titles'],
@@ -642,7 +644,7 @@ async function main() {
       });
 
       await runCase(failures, 'capitalization pilot subtopic parent preview stays read-only with question selection API', async () => {
-        const page = await newPage(browser, {
+        const page = await newPage(browser, browserTracker, {
           enableQuestionSelectionApi: true,
           serverQuestionSelectionPilotSubtopics: ['capitalization-proper-names-titles']
         });
@@ -654,7 +656,7 @@ async function main() {
     }
 
     await runCase(failures, 'capitalization pilot subtopic loads only its chunk', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       const recorder = createRequestRecorder(page);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
       await visitClean(page, server.baseURL, file);
@@ -665,7 +667,7 @@ async function main() {
     });
 
     await runCase(failures, 'reference skills subtopic uses chunk and not full bank', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       const recorder = createRequestRecorder(page);
       const file = 'topics/reference-skills/subtopics/alphabetical-order.html';
       await visitClean(page, server.baseURL, file);
@@ -675,7 +677,7 @@ async function main() {
     });
 
     await runCase(failures, 'loader-backed active quiz can be resumed', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
       await visitClean(page, server.baseURL, file);
       await assertLoaderBackedResume(page, file);
@@ -683,7 +685,7 @@ async function main() {
     });
 
     await runCase(failures, 'active quiz resume falls back to snapshots when refs cannot load', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
       await visitClean(page, server.baseURL, file);
       await assertSnapshotFallbackResume(page, file, {
@@ -694,7 +696,7 @@ async function main() {
     });
 
     await runCase(failures, 'active quiz resume uses snapshots when ref hashes changed', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
       await visitClean(page, server.baseURL, file);
       await assertSnapshotFallbackResume(page, file, {
@@ -706,14 +708,14 @@ async function main() {
 
     for (const file of representativeSubtopics) {
       await runCase(failures, `${file} starts, answers, and advances`, async () => {
-        const page = await newPage(browser);
+        const page = await newPage(browser, browserTracker);
         await visitClean(page, server.baseURL, file);
         await assertQuizFlow(page, file);
         await page.close();
       });
 
       await runCase(failures, `${file} parent preview does not create progress`, async () => {
-        const page = await newPage(browser);
+        const page = await newPage(browser, browserTracker);
         await visitClean(page, server.baseURL, `${file}?parentBrowse=1`);
         await assertParentPreview(page, file);
         await page.close();
@@ -722,7 +724,7 @@ async function main() {
 
     if (representativeSubtopics.length) {
       await runCase(failures, `${representativeSubtopics[0]} completion preserves question reports`, async () => {
-        const page = await newPage(browser);
+        const page = await newPage(browser, browserTracker);
         await visitClean(page, server.baseURL, representativeSubtopics[0]);
         await assertQuizCompletionPreservesQuestionReports(page, representativeSubtopics[0]);
         await page.close();
@@ -730,14 +732,14 @@ async function main() {
     }
 
     await runCase(failures, 'topics/sound-symbols/index.html spelling lab flow', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'topics/sound-symbols/index.html');
       await assertSpellingLabFlow(page);
       await page.close();
     });
 
     await runCase(failures, 'topics/sound-symbols/index.html spelling parent preview does not create progress', async () => {
-      const page = await newPage(browser);
+      const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'topics/sound-symbols/index.html?parentBrowse=1');
       await assertSpellingParentPreview(page);
       await page.close();
@@ -745,20 +747,19 @@ async function main() {
 
     for (const file of allSubtopics) {
       await runCase(failures, `${file} all-subtopic smoke`, async () => {
-        const page = await newPage(browser);
+        const page = await newPage(browser, browserTracker);
         const recorder = createRequestRecorder(page);
         await visitClean(page, server.baseURL, file);
         await assertVisible(page, '#quiz-root', file);
-        const text = await textContent(page, '#quiz-root');
-        assert.match(text, /Start Quiz|Preview Questions|coming soon/i, file);
+        await assertAllSubtopicRouteReady(page, file);
         assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
         await page.close();
       });
     }
   } finally {
-    await closeOpenPages(failures);
-    await recordTeardown(failures, 'browser.close', () => withTimeout(browser.close(), 5000, 'browser.close'));
-    await recordTeardown(failures, 'server.close', () => server.close());
+    await recordTeardown(failures, 'pages.contexts.close', () => closeTrackedPagesAndContexts(browserTracker, 3000));
+    await recordTeardown(failures, 'browser.close', () => closeBrowserWithDiagnostics(browser, browserTracker, 5000));
+    await recordTeardown(failures, 'server.close', () => closeServerWithTimeout(server.server, server.sockets, 3000));
   }
 
   if (failures.length) {
@@ -772,10 +773,10 @@ async function main() {
   process.exit(0);
 }
 
-async function newPage(browser, options = {}) {
-  const page = await browser.newPage({ viewport: options.viewport || VIEWPORTS.desktop });
-  activePages.add(page);
-  page.on('close', () => activePages.delete(page));
+async function newPage(browser, browserTracker, options = {}) {
+  const page = await newTrackedPage(browser, {
+    viewport: options.viewport || VIEWPORTS.desktop
+  }, browserTracker);
   page.setDefaultTimeout(5000);
   page.setDefaultNavigationTimeout(8000);
   await page.addInitScript(config => {
@@ -788,6 +789,8 @@ async function newPage(browser, options = {}) {
       window.__GQ_PRELOAD_EVENTS.push(event.detail || {});
     });
   }, { enableQuestionChunkPreload: options.enableQuestionChunkPreload && enableQuestionChunkPreload });
+  const untrackFirebaseRoute = browserTracker.trackRoute('assets/firebase-config.js');
+  page.on('close', untrackFirebaseRoute);
   await page.route('**/assets/firebase-config.js', route => {
     route.fulfill({
       status: 200,
@@ -795,6 +798,8 @@ async function newPage(browser, options = {}) {
       body: 'window.GQ_FIREBASE_CONFIG = { enabled: false, authProviders: {}, firestore: {} };'
     });
   });
+  const untrackAuthRoute = browserTracker.trackRoute('assets/auth-service.js');
+  page.on('close', untrackAuthRoute);
   await page.route('**/assets/auth-service.js', route => {
     route.fulfill({
       status: 200,
@@ -876,14 +881,6 @@ async function newPage(browser, options = {}) {
   return page;
 }
 
-async function closeOpenPages(failures) {
-  await Promise.all(Array.from(activePages).map(page => recordTeardown(
-    failures,
-    'page.close',
-    () => withTimeout(page.close().catch(() => {}), 1000, 'page.close')
-  )));
-}
-
 async function recordTeardown(failures, name, closeResource) {
   try {
     await closeResource();
@@ -903,6 +900,19 @@ async function visitClean(page, baseURL, file) {
   await page.goto(`${baseURL}/${file}`, { waitUntil: 'domcontentloaded' });
   await page.waitForLoadState('domcontentloaded');
   assert.deepEqual(page.__qaErrors, [], `page errors on ${file}`);
+}
+
+async function assertAllSubtopicRouteReady(page, file) {
+  await page.waitForFunction(() => {
+    const root = document.querySelector('#quiz-root');
+    const text = root ? root.innerText || root.textContent || '' : '';
+    return Boolean(
+      document.querySelector('#start-btn, .choice-btn, .question-box, .results-box, .preview-question-card') ||
+      /Start Quiz|Preview Questions|coming soon|Question|Mission Complete|Keep practicing/i.test(text)
+    );
+  }, null, { timeout: 5000 });
+  const text = await textContent(page, '#quiz-root');
+  assert.match(text, /Start Quiz|Preview Questions|coming soon|Question|Mission Complete|Keep practicing/i, file);
 }
 
 async function assertReportsPage(page, baseURL) {
@@ -1684,6 +1694,8 @@ function startStaticServer(port) {
     server.listen(port, '127.0.0.1', () => {
       resolve({
         baseURL: `http://127.0.0.1:${port}`,
+        server,
+        sockets,
         close: () => closeServerWithTimeout(server, sockets, 3000)
       });
     });

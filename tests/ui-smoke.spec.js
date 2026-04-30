@@ -112,6 +112,7 @@ const VIEWPORTS = {
 };
 const VIEWPORT_SMOKE_PAGES = [
   'index.html',
+  'assignments.html',
   'topics/grammar/index.html',
   'topics/grammar/subtopics/sentence-types.html',
   'reports.html',
@@ -176,6 +177,13 @@ async function main() {
       const file = 'topics/grammar/subtopics/sentence-types.html';
       await visitClean(page, server.baseURL, file);
       await assertKeyboardQuizFlow(page, file);
+      await page.close();
+    });
+
+    await runCase(failures, 'seeded assignment starts quiz and completes with saved session', async () => {
+      const page = await newPage(browser);
+      await visitClean(page, server.baseURL, 'assignments.html');
+      await assertAssignmentCompletionFlow(page, server.baseURL);
       await page.close();
     });
 
@@ -1052,6 +1060,54 @@ async function assertKeyboardQuizFlow(page, file) {
   await focusByKeyboard(page, '#next-question-btn');
   await page.keyboard.press('Enter');
   assert.match(await textContent(page, '#quiz-root'), /Question|Results|Score|Review/i);
+}
+
+async function assertAssignmentCompletionFlow(page, baseURL) {
+  await page.evaluate(() => {
+    window.GrammarQuestProgress.upsertAssignment({
+      id: 'assignment-smoke-1',
+      title: 'Sentence Types Practice Plan',
+      assignedBy: { actorId: 'teacher-1', role: 'teacher' },
+      assignedTo: { learnerIds: ['current-learner'] },
+      scope: { setIds: ['grammar-sentence-types'] },
+      quizOptions: { count: 1, grade: '4', difficulty: 'easy', mode: 'assignment' },
+      status: 'active',
+      createdAt: '2026-04-29T12:00:00.000Z',
+      updatedAt: '2026-04-29T12:00:00.000Z'
+    }, { sync: false });
+  });
+  await page.reload({ waitUntil: 'domcontentloaded' });
+  await assertVisible(page, '[data-assignment-id="assignment-smoke-1"]', 'assignments.html seeded assignment');
+  await page.click('[data-start-assignment="assignment-smoke-1"]');
+  await page.waitForURL(`${baseURL}/topics/grammar/subtopics/sentence-types.html`);
+  await assertVisible(page, '#start-btn', 'assignment quiz start');
+
+  const started = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}'));
+  assert.equal(started.assignments[0].status, 'in_progress', 'assignment should move to in_progress before launch');
+  assert.equal(JSON.parse(await page.evaluate(() => localStorage.getItem('grammarQuestActiveAssignmentRequest'))).count, 1);
+
+  await page.click('#start-btn');
+  await assertVisible(page, '.question-box', 'assignment quiz question');
+  await page.click('.confidence-btn');
+  await page.click('.choice-btn');
+  if (await exists(page, '#feedback-area')) {
+    assert.match(await textContent(page, '#feedback-area'), /Correct|Not quite/);
+  }
+  if (await exists(page, '#next-question-btn')) {
+    await page.click('#next-question-btn');
+  }
+  await assertVisible(page, '#restart-btn', 'assignment quiz results');
+
+  const completed = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}'));
+  const assignment = completed.assignments.find(item => item.id === 'assignment-smoke-1');
+  assert.equal(assignment.status, 'completed', 'assignment should be completed after quiz results');
+  assert.ok(assignment.completedSessionId, 'assignment should retain the completion session id');
+  assert.ok(Array.isArray(completed.reports.sessions) && completed.reports.sessions.length === 1, 'assignment quiz should save a report session');
+  assert.equal(
+    await page.evaluate(() => localStorage.getItem('grammarQuestActiveAssignmentId')),
+    null,
+    'active assignment marker should be cleared'
+  );
 }
 
 async function focusByKeyboard(page, selector) {

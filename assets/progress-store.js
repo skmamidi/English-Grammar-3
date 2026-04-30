@@ -400,8 +400,21 @@
       activeQuiz: chooseActiveQuiz(local.activeQuiz, cloud.activeQuiz),
       mastery: mergeMastery(local.mastery, cloud.mastery),
       assignments: mergeAssignments(local.assignments, cloud.assignments),
-      reviewQueue: chooseReviewQueue(local.reviewQueue, cloud.reviewQueue)
+      reviewQueue: chooseReviewQueue(local.reviewQueue, cloud.reviewQueue),
+      reviewSchedules: mergeReviewSchedules(local.reviewSchedules, cloud.reviewSchedules)
     });
+  }
+
+  function mergeReviewSchedules(localSchedules, cloudSchedules) {
+    const byId = {};
+    normalizeReviewSchedules(cloudSchedules).concat(normalizeReviewSchedules(localSchedules)).forEach(schedule => {
+      if (!schedule || !schedule.ref || !schedule.ref.id) return;
+      const existing = byId[schedule.ref.id];
+      byId[schedule.ref.id] = !existing || String(schedule.lastReviewedAt || schedule.dueAt || "") >= String(existing.lastReviewedAt || existing.dueAt || "")
+        ? schedule
+        : existing;
+    });
+    return Object.keys(byId).map(id => byId[id]);
   }
 
   function chooseReviewQueue(localQueue, cloudQueue) {
@@ -467,6 +480,42 @@
     return repository && typeof repository.getReviewQueue === "function"
       ? normalizeReviewQueue(repository.getReviewQueue())
       : loadLocalProgress().reviewQueue;
+  }
+
+  function getReviewSchedules() {
+    const repository = getLearnerStateRepository();
+    return repository && typeof repository.getReviewSchedules === "function"
+      ? normalizeReviewSchedules(repository.getReviewSchedules())
+      : loadLocalProgress().reviewSchedules;
+  }
+
+  function saveReviewSchedules(schedules, options) {
+    const repository = getLearnerStateRepository();
+    if (repository && typeof repository.saveReviewSchedules === "function") {
+      const normalized = repository.saveReviewSchedules(schedules);
+      afterProgressWrite(normalizeProgress(repository.getProgress()), !options || options.sync !== false);
+      return normalized;
+    }
+    return updateProgress(progress => {
+      progress.reviewSchedules = normalizeReviewSchedules(schedules);
+      return progress;
+    }, options).reviewSchedules;
+  }
+
+  function updateReviewSchedules(outcomes, reviewedAt, options) {
+    const repository = getLearnerStateRepository();
+    if (repository && typeof repository.updateReviewSchedules === "function") {
+      const normalized = repository.updateReviewSchedules(outcomes, reviewedAt);
+      afterProgressWrite(normalizeProgress(repository.getProgress()), !options || options.sync !== false);
+      return normalized;
+    }
+    return updateProgress(progress => {
+      const domain = window.GrammarQuestSpacedRepetitionDomain;
+      progress.reviewSchedules = domain && typeof domain.applyReviewOutcomes === "function"
+        ? domain.applyReviewOutcomes(progress.reviewSchedules, outcomes, { now: reviewedAt })
+        : normalizeReviewSchedules(progress.reviewSchedules);
+      return progress;
+    }, options).reviewSchedules;
   }
 
   function saveReviewQueue(queue, options) {
@@ -679,6 +728,12 @@
     return (Array.isArray(values) ? values : [])
       .map(value => String(value || "").trim())
       .filter(Boolean);
+  }
+
+  function safeIso(value) {
+    if (!value) return "";
+    const date = new Date(value);
+    return Number.isFinite(date.getTime()) ? date.toISOString() : "";
   }
 
   function setCloudAdapter(adapter) {
@@ -1017,6 +1072,9 @@
     saveReviewQueue,
     markReviewItemSeen,
     markReviewItemMastered,
+    getReviewSchedules,
+    saveReviewSchedules,
+    updateReviewSchedules,
     loadLocalProgress,
     saveLocalProgress,
     mergeProgress,
@@ -1024,6 +1082,7 @@
     normalizeReports,
     normalizeAssignments,
     normalizeReviewQueue,
+    normalizeReviewSchedules,
     normalizeQuestionReport,
     getReportQuestionId,
     looksLikeStableQuestionId,

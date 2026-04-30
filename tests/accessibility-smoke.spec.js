@@ -10,6 +10,7 @@ const repoRoot = path.resolve(__dirname, '..');
 const requestedPort = Number(process.env.QA_A11Y_PORT) || 4183;
 const A11Y_PAGES = [
   'index.html',
+  'settings.html',
   'admin-operations.html',
   'topics/grammar/index.html',
   'topics/grammar/subtopics/sentence-types.html',

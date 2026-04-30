@@ -59,6 +59,9 @@
     'localStorage'
   ];
 
+  const privacyDomain = root.GrammarQuestPrivacyPreferencesDomain ||
+    (typeof require === 'function' ? require('./privacy-preferences-domain') : null);
+
   function normalizeSelectionTelemetry(eventName, detail, options = {}) {
     const input = detail && typeof detail === 'object' ? detail : {};
     const normalizedEventName = EVENT_MAP[eventName] || 'selection.unknown';
@@ -120,14 +123,13 @@
   function installSelectionTelemetrySink(options = {}) {
     const target = options.target || root;
     if (!target || typeof target.addEventListener !== 'function') return { uninstall() {} };
-    const enabled = options.enabled === true;
     const sampleRate = clampSampleRate(options.sampleRate);
     const random = typeof options.random === 'function' ? options.random : Math.random;
     const transport = getTransport(options);
 
     const handlers = EVENT_NAMES.map(eventName => {
       const handler = event => {
-        if (!enabled) return;
+        if (!canSendSelectionTelemetry(options)) return;
         if (sampleRate < 1 && random() >= sampleRate) return;
         const normalized = normalizeSelectionTelemetry(eventName, event && event.detail, options);
         try {
@@ -203,6 +205,15 @@
     };
   }
 
+  function canSendSelectionTelemetry(options) {
+    if (privacyDomain && typeof privacyDomain.canSendTelemetry === 'function') {
+      return privacyDomain.canSendTelemetry(Object.assign({}, options, {
+        type: 'selection'
+      }));
+    }
+    return options.enabled === true;
+  }
+
   function safeString(value) {
     return String(value || '').slice(0, 80);
   }
@@ -258,6 +269,7 @@
   return {
     assertSelectionTelemetryPrivacy,
     categorizeFallbackReason,
+    canSendSelectionTelemetry,
     installSelectionTelemetrySink,
     normalizeSelectionTelemetry
   };

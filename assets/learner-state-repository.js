@@ -22,6 +22,8 @@
     (typeof require === 'function' ? require('./learner-state-server-migrations') : null);
   const lifecycleDomain = root.GrammarQuestLearnerDataLifecycleDomain ||
     (typeof require === 'function' ? require('./learner-data-lifecycle-domain') : null);
+  const privacyDomain = root.GrammarQuestPrivacyPreferencesDomain ||
+    (typeof require === 'function' ? require('./privacy-preferences-domain') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
@@ -228,6 +230,26 @@
       return getProgress().reviewQueue;
     }
 
+    function getPrivacyPreferences() {
+      return getProgress().privacyPreferences;
+    }
+
+    function savePrivacyPreferences(preferences) {
+      return updateProgress(progress => {
+        progress.privacyPreferences = normalizePrivacyPreferences(Object.assign({}, preferences || {}, {
+          updatedAt: preferences && preferences.updatedAt || now()
+        }));
+        return progress;
+      }).privacyPreferences;
+    }
+
+    function clearPrivacyPreferences() {
+      return updateProgress(progress => {
+        progress.privacyPreferences = normalizePrivacyPreferences();
+        return progress;
+      }).privacyPreferences;
+    }
+
     function getReviewSchedules() {
       return getProgress().reviewSchedules;
     }
@@ -355,8 +377,10 @@
       appendSavedSession,
       archiveAssignment,
       clearActiveQuiz,
+      clearPrivacyPreferences,
       flushSync,
       getActiveQuiz,
+      getPrivacyPreferences,
       getProgress,
       getLearnerDashboardSource,
       getQuestionReport,
@@ -378,6 +402,7 @@
       restoreLearnerStateFromBackup,
       reconcileSync,
       saveActiveQuiz,
+      savePrivacyPreferences,
       saveProgress,
       saveReviewSchedules,
       saveReviewQueue,
@@ -558,7 +583,24 @@
       mastery: normalizeMastery(input.mastery),
       deletionRequests: normalizeDeletionRequests(input.deletionRequests),
       deletionTombstones: normalizeDeletionTombstones(input.deletionTombstones),
+      privacyPreferences: normalizePrivacyPreferences(input.privacyPreferences),
       lastUpdatedAt: input.lastUpdatedAt || ''
+    };
+  }
+
+  function normalizePrivacyPreferences(preferences) {
+    if (privacyDomain && typeof privacyDomain.normalizePrivacyPreferences === 'function') {
+      return privacyDomain.normalizePrivacyPreferences(preferences);
+    }
+    return {
+      schemaVersion: 1,
+      telemetryEnabled: false,
+      errorTelemetryEnabled: false,
+      performanceTelemetryEnabled: false,
+      experimentParticipationEnabled: false,
+      updatedAt: '',
+      updatedBy: '',
+      policyVersion: 1
     };
   }
 

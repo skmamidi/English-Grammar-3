@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "strategy": "native-esm-copy",
+  "generatedQuestionArtifactsBundled": false,
+  "entrypoints": [
+    "assets/build/app-entry.js"
+  ],
+  "files": [
+    {
+      "path": "assets/build/app-entry.js",
+      "bytes": 354,
+      "sha256": "51969c2d68489f760afdc9d87cd3c0530f9fe812c5cf0b7af7b20018bcca1e89"
+    },
+    {
+      "path": "assets/build/privacy-settings-ui.js",
+      "bytes": 2853,
+      "sha256": "a235ad174e10aa93a2db36c582721caa42c7b9eb6e665b6d1f7582f0e2fd680c"
+    }
+  ]
+}

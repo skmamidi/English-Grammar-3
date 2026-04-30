@@ -29,6 +29,10 @@ test('app telemetry capture normalizes browser failures without unsafe fields', 
     target,
     enabled: true,
     consent: { telemetry: true },
+    privacyPreferences: {
+      telemetryEnabled: true,
+      errorTelemetryEnabled: true
+    },
     route: '/quiz.html?student=secret',
     appVersion: '1.0.0',
     transport: event => sent.push(event),
@@ -79,7 +83,7 @@ test('app telemetry sink respects granular privacy preferences', () => {
     now: () => new Date('2030-04-29T12:00:00.000Z')
   });
 
-  assert.equal(perfSink.capture({ type: 'performance_metric', route: '/index.html', category: 'navigation' }).status, 'sent');
+  assert.equal(perfSink.capture({ type: 'page_performance_summary', route: '/index.html', category: 'navigation' }).status, 'sent');
   assert.equal(performance.length, 1);
 });
 

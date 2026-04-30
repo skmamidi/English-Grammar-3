@@ -41,7 +41,12 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['security:scan'], 'node scripts/security/scan-secrets.js');
   assert.equal(pkg.scripts['security:licenses'], 'node scripts/security/check-licenses.js');
   assert.equal(pkg.scripts['security:audit'], 'npm audit --audit-level=high');
+  assert.equal(pkg.scripts['build:frontend'], 'node scripts/build-frontend.js');
+  assert.equal(pkg.scripts['qa:app-shell-size'], 'node scripts/qa/app-shell-size-budget.js');
   assert.match(pkg.scripts['test:unit'], /tests\/access-control\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/frontend-build-contract\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/domain-type-contract\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/app-shell-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/secret-scan\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/license-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/guardian-access\.test\.js/);

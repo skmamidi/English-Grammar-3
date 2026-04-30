@@ -1069,6 +1069,8 @@ async function assertAdminOperationsPage(page) {
 
 async function assertSettingsPage(page) {
   await assertVisible(page, '#privacy-settings', 'settings.html');
+  assert.equal(await page.evaluate(() => window.GrammarQuestModuleBoundary && window.GrammarQuestModuleBoundary.settingsLoaded), true);
+  assert.equal(await page.evaluate(() => Boolean(window.GrammarQuestPrivacySettingsUi)), false);
   await assertVisible(page, '#privacy-telemetry-enabled', 'settings telemetry toggle');
   await assertVisible(page, '#privacy-error-telemetry-enabled', 'settings error telemetry toggle');
   await assertVisible(page, '#privacy-performance-telemetry-enabled', 'settings performance telemetry toggle');

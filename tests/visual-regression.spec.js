@@ -37,6 +37,7 @@ const CASES = [
   { name: 'quiz-feedback', file: 'topics/grammar/subtopics/sentence-types.html', state: answerQuestion, selectors: ['.app-header', '#quiz-root', '.question-box'] },
   { name: 'quiz-results', file: 'topics/capitalization/subtopics/books-magazines-songs-plays.html', state: finishQuiz, selectors: ['.app-header', '#quiz-root', '.results-card', '.results-box'] },
   { name: 'reports', file: 'reports.html' },
+  { name: 'settings', file: 'settings.html', selectors: ['.app-header', '#privacy-settings', '.privacy-toggle-row'] },
   { name: 'parent-preview', file: 'topics/capitalization/subtopics/proper-names-titles.html?parentBrowse=1', waitFor: '#start-btn' },
   { name: 'offline-unavailable', file: 'topics/grammar/subtopics/run-on-sentences.html', state: forceOfflineUnavailable }
 ];

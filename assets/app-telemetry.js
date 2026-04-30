@@ -13,14 +13,15 @@
 
   const domain = root.GrammarQuestAppTelemetryDomain ||
     (typeof require === 'function' ? require('./app-telemetry-domain') : null);
+  const privacyDomain = root.GrammarQuestPrivacyPreferencesDomain ||
+    (typeof require === 'function' ? require('./privacy-preferences-domain') : null);
 
   function createAppTelemetrySink(options = {}) {
-    const enabled = options.enabled === true && hasConsent(options.consent);
     const transport = typeof options.transport === 'function' ? options.transport : defaultTransport(options);
     return {
       capture(event) {
-        if (!enabled) return { status: 'disabled' };
         try {
+          if (!canSendAppTelemetry(event, options)) return { status: 'disabled' };
           const normalized = domain.normalizeAppTelemetryEvent(event, options);
           transport(normalized);
           return { status: 'sent', event: normalized };
@@ -82,6 +83,15 @@
 
   function hasConsent(consent) {
     return !!(consent && consent.telemetry === true && consent.optOut !== true);
+  }
+
+  function canSendAppTelemetry(event, options) {
+    if (privacyDomain && typeof privacyDomain.canSendTelemetry === 'function') {
+      return privacyDomain.canSendTelemetry(Object.assign({}, options, {
+        type: event && event.type || 'error'
+      }));
+    }
+    return options.enabled === true && hasConsent(options.consent);
   }
 
   function defaultTransport(options) {

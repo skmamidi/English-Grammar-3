@@ -1,0 +1,19 @@
+{
+  "domain": "capitalization",
+  "budget": {
+    "maxP95LatencyMs": 50
+  },
+  "stats": {
+    "minMs": 0.509958,
+    "medianMs": 2.085959,
+    "p95Ms": 50.924083,
+    "maxResponseBytes": 4648,
+    "responseBytes": 4648,
+    "selectedCount": 20,
+    "sourceHash": "sha256:2cb7bc2b89b6ae391c0f878e820f2334b7b9f8e94342082ab644a3fec0b03afd"
+  },
+  "selectedCount": 20,
+  "responseBytes": 4648,
+  "sourceHash": "sha256:2cb7bc2b89b6ae391c0f878e820f2334b7b9f8e94342082ab644a3fec0b03afd",
+  "strict": false
+}

@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progress Settings</title>
+  <meta name="color-scheme" content="light dark">
+  <title>Privacy Settings</title>
   <script src="assets/theme.js"></script>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -12,37 +13,83 @@
     <div class="container">
       <a href="index.html" class="logo">English Language Mastery</a>
       <nav class="header-actions" aria-label="Quick links">
-        <a href="index.html" class="back-link">Practice</a>
+        <a href="index.html" class="back-link">All practice</a>
+        <a href="reports.html" class="header-icon-link" aria-label="Teacher and parent reports" title="Reports">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M4 19V5"></path>
+            <path d="M4 19h16"></path>
+            <path d="M8 16v-5"></path>
+            <path d="M12 16V8"></path>
+            <path d="M16 16v-7"></path>
+            <path d="M20 16v-3"></path>
+          </svg>
+        </a>
       </nav>
     </div>
   </header>
-  <main class="container reports-shell">
-    <section class="reports-hero">
+
+  <main class="container settings-shell">
+    <section class="settings-hero">
       <div>
-        <div class="quest-kicker">Settings</div>
-        <h1 class="page-title">Progress Transfer</h1>
-        <p class="page-subtitle">Export or import validated learner progress without exposing auth tokens or raw question payloads.</p>
+        <div class="quest-kicker">Privacy</div>
+        <h1 class="page-title">Privacy Settings</h1>
+        <p class="page-subtitle">Choose what diagnostics and experiments this learner can join.</p>
       </div>
-      <button class="btn btn-primary" type="button" id="export-progress">Export JSON</button>
+      <div class="admin-ops-status" id="privacy-status" aria-live="polite">Ready</div>
     </section>
-    <section class="student-report-card">
-      <label class="report-filter" for="import-progress-file">Import JSON
-        <input id="import-progress-file" type="file" accept="application/json">
-      </label>
-      <label class="report-filter" for="import-policy">Conflict policy
-        <select id="import-policy">
-          <option value="skip">Skip existing</option>
-          <option value="merge">Merge</option>
-          <option value="replace">Replace</option>
-        </select>
-      </label>
-      <pre id="import-preview" aria-live="polite"></pre>
-      <button class="btn btn-secondary" type="button" id="apply-import" disabled>Apply import</button>
+
+    <section class="privacy-settings" id="privacy-settings" aria-labelledby="privacy-settings-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Telemetry</span>
+          <h2 id="privacy-settings-title">Data Sharing Controls</h2>
+        </div>
+        <button class="btn btn-primary" id="privacy-save" type="button">Save</button>
+      </div>
+
+      <div class="privacy-toggle-list">
+        <label class="privacy-toggle-row" for="privacy-telemetry-enabled">
+          <span>
+            <strong>Product diagnostics</strong>
+            <small>Allow privacy-safe app usage signals.</small>
+          </span>
+          <input id="privacy-telemetry-enabled" type="checkbox">
+        </label>
+
+        <label class="privacy-toggle-row" for="privacy-error-telemetry-enabled">
+          <span>
+            <strong>Error diagnostics</strong>
+            <small>Help catch broken pages and failed resources.</small>
+          </span>
+          <input id="privacy-error-telemetry-enabled" type="checkbox">
+        </label>
+
+        <label class="privacy-toggle-row" for="privacy-performance-telemetry-enabled">
+          <span>
+            <strong>Performance diagnostics</strong>
+            <small>Help measure load speed and runtime health.</small>
+          </span>
+          <input id="privacy-performance-telemetry-enabled" type="checkbox">
+        </label>
+
+        <label class="privacy-toggle-row" for="privacy-experiment-participation-enabled">
+          <span>
+            <strong>Experiments</strong>
+            <small>Allow this learner to join consent-bound feature tests.</small>
+          </span>
+          <input id="privacy-experiment-participation-enabled" type="checkbox">
+        </label>
+      </div>
     </section>
   </main>
+
+  <script src="assets/privacy-preferences-domain.js"></script>
+  <script src="assets/assignment-domain.js"></script>
+  <script src="assets/adaptive-review-domain.js"></script>
+  <script src="assets/spaced-repetition-domain.js"></script>
+  <script src="assets/question-report-domain.js"></script>
+  <script src="assets/learner-data-lifecycle-domain.js"></script>
   <script src="assets/learner-state-repository.js"></script>
-  <script src="assets/learner-progress-transfer-domain.js"></script>
-  <script src="assets/learner-progress-transfer-service.js"></script>
-  <script src="assets/progress-transfer-ui.js"></script>
+  <script type="module" src="assets/build/app-entry.js"></script>
 </body>
 </html>

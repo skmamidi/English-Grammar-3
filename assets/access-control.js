@@ -35,6 +35,10 @@
     importOwnLearnerProgress: 'learner-progress:import-own',
     importLinkedLearnerProgress: 'learner-progress:import-linked',
     importAssignedLearnerProgress: 'learner-progress:import-assigned',
+    viewOwnPrivacyPreferences: 'privacy-preferences:view-own',
+    manageOwnPrivacyPreferences: 'privacy-preferences:manage-own',
+    viewLinkedLearnerPrivacyPreferences: 'privacy-preferences:view-linked',
+    manageLinkedLearnerPrivacyPreferences: 'privacy-preferences:manage-linked',
     requestLearnerDataDeletion: 'learner-data:request-delete',
     approveLearnerDataDeletion: 'learner-data:approve-delete',
     exportLearnerDataBackup: 'learner-data:export-backup',
@@ -76,7 +80,8 @@
     TELEMETRY_SUMMARY: 'telemetrySummary',
     ADMIN_CONSOLE: 'adminConsole',
     AUDIT_LOG: 'auditLog',
-    SYSTEM_SETTING: 'systemSetting'
+    SYSTEM_SETTING: 'systemSetting',
+    PRIVACY_PREFERENCES: 'privacyPreferences'
   });
 
   const roleCapabilities = Object.freeze({
@@ -87,6 +92,8 @@
       Capabilities.resumeOwnQuiz,
       Capabilities.exportOwnLearnerProgress,
       Capabilities.importOwnLearnerProgress,
+      Capabilities.viewOwnPrivacyPreferences,
+      Capabilities.manageOwnPrivacyPreferences,
       Capabilities.requestLearnerDataDeletion,
       Capabilities.exportLearnerDataBackup
     ]),
@@ -97,6 +104,8 @@
       Capabilities.viewOwnQuestionReportStatus,
       Capabilities.exportLinkedLearnerProgress,
       Capabilities.importLinkedLearnerProgress,
+      Capabilities.viewLinkedLearnerPrivacyPreferences,
+      Capabilities.manageLinkedLearnerPrivacyPreferences,
       Capabilities.requestLearnerDataDeletion,
       Capabilities.exportLearnerDataBackup
     ]),
@@ -155,7 +164,8 @@
       assignedLearnerIds: normalizeIdList(input.assignedLearnerIds),
       assignedClassIds: normalizeIdList(input.assignedClassIds),
       classroomProgressTransferEnabled: input.classroomProgressTransferEnabled === true,
-      learnerDataDeletionEnabled: input.learnerDataDeletionEnabled === true
+      learnerDataDeletionEnabled: input.learnerDataDeletionEnabled === true,
+      privacyPreferenceManagementEnabled: input.privacyPreferenceManagementEnabled === true
     };
   }
 
@@ -288,6 +298,9 @@
     if ([Capabilities.exportOwnLearnerProgress, Capabilities.importOwnLearnerProgress, Capabilities.requestLearnerDataDeletion, Capabilities.exportLearnerDataBackup].includes(action)) {
       return resource.type === ResourceTypes.LEARNER_PROGRESS && sameId(actor.learnerId, resource.learnerId);
     }
+    if ([Capabilities.viewOwnPrivacyPreferences, Capabilities.manageOwnPrivacyPreferences].includes(action)) {
+      return resource.type === ResourceTypes.PRIVACY_PREFERENCES && sameId(actor.learnerId, resource.learnerId);
+    }
     if (action === Capabilities.resumeOwnQuiz) {
       return resource.type === ResourceTypes.ACTIVE_QUIZ && sameId(actor.learnerId, resource.ownerLearnerId);
     }
@@ -303,6 +316,14 @@
     }
     if ([Capabilities.exportLinkedLearnerProgress, Capabilities.importLinkedLearnerProgress, Capabilities.requestLearnerDataDeletion, Capabilities.exportLearnerDataBackup].includes(action)) {
       return resource.type === ResourceTypes.LEARNER_PROGRESS && actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
+    }
+    if (action === Capabilities.viewLinkedLearnerPrivacyPreferences) {
+      return resource.type === ResourceTypes.PRIVACY_PREFERENCES && actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
+    }
+    if (action === Capabilities.manageLinkedLearnerPrivacyPreferences) {
+      return resource.type === ResourceTypes.PRIVACY_PREFERENCES &&
+        actor.privacyPreferenceManagementEnabled === true &&
+        actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
     }
     if (![Capabilities.viewLinkedLearnerReports, Capabilities.viewLinkedLearnerDashboard].includes(action)) return false;
     if (![

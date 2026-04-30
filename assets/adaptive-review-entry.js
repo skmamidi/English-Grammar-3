@@ -4,6 +4,7 @@
   const panel = document.getElementById('adaptive-review-panel');
   const progressStore = window.GrammarQuestProgress;
   const reviewDomain = window.GrammarQuestAdaptiveReviewDomain;
+  const scheduleProjection = window.GrammarQuestReviewScheduleProjection;
   const manifest = window.QUESTION_MANIFEST || {};
   const SET_ROUTES = {
     'grammar-sentence-types': 'topics/grammar/subtopics/sentence-types.html',
@@ -22,6 +23,20 @@
 
   function renderAdaptiveReview() {
     if (!panel || !progressStore || !reviewDomain) return;
+    const dueQueue = getDueReviewQueue();
+    if (dueQueue && dueQueue.items.length) {
+      renderReviewPanel({
+        kicker: 'Spaced Review',
+        title: 'Practice due review',
+        body: `${dueQueue.items.length} scheduled item${dueQueue.items.length === 1 ? '' : 's'} due now.`,
+        buttonId: 'start-due-review',
+        buttonText: 'Practice Due Review',
+        queue: dueQueue,
+        items: dueQueue.items
+      });
+      return;
+    }
+
     const queue = getOrCreateQueue();
     const items = queue.items.filter(item => item.status !== 'mastered' && item.status !== 'dismissed');
     if (!items.length) {
@@ -32,17 +47,63 @@
 
     const firstRoute = getRouteForQueue(items);
     if (!firstRoute) return;
+    renderReviewPanel({
+      kicker: 'Adaptive Review',
+      title: 'Review missed questions',
+      body: `${items.length} focused item${items.length === 1 ? '' : 's'} ready from recent misses and skill evidence.`,
+      buttonId: 'start-adaptive-review',
+      buttonText: 'Start Review',
+      queue,
+      items
+    });
+  }
+
+  function renderReviewPanel(options) {
+    const firstRoute = getRouteForQueue(options.items);
+    if (!firstRoute) return;
     panel.classList.remove('hidden');
     panel.innerHTML = `
       <div>
-        <div class="quest-kicker">Adaptive Review</div>
-        <h2>Review missed questions</h2>
-        <p>${items.length} focused item${items.length === 1 ? '' : 's'} ready from recent misses and skill evidence.</p>
+        <div class="quest-kicker">${escapeHtml(options.kicker)}</div>
+        <h2>${escapeHtml(options.title)}</h2>
+        <p>${escapeHtml(options.body)}</p>
       </div>
-      <button class="btn btn-primary" type="button" id="start-adaptive-review">Start Review</button>
+      <button class="btn btn-primary" type="button" id="${escapeHtml(options.buttonId)}">${escapeHtml(options.buttonText)}</button>
     `;
-    const button = document.getElementById('start-adaptive-review');
-    if (button) button.addEventListener('click', () => startReview(queue, items, firstRoute));
+    const button = document.getElementById(options.buttonId);
+    if (button) button.addEventListener('click', () => startReview(options.queue, options.items, firstRoute));
+  }
+
+  function getDueReviewQueue() {
+    if (!scheduleProjection || typeof scheduleProjection.projectDueReview !== 'function') return null;
+    const progress = progressStore.getProgress();
+    const projection = scheduleProjection.projectDueReview({
+      schedules: progress.reviewSchedules,
+      mastery: progress.mastery,
+      now: new Date().toISOString()
+    });
+    if (!projection.dueQuestionRefs.length) return null;
+    const schedules = Array.isArray(progress.reviewSchedules) ? progress.reviewSchedules : [];
+    const items = projection.dueQuestionRefs.slice(0, 5).map((ref, index) => {
+      const schedule = schedules.find(item => item && item.ref && item.ref.id === ref.id) || {};
+      return {
+        id: `due-review-${ref.id}`,
+        questionRef: ref,
+        setId: ref.sourceSet,
+        skillIds: Array.isArray(schedule.skillIds) ? schedule.skillIds : [],
+        reason: 'due_for_review',
+        priority: 90 - index,
+        dueAt: schedule.dueAt || '',
+        status: 'queued',
+        seenAt: '',
+        masteredAt: ''
+      };
+    });
+    return reviewDomain.normalizeReviewQueue({
+      queueId: `spaced-review-${new Date().toISOString().slice(0, 10)}`,
+      generatedAt: new Date().toISOString(),
+      items
+    });
   }
 
   function getOrCreateQueue() {
@@ -96,5 +157,11 @@
     try {
       window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
     } catch (error) {}
+  }
+
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = String(text || '');
+    return div.innerHTML;
   }
 })();

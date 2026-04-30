@@ -368,7 +368,48 @@
     if (spacedRepetitionDomain && typeof spacedRepetitionDomain.applyReviewOutcomes === 'function') {
       return spacedRepetitionDomain.applyReviewOutcomes(existingSchedules, outcomes, { now: reviewedAt });
     }
-    return normalizeReviewSchedules(existingSchedules);
+    const now = safeIso(reviewedAt) || new Date().toISOString();
+    const byId = {};
+    normalizeReviewSchedules(existingSchedules).forEach(schedule => {
+      byId[schedule.ref.id] = schedule;
+    });
+    (Array.isArray(outcomes) ? outcomes : []).forEach(outcome => {
+      const ref = normalizeScheduleQuestionRef(outcome && (outcome.questionRef || outcome.ref || outcome));
+      if (!ref.id) return;
+      const previous = byId[ref.id] || {};
+      const correct = outcome && outcome.correct === true;
+      const intervalDays = correct
+        ? previous.intervalDays ? Math.max(previous.intervalDays + 1, Math.ceil(previous.intervalDays * (previous.ease || 2.4))) : 2
+        : 1;
+      byId[ref.id] = normalizeScheduleFallback({
+        ref,
+        skillIds: outcome && outcome.skillIds || previous.skillIds,
+        intervalDays,
+        ease: correct ? previous.ease || 2.4 : Math.max(1.6, (previous.ease || 2) - 0.25),
+        dueAt: addDays(now, intervalDays),
+        lastReviewedAt: now,
+        streak: correct ? (previous.streak || 0) + 1 : 0,
+        lapses: correct ? previous.lapses || 0 : (previous.lapses || 0) + 1
+      });
+    });
+    return normalizeReviewSchedules(Object.keys(byId).map(id => byId[id]));
+  }
+
+  function normalizeScheduleQuestionRef(ref) {
+    const input = ref && typeof ref === 'object' ? ref : {};
+    return {
+      id: String(input.id || input.questionId || ''),
+      sourceSet: String(input.sourceSet || input.setId || ''),
+      version: Number(input.version || input.questionVersion) || 0,
+      contentHash: String(input.contentHash || input.questionHash || ''),
+      sequence: Number(input.sequence) || 0
+    };
+  }
+
+  function addDays(iso, days) {
+    const date = new Date(iso);
+    date.setTime(date.getTime() + Math.max(1, Number(days) || 1) * 24 * 60 * 60 * 1000);
+    return date.toISOString();
   }
 
   function normalizeReviewItemFallback(item) {

@@ -2789,6 +2789,7 @@
       : null;
 
     saveProgress(progress);
+    updateReviewSchedulesFromAttempts(attempts || [], completedSession);
     completeActiveAssignment(completedSession);
     completeActiveReview(attempts || [], completedSession);
 
@@ -2833,6 +2834,24 @@
         localStorage.removeItem('grammarQuestActiveAssignmentRequest');
       } catch (error) {}
     }
+  }
+
+  function updateReviewSchedulesFromAttempts(attempts, session) {
+    if (isParentMode() || !session || !progressStore || typeof progressStore.updateReviewSchedules !== 'function') return;
+    const outcomes = (Array.isArray(attempts) ? attempts : []).map(attempt => {
+      const ref = getQuestionRef(attempt.question || attempt);
+      return {
+        questionRef: ref,
+        skillIds: normalizeStringArray(attempt.skillIds || attempt.question && attempt.question.metadata && attempt.question.metadata.skillIds),
+        correct: attempt.correct === true
+      };
+    }).filter(outcome => outcome.questionRef && outcome.questionRef.id);
+    if (!outcomes.length) return;
+    progressStore.updateReviewSchedules(outcomes, session.completedAt, { sync: true });
+  }
+
+  function normalizeStringArray(values) {
+    return Array.from(new Set((Array.isArray(values) ? values : []).map(value => String(value || '').trim()).filter(Boolean)));
   }
 
   function completeActiveReview(attempts, session) {

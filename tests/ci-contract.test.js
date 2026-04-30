@@ -48,6 +48,8 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/assignment-quiz-adapter\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/adaptive-review-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/adaptive-review-selection\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/spaced-repetition-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/review-schedule-projection\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/chunk-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/ui-smoke-runner-contract\.test\.js/);

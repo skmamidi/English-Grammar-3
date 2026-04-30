@@ -56,6 +56,9 @@
   window.GrammarQuestPromptFormatting = {
     renderQuestionPromptForTest(question) {
       return renderDisplayPrompt(getDisplayPromptParts(question && question.question, question), 'question');
+    },
+    getQuestionStrategyClueForTest(question, scene) {
+      return getQuestionStrategyClue(question, scene);
     }
   };
 
@@ -2094,17 +2097,15 @@
     return `Clue to use: ${getQuestionStrategyClue(question)}`;
   }
 
+  const defaultStrategyClue = 'Use prompt wording as evidence; rule out mismatched choices.';
+
   function getQuestionStrategyClue(question, scene) {
     const prompt = stripPromptLeadIns(question && question.question ? question.question : '');
     const skills = question && question.metadata && Array.isArray(question.metadata.skills)
       ? question.metadata.skills.join(' ').toLowerCase()
       : '';
-    const studyExample = question && question.studyAid && question.studyAid.example
-      ? normalizePromptText(question.studyAid.example)
-      : '';
-    const fallback = scene && scene.clue
-      ? normalizePromptText(scene.clue)
-      : '';
+    const studyExample = getSafeStrategyClueText(question, question && question.studyAid && question.studyAid.example);
+    const fallback = getSafeStrategyClueText(question, scene && scene.clue);
 
     const contextMeaning = getContextMeaningClue(prompt);
     if (contextMeaning) return contextMeaning;
@@ -2131,7 +2132,39 @@
       return studyExample || 'Break the word into meaningful parts, then choose the answer that preserves those parts.';
     }
 
-    return studyExample || fallback || 'Use the exact clue in the question, then eliminate choices that do not match it.';
+    return studyExample || fallback || defaultStrategyClue;
+  }
+
+  function getSafeStrategyClueText(question, value) {
+    const text = normalizePromptText(value);
+    return isStrategyClueAnswerLeak(question, text) ? '' : text;
+  }
+
+  function isStrategyClueAnswerLeak(question, clue) {
+    if (!clue || !question || !Array.isArray(question.choices) || !Number.isInteger(question.correct)) return false;
+    const correctChoice = question.choices[question.correct];
+    const correctText = normalizeStrategyLeakText(correctChoice);
+    const clueText = normalizeStrategyLeakText(clue);
+    if (!correctText || !clueText) return false;
+    if (clueText === correctText) return true;
+    if (correctText.length < 2) return false;
+    return buildStrategyLeakRegExp(correctText).test(clueText);
+  }
+
+  function normalizeStrategyLeakText(value) {
+    return String(value || '')
+      .toLowerCase()
+      .replace(/[“”]/g, '"')
+      .replace(/[‘’]/g, "'")
+      .replace(/[\u2010-\u2015]/g, '-')
+      .replace(/[^a-z0-9'-]+/g, ' ')
+      .trim()
+      .replace(/\s+/g, ' ');
+  }
+
+  function buildStrategyLeakRegExp(value) {
+    const escaped = String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`(^|\\s)${escaped}(?=\\s|$)`);
   }
 
   const syllableDivisionMap = {
@@ -2192,7 +2225,7 @@
     const count = division ? getSyllableCountFromDivision(division) : 0;
 
     if (/how many syllables/i.test(cleanPrompt) && target) {
-      return `Say "${target}" naturally. Count the vowel beats you hear, then check the printed chunks: ${division || target}${count ? ` has ${count} beats` : ''}.`;
+      return `Say "${target}" naturally. Tap once for each vowel beat, then match that count to an answer choice.`;
     }
     if (/closed first syllable/i.test(cleanPrompt)) {
       return 'Mark the first vowel sound in each word. A closed first syllable ends with a consonant after the vowel, so the vowel is usually short: rab-bit.';
@@ -2661,8 +2694,12 @@
     });
     progress.activeQuiz = null;
     progress.badges = updateBadges(progress);
+    const completedSession = progress.reports && Array.isArray(progress.reports.sessions)
+      ? progress.reports.sessions[0]
+      : null;
 
     saveProgress(progress);
+    completeActiveAssignment(completedSession);
 
     let message = 'Every answer moves your story forward.';
     if (streakBonus) {
@@ -2674,6 +2711,37 @@
     }
 
     return { gemsEarned, message, progress };
+  }
+
+  function completeActiveAssignment(session) {
+    if (isParentMode() || !session) return;
+    const assignmentId = loadSetting('grammarQuestActiveAssignmentId', '');
+    if (!assignmentId) return;
+    try {
+      if (progressStore && typeof progressStore.markAssignmentCompleted === 'function') {
+        progressStore.markAssignmentCompleted(assignmentId, {
+          sessionId: session.id,
+          completedAt: session.completedAt
+        }, { sync: true });
+      } else {
+        const progress = loadProgress();
+        progress.assignments = (Array.isArray(progress.assignments) ? progress.assignments : []).map(assignment => {
+          if (!assignment || assignment.id !== assignmentId) return assignment;
+          return Object.assign({}, assignment, {
+            status: 'completed',
+            completedAt: session.completedAt,
+            completedSessionId: session.id,
+            updatedAt: session.completedAt
+          });
+        });
+        saveProgress(progress, { sync: true });
+      }
+    } finally {
+      try {
+        localStorage.removeItem('grammarQuestActiveAssignmentId');
+        localStorage.removeItem('grammarQuestActiveAssignmentRequest');
+      } catch (error) {}
+    }
   }
 
   function updateReports(existingReports, attempts, summary) {
@@ -3198,8 +3266,20 @@
   }
 
   function getConfiguredQuestionCount() {
+    const assignmentRequest = getActiveAssignmentRequest();
+    if (assignmentRequest && Number(assignmentRequest.count) > 0) {
+      return Math.min(60, Math.max(1, Number(assignmentRequest.count) || 0));
+    }
     const configured = parseInt(window.QUIZ_QUESTION_COUNT, 10);
     return Number.isFinite(configured) && configured > 0 ? configured : 15;
+  }
+
+  function getActiveAssignmentRequest() {
+    try {
+      return JSON.parse(localStorage.getItem('grammarQuestActiveAssignmentRequest') || 'null');
+    } catch (error) {
+      return null;
+    }
   }
 
   function getConfiguredQuestionsPerSubtopic() {

@@ -31,6 +31,13 @@ test('student access is scoped to the actor learner only', () => {
     }),
     false
   );
+  assert.equal(
+    access.canAccess(student, access.Capabilities.viewAssignments, {
+      type: access.ResourceTypes.ASSIGNMENT,
+      learnerId: 'learner-1'
+    }),
+    true
+  );
 });
 
 test('parent guardian access is linked-learner scoped and never operational', () => {
@@ -93,6 +100,20 @@ test('teacher access is assigned learner scoped and not system admin access', ()
       classId: 'class-a'
     }),
     true
+  );
+  assert.equal(
+    access.canAccess(teacher, access.Capabilities.manageAssignments, {
+      type: access.ResourceTypes.ASSIGNMENT,
+      learnerId: 'learner-2'
+    }),
+    true
+  );
+  assert.equal(
+    access.canAccess(teacher, access.Capabilities.manageAssignments, {
+      type: access.ResourceTypes.ASSIGNMENT,
+      learnerId: 'learner-3'
+    }),
+    false
   );
   assert.equal(
     access.canAccess(teacher, access.Capabilities.manageFeatureFlags, {

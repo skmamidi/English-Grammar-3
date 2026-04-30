@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>Assignments</title>
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="container">
+      <a href="index.html" class="logo">English Language Mastery</a>
+      <nav class="header-actions" aria-label="Quick links">
+        <a href="index.html" class="back-link">All practice</a>
+        <a href="reports.html" class="back-link">Reports</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container assignments-shell">
+    <section class="assignments-hero">
+      <div>
+        <div class="quest-kicker">Practice Plans</div>
+        <h1 class="page-title">Assignments</h1>
+        <p class="page-subtitle">Start assigned practice without copying question content into learner storage.</p>
+      </div>
+    </section>
+
+    <section class="assignment-list" id="assignment-list" aria-label="Learner assignments"></section>
+  </main>
+
+  <script src="assets/firebase-config.js"></script>
+  <script src="assets/assignment-domain.js"></script>
+  <script src="assets/assignment-quiz-adapter.js"></script>
+  <script src="assets/learner-state-repository.js"></script>
+  <script src="assets/progress-store.js"></script>
+  <script src="assets/question-manifest.js"></script>
+  <script src="assets/assignments-page.js"></script>
+</body>
+</html>

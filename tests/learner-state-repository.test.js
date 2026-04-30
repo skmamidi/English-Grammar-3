@@ -60,6 +60,33 @@ test('learner state repository preserves reports while appending saved sessions'
   assert.equal(state.reports.questionReports[0].id, 'question-report-existing');
 });
 
+test('learner state repository stores assignment refs and status transitions', () => {
+  const storage = createMemoryStorage();
+  const repository = createRepository(storage);
+  const assignment = repository.upsertAssignment({
+    id: 'assignment-1',
+    title: 'Sentence tune-up',
+    assignedTo: { learnerIds: ['learner-1'] },
+    scope: { setIds: ['grammar-sentence-types'], skillIds: ['grammar.sentence-analysis'] },
+    quizOptions: { count: 1 },
+    status: 'active'
+  });
+
+  assert.equal(assignment.status, 'active');
+  assert.equal(JSON.stringify(assignment).includes('"question"'), false);
+  assert.equal(repository.listAssignments().length, 1);
+
+  repository.markAssignmentStarted('assignment-1', '2030-04-29T12:00:00.000Z');
+  const completed = repository.markAssignmentCompleted('assignment-1', {
+    sessionId: 'session-1',
+    completedAt: '2030-04-29T12:05:00.000Z'
+  });
+
+  assert.equal(completed.status, 'completed');
+  assert.equal(completed.completedSessionId, 'session-1');
+  assert.equal(repository.archiveAssignment('assignment-1').status, 'archived');
+});
+
 test('learner state repository upserts question reports without conflating report and question ids', () => {
   const repository = createRepository();
   repository.upsertQuestionReport({

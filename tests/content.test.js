@@ -10,6 +10,7 @@ const { normalizeQuestion } = require('../scripts/assign-question-ids');
 const { computeContentHash } = require('../scripts/qa/question-metadata');
 
 const repoRoot = path.resolve(__dirname, '..');
+let quizEngineTestApi;
 
 test('all question banks load and satisfy the content contract', () => {
   const result = validateContent();
@@ -58,6 +59,62 @@ test('underlined-word prompts expose renderable underline targets', () => {
   assert.match(html, /<u>the<\/u>/);
 });
 
+test('live question banks do not render strategy hints that reveal the correct answer', () => {
+  const result = validateContent();
+  const leaks = result.questions
+    .map(record => {
+      const clue = getStrategyClueForTest(record.question);
+      return {
+        record,
+        clue,
+        leak: getStrategyHintAnswerLeak(record.question, clue)
+      };
+    })
+    .filter(item => item.leak);
+
+  assert.equal(
+    leaks.length,
+    0,
+    leaks.map(item => `${item.record.relativeFile} ${item.record.setId} ${item.record.location || questionLabel(item.record)}: hint "${item.clue}" reveals "${item.record.question.choices[item.record.question.correct]}"`).join('\n')
+  );
+});
+
+test('strategy hints ignore authored examples and scene clues that reveal the answer', () => {
+  const question = makeQaQuestion(1, {
+    question: 'Which word best completes the sentence: They ___ playing soccer.',
+    choices: ['is', 'are', 'was'],
+    correct: 1,
+    studyAid: {
+      definition: 'Use subject-verb agreement.',
+      example: 'They are playing. She is playing.'
+    }
+  });
+  const scene = makeScene('Characters discuss subject-verb agreement.');
+  scene.clue = 'The answer is are.';
+
+  const clue = getStrategyClueForTest(question, scene);
+
+  assert.equal(getStrategyHintAnswerLeak(question, clue), false);
+  assert.doesNotMatch(normalizeStrategyHintText(clue), /(^|\s)are(?=\s|$)/);
+});
+
+test('syllable count strategy hints do not include the final count or printed division', () => {
+  const question = makeQaQuestion(1, {
+    question: 'How many syllables are in "computer"?',
+    choices: ['1', '2', '3', '4'],
+    correct: 2,
+    studyAid: {
+      definition: 'Each syllable has a vowel sound.',
+      example: 'computer has three syllables: com-pu-ter.'
+    }
+  });
+
+  const clue = getStrategyClueForTest(question);
+
+  assert.equal(getStrategyHintAnswerLeak(question, clue), false);
+  assert.doesNotMatch(clue, /\b3\b|\bthree\b|com-pu-ter/i);
+});
+
 test('content QA fails underlined-word prompts when choices cannot be located in the sentence', () => {
   const question = makeQaQuestion(1, {
     question: 'Which underlined word is used incorrectly in the sentence? The bright comet crossed the sky.',
@@ -77,6 +134,47 @@ test('content QA fails underlined-word prompts when choices cannot be located in
   const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', [question]));
 
   assertIssue(result.errors, 'missing-underlined-choice-target');
+});
+
+test('claim opinion questions require option-specific feedback', () => {
+  const question = makeQaQuestion(1, {
+    question: 'Which claim is clear for an opinion paragraph?',
+    choices: [
+      'Many things happen at school.',
+      'Trees are outside.',
+      'Our school should plant more shade trees.',
+      'Some people like green.'
+    ],
+    correct: 2,
+    studyAid: {
+      definition: 'Strong writing is clear and supported with details.',
+      example: 'A claim states a clear opinion or position.'
+    },
+    explanation: {
+      correct: 'Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.',
+      incorrect: [
+        'Not: Many things happen at school.. A claim states a clear opinion or position.',
+        'Not: Trees are outside.. A claim states a clear opinion or position.',
+        '',
+        'Not: Some people like green.. A claim states a clear opinion or position.'
+      ]
+    }
+  });
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', [question]));
+
+  assertIssue(result.errors, 'claim-explanation-specificity');
+});
+
+test('live claim opinion questions explain what each wrong choice is', () => {
+  const result = validateContent();
+  const claimErrors = result.errors.filter(issue => issue.ruleId === 'claim-explanation-specificity');
+
+  assert.equal(
+    claimErrors.length,
+    0,
+    claimErrors.map(issue => `${issue.relativeFile} ${issue.setId} ${issue.location}: ${issue.message}`).join('\n')
+  );
 });
 
 test('content QA fails malformed explanation arrays', () => {
@@ -365,6 +463,15 @@ function runVisualSceneEnhancer(bank) {
 }
 
 function renderQuizPromptForTest(question) {
+  return loadQuizEngineTestApi().renderQuestionPromptForTest(question);
+}
+
+function getStrategyClueForTest(question, scene) {
+  return loadQuizEngineTestApi().getQuestionStrategyClueForTest(question, scene);
+}
+
+function loadQuizEngineTestApi() {
+  if (quizEngineTestApi) return quizEngineTestApi;
   const context = {
     console,
     window: {
@@ -394,5 +501,37 @@ function renderQuizPromptForTest(question) {
   };
   vm.createContext(context);
   vm.runInContext(fs.readFileSync(path.join(repoRoot, 'assets', 'quiz-engine.js'), 'utf8'), context, { filename: 'assets/quiz-engine.js' });
-  return context.window.GrammarQuestPromptFormatting.renderQuestionPromptForTest(question);
+  quizEngineTestApi = context.window.GrammarQuestPromptFormatting;
+  return quizEngineTestApi;
+}
+
+function getStrategyHintAnswerLeak(question, clue) {
+  if (!question || !Array.isArray(question.choices) || !Number.isInteger(question.correct)) return false;
+  const correct = normalizeStrategyHintText(question.choices[question.correct]);
+  const clueText = normalizeStrategyHintText(clue);
+  if (!correct || !clueText) return false;
+  if (clueText === correct) return true;
+  if (correct.length < 2) return false;
+  return buildStrategyHintLeakRegExp(correct).test(clueText);
+}
+
+function normalizeStrategyHintText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[“”]/g, '"')
+    .replace(/[‘’]/g, "'")
+    .replace(/[\u2010-\u2015]/g, '-')
+    .replace(/[^a-z0-9'-]+/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');
+}
+
+function buildStrategyHintLeakRegExp(value) {
+  const escaped = String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(^|\\s)${escaped}(?=\\s|$)`);
+}
+
+function questionLabel(record) {
+  const sequence = record && record.question && record.question.metadata && record.question.metadata.sequence;
+  return sequence ? `question ${sequence}` : '';
 }

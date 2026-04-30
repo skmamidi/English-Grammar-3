@@ -67566,7 +67566,7 @@
         {
           "id": "grammar-paragraph-structure-q0011",
           "version": 1,
-          "contentHash": "sha256:ff9e730cb0adee28de3ad9b9aa3ac9dc856d69b3c24875e76956eca5bc86f3fa",
+          "contentHash": "sha256:7ce80b26dc9fe5e9250699585b0f8469c708d5127676f899dbfeac2d0f5c96d5",
           "question": "Grade 2 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -67582,12 +67582,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -68361,7 +68361,7 @@
         {
           "id": "grammar-paragraph-structure-q0026",
           "version": 1,
-          "contentHash": "sha256:8b97ca7f5253a16acb2eef76d5fdfbea95abe9992cf8f9753c93c861204edd3c",
+          "contentHash": "sha256:9f69c67361bbb4bf0b4e29045104aa57c91a4e8ac32ace23aa0a1b2bb2afdf9c",
           "question": "Grade 2 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -68377,12 +68377,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -69156,7 +69156,7 @@
         {
           "id": "grammar-paragraph-structure-q0041",
           "version": 1,
-          "contentHash": "sha256:41a0391c7803b4936fbf4e0bb3ea64cfa4bf62f45145d588291e8f9690243a5b",
+          "contentHash": "sha256:9a7bc0e9f7d81b35758072427058a51483cb77774060a781c5825dd219133291",
           "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -69172,12 +69172,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -69951,7 +69951,7 @@
         {
           "id": "grammar-paragraph-structure-q0056",
           "version": 1,
-          "contentHash": "sha256:9f0cb14a9c44e2a33f7d082af425690d714aa726c9669fc97d003cb615e196cf",
+          "contentHash": "sha256:4f719ccaafc051b7b0c63af5f80d06ccf3f719beb541888a4a2b43e79842ee59",
           "question": "Grade 3 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -69967,12 +69967,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -70746,7 +70746,7 @@
         {
           "id": "grammar-paragraph-structure-q0071",
           "version": 1,
-          "contentHash": "sha256:18a354907ccc62bf7689bcdeafde4587d394f0397c8306fd7766702338283458",
+          "contentHash": "sha256:8016e912a746c3480450ae51a965e54bbc83341214fbdb5b54d0e9e125f7bfe2",
           "question": "Grade 3 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -70762,11 +70762,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -71541,7 +71541,7 @@
         {
           "id": "grammar-paragraph-structure-q0086",
           "version": 1,
-          "contentHash": "sha256:51bc92d9ed8c142bc5f355e617fba310d8385a6307650b4b98d9ba66b206422c",
+          "contentHash": "sha256:97aa6729d9b0c411cc4073c0cf62636fd2ac957214545dc3762549fd6f29355b",
           "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -71557,12 +71557,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -72336,7 +72336,7 @@
         {
           "id": "grammar-paragraph-structure-q0101",
           "version": 1,
-          "contentHash": "sha256:2d6c2bb30472f208cd0c531b7ac53b291f600d245bc72a30d2e6fb77a81d1574",
+          "contentHash": "sha256:96a32005825d2e619ef6415f6e802c19c40422f0b3d7a9e001476b21ed9e62ee",
           "question": "Grade 4 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -72352,12 +72352,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -73131,7 +73131,7 @@
         {
           "id": "grammar-paragraph-structure-q0116",
           "version": 1,
-          "contentHash": "sha256:e3c99ca1bb06bdeed584053e31f20c3ef8d7611d8d344accd556f497b62af392",
+          "contentHash": "sha256:92c98d0085714b46e67997aba3b3b856c00bab8b41531636b0c4ee7b40c9e495",
           "question": "Grade 4 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -73147,12 +73147,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -73926,7 +73926,7 @@
         {
           "id": "grammar-paragraph-structure-q0131",
           "version": 1,
-          "contentHash": "sha256:4693b5c4fa542e14b081e54b4d3e47f0a5d03b93eacc4592f05730b111fc7467",
+          "contentHash": "sha256:e730562189ed19a5190dda64c7607908c9a4f238fa3c36cfce88a087566db187",
           "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -73942,12 +73942,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -74721,7 +74721,7 @@
         {
           "id": "grammar-paragraph-structure-q0146",
           "version": 1,
-          "contentHash": "sha256:3697bd84f250d5e548b3c916bcc5cb031b70a85099342b267009f2f65f26fdc6",
+          "contentHash": "sha256:bbf26998b26d3189318ab1bdd2c6b11c804335e2145116c7710fdb5503cd6887",
           "question": "Grade 5 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -74737,12 +74737,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -75516,7 +75516,7 @@
         {
           "id": "grammar-paragraph-structure-q0161",
           "version": 1,
-          "contentHash": "sha256:7ebd292bd062239493415a9a7a75675385d75ee2563b34fc0eaaf0d05d76e432",
+          "contentHash": "sha256:a07ad18d9bd15820e5c7274c1eef077f395ee55db97c831876dfa33ae165e0e2",
           "question": "Grade 5 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -75532,11 +75532,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -76311,7 +76311,7 @@
         {
           "id": "grammar-paragraph-structure-q0176",
           "version": 1,
-          "contentHash": "sha256:aa6847ec70f974a41f3ef2c91b369d11c0403c80024fb3ec68f4a4ec13b6303d",
+          "contentHash": "sha256:3fdbeb2b5cc2483a00dbbf838d71a0d536836cb4485200c5d6dca689f222f488",
           "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -76327,12 +76327,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -76950,7 +76950,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0001",
           "version": 1,
-          "contentHash": "sha256:3f6be2e9606d8a519cb28a39257b335f12f4702359168173eccc10309abdcc8e",
+          "contentHash": "sha256:59c5e989e1b79d2f18b3241a287b6752df15d420dac3d85c964eab4ae0cb70c9",
           "question": "Grade 2 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -76966,12 +76966,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -77436,7 +77436,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0010",
           "version": 1,
-          "contentHash": "sha256:e82a84c892a439a095667aa4624155785ed1750095c4fcfbc9e8c37b9bee3a00",
+          "contentHash": "sha256:75e0272d21cc2c77f9c73eb609194bc4795e354fa9e47c14c8ac6d1466da222f",
           "question": "Grade 2 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -77452,12 +77452,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -77760,7 +77760,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0016",
           "version": 1,
-          "contentHash": "sha256:ebb1d1d248f45e0c7b86d3fc0c6f38ddb5d5440c0dc5b10ae42cbbdf165c59f2",
+          "contentHash": "sha256:62e7a6e967b087c03d98c1473789edf6db64f79a0458a23b68aaa9f867f10c5d",
           "question": "Grade 2 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -77776,11 +77776,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -78246,7 +78246,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0025",
           "version": 1,
-          "contentHash": "sha256:93ac028f49e835642987e19aeca106b0fa26e6bde846085bfe5404177b9a48db",
+          "contentHash": "sha256:85cda2ac5664161b77a22679f4ae6870e078d2b5b21ad5e009b02bf2ce10f154",
           "question": "Grade 2 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -78262,12 +78262,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -78570,7 +78570,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0031",
           "version": 1,
-          "contentHash": "sha256:4e783e8097673459d3b00ac89a0447c59e64b360b916ab9e38f8895386f1aec1",
+          "contentHash": "sha256:7a7797526ee02f43866020586565433204256bd05fd7bd53df1c6066140e76b6",
           "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -78586,12 +78586,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -79056,7 +79056,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0040",
           "version": 1,
-          "contentHash": "sha256:3e149eb07a0c7affd6d22eca826a1ff1eeb44c8bc905ae8b5bee05fa28ff416c",
+          "contentHash": "sha256:1334a8608c2c03197ba20b830aeb372e85953417dd8c1a54f2b8ed135887dd20",
           "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -79072,11 +79072,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -79380,7 +79380,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0046",
           "version": 1,
-          "contentHash": "sha256:461391fa15ae2f0a3bb406afd2c16180d7366d1984ccb845fba1f1c171b00eef",
+          "contentHash": "sha256:c053bf29329165b269bd4ed8614411628b0c325008855200155bf7b1adf99cec",
           "question": "Grade 3 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -79396,12 +79396,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -79866,7 +79866,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0055",
           "version": 1,
-          "contentHash": "sha256:48ed63b8db5730733033aa50226791fcfb491e37cdfb0a7f036c2abe57e89ee9",
+          "contentHash": "sha256:f55eb48e393cac5b8e41ad0c29bf65386db12e15bb0c23fd6b52a59896b4cf29",
           "question": "Grade 3 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -79882,11 +79882,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -80190,7 +80190,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0061",
           "version": 1,
-          "contentHash": "sha256:33e872f043faa3945c9c8579dd189d655ee5d38acf5ac4dccd71dd0c6cbdc47d",
+          "contentHash": "sha256:03932f228b4affb8030e6f7c23252beecb4e9dba4e888c740682280e0927c195",
           "question": "Grade 3 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -80206,12 +80206,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -80676,7 +80676,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0070",
           "version": 1,
-          "contentHash": "sha256:225b65cbc802a47b1aa32dd02e745d259c93203c8250d5bbe102d4f2e049299e",
+          "contentHash": "sha256:b6e4e73a3e9b060e91928d40e43bdc423a217180d176885d380f287bd96a5786",
           "question": "Grade 3 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -80692,12 +80692,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -81000,7 +81000,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0076",
           "version": 1,
-          "contentHash": "sha256:9d5ead4bae5d062732be51f1a52bd42c5df041f8ccb34fb7d1098d34f615f25e",
+          "contentHash": "sha256:ea41c1dd71cbcd8b0355b01caec4205de25a8b75684df273c69ff5007b0878e5",
           "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -81016,12 +81016,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -81486,7 +81486,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0085",
           "version": 1,
-          "contentHash": "sha256:d0d0fcee4552d41efcf2e3cfaf165a0239fb84adbd8cc4c95cccd2951c9663a3",
+          "contentHash": "sha256:829df6e0fb591c31aa87ec25091d3a8ce8bc0e80f484ceee33d0198a42c0b7af",
           "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -81502,12 +81502,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -81810,7 +81810,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0091",
           "version": 1,
-          "contentHash": "sha256:5ced7d557206fd76bab5e239b497c0c3d71d8c7524866a2d6a8e8d5790fce699",
+          "contentHash": "sha256:97ee2803d77e0a1d11b876bc591b6b3379c33e4cde91e24819c473518546f7ec",
           "question": "Grade 4 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -81826,12 +81826,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -82296,7 +82296,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0100",
           "version": 1,
-          "contentHash": "sha256:a7d7150c990aacff15c5833b63469dd55717334baa90778805eae14baa1f7e56",
+          "contentHash": "sha256:b57cf3c63bcace186b7e764317642db739007931a4522d56817b404583d4da9e",
           "question": "Grade 4 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -82312,12 +82312,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -82620,7 +82620,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0106",
           "version": 1,
-          "contentHash": "sha256:6388f651dc981eeb87630c887c420079ee10678cd1a0417f23c03a6a50f2f39f",
+          "contentHash": "sha256:f510e21d8a10f6137e03d9a387069c8ddacfefbdfdfe21fcfa4ee7e6d02246a7",
           "question": "Grade 4 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -82636,11 +82636,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -83106,7 +83106,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0115",
           "version": 1,
-          "contentHash": "sha256:451c44dc071106fa7dbc60bca8ab09d173b9956a76c95960225939b286eeebba",
+          "contentHash": "sha256:d070f64d6f9b55a614e1b9b3d84cf7dea3aae13ff99c8089988af8d9d932810d",
           "question": "Grade 4 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -83122,12 +83122,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -83430,7 +83430,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0121",
           "version": 1,
-          "contentHash": "sha256:53ffd56b5a8b20270f68294f3676b6d3ec68345c961b6e5189e552680a4b1ec5",
+          "contentHash": "sha256:0fa4de446d7fb24c3c22ba9ae3e5a9066847d5522e4351afa991112e004e253e",
           "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -83446,12 +83446,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -83916,7 +83916,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0130",
           "version": 1,
-          "contentHash": "sha256:798d8f999524de066b9f9cfc6a8704085282cb26cf3fffe252755965fecf8b12",
+          "contentHash": "sha256:e75d9aef9d4ef3f18b4ff2f342ed554cafb266d54655e820eeda2a47864b2da4",
           "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -83932,11 +83932,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -84240,7 +84240,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0136",
           "version": 1,
-          "contentHash": "sha256:5872658ed959fed4c141238111af8f4b6f06bce790c3e87cd565956d930a4837",
+          "contentHash": "sha256:61f685c8984e1ce3ccc57df3ebc6a99c09f5c786de6dc7e3e991a1f20ed2d77b",
           "question": "Grade 5 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -84256,12 +84256,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -84726,7 +84726,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0145",
           "version": 1,
-          "contentHash": "sha256:aae47aae637547aabfaf94708915802e66f14544e3c1c0eb41d2de42fc48a265",
+          "contentHash": "sha256:e48203e581e29cf38cbba5acb4ffd16ef1903c20a716a960baef6ad2e4a42f9f",
           "question": "Grade 5 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -84742,11 +84742,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -85050,7 +85050,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0151",
           "version": 1,
-          "contentHash": "sha256:9647baaa1a19371de3f4e1046316b44adc701b812322466688195359befaed79",
+          "contentHash": "sha256:bf4982ee9d8e4a0bb4306b69ea787b4cebae5d6d21975814b003ae7d7628c583",
           "question": "Grade 5 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -85066,12 +85066,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -85536,7 +85536,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0160",
           "version": 1,
-          "contentHash": "sha256:e8421ee777f9fc8a8a64d046cf4e11ca32444646e5d5e255b0c7d015dad8b20e",
+          "contentHash": "sha256:432b15657a635dea80b853690827ab195d6e30829fa96d8facb821a61dae8227",
           "question": "Grade 5 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -85552,12 +85552,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -85860,7 +85860,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0166",
           "version": 1,
-          "contentHash": "sha256:43a73cd1e3dfb5614c90f0814940c9416d326364cec39e16cb6de6133c9c6253",
+          "contentHash": "sha256:9d2791c16318a87ef9e9d34c254236e86c53b50601dcb44004f5a512a2254a2b",
           "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -85876,12 +85876,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -86346,7 +86346,7 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0175",
           "version": 1,
-          "contentHash": "sha256:d7777c02ee5e48c39688c24d3070a6e8b714e98362c9d6677b8f31999ff42d9f",
+          "contentHash": "sha256:a0ca7ae576df41de7f1d26beff3523c9b3c72b6bc628f7fefd2e259028b26382",
           "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -86362,12 +86362,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -87556,7 +87556,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0014",
           "version": 1,
-          "contentHash": "sha256:e82a84c892a439a095667aa4624155785ed1750095c4fcfbc9e8c37b9bee3a00",
+          "contentHash": "sha256:75e0272d21cc2c77f9c73eb609194bc4795e354fa9e47c14c8ac6d1466da222f",
           "question": "Grade 2 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -87572,12 +87572,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -88351,7 +88351,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0029",
           "version": 1,
-          "contentHash": "sha256:93ac028f49e835642987e19aeca106b0fa26e6bde846085bfe5404177b9a48db",
+          "contentHash": "sha256:85cda2ac5664161b77a22679f4ae6870e078d2b5b21ad5e009b02bf2ce10f154",
           "question": "Grade 2 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -88367,12 +88367,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -89146,7 +89146,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0044",
           "version": 1,
-          "contentHash": "sha256:3e149eb07a0c7affd6d22eca826a1ff1eeb44c8bc905ae8b5bee05fa28ff416c",
+          "contentHash": "sha256:1334a8608c2c03197ba20b830aeb372e85953417dd8c1a54f2b8ed135887dd20",
           "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -89162,11 +89162,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -89941,7 +89941,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0059",
           "version": 1,
-          "contentHash": "sha256:48ed63b8db5730733033aa50226791fcfb491e37cdfb0a7f036c2abe57e89ee9",
+          "contentHash": "sha256:f55eb48e393cac5b8e41ad0c29bf65386db12e15bb0c23fd6b52a59896b4cf29",
           "question": "Grade 3 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -89957,11 +89957,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -90736,7 +90736,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0074",
           "version": 1,
-          "contentHash": "sha256:225b65cbc802a47b1aa32dd02e745d259c93203c8250d5bbe102d4f2e049299e",
+          "contentHash": "sha256:b6e4e73a3e9b060e91928d40e43bdc423a217180d176885d380f287bd96a5786",
           "question": "Grade 3 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -90752,12 +90752,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -91531,7 +91531,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0089",
           "version": 1,
-          "contentHash": "sha256:d0d0fcee4552d41efcf2e3cfaf165a0239fb84adbd8cc4c95cccd2951c9663a3",
+          "contentHash": "sha256:829df6e0fb591c31aa87ec25091d3a8ce8bc0e80f484ceee33d0198a42c0b7af",
           "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -91547,12 +91547,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -92326,7 +92326,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0104",
           "version": 1,
-          "contentHash": "sha256:a7d7150c990aacff15c5833b63469dd55717334baa90778805eae14baa1f7e56",
+          "contentHash": "sha256:b57cf3c63bcace186b7e764317642db739007931a4522d56817b404583d4da9e",
           "question": "Grade 4 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -92342,12 +92342,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -93121,7 +93121,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0119",
           "version": 1,
-          "contentHash": "sha256:451c44dc071106fa7dbc60bca8ab09d173b9956a76c95960225939b286eeebba",
+          "contentHash": "sha256:d070f64d6f9b55a614e1b9b3d84cf7dea3aae13ff99c8089988af8d9d932810d",
           "question": "Grade 4 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -93137,12 +93137,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -93916,7 +93916,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0134",
           "version": 1,
-          "contentHash": "sha256:798d8f999524de066b9f9cfc6a8704085282cb26cf3fffe252755965fecf8b12",
+          "contentHash": "sha256:e75d9aef9d4ef3f18b4ff2f342ed554cafb266d54655e820eeda2a47864b2da4",
           "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -93932,11 +93932,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -94711,7 +94711,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0149",
           "version": 1,
-          "contentHash": "sha256:aae47aae637547aabfaf94708915802e66f14544e3c1c0eb41d2de42fc48a265",
+          "contentHash": "sha256:e48203e581e29cf38cbba5acb4ffd16ef1903c20a716a960baef6ad2e4a42f9f",
           "question": "Grade 5 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -94727,11 +94727,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -95506,7 +95506,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0164",
           "version": 1,
-          "contentHash": "sha256:e8421ee777f9fc8a8a64d046cf4e11ca32444646e5d5e255b0c7d015dad8b20e",
+          "contentHash": "sha256:432b15657a635dea80b853690827ab195d6e30829fa96d8facb821a61dae8227",
           "question": "Grade 5 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -95522,12 +95522,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -96301,7 +96301,7 @@
         {
           "id": "grammar-informative-explanatory-writing-q0179",
           "version": 1,
-          "contentHash": "sha256:d7777c02ee5e48c39688c24d3070a6e8b714e98362c9d6677b8f31999ff42d9f",
+          "contentHash": "sha256:a0ca7ae576df41de7f1d26beff3523c9b3c72b6bc628f7fefd2e259028b26382",
           "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -96317,12 +96317,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -97240,7 +97240,7 @@
         {
           "id": "grammar-narrative-writing-q0013",
           "version": 1,
-          "contentHash": "sha256:3f6be2e9606d8a519cb28a39257b335f12f4702359168173eccc10309abdcc8e",
+          "contentHash": "sha256:59c5e989e1b79d2f18b3241a287b6752df15d420dac3d85c964eab4ae0cb70c9",
           "question": "Grade 2 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -97256,12 +97256,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -98035,7 +98035,7 @@
         {
           "id": "grammar-narrative-writing-q0028",
           "version": 1,
-          "contentHash": "sha256:ebb1d1d248f45e0c7b86d3fc0c6f38ddb5d5440c0dc5b10ae42cbbdf165c59f2",
+          "contentHash": "sha256:62e7a6e967b087c03d98c1473789edf6db64f79a0458a23b68aaa9f867f10c5d",
           "question": "Grade 2 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -98051,11 +98051,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -98830,7 +98830,7 @@
         {
           "id": "grammar-narrative-writing-q0043",
           "version": 1,
-          "contentHash": "sha256:4e783e8097673459d3b00ac89a0447c59e64b360b916ab9e38f8895386f1aec1",
+          "contentHash": "sha256:7a7797526ee02f43866020586565433204256bd05fd7bd53df1c6066140e76b6",
           "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -98846,12 +98846,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -99625,7 +99625,7 @@
         {
           "id": "grammar-narrative-writing-q0058",
           "version": 1,
-          "contentHash": "sha256:461391fa15ae2f0a3bb406afd2c16180d7366d1984ccb845fba1f1c171b00eef",
+          "contentHash": "sha256:c053bf29329165b269bd4ed8614411628b0c325008855200155bf7b1adf99cec",
           "question": "Grade 3 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -99641,12 +99641,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -100420,7 +100420,7 @@
         {
           "id": "grammar-narrative-writing-q0073",
           "version": 1,
-          "contentHash": "sha256:33e872f043faa3945c9c8579dd189d655ee5d38acf5ac4dccd71dd0c6cbdc47d",
+          "contentHash": "sha256:03932f228b4affb8030e6f7c23252beecb4e9dba4e888c740682280e0927c195",
           "question": "Grade 3 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -100436,12 +100436,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -101215,7 +101215,7 @@
         {
           "id": "grammar-narrative-writing-q0088",
           "version": 1,
-          "contentHash": "sha256:9d5ead4bae5d062732be51f1a52bd42c5df041f8ccb34fb7d1098d34f615f25e",
+          "contentHash": "sha256:ea41c1dd71cbcd8b0355b01caec4205de25a8b75684df273c69ff5007b0878e5",
           "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -101231,12 +101231,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -102010,7 +102010,7 @@
         {
           "id": "grammar-narrative-writing-q0103",
           "version": 1,
-          "contentHash": "sha256:5ced7d557206fd76bab5e239b497c0c3d71d8c7524866a2d6a8e8d5790fce699",
+          "contentHash": "sha256:97ee2803d77e0a1d11b876bc591b6b3379c33e4cde91e24819c473518546f7ec",
           "question": "Grade 4 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -102026,12 +102026,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -102805,7 +102805,7 @@
         {
           "id": "grammar-narrative-writing-q0118",
           "version": 1,
-          "contentHash": "sha256:6388f651dc981eeb87630c887c420079ee10678cd1a0417f23c03a6a50f2f39f",
+          "contentHash": "sha256:f510e21d8a10f6137e03d9a387069c8ddacfefbdfdfe21fcfa4ee7e6d02246a7",
           "question": "Grade 4 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Some people like green.",
@@ -102821,11 +102821,11 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Some people like green.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
               ""
             ]
           },
@@ -103600,7 +103600,7 @@
         {
           "id": "grammar-narrative-writing-q0133",
           "version": 1,
-          "contentHash": "sha256:53ffd56b5a8b20270f68294f3676b6d3ec68345c961b6e5189e552680a4b1ec5",
+          "contentHash": "sha256:0fa4de446d7fb24c3c22ba9ae3e5a9066847d5522e4351afa991112e004e253e",
           "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -103616,12 +103616,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -104395,7 +104395,7 @@
         {
           "id": "grammar-narrative-writing-q0148",
           "version": 1,
-          "contentHash": "sha256:5872658ed959fed4c141238111af8f4b6f06bce790c3e87cd565956d930a4837",
+          "contentHash": "sha256:61f685c8984e1ce3ccc57df3ebc6a99c09f5c786de6dc7e3e991a1f20ed2d77b",
           "question": "Grade 5 Easy: Choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Many things happen at school.",
@@ -104411,12 +104411,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -105190,7 +105190,7 @@
         {
           "id": "grammar-narrative-writing-q0163",
           "version": 1,
-          "contentHash": "sha256:9647baaa1a19371de3f4e1046316b44adc701b812322466688195359befaed79",
+          "contentHash": "sha256:bf4982ee9d8e4a0bb4306b69ea787b4cebae5d6d21975814b003ae7d7628c583",
           "question": "Grade 5 Medium: Use the context to choose the best answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Trees are outside.",
@@ -105206,12 +105206,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
               "",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {
@@ -105985,7 +105985,7 @@
         {
           "id": "grammar-narrative-writing-q0178",
           "version": 1,
-          "contentHash": "sha256:43a73cd1e3dfb5614c90f0814940c9416d326364cec39e16cb6de6133c9c6253",
+          "contentHash": "sha256:9d2791c16318a87ef9e9d34c254236e86c53b50601dcb44004f5a512a2254a2b",
           "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which claim is clear for an opinion paragraph?",
           "choices": [
             "Our school should plant more shade trees.",
@@ -106001,12 +106001,12 @@
             "linkText": "Common Core ELA standards"
           },
           "explanation": {
-            "correct": "Answer: Our school should plant more shade trees.. A claim states a clear opinion or position.",
+            "correct": "Answer: Our school should plant more shade trees. This is a claim because it takes a position: the school should do something.",
             "incorrect": [
               "",
-              "Not: Trees are outside.. A claim states a clear opinion or position.",
-              "Not: Many things happen at school.. A claim states a clear opinion or position.",
-              "Not: Some people like green.. A claim states a clear opinion or position."
+              "Not: Trees are outside. This is a simple fact, not an opinion or position for a paragraph.",
+              "Not: Many things happen at school. This is a broad fact/topic, not a position someone can support with reasons.",
+              "Not: Some people like green. This reports what some people like, but it does not take a clear position."
             ]
           },
           "metadata": {

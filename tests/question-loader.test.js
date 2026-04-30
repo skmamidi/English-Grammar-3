@@ -6,6 +6,7 @@ const test = require('node:test');
 const vm = require('vm');
 
 const { buildIndexManifest, getSourceSet, loadManifest } = require('../scripts/generate-question-manifest');
+const { enrichSetWithSkillTags } = require('../scripts/generate-question-chunks');
 const { loadChunkBank } = require('../scripts/qa/chunk-qa');
 const { loadQuestionBanks } = require('../scripts/qa/bank-loader');
 const selectionIntegrity = require('../assets/question-selection-integrity');
@@ -71,7 +72,9 @@ test('loader returns canonical source-bank content for chunk-loaded sets', async
   const canonicalContent = Object.assign({}, set);
   delete canonicalContent.id;
 
-  assert.deepEqual(toJsonValue(canonicalContent), toJsonValue(sourceSet));
+  assert.deepEqual(toJsonValue(canonicalContent), toJsonValue(enrichSetWithSkillTags(sourceSet, {
+    domain: 'capitalization'
+  })));
 });
 
 test('loader hydrates question refs from chunk-backed source sets', async () => {

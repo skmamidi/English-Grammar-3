@@ -16,6 +16,7 @@
 
   const Capabilities = Object.freeze({
     takeQuiz: 'takeQuiz',
+    viewAssignments: 'viewAssignments',
     viewOwnProgress: 'viewOwnProgress',
     resumeOwnQuiz: 'resumeOwnQuiz',
     viewLinkedLearnerReports: 'viewLinkedLearnerReports',
@@ -50,13 +51,16 @@
   const roleCapabilities = Object.freeze({
     [Roles.STUDENT]: Object.freeze([
       Capabilities.takeQuiz,
+      Capabilities.viewAssignments,
       Capabilities.viewOwnProgress,
       Capabilities.resumeOwnQuiz
     ]),
     [Roles.PARENT_GUARDIAN]: Object.freeze([
+      Capabilities.viewAssignments,
       Capabilities.viewLinkedLearnerReports
     ]),
     [Roles.TEACHER]: Object.freeze([
+      Capabilities.viewAssignments,
       Capabilities.viewAssignedLearnerReports,
       Capabilities.manageAssignments
     ]),
@@ -168,6 +172,12 @@
       || canAccess(normalized, Capabilities.viewAssignedLearnerReports, resource);
   }
 
+  function canViewAssignments(actor, learnerId) {
+    const normalized = normalizeActor(actor);
+    const resource = { type: ResourceTypes.ASSIGNMENT, learnerId };
+    return canAccess(normalized, Capabilities.viewAssignments, resource);
+  }
+
   function canOpenParentPreview(mode) {
     if (mode === 'parentBrowse' || mode === 'parent_preview') return true;
     const input = mode && typeof mode === 'object' ? mode : {};
@@ -194,6 +204,9 @@
 
   function canStudentAccess(actor, action, resource) {
     if (action === Capabilities.takeQuiz) return resource.type === ResourceTypes.ACTIVE_QUIZ || resource.type === '';
+    if (action === Capabilities.viewAssignments) {
+      return resource.type === ResourceTypes.ASSIGNMENT && sameId(actor.learnerId, resource.learnerId);
+    }
     if (action === Capabilities.viewOwnProgress) {
       return resource.type === ResourceTypes.LEARNER_PROGRESS && sameId(actor.learnerId, resource.learnerId);
     }
@@ -204,6 +217,9 @@
   }
 
   function canGuardianAccess(actor, action, resource) {
+    if (action === Capabilities.viewAssignments) {
+      return resource.type === ResourceTypes.ASSIGNMENT && actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
+    }
     if (action !== Capabilities.viewLinkedLearnerReports) return false;
     if (![
       ResourceTypes.LEARNER_PROGRESS,
@@ -215,12 +231,17 @@
   }
 
   function canTeacherAccess(actor, action, resource) {
+    if (action === Capabilities.viewAssignments) {
+      return resource.type === ResourceTypes.ASSIGNMENT &&
+        (actor.assignedLearnerIds.includes(resource.learnerId) || actor.assignedClassIds.includes(resource.classId));
+    }
     if (action === Capabilities.viewAssignedLearnerReports) {
       if (![ResourceTypes.LEARNER_PROGRESS, ResourceTypes.SAVED_SESSION, ResourceTypes.QUESTION_REPORT].includes(resource.type)) return false;
       return actor.assignedLearnerIds.includes(resource.learnerId);
     }
     if (action === Capabilities.manageAssignments) {
-      return resource.type === ResourceTypes.ASSIGNMENT && actor.assignedClassIds.includes(resource.classId);
+      return resource.type === ResourceTypes.ASSIGNMENT &&
+        (actor.assignedClassIds.includes(resource.classId) || actor.assignedLearnerIds.includes(resource.learnerId));
     }
     return false;
   }
@@ -232,7 +253,7 @@
     if (action === Capabilities.managePublicSigningKeys || action === Capabilities.viewOperationalHealth) return resource.type === ResourceTypes.SYSTEM_SETTING;
     if (action === Capabilities.viewAuditLogs) return resource.type === ResourceTypes.AUDIT_LOG;
     if (action === Capabilities.manageSystemSettings) return resource.type === ResourceTypes.SYSTEM_SETTING;
-    if (action === Capabilities.manageAssignments) return resource.type === ResourceTypes.ASSIGNMENT;
+    if (action === Capabilities.manageAssignments) return false;
     return false;
   }
 
@@ -259,6 +280,7 @@
     canViewLearnerProgress,
     canViewLearnerReports,
     canViewQuestionReports,
+    canViewAssignments,
     createGuardianActor,
     filterGuardianVisibleReports,
     getRoleCapabilities,

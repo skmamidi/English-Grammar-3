@@ -154,6 +154,26 @@ const QUALITY_RULES = [{
     addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Prompt refers to underlined word choices, but none of the answer choices can be found in the sentence for underlining.', this.id, getQuestionId(question));
   }
 }, {
+  id: 'claim-explanation-specificity',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    if (!/which claim is clear for an opinion paragraph\?/i.test(String(question.question || ''))) return;
+    const explanation = question.explanation || {};
+    const correctText = normalizeText(explanation.correct);
+    const incorrect = Array.isArray(explanation.incorrect) ? explanation.incorrect.map(normalizeText) : [];
+    const wrongExplanations = incorrect.filter(Boolean);
+    const hasSpecificCorrect = /\b(takes? a position|states? what.+should|opinion that can be supported|can be supported with reasons)\b/i.test(correctText);
+    const genericWrong = wrongExplanations.some(text =>
+      /^not\b.*\ba claim states a clear opinion or position\.?$/i.test(text) ||
+      !/\b(fact|topic|reports?|does not take|not a position|not an opinion|support with reasons)\b/i.test(text)
+    );
+    if (!hasSpecificCorrect || genericWrong) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Claim/opinion explanations must explain why the correct answer takes a position and why each wrong choice is a fact, broad topic, report, or otherwise not a supportable position.', this.id, getQuestionId(question));
+    }
+  }
+}, {
   id: 'placeholder-text',
   defaultSeverity: 'warning',
   scope: 'question',

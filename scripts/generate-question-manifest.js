@@ -166,7 +166,7 @@ function writeManifestScript(manifest, file = DEFAULT_MANIFEST_SCRIPT_PATH) {
 }
 
 function buildManifestScript(manifest) {
-  return `window.QUESTION_MANIFEST = ${JSON.stringify(buildIndexManifest(manifest), null, 2)};\n`;
+  return `window.QUESTION_MANIFEST=${JSON.stringify(buildIndexManifest(manifest))};\n`;
 }
 
 function buildIndexManifest(manifest) {

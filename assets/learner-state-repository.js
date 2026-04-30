@@ -4,10 +4,12 @@
   const api = factory(root);
   if (typeof module === 'object' && module.exports) module.exports = api;
   root.GrammarQuestLearnerStateRepository = api;
-})(typeof window !== 'undefined' ? window : globalThis, function () {
+})(typeof window !== 'undefined' ? window : globalThis, function (root) {
   'use strict';
 
   const DEFAULT_STORAGE_KEY = 'grammarQuestProgress';
+  const assignmentDomain = root.GrammarQuestAssignmentDomain ||
+    (typeof require === 'function' ? require('./assignment-domain') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
@@ -69,14 +71,59 @@
       });
     }
 
+    function listAssignments() {
+      return getProgress().assignments;
+    }
+
+    function upsertAssignment(assignment) {
+      return updateProgress(progress => {
+        const normalized = normalizeAssignment(assignment);
+        progress.assignments = [normalized]
+          .concat((progress.assignments || []).filter(item => item && item.id !== normalized.id))
+          .slice(0, 500);
+        return progress;
+      }).assignments[0];
+    }
+
+    function markAssignmentStarted(id, startedAt) {
+      return updateAssignment(id, assignment => transitionAssignmentStarted(assignment, startedAt));
+    }
+
+    function markAssignmentCompleted(id, sessionRef) {
+      return updateAssignment(id, assignment => transitionAssignmentCompleted(assignment, sessionRef));
+    }
+
+    function archiveAssignment(id) {
+      return updateAssignment(id, assignment => transitionAssignmentArchived(assignment));
+    }
+
+    function updateAssignment(id, updater) {
+      let updated = null;
+      updateProgress(progress => {
+        progress.assignments = (progress.assignments || []).map(item => {
+          if (!item || item.id !== id) return item;
+          updated = normalizeAssignment(updater(item));
+          return updated;
+        });
+        if (!updated) throw new Error(`assignment_not_found:${id}`);
+        return progress;
+      });
+      return updated;
+    }
+
     return {
       appendSavedSession,
+      archiveAssignment,
       clearActiveQuiz,
       getActiveQuiz,
       getProgress,
+      listAssignments,
+      markAssignmentCompleted,
+      markAssignmentStarted,
       saveActiveQuiz,
       saveProgress,
       updateProgress,
+      upsertAssignment,
       upsertQuestionReport
     };
   }
@@ -205,9 +252,55 @@
       badges: Array.isArray(input.badges) ? input.badges : [],
       reports: normalizeReports(input.reports),
       activeQuiz: normalizeActiveQuiz(input.activeQuiz),
+      assignments: normalizeAssignments(input.assignments),
       mastery: normalizeMastery(input.mastery),
       lastUpdatedAt: input.lastUpdatedAt || ''
     };
+  }
+
+  function normalizeAssignments(assignments) {
+    return (Array.isArray(assignments) ? assignments : []).map(normalizeAssignment).filter(item => item.id);
+  }
+
+  function normalizeAssignment(assignment) {
+    return assignmentDomain && typeof assignmentDomain.normalizeAssignment === 'function'
+      ? assignmentDomain.normalizeAssignment(assignment)
+      : assignment;
+  }
+
+  function transitionAssignmentStarted(assignment, startedAt) {
+    if (assignmentDomain && typeof assignmentDomain.markAssignmentStarted === 'function') {
+      return assignmentDomain.markAssignmentStarted(assignment, startedAt);
+    }
+    const timestamp = startedAt || new Date().toISOString();
+    return Object.assign({}, assignment, {
+      status: 'in_progress',
+      startedAt: timestamp,
+      updatedAt: timestamp
+    });
+  }
+
+  function transitionAssignmentCompleted(assignment, sessionRef) {
+    if (assignmentDomain && typeof assignmentDomain.markAssignmentCompleted === 'function') {
+      return assignmentDomain.markAssignmentCompleted(assignment, sessionRef);
+    }
+    const completedAt = sessionRef && (sessionRef.completedAt || sessionRef.completedAtIso) || new Date().toISOString();
+    return Object.assign({}, assignment, {
+      status: 'completed',
+      completedAt,
+      completedSessionId: sessionRef && (sessionRef.sessionId || sessionRef.id) || '',
+      updatedAt: completedAt
+    });
+  }
+
+  function transitionAssignmentArchived(assignment) {
+    if (assignmentDomain && typeof assignmentDomain.archiveAssignment === 'function') {
+      return assignmentDomain.archiveAssignment(assignment);
+    }
+    return Object.assign({}, assignment, {
+      status: 'archived',
+      updatedAt: new Date().toISOString()
+    });
   }
 
   function normalizeMastery(mastery) {

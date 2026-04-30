@@ -23,8 +23,10 @@ test('guardian can read linked learner progress and reports only', () => {
   assert.equal(access.canViewLearnerProgress(guardian, 'learner-1'), true);
   assert.equal(access.canViewLearnerReports(guardian, 'learner-1'), true);
   assert.equal(access.canViewQuestionReports(guardian, 'learner-1'), true);
+  assert.equal(access.canViewAssignments(guardian, 'learner-1'), true);
   assert.equal(access.canViewLearnerProgress(guardian, 'learner-2'), false);
   assert.equal(access.canViewLearnerReports(guardian, 'learner-archived'), false);
+  assert.equal(access.canViewAssignments(guardian, 'learner-2'), false);
 });
 
 test('parent preview remains unauthenticated local read-only browsing', () => {

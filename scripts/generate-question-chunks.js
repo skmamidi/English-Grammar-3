@@ -17,7 +17,7 @@ const {
 } = require('./qa/question-skill-taxonomy');
 
 const CHUNK_ROOT = path.posix.join('assets', 'question-chunks');
-const SUBCHUNK_BYTE_THRESHOLD = 500 * 1024;
+const SUBCHUNK_BYTE_THRESHOLD = 350 * 1024;
 const SUBCHUNK_QUESTION_COUNT = 50;
 
 function getChunkedSets(manifest) {
@@ -86,7 +86,7 @@ function buildQuestionChunkScript(input, legacySet, legacySourceFile) {
  */
 (function () {
   'use strict';
-  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, ${JSON.stringify({ [options.setId]: enrichedSet }, null, 2)}
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, ${JSON.stringify({ [options.setId]: enrichedSet })}
   );
 })();
 `;
@@ -113,7 +113,7 @@ function buildQuestionSubchunkScript(input) {
  */
 (function () {
   'use strict';
-  const chunkSet = ${JSON.stringify(enrichedSet, null, 2)};
+  const chunkSet = ${JSON.stringify(enrichedSet)};
   const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
   const existing = bank[${JSON.stringify(options.setId)}];
   if (existing && Array.isArray(existing.questions)) {

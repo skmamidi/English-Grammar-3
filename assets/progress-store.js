@@ -39,14 +39,16 @@
       difficulty: {},
       subtopics: {},
       standards: {}
-    }
+    },
+    assignments: []
   };
 
   function getDefaultProgress() {
     return Object.assign({}, defaults, {
       badges: [],
       reports: getDefaultReports(),
-      mastery: getDefaultMastery()
+      mastery: getDefaultMastery(),
+      assignments: []
     });
   }
 
@@ -79,7 +81,20 @@
     normalized.reports = normalizeReports(normalized.reports);
     normalized.activeQuiz = normalizeActiveQuiz(normalized.activeQuiz);
     normalized.mastery = normalizeMastery(normalized.mastery);
+    normalized.assignments = normalizeAssignments(normalized.assignments);
     return normalized;
+  }
+
+  function normalizeAssignments(assignments) {
+    const domain = window.GrammarQuestAssignmentDomain;
+    return (Array.isArray(assignments) ? assignments : [])
+      .map(assignment => {
+        if (domain && typeof domain.normalizeAssignment === "function") {
+          return domain.normalizeAssignment(assignment);
+        }
+        return assignment && typeof assignment === "object" ? assignment : null;
+      })
+      .filter(assignment => assignment && assignment.id);
   }
 
   function normalizeReports(reports) {
@@ -333,8 +348,104 @@
       badges: Array.from(badges),
       reports: mergeReports(local.reports, cloud.reports),
       activeQuiz: chooseActiveQuiz(local.activeQuiz, cloud.activeQuiz),
-      mastery: mergeMastery(local.mastery, cloud.mastery)
+      mastery: mergeMastery(local.mastery, cloud.mastery),
+      assignments: mergeAssignments(local.assignments, cloud.assignments)
     });
+  }
+
+  function mergeAssignments(localAssignments, cloudAssignments) {
+    const byId = {};
+    normalizeAssignments(cloudAssignments).concat(normalizeAssignments(localAssignments)).forEach(assignment => {
+      if (!assignment || !assignment.id) return;
+      const existing = byId[assignment.id];
+      byId[assignment.id] = !existing || String(assignment.updatedAt || assignment.createdAt || "") >= String(existing.updatedAt || existing.createdAt || "")
+        ? assignment
+        : existing;
+    });
+    return Object.keys(byId)
+      .map(id => byId[id])
+      .sort((a, b) => String(b.updatedAt || b.createdAt || "").localeCompare(String(a.updatedAt || a.createdAt || "")))
+      .slice(0, 500);
+  }
+
+  function listAssignments() {
+    const repository = getLearnerStateRepository();
+    return repository && typeof repository.listAssignments === "function"
+      ? normalizeAssignments(repository.listAssignments())
+      : loadLocalProgress().assignments;
+  }
+
+  function upsertAssignment(assignment, options) {
+    const repository = getLearnerStateRepository();
+    if (repository && typeof repository.upsertAssignment === "function") {
+      const normalized = repository.upsertAssignment(assignment);
+      afterProgressWrite(normalizeProgress(repository.getProgress()), !options || options.sync !== false);
+      return normalized;
+    }
+    const normalizedAssignment = normalizeAssignments([assignment])[0];
+    return updateProgress(progress => {
+      progress.assignments = [normalizedAssignment]
+        .concat((progress.assignments || []).filter(item => item && item.id !== normalizedAssignment.id))
+        .slice(0, 500);
+      return progress;
+    }, options).assignments[0];
+  }
+
+  function markAssignmentStarted(id, startedAt, options) {
+    return updateAssignmentStatus(id, assignment => transitionAssignmentStarted(assignment, startedAt), "markAssignmentStarted", [startedAt], options);
+  }
+
+  function markAssignmentCompleted(id, sessionRef, options) {
+    return updateAssignmentStatus(id, assignment => transitionAssignmentCompleted(assignment, sessionRef), "markAssignmentCompleted", [sessionRef], options);
+  }
+
+  function archiveAssignment(id, options) {
+    return updateAssignmentStatus(id, transitionAssignmentArchived, "archiveAssignment", [], options);
+  }
+
+  function updateAssignmentStatus(id, updater, repositoryMethod, repositoryArgs, options) {
+    const repository = getLearnerStateRepository();
+    if (repository && typeof repository[repositoryMethod] === "function") {
+      const normalized = repository[repositoryMethod].apply(repository, [id].concat(repositoryArgs || []));
+      afterProgressWrite(normalizeProgress(repository.getProgress()), !options || options.sync !== false);
+      return normalized;
+    }
+    let updated = null;
+    updateProgress(progress => {
+      progress.assignments = normalizeAssignments(progress.assignments).map(assignment => {
+        if (assignment.id !== id) return assignment;
+        updated = updater(assignment);
+        return updated;
+      });
+      if (!updated) throw new Error(`assignment_not_found:${id}`);
+      return progress;
+    }, options);
+    return updated;
+  }
+
+  function transitionAssignmentStarted(assignment, startedAt) {
+    const domain = window.GrammarQuestAssignmentDomain;
+    if (domain && typeof domain.markAssignmentStarted === "function") return domain.markAssignmentStarted(assignment, startedAt);
+    const timestamp = startedAt || new Date().toISOString();
+    return Object.assign({}, assignment, { status: "in_progress", startedAt: timestamp, updatedAt: timestamp });
+  }
+
+  function transitionAssignmentCompleted(assignment, sessionRef) {
+    const domain = window.GrammarQuestAssignmentDomain;
+    if (domain && typeof domain.markAssignmentCompleted === "function") return domain.markAssignmentCompleted(assignment, sessionRef);
+    const timestamp = sessionRef && (sessionRef.completedAt || sessionRef.completedAtIso) || new Date().toISOString();
+    return Object.assign({}, assignment, {
+      status: "completed",
+      completedAt: timestamp,
+      completedSessionId: sessionRef && (sessionRef.sessionId || sessionRef.id) || "",
+      updatedAt: timestamp
+    });
+  }
+
+  function transitionAssignmentArchived(assignment) {
+    const domain = window.GrammarQuestAssignmentDomain;
+    if (domain && typeof domain.archiveAssignment === "function") return domain.archiveAssignment(assignment);
+    return Object.assign({}, assignment, { status: "archived", updatedAt: new Date().toISOString() });
   }
 
   function chooseActiveQuiz(localActive, cloudActive) {
@@ -786,12 +897,18 @@
     saveActiveQuiz,
     clearActiveQuiz,
     appendSavedSession,
+    archiveAssignment,
     upsertQuestionReport,
+    listAssignments,
+    upsertAssignment,
+    markAssignmentStarted,
+    markAssignmentCompleted,
     loadLocalProgress,
     saveLocalProgress,
     mergeProgress,
     normalizeMastery,
     normalizeReports,
+    normalizeAssignments,
     normalizeQuestionReport,
     getReportQuestionId,
     looksLikeStableQuestionId,

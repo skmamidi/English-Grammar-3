@@ -26,6 +26,10 @@ test('system admin can perform operational actions only on operational resources
     type: access.ResourceTypes.LEARNER_PROGRESS,
     learnerId: 'learner-1'
   }), false);
+  assert.equal(access.canAccess(admin, access.Capabilities.manageAssignments, {
+    type: access.ResourceTypes.ASSIGNMENT,
+    learnerId: 'learner-1'
+  }), false);
 });
 
 test('admin actions are denied to guardian teacher student and unknown roles', () => {

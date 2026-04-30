@@ -1,0 +1,26 @@
+{
+  "page": "Reports",
+  "file": "reports.html",
+  "findings": [
+    {
+      "page": "Reports",
+      "ruleId": "landmark-complementary-is-top-level",
+      "impact": "moderate",
+      "selector": "aside",
+      "help": "Aside should not be contained in another landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-complementary-is-top-level?application=axeAPI"
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    {
+      "page": "Reports",
+      "ruleId": "landmark-complementary-is-top-level",
+      "impact": "moderate",
+      "selector": "aside",
+      "help": "Aside should not be contained in another landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-complementary-is-top-level?application=axeAPI"
+    }
+  ],
+  "staleAllowlistEntries": []
+}

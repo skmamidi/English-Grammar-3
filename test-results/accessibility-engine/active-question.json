@@ -1,0 +1,26 @@
+{
+  "page": "Active question",
+  "file": "topics/grammar/subtopics/sentence-types.html",
+  "findings": [
+    {
+      "page": "Active question",
+      "ruleId": "heading-order",
+      "impact": "moderate",
+      "selector": "h3",
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=axeAPI"
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    {
+      "page": "Active question",
+      "ruleId": "heading-order",
+      "impact": "moderate",
+      "selector": "h3",
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=axeAPI"
+    }
+  ],
+  "staleAllowlistEntries": []
+}

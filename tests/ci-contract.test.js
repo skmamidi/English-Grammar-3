@@ -9,6 +9,9 @@ test('package lock pins Playwright for reproducible installs', () => {
   const pkg = readJson('package.json');
   const lock = readJson('package-lock.json');
 
+  assert.equal(pkg.devDependencies['axe-core'], '4.11.4');
+  assert.equal(lock.packages[''].devDependencies['axe-core'], '4.11.4');
+  assert.equal(lock.packages['node_modules/axe-core'].version, '4.11.4');
   assert.equal(pkg.devDependencies.playwright, '1.59.1');
   assert.equal(lock.lockfileVersion, 3);
   assert.equal(lock.packages[''].devDependencies.playwright, '1.59.1');
@@ -34,7 +37,9 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts.test, /npm run test:a11y/);
   assert.match(pkg.scripts.test, /npm run test:offline/);
   assert.match(pkg.scripts['test:fast'], /npm run qa:app-shell/);
-  assert.equal(pkg.scripts['test:a11y'], 'node tests/accessibility-smoke.spec.js');
+  assert.equal(pkg.scripts['test:a11y'], 'node tests/accessibility-smoke.spec.js && npm run test:a11y:engine');
+  assert.equal(pkg.scripts['test:a11y:engine'], 'node tests/accessibility-engine.spec.js');
+  assert.equal(pkg.scripts['test:a11y:preferences'], 'node tests/accessibility-preferences.spec.js');
   assert.equal(pkg.scripts['test:offline'], 'node tests/offline-smoke.spec.js');
   assert.equal(pkg.scripts['test:visual'], 'node tests/visual-regression.spec.js');
   assert.equal(pkg.scripts['test:perf'], 'node tests/runtime-performance-smoke.spec.js');
@@ -97,6 +102,8 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/browser-launcher\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/offline-cache-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/service-worker-cache\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/accessibility-engine-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/design-token-accessibility\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
   assert.match(pkg.scripts['release:manifest'], /generate-release-manifest/);
@@ -330,6 +337,7 @@ test('package scripts expose fast browser and full regression gates', () => {
   assert.match(pkg.scripts['test:full'], /npm run test:browser/);
   assert.match(pkg.scripts['test:full'], /npm run test:browser:all/);
   assert.match(pkg.scripts['test:full'], /npm run test:a11y/);
+  assert.match(pkg.scripts['test:full'], /npm run test:a11y:preferences/);
   assert.match(pkg.scripts['test:full'], /npm run test:visual/);
   assert.match(pkg.scripts['test:full'], /npm run test:perf/);
   assert.match(pkg.scripts['test:full'], /npm run test:offline/);

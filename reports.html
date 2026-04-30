@@ -71,12 +71,12 @@
       <section class="student-report-detail" aria-label="Student detail">
         <div id="student-summary"></div>
         <div class="report-tabs" role="tablist" aria-label="Report views">
-          <button class="report-tab active" type="button" data-view="overview">Overview</button>
-          <button class="report-tab" type="button" data-view="questions">Questions</button>
-          <button class="report-tab" type="button" data-view="reported">Reported Questions</button>
-          <button class="report-tab" type="button" data-view="skills">Skills</button>
+          <button class="report-tab active" type="button" role="tab" aria-selected="true" aria-controls="report-detail" data-view="overview">Overview</button>
+          <button class="report-tab" type="button" role="tab" aria-selected="false" aria-controls="report-detail" data-view="questions">Questions</button>
+          <button class="report-tab" type="button" role="tab" aria-selected="false" aria-controls="report-detail" data-view="reported">Reported Questions</button>
+          <button class="report-tab" type="button" role="tab" aria-selected="false" aria-controls="report-detail" data-view="skills">Skills</button>
         </div>
-        <div id="report-detail"></div>
+        <div id="report-detail" role="tabpanel"></div>
       </section>
     </section>
   </main>

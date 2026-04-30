@@ -2,10 +2,10 @@
   "caseName": "reports",
   "warning": "Screenshot encoding metadata changed while semantic visual summary matched.",
   "screenshotOnlyDrift": true,
-  "byteDelta": 1385,
+  "byteDelta": 378,
   "actual": {
-    "screenshotSha256": "6f435f41a2232fa7bc48708e6bd950bd608c037cae5ac3870b0c5c7d8d2da839",
-    "screenshotBytes": 124225
+    "screenshotSha256": "a305ffb181b1269c567c6bc19f69dac6cdd31b0345d8ffa4e771b1972918a78e",
+    "screenshotBytes": 125988
   },
   "expected": {
     "screenshotSha256": "45d6a17fae23147dcb75ab5c987017b8ab4c9866671478649fe11ba873611118",
@@ -13,7 +13,7 @@
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.117",
+    "browserVersion": "147.0.7727.15",
     "platform": "darwin",
     "viewport": {
       "width": 1280,

@@ -62,6 +62,7 @@
   --error-shadow: rgba(220, 38, 38, 0.16);
   --warning-surface-strong: #fffbeb;
   --warning-border-strong: #fde68a;
+  --warning-text: #854d0e;
   --info-surface: #ecfeff;
   --info-border: #a5f3fc;
   --info-border-strong: #67e8f9;
@@ -161,6 +162,7 @@ html[data-theme="dark"] {
   --error-shadow: rgba(248, 113, 113, 0.18);
   --warning-surface-strong: #352c13;
   --warning-border-strong: #8b6f1a;
+  --warning-text: #fde68a;
   --info-surface: #11323d;
   --info-border: #277489;
   --info-border-strong: #277489;
@@ -494,6 +496,13 @@ body::before {
 .logo:hover {
   color: var(--primary-dark);
 }
+
+.logo:focus-visible {
+  border-radius: 8px;
+  box-shadow: var(--focus-ring);
+  outline: none;
+}
+
 
 .back-link {
   align-items: center;
@@ -2556,7 +2565,7 @@ body.parent-question-browser .subtopic-item {
 }
 
 .character-note-footer summary {
-  color: var(--text-muted-strong);
+  color: var(--text-strong);
   cursor: pointer;
   font-size: 0.82rem;
   font-weight: 850;
@@ -3413,11 +3422,11 @@ body.parent-question-browser .subtopic-item {
 }
 
 .feedback-title.correct {
-  color: var(--success);
+  color: var(--success-text);
 }
 
 .feedback-title.incorrect {
-  color: var(--error);
+  color: var(--error-text);
 }
 
 .feedback-answer-pill {
@@ -3480,11 +3489,18 @@ body.parent-question-browser .subtopic-item {
 .choice-explanation.correct-exp {
   background: var(--success-light);
   border-color: var(--success-border-strong);
+  color: var(--success-text);
 }
 
 .choice-explanation.incorrect-exp {
   background: var(--error-light);
   border-color: var(--error-border);
+  color: var(--error-text);
+}
+
+.choice-explanation.correct-exp strong,
+.choice-explanation.incorrect-exp strong {
+  color: inherit;
 }
 
 .syllable-breakdown {
@@ -3961,7 +3977,7 @@ body.parent-question-browser .subtopic-item {
 .study-aid-title {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--warning);
+  color: var(--warning-text);
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -3977,11 +3993,11 @@ body.parent-question-browser .subtopic-item {
 
 .study-aid .label {
   font-weight: 700;
-  color: var(--warning);
+  color: var(--warning-text);
 }
 
 .study-aid a {
-  color: var(--primary);
+  color: var(--primary-dark);
   text-decoration: none;
   font-weight: 600;
 }
@@ -4186,7 +4202,7 @@ body.parent-question-browser .subtopic-item {
 .skill-row small,
 .answer-meta dt,
 .empty-report {
-  color: var(--text-muted);
+  color: var(--text-muted-strong);
 }
 
 .report-kpi span,
@@ -5420,6 +5436,80 @@ body.parent-question-browser .subtopic-item {
   .theme-toggle svg {
     animation: none;
     transition: none;
+  }
+}
+
+@media (forced-colors: active) {
+  a,
+  .logo,
+  .back-link,
+  .header-icon-link {
+    color: LinkText;
+  }
+
+  .choice-btn,
+  .btn,
+  .report-tab,
+  .student-row,
+  .dashboard-card,
+  .shell-banner {
+    background: ButtonFace;
+    border-color: ButtonBorder;
+    color: ButtonText;
+  }
+
+  .choice-btn:focus-visible,
+  .strategy-btn:focus-visible,
+  .confidence-btn:focus-visible,
+  .btn:focus-visible,
+  .report-tab:focus-visible,
+  .student-row:focus-visible,
+  .logo:focus-visible,
+  .header-icon-link:focus-visible,
+  .back-link:focus-visible {
+    box-shadow: none;
+    outline: 3px solid Highlight;
+    outline-offset: 3px;
+  }
+
+  .choice-btn.correct,
+  .choice-btn.incorrect {
+    background: Canvas;
+    color: CanvasText;
+    forced-color-adjust: none;
+    opacity: 1;
+  }
+
+  .choice-btn.correct {
+    border: 3px solid Highlight;
+  }
+
+  .choice-btn.incorrect {
+    border: 3px dashed CanvasText;
+  }
+
+  .choice-btn.correct .choice-letter,
+  .choice-btn.incorrect .choice-letter,
+  .feedback-title.correct::before,
+  .feedback-title.incorrect::before {
+    background: Highlight;
+    border: 2px solid HighlightText;
+    color: HighlightText;
+    forced-color-adjust: none;
+  }
+
+  .feedback-title.correct,
+  .feedback-title.incorrect,
+  .question-report-message,
+  .report-review-message {
+    color: CanvasText;
+  }
+
+  .feedback-box,
+  .strategy-panel,
+  .answer-gate,
+  .answered-lock-note {
+    border-color: CanvasText;
   }
 }
 

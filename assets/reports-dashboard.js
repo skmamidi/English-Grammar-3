@@ -57,7 +57,9 @@
       tab.addEventListener('click', () => {
         state.selectedView = tab.dataset.view || 'overview';
         document.querySelectorAll('.report-tab').forEach(item => {
-          item.classList.toggle('active', item === tab);
+          const selected = item === tab;
+          item.classList.toggle('active', selected);
+          item.setAttribute('aria-selected', selected ? 'true' : 'false');
         });
         renderDetail();
       });
@@ -867,7 +869,9 @@
 
   function syncTabs() {
     document.querySelectorAll('.report-tab').forEach(tab => {
-      tab.classList.toggle('active', tab.dataset.view === state.selectedView);
+      const selected = tab.dataset.view === state.selectedView;
+      tab.classList.toggle('active', selected);
+      tab.setAttribute('aria-selected', selected ? 'true' : 'false');
     });
   }
 

@@ -20,6 +20,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   const pkg = readJson('package.json');
 
   assert.equal(pkg.scripts['install:browsers'], 'playwright install chromium');
+  assert.equal(pkg.scripts['install:browsers:all'], 'playwright install chromium firefox webkit');
   assert.match(pkg.scripts.test, /npm run qa:questions/);
   assert.match(pkg.scripts['qa:questions'], /npm run qa:schema/);
   assert.match(pkg.scripts['qa:questions'], /npm run qa:json-source/);
@@ -38,6 +39,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['test:visual'], 'node tests/visual-regression.spec.js');
   assert.equal(pkg.scripts['test:perf'], 'node tests/runtime-performance-smoke.spec.js');
   assert.equal(pkg.scripts['test:ui:teardown'], 'QA_UI_TEARDOWN_DEBUG=1 node tests/ui-smoke.spec.js');
+  assert.equal(pkg.scripts['test:browser:cross'], 'node tests/cross-browser-smoke.spec.js');
   assert.equal(pkg.scripts['test:api:perf'], 'STRICT_PERF_BUDGETS=1 node --test tests/question-selection-api-budget.test.js');
   assert.equal(pkg.scripts['test:rules'], 'node --test tests/backend-policy-rules.test.js');
   assert.equal(pkg.scripts['security:scan'], 'node scripts/security/scan-secrets.js');
@@ -92,6 +94,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/pr-readiness-monitor\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/ui-smoke-runner-contract\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/browser-launcher\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/offline-cache-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/service-worker-cache\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
@@ -345,9 +348,10 @@ test('scheduled full regression workflow is reproducible and artifact-backed', (
   assert.match(workflow, /node-version:\s*24/);
   assert.match(workflow, /cache:\s*npm/);
   assert.match(workflow, /run:\s*npm ci/);
-  assert.match(workflow, /run:\s*npx playwright install --with-deps chromium/);
+  assert.match(workflow, /run:\s*npx playwright install --with-deps chromium firefox webkit/);
   assert.match(workflow, /run:\s*npm run release:manifest/);
   assert.match(workflow, /run:\s*npm run test:full/);
+  assert.match(workflow, /run:\s*npm run test:browser:cross/);
   assert.match(workflow, /actions\/upload-artifact@v7/);
   assert.match(workflow, /if:\s*failure\(\)/);
   assert.match(workflow, /playwright-report/);

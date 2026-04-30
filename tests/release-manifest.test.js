@@ -8,6 +8,9 @@ const {
   buildPublicReleaseMetadata,
   writeReleaseManifest
 } = require('../scripts/generate-release-manifest');
+const {
+  scanFilesForSecrets
+} = require('../scripts/security/scan-secrets');
 
 test('release manifest is deterministic and excludes secrets', () => {
   const manifest = buildReleaseManifest({
@@ -55,4 +58,10 @@ test('release manifest writer emits JSON and browser metadata', () => {
   assert.equal(fs.existsSync(result.outputJson), true);
   assert.equal(fs.existsSync(result.outputJs), true);
   assert.match(fs.readFileSync(result.outputJs, 'utf8'), /GrammarQuestReleaseManifest/);
+  assert.deepEqual(scanFilesForSecrets({
+    files: [
+      { path: result.outputJson, content: fs.readFileSync(result.outputJson, 'utf8') },
+      { path: result.outputJs, content: fs.readFileSync(result.outputJs, 'utf8') }
+    ]
+  }), []);
 });

@@ -9838,22 +9838,22 @@
         {
           "id": "vocabulary-rhyming-q0001",
           "version": 1,
-          "contentHash": "sha256:6efd33cd7b6b5d2824fc158e9373b2ce6d54593b710f3a6c2c8e151473006e1f",
+          "contentHash": "sha256:f113b57e0db63f8e9a1254d5db8ca5390ea5ad702a84ae4c49c3e3bf1f46039c",
           "question": "Which word rhymes with 'thunder'?",
           "choices": [
-            "thunder",
+            "wander",
             "wonder",
             "tender",
             "thicker"
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: wonder. Rhyming words have the same ending sounds, starting from the stressed vowel to the end of the word.",
+            "correct": "Answer: wonder. Say it aloud: wonder and thunder both end with the /under/ sound.",
             "incorrect": [
-              "Not: thunder. It does not share the target ending sound.",
+              "Not: wander. Wander has a different vowel sound before the ending, so it does not rhyme with thunder.",
               "",
-              "Not: tender. It does not share the target ending sound.",
-              "Not: thicker. It does not share the target ending sound."
+              "Not: tender. Tender ends with /ender/, not the /under/ sound in thunder.",
+              "Not: thicker. Thicker ends with /icker/, not the /under/ sound in thunder."
             ]
           },
           "studyAid": {
@@ -9894,7 +9894,7 @@
         {
           "id": "vocabulary-rhyming-q0002",
           "version": 1,
-          "contentHash": "sha256:eb0e395dcbe3904f25c6598547ab0e46bed6aad8c2071318ea8476469905e76e",
+          "contentHash": "sha256:cdf9137a141afe60047c8dacea78377a304933750deee77b8a00591f57226d0a",
           "question": "Which word does NOT rhyme with the others?",
           "choices": [
             "light",
@@ -9904,11 +9904,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: lit. Words rhyme when their final stressed vowel and following sounds match.",
+            "correct": "Answer: lit. Say it aloud: lit has /it/, so it is the one that breaks the rhyme pattern with the others.",
             "incorrect": [
-              "Not: light. It does not share the target ending sound.",
-              "Not: night. It does not share the target ending sound.",
-              "Not: kite. It does not share the target ending sound.",
+              "Not: light. This choice follows the rhyme pattern, so it is not the exception.",
+              "Not: night. This choice follows the rhyme pattern, so it is not the exception.",
+              "Not: kite. This choice follows the rhyme pattern, so it is not the exception.",
               ""
             ]
           },
@@ -9950,7 +9950,7 @@
         {
           "id": "vocabulary-rhyming-q0003",
           "version": 1,
-          "contentHash": "sha256:ce97842ad25fad723adec4c4c4c606fac3414d554a8291dc92674fea61cc2936",
+          "contentHash": "sha256:1e0bcc142c91df0db8f5226843cb4c2470ef30f18f2b22d4f430af0a3d07795e",
           "question": "What word rhymes with 'ocean'?",
           "choices": [
             "motion",
@@ -9960,12 +9960,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: motion. Rhyming words share the same ending sounds from the stressed vowel onward.",
+            "correct": "Answer: motion. Say it aloud: motion and ocean share the ending sound /oh-shun/.",
             "incorrect": [
               "",
-              "Not: option. It does not share the target ending sound.",
-              "Not: potions. It does not share the target ending sound.",
-              "Not: nation. It does not share the target ending sound."
+              "Not: option. It ends with /op-shun/, not /oh-shun/, so it does not rhyme here.",
+              "Not: potions. It ends with /oh-shunz/, not /oh-shun/, so it does not rhyme here.",
+              "Not: nation. It ends with /ay-shun/, not /oh-shun/, so it does not rhyme here."
             ]
           },
           "studyAid": {
@@ -10006,7 +10006,7 @@
         {
           "id": "vocabulary-rhyming-q0004",
           "version": 1,
-          "contentHash": "sha256:e500c76a69ed001687a96a406fb2fb43f1742937700aa35d8b6128efd6ba8b6a",
+          "contentHash": "sha256:1fdf9f0abe5b54c2006c1d380f0e9514192545d335ef1fcc2da02d6a2232e44a",
           "question": "Which pair of words are perfect rhymes?",
           "choices": [
             "love / move",
@@ -10016,12 +10016,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: stone / throne. A perfect rhyme matches all sounds from the stressed vowel to the end of the word.",
+            "correct": "Answer: stone / throne. Say both words aloud; they share the same ending sound (/one/).",
             "incorrect": [
-              "Not: love / move. It does not share the target ending sound.",
-              "Not: great / greet. It does not share the target ending sound.",
+              "Not: love / move. love ends /uv/, but move ends /oov/, so the sounds do not match all the way to the end.",
+              "Not: great / greet. great has /ayt/, but greet has /eet/, so the sounds do not match all the way to the end.",
               "",
-              "Not: food / good. It does not share the target ending sound."
+              "Not: food / good. food has /ood/, but good has /uhd/, so the sounds do not match all the way to the end."
             ]
           },
           "studyAid": {
@@ -10062,7 +10062,7 @@
         {
           "id": "vocabulary-rhyming-q0005",
           "version": 1,
-          "contentHash": "sha256:658d6d77366d9cf53d54455bc4a2259eb090fbc639467f22d106714f2a5b80ef",
+          "contentHash": "sha256:898329f66c175436002b8d6530306a26fd502b0416b6195fdffa9706b634c846",
           "question": "Which word rhymes with 'enough'?",
           "choices": [
             "cough",
@@ -10072,16 +10072,16 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: tough. The letter group '-ough' can make many sounds.",
+            "correct": "Answer: tough. Say the words aloud: enough and tough both end with the /uff/ sound, even though -ough can be pronounced different ways.",
             "incorrect": [
-              "Not: cough. It does not share the target ending sound.",
+              "Not: cough. Cough ends with /off/, so it does not rhyme with the /uff/ sound in enough.",
               "",
-              "Not: bough. It does not share the target ending sound.",
-              "Not: though. It does not share the target ending sound."
+              "Not: bough. Bough ends with /ow/ as in cow, not the /uff/ sound in enough.",
+              "Not: though. Though ends with /oh/, not the /uff/ sound in enough."
             ]
           },
           "studyAid": {
-            "definition": "The letter group '-ough' can make many sounds. You must listen to the sounds, not justhe spelling, to find rhymes.",
+            "definition": "The letter group '-ough' can make many sounds. You must listen to the sounds, not just the spelling, to find rhymes.",
             "example": "enough / tough / rough / stuff",
             "link": "https://www.readingrockets.org/article/learning-read-rhyme",
             "linkText": "Reading Rockets - Rhyming"
@@ -10118,7 +10118,7 @@
         {
           "id": "vocabulary-rhyming-q0006",
           "version": 1,
-          "contentHash": "sha256:d6f749076469ecdce8f0447cf6e45b6d35db23024634a17e8bdc0f10565f4429",
+          "contentHash": "sha256:8dc976786a785fe2ec826b88491537f579b587a509d21a311a4628d83cc87940",
           "question": "Which word does NOT rhyme with 'heard'?",
           "choices": [
             "bird",
@@ -10128,11 +10128,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: beard. 'Ir,' 'er,' 'ur,' and 'ear' can all make the /er/ sound, but 'ear' can also make the /eer/ sound as in 'beard.'",
+            "correct": "Answer: beard. Say it aloud: beard has /eerd/, so it is the one that breaks the rhyme pattern with heard.",
             "incorrect": [
-              "Not: bird. It does not share the target ending sound.",
-              "Not: word. It does not share the target ending sound.",
-              "Not: herd. It does not share the target ending sound.",
+              "Not: bird. This choice follows the rhyme pattern, so it is not the exception.",
+              "Not: word. This choice follows the rhyme pattern, so it is not the exception.",
+              "Not: herd. This choice follows the rhyme pattern, so it is not the exception.",
               ""
             ]
           },
@@ -10174,27 +10174,27 @@
         {
           "id": "vocabulary-rhyming-q0007",
           "version": 1,
-          "contentHash": "sha256:f15322a1cb7945f7e99d5d3412df6d17838956c832447e46bec7e56be7e32dc0",
+          "contentHash": "sha256:4ecb799e39dbe7d0efa7931a510c2d7bb1580d541e3d4a4c23ccb387beb88003",
           "question": "What is a rhyming word for 'measure'?",
           "choices": [
             "pleasure",
             "pressure",
-            "treasure",
-            "leisure"
+            "teacher",
+            "major"
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: pleasure. Words that share ending sounds are rhymes.",
+            "correct": "Answer: pleasure. Measure and pleasure both end with the /ezh-er/ sound.",
             "incorrect": [
               "",
-              "Not: pressure. It does not share the target ending sound.",
-              "Not: treasure. It does not share the target ending sound.",
-              "Not: leisure. It does not share the target ending sound."
+              "Not: pressure. Pressure is close, but it uses the /esh-er/ sound instead of the /ezh-er/ sound in measure.",
+              "Not: teacher. Teacher ends with /ee-cher/, so its ending sound is different from measure.",
+              "Not: major. Major ends with /ay-jer/, so it does not match the ending sound in measure."
             ]
           },
           "studyAid": {
             "definition": "Words that share ending sounds are rhymes. Sometimes more than one answer can rhyme.",
-            "example": "measure / pleasure / treasure / leisure",
+            "example": "measure / pleasure; pressure is close but not the same ending sound.",
             "link": "https://www.readingrockets.org/article/learning-read-rhyme",
             "linkText": "Reading Rockets - Rhyming"
           },
@@ -10230,7 +10230,7 @@
         {
           "id": "vocabulary-rhyming-q0008",
           "version": 1,
-          "contentHash": "sha256:fafb800a554837da1c864af2a5e8e0c00a3413ce9910241e6a27a66dcbf9de80",
+          "contentHash": "sha256:56014f097a90c4bad0ae3ce0c2c65ddd9213915c0b08fec313a1ec9e0f40baf0",
           "question": "Which word rhymes with 'plumber'?",
           "choices": [
             "number",
@@ -10240,11 +10240,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: All of the above. Multiple words can rhyme with the same target word if they share the same ending sounds.",
+            "correct": "Answer: All of the above. Number, lumber, and dumber all rhyme with plumber because they end with the /umber/ sound.",
             "incorrect": [
-              "Not: number. It does not share the target ending sound.",
-              "Not: lumber. It does not share the target ending sound.",
-              "Not: dumber. It does not share the target ending sound.",
+              "Not: number. Number does rhyme with plumber, but it is not the complete answer because lumber and dumber rhyme too.",
+              "Not: lumber. Lumber does rhyme with plumber, but it is not the complete answer because number and dumber rhyme too.",
+              "Not: dumber. Dumber does rhyme with plumber, but it is not the complete answer because number and lumber rhyme too.",
               ""
             ]
           },
@@ -10286,7 +10286,7 @@
         {
           "id": "vocabulary-rhyming-q0009",
           "version": 1,
-          "contentHash": "sha256:0a47a0e0ce05d2dfdd78ceedb20b2cbc079acf5205992a4d53496c7477f70ff9",
+          "contentHash": "sha256:7d5f02114ace96059d446d85ab86f0984f5abb855883afa32d31f42d607900dd",
           "question": "Which word does NOT rhyme with 'weight'?",
           "choices": [
             "eight",
@@ -10296,12 +10296,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: height. Silent letters can trick you.",
+            "correct": "Answer: height. Say it aloud: height has /ite/, so it is the one that breaks the rhyme pattern with weight.",
             "incorrect": [
-              "Not: eight. It does not share the target ending sound.",
-              "Not: freight. It does not share the target ending sound.",
+              "Not: eight. This choice follows the rhyme pattern, so it is not the exception.",
+              "Not: freight. This choice follows the rhyme pattern, so it is not the exception.",
               "",
-              "Not: straight. It does not share the target ending sound."
+              "Not: straight. This choice follows the rhyme pattern, so it is not the exception."
             ]
           },
           "studyAid": {
@@ -10342,7 +10342,7 @@
         {
           "id": "vocabulary-rhyming-q0010",
           "version": 1,
-          "contentHash": "sha256:1e90690b51f34ab3146085da97d50ad2e4ccfcf683cd9d0b8a157579592865fc",
+          "contentHash": "sha256:97561693de48a1424ad93805d3b98763645f9446ce2f9430497b3d6f3e8b0854",
           "question": "What word rhymes with 'circle'?",
           "choices": [
             "cycle",
@@ -10352,11 +10352,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: purple. A slant rhyme (near rhyme) shares some but not all ending sounds.",
+            "correct": "Answer: purple. Say it aloud: purple and circle share the ending sound /er-kul/.",
             "incorrect": [
-              "Not: cycle. It does not share the target ending sound.",
-              "Not: bicycle. It does not share the target ending sound.",
-              "Not: turtle. It does not share the target ending sound.",
+              "Not: cycle. It ends with /eye-kul/, not /er-kul/, so it does not rhyme here.",
+              "Not: bicycle. It ends with /eye-kul/, not /er-kul/, so it does not rhyme here.",
+              "Not: turtle. It ends with /er-tul/, not /er-kul/, so it does not rhyme here.",
               ""
             ]
           },
@@ -10398,7 +10398,7 @@
         {
           "id": "vocabulary-rhyming-q0011",
           "version": 1,
-          "contentHash": "sha256:6177ea40623f61a5b64c4505ccf6592e05020c6026ae7cfb2984e24c3f313074",
+          "contentHash": "sha256:7329670f0e361ba4b270a930925c3074bf43024de17bdd8bf039c7f0a37b7318",
           "question": "Which word rhymes with 'through'?",
           "choices": [
             "threw",
@@ -10408,12 +10408,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: threw. Homophones often rhyme because they sound exactly alike, even though their spellings differ.",
+            "correct": "Answer: threw. Say it aloud: threw and through share the ending sound /throo/.",
             "incorrect": [
               "",
-              "Not: though. It does not share the target ending sound.",
-              "Not: thorough. It does not share the target ending sound.",
-              "Not: thought. It does not share the target ending sound."
+              "Not: though. It ends with /oh/, not /throo/, so it does not rhyme here.",
+              "Not: thorough. It ends with /er-oh/, not /throo/, so it does not rhyme here.",
+              "Not: thought. It ends with /awt/, not /throo/, so it does not rhyme here."
             ]
           },
           "studyAid": {
@@ -10454,7 +10454,7 @@
         {
           "id": "vocabulary-rhyming-q0012",
           "version": 1,
-          "contentHash": "sha256:a1306d76e2b0c1307ad9523f50d14cc3274e3a45b1ecab654bb04b2282849809",
+          "contentHash": "sha256:9f66830c9cdbcd375ed44e2fddb39f94645829a600bbdfbf3ccd1dc734096404",
           "question": "Which pair does NOT rhyme?",
           "choices": [
             "bear / pear",
@@ -10464,12 +10464,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: hear / bear. 'Ear' can make /eer/ (hear) or /air/ (bear) depending on the word.",
+            "correct": "Answer: hear / bear. Say it aloud: hear / bear has hear has /eer/, but bear has /air/, so it is the one that breaks the rhyme pattern with .",
             "incorrect": [
-              "Not: bear / pear. It does not share the target ending sound.",
-              "Not: bare / hair. It does not share the target ending sound.",
+              "Not: bear / pear. This choice follows the rhyme pattern, so it is not the exception.",
+              "Not: bare / hair. This choice follows the rhyme pattern, so it is not the exception.",
               "",
-              "Not: care / stare. It does not share the target ending sound."
+              "Not: care / stare. This choice follows the rhyme pattern, so it is not the exception."
             ]
           },
           "studyAid": {
@@ -10510,7 +10510,7 @@
         {
           "id": "vocabulary-rhyming-q0013",
           "version": 1,
-          "contentHash": "sha256:32f7b605916b106f7d2f881f5d644afcf55ef4cf2ddd92065ab1b2e9911307b6",
+          "contentHash": "sha256:48544c0098ac00ff706c9c0fcd33a8267c40640477284911db12f9f2bb3a39f1",
           "question": "What word rhymes with 'choir'?",
           "choices": [
             "chair",
@@ -10520,12 +10520,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: fire. 'Choir' is an unusual spelling that sounds like /kwire/, rhyming with words ending in -ire or -yer.",
+            "correct": "Answer: fire. Say it aloud: fire and choir share the ending sound /kwire/.",
             "incorrect": [
-              "Not: chair. It does not share the target ending sound.",
+              "Not: chair. It ends with /air/, not /kwire/, so it does not rhyme here.",
               "",
-              "Not: higher. It does not share the target ending sound.",
-              "Not: buyer. It does not share the target ending sound."
+              "Not: higher. It ends with /ire/, not /kwire/, so it does not rhyme here.",
+              "Not: buyer. It ends with /ire/, not /kwire/, so it does not rhyme here."
             ]
           },
           "studyAid": {
@@ -10566,7 +10566,7 @@
         {
           "id": "vocabulary-rhyming-q0014",
           "version": 1,
-          "contentHash": "sha256:ee8334e5b2f0f2c5e5ee29a22abe5e59410d5132f6c11e5310989a8a1a51bf09",
+          "contentHash": "sha256:b7c3cf934338e0f09249e49a46f470c3a54acb3050af46cf32233d75ab1640c8",
           "question": "Which word rhymes with 'sword'?",
           "choices": [
             "word",
@@ -10576,12 +10576,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: word. Silent letters change how words sound.",
+            "correct": "Answer: word. Say it aloud: word and sword share the ending sound /erd/.",
             "incorrect": [
               "",
-              "Not: board. It does not share the target ending sound.",
-              "Not: scored. It does not share the target ending sound.",
-              "Not: toward. It does not share the target ending sound."
+              "Not: board. It ends with /ord/, not /erd/, so it does not rhyme here.",
+              "Not: scored. It ends with /ord/, not /erd/, so it does not rhyme here.",
+              "Not: toward. It ends with /ord/, not /erd/, so it does not rhyme here."
             ]
           },
           "studyAid": {
@@ -10622,7 +10622,7 @@
         {
           "id": "vocabulary-rhyming-q0015",
           "version": 1,
-          "contentHash": "sha256:3271dffc509ccb6981376fdea89d5134443c3adad05e0cb8cddc5acfbfe6a189",
+          "contentHash": "sha256:8a12c1cfd7c3170fd655d5db78d0af92394475cfc706449e666059a1b6173a5c",
           "question": "Which word does NOT rhyme with 'dove' (the bird)?",
           "choices": [
             "love",
@@ -10632,11 +10632,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: move. 'Ove' can make the /uv/ sound or the /oo/ sound.",
+            "correct": "Answer: move. Say it aloud: move has /oov/, so it is the one that breaks the rhyme pattern with dove.",
             "incorrect": [
-              "Not: love. It does not share the target ending sound.",
-              "Not: glove. It does not share the target ending sound.",
-              "Not: above. It does not share the target ending sound.",
+              "Not: love. This choice follows the rhyme pattern, so it is not the exception.",
+              "Not: glove. This choice follows the rhyme pattern, so it is not the exception.",
+              "Not: above. This choice follows the rhyme pattern, so it is not the exception.",
               ""
             ]
           },
@@ -18753,7 +18753,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0001",
           "version": 1,
-          "contentHash": "sha256:67aa847de140b2b9fcb530cfa1d43855c6f767d9908cab65afc933083f356d66",
+          "contentHash": "sha256:10d28ae1a2a2c84b5e47414330f0970076f123d6e70eb7b3caea663273753c23",
           "question": "In the sentence 'The arid desert had no water for miles,' what does 'arid' mean?",
           "choices": [
             "wet and rainy",
@@ -18763,12 +18763,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: very dry. Context clues are words or phrases around an unknown word that help you figure out its meaning.",
+            "correct": "Answer: very dry. The sentence clue \"The arid desert had no water for miles\" points to this meaning for arid.",
             "incorrect": [
-              "Not: wet and rainy. It does not match the context clue.",
+              "Not: wet and rainy. Try substituting it into the sentence; it does not fit the clue \"The arid desert had no water for miles\". The sentence points to very dry.",
               "",
-              "Not: cold and snowy. It does not match the context clue.",
-              "Not: green and lush. It does not match the context clue."
+              "Not: cold and snowy. Try substituting it into the sentence; it does not fit the clue \"The arid desert had no water for miles\". The sentence points to very dry.",
+              "Not: green and lush. Try substituting it into the sentence; it does not fit the clue \"The arid desert had no water for miles\". The sentence points to very dry."
             ]
           },
           "studyAid": {
@@ -18809,7 +18809,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0002",
           "version": 1,
-          "contentHash": "sha256:408eaaf3fc548eb7b8445da46641e03b1497a88e8a1c089cf57200733f814527",
+          "contentHash": "sha256:a02fc6ecd0f184edb533e30994cc7f664f6bc4e8757c4042ba91dd474bd5eb1d",
           "question": "'The boy was ecstatic when he won the race.' What does 'ecstatic' mean?",
           "choices": [
             "very sad",
@@ -18819,12 +18819,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: extremely happy. Look at the situation described in the sentence to guess the meaning of an unknown word.",
+            "correct": "Answer: extremely happy. The sentence clue \"The boy was ecstatic when he won the race.\" points to this meaning for ecstatic.",
             "incorrect": [
-              "Not: very sad. It does not match the context clue.",
+              "Not: very sad. Try substituting it into the sentence; it does not fit the clue \"The boy was ecstatic when he won the race.\". The sentence points to extremely happy.",
               "",
-              "Not: very tired. It does not match the context clue.",
-              "Not: extremely angry. It does not match the context clue."
+              "Not: very tired. Try substituting it into the sentence; it does not fit the clue \"The boy was ecstatic when he won the race.\". The sentence points to extremely happy.",
+              "Not: extremely angry. Try substituting it into the sentence; it does not fit the clue \"The boy was ecstatic when he won the race.\". The sentence points to extremely happy."
             ]
           },
           "studyAid": {
@@ -18865,7 +18865,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0003",
           "version": 1,
-          "contentHash": "sha256:cb72efd4a44ac2801339dd53c6cd791afd9108b92de9762aa57edae8a39c9c73",
+          "contentHash": "sha256:763454e249bd1072532373eff8c915d7c9c7760767f606c4dd5b70dbcdb6d8f2",
           "question": "'The mammoth building towered over the small houses.' What does 'mammoth' mean?",
           "choices": [
             "tiny",
@@ -18875,12 +18875,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: enormous. Comparison context clues show how one thing relates to another in size, amount, or quality.",
+            "correct": "Answer: enormous. The sentence clue \"The mammoth building towered over the small houses.\" points to this meaning for mammoth.",
             "incorrect": [
-              "Not: tiny. It does not match the context clue.",
-              "Not: ancient. It does not match the context clue.",
+              "Not: tiny. Try substituting it into the sentence; it does not fit the clue \"The mammoth building towered over the small houses.\". The sentence points to enormous.",
+              "Not: ancient. Try substituting it into the sentence; it does not fit the clue \"The mammoth building towered over the small houses.\". The sentence points to enormous.",
               "",
-              "Not: colorful. It does not match the context clue."
+              "Not: colorful. Try substituting it into the sentence; it does not fit the clue \"The mammoth building towered over the small houses.\". The sentence points to enormous."
             ]
           },
           "studyAid": {
@@ -18921,7 +18921,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0004",
           "version": 1,
-          "contentHash": "sha256:6a0224a4c47ad77b44303f15e2eafe3ad88120050a1e09abdef6b888a2a323cd",
+          "contentHash": "sha256:23d6407bdef1ca2bcbb7124143429e6bf8f0330866e566e4c4063eb4a9c40bb3",
           "question": "'After the long hike, the weary travelers finally sat down.' What does 'weary' mean?",
           "choices": [
             "excited",
@@ -18931,12 +18931,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: tired. Cause-and-effect context clues help you figure out a word by what happened before or after.",
+            "correct": "Answer: tired. The sentence clue \"After the long hike, the weary travelers finally sat down.\" points to this meaning for weary.",
             "incorrect": [
-              "Not: excited. It does not match the context clue.",
-              "Not: frightened. It does not match the context clue.",
+              "Not: excited. Try substituting it into the sentence; it does not fit the clue \"After the long hike, the weary travelers finally sat down.\". The sentence points to tired.",
+              "Not: frightened. Try substituting it into the sentence; it does not fit the clue \"After the long hike, the weary travelers finally sat down.\". The sentence points to tired.",
               "",
-              "Not: lost. It does not match the context clue."
+              "Not: lost. Try substituting it into the sentence; it does not fit the clue \"After the long hike, the weary travelers finally sat down.\". The sentence points to tired."
             ]
           },
           "studyAid": {
@@ -18977,7 +18977,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0005",
           "version": 1,
-          "contentHash": "sha256:08dd5151177ce149dc21acf7212258e82a4af465b8afe2afdae4b24e03354ceb",
+          "contentHash": "sha256:8c94ab3b83830e8a17cc9bd9e8da8558ac893baa21718ab8e6289da907f1b445",
           "question": "'The student was meticulous, checking every answer three times.' What does 'meticulous' mean?",
           "choices": [
             "careless",
@@ -18987,12 +18987,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: very careful. Example context clues show what a word means by giving an example of the behavior.",
+            "correct": "Answer: very careful. The sentence clue \"The student was meticulous, checking every answer three times.\" points to this meaning for meticulous.",
             "incorrect": [
-              "Not: careless. It does not match the context clue.",
+              "Not: careless. Try substituting it into the sentence; it does not fit the clue \"The student was meticulous, checking every answer three times.\". The sentence points to very careful.",
               "",
-              "Not: quick. It does not match the context clue.",
-              "Not: confused. It does not match the context clue."
+              "Not: quick. Try substituting it into the sentence; it does not fit the clue \"The student was meticulous, checking every answer three times.\". The sentence points to very careful.",
+              "Not: confused. Try substituting it into the sentence; it does not fit the clue \"The student was meticulous, checking every answer three times.\". The sentence points to very careful."
             ]
           },
           "studyAid": {
@@ -19033,7 +19033,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0006",
           "version": 1,
-          "contentHash": "sha256:c4843caaaae55f1d076fb989160b63d98f840fe922cdca8c93b415314c3a3710",
+          "contentHash": "sha256:bb5cfdbe080c31e8019a0c5094033dd443b07b00688fa3d28abc8489cc6d3dba",
           "question": "'Unlike her gregarious sister, Maya was quiet and shy.' What does 'gregarious' mean?",
           "choices": [
             "outgoing and sociable",
@@ -19043,12 +19043,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: outgoing and sociable. Contrast context clues use words like 'unlike,' 'but,' 'however,' or 'although' to show opposites.",
+            "correct": "Answer: outgoing and sociable. The sentence clue \"Unlike her gregarious sister, Maya was quiet and shy.\" points to this meaning for gregarious.",
             "incorrect": [
               "",
-              "Not: angry and rude. It does not match the context clue.",
-              "Not: sad and lonely. It does not match the context clue.",
-              "Not: smart and studious. It does not match the context clue."
+              "Not: angry and rude. Try substituting it into the sentence; it does not fit the clue \"Unlike her gregarious sister, Maya was quiet and shy.\". The sentence points to outgoing and sociable.",
+              "Not: sad and lonely. Try substituting it into the sentence; it does not fit the clue \"Unlike her gregarious sister, Maya was quiet and shy.\". The sentence points to outgoing and sociable.",
+              "Not: smart and studious. Try substituting it into the sentence; it does not fit the clue \"Unlike her gregarious sister, Maya was quiet and shy.\". The sentence points to outgoing and sociable."
             ]
           },
           "studyAid": {
@@ -19089,7 +19089,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0007",
           "version": 1,
-          "contentHash": "sha256:c0ad7b20309fb3c2f6d8ae965b12e73feeb34e7d49d53ccb6317fc44df6ebbd4",
+          "contentHash": "sha256:cdc8157492b80fc80d2261c0a8cbaa6ff883f1759296c4d38864b044ad3c648f",
           "question": "'The odor from the garbage was so pungent that everyone covered their noses.' What does 'pungent' mean?",
           "choices": [
             "pleasant",
@@ -19099,12 +19099,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: strong-smelling. Result or reaction context clues show what people do because of the unknown word.",
+            "correct": "Answer: strong-smelling. The sentence clue \"The odor from the garbage was so pungent that everyone covered their noses.\" points to this meaning for pungent.",
             "incorrect": [
-              "Not: pleasant. It does not match the context clue.",
-              "Not: weak. It does not match the context clue.",
+              "Not: pleasant. Try substituting it into the sentence; it does not fit the clue \"The odor from the garbage was so pungent that everyone covered their noses.\". The sentence points to strong-smelling.",
+              "Not: weak. Try substituting it into the sentence; it does not fit the clue \"The odor from the garbage was so pungent that everyone covered their noses.\". The sentence points to strong-smelling.",
               "",
-              "Not: invisible. It does not match the context clue."
+              "Not: invisible. Try substituting it into the sentence; it does not fit the clue \"The odor from the garbage was so pungent that everyone covered their noses.\". The sentence points to strong-smelling."
             ]
           },
           "studyAid": {
@@ -19145,7 +19145,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0008",
           "version": 1,
-          "contentHash": "sha256:3eba61d16c6c6a5a0ee5b4bbc4c550ad940d7e63b958801d7c63c88454bf1fac",
+          "contentHash": "sha256:dfaafda2cd9ea711b0bd2a04b0c1e2afec2b07bc489a49b87352810419124c03",
           "question": "'The old house looked dilapidated, with broken windows and a sagging roof.' What does 'dilapidated' mean?",
           "choices": [
             "newly built",
@@ -19155,12 +19155,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: falling apart. Description context clues list details that define the unknown word.",
+            "correct": "Answer: falling apart. The sentence clue \"The old house looked dilapidated, with broken windows and a sagging roof.\" points to this meaning for dilapidated.",
             "incorrect": [
-              "Not: newly built. It does not match the context clue.",
+              "Not: newly built. Try substituting it into the sentence; it does not fit the clue \"The old house looked dilapidated, with broken windows and a sagging roof.\". The sentence points to falling apart.",
               "",
-              "Not: brightly painted. It does not match the context clue.",
-              "Not: carefully decorated. It does not match the context clue."
+              "Not: brightly painted. Try substituting it into the sentence; it does not fit the clue \"The old house looked dilapidated, with broken windows and a sagging roof.\". The sentence points to falling apart.",
+              "Not: carefully decorated. Try substituting it into the sentence; it does not fit the clue \"The old house looked dilapidated, with broken windows and a sagging roof.\". The sentence points to falling apart."
             ]
           },
           "studyAid": {
@@ -19201,7 +19201,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0009",
           "version": 1,
-          "contentHash": "sha256:a07019784726541d38e9c269fddabc8fab07338d23f98b8dd9200258dd15a8d3",
+          "contentHash": "sha256:082518a23fecb1b27245be7f1b307e32f4efcd1056dc6922d2c8d84c2a898efe",
           "question": "'The doctor gave the patient a placebo, which was just a sugar pill with no real medicine.' What does 'placebo' mean?",
           "choices": [
             "a strong drug",
@@ -19211,12 +19211,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: a fake treatment. Definition context clues sometimes explain the word directly after a comma or with phrases like 'which is.'",
+            "correct": "Answer: a fake treatment. The sentence clue \"The doctor gave the patient a placebo, which was just a sugar pill with no real medicine.\" points to this meaning for placebo.",
             "incorrect": [
-              "Not: a strong drug. It does not match the context clue.",
+              "Not: a strong drug. Try substituting it into the sentence; it does not fit the clue \"The doctor gave the patient a placebo, which was just a sugar pill with no real medicine.\". The sentence points to a fake treatment.",
               "",
-              "Not: a vitamin. It does not match the context clue.",
-              "Not: a surgery. It does not match the context clue."
+              "Not: a vitamin. Try substituting it into the sentence; it does not fit the clue \"The doctor gave the patient a placebo, which was just a sugar pill with no real medicine.\". The sentence points to a fake treatment.",
+              "Not: a surgery. Try substituting it into the sentence; it does not fit the clue \"The doctor gave the patient a placebo, which was just a sugar pill with no real medicine.\". The sentence points to a fake treatment."
             ]
           },
           "studyAid": {
@@ -19257,7 +19257,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0010",
           "version": 1,
-          "contentHash": "sha256:0acbc28f46309fe02ddad54731f055025e0872b5461a7eaee61f390a1136d1e9",
+          "contentHash": "sha256:910e383b182cbdbeb6540d399b4f8fd50580278c451e7e5fac6ad6546d657826",
           "question": "'The serpent slithered silently through the grass.' What does 'serpent' mean?",
           "choices": [
             "bird",
@@ -19267,12 +19267,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: snake. Action context clues use verbs that only certain things can do.",
+            "correct": "Answer: snake. The sentence clue \"The serpent slithered silently through the grass.\" points to this meaning for serpent.",
             "incorrect": [
-              "Not: bird. It does not match the context clue.",
+              "Not: bird. Try substituting it into the sentence; it does not fit the clue \"The serpent slithered silently through the grass.\". The sentence points to snake.",
               "",
-              "Not: mouse. It does not match the context clue.",
-              "Not: lizard. It does not match the context clue."
+              "Not: mouse. Try substituting it into the sentence; it does not fit the clue \"The serpent slithered silently through the grass.\". The sentence points to snake.",
+              "Not: lizard. Try substituting it into the sentence; it does not fit the clue \"The serpent slithered silently through the grass.\". The sentence points to snake."
             ]
           },
           "studyAid": {
@@ -19313,7 +19313,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0011",
           "version": 1,
-          "contentHash": "sha256:54b85b56c53a7a6247f9933e0db8783a49e2efdd3db12163c28f177f3c015b09",
+          "contentHash": "sha256:e436a2e90ed24f899f31a14be3880ecd10a857131b00a82d28044433f9272a5b",
           "question": "'The children were jubilant because school was canceled due to snow.' What does 'jubilant' mean?",
           "choices": [
             "worried",
@@ -19323,12 +19323,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: overjoyed. Situation context clues use the setting or event to suggest the word's meaning.",
+            "correct": "Answer: overjoyed. The sentence clue \"The children were jubilant because school was canceled due to snow.\" points to this meaning for jubilant.",
             "incorrect": [
-              "Not: worried. It does not match the context clue.",
+              "Not: worried. Try substituting it into the sentence; it does not fit the clue \"The children were jubilant because school was canceled due to snow.\". The sentence points to overjoyed.",
               "",
-              "Not: bored. It does not match the context clue.",
-              "Not: annoyed. It does not match the context clue."
+              "Not: bored. Try substituting it into the sentence; it does not fit the clue \"The children were jubilant because school was canceled due to snow.\". The sentence points to overjoyed.",
+              "Not: annoyed. Try substituting it into the sentence; it does not fit the clue \"The children were jubilant because school was canceled due to snow.\". The sentence points to overjoyed."
             ]
           },
           "studyAid": {
@@ -19369,7 +19369,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0012",
           "version": 1,
-          "contentHash": "sha256:42b8831ae7eb8236b5c5891493e52a62ee39d165bc738885da1a1dfb4ac57973",
+          "contentHash": "sha256:9b75173e06563810c87df671ffa073de50ba70dab7354c9cd9d8e6fec1316dc3",
           "question": "'The recipe said to simmer the soup, not let it boil rapidly.' What does 'simmer' mean?",
           "choices": [
             "cook at high heat",
@@ -19379,12 +19379,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: cook gently at low heat. Contrast clues show what something is NOT in order to show what it IS.",
+            "correct": "Answer: cook gently at low heat. The sentence clue \"The recipe said to simmer the soup, not let it boil rapidly.\" points to this meaning for simmer.",
             "incorrect": [
-              "Not: cook at high heat. It does not match the context clue.",
+              "Not: cook at high heat. Try substituting it into the sentence; it does not fit the clue \"The recipe said to simmer the soup, not let it boil rapidly.\". The sentence points to cook gently at low heat.",
               "",
-              "Not: freeze solid. It does not match the context clue.",
-              "Not: bake in the oven. It does not match the context clue."
+              "Not: freeze solid. Try substituting it into the sentence; it does not fit the clue \"The recipe said to simmer the soup, not let it boil rapidly.\". The sentence points to cook gently at low heat.",
+              "Not: bake in the oven. Try substituting it into the sentence; it does not fit the clue \"The recipe said to simmer the soup, not let it boil rapidly.\". The sentence points to cook gently at low heat."
             ]
           },
           "studyAid": {
@@ -19425,7 +19425,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0013",
           "version": 1,
-          "contentHash": "sha256:7227c821e9eeb1253e564d485640a74d1c31e7d98c9573fac5c3193221adff9b",
+          "contentHash": "sha256:098ac14bb9b42335b2e2b02bebcc8fda2404a9ec06bf44d618478e0a311be62c",
           "question": "'The terrain was so rugged that our car could barely drive over the rocks and holes.' What does 'rugged' mean?",
           "choices": [
             "smooth and flat",
@@ -19435,12 +19435,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: rough and uneven. Physical description clues use details about the land or object to reveal the word's meaning.",
+            "correct": "Answer: rough and uneven. The sentence clue \"The terrain was so rugged that our car could barely drive over the rocks and holes.\" points to this meaning for rugged.",
             "incorrect": [
-              "Not: smooth and flat. It does not match the context clue.",
+              "Not: smooth and flat. Try substituting it into the sentence; it does not fit the clue \"The terrain was so rugged that our car could barely drive over the rocks and holes.\". The sentence points to rough and uneven.",
               "",
-              "Not: wet and muddy. It does not match the context clue.",
-              "Not: soft and sandy. It does not match the context clue."
+              "Not: wet and muddy. Try substituting it into the sentence; it does not fit the clue \"The terrain was so rugged that our car could barely drive over the rocks and holes.\". The sentence points to rough and uneven.",
+              "Not: soft and sandy. Try substituting it into the sentence; it does not fit the clue \"The terrain was so rugged that our car could barely drive over the rocks and holes.\". The sentence points to rough and uneven."
             ]
           },
           "studyAid": {
@@ -19481,7 +19481,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0014",
           "version": 1,
-          "contentHash": "sha256:e44aa307aa868b3ec38cadd9495991c980067c06f2154f821e7f5e7142f08c37",
+          "contentHash": "sha256:04a13ee5e8d3dc8fc8ed30d5fddf5d3138c79de921fa26aace73b55784d31af0",
           "question": "'The witness was candid, telling the whole truth without hiding anything.' What does 'candid' mean?",
           "choices": [
             "dishonest",
@@ -19491,12 +19491,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: honest and direct. Restatement clues say the same idea in different words, helping you understand the unknown word.",
+            "correct": "Answer: honest and direct. The sentence clue \"The witness was candid, telling the whole truth without hiding anything.\" points to this meaning for candid.",
             "incorrect": [
-              "Not: dishonest. It does not match the context clue.",
-              "Not: shy. It does not match the context clue.",
+              "Not: dishonest. Try substituting it into the sentence; it does not fit the clue \"The witness was candid, telling the whole truth without hiding anything.\". The sentence points to honest and direct.",
+              "Not: shy. Try substituting it into the sentence; it does not fit the clue \"The witness was candid, telling the whole truth without hiding anything.\". The sentence points to honest and direct.",
               "",
-              "Not: confused. It does not match the context clue."
+              "Not: confused. Try substituting it into the sentence; it does not fit the clue \"The witness was candid, telling the whole truth without hiding anything.\". The sentence points to honest and direct."
             ]
           },
           "studyAid": {
@@ -19537,7 +19537,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0015",
           "version": 1,
-          "contentHash": "sha256:b47d7d912c62299e1dfb587bf3167a67562a3b946c25f79aae977d45cbbb94f2",
+          "contentHash": "sha256:80042877f1937541e50361112993de257d4e92e50ce57a6b71e8ce75cca289ab",
           "question": "'The athlete showed great fortitude, continuing to run even though her leg hurt badly.' What does 'fortitude' mean?",
           "choices": [
             "fear",
@@ -19547,12 +19547,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: courage and strength. Behavior context clues show what someone does to reveal their character or traits.",
+            "correct": "Answer: courage and strength. The sentence clue \"The athlete showed great fortitude, continuing to run even though her leg hurt badly.\" points to this meaning for fortitude.",
             "incorrect": [
-              "Not: fear. It does not match the context clue.",
+              "Not: fear. Try substituting it into the sentence; it does not fit the clue \"The athlete showed great fortitude, continuing to run even though her leg hurt badly.\". The sentence points to courage and strength.",
               "",
-              "Not: weakness. It does not match the context clue.",
-              "Not: speed. It does not match the context clue."
+              "Not: weakness. Try substituting it into the sentence; it does not fit the clue \"The athlete showed great fortitude, continuing to run even though her leg hurt badly.\". The sentence points to courage and strength.",
+              "Not: speed. Try substituting it into the sentence; it does not fit the clue \"The athlete showed great fortitude, continuing to run even though her leg hurt badly.\". The sentence points to courage and strength."
             ]
           },
           "studyAid": {
@@ -19593,7 +19593,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0016",
           "version": 1,
-          "contentHash": "sha256:1fb9c2408d1e83540b5e84fee226329dadbcfcc54f89716b6e7cdeba51f4a1a8",
+          "contentHash": "sha256:d850a449e8bd00958e5226ece340f3d35d8bfac2537aa6ecedbebdaf539c4ca4",
           "question": "Use context clues to determine the meaning of the bolded word below. The door was ajar, and we felt a breeze from outside.",
           "choices": [
             "broken",
@@ -19603,11 +19603,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: open. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: open. The sentence clue \"The door was ajar, and we felt a breeze from outside.\" points to this meaning for The.",
             "incorrect": [
-              "Not: broken. It does not match the context clue.",
-              "Not: locked. It does not match the context clue.",
-              "Not: closed. It does not match the context clue.",
+              "Not: broken. Try substituting it into the sentence; it does not fit the clue \"The door was ajar, and we felt a breeze from outside.\". The sentence points to open.",
+              "Not: locked. Try substituting it into the sentence; it does not fit the clue \"The door was ajar, and we felt a breeze from outside.\". The sentence points to open.",
+              "Not: closed. Try substituting it into the sentence; it does not fit the clue \"The door was ajar, and we felt a breeze from outside.\". The sentence points to open.",
               ""
             ]
           },
@@ -19649,7 +19649,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0017",
           "version": 1,
-          "contentHash": "sha256:c74ec8f3044d6b47741b2a5146e52378274e4d465eae9c3db2981309f85dd8aa",
+          "contentHash": "sha256:bf412cb6fe68aa85a7e8e89a4dad439ede1d60b0de1b7265269ee9f78dacb5b4",
           "question": "The cars waited for the pedestrian to walk across the street.",
           "choices": [
             "runner",
@@ -19659,11 +19659,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: person walking. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: person walking. The sentence clue \"The cars waited for the pedestrian to walk across the street.\" points to this meaning for waited.",
             "incorrect": [
-              "Not: runner. It does not match the context clue.",
-              "Not: driver. It does not match the context clue.",
-              "Not: biker. It does not match the context clue.",
+              "Not: runner. Try substituting it into the sentence; it does not fit the clue \"The cars waited for the pedestrian to walk across the street.\". The sentence points to person walking.",
+              "Not: driver. Try substituting it into the sentence; it does not fit the clue \"The cars waited for the pedestrian to walk across the street.\". The sentence points to person walking.",
+              "Not: biker. Try substituting it into the sentence; it does not fit the clue \"The cars waited for the pedestrian to walk across the street.\". The sentence points to person walking.",
               ""
             ]
           },
@@ -19705,7 +19705,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0018",
           "version": 1,
-          "contentHash": "sha256:91fa1753d06c1900b4628b06386296b5b1332157d474df213070b8ec9e7a13b4",
+          "contentHash": "sha256:249bc1242e88a59bc8be2c3d020b766404d3571db70fc528293a58258340beb7",
           "question": "He had never ridden a horse before and was a novice.",
           "choices": [
             "beginner",
@@ -19715,12 +19715,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: beginner. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: beginner. The sentence clue \"He had never ridden a horse before and was a novice.\" points to this meaning for ridden.",
             "incorrect": [
               "",
-              "Not: expert. It does not match the context clue.",
-              "Not: teacher. It does not match the context clue.",
-              "Not: rider. It does not match the context clue."
+              "Not: expert. Try substituting it into the sentence; it does not fit the clue \"He had never ridden a horse before and was a novice.\". The sentence points to beginner.",
+              "Not: teacher. Try substituting it into the sentence; it does not fit the clue \"He had never ridden a horse before and was a novice.\". The sentence points to beginner.",
+              "Not: rider. Try substituting it into the sentence; it does not fit the clue \"He had never ridden a horse before and was a novice.\". The sentence points to beginner."
             ]
           },
           "studyAid": {
@@ -19761,7 +19761,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0019",
           "version": 1,
-          "contentHash": "sha256:ecea78562ba90ae84d1aeaae3679286288ebc047f8a74e43b0876f77851e8bc6",
+          "contentHash": "sha256:63d2a45ab7c757da07e96aca51151bf491a58abeea333cf3eadbd8d3f2df47e7",
           "question": "He hadn't had lunch and was famished by dinnertime.",
           "choices": [
             "full",
@@ -19771,12 +19771,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: starving. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: starving. The sentence clue \"He hadn't had lunch and was famished by dinnertime.\" points to this meaning for hadn't.",
             "incorrect": [
-              "Not: full. It does not match the context clue.",
-              "Not: thirsty. It does not match the context clue.",
+              "Not: full. Try substituting it into the sentence; it does not fit the clue \"He hadn't had lunch and was famished by dinnertime.\". The sentence points to starving.",
+              "Not: thirsty. Try substituting it into the sentence; it does not fit the clue \"He hadn't had lunch and was famished by dinnertime.\". The sentence points to starving.",
               "",
-              "Not: tired. It does not match the context clue."
+              "Not: tired. Try substituting it into the sentence; it does not fit the clue \"He hadn't had lunch and was famished by dinnertime.\". The sentence points to starving."
             ]
           },
           "studyAid": {
@@ -19817,7 +19817,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0020",
           "version": 1,
-          "contentHash": "sha256:ea23613cc02c60b1cebd44e5d87112dc3534664ea583de91cca35e1580533265",
+          "contentHash": "sha256:a91cd0ccb2044cabe16bcebf5ff83c77d0e91bd4161ffa8af3d8f87b68444c54",
           "question": "After borrowing money from her friend, she was indebted to her for $2.",
           "choices": [
             "paid",
@@ -19827,11 +19827,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: owed. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: owed. The clue \"borrowing money from her friend\" tells you she has money to pay back, so indebted means owed.",
             "incorrect": [
-              "Not: paid. It does not match the context clue.",
-              "Not: spent. It does not match the context clue.",
-              "Not: lent. It does not match the context clue.",
+              "Not: paid. Paid would mean she already gave the money back, but the sentence says she borrowed it and was indebted.",
+              "Not: spent. Spent means used money to buy something; this sentence is about money she must pay back.",
+              "Not: lent. Lent means gave money to someone else; here, she borrowed money from her friend.",
               ""
             ]
           },
@@ -19873,7 +19873,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0021",
           "version": 1,
-          "contentHash": "sha256:bb48d5903e87f3af68f9ae2c57d9965dac93bec0ee8291bd3279d49390b7a250",
+          "contentHash": "sha256:0c0dd1f76eaa32d13cf8834879d227efdca9ea5df0de33cf8d4ff9de62ea5d3b",
           "question": "We could not see the sun because it was overcast.",
           "choices": [
             "sunny",
@@ -19883,11 +19883,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: cloudy. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: cloudy. The sentence clue \"We could not see the sun because it was overcast.\" points to this meaning for because.",
             "incorrect": [
-              "Not: sunny. It does not match the context clue.",
-              "Not: clear. It does not match the context clue.",
-              "Not: bright. It does not match the context clue.",
+              "Not: sunny. Try substituting it into the sentence; it does not fit the clue \"We could not see the sun because it was overcast.\". The sentence points to cloudy.",
+              "Not: clear. Try substituting it into the sentence; it does not fit the clue \"We could not see the sun because it was overcast.\". The sentence points to cloudy.",
+              "Not: bright. Try substituting it into the sentence; it does not fit the clue \"We could not see the sun because it was overcast.\". The sentence points to cloudy.",
               ""
             ]
           },
@@ -19929,7 +19929,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0022",
           "version": 1,
-          "contentHash": "sha256:204a74a5e8943ca63e6a4b51a3035068ef88e30738d03ea77896481f3c2e271a",
+          "contentHash": "sha256:88276c1d56b3a56a05c5a88b49ecc084c00d868c4e6776255de9feb344a1e9c1",
           "question": "The noisy kids were told to vacate the movie theater.",
           "choices": [
             "leave",
@@ -19939,12 +19939,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: leave. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: leave. The sentence clue \"The noisy kids were told to vacate the movie theater.\" points to this meaning for vacate.",
             "incorrect": [
               "",
-              "Not: arrive. It does not match the context clue.",
-              "Not: enter. It does not match the context clue.",
-              "Not: stay. It does not match the context clue."
+              "Not: arrive. Try substituting it into the sentence; it does not fit the clue \"The noisy kids were told to vacate the movie theater.\". The sentence points to leave.",
+              "Not: enter. Try substituting it into the sentence; it does not fit the clue \"The noisy kids were told to vacate the movie theater.\". The sentence points to leave.",
+              "Not: stay. Try substituting it into the sentence; it does not fit the clue \"The noisy kids were told to vacate the movie theater.\". The sentence points to leave."
             ]
           },
           "studyAid": {
@@ -19985,7 +19985,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0023",
           "version": 1,
-          "contentHash": "sha256:ab4365980169ee30f03a9d19acfd8e8583fcf9be0273dc5fe0aa5627feafa50e",
+          "contentHash": "sha256:1d0c9c36084f71a9de25b67cd07c9560b085c4974e58a3259d012b19d5664dbe",
           "question": "Rex is a feisty dog and is always ready to fight.",
           "choices": [
             "aggressive",
@@ -19995,12 +19995,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: aggressive. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: aggressive. The sentence clue \"Rex is a feisty dog and is always ready to fight.\" points to this meaning for feisty.",
             "incorrect": [
               "",
-              "Not: sleepy. It does not match the context clue.",
-              "Not: calm. It does not match the context clue.",
-              "Not: gentle. It does not match the context clue."
+              "Not: sleepy. Try substituting it into the sentence; it does not fit the clue \"Rex is a feisty dog and is always ready to fight.\". The sentence points to aggressive.",
+              "Not: calm. Try substituting it into the sentence; it does not fit the clue \"Rex is a feisty dog and is always ready to fight.\". The sentence points to aggressive.",
+              "Not: gentle. Try substituting it into the sentence; it does not fit the clue \"Rex is a feisty dog and is always ready to fight.\". The sentence points to aggressive."
             ]
           },
           "studyAid": {
@@ -20041,7 +20041,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0024",
           "version": 1,
-          "contentHash": "sha256:9df0bec3a1fb9d043f2746cc17e2596abac3374102a6509180e50b024fb2b2d8",
+          "contentHash": "sha256:8a1929cf541d4ec2958fb314ab576c7e526341d59e4ff1be1ce0bbf8212253dc",
           "question": "Hanna didn't know where the Indian Ocean was, so she looked in an atlas.",
           "choices": [
             "book of poems",
@@ -20051,12 +20051,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: book of maps. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: book of maps. The sentence clue \"Hanna didn't know where the Indian Ocean was, so she looked in an atlas.\" points to this meaning for didn't.",
             "incorrect": [
-              "Not: book of poems. It does not match the context clue.",
+              "Not: book of poems. Try substituting it into the sentence; it does not fit the clue \"Hanna didn't know where the Indian Ocean was, so she looked in an atlas.\". The sentence points to book of maps.",
               "",
-              "Not: book of stories. It does not match the context clue.",
-              "Not: book of pictures. It does not match the context clue."
+              "Not: book of stories. Try substituting it into the sentence; it does not fit the clue \"Hanna didn't know where the Indian Ocean was, so she looked in an atlas.\". The sentence points to book of maps.",
+              "Not: book of pictures. Try substituting it into the sentence; it does not fit the clue \"Hanna didn't know where the Indian Ocean was, so she looked in an atlas.\". The sentence points to book of maps."
             ]
           },
           "studyAid": {
@@ -20153,7 +20153,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0026",
           "version": 1,
-          "contentHash": "sha256:2a2e9be7430dc58293a452ca23e481c5b59e1416477adab6155f388a40efad74",
+          "contentHash": "sha256:f861b8da88952b05868f7e8baf88a793fb9a7b62dabceeeca3823ca1dd65b9d8",
           "question": "His brother bothered him all afternoon and made him irate.",
           "choices": [
             "sad",
@@ -20163,11 +20163,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: mad. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: mad. The sentence clue \"His brother bothered him all afternoon and made him irate.\" points to this meaning for brother.",
             "incorrect": [
-              "Not: sad. It does not match the context clue.",
-              "Not: happy. It does not match the context clue.",
-              "Not: scared. It does not match the context clue.",
+              "Not: sad. Try substituting it into the sentence; it does not fit the clue \"His brother bothered him all afternoon and made him irate.\". The sentence points to mad.",
+              "Not: happy. Try substituting it into the sentence; it does not fit the clue \"His brother bothered him all afternoon and made him irate.\". The sentence points to mad.",
+              "Not: scared. Try substituting it into the sentence; it does not fit the clue \"His brother bothered him all afternoon and made him irate.\". The sentence points to mad.",
               ""
             ]
           },
@@ -20209,7 +20209,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0027",
           "version": 1,
-          "contentHash": "sha256:1b29bf85146792cb9003f3e6bd6d8cf8f3941b86d73800414347e3f0ea6b2931",
+          "contentHash": "sha256:be055406b260c080cc0e17e89b0becbc49c21363f10b54a1c00f453f2f1bfbef",
           "question": "Use context clues to determine the meaning of the bolded word below. The hummingbird hovered above the flower.",
           "choices": [
             "ran fast",
@@ -20219,12 +20219,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: floated in one place. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: floated in one place. The sentence clue \"The hummingbird hovered above the flower.\" points to this meaning for The.",
             "incorrect": [
-              "Not: ran fast. It does not match the context clue.",
-              "Not: flew away. It does not match the context clue.",
+              "Not: ran fast. Try substituting it into the sentence; it does not fit the clue \"The hummingbird hovered above the flower.\". The sentence points to floated in one place.",
+              "Not: flew away. Try substituting it into the sentence; it does not fit the clue \"The hummingbird hovered above the flower.\". The sentence points to floated in one place.",
               "",
-              "Not: fell down. It does not match the context clue."
+              "Not: fell down. Try substituting it into the sentence; it does not fit the clue \"The hummingbird hovered above the flower.\". The sentence points to floated in one place."
             ]
           },
           "studyAid": {
@@ -20265,7 +20265,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0028",
           "version": 1,
-          "contentHash": "sha256:7cacdf00756037f0c62579a2443424938d7db5f1d8b3ba4e38197efcde8823ee",
+          "contentHash": "sha256:3c648cfe01818da0835aa4b44ea66aeb26799ca15115456e97eee50dd21b6676",
           "question": "Use context clues to determine the meaning of the bolded word below. The bully tried to antagonize the smaller boy by taking his hat and holding it out of reach.",
           "choices": [
             "bother",
@@ -20275,12 +20275,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: bother. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: bother. The sentence clue \"The bully tried to antagonize the smaller boy by taking his hat and holding it out of reach.\" points to this meaning for The.",
             "incorrect": [
               "",
-              "Not: help. It does not match the context clue.",
-              "Not: praise. It does not match the context clue.",
-              "Not: comfort. It does not match the context clue."
+              "Not: help. Try substituting it into the sentence; it does not fit the clue \"The bully tried to antagonize the smaller boy by taking his hat and holding it out of reach.\". The sentence points to bother.",
+              "Not: praise. Try substituting it into the sentence; it does not fit the clue \"The bully tried to antagonize the smaller boy by taking his hat and holding it out of reach.\". The sentence points to bother.",
+              "Not: comfort. Try substituting it into the sentence; it does not fit the clue \"The bully tried to antagonize the smaller boy by taking his hat and holding it out of reach.\". The sentence points to bother."
             ]
           },
           "studyAid": {
@@ -20321,7 +20321,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0029",
           "version": 1,
-          "contentHash": "sha256:88335cd36eef2e800692649e1eeed253e101c8fca36a01a7476baa263ae0a3e5",
+          "contentHash": "sha256:1fa03541b66feed4d9da18cbf49785248057efbe001921ac4f25223bf30db468",
           "question": "Use context clues to determine the meaning of the bolded words below. When Rachel won the prize she had always wanted, she was elated.",
           "choices": [
             "happy",
@@ -20331,12 +20331,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: happy. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: happy. The sentence clue \"When Rachel won the prize she had always wanted, she was elated.\" points to this meaning for When.",
             "incorrect": [
               "",
-              "Not: tired. It does not match the context clue.",
-              "Not: sad. It does not match the context clue.",
-              "Not: angry. It does not match the context clue."
+              "Not: tired. Try substituting it into the sentence; it does not fit the clue \"When Rachel won the prize she had always wanted, she was elated.\". The sentence points to happy.",
+              "Not: sad. Try substituting it into the sentence; it does not fit the clue \"When Rachel won the prize she had always wanted, she was elated.\". The sentence points to happy.",
+              "Not: angry. Try substituting it into the sentence; it does not fit the clue \"When Rachel won the prize she had always wanted, she was elated.\". The sentence points to happy."
             ]
           },
           "studyAid": {
@@ -20377,7 +20377,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0030",
           "version": 1,
-          "contentHash": "sha256:02fbd9bfe7a1cc2c1d0714fdcecfe69f1c8d6e431ec26d45fdfa416c40d2a37b",
+          "contentHash": "sha256:9ff92120219377db784f6b5606907c131b5143cf80c29c8f6ff6e31b372d8226",
           "question": "Use context clues to determine the meaning of the bolded words below. She was persistent and didn't give up trying out for the team.",
           "choices": [
             "sleepy",
@@ -20387,11 +20387,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: determined. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: determined. The sentence clue \"She was persistent and didn't give up trying out for the team.\" points to this meaning for She.",
             "incorrect": [
-              "Not: sleepy. It does not match the context clue.",
-              "Not: lazy. It does not match the context clue.",
-              "Not: careless. It does not match the context clue.",
+              "Not: sleepy. Try substituting it into the sentence; it does not fit the clue \"She was persistent and didn't give up trying out for the team.\". The sentence points to determined.",
+              "Not: lazy. Try substituting it into the sentence; it does not fit the clue \"She was persistent and didn't give up trying out for the team.\". The sentence points to determined.",
+              "Not: careless. Try substituting it into the sentence; it does not fit the clue \"She was persistent and didn't give up trying out for the team.\". The sentence points to determined.",
               ""
             ]
           },
@@ -20433,7 +20433,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0031",
           "version": 1,
-          "contentHash": "sha256:ced87eb89ea0e3c374ae93ffdb74554a48c822a7383a9060f1865b694ba901ad",
+          "contentHash": "sha256:06eb6bc675ba7a2056050fb353dc49c0c49d2dffaeb627244f6749ac8207ff64",
           "question": "Use context clues to determine the meaning of the bolded words below. On Halloween, he will masquerade as a ghost by using a sheet.",
           "choices": [
             "hide",
@@ -20443,11 +20443,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: dress up. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: dress up. The sentence clue \"On Halloween, he will masquerade as a ghost by using a sheet.\" points to this meaning for On.",
             "incorrect": [
-              "Not: hide. It does not match the context clue.",
-              "Not: sleep. It does not match the context clue.",
-              "Not: run away. It does not match the context clue.",
+              "Not: hide. Try substituting it into the sentence; it does not fit the clue \"On Halloween, he will masquerade as a ghost by using a sheet.\". The sentence points to dress up.",
+              "Not: sleep. Try substituting it into the sentence; it does not fit the clue \"On Halloween, he will masquerade as a ghost by using a sheet.\". The sentence points to dress up.",
+              "Not: run away. Try substituting it into the sentence; it does not fit the clue \"On Halloween, he will masquerade as a ghost by using a sheet.\". The sentence points to dress up.",
               ""
             ]
           },
@@ -20489,7 +20489,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0032",
           "version": 1,
-          "contentHash": "sha256:f6563afb27a5e1bdca4beb6b3c9fdf4c81e69e9d02d179267be19e5b2a33f7e6",
+          "contentHash": "sha256:1ef7dbfad8f7c0c9d9dbd6a5f60cc7c5ee3d6d66be0f4b4fe3f0c2015e44a3be",
           "question": "Use context clues to determine the meaning of the bolded words below. He was ailing, so he stayed home from school and went to the doctor.",
           "choices": [
             "sick",
@@ -20499,12 +20499,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: sick. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: sick. The sentence clue \"He was ailing, so he stayed home from school and went to the doctor.\" points to this meaning for He.",
             "incorrect": [
               "",
-              "Not: healthy. It does not match the context clue.",
-              "Not: happy. It does not match the context clue.",
-              "Not: strong. It does not match the context clue."
+              "Not: healthy. Try substituting it into the sentence; it does not fit the clue \"He was ailing, so he stayed home from school and went to the doctor.\". The sentence points to sick.",
+              "Not: happy. Try substituting it into the sentence; it does not fit the clue \"He was ailing, so he stayed home from school and went to the doctor.\". The sentence points to sick.",
+              "Not: strong. Try substituting it into the sentence; it does not fit the clue \"He was ailing, so he stayed home from school and went to the doctor.\". The sentence points to sick."
             ]
           },
           "studyAid": {
@@ -20545,7 +20545,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0033",
           "version": 1,
-          "contentHash": "sha256:3019abb1d32f2765f581800c965ab862f04b91c8654130c29ef4858bf1aee899",
+          "contentHash": "sha256:4759e4f7bc76274b49749de23d5f355d0912e723e42bd878a9438447857206b7",
           "question": "Use context clues to determine the meaning of the bolded word below. The book was so enthralling that we wanted to keep on reading.",
           "choices": [
             "scary",
@@ -20555,11 +20555,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: fascinating. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: fascinating. The sentence clue \"The book was so enthralling that we wanted to keep on reading.\" points to this meaning for The.",
             "incorrect": [
-              "Not: scary. It does not match the context clue.",
-              "Not: boring. It does not match the context clue.",
-              "Not: sad. It does not match the context clue.",
+              "Not: scary. Try substituting it into the sentence; it does not fit the clue \"The book was so enthralling that we wanted to keep on reading.\". The sentence points to fascinating.",
+              "Not: boring. Try substituting it into the sentence; it does not fit the clue \"The book was so enthralling that we wanted to keep on reading.\". The sentence points to fascinating.",
+              "Not: sad. Try substituting it into the sentence; it does not fit the clue \"The book was so enthralling that we wanted to keep on reading.\". The sentence points to fascinating.",
               ""
             ]
           },
@@ -20601,7 +20601,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0034",
           "version": 1,
-          "contentHash": "sha256:ae0ea7d27b1fb57da5c7ca53f1371e5b7e60d90fb872f3982a64451eba6c108e",
+          "contentHash": "sha256:bfe0aa1d3638f736d6a35f5ed3147eb2b908d5dd96378c5295dc9f02969e1875",
           "question": "Use context clues to determine the meaning of the bolded words below. He wrote an inaccurate answer for the math problem and had to correct it.",
           "choices": [
             "wrong",
@@ -20611,12 +20611,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: wrong. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: wrong. The sentence clue \"He wrote an inaccurate answer for the math problem and had to correct it.\" points to this meaning for He.",
             "incorrect": [
               "",
-              "Not: perfect. It does not match the context clue.",
-              "Not: exact. It does not match the context clue.",
-              "Not: right. It does not match the context clue."
+              "Not: perfect. Try substituting it into the sentence; it does not fit the clue \"He wrote an inaccurate answer for the math problem and had to correct it.\". The sentence points to wrong.",
+              "Not: exact. Try substituting it into the sentence; it does not fit the clue \"He wrote an inaccurate answer for the math problem and had to correct it.\". The sentence points to wrong.",
+              "Not: right. Try substituting it into the sentence; it does not fit the clue \"He wrote an inaccurate answer for the math problem and had to correct it.\". The sentence points to wrong."
             ]
           },
           "studyAid": {
@@ -20657,7 +20657,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0035",
           "version": 1,
-          "contentHash": "sha256:a439620b99d3136092b99225fbf8b0bb50f48ad5b74ff4648b6dfd450d1c19ac",
+          "contentHash": "sha256:617590d2c3c9bdd8d9de9a05d9670071830b7ee01e261c1fd9763cf6f5780195",
           "question": "Use context clues to determine the meaning of the bolded words below. The rubbish was laying outside and around the trash can, making a big mess.",
           "choices": [
             "treasure",
@@ -20667,12 +20667,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: trash. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: trash. The sentence clue \"The rubbish was laying outside and around the trash can, making a big mess.\" points to this meaning for The.",
             "incorrect": [
-              "Not: treasure. It does not match the context clue.",
+              "Not: treasure. Try substituting it into the sentence; it does not fit the clue \"The rubbish was laying outside and around the trash can, making a big mess.\". The sentence points to trash.",
               "",
-              "Not: food. It does not match the context clue.",
-              "Not: clothes. It does not match the context clue."
+              "Not: food. Try substituting it into the sentence; it does not fit the clue \"The rubbish was laying outside and around the trash can, making a big mess.\". The sentence points to trash.",
+              "Not: clothes. Try substituting it into the sentence; it does not fit the clue \"The rubbish was laying outside and around the trash can, making a big mess.\". The sentence points to trash."
             ]
           },
           "studyAid": {
@@ -20713,7 +20713,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0036",
           "version": 1,
-          "contentHash": "sha256:3af1360ed57a3488b3c1b51786cb04e0728158ca9dfed8f33b856326ddf1a587",
+          "contentHash": "sha256:15af6565df9a2d683dbe20a0625f78ca8fae8584acf96404b6eeb8ccfa6829fb",
           "question": "Use context clues to determine the meaning of the bolded words below. He pleaded with his dad to increase his allowance to $5 a week.",
           "choices": [
             "ignored",
@@ -20723,11 +20723,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: begged. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: begged. The sentence clue \"He pleaded with his dad to increase his allowance to $5 a week.\" points to this meaning for He.",
             "incorrect": [
-              "Not: ignored. It does not match the context clue.",
-              "Not: refused. It does not match the context clue.",
-              "Not: demanded. It does not match the context clue.",
+              "Not: ignored. Try substituting it into the sentence; it does not fit the clue \"He pleaded with his dad to increase his allowance to $5 a week.\". The sentence points to begged.",
+              "Not: refused. Try substituting it into the sentence; it does not fit the clue \"He pleaded with his dad to increase his allowance to $5 a week.\". The sentence points to begged.",
+              "Not: demanded. Try substituting it into the sentence; it does not fit the clue \"He pleaded with his dad to increase his allowance to $5 a week.\". The sentence points to begged.",
               ""
             ]
           },
@@ -20769,7 +20769,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0037",
           "version": 1,
-          "contentHash": "sha256:7829b54a9fb96a3297d25ca9c27195aef7e82592e37585571e02f4fa5628a8c2",
+          "contentHash": "sha256:96b2b2ed238a2e0ce2fa4445570fc552686aee1f6d4c76964f98e216f0d7a013",
           "question": "Use context clues to determine the meaning of the bolded words below. The dog's incessant barking all day long drove the neighborhood crazy.",
           "choices": [
             "quiet",
@@ -20779,12 +20779,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: nonstop. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: nonstop. The sentence clue \"The dog's incessant barking all day long drove the neighborhood crazy.\" points to this meaning for The.",
             "incorrect": [
-              "Not: quiet. It does not match the context clue.",
+              "Not: quiet. Try substituting it into the sentence; it does not fit the clue \"The dog's incessant barking all day long drove the neighborhood crazy.\". The sentence points to nonstop.",
               "",
-              "Not: rare. It does not match the context clue.",
-              "Not: short. It does not match the context clue."
+              "Not: rare. Try substituting it into the sentence; it does not fit the clue \"The dog's incessant barking all day long drove the neighborhood crazy.\". The sentence points to nonstop.",
+              "Not: short. Try substituting it into the sentence; it does not fit the clue \"The dog's incessant barking all day long drove the neighborhood crazy.\". The sentence points to nonstop."
             ]
           },
           "studyAid": {
@@ -20825,7 +20825,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0038",
           "version": 1,
-          "contentHash": "sha256:4b3ad91d7cba6b1b12d135b2d84b454cbbf235e49a897001a45e003abec6c8e2",
+          "contentHash": "sha256:ea4b5aab5d9b97d3b71a1d3471cdff163e60b55afeda03dec11fd0cd083cfd6b",
           "question": "Use context clues to determine the meaning of the bolded word below. My family resides at 1702 Morning Park Lane.",
           "choices": [
             "eats",
@@ -20835,12 +20835,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: lives. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: lives. The sentence clue \"My family resides at 1702 Morning Park Lane.\" points to this meaning for My.",
             "incorrect": [
-              "Not: eats. It does not match the context clue.",
-              "Not: plays. It does not match the context clue.",
+              "Not: eats. Try substituting it into the sentence; it does not fit the clue \"My family resides at 1702 Morning Park Lane.\". The sentence points to lives.",
+              "Not: plays. Try substituting it into the sentence; it does not fit the clue \"My family resides at 1702 Morning Park Lane.\". The sentence points to lives.",
               "",
-              "Not: works. It does not match the context clue."
+              "Not: works. Try substituting it into the sentence; it does not fit the clue \"My family resides at 1702 Morning Park Lane.\". The sentence points to lives."
             ]
           },
           "studyAid": {
@@ -20881,7 +20881,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0039",
           "version": 1,
-          "contentHash": "sha256:fe4d104fea124455894125204e909f6059c43c394668fa6f596ab0e611bd57e4",
+          "contentHash": "sha256:eae5a8046773484f3dd275614526880b99ded5643c8702d4196e0aefc2d6610b",
           "question": "Use context clues to determine the meaning of the bolded word below. He tells good jokes and is very humorous.",
           "choices": [
             "serious",
@@ -20891,12 +20891,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: funny. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: funny. The sentence clue \"He tells good jokes and is very humorous.\" points to this meaning for He.",
             "incorrect": [
-              "Not: serious. It does not match the context clue.",
+              "Not: serious. Try substituting it into the sentence; it does not fit the clue \"He tells good jokes and is very humorous.\". The sentence points to funny.",
               "",
-              "Not: scary. It does not match the context clue.",
-              "Not: boring. It does not match the context clue."
+              "Not: scary. Try substituting it into the sentence; it does not fit the clue \"He tells good jokes and is very humorous.\". The sentence points to funny.",
+              "Not: boring. Try substituting it into the sentence; it does not fit the clue \"He tells good jokes and is very humorous.\". The sentence points to funny."
             ]
           },
           "studyAid": {
@@ -20937,7 +20937,7 @@
         {
           "id": "vocabulary-word-meaning-context-q0040",
           "version": 1,
-          "contentHash": "sha256:b45ba6de307c1c758bd41dc236c7ae1fd57cf6573d68f1aff7ca76b3974b5a37",
+          "contentHash": "sha256:9b4058a406d80d20ce4120c0f0df3ed6306242ea62f91e9da7df014295424df3",
           "question": "Use context clues to determine the meaning of the bolded word below. The lion tamer's shirt was tattered after the lion tried to scratch him.",
           "choices": [
             "torn",
@@ -20947,12 +20947,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: torn. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
+            "correct": "Answer: torn. The sentence clue \"The lion tamer's shirt was tattered after the lion tried to scratch him.\" points to this meaning for The.",
             "incorrect": [
               "",
-              "Not: clean. It does not match the context clue.",
-              "Not: new. It does not match the context clue.",
-              "Not: pretty. It does not match the context clue."
+              "Not: clean. Try substituting it into the sentence; it does not fit the clue \"The lion tamer's shirt was tattered after the lion tried to scratch him.\". The sentence points to torn.",
+              "Not: new. Try substituting it into the sentence; it does not fit the clue \"The lion tamer's shirt was tattered after the lion tried to scratch him.\". The sentence points to torn.",
+              "Not: pretty. Try substituting it into the sentence; it does not fit the clue \"The lion tamer's shirt was tattered after the lion tried to scratch him.\". The sentence points to torn."
             ]
           },
           "studyAid": {

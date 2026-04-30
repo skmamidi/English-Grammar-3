@@ -234,6 +234,25 @@ const QUALITY_RULES = [{
     }
   }
 }, {
+  id: 'generic-explanation-rationale',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    const explanation = question.explanation || {};
+    const explanationTexts = [
+      explanation.correct,
+      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect : [])
+    ].filter(Boolean);
+    const generic = explanationTexts.find(text =>
+      /\bIt does not match the context clue\.?$/i.test(String(text || '')) ||
+      /\bIt does not share the target ending sound\.?$/i.test(String(text || ''))
+    );
+    if (generic) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Explanation uses a generic rationale; name the sentence clue, sound, or rule that makes this specific choice right or wrong.', this.id, getQuestionId(question));
+    }
+  }
+}, {
   id: 'overlong-choice',
   defaultSeverity: 'warning',
   scope: 'question',

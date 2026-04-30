@@ -59,6 +59,8 @@ test('teacher can manage assigned learner and class paths only', () => {
 test('system admin is operational-only and audit events are append-only', () => {
   assert.equal(evaluateBackendPolicy({ actor: actors.systemAdmin, operation: 'read', path: 'config/featureFlags/server-selection' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.systemAdmin, operation: 'write', path: 'config/featureFlags/server-selection' }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: actors.systemAdmin, operation: 'read', path: 'releaseManifests/current' }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: actors.systemAdmin, operation: 'read', path: 'telemetrySummaries/selection-health' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.systemAdmin, operation: 'read', path: 'learners/learner-a/state' }).allow, false);
   assert.equal(evaluateBackendPolicy({ actor: actors.systemAdmin, operation: 'create', path: 'auditEvents/audit-1' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.systemAdmin, operation: 'update', path: 'auditEvents/audit-1' }).allow, false);

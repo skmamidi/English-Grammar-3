@@ -123,12 +123,51 @@ test('selection telemetry sink is disabled by default', () => {
   assert.deepEqual(records, []);
 });
 
+test('selection telemetry sink respects privacy preferences and parent preview', () => {
+  const disabledTarget = createEventTarget();
+  const disabledRecords = [];
+  telemetry.installSelectionTelemetrySink({
+    target: disabledTarget,
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: {
+      telemetryEnabled: false
+    },
+    transport: event => disabledRecords.push(event)
+  });
+  disabledTarget.dispatch('grammarquest:question-selection-completed', {
+    domain: 'grammar',
+    source: 'api'
+  });
+  assert.deepEqual(disabledRecords, []);
+
+  const previewTarget = createEventTarget();
+  const previewRecords = [];
+  telemetry.installSelectionTelemetrySink({
+    target: previewTarget,
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: {
+      telemetryEnabled: true
+    },
+    parentPreview: true,
+    transport: event => previewRecords.push(event)
+  });
+  previewTarget.dispatch('grammarquest:question-selection-completed', {
+    domain: 'grammar',
+    source: 'api'
+  });
+  assert.deepEqual(previewRecords, []);
+});
+
 test('selection telemetry sink transports normalized events and never throws on transport failure', () => {
   const target = createEventTarget();
   const records = [];
   telemetry.installSelectionTelemetrySink({
     target,
     enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: { telemetryEnabled: true },
     sampleRate: 1,
     now: () => new Date('2030-04-29T12:00:00.000Z'),
     transport(event) {
@@ -197,6 +236,8 @@ test('selection telemetry endpoint transport prefers beacon and falls back to ke
   telemetry.installSelectionTelemetrySink({
     target,
     enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: { telemetryEnabled: true },
     endpoint: '/api/selection-telemetry',
     now: () => new Date('2030-04-29T12:00:00.000Z')
   });
@@ -218,6 +259,8 @@ test('selection telemetry endpoint transport prefers beacon and falls back to ke
   telemetry.installSelectionTelemetrySink({
     target: fetchTarget,
     enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: { telemetryEnabled: true },
     endpoint: '/api/selection-telemetry',
     now: () => new Date('2030-04-29T12:00:00.000Z')
   });
@@ -243,6 +286,8 @@ test('selection telemetry sink can deterministically sample out events', () => {
   telemetry.installSelectionTelemetrySink({
     target,
     enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: { telemetryEnabled: true },
     sampleRate: 0.25,
     random: () => 0.75,
     transport: event => records.push(event)

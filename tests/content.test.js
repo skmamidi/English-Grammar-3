@@ -452,6 +452,44 @@ test('content QA warns for placeholders, whitespace, weak explanations, and long
   assertIssue(result.warnings, 'overlong-choice');
 });
 
+test('content QA rejects generic explanation rationales', () => {
+  const questions = [
+    makeQaQuestion(1, {
+      question: 'After borrowing money, she was indebted.',
+      choices: ['paid', 'spent', 'lent', 'owed'],
+      correct: 3,
+      explanation: {
+        correct: 'Answer: owed. Context clues are hints in the sentence that help you figure out the meaning of an unknown word.',
+        incorrect: [
+          'Not: paid. It does not match the context clue.',
+          'Not: spent. It does not match the context clue.',
+          'Not: lent. It does not match the context clue.',
+          ''
+        ]
+      }
+    }),
+    makeQaQuestion(2, {
+      question: "Which word rhymes with 'enough'?",
+      choices: ['cough', 'tough', 'bough', 'though'],
+      correct: 1,
+      explanation: {
+        correct: "Answer: tough. The letter group '-ough' can make many sounds.",
+        incorrect: [
+          'Not: cough. It does not share the target ending sound.',
+          '',
+          'Not: bough. It does not share the target ending sound.',
+          'Not: though. It does not share the target ending sound.'
+        ]
+      }
+    })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0001' });
+  assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0002' });
+});
+
 test('content QA can emit deterministic explanation review candidates', () => {
   const result = validateContent();
   const candidate = validateLoadedContent(result.bankLoad, { explanationReviewCandidates: true })

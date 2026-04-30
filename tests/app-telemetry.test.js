@@ -49,6 +49,59 @@ test('app telemetry capture normalizes browser failures without unsafe fields', 
   assert.equal(JSON.stringify(sent).includes('raw stack'), false);
 });
 
+test('app telemetry sink respects granular privacy preferences', () => {
+  const errors = [];
+  const sink = createAppTelemetrySink({
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: {
+      telemetryEnabled: true,
+      errorTelemetryEnabled: false,
+      performanceTelemetryEnabled: true
+    },
+    transport: event => errors.push(event),
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+
+  assert.equal(sink.capture({ type: 'app_error', route: '/index.html' }).status, 'disabled');
+  assert.equal(errors.length, 0);
+
+  const performance = [];
+  const perfSink = createAppTelemetrySink({
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: {
+      telemetryEnabled: true,
+      errorTelemetryEnabled: false,
+      performanceTelemetryEnabled: true
+    },
+    transport: event => performance.push(event),
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+
+  assert.equal(perfSink.capture({ type: 'performance_metric', route: '/index.html', category: 'navigation' }).status, 'sent');
+  assert.equal(performance.length, 1);
+});
+
+test('app telemetry capture never sends from parent preview context', () => {
+  const target = createFakeTarget();
+  const sent = [];
+  installAppTelemetryCapture({
+    target,
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: {
+      telemetryEnabled: true,
+      errorTelemetryEnabled: true
+    },
+    parentPreview: true,
+    transport: event => sent.push(event)
+  });
+
+  target.dispatch('error', { message: 'TypeError: boom' });
+  assert.deepEqual(sent, []);
+});
+
 function createFakeTarget() {
   const listeners = {};
   return {

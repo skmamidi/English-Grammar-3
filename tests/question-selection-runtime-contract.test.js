@@ -16,6 +16,9 @@ const {
   BACKEND_STORAGE_PATHS,
   assertBackendReadableDocumentSafe
 } = require('../server/backend-policy-rules');
+const {
+  scanRepositoryForSecrets
+} = require('../scripts/security/scan-secrets');
 const testKeys = require('./fixtures/selection-test-keys.json');
 
 const repoRoot = path.resolve(__dirname, '..');
@@ -253,6 +256,18 @@ test('runtime and security docs do not commit private signing key material', () 
     assert.doesNotMatch(source, /"d"\s*:/);
     assert.doesNotMatch(source, /privateKey\s*[:=]\s*['"`{]/);
   });
+});
+
+test('browser-facing runtime artifacts pass the secret scanner', () => {
+  assert.deepEqual(scanRepositoryForSecrets({
+    rootDir: repoRoot,
+    targets: [
+      'assets',
+      'server/question-selection-runtime.js',
+      'docs/security/selection-api-key-rotation.md',
+      'docs/security/system-admin-role.md'
+    ]
+  }), []);
 });
 
 test('backend-readable config rejects private selection signing key references', () => {

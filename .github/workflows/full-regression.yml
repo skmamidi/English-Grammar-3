@@ -24,6 +24,9 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - run: npm run security:scan
+      - run: npm run security:licenses
+      - run: npm run security:audit
       - run: npx playwright install --with-deps chromium
       - run: npm run release:manifest
       - run: npm run test:full

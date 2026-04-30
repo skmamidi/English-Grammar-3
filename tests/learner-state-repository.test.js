@@ -89,6 +89,39 @@ test('learner state repository stores assignment refs and status transitions', (
   assert.equal(repository.archiveAssignment('assignment-1').status, 'archived');
 });
 
+test('learner state repository saves and clears privacy preferences in learner state', () => {
+  const repository = createRepository();
+
+  const saved = repository.savePrivacyPreferences({
+    telemetryEnabled: true,
+    errorTelemetryEnabled: true,
+    performanceTelemetryEnabled: true,
+    experimentParticipationEnabled: true,
+    updatedBy: 'student-1',
+    policyVersion: 2
+  });
+
+  assert.equal(saved.telemetryEnabled, true);
+  assert.equal(saved.errorTelemetryEnabled, true);
+  assert.equal(saved.performanceTelemetryEnabled, true);
+  assert.equal(saved.experimentParticipationEnabled, true);
+  assert.equal(saved.updatedAt, '2030-04-29T12:00:00.000Z');
+  assert.equal(repository.getPrivacyPreferences().updatedBy, 'student-1');
+  assert.equal(repository.getProgress().privacyPreferences.policyVersion, 2);
+
+  repository.clearPrivacyPreferences();
+  assert.deepEqual(repository.getPrivacyPreferences(), {
+    schemaVersion: 1,
+    telemetryEnabled: false,
+    errorTelemetryEnabled: false,
+    performanceTelemetryEnabled: false,
+    experimentParticipationEnabled: false,
+    updatedAt: '',
+    updatedBy: '',
+    policyVersion: 1
+  });
+});
+
 test('learner state repository stores adaptive review queue refs and item status', () => {
   const repository = createRepository();
   repository.saveReviewQueue({

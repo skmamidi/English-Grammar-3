@@ -9,11 +9,11 @@ test('package lock pins Playwright for reproducible installs', () => {
   const pkg = readJson('package.json');
   const lock = readJson('package-lock.json');
 
-  assert.equal(pkg.devDependencies.playwright, '1.44.0');
+  assert.equal(pkg.devDependencies.playwright, '1.59.1');
   assert.equal(lock.lockfileVersion, 3);
-  assert.equal(lock.packages[''].devDependencies.playwright, '1.44.0');
-  assert.equal(lock.packages['node_modules/playwright'].version, '1.44.0');
-  assert.equal(lock.packages['node_modules/playwright-core'].version, '1.44.0');
+  assert.equal(lock.packages[''].devDependencies.playwright, '1.59.1');
+  assert.equal(lock.packages['node_modules/playwright'].version, '1.59.1');
+  assert.equal(lock.packages['node_modules/playwright-core'].version, '1.59.1');
 });
 
 test('package scripts expose reproducible browser install and full QA gate', () => {
@@ -38,7 +38,12 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['test:ui:teardown'], 'QA_UI_TEARDOWN_DEBUG=1 node tests/ui-smoke.spec.js');
   assert.equal(pkg.scripts['test:api:perf'], 'STRICT_PERF_BUDGETS=1 node --test tests/question-selection-api-budget.test.js');
   assert.equal(pkg.scripts['test:rules'], 'node --test tests/backend-policy-rules.test.js');
+  assert.equal(pkg.scripts['security:scan'], 'node scripts/security/scan-secrets.js');
+  assert.equal(pkg.scripts['security:licenses'], 'node scripts/security/check-licenses.js');
+  assert.equal(pkg.scripts['security:audit'], 'npm audit --audit-level=high');
   assert.match(pkg.scripts['test:unit'], /tests\/access-control\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/secret-scan\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/license-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/guardian-access\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/system-admin-access\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/audit-log-domain\.test\.js/);
@@ -89,6 +94,9 @@ test('github qa workflow uses npm ci, installs chromium, and runs npm test', () 
   assert.match(workflow, /cache:\s*npm/);
   assert.match(workflow, /timeout-minutes:\s*10/);
   assert.match(workflow, /run:\s*npm ci/);
+  assert.match(workflow, /run:\s*npm run security:scan/);
+  assert.match(workflow, /run:\s*npm run security:licenses/);
+  assert.match(workflow, /run:\s*npm run security:audit/);
   assert.match(workflow, /run:\s*npx playwright install --with-deps chromium/);
   assert.match(workflow, /run:\s*npm run test:rules/);
   assert.match(workflow, /run:\s*npm test/);
@@ -96,6 +104,31 @@ test('github qa workflow uses npm ci, installs chromium, and runs npm test', () 
   assert.doesNotMatch(workflow, /ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION/);
   assert.doesNotMatch(workflow, /actions\/checkout@v4/);
   assert.doesNotMatch(workflow, /actions\/setup-node@v4/);
+});
+
+test('github workflows use approved pinned action majors and no insecure runtime opt-out', () => {
+  const workflowsDir = path.join(repoRoot, '.github', 'workflows');
+  const approvedActions = new Map([
+    ['actions/checkout', new Set(['v6'])],
+    ['actions/setup-node', new Set(['v6'])],
+    ['actions/upload-artifact', new Set(['v7'])]
+  ]);
+
+  fs.readdirSync(workflowsDir)
+    .filter(file => /\.ya?ml$/.test(file))
+    .forEach(file => {
+      const source = fs.readFileSync(path.join(workflowsDir, file), 'utf8');
+      assert.doesNotMatch(source, /FORCE_JAVASCRIPT_ACTIONS_TO_NODE20:\s*true/i, `${file} must not opt into old action runtimes`);
+      assert.doesNotMatch(source, /ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION/i, `${file} must not allow insecure action runtimes`);
+      assert.doesNotMatch(source, /node-version:\s*(1[0-9]|20|22)\b/, `${file} must use Node 24`);
+      Array.from(source.matchAll(/uses:\s*([^\s#]+)/g)).forEach(match => {
+        const actionRef = match[1];
+        const [name, version] = actionRef.split('@');
+        assert.ok(version, `${file} ${actionRef} must pin an action version`);
+        assert.ok(approvedActions.has(name), `${file} ${actionRef} must be in the approved action allowlist`);
+        assert.ok(approvedActions.get(name).has(version), `${file} ${actionRef} must use an approved major`);
+      });
+    });
 });
 
 test('ui smoke defaults to Playwright-managed Chromium with env override only', () => {
@@ -196,11 +229,17 @@ test('guardian access boundary has relationship fixtures and contracts', () => {
 
 test('system admin audit boundary has contracts and docs', () => {
   const adminTest = fs.readFileSync(path.join(repoRoot, 'tests', 'system-admin-access.test.js'), 'utf8');
+  const adminOpsTest = fs.readFileSync(path.join(repoRoot, 'tests', 'admin-operations-domain.test.js'), 'utf8');
+  const pkg = readJson('package.json');
   const auditTest = fs.readFileSync(path.join(repoRoot, 'tests', 'audit-log-domain.test.js'), 'utf8');
   const auditDomain = fs.readFileSync(path.join(repoRoot, 'assets', 'audit-log-domain.js'), 'utf8');
   const adminDocs = fs.readFileSync(path.join(repoRoot, 'docs', 'security', 'system-admin-role.md'), 'utf8');
 
   assert.match(adminTest, /manageSelectionRollout/);
+  assert.match(adminTest, /viewAdminConsole/);
+  assert.match(adminOpsTest, /buildAdminOperationsProjection/);
+  assert.match(pkg.scripts['test:unit'], /tests\/admin-operations-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/admin-operations-service\.test\.js/);
   assert.match(auditTest, /sanitizeAuditMetadata/);
   assert.match(auditDomain, /canUseSupportAccess/);
   assert.match(adminDocs, /Audit/);

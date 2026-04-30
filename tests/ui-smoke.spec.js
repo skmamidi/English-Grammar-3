@@ -121,6 +121,7 @@ const VIEWPORTS = {
 const VIEWPORT_SMOKE_PAGES = [
   'index.html',
   'assignments.html',
+  'settings.html',
   'admin-operations.html',
   'topics/grammar/index.html',
   'topics/grammar/subtopics/sentence-types.html',
@@ -149,6 +150,7 @@ async function main() {
         await assertVisible(page, 'body', file);
         if (file === 'reports.html') await assertReportsPage(page, server.baseURL);
         if (file === 'admin-operations.html') await assertAdminOperationsPage(page);
+        if (file === 'settings.html') await assertSettingsPage(page);
         await page.close();
       });
     }
@@ -1065,6 +1067,26 @@ async function assertAdminOperationsPage(page) {
   assert.equal(/Smoke Student|Which sentence|correct answer|selected choice/i.test(text), false, 'admin console should not render learner or question content');
 }
 
+async function assertSettingsPage(page) {
+  await assertVisible(page, '#privacy-settings', 'settings.html');
+  await assertVisible(page, '#privacy-telemetry-enabled', 'settings telemetry toggle');
+  await assertVisible(page, '#privacy-error-telemetry-enabled', 'settings error telemetry toggle');
+  await assertVisible(page, '#privacy-performance-telemetry-enabled', 'settings performance telemetry toggle');
+  await assertVisible(page, '#privacy-experiment-participation-enabled', 'settings experiment toggle');
+  await page.click('#privacy-telemetry-enabled');
+  await page.click('#privacy-error-telemetry-enabled');
+  await page.click('#privacy-save');
+  await page.waitForFunction(() => {
+    const progress = JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}');
+    return progress.privacyPreferences &&
+      progress.privacyPreferences.telemetryEnabled === true &&
+      progress.privacyPreferences.errorTelemetryEnabled === true;
+  });
+  const preferences = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').privacyPreferences);
+  assert.equal(preferences.performanceTelemetryEnabled, false);
+  assert.equal(preferences.experimentParticipationEnabled, false);
+}
+
 async function assertManifestBackedTopicIndex(page, requests, file) {
   await assertVisible(page, '.subtopic-list', file);
   const listText = await textContent(page, '.subtopic-list');
@@ -1236,10 +1258,9 @@ async function assertAdaptiveReviewCompletionFlow(page, baseURL, questionRef) {
   if (!page.url().startsWith(`${baseURL}/topics/grammar/subtopics/sentence-types.html`)) {
     assert.fail(`adaptive review did not navigate to review quiz: ${page.url()}`);
   }
-  if (!(await exists(page, '#start-btn'))) {
+  await page.waitForSelector('#start-btn', { state: 'visible', timeout: 5000 }).catch(async () => {
     assert.fail(`adaptive review quiz did not render start button: ${await textContent(page, '#quiz-root')}`);
-  }
-  await assertVisible(page, '#start-btn', 'adaptive review quiz start');
+  });
 
   const activeRequest = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestActiveReviewRequest') || '{}'));
   assert.equal(activeRequest.queue.items[0].questionRef.id, questionRef.id);

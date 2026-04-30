@@ -11,6 +11,7 @@ const BACKEND_STORAGE_PATHS = Object.freeze({
   classDashboard: classId => `dashboards/classes/${classId}`,
   auditEvent: eventId => `auditEvents/${eventId}`,
   featureFlag: flagId => `config/featureFlags/${flagId}`,
+  telemetrySummary: summaryId => `telemetrySummaries/${summaryId}`,
   releaseManifest: manifestId => `releaseManifests/${manifestId}`,
   contentPublication: publicationId => `contentPublications/${publicationId}`
 });
@@ -53,6 +54,12 @@ function canRead(actor, resource) {
   }
   if (resource.type === access.ResourceTypes.FEATURE_FLAG) {
     return access.canAccess(actor, access.Capabilities.manageFeatureFlags, resource);
+  }
+  if (resource.type === access.ResourceTypes.RELEASE_MANIFEST) {
+    return access.canAccess(actor, access.Capabilities.viewReleaseManifest, resource);
+  }
+  if (resource.type === access.ResourceTypes.TELEMETRY_SUMMARY) {
+    return access.canAccess(actor, access.Capabilities.viewTelemetrySummary, resource);
   }
   if (resource.type === access.ResourceTypes.CONTENT_ARTIFACT) {
     return access.canAccess(actor, access.Capabilities.manageContentArtifacts, resource) ||
@@ -166,8 +173,10 @@ function resolveBackendResource(path) {
   if (match) return resource(access.ResourceTypes.AUDIT_LOG, match[1], '', '');
   match = normalized.match(/^config\/featureFlags\/([^/]+)$/);
   if (match) return resource(access.ResourceTypes.FEATURE_FLAG, match[1], '', '');
+  match = normalized.match(/^telemetrySummaries\/([^/]+)$/);
+  if (match) return resource(access.ResourceTypes.TELEMETRY_SUMMARY, match[1], '', '');
   match = normalized.match(/^releaseManifests\/([^/]+)$/);
-  if (match) return resource(access.ResourceTypes.CONTENT_ARTIFACT, match[1], '', '');
+  if (match) return resource(access.ResourceTypes.RELEASE_MANIFEST, match[1], '', '');
   match = normalized.match(/^contentPublications\/([^/]+)$/);
   if (match) return resource(access.ResourceTypes.CONTENT_PUBLICATION, match[1], '', '');
   return resource('unknown', '', '', '');

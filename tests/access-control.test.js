@@ -38,6 +38,20 @@ test('student access is scoped to the actor learner only', () => {
     }),
     true
   );
+  assert.equal(
+    access.canAccess(student, access.Capabilities.manageOwnPrivacyPreferences, {
+      type: access.ResourceTypes.PRIVACY_PREFERENCES,
+      learnerId: 'learner-1'
+    }),
+    true
+  );
+  assert.equal(
+    access.canAccess(student, access.Capabilities.manageOwnPrivacyPreferences, {
+      type: access.ResourceTypes.PRIVACY_PREFERENCES,
+      learnerId: 'learner-2'
+    }),
+    false
+  );
 });
 
 test('parent guardian access is linked-learner scoped and never operational', () => {
@@ -58,6 +72,21 @@ test('parent guardian access is linked-learner scoped and never operational', ()
     access.canAccess(guardian, access.Capabilities.viewLinkedLearnerReports, {
       type: access.ResourceTypes.QUESTION_REPORT,
       learnerId: 'learner-2'
+    }),
+    false
+  );
+  assert.equal(
+    access.canAccess(
+      access.normalizeActor(Object.assign({}, guardian, { privacyPreferenceManagementEnabled: true })),
+      access.Capabilities.manageLinkedLearnerPrivacyPreferences,
+      { type: access.ResourceTypes.PRIVACY_PREFERENCES, learnerId: 'learner-1' }
+    ),
+    true
+  );
+  assert.equal(
+    access.canAccess(guardian, access.Capabilities.manageLinkedLearnerPrivacyPreferences, {
+      type: access.ResourceTypes.PRIVACY_PREFERENCES,
+      learnerId: 'learner-1'
     }),
     false
   );
@@ -119,6 +148,13 @@ test('teacher access is assigned learner scoped and not system admin access', ()
     access.canAccess(teacher, access.Capabilities.manageFeatureFlags, {
       type: access.ResourceTypes.FEATURE_FLAG,
       id: 'server-selection'
+    }),
+    false
+  );
+  assert.equal(
+    access.canAccess(teacher, access.Capabilities.manageLinkedLearnerPrivacyPreferences, {
+      type: access.ResourceTypes.PRIVACY_PREFERENCES,
+      learnerId: 'learner-2'
     }),
     false
   );

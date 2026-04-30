@@ -75,6 +75,26 @@ test('guardian cannot mutate progress or use admin capabilities', () => {
   );
 });
 
+test('guardian can manage linked learner privacy preferences only when policy allows', () => {
+  const guardian = access.createGuardianActor('guardian-1', links);
+  const policyEnabledGuardian = access.normalizeActor(Object.assign({}, guardian, {
+    privacyPreferenceManagementEnabled: true
+  }));
+
+  assert.equal(access.canAccess(policyEnabledGuardian, access.Capabilities.manageLinkedLearnerPrivacyPreferences, {
+    type: access.ResourceTypes.PRIVACY_PREFERENCES,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(policyEnabledGuardian, access.Capabilities.manageLinkedLearnerPrivacyPreferences, {
+    type: access.ResourceTypes.PRIVACY_PREFERENCES,
+    learnerId: 'learner-2'
+  }), false);
+  assert.equal(access.canAccess(guardian, access.Capabilities.manageLinkedLearnerPrivacyPreferences, {
+    type: access.ResourceTypes.PRIVACY_PREFERENCES,
+    learnerId: 'learner-1'
+  }), false);
+});
+
 test('report dashboard helper returns linked learner data and hides unrelated data', () => {
   const guardian = access.createGuardianActor('guardian-1', links);
   const records = [

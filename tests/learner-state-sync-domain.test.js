@@ -80,6 +80,27 @@ test('sync merge applies timestamp-aware assignment queue and schedule conflict 
   assert.equal(merged.reviewSchedules[0].intervalDays, 7);
 });
 
+test('sync merge preserves newest learner goal preferences by timestamp', () => {
+  const merged = mergeLearnerStates({
+    learnerGoals: {
+      dailyQuestionTarget: 8,
+      weeklySessionTarget: 2,
+      updatedAt: '2030-04-29T12:00:00.000Z'
+    }
+  }, {
+    learnerGoals: {
+      dailyQuestionTarget: 14,
+      weeklySessionTarget: 4,
+      updatedAt: '2030-04-30T12:00:00.000Z',
+      question: 'raw prompt'
+    }
+  });
+
+  assert.equal(merged.learnerGoals.dailyQuestionTarget, 14);
+  assert.equal(merged.learnerGoals.weeklySessionTarget, 4);
+  assert.equal(JSON.stringify(merged.learnerGoals).includes('raw prompt'), false);
+});
+
 test('sync records are normalized, versioned, and reject copied question payloads', () => {
   const record = normalizeSyncRecord({
     learnerId: 'learner-1',

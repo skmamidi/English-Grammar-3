@@ -1,14 +1,16 @@
 (function (root, factory) {
   'use strict';
 
-  const api = factory();
+  const api = factory(root);
   if (typeof module === 'object' && module.exports) module.exports = api;
   root.GrammarQuestLearningDashboardDomain = api;
-})(typeof window !== 'undefined' ? window : globalThis, function () {
+})(typeof window !== 'undefined' ? window : globalThis, function (root) {
   'use strict';
 
   const RECENT_DAYS = 14;
   const CLOSED_REPORT_STATUSES = new Set(['resolved', 'dismissed', 'closed_no_change']);
+  const goalsDomain = root.GrammarQuestLearnerGoalsDomain ||
+    (typeof require === 'function' ? require('./learner-goals-domain') : null);
 
   function buildLearningDashboardProjection(input = {}) {
     const learner = input.learner && typeof input.learner === 'object' ? input.learner : {};
@@ -19,20 +21,24 @@
     const reviewItems = normalizeReviewItems(input.reviewQueue);
     const questionReports = normalizeQuestionReports(input.questionReports);
     const skillStats = buildSkillStats(sessions, input.taxonomy);
+    const goalProgress = buildGoalProgress(input, now);
+    const summary = {
+      recentPracticeCount: sessions.filter(session => isRecent(session.completedAt, now)).length,
+      accuracy: calculateAccuracy(sessions),
+      activeAssignmentCount: assignments.filter(item => ['active', 'in_progress'].includes(item.status)).length,
+      lateAssignmentCount: assignments.filter(item => ['active', 'in_progress'].includes(item.status) && isLate(item, now)).length,
+      assignmentCompletionRate: calculateAssignmentCompletionRate(assignments),
+      dueReviewCount: reviewItems.filter(item => isDue(item, now)).length,
+      openQuestionReportCount: questionReports.filter(report => !CLOSED_REPORT_STATUSES.has(report.status)).length
+    };
+    if (goalProgress) summary.goalMetCount = goalProgress.overall.metCount;
 
     return {
       learnerId: safeString(learner.id || input.learnerId),
       roleView,
-      summary: {
-        recentPracticeCount: sessions.filter(session => isRecent(session.completedAt, now)).length,
-        accuracy: calculateAccuracy(sessions),
-        activeAssignmentCount: assignments.filter(item => ['active', 'in_progress'].includes(item.status)).length,
-        lateAssignmentCount: assignments.filter(item => ['active', 'in_progress'].includes(item.status) && isLate(item, now)).length,
-        assignmentCompletionRate: calculateAssignmentCompletionRate(assignments),
-        dueReviewCount: reviewItems.filter(item => isDue(item, now)).length,
-        openQuestionReportCount: questionReports.filter(report => !CLOSED_REPORT_STATUSES.has(report.status)).length
-      },
+      summary,
       skillHighlights: buildSkillHighlights(skillStats, roleView),
+      goalHighlights: goalProgress ? buildGoalHighlights(goalProgress) : [],
       assignmentHighlights: assignments
         .filter(item => ['active', 'in_progress'].includes(item.status))
         .slice(0, 5)
@@ -89,6 +95,37 @@
     return Object.keys(stats).map(key => Object.assign(stats[key], {
       accuracy: stats[key].attempts ? round(stats[key].correct / stats[key].attempts) : 0
     })).sort((a, b) => a.accuracy - b.accuracy || b.attempts - a.attempts || a.skillId.localeCompare(b.skillId));
+  }
+
+  function buildGoalProgress(input, now) {
+    if (!input.goals || !goalsDomain || typeof goalsDomain.buildLearnerGoalProgress !== 'function') return null;
+    return goalsDomain.buildLearnerGoalProgress({
+      now: new Date(now).toISOString(),
+      goals: input.goals,
+      sessions: input.sessions,
+      assignments: input.assignments,
+      reviewQueue: input.reviewQueue,
+      reviewSchedules: input.reviewSchedules
+    });
+  }
+
+  function buildGoalHighlights(progress) {
+    return [
+      goalCard('daily-questions', 'Daily questions', progress.dailyQuestions),
+      goalCard('weekly-sessions', 'Weekly sessions', progress.weeklySessions),
+      goalCard('review-streak', 'Review streak', progress.review),
+      goalCard('assignment-completion', 'Assignment completion', progress.assignments)
+    ];
+  }
+
+  function goalCard(id, label, source = {}) {
+    return {
+      id,
+      label,
+      current: Number(source.current) || 0,
+      target: Number(source.target) || 0,
+      met: source.met === true
+    };
   }
 
   function buildSkillHighlights(skillStats, roleView) {

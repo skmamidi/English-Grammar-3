@@ -48,9 +48,11 @@
         ${kpi('Accuracy', `${Math.round(projection.summary.accuracy * 100)}%`)}
         ${kpi('Assignments', projection.summary.activeAssignmentCount)}
         ${kpi('Due review', projection.summary.dueReviewCount)}
+        ${kpi('Goals met', typeof projection.summary.goalMetCount === 'number' ? projection.summary.goalMetCount : 0)}
         ${kpi('Open reports', projection.summary.openQuestionReportCount)}
       </section>
       <section class="reports-board dashboard-grid" aria-label="Learning dashboard cards">
+        ${card('Goals', projection.goalHighlights, item => `${escapeHtml(item.label)} <span>${escapeHtml(item.current)} / ${escapeHtml(item.target)}${item.met ? ' met' : ''}</span>`)}
         ${card('Skill priorities', projection.skillHighlights, item => `${escapeHtml(item.label)} <span>${escapeHtml(item.message)}</span>`)}
         ${card('Assignments', projection.assignmentHighlights, item => `${escapeHtml(item.title)} <span>${escapeHtml(item.status)}</span>`)}
         ${card('Review queue', projection.reviewHighlights, item => `${escapeHtml(item.questionRef.id)} <span>${escapeHtml(item.reason || 'due')}</span>`)}

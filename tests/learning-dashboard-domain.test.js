@@ -105,3 +105,39 @@ test('learning dashboard projection can include safe weak-skill recommendation c
   }]);
   assert.equal(JSON.stringify(projection).includes('raw prompt'), false);
 });
+
+test('learning dashboard projection includes aggregate goal cards without private payloads', () => {
+  const projection = dashboard.buildLearningDashboardProjection({
+    learner: { id: 'learner-4' },
+    goals: {
+      dailyQuestionTarget: 2,
+      weeklySessionTarget: 1,
+      reviewStreakTargetDays: 1,
+      assignmentCompletionTargetPercent: 50,
+      question: 'raw prompt'
+    },
+    sessions: [{
+      id: 'session-1',
+      completedAt: '2030-04-29T08:00:00.000Z',
+      attempts: [{ questionId: 'q1' }, { questionId: 'q2' }]
+    }],
+    assignments: [
+      { id: 'assignment-1', status: 'completed', learnerPrivateNote: 'hidden' },
+      { id: 'assignment-2', status: 'active' }
+    ],
+    roleView: 'teacher',
+    now
+  });
+
+  assert.deepEqual(projection.goalHighlights.map(item => item.id), [
+    'daily-questions',
+    'weekly-sessions',
+    'review-streak',
+    'assignment-completion'
+  ]);
+  assert.equal(projection.goalHighlights[0].current, 2);
+  assert.equal(projection.goalHighlights[0].met, true);
+  assert.equal(projection.summary.goalMetCount, 4);
+  assert.equal(JSON.stringify(projection).includes('raw prompt'), false);
+  assert.equal(JSON.stringify(projection).includes('hidden'), false);
+});

@@ -74,6 +74,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-service\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/backend-policy-rules\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-state-repository\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/learner-goals-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-data-lifecycle-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-data-retention-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/assignment-domain\.test\.js/);
@@ -92,6 +93,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['analytics:learning-summary'], 'node scripts/analytics/summarize-learning-events.js');
   assert.match(pkg.scripts['test:unit'], /tests\/recommendation-evaluation\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/recommendation-fairness\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/content-discovery-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/source-attribution\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/source-license-qa\.test\.js/);
   assert.equal(pkg.scripts['qa:source-license'], 'node scripts/qa/source-license-qa.js');
@@ -104,6 +106,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/service-worker-cache\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/accessibility-engine-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/design-token-accessibility\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/operations-docs\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
   assert.match(pkg.scripts['release:manifest'], /generate-release-manifest/);
@@ -113,9 +116,12 @@ test('release manifest and rollback playbook contracts exist', () => {
   const generator = fs.readFileSync(path.join(repoRoot, 'scripts', 'generate-release-manifest.js'), 'utf8');
   const checklist = fs.readFileSync(path.join(repoRoot, 'docs', 'release-checklist.md'), 'utf8');
   const rollback = fs.readFileSync(path.join(repoRoot, 'docs', 'operations', 'release-and-rollback.md'), 'utf8');
+  const operationsIndex = fs.readFileSync(path.join(repoRoot, 'docs', 'operations', 'README.md'), 'utf8');
 
   assert.match(generator, /buildReleaseManifest/);
   assert.match(checklist, /release manifest/i);
+  assert.match(checklist, /runbook-stale-question-artifacts/);
+  assert.match(operationsIndex, /runbook-selection-api-failure/);
   assert.match(rollback, /disable server selection/i);
   assert.match(rollback, /disable preloading/i);
   assert.match(rollback, /service worker cache/i);

@@ -122,6 +122,73 @@ test('learner state repository saves and clears privacy preferences in learner s
   });
 });
 
+test('learner state repository saves goals without overwriting learner records', () => {
+  const repository = createRepository();
+  repository.saveProgress({
+    activeQuiz: {
+      startedAt: '2030-04-29T11:00:00.000Z',
+      questionRefs: [{ id: 'q1', contentHash: 'sha256:abc' }]
+    },
+    reports: {
+      sessions: [{ id: 'session-1', completedAt: '2030-04-29T12:00:00.000Z', attempts: [{ questionId: 'q1' }] }],
+      questionReports: [{ id: 'report-1', questionId: 'q1' }]
+    },
+    assignments: [{ id: 'assignment-1', status: 'active' }],
+    reviewQueue: { items: [{ questionRef: { id: 'q1' }, status: 'queued' }] },
+    deletionTombstones: [{ learnerId: 'learner-1', deletedAt: '2030-04-01T12:00:00.000Z', retentionUntil: '2030-05-01T12:00:00.000Z' }]
+  });
+
+  const saved = repository.saveLearnerGoals({
+    dailyQuestionTarget: 12,
+    weeklySessionTarget: 5,
+    updatedBy: 'local-learner',
+    question: 'do not copy'
+  });
+  const state = repository.getProgress();
+
+  assert.equal(saved.dailyQuestionTarget, 12);
+  assert.equal(saved.updatedAt, '2030-04-29T12:00:00.000Z');
+  assert.equal(state.reports.sessions.length, 1);
+  assert.equal(state.reports.questionReports.length, 1);
+  assert.equal(state.activeQuiz.questionRefs[0].id, 'q1');
+  assert.equal(state.assignments.length, 1);
+  assert.equal(state.reviewQueue.items.length, 1);
+  assert.equal(state.deletionTombstones.length, 1);
+  assert.equal(JSON.stringify(state.learnerGoals).includes('do not copy'), false);
+});
+
+test('learner state repository projects goal progress from stored activity', () => {
+  const repository = createRepository();
+  repository.saveProgress({
+    learnerGoals: {
+      dailyQuestionTarget: 2,
+      weeklySessionTarget: 1,
+      assignmentCompletionTargetPercent: 50,
+      reviewStreakTargetDays: 1
+    },
+    reports: {
+      sessions: [{
+        id: 'session-1',
+        completedAt: '2030-04-29T08:00:00.000Z',
+        attempts: [{ questionId: 'q1' }, { questionId: 'q2' }]
+      }]
+    },
+    assignments: [
+      { id: 'assignment-1', status: 'completed' },
+      { id: 'assignment-2', status: 'active' }
+    ],
+    reviewQueue: { items: [{ questionRef: { id: 'q3' }, status: 'queued', dueAt: '2030-04-29T12:00:00.000Z' }] }
+  });
+
+  const progress = repository.getLearnerGoalProgress();
+
+  assert.equal(repository.getLearnerGoals().dailyQuestionTarget, 2);
+  assert.equal(progress.dailyQuestions.met, true);
+  assert.equal(progress.weeklySessions.met, true);
+  assert.equal(progress.assignments.met, true);
+  assert.equal(progress.review.dueCount, 1);
+});
+
 test('learner state repository stores adaptive review queue refs and item status', () => {
   const repository = createRepository();
   repository.saveReviewQueue({

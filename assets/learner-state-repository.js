@@ -24,6 +24,8 @@
     (typeof require === 'function' ? require('./learner-data-lifecycle-domain') : null);
   const privacyDomain = root.GrammarQuestPrivacyPreferencesDomain ||
     (typeof require === 'function' ? require('./privacy-preferences-domain') : null);
+  const goalsDomain = root.GrammarQuestLearnerGoalsDomain ||
+    (typeof require === 'function' ? require('./learner-goals-domain') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
@@ -234,6 +236,24 @@
       return getProgress().privacyPreferences;
     }
 
+    function getLearnerGoals() {
+      return getProgress().learnerGoals;
+    }
+
+    function saveLearnerGoals(goals) {
+      return updateProgress(progress => {
+        progress.learnerGoals = normalizeLearnerGoals(Object.assign({}, goals || {}, {
+          updatedAt: goals && goals.updatedAt || now()
+        }));
+        return progress;
+      }).learnerGoals;
+    }
+
+    function getLearnerGoalProgress() {
+      const progress = getProgress();
+      return buildLearnerGoalProgress(progress, now());
+    }
+
     function savePrivacyPreferences(preferences) {
       return updateProgress(progress => {
         progress.privacyPreferences = normalizePrivacyPreferences(Object.assign({}, preferences || {}, {
@@ -365,6 +385,7 @@
         assignments: data.assignments || [],
         reviewQueue: data.reviewQueue || null,
         reviewSchedules: data.reviewSchedules || [],
+        learnerGoals: data.learnerGoals || data.goals || data.progress && data.progress.learnerGoals,
         activeQuiz: data.activeQuiz || null,
         deletionTombstones: getProgress().deletionTombstones,
         deletionRequests: getProgress().deletionRequests
@@ -380,6 +401,8 @@
       clearPrivacyPreferences,
       flushSync,
       getActiveQuiz,
+      getLearnerGoals,
+      getLearnerGoalProgress,
       getPrivacyPreferences,
       getProgress,
       getLearnerDashboardSource,
@@ -402,6 +425,7 @@
       restoreLearnerStateFromBackup,
       reconcileSync,
       saveActiveQuiz,
+      saveLearnerGoals,
       savePrivacyPreferences,
       saveProgress,
       saveReviewSchedules,
@@ -584,8 +608,40 @@
       deletionRequests: normalizeDeletionRequests(input.deletionRequests),
       deletionTombstones: normalizeDeletionTombstones(input.deletionTombstones),
       privacyPreferences: normalizePrivacyPreferences(input.privacyPreferences),
+      learnerGoals: normalizeLearnerGoals(input.learnerGoals || input.goals),
       lastUpdatedAt: input.lastUpdatedAt || ''
     };
+  }
+
+  function normalizeLearnerGoals(goals) {
+    if (goalsDomain && typeof goalsDomain.normalizeLearnerGoals === 'function') {
+      return goalsDomain.normalizeLearnerGoals(goals);
+    }
+    return {
+      schemaVersion: 1,
+      enabled: true,
+      dailyQuestionTarget: 10,
+      weeklySessionTarget: 4,
+      reviewStreakTargetDays: 3,
+      assignmentCompletionTargetPercent: 75,
+      activeDays: [1, 2, 3, 4, 5],
+      updatedAt: '',
+      updatedBy: ''
+    };
+  }
+
+  function buildLearnerGoalProgress(state, timestamp) {
+    if (goalsDomain && typeof goalsDomain.buildLearnerGoalProgress === 'function') {
+      return goalsDomain.buildLearnerGoalProgress({
+        now: timestamp,
+        goals: state.learnerGoals,
+        sessions: state.reports.sessions,
+        assignments: state.assignments,
+        reviewQueue: state.reviewQueue,
+        reviewSchedules: state.reviewSchedules
+      });
+    }
+    return { schemaVersion: 1, goals: normalizeLearnerGoals(state && state.learnerGoals) };
   }
 
   function normalizePrivacyPreferences(preferences) {
@@ -640,6 +696,8 @@
       assignments,
       reviewQueue: normalized.reviewQueue,
       reviewSchedules: normalized.reviewSchedules,
+      goals: normalized.learnerGoals,
+      goalProgress: buildLearnerGoalProgress(normalized, new Date().toISOString()),
       questionReports,
       mastery: normalized.mastery
     };
@@ -1011,6 +1069,8 @@
     normalizeReports,
     normalizeActiveQuiz,
     normalizeQuestionReport,
+    normalizeLearnerGoals,
+    buildLearnerGoalProgress,
     buildLearnerDashboardSource,
     normalizeReviewQueue,
     normalizeReviewSchedules

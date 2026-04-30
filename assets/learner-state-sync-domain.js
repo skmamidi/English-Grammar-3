@@ -29,6 +29,7 @@
       reviewQueue: mergeReviewQueues(local.reviewQueue, remote.reviewQueue),
       reviewSchedules: mergeSchedules(local.reviewSchedules, remote.reviewSchedules),
       mastery: mergeMastery(local.mastery, remote.mastery),
+      learnerGoals: chooseNewestLearnerGoals(local.learnerGoals, remote.learnerGoals),
       lastUpdatedAt: maxIso(local.lastUpdatedAt, remote.lastUpdatedAt, options.now)
     }));
   }
@@ -216,6 +217,12 @@
     return mergeById(localSchedules, remoteSchedules, scheduleTimestamp, scheduleId);
   }
 
+  function chooseNewestLearnerGoals(localGoals, remoteGoals) {
+    if (!localGoals) return remoteGoals || null;
+    if (!remoteGoals) return localGoals || null;
+    return compareIso(goalTimestamp(remoteGoals), goalTimestamp(localGoals)) >= 0 ? remoteGoals : localGoals;
+  }
+
   function mergeById(leftValues, rightValues, timestampFor, idFor = item => item && item.id) {
     const byId = new Map();
     (Array.isArray(leftValues) ? leftValues : []).concat(Array.isArray(rightValues) ? rightValues : []).forEach(item => {
@@ -268,6 +275,10 @@
 
   function scheduleTimestamp(schedule) {
     return safeIso(schedule && (schedule.lastReviewedAt || schedule.dueAt)) || '';
+  }
+
+  function goalTimestamp(goals) {
+    return safeIso(goals && goals.updatedAt) || '';
   }
 
   function scheduleId(schedule) {

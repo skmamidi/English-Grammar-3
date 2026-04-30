@@ -87,6 +87,39 @@ test('learner state repository stores assignment refs and status transitions', (
   assert.equal(repository.archiveAssignment('assignment-1').status, 'archived');
 });
 
+test('learner state repository stores adaptive review queue refs and item status', () => {
+  const repository = createRepository();
+  repository.saveReviewQueue({
+    queueId: 'adaptive-review-2030-04-29',
+    generatedAt: '2030-04-29T12:00:00.000Z',
+    items: [{
+      questionRef: {
+        id: 'grammar-sentence-types-q0001',
+        sourceSet: 'grammar-sentence-types',
+        version: 1,
+        contentHash: 'sha256:abc',
+        sequence: 1
+      },
+      skillIds: ['grammar.sentence-analysis'],
+      reason: 'missed_recently',
+      priority: 100,
+      dueAt: '2030-04-29T12:00:00.000Z',
+      status: 'queued',
+      question: 'do not copy'
+    }]
+  });
+
+  const queue = repository.getReviewQueue();
+  assert.equal(queue.items.length, 1);
+  assert.equal(queue.items[0].questionRef.id, 'grammar-sentence-types-q0001');
+  assert.equal(JSON.stringify(queue).includes('do not copy'), false);
+
+  repository.markReviewItemSeen('grammar-sentence-types-q0001', '2030-04-29T12:01:00.000Z');
+  const mastered = repository.markReviewItemMastered('grammar-sentence-types-q0001', '2030-04-29T12:02:00.000Z');
+  assert.equal(mastered.items[0].status, 'mastered');
+  assert.equal(mastered.items[0].masteredAt, '2030-04-29T12:02:00.000Z');
+});
+
 test('learner state repository upserts question reports without conflating report and question ids', () => {
   const repository = createRepository();
   repository.upsertQuestionReport({

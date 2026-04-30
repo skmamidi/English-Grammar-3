@@ -46,8 +46,11 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/learner-state-repository\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/assignment-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/assignment-quiz-adapter\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/adaptive-review-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/adaptive-review-selection\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/chunk-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/ui-smoke-runner-contract\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/service-worker-cache\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
@@ -56,12 +59,19 @@ test('package scripts expose reproducible browser install and full QA gate', () 
 test('github qa workflow uses npm ci, installs chromium, and runs npm test', () => {
   const workflow = fs.readFileSync(path.join(repoRoot, '.github', 'workflows', 'qa.yml'), 'utf8');
 
-  assert.match(workflow, /actions\/setup-node@v4/);
-  assert.match(workflow, /node-version:\s*20/);
+  assert.match(workflow, /FORCE_JAVASCRIPT_ACTIONS_TO_NODE24:\s*true/);
+  assert.match(workflow, /actions\/checkout@v6/);
+  assert.match(workflow, /actions\/setup-node@v6/);
+  assert.match(workflow, /node-version:\s*24/);
   assert.match(workflow, /cache:\s*npm/);
+  assert.match(workflow, /timeout-minutes:\s*10/);
   assert.match(workflow, /run:\s*npm ci/);
   assert.match(workflow, /run:\s*npx playwright install --with-deps chromium/);
   assert.match(workflow, /run:\s*npm test/);
+  assert.doesNotMatch(workflow, /node-version:\s*20/);
+  assert.doesNotMatch(workflow, /ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION/);
+  assert.doesNotMatch(workflow, /actions\/checkout@v4/);
+  assert.doesNotMatch(workflow, /actions\/setup-node@v4/);
 });
 
 test('ui smoke defaults to Playwright-managed Chromium with env override only', () => {
@@ -69,6 +79,19 @@ test('ui smoke defaults to Playwright-managed Chromium with env override only', 
 
   assert.match(smoke, /PLAYWRIGHT_CHROMIUM_EXECUTABLE/);
   assert.doesNotMatch(smoke, /Google Chrome\.app|Chromium\.app/);
+});
+
+test('ui smoke runner has deterministic teardown guards', () => {
+  const smoke = fs.readFileSync(path.join(repoRoot, 'tests', 'ui-smoke.spec.js'), 'utf8');
+  const helper = fs.readFileSync(path.join(repoRoot, 'tests', 'helpers', 'smoke-runner.js'), 'utf8');
+
+  assert.match(smoke, /closeOpenPages/);
+  assert.match(smoke, /withTimeout\(browser\.close\(\),\s*5000,\s*['"]browser\.close['"]\)/);
+  assert.match(smoke, /closeServerWithTimeout\(server,\s*sockets,\s*3000\)/);
+  assert.match(helper, /clearTimeout\(timeoutId\)/);
+  assert.match(helper, /closeAllConnections/);
+  assert.match(helper, /socket\.destroy\(\)/);
+  assert.doesNotMatch(smoke, /process\.exit\(0\)\s*;\s*\/\//);
 });
 
 test('regular browser smoke disables service worker registration while offline smoke owns it', () => {
@@ -206,18 +229,42 @@ test('scheduled full regression workflow is reproducible and artifact-backed', (
   assert.match(workflow, /cron:\s*['"]0 10 \* \* \*['"]/);
   assert.match(workflow, /workflow_dispatch:/);
   assert.match(workflow, /release\/\*\*/);
-  assert.match(workflow, /actions\/setup-node@v4/);
-  assert.match(workflow, /node-version:\s*20/);
+  assert.match(workflow, /FORCE_JAVASCRIPT_ACTIONS_TO_NODE24:\s*true/);
+  assert.match(workflow, /actions\/checkout@v6/);
+  assert.match(workflow, /actions\/setup-node@v6/);
+  assert.match(workflow, /node-version:\s*24/);
   assert.match(workflow, /cache:\s*npm/);
   assert.match(workflow, /run:\s*npm ci/);
   assert.match(workflow, /run:\s*npx playwright install --with-deps chromium/);
   assert.match(workflow, /run:\s*npm run test:full/);
-  assert.match(workflow, /actions\/upload-artifact@v4/);
+  assert.match(workflow, /actions\/upload-artifact@v7/);
   assert.match(workflow, /if:\s*failure\(\)/);
   assert.match(workflow, /playwright-report/);
   assert.match(workflow, /test-results/);
   assert.match(workflow, /test-results\/visual/);
   assert.match(workflow, /tests\/visual-baselines/);
+  assert.doesNotMatch(workflow, /node-version:\s*20/);
+  assert.doesNotMatch(workflow, /ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION/);
+  assert.doesNotMatch(workflow, /actions\/checkout@v4/);
+  assert.doesNotMatch(workflow, /actions\/setup-node@v4/);
+  assert.doesNotMatch(workflow, /actions\/upload-artifact@v4/);
+  assert.doesNotMatch(workflow, /actions\/upload-artifact@v5/);
+});
+
+test('all github workflows stay on the Node 24 actions runtime', () => {
+  const workflows = findWorkflowFiles(path.join(repoRoot, '.github', 'workflows'));
+
+  assert.ok(workflows.length > 0, 'expected at least one workflow file');
+  workflows.forEach(file => {
+    const workflow = fs.readFileSync(file, 'utf8');
+    const name = path.relative(repoRoot, file).split(path.sep).join('/');
+
+    assert.match(workflow, /FORCE_JAVASCRIPT_ACTIONS_TO_NODE24:\s*true/, `${name} opts into Node 24 action runtime`);
+    assert.doesNotMatch(workflow, /node-version:\s*20/, `${name} must not run project tests on Node 20`);
+    assert.doesNotMatch(workflow, /ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION/, `${name} must not opt out of secure action runtimes`);
+    assert.doesNotMatch(workflow, /actions\/checkout@v4/, `${name} must not use checkout v4`);
+    assert.doesNotMatch(workflow, /actions\/setup-node@v4/, `${name} must not use setup-node v4`);
+  });
 });
 
 test('release checklist documents full gates and generated artifact freshness', () => {
@@ -235,6 +282,12 @@ test('release checklist documents full gates and generated artifact freshness', 
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(path.join(repoRoot, file), 'utf8'));
+}
+
+function findWorkflowFiles(workflowDir) {
+  return fs.readdirSync(workflowDir)
+    .filter(file => /\.ya?ml$/.test(file))
+    .map(file => path.join(workflowDir, file));
 }
 
 function findHtmlFiles(root) {

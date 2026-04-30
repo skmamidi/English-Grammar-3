@@ -45,7 +45,9 @@ test('adaptive review queue prefers recent missed question refs without copied c
     reason: 'missed_recently',
     priority: 100,
     dueAt: '2030-04-29T12:00:00.000Z',
-    status: 'queued'
+    status: 'queued',
+    seenAt: '',
+    masteredAt: ''
   });
   assert.equal(JSON.stringify(queue).includes('do not copy'), false);
   assert.equal(JSON.stringify(queue).includes('choices'), false);

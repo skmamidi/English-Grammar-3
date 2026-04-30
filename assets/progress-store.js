@@ -40,7 +40,8 @@
       subtopics: {},
       standards: {}
     },
-    assignments: []
+    assignments: [],
+    reviewQueue: null
   };
 
   function getDefaultProgress() {
@@ -48,7 +49,8 @@
       badges: [],
       reports: getDefaultReports(),
       mastery: getDefaultMastery(),
-      assignments: []
+      assignments: [],
+      reviewQueue: null
     });
   }
 
@@ -82,7 +84,23 @@
     normalized.activeQuiz = normalizeActiveQuiz(normalized.activeQuiz);
     normalized.mastery = normalizeMastery(normalized.mastery);
     normalized.assignments = normalizeAssignments(normalized.assignments);
+    normalized.reviewQueue = normalizeReviewQueue(normalized.reviewQueue);
     return normalized;
+  }
+
+  function normalizeReviewQueue(queue) {
+    const domain = window.GrammarQuestAdaptiveReviewDomain;
+    if (domain && typeof domain.normalizeReviewQueue === "function") {
+      return domain.normalizeReviewQueue(queue);
+    }
+    return queue && typeof queue === "object"
+      ? {
+          queueId: String(queue.queueId || ""),
+          generatedAt: String(queue.generatedAt || ""),
+          updatedAt: String(queue.updatedAt || ""),
+          items: Array.isArray(queue.items) ? queue.items : []
+        }
+      : null;
   }
 
   function normalizeAssignments(assignments) {
@@ -349,8 +367,17 @@
       reports: mergeReports(local.reports, cloud.reports),
       activeQuiz: chooseActiveQuiz(local.activeQuiz, cloud.activeQuiz),
       mastery: mergeMastery(local.mastery, cloud.mastery),
-      assignments: mergeAssignments(local.assignments, cloud.assignments)
+      assignments: mergeAssignments(local.assignments, cloud.assignments),
+      reviewQueue: chooseReviewQueue(local.reviewQueue, cloud.reviewQueue)
     });
+  }
+
+  function chooseReviewQueue(localQueue, cloudQueue) {
+    const local = normalizeReviewQueue(localQueue);
+    const cloud = normalizeReviewQueue(cloudQueue);
+    if (!local || !local.items || !local.items.length) return cloud;
+    if (!cloud || !cloud.items || !cloud.items.length) return local;
+    return String(local.updatedAt || local.generatedAt || "") >= String(cloud.updatedAt || cloud.generatedAt || "") ? local : cloud;
   }
 
   function mergeAssignments(localAssignments, cloudAssignments) {
@@ -401,6 +428,57 @@
 
   function archiveAssignment(id, options) {
     return updateAssignmentStatus(id, transitionAssignmentArchived, "archiveAssignment", [], options);
+  }
+
+  function getReviewQueue() {
+    const repository = getLearnerStateRepository();
+    return repository && typeof repository.getReviewQueue === "function"
+      ? normalizeReviewQueue(repository.getReviewQueue())
+      : loadLocalProgress().reviewQueue;
+  }
+
+  function saveReviewQueue(queue, options) {
+    const repository = getLearnerStateRepository();
+    if (repository && typeof repository.saveReviewQueue === "function") {
+      const normalized = repository.saveReviewQueue(queue);
+      afterProgressWrite(normalizeProgress(repository.getProgress()), !options || options.sync !== false);
+      return normalized;
+    }
+    return updateProgress(progress => {
+      progress.reviewQueue = normalizeReviewQueue(queue);
+      return progress;
+    }, options).reviewQueue;
+  }
+
+  function markReviewItemSeen(questionId, seenAt, options) {
+    return updateReviewQueueStatus("markReviewItemSeen", [questionId, seenAt], queue => {
+      const domain = window.GrammarQuestAdaptiveReviewDomain;
+      return domain && typeof domain.markReviewItemSeen === "function"
+        ? domain.markReviewItemSeen(queue, questionId, seenAt)
+        : queue;
+    }, options);
+  }
+
+  function markReviewItemMastered(questionId, masteredAt, options) {
+    return updateReviewQueueStatus("markReviewItemMastered", [questionId, masteredAt], queue => {
+      const domain = window.GrammarQuestAdaptiveReviewDomain;
+      return domain && typeof domain.markReviewItemMastered === "function"
+        ? domain.markReviewItemMastered(queue, questionId, masteredAt)
+        : queue;
+    }, options);
+  }
+
+  function updateReviewQueueStatus(repositoryMethod, repositoryArgs, updater, options) {
+    const repository = getLearnerStateRepository();
+    if (repository && typeof repository[repositoryMethod] === "function") {
+      const normalized = repository[repositoryMethod].apply(repository, repositoryArgs || []);
+      afterProgressWrite(normalizeProgress(repository.getProgress()), !options || options.sync !== false);
+      return normalized;
+    }
+    return updateProgress(progress => {
+      progress.reviewQueue = normalizeReviewQueue(updater(progress.reviewQueue));
+      return progress;
+    }, options).reviewQueue;
   }
 
   function updateAssignmentStatus(id, updater, repositoryMethod, repositoryArgs, options) {
@@ -903,12 +981,17 @@
     upsertAssignment,
     markAssignmentStarted,
     markAssignmentCompleted,
+    getReviewQueue,
+    saveReviewQueue,
+    markReviewItemSeen,
+    markReviewItemMastered,
     loadLocalProgress,
     saveLocalProgress,
     mergeProgress,
     normalizeMastery,
     normalizeReports,
     normalizeAssignments,
+    normalizeReviewQueue,
     normalizeQuestionReport,
     getReportQuestionId,
     looksLikeStableQuestionId,

@@ -17,6 +17,11 @@ const {
   createRequestRecorder,
   summarizeRequestMetrics
 } = require('./helpers/request-metrics');
+const {
+  closeServerWithTimeout,
+  runCase,
+  withTimeout
+} = require('./helpers/smoke-runner');
 const { createQuestionSelectionApiHarness } = require('./helpers/question-selection-api-harness');
 const { MIXED_QUIZ_SERVER_SELECTION_DOMAINS } = require('../assets/question-selection-rollout');
 const questionManifest = require('../assets/question-manifest.json');
@@ -118,6 +123,7 @@ const VIEWPORT_SMOKE_PAGES = [
   'reports.html',
   'character-library.html'
 ];
+const activePages = new Set();
 
 async function main() {
   const server = await startStaticServer(requestedPort);
@@ -184,6 +190,13 @@ async function main() {
       const page = await newPage(browser);
       await visitClean(page, server.baseURL, 'assignments.html');
       await assertAssignmentCompletionFlow(page, server.baseURL);
+      await page.close();
+    });
+
+    await runCase(failures, 'adaptive review starts from missed refs and completes without copied questions', async () => {
+      const page = await newPage(browser);
+      await visitClean(page, server.baseURL, 'index.html');
+      await assertAdaptiveReviewCompletionFlow(page, server.baseURL, getManifestQuestionRef('grammar-sentence-types'));
       await page.close();
     });
 
@@ -736,8 +749,9 @@ async function main() {
       });
     }
   } finally {
-    await browser.close();
-    await server.close();
+    await closeOpenPages(failures);
+    await recordTeardown(failures, 'browser.close', () => withTimeout(browser.close(), 5000, 'browser.close'));
+    await recordTeardown(failures, 'server.close', () => server.close());
   }
 
   if (failures.length) {
@@ -751,24 +765,10 @@ async function main() {
   process.exit(0);
 }
 
-async function runCase(failures, name, fn) {
-  try {
-    await Promise.race([
-      fn(),
-      new Promise((_, reject) => {
-        setTimeout(() => reject(new Error(`Timed out: ${name}`)), 15000);
-      })
-    ]);
-    console.log(`PASS ${name}`);
-  } catch (error) {
-    console.error(`FAIL ${name}`);
-    console.error(error.stack || error.message || error);
-    failures.push({ name, error });
-  }
-}
-
 async function newPage(browser, options = {}) {
   const page = await browser.newPage({ viewport: options.viewport || VIEWPORTS.desktop });
+  activePages.add(page);
+  page.on('close', () => activePages.delete(page));
   page.setDefaultTimeout(5000);
   page.setDefaultNavigationTimeout(8000);
   await page.addInitScript(config => {
@@ -867,6 +867,24 @@ async function newPage(browser, options = {}) {
     if (message.type() === 'error') page.__qaErrors.push(message.text());
   });
   return page;
+}
+
+async function closeOpenPages(failures) {
+  await Promise.all(Array.from(activePages).map(page => recordTeardown(
+    failures,
+    'page.close',
+    () => withTimeout(page.close().catch(() => {}), 1000, 'page.close')
+  )));
+}
+
+async function recordTeardown(failures, name, closeResource) {
+  try {
+    await closeResource();
+  } catch (error) {
+    console.error(`FAIL ${name}`);
+    console.error(error.stack || error.message || error);
+    failures.push({ name, error });
+  }
 }
 
 async function waitForPreloadEvents(page) {
@@ -1110,6 +1128,83 @@ async function assertAssignmentCompletionFlow(page, baseURL) {
   );
 }
 
+async function assertAdaptiveReviewCompletionFlow(page, baseURL, questionRef) {
+  await page.evaluate(ref => {
+    localStorage.setItem('grammarQuestProgress', JSON.stringify({
+      reports: {
+        sessions: [{
+          id: 'review-source-session',
+          completedAt: '2030-04-28T12:00:00.000Z',
+          attempts: [{
+            id: ref.id,
+            questionId: ref.id,
+            questionVersion: ref.version,
+            questionHash: ref.contentHash,
+            sourceSet: ref.sourceSet,
+            sequence: ref.sequence,
+            correct: false,
+            skillIds: ['grammar.sentence-analysis'],
+            standardIds: ['L.3-6.1'],
+            question: 'do not persist in review queue',
+            choices: ['A', 'B']
+          }]
+        }],
+        questionReports: []
+      },
+      mastery: {
+        skills: {
+          'grammar.sentence-analysis': {
+            correct: 0,
+            total: 1,
+            questionRefs: [ref.id]
+          }
+        }
+      }
+    }));
+  }, questionRef);
+  await page.reload({ waitUntil: 'domcontentloaded' });
+  await assertVisible(page, '#start-adaptive-review', 'adaptive review entry');
+  await page.click('#start-adaptive-review');
+  await page.waitForLoadState('domcontentloaded').catch(() => {});
+  if (!page.url().startsWith(`${baseURL}/topics/grammar/subtopics/sentence-types.html`)) {
+    assert.fail(`adaptive review did not navigate to review quiz: ${page.url()}`);
+  }
+  if (!(await exists(page, '#start-btn'))) {
+    assert.fail(`adaptive review quiz did not render start button: ${await textContent(page, '#quiz-root')}`);
+  }
+  await assertVisible(page, '#start-btn', 'adaptive review quiz start');
+
+  const activeRequest = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestActiveReviewRequest') || '{}'));
+  assert.equal(activeRequest.queue.items[0].questionRef.id, questionRef.id);
+  assert.equal(JSON.stringify(activeRequest.queue).includes('do not persist'), false);
+
+  await page.click('#start-btn');
+  for (let step = 0; step < 20 && !(await exists(page, '#restart-btn')); step += 1) {
+    await assertVisible(page, '.question-box', 'adaptive review question');
+    await page.evaluate(() => {
+      const confidence = document.querySelector('.confidence-btn[data-confidence="certain"]');
+      if (confidence) confidence.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    });
+    await page.waitForFunction(() => Array.from(document.querySelectorAll('#choices .choice-btn')).some(button => !button.disabled));
+    await page.evaluate(() => window.GrammarQuestQuizEngine.answerVisibleChoiceForTest());
+    if (await exists(page, '#restart-btn')) break;
+    await page.waitForSelector('#next-question-btn, #restart-btn', { state: 'visible', timeout: 1000 }).catch(async () => {
+      assert.fail(`adaptive review did not advance after answering: ${await textContent(page, '#quiz-root')}`);
+    });
+    if (await exists(page, '#next-question-btn')) await page.click('#next-question-btn');
+  }
+  await assertVisible(page, '#restart-btn', 'adaptive review results');
+
+  const progress = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}'));
+  const reviewItem = progress.reviewQueue.items.find(item => item.questionRef.id === questionRef.id);
+  assert.ok(['seen', 'mastered'].includes(reviewItem.status), 'adaptive review item should be updated after completion');
+  assert.equal(
+    await page.evaluate(() => localStorage.getItem('grammarQuestActiveReviewRequest')),
+    null,
+    'active review request should be cleared'
+  );
+}
+
 async function focusByKeyboard(page, selector) {
   for (let index = 0; index < 40; index += 1) {
     const focused = await page.evaluate(targetSelector => {
@@ -1191,6 +1286,19 @@ function getExpectedChunkFiles(chunkFile) {
   });
   if (entry && Array.isArray(entry.chunks) && entry.chunks.length) return entry.chunks.map(chunk => chunk.chunkFile);
   return [chunkFile];
+}
+
+function getManifestQuestionRef(setId) {
+  const set = questionManifest.sets.find(item => item.id === setId);
+  const question = set && Array.isArray(set.questions) && set.questions[0];
+  assert.ok(question, `expected manifest question for ${setId}`);
+  return {
+    id: question.id,
+    sourceSet: question.sourceSet || set.id,
+    version: question.version,
+    contentHash: question.contentHash,
+    sequence: question.sequence
+  };
 }
 
 async function assertLoaderBackedResume(page, file) {
@@ -1484,10 +1592,7 @@ function startStaticServer(port) {
     server.listen(port, '127.0.0.1', () => {
       resolve({
         baseURL: `http://127.0.0.1:${port}`,
-        close: () => new Promise(done => {
-          sockets.forEach(socket => socket.destroy());
-          server.close(done);
-        })
+        close: () => closeServerWithTimeout(server, sockets, 3000)
       });
     });
   });

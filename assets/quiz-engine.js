@@ -43,6 +43,23 @@
   const targetQuestionCount = getConfiguredQuestionCount();
   const quizDomain = window.GrammarQuestQuizDomain;
 
+  function getActiveAssignmentRequest() {
+    try {
+      return JSON.parse(localStorage.getItem('grammarQuestActiveAssignmentRequest') || 'null');
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function getActiveReviewRequest() {
+    if (isParentMode()) return null;
+    try {
+      return JSON.parse(localStorage.getItem('grammarQuestActiveReviewRequest') || 'null');
+    } catch (error) {
+      return null;
+    }
+  }
+
   // DOM ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', start);
@@ -51,7 +68,11 @@
   }
 
   window.GrammarQuestQuizEngine = {
-    start
+    start,
+    answerVisibleChoiceForTest() {
+      const choice = document.querySelector('#choices .choice-btn:not([disabled])');
+      if (choice) handleAnswer({ currentTarget: choice });
+    }
   };
   window.GrammarQuestPromptFormatting = {
     renderQuestionPromptForTest(question) {
@@ -77,6 +98,14 @@
     if (shell) shell.classList.add('quiz-shell');
 
     const setId = window.QUIZ_SET_ID;
+    if (getActiveReviewRequest()) {
+      initAdaptiveReviewQuiz().catch(error => {
+        console.error(error);
+        renderUnavailableQuestions();
+      });
+      return;
+    }
+
     if (!setId && window.QUIZ_MIXED_TOPIC_CONFIG) {
       initMixedQuiz(window.QUIZ_MIXED_TOPIC_CONFIG);
       return;
@@ -127,6 +156,59 @@
     reviewAttemptRecords = [];
 
     renderStartScreen(set);
+  }
+
+  async function initAdaptiveReviewQuiz() {
+    renderLoadingQuestions();
+    const request = getActiveReviewRequest();
+    const loader = window.GrammarQuestQuestionLoader;
+    const queue = request && request.queue || {};
+    if (!loader || typeof loader.hydrateQuestionRefs !== 'function' || !Array.isArray(queue.items) || !queue.items.length) {
+      renderUnavailableQuestions();
+      return;
+    }
+    const items = queue.items.slice(0, Math.max(1, Number(request.count) || 5));
+    const refs = items.map(item => item && item.questionRef).filter(Boolean);
+    const hydrated = await loader.hydrateQuestionRefs(refs);
+    const questions = hydrated.filter((question, index) => {
+      const ok = isReviewQuestionRefMatch(question, refs[index]);
+      if (!ok) emitReviewTelemetry({ ref: refs[index] });
+      return ok;
+    });
+    if (!questions.length) {
+      renderUnavailableQuestions();
+      return;
+    }
+    activeSet = {
+      id: 'adaptive-review',
+      title: 'Review Missed Questions',
+      topic: 'Adaptive Review',
+      questions,
+      metadata: {
+        gradesSupported: gradeOptions,
+        difficultiesSupported: difficultyOptions
+      }
+    };
+    baseQuestions = [...questions];
+    selectedGrade = getInitialGrade();
+    selectedDifficulty = normalizeOption(loadSetting('grammarQuestDifficulty', 'medium'), difficultyOptions, 'medium');
+    currentQuestions = questions;
+    currentIndex = 0;
+    score = 0;
+    combo = 0;
+    answered = false;
+    missedQuestions = [];
+    reviewMode = false;
+    hintsUsed = 0;
+    confidenceStats = [];
+    attemptRecords = [];
+    reviewAttemptRecords = [];
+    dispatchReviewEvent('grammarquest:review-quiz-started', {
+      queueId: request.queueId || queue.queueId,
+      itemCount: currentQuestions.length,
+      source: 'review'
+    });
+    renderStartScreen(activeSet);
   }
 
   async function loadQuestionSet(setId) {
@@ -527,6 +609,7 @@
     if (!isCompletedView) questionStartedAt = Date.now();
     const progress = loadProgress();
     const strategyHint = getStrategyHint(q);
+    const choicesDisabled = getActiveReviewRequest() ? '' : 'disabled';
     const questionPrompt = renderQuestionPrompt(q, {
       question: q,
       index: currentIndex,
@@ -565,7 +648,7 @@
         <div class="strategy-panel" id="strategy-panel" hidden>${escapeHtml(strategyHint)}</div>
         <div class="choices" id="choices">
           ${q.choices.map((choice, idx) => `
-            <button class="choice-btn" data-index="${idx}" disabled>
+            <button class="choice-btn" data-index="${idx}" ${choicesDisabled}>
               <span class="choice-letter">${String.fromCharCode(65 + idx)}</span>
               <span>${escapeHtml(choice)}</span>
             </button>
@@ -608,6 +691,13 @@
     document.querySelectorAll('.choice-btn').forEach(btn => {
       btn.addEventListener('click', handleAnswer);
     });
+    const choicesEl = document.getElementById('choices');
+    if (choicesEl) {
+      choicesEl.addEventListener('click', event => {
+        const choice = event.target && event.target.closest ? event.target.closest('.choice-btn') : null;
+        if (choice && !choice.disabled) handleAnswer({ currentTarget: choice });
+      });
+    }
     const reportButton = document.getElementById('report-question-btn');
     if (reportButton) {
       reportButton.addEventListener('click', () => openQuestionReportDialog(q));
@@ -2700,6 +2790,7 @@
 
     saveProgress(progress);
     completeActiveAssignment(completedSession);
+    completeActiveReview(attempts || [], completedSession);
 
     let message = 'Every answer moves your story forward.';
     if (streakBonus) {
@@ -2740,6 +2831,32 @@
       try {
         localStorage.removeItem('grammarQuestActiveAssignmentId');
         localStorage.removeItem('grammarQuestActiveAssignmentRequest');
+      } catch (error) {}
+    }
+  }
+
+  function completeActiveReview(attempts, session) {
+    if (isParentMode() || !session) return;
+    const request = getActiveReviewRequest();
+    if (!request) return;
+    try {
+      (Array.isArray(attempts) ? attempts : []).forEach(attempt => {
+        const ref = getQuestionRef(attempt.question || {});
+        if (!ref.id || !progressStore) return;
+        if (attempt.correct && typeof progressStore.markReviewItemMastered === 'function') {
+          progressStore.markReviewItemMastered(ref.id, session.completedAt, { sync: true });
+        } else if (typeof progressStore.markReviewItemSeen === 'function') {
+          progressStore.markReviewItemSeen(ref.id, session.completedAt, { sync: true });
+        }
+      });
+      dispatchReviewEvent('grammarquest:review-quiz-completed', {
+        queueId: request.queueId,
+        itemCount: Array.isArray(attempts) ? attempts.length : 0,
+        source: 'review'
+      });
+    } finally {
+      try {
+        localStorage.removeItem('grammarQuestActiveReviewRequest');
       } catch (error) {}
     }
   }
@@ -3266,6 +3383,10 @@
   }
 
   function getConfiguredQuestionCount() {
+    const reviewRequest = getActiveReviewRequest();
+    if (reviewRequest && Number(reviewRequest.count) > 0) {
+      return Math.min(20, Math.max(1, Number(reviewRequest.count) || 0));
+    }
     const assignmentRequest = getActiveAssignmentRequest();
     if (assignmentRequest && Number(assignmentRequest.count) > 0) {
       return Math.min(60, Math.max(1, Number(assignmentRequest.count) || 0));
@@ -3274,12 +3395,29 @@
     return Number.isFinite(configured) && configured > 0 ? configured : 15;
   }
 
-  function getActiveAssignmentRequest() {
+  function emitReviewTelemetry(event) {
+    if (!event || typeof event !== 'object') return;
+    dispatchReviewEvent('grammarquest:review-item-stale-ref', {
+      queueId: getActiveReviewRequest() && getActiveReviewRequest().queueId || '',
+      staleRefCount: 1,
+      source: 'review'
+    });
+  }
+
+  function isReviewQuestionRefMatch(question, ref) {
+    if (!question || !ref) return false;
+    const metadata = question.metadata || {};
+    return String(question.id || '') === String(ref.id || '')
+      && String(metadata.sourceSet || '') === String(ref.sourceSet || '')
+      && Number(question.version) === Number(ref.version)
+      && String(question.contentHash || '') === String(ref.contentHash || '')
+      && Number(metadata.sequence) === Number(ref.sequence);
+  }
+
+  function dispatchReviewEvent(name, detail) {
     try {
-      return JSON.parse(localStorage.getItem('grammarQuestActiveAssignmentRequest') || 'null');
-    } catch (error) {
-      return null;
-    }
+      window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
+    } catch (error) {}
   }
 
   function getConfiguredQuestionsPerSubtopic() {

@@ -25,7 +25,7 @@ test('adaptive review selection hydrates refs and drops stale hashes with teleme
   assert.equal(telemetry.length, 1);
   assert.equal(telemetry[0].event, 'review_item_stale_ref');
   assert.equal(telemetry[0].questionId, 'q1');
-  assert.equal(JSON.stringify(telemetry).includes('question'), false);
+  assert.equal(JSON.stringify(telemetry).includes('Prompt text'), false);
 });
 
 test('adaptive review selection backfills from same skill when a ref is missing', async () => {

@@ -228,6 +228,50 @@ test('selection telemetry sink can deterministically sample out events', () => {
   assert.deepEqual(records, []);
 });
 
+test('adaptive review telemetry normalizes privacy-safe queue events', () => {
+  const normalized = telemetry.normalizeSelectionTelemetry('grammarquest:review-queue-generated', {
+    queueId: 'adaptive-review-2030-04-29',
+    itemCount: 4,
+    staleRefCount: 1,
+    source: 'review',
+    question: 'Do not leak prompt text',
+    choices: ['A'],
+    studentName: 'Maya'
+  }, {
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+
+  assert.deepEqual(normalized, {
+    event: 'review.queue_generated',
+    eventName: 'review.queue_generated',
+    eventVersion: 1,
+    occurredAt: '2030-04-29T12:00:00.000Z',
+    domain: '',
+    mode: '',
+    source: 'review',
+    selectionSource: 'review',
+    setCount: 0,
+    requestedQuestionCount: 0,
+    requestedCount: 0,
+    selectedQuestionCount: 0,
+    selectedCount: 0,
+    requestBytes: 0,
+    responseBytes: 0,
+    selectionMs: 0,
+    hydrateMs: 0,
+    hydrateLatencyMs: 0,
+    fallbackReason: '',
+    routeType: '',
+    selectionPolicyVersion: 0,
+    policyVersion: 0,
+    sourceHash: '',
+    queueId: 'adaptive-review-2030-04-29',
+    itemCount: 4,
+    staleRefCount: 1
+  });
+  assert.equal(JSON.stringify(normalized).includes('Maya'), false);
+});
+
 function createEventTarget() {
   const listeners = {};
   return {

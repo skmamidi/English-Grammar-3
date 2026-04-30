@@ -3840,6 +3840,30 @@ body.parent-question-browser .subtopic-item {
   max-width: 1040px;
 }
 
+.adaptive-review-panel {
+  align-items: center;
+  background: var(--quest-gradient);
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin: 0 0 1.5rem;
+  padding: 1rem;
+}
+
+.adaptive-review-panel h2 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin: 0.2rem 0;
+}
+
+.adaptive-review-panel p {
+  color: var(--text-muted);
+  margin: 0;
+}
+
 .assignments-hero {
   align-items: end;
   display: grid;
@@ -5076,10 +5100,12 @@ body.parent-question-browser .subtopic-item {
 
   .subtopic-item,
   .mixed-quiz-panel,
+  .adaptive-review-panel,
   .assignment-item {
     grid-template-columns: 1fr;
   }
 
+  .adaptive-review-panel .btn,
   .assignment-item .btn {
     width: 100%;
   }

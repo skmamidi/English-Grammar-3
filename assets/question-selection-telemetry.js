@@ -15,14 +15,22 @@
     'grammarquest:question-selection-started',
     'grammarquest:question-selection-api-used',
     'grammarquest:question-selection-fallback',
-    'grammarquest:question-selection-completed'
+    'grammarquest:question-selection-completed',
+    'grammarquest:review-queue-generated',
+    'grammarquest:review-item-stale-ref',
+    'grammarquest:review-quiz-started',
+    'grammarquest:review-quiz-completed'
   ];
 
   const EVENT_MAP = {
     'grammarquest:question-selection-started': 'selection.started',
     'grammarquest:question-selection-api-used': 'selection.api_used',
     'grammarquest:question-selection-fallback': 'selection.fallback',
-    'grammarquest:question-selection-completed': 'selection.completed'
+    'grammarquest:question-selection-completed': 'selection.completed',
+    'grammarquest:review-queue-generated': 'review.queue_generated',
+    'grammarquest:review-item-stale-ref': 'review.item_stale_ref',
+    'grammarquest:review-quiz-started': 'review.quiz_started',
+    'grammarquest:review-quiz-completed': 'review.quiz_completed'
   };
 
   const UNSAFE_TELEMETRY_FIELDS = [
@@ -56,7 +64,7 @@
     const hydrateLatencyMs = safeNonNegativeNumber(input.hydrateMs || input.hydrateLatencyMs);
     const policyVersion = safeNonNegativeInt(input.selectionPolicyVersion || input.policyVersion);
     const now = typeof options.now === 'function' ? options.now : () => new Date();
-    return {
+    const normalized = {
       event: normalizedEventName,
       eventName: normalizedEventName,
       eventVersion: 1,
@@ -83,6 +91,14 @@
       policyVersion,
       sourceHash: safeString(input.sourceHash)
     };
+    if (normalizedEventName.startsWith('review.')) {
+      normalized.source = safeReviewSource(input.source || input.selectionSource);
+      normalized.selectionSource = normalized.source;
+      normalized.queueId = safeString(input.queueId);
+      normalized.itemCount = safeNonNegativeInt(input.itemCount);
+      normalized.staleRefCount = safeNonNegativeInt(input.staleRefCount);
+    }
+    return normalized;
   }
 
   function installSelectionTelemetrySink(options = {}) {
@@ -178,6 +194,11 @@
   function safeSource(value) {
     const source = safeString(value);
     return ['api', 'chunks', 'fallback', 'disabled'].includes(source) ? source : '';
+  }
+
+  function safeReviewSource(value) {
+    const source = safeString(value);
+    return source === 'review' ? source : safeSource(source);
   }
 
   function safeNonNegativeInt(value) {

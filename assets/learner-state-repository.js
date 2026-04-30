@@ -10,6 +10,8 @@
   const DEFAULT_STORAGE_KEY = 'grammarQuestProgress';
   const assignmentDomain = root.GrammarQuestAssignmentDomain ||
     (typeof require === 'function' ? require('./assignment-domain') : null);
+  const reviewDomain = root.GrammarQuestAdaptiveReviewDomain ||
+    (typeof require === 'function' ? require('./adaptive-review-domain') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
@@ -111,17 +113,47 @@
       return updated;
     }
 
+    function getReviewQueue() {
+      return getProgress().reviewQueue;
+    }
+
+    function saveReviewQueue(queue) {
+      return updateProgress(progress => {
+        progress.reviewQueue = normalizeReviewQueue(queue);
+        return progress;
+      }).reviewQueue;
+    }
+
+    function markReviewItemSeen(questionId, seenAt) {
+      return updateReviewQueue(queue => transitionReviewItem(queue, questionId, 'seen', seenAt));
+    }
+
+    function markReviewItemMastered(questionId, masteredAt) {
+      return updateReviewQueue(queue => transitionReviewItem(queue, questionId, 'mastered', masteredAt));
+    }
+
+    function updateReviewQueue(updater) {
+      return updateProgress(progress => {
+        progress.reviewQueue = normalizeReviewQueue(updater(progress.reviewQueue));
+        return progress;
+      }).reviewQueue;
+    }
+
     return {
       appendSavedSession,
       archiveAssignment,
       clearActiveQuiz,
       getActiveQuiz,
       getProgress,
+      getReviewQueue,
       listAssignments,
       markAssignmentCompleted,
       markAssignmentStarted,
+      markReviewItemMastered,
+      markReviewItemSeen,
       saveActiveQuiz,
       saveProgress,
+      saveReviewQueue,
       updateProgress,
       upsertAssignment,
       upsertQuestionReport
@@ -253,6 +285,7 @@
       reports: normalizeReports(input.reports),
       activeQuiz: normalizeActiveQuiz(input.activeQuiz),
       assignments: normalizeAssignments(input.assignments),
+      reviewQueue: normalizeReviewQueue(input.reviewQueue),
       mastery: normalizeMastery(input.mastery),
       lastUpdatedAt: input.lastUpdatedAt || ''
     };
@@ -266,6 +299,60 @@
     return assignmentDomain && typeof assignmentDomain.normalizeAssignment === 'function'
       ? assignmentDomain.normalizeAssignment(assignment)
       : assignment;
+  }
+
+  function normalizeReviewQueue(queue) {
+    return reviewDomain && typeof reviewDomain.normalizeReviewQueue === 'function'
+      ? reviewDomain.normalizeReviewQueue(queue)
+      : {
+          queueId: queue && queue.queueId || '',
+          generatedAt: queue && queue.generatedAt || '',
+          updatedAt: queue && queue.updatedAt || '',
+          items: (Array.isArray(queue && queue.items) ? queue.items : []).map(normalizeReviewItemFallback).filter(item => item.questionRef.id)
+        };
+  }
+
+  function normalizeReviewItemFallback(item) {
+    const input = item && typeof item === 'object' ? item : {};
+    const ref = input.questionRef || {};
+    return {
+      id: input.id || `review-${ref.id || ''}`,
+      questionRef: {
+        id: String(ref.id || ''),
+        sourceSet: String(ref.sourceSet || ''),
+        version: Number(ref.version) || 0,
+        contentHash: String(ref.contentHash || ''),
+        sequence: Number(ref.sequence) || 0
+      },
+      setId: input.setId || ref.sourceSet || '',
+      skillIds: normalizeStringArray(input.skillIds),
+      reason: input.reason || 'missed_recently',
+      priority: Number(input.priority) || 0,
+      dueAt: input.dueAt || '',
+      status: input.status || 'queued',
+      seenAt: input.seenAt || '',
+      masteredAt: input.masteredAt || ''
+    };
+  }
+
+  function transitionReviewItem(queue, questionId, status, timestamp) {
+    if (reviewDomain && status === 'seen' && typeof reviewDomain.markReviewItemSeen === 'function') {
+      return reviewDomain.markReviewItemSeen(queue, questionId, timestamp);
+    }
+    if (reviewDomain && status === 'mastered' && typeof reviewDomain.markReviewItemMastered === 'function') {
+      return reviewDomain.markReviewItemMastered(queue, questionId, timestamp);
+    }
+    const normalized = normalizeReviewQueue(queue);
+    const field = status === 'mastered' ? 'masteredAt' : 'seenAt';
+    normalized.items = normalized.items.map(item => {
+      if (!item || !item.questionRef || item.questionRef.id !== questionId) return item;
+      return Object.assign({}, item, {
+        status,
+        [field]: timestamp || new Date().toISOString()
+      });
+    });
+    normalized.updatedAt = timestamp || new Date().toISOString();
+    return normalized;
   }
 
   function transitionAssignmentStarted(assignment, startedAt) {
@@ -418,6 +505,7 @@
     normalizeLearnerState,
     normalizeReports,
     normalizeActiveQuiz,
-    normalizeQuestionReport
+    normalizeQuestionReport,
+    normalizeReviewQueue
   };
 });

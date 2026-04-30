@@ -4,7 +4,7 @@ This repository now has a lightweight automated regression suite for the static 
 
 ## Fast Local Gate
 
-Install dependencies and the Playwright browser once:
+Use Node 24 for local verification so the same runtime is exercised as CI. Install dependencies and the Playwright browser once:
 
 ```bash
 npm ci
@@ -82,6 +82,7 @@ The all-subtopic mode visits every `topics/*/subtopics/*.html` page and checks t
 - The root `sw.js` version-scopes runtime caches by `assets/question-manifest.json` source hash, precaches app shell assets without retired full-bank files, and caches generated question chunks on first use. `assets/service-worker-registration.js` can be disabled with `GRAMMAR_QUEST_CONFIG.disableServiceWorker = true` for tests and local debugging.
 - Runtime learner progress flows through `GrammarQuestProgress`, which delegates persistence to `GrammarQuestLearnerStateRepository` when the repository boundary is loaded. Production pages must load `assets/learner-state-repository.js` before `assets/progress-store.js`.
 - Assignments and practice plans are ref-only learner-state records. Use `assets/assignment-domain.js` and `assets/assignment-quiz-adapter.js` for assignment creation/launch paths; never store copied question prompts, choices, explanations, snapshots, or full question objects in assignment records. Browser smoke covers seeded assignment launch and completion from `assignments.html`.
+- Adaptive review queues are also ref-only. `assets/adaptive-review-domain.js` derives review items from missed refs and weak skills, the home page can start a review quiz, and quiz completion updates queue item status without storing question text or answer choices.
 - `npm run json:write` remains a migration helper for refreshing JSON from old legacy banks; normal content work should edit JSON directly.
 - Legacy conversion coverage is fixture-based, so live JSON edits are not expected to match retired JS banks.
 - `npm run qa:questions` verifies JSON sources, generated runtime artifacts, and generated chunk size budgets are current.
@@ -117,6 +118,6 @@ The all-subtopic mode visits every `topics/*/subtopics/*.html` page and checks t
 - Visual regression coverage lives in `tests/visual-regression.spec.js` with reviewed JSON baselines under `tests/visual-baselines/`. Semantic layout fields are the hard gate; screenshot hash and byte-size drift writes `test-results/visual/*.screenshot-drift.json` for diagnostics when the semantic summary still matches. Update baselines only with `UPDATE_VISUAL_BASELINES=1 npm run test:visual` after reviewing intentional visual changes, using Playwright-managed Chromium for reviewed updates. Shared token roles live in `assets/design-tokens.css`.
 - Offline smoke verifies that a warmed quiz reloads from cached shell assets and chunks, and that an uncached question chunk shows an explicit offline fallback. Run it with `npm run test:offline`.
 - Offline smoke tracks structured request/response failures and reports exact URL/status pairs. App-owned assets such as `/assets/`, `/topics/`, `index.html`, `reports.html`, and `character-library.html` remain fatal when missing; explicitly scoped browser-default noise such as `/favicon.ico` is ignored.
-- CI runs `npm ci`, installs Playwright-managed Chromium with `npx playwright install --with-deps chromium`, and then runs `npm test`. Set `PLAYWRIGHT_CHROMIUM_EXECUTABLE` only when debugging locally with a specific browser binary.
+- CI runs on Node 24 with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true`, uses Node 24-compatible first-party actions, runs `npm ci`, installs Playwright-managed Chromium with `npx playwright install --with-deps chromium`, and then runs `npm test`. If GitHub reports action-runtime warnings, check `.github/workflows/*.yml` for stale `actions/checkout@v4`, `actions/setup-node@v4`, `node-version: 20`, or insecure `ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION` entries. Set `PLAYWRIGHT_CHROMIUM_EXECUTABLE` only when debugging locally with a specific browser binary.
 - Scheduled full regression lives in `.github/workflows/full-regression.yml` and runs `npm run test:full` nightly, on manual dispatch, and on `main` or `release/**` pushes. Failure uploads include Playwright output, test results, visual artifacts, visual baselines, and debug logs.
 - Release gates are documented in `docs/release-checklist.md`; releases should confirm generated artifacts are fresh, fast/browser/full gates pass, and selection telemetry/fallback rates look healthy before widening rollout.

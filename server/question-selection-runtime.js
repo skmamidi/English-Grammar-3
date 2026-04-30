@@ -7,6 +7,9 @@ const {
   toApiErrorEnvelope
 } = require('./api-error-contract');
 const { guardApiRequest } = require('./api-request-guard');
+const {
+  buildSelectionHealthSnapshot
+} = require('./question-selection-health');
 
 const DEFAULT_RUNTIME_MODE = 'local';
 const DEFAULT_TTL_SECONDS = 300;
@@ -116,6 +119,34 @@ function createSelectionRuntime(dependencies = {}) {
         return { ok: true, requestId: guarded.requestId, response };
       } catch (error) {
         return toApiErrorEnvelope(mapSelectionError(error), { requestId: guarded.requestId });
+      }
+    },
+    async handleHealthHttpRequest(httpRequest) {
+      const guarded = await guardApiRequest(httpRequest, {
+        allowedOrigins: config.allowedOrigins,
+        allowedMethods: ['GET'],
+        maxBodyBytes: 1024,
+        rateLimitAdapter: dependencies.rateLimitAdapter,
+        route: 'selection-health'
+      });
+      if (!guarded.ok) return guarded;
+      try {
+        const manifest = await dependencies.manifestProvider();
+        const healthOptions = Object.assign({}, dependencies.health || {}, {
+          signerAvailable: typeof dependencies.signer === 'function' || Boolean(dependencies.health && dependencies.health.signerAvailable),
+          publicKeys: dependencies.publicKeys || dependencies.health && dependencies.health.publicKeys || {},
+          checkedAt: clock()
+        });
+        return {
+          ok: true,
+          requestId: guarded.requestId,
+          response: buildSelectionHealthSnapshot(config, manifest, healthOptions)
+        };
+      } catch (error) {
+        return toApiErrorEnvelope(createApiError('selection_unavailable', 'Selection health is unavailable.', {
+          requestId: guarded.requestId,
+          retryable: true
+        }), { requestId: guarded.requestId });
       }
     }
   };

@@ -32,6 +32,62 @@ test('content QA reports invalid correct indexes with actionable locations', () 
   assert.ok(issue.location);
 });
 
+test('content QA can include source governance warnings without blocking current content', () => {
+  const result = validateLoadedContent({
+    files: [{
+      file: path.join(repoRoot, 'assets/question-bank-source/fixture.json'),
+      relativeFile: 'assets/question-bank-source/fixture.json',
+      sourceType: 'json',
+      domain: 'grammar',
+      bank: {
+        'grammar-set': {
+          title: 'Grammar Set',
+          topic: 'Grammar',
+          questions: [makeGovernanceFixtureQuestion({
+            id: 'grammar-set-q0001',
+            question: 'Which sentence is complete?',
+            choices: ['Runs fast.', 'The dog runs.', 'Under the chair.', 'Because it rained.'],
+            correct: 1,
+            explanation: {
+              correct: 'Answer: The dog runs. It has a subject and predicate.',
+              incorrect: [
+                'Not: Runs fast. It is missing a clear subject.',
+                '',
+                'Not: Under the chair. It is a phrase, not a sentence.',
+                'Not: Because it rained. It is a dependent clause.'
+              ]
+            },
+            metadata: {
+              sourceSet: 'grammar-set',
+              sequence: 1,
+              version: 1,
+              gradeLevels: [4],
+              primaryDifficulty: 'easy',
+              skillIds: ['grammar.sentence-analysis'],
+              standardIds: ['L.3-6.1'],
+              sourceFile: 'unreviewed-source.pdf',
+              sourceQuestionNumber: 7
+            }
+          })]
+        }
+      }
+    }],
+    bank: {}
+  }, {
+    sourceGovernance: true,
+    sourceLicensePolicy: { sources: [] }
+  });
+
+  assert.equal(result.errors.length, 0);
+  assert.ok(result.warnings.some(issue => issue.ruleId === 'missing-source-category'));
+  assert.ok(result.warnings.some(issue => issue.ruleId === 'unknown-source-license'));
+});
+
+function makeGovernanceFixtureQuestion(question) {
+  const contentHash = computeContentHash(question);
+  return normalizeQuestion(question, question.id, contentHash, 'grammar-set', 1, false);
+}
+
 test('live question banks do not repeat answer choice text within a question', () => {
   const result = validateContent();
   const duplicateChoiceErrors = result.errors.filter(issue =>

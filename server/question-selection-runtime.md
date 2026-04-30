@@ -56,3 +56,15 @@ Rollout remains client-controlled by existing flags:
 - `selectionIntegrity.publicKeys`
 
 Production rollout should begin with one domain or route, monitor fallback telemetry, then expand by explicit flag changes.
+
+## Health and Readiness
+
+`handleHealthHttpRequest()` exposes a guarded `GET` readiness contract for operators. The response is JSON-only and privacy-safe: it includes runtime mode, allowed rollout domains, response TTL, manifest provenance, signing readiness, active public key ids, check statuses, and failure codes. It does not include prompts, choices, answers, learner identifiers, private key references, raw environment names, or secret values.
+
+Readiness states:
+
+- `ready`: manifest provenance is present, rollout domains are configured, TTL is valid, and production signing dependencies are available when required.
+- `degraded`: learner-facing selection can stay off or local, but an operator should review optional rollout or telemetry configuration such as empty rollout domains or disabled telemetry.
+- `not_ready`: required production dependencies are missing or stale, such as missing manifest source hash, stale expected source hash, invalid TTL, unavailable signer, or missing active public keys.
+
+Production signed mode must not report `ready` unless the runtime has signer availability, signing key id, private key reference metadata, and at least one active public verification key id. The private key reference is used only to prove server-side signing configuration exists; it is never returned from readiness.

@@ -49,6 +49,8 @@
       activeVersion: input.activeCacheVersion
     });
     const auditSummary = normalizeAuditSummary(input.auditEvents);
+    const aggregateAnalytics = normalizeAggregateAnalytics(input.aggregateAnalytics);
+    const experiments = normalizeExperiments(input.experiments);
     const warnings = normalizeStringList(input.warnings);
     collectHealthWarnings(selectionHealth, cacheHealth).forEach(warning => warnings.push(warning));
     return {
@@ -58,6 +60,8 @@
       selectionHealth,
       cacheHealth,
       auditSummary,
+      aggregateAnalytics,
+      experiments,
       warnings: Array.from(new Set(warnings))
     };
   }
@@ -146,6 +150,27 @@
       highRiskActionCounts: counts,
       recentEvents: safeEvents.slice(0, limit)
     };
+  }
+
+  function normalizeAggregateAnalytics(input = {}) {
+    const reports = Array.isArray(input.reports) ? input.reports : [];
+    return {
+      status: safeString(input.status || 'unknown'),
+      suppressedCohortCount: safeNumber(input.suppressedCohortCount),
+      reports: reports.map(report => ({
+        cohortSizeBucket: safeString(report.cohortSizeBucket),
+        assignment: cloneSafe(report.assignment || {}),
+        featureFlagHealth: cloneSafe(report.featureFlagHealth || {})
+      }))
+    };
+  }
+
+  function normalizeExperiments(input = []) {
+    return (Array.isArray(input) ? input : []).map(experiment => ({
+      id: safeString(experiment.id),
+      status: safeString(experiment.status),
+      guardrailHealth: safeString(experiment.guardrailHealth || 'unknown')
+    })).sort((left, right) => left.id.localeCompare(right.id));
   }
 
   function collectHealthWarnings(selectionHealth, cacheHealth) {

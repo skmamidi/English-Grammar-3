@@ -17,6 +17,12 @@ const {
   loadSkillTaxonomy,
   validateQuestionSkillTags
 } = require('./question-skill-taxonomy');
+const {
+  buildSourceAttributionReport
+} = require('../reports/source-attribution');
+const {
+  evaluateSourceLicenses
+} = require('./source-license-qa');
 
 function validateContent(options = {}) {
   const bankLoad = loadQuestionBanks(options);
@@ -44,6 +50,7 @@ function validateLoadedContent(bankLoad, options = {}) {
   validateUniqueQuestionKeys(sets, issues);
   validateStableQuestionIdentity(sets, issues);
   runContentQualityRules(sets, questions, issues, options);
+  if (options.sourceGovernance) runSourceGovernanceChecks(bankLoad, issues, options);
 
   return {
     bankLoad,
@@ -55,6 +62,50 @@ function validateLoadedContent(bankLoad, options = {}) {
     explanationReviewCandidates: options.explanationReviewCandidates ? buildExplanationReviewCandidates(questions, issues) : undefined,
     sizeSummary: getBankSizeSummary(bankLoad)
   };
+}
+
+function runSourceGovernanceChecks(bankLoad, issues, options = {}) {
+  const attribution = buildSourceAttributionReport({ bankLoad });
+  attribution.warnings.forEach(warning => {
+    addIssue(
+      issues,
+      'warning',
+      '',
+      warning.setId,
+      warning.questionId,
+      `Source attribution metadata is missing ${warning.field}.`,
+      warning.ruleId,
+      warning.questionId
+    );
+  });
+  const license = evaluateSourceLicenses({
+    bankLoad,
+    policy: options.sourceLicensePolicy
+  });
+  license.warnings.forEach(warning => {
+    addIssue(
+      issues,
+      'warning',
+      '',
+      warning.setId,
+      warning.questionId,
+      `Source license metadata needs review for "${warning.sourceFile || 'missing source'}".`,
+      warning.ruleId,
+      warning.questionId
+    );
+  });
+  license.errors.forEach(error => {
+    addIssue(
+      issues,
+      'error',
+      '',
+      error.setId,
+      error.questionId,
+      `Source license blocks publication for "${error.sourceFile}".`,
+      error.ruleId,
+      error.questionId
+    );
+  });
 }
 
 const QUALITY_RULES = [{

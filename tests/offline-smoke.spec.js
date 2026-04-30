@@ -65,6 +65,26 @@ async function main() {
 
       await context.close();
     });
+
+    await runCase(failures, 'quota pressure shows recoverable offline cache fallback', async () => {
+      const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+      const page = await newPage(context);
+      await page.addInitScript(() => {
+        window.GRAMMAR_QUEST_CACHE_QUOTA_EXCEEDED = true;
+      });
+
+      await registerAndControlServiceWorker(page, server.baseURL);
+      await cacheStaticPageShell(page, UNCACHED_SUBTOPIC);
+      await deleteCachedQuestionChunk(page, 'grammar-run-on-sentences');
+
+      await context.setOffline(true);
+      await visitClean(page, server.baseURL, UNCACHED_SUBTOPIC, { allowOfflineResourceErrors: true });
+      const message = await page.locator('#quiz-root').innerText();
+      assert.match(message, /storage is full/i);
+      assert.match(message, /reconnect/i);
+
+      await context.close();
+    });
   } finally {
     await browser.close();
     await server.close();

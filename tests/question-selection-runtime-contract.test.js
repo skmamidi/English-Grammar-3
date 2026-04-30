@@ -241,6 +241,89 @@ test('selection runtime maps domain validation failures to safe API error envelo
   assert.equal(JSON.stringify(result).includes('private'), false);
 });
 
+test('selection runtime health endpoint returns privacy-safe readiness shape', async () => {
+  const runtime = createSelectionRuntime({
+    config: buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_ALLOWED_ORIGINS: 'https://grammar.example',
+      SELECTION_MAX_QUESTIONS: '4'
+    }),
+    manifestProvider: () => runtimeManifest,
+    chunkSetProvider: loadRuntimeSet,
+    health: {
+      telemetryEnabled: true
+    },
+    clock: () => new Date('2030-04-29T12:00:00.000Z'),
+    logger: null
+  });
+
+  const result = await runtime.handleHealthHttpRequest({
+    method: 'GET',
+    origin: 'https://grammar.example'
+  });
+
+  assert.equal(result.ok, true);
+  assert.equal(result.response.status, 'ready');
+  assert.deepEqual(result.response.allowedDomains, ['grammar']);
+  assert.equal(result.response.manifest.sourceHash, runtimeManifest.artifact.sourceHash);
+  assert.equal(JSON.stringify(result).includes('grammar-sentence-types-q0001'), false);
+  assert.equal(JSON.stringify(result).includes('"questions"'), false);
+});
+
+test('selection runtime health endpoint reports not-ready manifest state without throwing', async () => {
+  const runtime = createSelectionRuntime({
+    config: buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_ALLOWED_ORIGINS: 'https://grammar.example'
+    }),
+    manifestProvider: () => runtimeManifest,
+    chunkSetProvider: loadRuntimeSet,
+    health: {
+      expectedSourceHash: 'sha256:stale-manifest-source'
+    },
+    clock: () => new Date('2030-04-29T12:00:00.000Z'),
+    logger: null
+  });
+
+  const result = await runtime.handleHealthHttpRequest({
+    method: 'GET',
+    origin: 'https://grammar.example'
+  });
+
+  assert.equal(result.ok, true);
+  assert.equal(result.response.status, 'not_ready');
+  assert.ok(result.response.failureCodes.includes('manifest_source_hash_stale'));
+});
+
+test('selection runtime health endpoint uses guarded origins and method errors', async () => {
+  const runtime = createSelectionRuntime({
+    config: buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_ALLOWED_ORIGINS: 'https://grammar.example'
+    }),
+    manifestProvider: () => runtimeManifest,
+    chunkSetProvider: loadRuntimeSet,
+    clock: () => new Date('2030-04-29T12:00:00.000Z'),
+    logger: null
+  });
+
+  const originResult = await runtime.handleHealthHttpRequest({
+    method: 'GET',
+    origin: 'https://evil.example'
+  });
+  const methodResult = await runtime.handleHealthHttpRequest({
+    method: 'POST',
+    origin: 'https://grammar.example'
+  });
+
+  assert.equal(originResult.error.code, 'unauthorized_origin');
+  assert.equal(methodResult.error.code, 'invalid_request');
+  assert.equal(JSON.stringify(originResult).includes('private'), false);
+});
+
 test('runtime and security docs do not commit private signing key material', () => {
   const files = [
     'server/question-selection-runtime.js',

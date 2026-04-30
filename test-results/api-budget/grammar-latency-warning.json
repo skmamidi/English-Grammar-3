@@ -4,9 +4,9 @@
     "maxP95LatencyMs": 100
   },
   "stats": {
-    "minMs": 29.495,
-    "medianMs": 82.319875,
-    "p95Ms": 236.4965,
+    "minMs": 37.692084,
+    "medianMs": 68.070333,
+    "p95Ms": 129.606083,
     "maxResponseBytes": 12198,
     "responseBytes": 12198,
     "selectedCount": 60,

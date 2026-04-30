@@ -74,6 +74,21 @@ test('telemetry gate requires config consent preferences and non-preview context
   assert.equal(privacy.canSendTelemetry({ enabled: true, consent: { telemetry: true }, preferences, type: 'selection', parentPreview: true }), false);
 });
 
+test('opt-out prevents experiment telemetry and enrollment eligibility', () => {
+  const preferences = privacy.normalizePrivacyPreferences({
+    telemetryEnabled: true,
+    experimentParticipationEnabled: true,
+    optOut: true
+  });
+
+  assert.equal(privacy.canSendTelemetry({
+    enabled: true,
+    consent: { telemetry: true },
+    preferences,
+    type: 'experiment'
+  }), false);
+});
+
 test('privacy updates preserve metadata and force child preferences off when telemetry is disabled', () => {
   const updated = privacy.applyPrivacyPreferenceUpdate({
     telemetryEnabled: true,

@@ -128,6 +128,36 @@ test('browser close fallback is not used while tracked contexts remain open', as
   assert.equal(process.killCalls.length, 0, 'process fallback should not hide tracked resource leaks');
 });
 
+test('browser close timeout resolves when disconnected browser has no process handle and no tracked resources', async () => {
+  const tracker = createBrowserResourceTracker();
+  const browser = fakeBrowser({
+    closeHangs: true,
+    connectedBeforeClose: true,
+    connectedAfterClose: false
+  });
+
+  const result = await closeBrowserWithDiagnostics(browser, tracker, 10);
+
+  assert.equal(result.method, 'browser.close-timeout-disconnected');
+  assert.equal(result.fallback, 'no-process-handle');
+  assert.equal(result.connectedBeforeClose, true);
+  assert.equal(result.connectedAfterClose, false);
+});
+
+test('browser close timeout still fails when connected browser has no process handle', async () => {
+  const tracker = createBrowserResourceTracker();
+  const browser = fakeBrowser({
+    closeHangs: true,
+    connectedBeforeClose: true,
+    connectedAfterClose: true
+  });
+
+  await assert.rejects(
+    closeBrowserWithDiagnostics(browser, tracker, 10),
+    /browser\.close timed out after 10ms;.*browser connected after close: true;.*fallback: unavailable while browser remains connected/
+  );
+});
+
 test('browser close timeout kills launched browser process after tracked resources drain', async () => {
   const tracker = createBrowserResourceTracker();
   const process = fakeBrowserProcess();
@@ -175,10 +205,17 @@ function silentLogger() {
 }
 
 function fakeBrowser(options = {}) {
+  let closeStarted = false;
   const browser = {
     contexts: [],
     closed: false,
     isConnected() {
+      if (closeStarted && typeof options.connectedAfterClose !== 'undefined') {
+        return Boolean(options.connectedAfterClose);
+      }
+      if (!closeStarted && typeof options.connectedBeforeClose !== 'undefined') {
+        return Boolean(options.connectedBeforeClose);
+      }
       return options.connected !== false && !browser.closed;
     },
     process() {
@@ -217,6 +254,7 @@ function fakeBrowser(options = {}) {
       return context;
     },
     close() {
+      closeStarted = true;
       if (options.closeHangs) return new Promise(() => {});
       browser.closed = true;
       return Promise.resolve();

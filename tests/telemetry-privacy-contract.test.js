@@ -67,5 +67,7 @@ test('telemetry contract documents bounded recommendation and aggregate analytic
   assert.match(docs, /Weak-skill recommendation telemetry/);
   assert.match(docs, /recommendation count, reason code, skill ID, and target type/);
   assert.match(docs, /Aggregate learning analytics/);
+  assert.match(docs, /Small cohorts are suppressed/);
+  assert.match(docs, /Experiment guardrails/);
   assert.match(docs, /must not include learner names, learner IDs, raw questions, answers, or explanations/);
 });

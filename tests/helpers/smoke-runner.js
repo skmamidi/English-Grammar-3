@@ -133,9 +133,10 @@ async function closeBrowserWithDiagnostics(browser, tracker, timeoutMs = 5000) {
     return { method: 'browser.close' };
   } catch (error) {
     const afterClose = tracker && typeof tracker.snapshot === 'function' ? tracker.snapshot() : emptyBrowserSnapshot();
+    const connectedAfterClose = isBrowserConnected(browser);
     const baseMessage = `${error.message}; ${formatBrowserSnapshot(afterClose, beforeClose)}; ${formatBrowserProcessSnapshot({
       connectedBeforeClose,
-      connectedAfterClose: isBrowserConnected(browser),
+      connectedAfterClose,
       processSnapshot: snapshotBrowserProcess(browserProcess) || beforeProcess
     })}`;
     if (hasOpenBrowserResources(afterClose)) {
@@ -143,8 +144,19 @@ async function closeBrowserWithDiagnostics(browser, tracker, timeoutMs = 5000) {
       timeoutError.cause = error;
       throw timeoutError;
     }
+    if (connectedAfterClose === false) {
+      return {
+        method: 'browser.close-timeout-disconnected',
+        fallback: browserProcess && typeof browserProcess.kill === 'function' ? 'not-needed' : 'no-process-handle',
+        connectedBeforeClose,
+        connectedAfterClose
+      };
+    }
     if (!browserProcess || typeof browserProcess.kill !== 'function') {
-      const timeoutError = new Error(`${baseMessage}; fallback: unavailable`);
+      const fallbackReason = connectedAfterClose === true
+        ? 'unavailable while browser remains connected'
+        : 'unavailable while browser connection state is unknown';
+      const timeoutError = new Error(`${baseMessage}; fallback: ${fallbackReason}`);
       timeoutError.cause = error;
       throw timeoutError;
     }
@@ -159,7 +171,7 @@ async function closeBrowserWithDiagnostics(browser, tracker, timeoutMs = 5000) {
     } catch (fallbackError) {
       const timeoutError = new Error(`${baseMessage}; ${formatBrowserProcessSnapshot({
         connectedBeforeClose,
-        connectedAfterClose: isBrowserConnected(browser),
+        connectedAfterClose,
         processSnapshot: snapshotBrowserProcess(browserProcess)
       })}; fallback: process SIGTERM timed out after ${fallbackTimeoutMs}ms`);
       timeoutError.cause = error;

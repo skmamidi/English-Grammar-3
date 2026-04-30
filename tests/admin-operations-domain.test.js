@@ -88,6 +88,38 @@ test('admin operations projection exposes operational metadata only', () => {
   assert.ok(projection.warnings.includes('stale service worker caches present'));
 });
 
+test('admin operations projection exposes aggregate experiment health without learner drilldown', () => {
+  const projection = buildAdminOperationsProjection({
+    aggregateAnalytics: {
+      status: 'warning',
+      suppressedCohortCount: 2,
+      reports: [{
+        cohortId: 'hidden-classroom',
+        learnerId: 'learner-hidden',
+        cohortSizeBucket: '10-14',
+        assignment: { completionRate: 0.7 },
+        featureFlagHealth: {
+          adaptiveReview: { fallbackRate: 0.1, errorRate: 0 }
+        }
+      }]
+    },
+    experiments: [{
+      id: 'adaptive-review-copy',
+      status: 'active',
+      guardrailHealth: 'healthy',
+      learnerName: 'Hidden Learner'
+    }]
+  });
+
+  assert.equal(projection.aggregateAnalytics.status, 'warning');
+  assert.equal(projection.aggregateAnalytics.suppressedCohortCount, 2);
+  assert.equal(projection.aggregateAnalytics.reports[0].cohortSizeBucket, '10-14');
+  assert.equal(projection.aggregateAnalytics.reports[0].cohortId, undefined);
+  assert.equal(projection.experiments[0].id, 'adaptive-review-copy');
+  assert.equal(JSON.stringify(projection).includes('learner-hidden'), false);
+  assert.equal(JSON.stringify(projection).includes('Hidden Learner'), false);
+});
+
 test('cache health classifies version drift and missing cache metadata', () => {
   assert.deepEqual(normalizeCacheHealth({
     expectedVersion: 'gq-current',

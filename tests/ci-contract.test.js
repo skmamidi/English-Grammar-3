@@ -61,6 +61,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/system-admin-access\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/audit-log-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-signing\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/question-selection-health\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-telemetry\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-api-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-service\.test\.js/);
@@ -79,8 +80,14 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/spaced-repetition-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/review-schedule-projection\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learning-analytics-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/aggregate-learning-analytics-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/aggregate-learning-analytics-cli\.test\.js/);
+  assert.equal(pkg.scripts['analytics:learning-summary'], 'node scripts/analytics/summarize-learning-events.js');
   assert.match(pkg.scripts['test:unit'], /tests\/recommendation-evaluation\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/recommendation-fairness\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/source-attribution\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/source-license-qa\.test\.js/);
+  assert.equal(pkg.scripts['qa:source-license'], 'node scripts/qa/source-license-qa.js');
   assert.match(pkg.scripts['test:unit'], /tests\/chunk-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/pr-readiness-monitor\.test\.js/);

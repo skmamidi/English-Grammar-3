@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "reviewed-pdf-practice-sources",
+      "pattern": "*.pdf",
+      "allowedUse": "internal educational practice with reviewer-approved attribution metadata",
+      "attributionRequired": true,
+      "publicationAllowed": true,
+      "notes": "Current imported practice PDFs require source file and source question number metadata before broad publication.",
+      "reviewer": "content-review"
+    },
+    {
+      "id": "grammar-quest-authored",
+      "pattern": "grammar-quest-authored",
+      "allowedUse": "original authored Grammar Quest content",
+      "attributionRequired": false,
+      "publicationAllowed": true,
+      "notes": "Use for original content authored directly in canonical JSON.",
+      "reviewer": "content-review"
+    }
+  ]
+}

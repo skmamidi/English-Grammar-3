@@ -42,6 +42,8 @@ test('operations index links every required runbook', () => {
   requiredRunbooks.forEach(file => {
     assert.match(index, new RegExp(`\\(${escapeRegExp(file)}\\)`), `README.md should link ${file}`);
   });
+  assert.match(index, /\(production-slos\.md\)/, 'README.md should link production SLO policy');
+  assert.match(index, /\(synthetic-monitors\.md\)/, 'README.md should link synthetic monitor guide');
 });
 
 test('release checklist links operational runbooks for incident response', () => {
@@ -70,8 +72,51 @@ test('runbook links and package verification commands point to existing project 
   });
 });
 
+test('production SLO docs link critical objectives to runbooks and privacy constraints', () => {
+  const source = readOperationDoc('production-slos.md');
+
+  [
+    'Quiz start success',
+    'Question chunk hydration success',
+    'Selection API readiness',
+    'Offline recovery success',
+    'Learner state sync success',
+    'Content publication freshness'
+  ].forEach(label => {
+    assert.match(source, new RegExp(escapeRegExp(label)), `production-slos.md should document ${label}`);
+  });
+  requiredRunbooks
+    .filter(file => !['runbook-bad-selection-signature.md', 'runbook-auth-session-outage.md', 'runbook-telemetry-outage.md'].includes(file))
+    .forEach(file => {
+      assert.match(source, new RegExp(escapeRegExp(file)), `production-slos.md should link ${file}`);
+    });
+  assert.match(source, /aggregate operational signals only/i);
+  assert.match(source, /must not include learner identifiers/i);
+});
+
+test('synthetic monitor docs describe critical flows privacy and runner commands', () => {
+  const source = readOperationDoc('synthetic-monitors.md');
+
+  [
+    'Home page shell',
+    'Topic index and manifest',
+    'Subtopic quiz start',
+    'Selection API readiness',
+    'Offline fallback metadata',
+    'Admin readiness metadata'
+  ].forEach(label => {
+    assert.match(source, new RegExp(escapeRegExp(label)), `synthetic-monitors.md should document ${label}`);
+  });
+
+  assert.match(source, /npm run monitor:synthetic/);
+  assert.match(source, /node --test tests\/synthetic-monitor-policy\.test\.js/);
+  assert.match(source, /must not include learner identifiers/i);
+  assert.match(source, /question text, answer choices, explanations/i);
+  assert.match(source, /docs\/operations\/runbook-selection-api-failure\.md/);
+});
+
 test('operations docs avoid private-key token and credential examples', () => {
-  requiredRunbooks.concat(['README.md', 'release-and-rollback.md', 'backup-restore.md']).forEach(file => {
+  requiredRunbooks.concat(['README.md', 'release-and-rollback.md', 'backup-restore.md', 'production-slos.md', 'synthetic-monitors.md']).forEach(file => {
     const source = readOperationDoc(file);
     assert.doesNotMatch(source, /-----BEGIN (RSA |EC |OPENSSH |)PRIVATE KEY-----/i, `${file} must not include private keys`);
     assert.doesNotMatch(source, /\b(AIza[0-9A-Za-z_-]{20,}|ghp_[0-9A-Za-z]{20,}|sk-[0-9A-Za-z]{20,})\b/, `${file} must not include token-looking examples`);

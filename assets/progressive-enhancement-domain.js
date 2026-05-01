@@ -36,7 +36,7 @@
       critical: true,
       label: 'Question chunk',
       message: 'A required question file could not load.',
-      recovery: 'Refresh the page while online, or return to the topic and try again.'
+      recovery: 'Reconnect and refresh the page while online, or return to the topic and try again.'
     },
     telemetry: {
       critical: false,

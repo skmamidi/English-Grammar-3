@@ -78,6 +78,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-signing\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-health\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-telemetry\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/production-slo-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-api-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-service\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/backend-policy-rules\.test\.js/);
@@ -100,6 +101,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/aggregate-learning-analytics-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/aggregate-learning-analytics-cli\.test\.js/);
   assert.equal(pkg.scripts['analytics:learning-summary'], 'node scripts/analytics/summarize-learning-events.js');
+  assert.equal(pkg.scripts['monitor:synthetic'], 'node scripts/monitor/run-synthetic-monitors.js');
   assert.match(pkg.scripts['test:unit'], /tests\/recommendation-evaluation\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/recommendation-fairness\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/content-discovery-domain\.test\.js/);
@@ -120,6 +122,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/accessibility-engine-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/design-token-accessibility\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/operations-docs\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/synthetic-monitor-policy\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
   assert.match(pkg.scripts['release:manifest'], /generate-release-manifest/);

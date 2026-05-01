@@ -1270,10 +1270,10 @@
     const mobileSafari = safari && isMobileSafari();
     if (safari) {
       return {
-        wordRate: 0.96,
-        slowWordRate: mobileSafari ? 0.88 : 0.86,
-        syllableRate: mobileSafari ? 0.84 : 0.82,
-        repeatRate: 0.92,
+        wordRate: 1,
+        slowWordRate: mobileSafari ? 0.94 : 0.92,
+        syllableRate: mobileSafari ? 0.9 : 0.88,
+        repeatRate: 1,
         syllableGapMs: mobileSafari ? 420 : 340,
         pitch: 1
       };
@@ -1331,15 +1331,30 @@
   }
 
   function getPreferredSafariSpeechVoice(voices) {
+    const safariVoicePreference = [
+      /sandy.*english.*us|sandy.*en[-_]?us/i,
+      /flo.*english.*us|flo.*en[-_]?us/i,
+      /reed.*english.*us|reed.*en[-_]?us/i,
+      /shelley.*english.*us|shelley.*en[-_]?us/i,
+      /eddy.*english.*us|eddy.*en[-_]?us/i,
+      /ava|allison|zoe|samantha|alex|enhanced|premium|natural/i
+    ];
+    const usableVoices = voices.filter(voice => !isNoveltySpeechVoice(getSpeechVoiceName(voice)));
+    const exactUsVoices = usableVoices.filter(voice => /^en[-_]?us$/i.test(voice.lang || ''));
+    const preferredPool = exactUsVoices.length ? exactUsVoices : usableVoices;
+    for (const pattern of safariVoicePreference) {
+      const match = preferredPool.find(voice => pattern.test(getSpeechVoiceName(voice)));
+      if (match) return match;
+    }
     const clearVoice = voices.find(voice => {
-      const name = `${voice.name || ''} ${voice.voiceURI || ''}`.toLowerCase();
+      const name = getSpeechVoiceName(voice);
       return !isCompressedSpeechVoice(name) && /alex|enhanced|premium|natural|ava|samantha|allison|zoe/.test(name);
     });
-    return clearVoice || voices.find(voice => voice.default && !isCompressedSpeechVoice(`${voice.name || ''} ${voice.voiceURI || ''}`.toLowerCase())) || null;
+    return clearVoice || preferredPool.find(voice => voice.default) || preferredPool[0] || null;
   }
 
   function scoreSpeechVoice(voice) {
-    const name = `${voice.name || ''} ${voice.voiceURI || ''}`.toLowerCase();
+    const name = getSpeechVoiceName(voice);
     const lang = String(voice.lang || '').toLowerCase();
     let score = 0;
     if (lang === 'en-us') score += 80;
@@ -1352,8 +1367,16 @@
     return score;
   }
 
+  function getSpeechVoiceName(voice) {
+    return `${voice && voice.name || ''} ${voice && voice.voiceURI || ''}`.toLowerCase();
+  }
+
   function isCompressedSpeechVoice(name) {
-    return /compact|novelty|whisper|zarvox|bells|boing|bubbles|cellos|deranged|hysterical|trinoids/.test(name);
+    return /compact|novelty/.test(name) || isNoveltySpeechVoice(name);
+  }
+
+  function isNoveltySpeechVoice(name) {
+    return /whisper|zarvox|bells|boing|bubbles|cellos|deranged|hysterical|trinoids|albert|bad news|bahh|fred|good news|jester|junior|kathy|organ|ralph|superstar|wobble/.test(name);
   }
 
   function getResultMessage(percentage) {

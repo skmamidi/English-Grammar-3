@@ -56,6 +56,9 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['qa:app-shell'], 'node scripts/qa/app-shell-size-budget.js');
   assert.equal(pkg.scripts['qa:app-shell-size'], 'node scripts/qa/app-shell-size-budget.js');
   assert.equal(pkg.scripts['qa:static-assets'], 'node scripts/qa/static-asset-qa.js');
+  assert.equal(pkg.scripts['qa:page-inventory'], 'node scripts/qa/page-inventory.js');
+  assert.equal(pkg.scripts['qa:operational-costs'], 'node scripts/qa/operational-cost-budget.js');
+  assert.equal(pkg.scripts['qa:failure-drills'], 'node scripts/qa/failure-injection-drills.js');
   assert.equal(pkg.scripts['qa:ai-authoring'], 'node scripts/qa/ai-authoring-guardrails-qa.js');
   assert.match(pkg.scripts['qa:content'], /npm run qa:ai-authoring/);
   assert.match(pkg.scripts['test:fast'], /npm run qa:static-assets/);
@@ -70,6 +73,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/progressive-enhancement-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/component-harness\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/components\/status-components\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/components\/control-components\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/secret-scan\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/license-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/guardian-access\.test\.js/);
@@ -79,6 +83,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-health\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-telemetry\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/production-slo-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/failure-injection-drill-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-api-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-service\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/backend-policy-rules\.test\.js/);
@@ -119,10 +124,12 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/browser-launcher\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/offline-cache-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/service-worker-cache\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/visual-state-matrix\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/accessibility-engine-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/design-token-accessibility\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/operations-docs\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/synthetic-monitor-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/operational-cost-budget\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
   assert.match(pkg.scripts['release:manifest'], /generate-release-manifest/);

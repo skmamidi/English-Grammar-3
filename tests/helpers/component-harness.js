@@ -31,6 +31,35 @@ function createComponentHarness() {
     keydown(selector, key) {
       const element = findElementBySelector(state.html, selector);
       recordEvent(state, 'keydown', element, { key });
+    },
+    assertTouchTarget(selector, minSize = 44) {
+      const element = findElementBySelector(state.html, selector);
+      const targetSize = Number(element.attrs['data-min-target']) || 0;
+      if (targetSize < minSize) {
+        throw new Error(`touch_target_too_small:${selector}:${targetSize}<${minSize}`);
+      }
+    },
+    assertFocusVisible(selector) {
+      const element = findElementBySelector(state.html, selector);
+      const className = element.attrs.class || '';
+      if (element.attrs['data-focus-visible'] !== 'true' && !/\bfocus-ring\b/.test(className)) {
+        throw new Error(`focus_not_visible:${selector}`);
+      }
+    },
+    assertNoOverflowText(options = {}) {
+      const maxWordLength = Number(options.maxWordLength) || 32;
+      const offenders = parseElements(state.html)
+        .flatMap(element => element.text.split(/\s+/).filter(Boolean))
+        .filter(word => word.length > maxWordLength);
+      if (offenders.length) {
+        throw new Error(`overflow_text:${offenders.slice(0, 3).join(',')}`);
+      }
+    },
+    assertNoUnsafeCopy() {
+      const unsafePattern = /\b(learnerId|studentId|token|authToken|prompt|choices|answer|explanation|stack|private key)\b/i;
+      if (unsafePattern.test(state.html)) {
+        throw new Error('unsafe_component_copy');
+      }
     }
   };
 }
@@ -59,6 +88,10 @@ function findElementBySelector(html, selector) {
 }
 
 function parseElements(html) {
+  return parseElementFragment(String(html || ''));
+}
+
+function parseElementFragment(html) {
   const elements = [];
   const pattern = /<([a-z0-9-]+)([^>]*)>([\s\S]*?)<\/\1>/gi;
   let match;
@@ -73,8 +106,10 @@ function parseElements(html) {
       role,
       text,
       accessibleName: attrs['aria-label'] || text,
-      eventName: attrs['data-event'] || ''
+      eventName: attrs['data-event'] || '',
+      attrs
     });
+    elements.push(...parseElementFragment(match[3]));
   }
   return elements;
 }
@@ -92,6 +127,7 @@ function parseAttributes(source) {
 function implicitRole(tag) {
   if (tag === 'button') return 'button';
   if (tag === 'a') return 'link';
+  if (tag === 'select') return 'combobox';
   return '';
 }
 

@@ -1,4 +1,6 @@
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const test = require('node:test');
 
 const {
@@ -13,6 +15,8 @@ const {
 const {
   summarizeRequestMetrics
 } = require('./helpers/request-metrics');
+
+const repoRoot = path.resolve(__dirname, '..');
 
 test('operational cost budget policy defines required production cost dimensions', () => {
   const result = validateOperationalCostBudgetPolicy(DEFAULT_OPERATIONAL_COST_BUDGET_POLICY);
@@ -146,4 +150,24 @@ test('operational cost diagnostics sanitizer removes learner and question payloa
       syncPayloadBytes: 40
     }
   });
+});
+
+test('operational cost budget docs explain release review and privacy limits', () => {
+  const docs = fs.readFileSync(path.join(repoRoot, 'docs', 'performance', 'operational-cost-budgets.md'), 'utf8');
+  const checklist = fs.readFileSync(path.join(repoRoot, 'docs', 'release-checklist.md'), 'utf8');
+
+  [
+    'Request count',
+    'Chunk bytes',
+    'Cache storage bytes',
+    'Telemetry volume bytes',
+    'Selection API work',
+    'Sync payload bytes'
+  ].forEach(label => assert.match(docs, new RegExp(label)));
+
+  assert.match(docs, /npm run qa:operational-costs/);
+  assert.match(docs, /must not include learner identifiers/i);
+  assert.match(docs, /question text, answer choices, explanations/i);
+  assert.match(checklist, /npm run qa:operational-costs/);
+  assert.match(checklist, /docs\/performance\/operational-cost-budgets\.md/);
 });

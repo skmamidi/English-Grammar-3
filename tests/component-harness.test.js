@@ -20,3 +20,15 @@ test('component harness simulates clicks keyboard and captures emitted events', 
   assert.deepEqual(harness.events.map(event => event.type), ['click', 'keydown']);
   assert.deepEqual(harness.emitted.map(event => event.name), ['save', 'save']);
 });
+
+test('component harness checks focus target attributes overflow and unsafe copy', () => {
+  const harness = createComponentHarness();
+  harness.render('<button type="button" class="focus-ring" data-min-target="44" aria-label="Open report">Open</button>');
+
+  const button = harness.getByRole('button', { name: 'Open report' });
+  assert.equal(button.attrs.type, 'button');
+  harness.assertTouchTarget('button', 44);
+  harness.assertFocusVisible('button');
+  harness.assertNoOverflowText({ maxWordLength: 24 });
+  harness.assertNoUnsafeCopy();
+});

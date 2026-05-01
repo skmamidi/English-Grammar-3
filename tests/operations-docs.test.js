@@ -44,6 +44,7 @@ test('operations index links every required runbook', () => {
   });
   assert.match(index, /\(production-slos\.md\)/, 'README.md should link production SLO policy');
   assert.match(index, /\(synthetic-monitors\.md\)/, 'README.md should link synthetic monitor guide');
+  assert.match(index, /\(failure-injection-drills\.md\)/, 'README.md should link failure-injection drill guide');
 });
 
 test('release checklist links operational runbooks for incident response', () => {
@@ -115,8 +116,30 @@ test('synthetic monitor docs describe critical flows privacy and runner commands
   assert.match(source, /docs\/operations\/runbook-selection-api-failure\.md/);
 });
 
+test('failure-injection drill docs describe dependency modes and safe commands', () => {
+  const source = readOperationDoc('failure-injection-drills.md');
+
+  [
+    'Stale manifest',
+    'Bad signature',
+    'Selection API downtime',
+    'Quota pressure',
+    'Auth/session outage',
+    'Learner sync conflict',
+    'Telemetry endpoint failure'
+  ].forEach(label => {
+    assert.match(source, new RegExp(escapeRegExp(label)), `failure-injection-drills.md should document ${label}`);
+  });
+
+  assert.match(source, /npm run qa:failure-drills/);
+  assert.match(source, /node --test tests\/failure-injection-drill-policy\.test\.js/);
+  assert.match(source, /must not use live learner credentials/i);
+  assert.match(source, /must not mutate learner records/i);
+  assert.match(source, /docs\/operations\/runbook-bad-selection-signature\.md/);
+});
+
 test('operations docs avoid private-key token and credential examples', () => {
-  requiredRunbooks.concat(['README.md', 'release-and-rollback.md', 'backup-restore.md', 'production-slos.md', 'synthetic-monitors.md']).forEach(file => {
+  requiredRunbooks.concat(['README.md', 'release-and-rollback.md', 'backup-restore.md', 'production-slos.md', 'synthetic-monitors.md', 'failure-injection-drills.md']).forEach(file => {
     const source = readOperationDoc(file);
     assert.doesNotMatch(source, /-----BEGIN (RSA |EC |OPENSSH |)PRIVATE KEY-----/i, `${file} must not include private keys`);
     assert.doesNotMatch(source, /\b(AIza[0-9A-Za-z_-]{20,}|ghp_[0-9A-Za-z]{20,}|sk-[0-9A-Za-z]{20,})\b/, `${file} must not include token-looking examples`);

@@ -4,6 +4,142 @@
   "findings": [
     {
       "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".correct-exp",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".correct-exp > strong",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".feedback-title",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(1)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(1) > strong",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(2)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(2) > strong",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(4)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(4) > strong",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".study-aid > p:nth-child(2)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".study-aid > p:nth-child(3)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".study-aid-title",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "a[target=\"_blank\"]",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "p:nth-child(2) > .label",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "p:nth-child(3) > .label",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "p:nth-child(4) > .label",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "summary",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
       "ruleId": "heading-order",
       "impact": "moderate",
       "selector": "h3",
@@ -11,7 +147,144 @@
       "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=axeAPI"
     }
   ],
-  "failures": [],
+  "failures": [
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".correct-exp",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".correct-exp > strong",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".feedback-title",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(1)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(1) > strong",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(2)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(2) > strong",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(4)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".incorrect-exp.choice-explanation:nth-child(4) > strong",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".study-aid > p:nth-child(2)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".study-aid > p:nth-child(3)",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": ".study-aid-title",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "a[target=\"_blank\"]",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "p:nth-child(2) > .label",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "p:nth-child(3) > .label",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "p:nth-child(4) > .label",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "page": "Question feedback",
+      "ruleId": "color-contrast",
+      "impact": "serious",
+      "selector": "summary",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    }
+  ],
   "warnings": [
     {
       "page": "Question feedback",

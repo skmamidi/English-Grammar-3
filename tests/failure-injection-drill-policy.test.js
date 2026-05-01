@@ -78,7 +78,13 @@ test('failure drill validation rejects unsafe or incomplete definitions', () => 
     'unsafe_drill must not require live credentials',
     'unsafe_drill must not capture payloads',
     'unsafe_drill outputFields include unsafe field learnerId',
-    'unsafe_drill outputFields include unsafe field rawStackTrace'
+    'unsafe_drill outputFields include unsafe field rawStackTrace',
+    'missing required failure mode bad_signature',
+    'missing required failure mode selection_api_downtime',
+    'missing required failure mode quota_pressure',
+    'missing required failure mode auth_session_outage',
+    'missing required failure mode learner_sync_conflict',
+    'missing required failure mode telemetry_endpoint_failure'
   ]);
 });
 

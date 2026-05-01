@@ -4,16 +4,16 @@
   "screenshotOnlyDrift": true,
   "byteDelta": 848,
   "actual": {
-    "screenshotSha256": "dc069302191ea707b48354932cbfee15a0da875dd9204829b580d30a7f86f262",
-    "screenshotBytes": 64511
-  },
-  "expected": {
     "screenshotSha256": "9bde9bbe1fb7ceaca70f79dce718f04f337494a78b785ee825471f034c5f14f2",
     "screenshotBytes": 65359
   },
+  "expected": {
+    "screenshotSha256": "dc069302191ea707b48354932cbfee15a0da875dd9204829b580d30a7f86f262",
+    "screenshotBytes": 64511
+  },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.117",
+    "browserVersion": "147.0.7727.15",
     "platform": "darwin",
     "viewport": {
       "width": 1280,
@@ -23,7 +23,7 @@
   },
   "baselineRuntime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.15",
+    "browserVersion": "147.0.7727.138",
     "platform": "darwin",
     "viewport": {
       "width": 1280,

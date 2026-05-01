@@ -1233,7 +1233,7 @@
 
   function createWordPlaybackText(text) {
     const word = String(text || '').trim();
-    return word ? `Listen. ${word}. ${word}.` : '';
+    return word ? `${word}. ${word}.` : '';
   }
 
   function cancelSpeechPlayback() {
@@ -1266,24 +1266,40 @@
   }
 
   function getSpeechPlaybackProfile() {
-    const mobileSafari = isMobileSafari();
+    const safari = isSafariBrowser();
+    const mobileSafari = safari && isMobileSafari();
+    if (safari) {
+      return {
+        wordRate: 0.96,
+        slowWordRate: mobileSafari ? 0.88 : 0.86,
+        syllableRate: mobileSafari ? 0.84 : 0.82,
+        repeatRate: 0.92,
+        syllableGapMs: mobileSafari ? 420 : 340,
+        pitch: 1
+      };
+    }
     return {
-      wordRate: mobileSafari ? 0.84 : 0.78,
-      slowWordRate: mobileSafari ? 0.72 : 0.62,
-      syllableRate: mobileSafari ? 0.68 : 0.58,
-      repeatRate: mobileSafari ? 0.76 : 0.68,
-      syllableGapMs: mobileSafari ? 360 : 240,
-      pitch: mobileSafari ? 1 : 1.04
+      wordRate: 0.78,
+      slowWordRate: 0.62,
+      syllableRate: 0.58,
+      repeatRate: 0.68,
+      syllableGapMs: 240,
+      pitch: 1.04
     };
   }
 
   function isMobileSafari() {
     const userAgent = navigator.userAgent || '';
-    const vendor = navigator.vendor || '';
     const isiOS = /iPad|iPhone|iPod/.test(userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-    const isWebKit = /Apple/.test(vendor) && /Safari/i.test(userAgent);
-    const isOtherIOSBrowser = /CriOS|FxiOS|EdgiOS|OPiOS/i.test(userAgent);
-    return isiOS && isWebKit && !isOtherIOSBrowser;
+    return isiOS && isSafariBrowser();
+  }
+
+  function isSafariBrowser() {
+    const userAgent = navigator.userAgent || '';
+    const vendor = navigator.vendor || '';
+    const isAppleWebKit = /Apple/i.test(vendor) && /Safari/i.test(userAgent);
+    const isOtherBrowser = /CriOS|FxiOS|Edg|EdgiOS|OPR|OPiOS|Chrome|Chromium|Firefox/i.test(userAgent);
+    return isAppleWebKit && !isOtherBrowser;
   }
 
   function prepareSpeechVoices() {
@@ -1305,10 +1321,21 @@
     if (!('speechSynthesis' in window)) return null;
     const voices = window.speechSynthesis.getVoices();
     if (!voices.length) return null;
-    preferredSpeechVoice = voices
+    const rankedVoices = voices
       .filter(voice => /^en(-|_)?/i.test(voice.lang || ''))
-      .sort((a, b) => scoreSpeechVoice(b) - scoreSpeechVoice(a))[0] || null;
+      .sort((a, b) => scoreSpeechVoice(b) - scoreSpeechVoice(a));
+    preferredSpeechVoice = isSafariBrowser()
+      ? getPreferredSafariSpeechVoice(rankedVoices)
+      : rankedVoices[0] || null;
     return preferredSpeechVoice;
+  }
+
+  function getPreferredSafariSpeechVoice(voices) {
+    const clearVoice = voices.find(voice => {
+      const name = `${voice.name || ''} ${voice.voiceURI || ''}`.toLowerCase();
+      return !isCompressedSpeechVoice(name) && /alex|enhanced|premium|natural|ava|samantha|allison|zoe/.test(name);
+    });
+    return clearVoice || voices.find(voice => voice.default && !isCompressedSpeechVoice(`${voice.name || ''} ${voice.voiceURI || ''}`.toLowerCase())) || null;
   }
 
   function scoreSpeechVoice(voice) {
@@ -1321,8 +1348,12 @@
     if (voice.localService) score += 8;
     if (voice.default) score += 5;
     if (/samantha|alex|ava|allison|zoe|karen|moira|tessa|victoria|nicky|eddy|reed|shelley|siri|google us english|microsoft (aria|jenny|guy)|natural|premium|enhanced/.test(name)) score += 20;
-    if (/compact|novelty|whisper|zarvox|bells|boing|bubbles|cellos|deranged|hysterical|trinoids/.test(name)) score -= 80;
+    if (isCompressedSpeechVoice(name)) score -= 80;
     return score;
+  }
+
+  function isCompressedSpeechVoice(name) {
+    return /compact|novelty|whisper|zarvox|bells|boing|bubbles|cellos|deranged|hysterical|trinoids/.test(name);
   }
 
   function getResultMessage(percentage) {

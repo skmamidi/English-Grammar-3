@@ -25,7 +25,7 @@
     architect: { speech: "architect", slow: ["arc", "uh", "tect"], stressIndex: 0 },
     beautiful: { speech: "beautiful", slow: ["byoo", "ti", "ful"], stressIndex: 0 },
     brought: { speech: "brought", slow: ["brawt"] },
-    bureau: { speech: "bureau", slow: ["byoo", "roh"], stressIndex: 0 },
+    bureau: { speech: "byoo roh", slow: ["byoo", "roh"], stressIndex: 0 },
     business: { speech: "business", slow: ["biz", "ness"], stressIndex: 0 },
     campaign: { speech: "campaign", slow: ["cam", "pain"], stressIndex: 1 },
     character: { speech: "character", slow: ["care", "ick", "ter"], stressIndex: 0 },
@@ -985,17 +985,63 @@
         ${renderPatternSummary(patternSummary)}
         ${renderMissedWords(missed)}
         <div class="controls" style="justify-content:center;">
+          ${missed.length ? '<button class="btn btn-secondary" id="retry-missed-spelling" type="button">Retry Missed Words</button>' : ''}
           <button class="btn btn-primary" id="restart-spelling">Try Again</button>
           <a href="../../index.html" class="btn btn-secondary">All Topics</a>
         </div>
       </div>
     `;
 
+    const retryButton = document.getElementById('retry-missed-spelling');
+    if (retryButton) {
+      retryButton.addEventListener('click', retryMissedWords);
+    }
     document.getElementById('restart-spelling').addEventListener('click', () => {
       reset();
       endAssessmentGuard();
       renderStart();
     });
+  }
+
+  function retryMissedWords() {
+    const retryWords = getRetryWordsFromResults();
+    if (!retryWords.length) return;
+    state.words = retryWords;
+    state.index = 0;
+    state.score = 0;
+    state.combo = 0;
+    state.answered = false;
+    state.hintLevel = 0;
+    state.results = [];
+    state.selectedCount = retryWords.length;
+    state.sessionStartedAt = Date.now();
+    state.questionStartedAt = 0;
+    saveActiveSpellingLab({ currentIndex: 0 });
+    startAssessmentGuard();
+    renderQuestion();
+  }
+
+  function getRetryWordsFromResults(results = state.results, words = state.words) {
+    const originalWords = new Map((words || []).map(word => [getWordAttemptId(word), word]));
+    return (results || [])
+      .filter(result => result && result.correct === false)
+      .map(result => originalWords.get(result.id) || getRetryWordFromResult(result))
+      .filter(Boolean);
+  }
+
+  function getRetryWordFromResult(result) {
+    if (!result || !result.word) return null;
+    return {
+      word: result.word,
+      clue: result.clue || '',
+      sentence: result.sentence || '',
+      patterns: Array.isArray(result.patterns) ? result.patterns : [],
+      syllables: result.syllables || result.word,
+      pronunciation: result.pronunciation || '',
+      pronunciationSyllables: Array.isArray(result.pronunciationSyllables) ? result.pronunciationSyllables : [],
+      memory: result.memory || '',
+      difficulty: result.difficulty || 'medium'
+    };
   }
 
   function startAssessmentGuard() {
@@ -1174,13 +1220,9 @@
     if (!('speechSynthesis' in window)) return;
     cancelSpeechPlayback();
     const pronunciation = getPronunciationProfile(word);
-    const text = createWordPlaybackText(pronunciation.speech);
-    if (!text) return;
-    const profile = getSpeechPlaybackProfile();
-    speakUtteranceSequence([
-      createUtterance(text, options),
-      createUtterance(text, options)
-    ], profile.repeatGapMs);
+    const playback = createWordPlaybackPlan(pronunciation.speech, options);
+    if (!playback.texts.length) return;
+    speakUtteranceSequence(playback.texts.map(text => createUtterance(text, playback.options)), playback.gapMs);
   }
 
   function getPronunciationProfile(word) {
@@ -1242,6 +1284,16 @@
   function createWordPlaybackText(text) {
     const word = String(text || '').trim();
     return word;
+  }
+
+  function createWordPlaybackPlan(text, options = {}) {
+    const word = createWordPlaybackText(text);
+    const profile = getSpeechPlaybackProfile();
+    return {
+      texts: word ? [word, word] : [],
+      gapMs: profile.repeatGapMs,
+      options
+    };
   }
 
   function cancelSpeechPlayback() {
@@ -1863,4 +1915,12 @@
     div.textContent = String(text);
     return div.innerHTML;
   }
+
+  window.GrammarQuestSpellingLabTestApi = {
+    createWordPlaybackPlanForTest: createWordPlaybackPlan,
+    getPronunciationProfileForTest: getPronunciationProfile,
+    getPreferredSafariSpeechVoiceForTest: getPreferredSafariSpeechVoice,
+    getRetryWordsFromResultsForTest: getRetryWordsFromResults,
+    isNoveltySpeechVoiceForTest: isNoveltySpeechVoice
+  };
 })();

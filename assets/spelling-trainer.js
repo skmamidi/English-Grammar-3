@@ -1171,8 +1171,16 @@
   }
 
   function speakWord(word, options = {}) {
+    if (!('speechSynthesis' in window)) return;
+    cancelSpeechPlayback();
     const pronunciation = getPronunciationProfile(word);
-    speakText(createWordPlaybackText(pronunciation.speech), options);
+    const text = createWordPlaybackText(pronunciation.speech);
+    if (!text) return;
+    const profile = getSpeechPlaybackProfile();
+    speakUtteranceSequence([
+      createUtterance(text, options),
+      createUtterance(text, options)
+    ], profile.repeatGapMs);
   }
 
   function getPronunciationProfile(word) {
@@ -1233,7 +1241,7 @@
 
   function createWordPlaybackText(text) {
     const word = String(text || '').trim();
-    return word ? `${word}. ${word}.` : '';
+    return word;
   }
 
   function cancelSpeechPlayback() {
@@ -1274,6 +1282,7 @@
         slowWordRate: mobileSafari ? 0.94 : 0.92,
         syllableRate: mobileSafari ? 0.9 : 0.88,
         repeatRate: 1,
+        repeatGapMs: mobileSafari ? 680 : 620,
         syllableGapMs: mobileSafari ? 420 : 340,
         pitch: 1
       };
@@ -1283,6 +1292,7 @@
       slowWordRate: 0.62,
       syllableRate: 0.58,
       repeatRate: 0.68,
+      repeatGapMs: 520,
       syllableGapMs: 240,
       pitch: 1.04
     };

@@ -359,7 +359,10 @@
     const offline = window.GRAMMAR_QUEST_OFFLINE_CHUNK_MISSING
       || (typeof navigator !== 'undefined' && navigator.onLine === false);
     const quotaPressure = window.GRAMMAR_QUEST_CACHE_QUOTA_EXCEEDED === true;
-    const message = offline && quotaPressure
+    const requiredChunkFailed = window.GRAMMAR_QUEST_REQUIRED_CHUNK_FAILED === true;
+    const message = requiredChunkFailed
+      ? 'A required question file could not load. Refresh the page while online, or return to the topic and try again.'
+      : offline && quotaPressure
       ? 'This quiz is unavailable offline because device storage is full and cached questions may have been cleared. Reconnect and try again.'
       : offline
       ? 'This quiz is unavailable offline until its questions have been loaded once. Reconnect and try again.'

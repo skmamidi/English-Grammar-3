@@ -161,7 +161,7 @@
     return Promise.all([
       window.GrammarQuestSelectionCore ? Promise.resolve() : loadScriptOnce('../../assets/quiz-selection-core.js'),
       window.GrammarQuestSelectionIntegrity ? Promise.resolve() : loadScriptOnce('../../assets/question-selection-integrity.js'),
-      window.GrammarQuestSelectionTelemetry ? Promise.resolve() : loadScriptOnce('../../assets/question-selection-telemetry.js'),
+      window.GrammarQuestSelectionTelemetry ? Promise.resolve() : loadOptionalScript('telemetry', '../../assets/question-selection-telemetry.js'),
       window.GrammarQuestQuestionLoader ? Promise.resolve() : loadScriptOnce('../../assets/question-loader.js')
     ])
       .then(() => window.GrammarQuestQuizDomain ? Promise.resolve() : loadScriptOnce('../../assets/quiz-domain.js'))
@@ -274,6 +274,26 @@
       script.onerror = () => reject(new Error(`Failed to load ${src}`));
       document.body.appendChild(script);
     });
+  }
+
+  function loadOptionalScript(feature, src) {
+    return loadScriptOnce(src).catch(error => {
+      dispatchEnhancementFailure(feature, error);
+      console.warn(`Optional ${feature} feature skipped.`, error);
+    });
+  }
+
+  function dispatchEnhancementFailure(feature, error) {
+    if (!window.dispatchEvent || typeof CustomEvent !== 'function') return;
+    try {
+      window.dispatchEvent(new CustomEvent('grammarquest:progressive-enhancement-failure', {
+        detail: {
+          feature,
+          fatal: false,
+          code: 'optional_feature_unavailable'
+        }
+      }));
+    } catch (dispatchError) {}
   }
 
   function scheduleTopicIndexPreload(subtopics) {

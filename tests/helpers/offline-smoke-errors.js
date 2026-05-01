@@ -1,5 +1,7 @@
 'use strict';
 
+const progressiveEnhancement = require('../../assets/progressive-enhancement-domain');
+
 function isAllowedOfflineSmokeResourceNoise(error) {
   const url = getErrorUrl(error);
   try {
@@ -25,8 +27,14 @@ function isExpectedOfflineResourceError(error, options = {}) {
 function formatOfflineSmokeResourceErrors(errors, options = {}) {
   return (Array.isArray(errors) ? errors : [])
     .filter(error => !isAllowedOfflineSmokeResourceNoise(error))
+    .filter(error => !isAllowedOptionalFeatureFailure(error, options))
     .filter(error => !isExpectedOfflineResourceError(error, options))
     .map(formatResourceError);
+}
+
+function isAllowedOptionalFeatureFailure(error, options = {}) {
+  return options.allowOptionalFeatureFailures === true &&
+    progressiveEnhancement.isOptionalFeatureFailure(error);
 }
 
 function formatResourceError(error) {

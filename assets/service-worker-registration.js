@@ -20,6 +20,8 @@
     });
     navigator.serviceWorker.register(workerUrl, { scope: '/' }).catch(error => {
       console.warn('Grammar Quest service worker registration failed.', error);
+      renderServiceWorkerFallback();
+      dispatchRegistrationFailure();
     });
   });
 
@@ -38,5 +40,29 @@
         detail: { unavailable: true }
       }));
     }
+  }
+
+  function renderServiceWorkerFallback() {
+    if (!document || !document.body || document.querySelector('[data-progressive-enhancement="service-worker-registration"]')) return;
+    const banner = document.createElement('div');
+    banner.className = 'shell-banner shell-banner-error';
+    banner.setAttribute('role', 'status');
+    banner.setAttribute('aria-live', 'polite');
+    banner.setAttribute('data-progressive-enhancement', 'service-worker-registration');
+    banner.textContent = 'Offline support is unavailable. Online practice can continue.';
+    document.body.insertBefore(banner, document.body.firstChild);
+  }
+
+  function dispatchRegistrationFailure() {
+    if (!window.dispatchEvent || typeof CustomEvent !== 'function') return;
+    try {
+      window.dispatchEvent(new CustomEvent('grammarquest:progressive-enhancement-failure', {
+        detail: {
+          feature: 'service-worker-registration',
+          fatal: false,
+          code: 'optional_feature_unavailable'
+        }
+      }));
+    } catch (error) {}
   }
 })();

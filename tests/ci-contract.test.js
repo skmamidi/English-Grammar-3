@@ -44,6 +44,8 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['test:visual'], 'node tests/visual-regression.spec.js');
   assert.equal(pkg.scripts['test:perf'], 'node tests/runtime-performance-smoke.spec.js');
   assert.equal(pkg.scripts['test:ui:teardown'], 'QA_UI_TEARDOWN_DEBUG=1 node tests/ui-smoke.spec.js');
+  assert.equal(pkg.scripts['test:progressive'], 'node tests/progressive-enhancement-smoke.spec.js');
+  assert.match(pkg.scripts['test:full'], /npm run test:progressive/);
   assert.equal(pkg.scripts['test:browser:cross'], 'node tests/cross-browser-smoke.spec.js');
   assert.equal(pkg.scripts['test:api:perf'], 'STRICT_PERF_BUDGETS=1 node --test tests/question-selection-api-budget.test.js');
   assert.equal(pkg.scripts['test:rules'], 'node --test tests/backend-policy-rules.test.js');
@@ -60,6 +62,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/app-shell-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/runtime-performance-probe\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/page-shell\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/progressive-enhancement-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/component-harness\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/components\/status-components\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/secret-scan\.test\.js/);

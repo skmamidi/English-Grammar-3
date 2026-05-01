@@ -52,3 +52,14 @@ test('offline smoke permits offline chunk failures only for expected fallback ca
     '503 http://127.0.0.1:4193/assets/question-chunks/grammar/grammar-run-on-sentences.js'
   ]);
 });
+
+test('offline smoke can ignore optional progressive-enhancement feature failures without weakening required assets', () => {
+  assert.deepEqual(formatOfflineSmokeResourceErrors([
+    { url: 'http://127.0.0.1:4193/assets/question-selection-telemetry.js', status: 404 },
+    { url: 'http://127.0.0.1:4193/assets/question-preloader.js', status: 404 },
+    { url: 'http://127.0.0.1:4193/assets/auth-service.js', status: 404 },
+    { url: 'http://127.0.0.1:4193/assets/question-loader.js', status: 404 }
+  ], { allowOptionalFeatureFailures: true }), [
+    '404 http://127.0.0.1:4193/assets/question-loader.js'
+  ]);
+});

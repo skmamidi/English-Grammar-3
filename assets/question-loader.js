@@ -490,6 +490,9 @@
       script.onload = () => resolve();
       script.onerror = () => {
         delete loadedPaths[resolvedPath];
+        if (/\/?assets\/question-chunks\//.test(sourcePath) || /\/?assets\/question-chunks\//.test(resolvedPath)) {
+          window.GRAMMAR_QUEST_REQUIRED_CHUNK_FAILED = true;
+        }
         reject(new Error(`Question loader: failed to load "${sourcePath}".`));
       };
       const target = document.head || document.documentElement || document.body;

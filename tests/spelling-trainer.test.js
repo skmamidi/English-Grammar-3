@@ -8,6 +8,11 @@ function loadSpellingLabTestApi() {
   const context = {
     window: {
       SPELLING_WORD_BANK: { title: 'Sound/Symbol Spelling Lab', topic: 'Sound/Symbol Correspondences', questions: [] },
+      SPELLING_AUDIO_MANIFEST: {
+        entries: {
+          snarl: { src: '../../assets/audio/spelling/snarl.wav' }
+        }
+      },
       GrammarQuestProgress: null,
       location: { pathname: '/topics/sound-symbols/index.html', href: 'http://127.0.0.1/topics/sound-symbols/index.html' },
       addEventListener() {},
@@ -69,6 +74,33 @@ function loadSpellingLabTestApi() {
   return context.window.GrammarQuestSpellingLabTestApi;
 }
 
+function loadWordBankAndAudioManifest() {
+  const context = { window: {} };
+  context.window.window = context.window;
+  vm.createContext(context);
+  vm.runInContext(
+    fs.readFileSync(path.join(__dirname, '..', 'assets', 'spelling-word-list.js'), 'utf8'),
+    context,
+    { filename: 'assets/spelling-word-list.js' }
+  );
+  vm.runInContext(
+    fs.readFileSync(path.join(__dirname, '..', 'assets', 'spelling-audio-manifest.js'), 'utf8'),
+    context,
+    { filename: 'assets/spelling-audio-manifest.js' }
+  );
+  return {
+    bank: context.window.SPELLING_WORD_BANK,
+    manifest: context.window.SPELLING_AUDIO_MANIFEST
+  };
+}
+
+function slugify(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 test('word playback uses two clean utterances with a natural Safari repeat gap', () => {
   const api = loadSpellingLabTestApi();
   const plan = api.createWordPlaybackPlanForTest('brilliant');
@@ -78,6 +110,12 @@ test('word playback uses two clean utterances with a natural Safari repeat gap',
   assert.ok(plan.gapMs >= 500, 'repeat gap should not collapse into a single glued utterance');
   assert.ok(plan.texts.every(text => !/^listen\b/i.test(text)), 'word audio should not say listen before the word');
   assert.ok(plan.texts.every(text => !/\.\s+\S+\./.test(text)), 'word audio should not combine both repeats into one utterance');
+});
+
+test('word playback prefers generated audio assets when a manifest entry exists', () => {
+  const api = loadSpellingLabTestApi();
+
+  assert.equal(api.getSpellingAudioEntryForTest({ word: 'snarl' }).src, '../../assets/audio/spelling/snarl.wav');
 });
 
 test('Safari speech voice preference avoids novelty voices and prefers modern US voices', () => {
@@ -114,4 +152,19 @@ test('retry queue includes only words missed on the first attempt', () => {
   ], words);
 
   assert.deepEqual(retryWords.map(word => word.word), ['bureau', 'through']);
+});
+
+test('generated spelling audio manifest covers every spelling lab word', () => {
+  const { bank, manifest } = loadWordBankAndAudioManifest();
+  const words = Array.from(new Set(bank.questions.map(question => slugify(question.word)).filter(Boolean)));
+  const missing = words.filter(key => !manifest.entries[key]);
+  const missingFiles = words.filter(key => {
+    const entry = manifest.entries[key];
+    if (!entry || !entry.src) return false;
+    const localPath = path.join(__dirname, '..', entry.src.replace('../../', ''));
+    return !fs.existsSync(localPath);
+  });
+
+  assert.equal(missing.length, 0, `Missing audio manifest entries: ${missing.slice(0, 10).join(', ')}`);
+  assert.equal(missingFiles.length, 0, `Missing audio files: ${missingFiles.slice(0, 10).join(', ')}`);
 });

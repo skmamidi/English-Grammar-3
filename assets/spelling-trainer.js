@@ -5,6 +5,7 @@
   const root = document.getElementById('spelling-root');
   const progressStore = window.GrammarQuestProgress;
   const assessmentGuard = progressStore && progressStore.activeAssessment;
+  const audioManifest = window.SPELLING_AUDIO_MANIFEST && window.SPELLING_AUDIO_MANIFEST.entries || {};
   const state = {
     words: [],
     index: 0,
@@ -57,6 +58,8 @@
 
   let preferredSpeechVoice = null;
   let speechSequenceTimer = null;
+  let activeWordAudio = null;
+  let audioSequenceId = 0;
 
   const patternInfo = {
     "tricky-sight": {
@@ -1217,12 +1220,56 @@
   }
 
   function speakWord(word, options = {}) {
-    if (!('speechSynthesis' in window)) return;
     cancelSpeechPlayback();
+    const audioEntry = getSpellingAudioEntry(word);
+    if (audioEntry && audioEntry.src) {
+      playWordAudioSequence(audioEntry.src, getSpeechPlaybackProfile().repeatGapMs, () => speakWordWithSpeech(word, options));
+      return;
+    }
+    speakWordWithSpeech(word, options);
+  }
+
+  function speakWordWithSpeech(word, options = {}) {
+    if (!('speechSynthesis' in window)) return;
     const pronunciation = getPronunciationProfile(word);
     const playback = createWordPlaybackPlan(pronunciation.speech, options);
     if (!playback.texts.length) return;
     speakUtteranceSequence(playback.texts.map(text => createUtterance(text, playback.options)), playback.gapMs);
+  }
+
+  function getSpellingAudioEntry(word) {
+    const key = normalize(word && word.word || '');
+    return audioManifest && audioManifest[key] || null;
+  }
+
+  function playWordAudioSequence(src, gapMs, onFallback) {
+    if (typeof Audio !== 'function') {
+      if (typeof onFallback === 'function') onFallback();
+      return;
+    }
+    const sequenceId = ++audioSequenceId;
+    let playCount = 0;
+    const playNext = () => {
+      if (sequenceId !== audioSequenceId || playCount >= 2) return;
+      playCount += 1;
+      const audio = new Audio(src);
+      activeWordAudio = audio;
+      audio.preload = 'auto';
+      audio.onended = () => {
+        if (sequenceId !== audioSequenceId || playCount >= 2) return;
+        speechSequenceTimer = window.setTimeout(playNext, gapMs);
+      };
+      audio.onerror = () => {
+        if (sequenceId === audioSequenceId && playCount === 1 && typeof onFallback === 'function') onFallback();
+      };
+      const playPromise = audio.play();
+      if (playPromise && typeof playPromise.catch === 'function') {
+        playPromise.catch(() => {
+          if (sequenceId === audioSequenceId && playCount === 1 && typeof onFallback === 'function') onFallback();
+        });
+      }
+    };
+    playNext();
   }
 
   function getPronunciationProfile(word) {
@@ -1301,7 +1348,13 @@
       window.clearTimeout(speechSequenceTimer);
       speechSequenceTimer = null;
     }
-    window.speechSynthesis.cancel();
+    audioSequenceId += 1;
+    if (activeWordAudio) {
+      activeWordAudio.pause();
+      activeWordAudio.currentTime = 0;
+      activeWordAudio = null;
+    }
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
   }
 
   function speakUtteranceSequence(utterances, gapMs) {
@@ -1919,6 +1972,7 @@
   window.GrammarQuestSpellingLabTestApi = {
     createWordPlaybackPlanForTest: createWordPlaybackPlan,
     getPronunciationProfileForTest: getPronunciationProfile,
+    getSpellingAudioEntryForTest: getSpellingAudioEntry,
     getPreferredSafariSpeechVoiceForTest: getPreferredSafariSpeechVoice,
     getRetryWordsFromResultsForTest: getRetryWordsFromResults,
     isNoveltySpeechVoiceForTest: isNoveltySpeechVoice

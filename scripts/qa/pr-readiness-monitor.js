@@ -5,6 +5,25 @@ const path = require('node:path');
 
 const VALID_STATUSES = new Set(['ready', 'in_progress', 'completed', 'blocked', 'superseded']);
 const VALID_REVIEW_STATUSES = new Set(['passed', 'failed', 'pending']);
+const ROADMAP_EVIDENCE_ROWS = [{
+  item: 'F-006',
+  evidence: ['8.12']
+}, {
+  item: 'F-007',
+  evidence: ['8.12']
+}, {
+  item: '17.2',
+  evidence: ['10.9']
+}, {
+  item: '17.3',
+  evidence: ['11.1']
+}, {
+  item: '17.4',
+  evidence: ['12.1']
+}, {
+  item: '17.5',
+  evidence: ['6.9']
+}];
 
 function parseArgs(argv) {
   const options = {
@@ -97,6 +116,7 @@ function validateRegistry(registry, rootDir, options = {}) {
   const readyMinimum = registry.policy?.readyPrMinimum ?? 5;
   const roadmapPath = path.join(rootDir, 'docs/milestone-roadmap.md');
   const roadmap = parseRoadmap(fs.readFileSync(roadmapPath, 'utf8'));
+  addRoadmapConsistencyIssues(roadmap, issues);
 
   if (registry.schemaVersion !== 1) {
     issues.push('docs/prs/status.json must use schemaVersion 1.');
@@ -211,6 +231,19 @@ function validateRegistry(registry, rootDir, options = {}) {
     recentCompleted,
     readyPrs,
     requiredReadyCount
+  });
+}
+
+function addRoadmapConsistencyIssues(roadmap, issues) {
+  ROADMAP_EVIDENCE_ROWS.forEach(rule => {
+    const item = roadmap.get(rule.item);
+    if (!item || item.status === '✅') return;
+    const completedEvidence = rule.evidence.filter(number => roadmap.get(number)?.status === '✅');
+    if (completedEvidence.length === rule.evidence.length) {
+      completedEvidence.forEach(number => {
+        issues.push(`roadmap item ${rule.item} is unchecked but evidence item ${number} is checked off.`);
+      });
+    }
   });
 }
 

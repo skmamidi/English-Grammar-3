@@ -7,7 +7,7 @@
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.15",
+    "browserVersion": "147.0.7727.138",
     "platform": "darwin",
     "viewport": {
       "width": 1280,
@@ -15,8 +15,8 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "00e5acbdf333f5b5229313708527293d6cb6f4ed1bcdc469968f69731e31472f",
-  "screenshotBytes": 154310,
+  "screenshotSha256": "698ee20023b02557272b40dc62f404b8d4a940c8c2386e2d2b8437ec09982170",
+  "screenshotBytes": 147031,
   "summary": {
     "title": "Grammar & Usage",
     "semanticTextHash": "-872831398",

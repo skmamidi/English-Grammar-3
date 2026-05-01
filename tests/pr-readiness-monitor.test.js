@@ -6,20 +6,36 @@ const test = require('node:test');
 
 const { validateRegistry } = require('../scripts/qa/pr-readiness-monitor.js');
 
-function makeFixture() {
+function makeFixture(options = {}) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'pr-readiness-'));
   fs.mkdirSync(path.join(root, 'docs/prs'), { recursive: true });
-  fs.writeFileSync(path.join(root, 'docs/milestone-roadmap.md'), [
+  const rows = [
     '| Status | Number | Task | Evidence / Notes |',
     '| --- | --- | --- | --- |',
     '| ✅ | 12.7 | Add privacy consent and telemetry opt-out controls | Done. |',
+    '| ✅ | 6.9 | Add app-wide error and performance telemetry contracts | Done. |',
     '| ⬜ | 6.10 | Add health-check and readiness endpoints for server selection | Todo. |',
     '| ⬜ | 7.9 | Add cross-browser smoke coverage | Todo. |',
     '| ⬜ | 7.10 | Add automated accessibility engine coverage | Todo. |',
     '| ⬜ | 7.11 | Add reduced-motion and high-contrast mode coverage | Todo. |',
+    '| ✅ | 8.12 | Stabilize noisy performance and visual gates | Done. |',
+    '| ✅ | 10.9 | Add import/export for learner progress | Done. |',
+    '| ✅ | 11.1 | Define account-backed learner state adapter contract | Done. |',
+    '| ✅ | 12.1 | Add Content Security Policy and security header plan | Done. |',
     '| ⬜ | 13.5 | Add operational runbooks for common failures | Todo. |',
     ''
-  ].join('\n'));
+  ];
+  if (options.staleSuggestedRows) {
+    rows.splice(rows.length - 1, 0,
+      '| ⬜ | F-006 | Stabilize local API latency budget gate | Todo. |',
+      '| ⬜ | F-007 | Scope visual semantic signatures to reviewed regions | Todo. |',
+      '| ⬜ | 17.2 | Implement learner progress import/export | Todo. |',
+      '| ⬜ | 17.3 | Add backend learner-state adapter contract | Todo. |',
+      '| ⬜ | 17.4 | Add CSP/security header contracts | Todo. |',
+      '| ⬜ | 17.5 | Add app-wide error telemetry contracts | Todo. |'
+    );
+  }
+  fs.writeFileSync(path.join(root, 'docs/milestone-roadmap.md'), rows.join('\n'));
   for (const number of [85, 95, 96, 97, 98, 99]) {
     fs.writeFileSync(path.join(root, `docs/prs/${number}-fixture.md`), `# PR ${number}\n`);
   }
@@ -105,4 +121,16 @@ test('PR readiness monitor requires completed PR roadmap items to be checked off
 
   assert.equal(result.ok, false);
   assert.match(result.issues.join('\n'), /completed but roadmap item 6\.10 is not checked off/);
+});
+
+test('PR readiness monitor fails stale suggested-order rows with completed evidence rows', () => {
+  const root = makeFixture({ staleSuggestedRows: true });
+  const result = validateRegistry(validRegistry(), root, {
+    now: new Date('2026-04-30T12:38:00Z')
+  });
+
+  assert.equal(result.ok, false);
+  assert.match(result.issues.join('\n'), /roadmap item F-006 is unchecked but evidence item 8\.12 is checked off/);
+  assert.match(result.issues.join('\n'), /roadmap item 17\.2 is unchecked but evidence item 10\.9 is checked off/);
+  assert.match(result.issues.join('\n'), /roadmap item 17\.5 is unchecked but evidence item 6\.9 is checked off/);
 });

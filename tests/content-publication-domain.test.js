@@ -51,3 +51,29 @@ test('content publication blocks publish until QA passes and reviewer approval e
   assert.equal(published.status, 'published');
   assert.equal(published.approvals[0].actorId, 'reviewer-1');
 });
+
+test('content publication blocks failed AI authoring guardrails before release', () => {
+  const publication = approvePublication(createPublication({
+    id: 'pub-ai',
+    sourceHash: 'sha256:source',
+    artifactHash: 'sha256:artifact',
+    changedFiles: ['assets/question-bank-source/grammar.json'],
+    aiAuthoringGuardrails: {
+      status: 'failed',
+      errorCount: 2,
+      warningCount: 0,
+      issueCodes: ['ai_review_required', 'ai_source_missing']
+    },
+    qaResults: [{ id: 'content', status: 'passed' }]
+  }), {
+    actorId: 'reviewer-1',
+    role: 'content_reviewer',
+    approvedAt: '2030-04-29T12:00:00.000Z'
+  });
+
+  assert.deepEqual(validatePublication(publication), [
+    'blocking AI authoring guardrail failed: ai_review_required',
+    'blocking AI authoring guardrail failed: ai_source_missing'
+  ]);
+  assert.throws(() => publishPublication(publication), /publication_ai_guardrails_blocking/);
+});

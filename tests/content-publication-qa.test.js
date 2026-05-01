@@ -87,3 +87,76 @@ test('publication governance checks include coverage attribution and license QA'
   assert.equal(aggregate.status, 'passed');
   assert.equal(aggregate.reports['source-attribution'].summary.sourceCount, 1);
 });
+
+test('publication governance checks include AI authoring guardrails when records are present', () => {
+  const checks = buildPublicationGovernanceChecks({
+    sources: [],
+    aiAuthoringRecords: [{
+      questionId: 'grammar-sentence-types-q0123',
+      sourceSet: 'grammar-sentence-types',
+      assistance: {
+        used: true,
+        purpose: 'draft',
+        modelFamily: 'documented-model-family',
+        promptRecordId: 'authoring-prompt-2030-04-29-a',
+        humanReviewed: false,
+        reviewerId: '',
+        reviewedAt: ''
+      },
+      sourceAttribution: {
+        sourceFile: 'grammar-quest-authored',
+        sourceCategory: 'authored',
+        sourceQuestionNumber: 'original',
+        licenseStatus: 'allowed'
+      },
+      guardrails: {
+        sourceAttributionChecked: true,
+        standardsClaimChecked: true,
+        duplicateCheckPassed: true,
+        biasSafetyChecked: true,
+        explanationQualityChecked: true
+      }
+    }]
+  });
+
+  assert.ok(checks.some(check => check.id === 'ai-authoring-guardrails'));
+  const aggregate = aggregatePublicationQa({ checks });
+  assert.equal(aggregate.status, 'failed');
+  assert.ok(aggregate.blocking.some(item => item.id === 'ai-authoring-guardrails'));
+  assert.equal(aggregate.reports['ai-authoring-guardrails'].errors[0].code, 'ai_review_required');
+});
+
+test('publication governance checks block unresolved source remediation findings when required', () => {
+  const checks = buildPublicationGovernanceChecks({
+    requireSourceRemediation: true,
+    sources: [{
+      domain: 'grammar',
+      sets: {
+        'grammar-set': {
+          questions: [{
+            id: 'q1',
+            metadata: {
+              sourceFile: 'allowed-source.pdf'
+            }
+          }]
+        }
+      }
+    }],
+    sourceLicensePolicy: {
+      sources: [{
+        id: 'allowed',
+        pattern: '*.pdf',
+        allowedUse: 'reviewed practice',
+        attributionRequired: true,
+        publicationAllowed: true,
+        reviewer: 'content-review'
+      }]
+    }
+  });
+
+  const sourceLicense = checks.find(check => check.id === 'source-license');
+  assert.equal(sourceLicense.errors[0].ruleId, 'source-remediation-required');
+  const aggregate = aggregatePublicationQa({ checks });
+  assert.equal(aggregate.status, 'failed');
+  assert.equal(aggregate.reports['source-license'].remediation.summary.openCount, 1);
+});

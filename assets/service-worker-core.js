@@ -17,6 +17,7 @@
     '/assets/styles.css',
     '/assets/theme.js',
     '/assets/question-manifest.js',
+    '/assets/static-asset-manifest.json',
     '/assets/question-selection-integrity.js',
     '/assets/question-preload-policy.js',
     '/assets/question-preloader.js',

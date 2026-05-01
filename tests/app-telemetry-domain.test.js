@@ -69,3 +69,35 @@ test('app telemetry domain accepts runtime performance smoke metrics as privacy-
   assert.equal(JSON.stringify(event).includes('Hidden Name'), false);
   assert.equal(JSON.stringify(event).includes('Raw prompt'), false);
 });
+
+test('app telemetry domain accepts bounded goal-card interactions only', () => {
+  const event = normalizeAppTelemetryEvent({
+    type: 'goal_card_interaction',
+    route: '/guardian-dashboard.html?learnerId=secret',
+    category: 'Goal card clicked',
+    severity: 'info',
+    interaction: {
+      kind: 'click',
+      cardId: 'today_progress',
+      band: 'review_due',
+      roleView: 'parent_guardian',
+      learnerId: 'learner-1',
+      rawCount: 17
+    },
+    question: 'Raw prompt'
+  }, {
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+
+  assert.equal(event.type, 'goal_card_interaction');
+  assert.equal(event.route, '/guardian-dashboard.html');
+  assert.deepEqual(event.interaction, {
+    band: 'review_due',
+    cardId: 'today_progress',
+    kind: 'click',
+    roleView: 'parent_guardian'
+  });
+  assert.equal(JSON.stringify(event).includes('learner-1'), false);
+  assert.equal(JSON.stringify(event).includes('Raw prompt'), false);
+  assert.equal(JSON.stringify(event).includes('rawCount'), false);
+});

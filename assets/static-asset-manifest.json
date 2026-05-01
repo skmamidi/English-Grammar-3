@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "strategy": "static-asset-inventory",
+  "files": [],
+  "totals": {
+    "totalBytes": 0,
+    "imageBytes": 0,
+    "iconBytes": 0,
+    "fontBytes": 0
+  },
+  "budgets": {
+    "imageFile": {
+      "warnBytes": 122880,
+      "failBytes": 225280
+    },
+    "imageTotal": {
+      "warnBytes": 716800,
+      "failBytes": 1048576
+    },
+    "iconFile": {
+      "warnBytes": 12288,
+      "failBytes": 24576
+    },
+    "iconTotal": {
+      "warnBytes": 65536,
+      "failBytes": 98304
+    },
+    "fontFile": {
+      "warnBytes": 61440,
+      "failBytes": 92160
+    },
+    "fontTotal": {
+      "warnBytes": 122880,
+      "failBytes": 184320
+    },
+    "criticalShellCacheTotal": {
+      "warnBytes": 768000,
+      "failBytes": 921600
+    }
+  }
+}

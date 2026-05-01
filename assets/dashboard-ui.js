@@ -42,6 +42,7 @@
       roleView,
       now: new Date().toISOString()
     }));
+    const telemetry = createGoalTelemetry(repository, source);
     root.innerHTML = `
       <section class="report-kpis" aria-label="Learner summary">
         ${kpi('Practice', projection.summary.recentPracticeCount)}
@@ -52,13 +53,16 @@
         ${kpi('Open reports', projection.summary.openQuestionReportCount)}
       </section>
       <section class="reports-board dashboard-grid" aria-label="Learning dashboard cards">
-        ${card('Goals', projection.goalHighlights, item => `${escapeHtml(item.label)} <span>${escapeHtml(item.current)} / ${escapeHtml(item.target)}${item.met ? ' met' : ''}</span>`)}
+        ${goalProjectionCard(projection.goalProjection, projection.nextGoalAction)}
+        ${card('Goals', projection.goalHighlights, item => `${escapeHtml(item.label)} <span>${escapeHtml(item.current)} / ${escapeHtml(item.target)}${item.met ? ' met' : ''} · ${escapeHtml(item.message)}</span>`)}
         ${card('Skill priorities', projection.skillHighlights, item => `${escapeHtml(item.label)} <span>${escapeHtml(item.message)}</span>`)}
         ${card('Assignments', projection.assignmentHighlights, item => `${escapeHtml(item.title)} <span>${escapeHtml(item.status)}</span>`)}
         ${card('Review queue', projection.reviewHighlights, item => `${escapeHtml(item.questionRef.id)} <span>${escapeHtml(item.reason || 'due')}</span>`)}
         ${card('Question reports', projection.questionReportHighlights, item => `${escapeHtml(item.reportId)} <span>${escapeHtml(item.status)}</span>`)}
         ${card('Recommended next', projection.recommendationHighlights, item => `${escapeHtml(item.skillId)} <span>${escapeHtml(item.reasonLabel)}</span>`)}
+        ${card('Reminder preview', projection.goalNotificationCandidates || [], item => `${escapeHtml(item.title)} <span>${escapeHtml(item.body)}</span>`)}
       </section>`;
+    attachGoalTelemetry(root, projection.goalProjection, telemetry);
   }
 
   function buildRecommendations(source) {
@@ -106,6 +110,78 @@
       ? items.map(item => `<li>${renderItem(item)}</li>`).join('')
       : '<li>No current items</li>';
     return `<article class="student-report-card"><h2>${escapeHtml(title)}</h2><ul class="dashboard-list">${rows}</ul></article>`;
+  }
+
+  function goalProjectionCard(projection, action) {
+    if (!projection) {
+      return '<article class="student-report-card goal-dashboard-card"><h2>Goal focus</h2><p class="empty-report">No goal summary is available.</p></article>';
+    }
+    const cards = projection.dashboardCards || [];
+    const rows = cards.map(card => `
+      <li>
+        <span>${escapeHtml(card.label)}</span>
+        <strong>${escapeHtml(card.band.replace(/_/g, ' '))}</strong>
+        <small>${escapeHtml(card.message)}</small>
+      </li>`).join('');
+    const next = action || projection.nextSuggestedAction || {};
+    return `
+      <article class="student-report-card goal-dashboard-card" data-goal-card-id="summary" data-goal-band="${escapeHtml(projection.summaryBand)}">
+        <h2>Goal focus</h2>
+        <p class="goal-dashboard-summary">${escapeHtml(projection.summary)}</p>
+        <ul class="goal-dashboard-list">${rows || '<li><span>Goals</span><strong>empty</strong><small>No goal activity yet.</small></li>'}</ul>
+        <button class="secondary-action goal-dashboard-action" type="button" data-goal-card-id="${escapeHtml(next.type || 'summary')}" data-goal-band="${escapeHtml(projection.summaryBand)}">${escapeHtml(next.label || 'Keep going')}</button>
+      </article>`;
+  }
+
+  function createGoalTelemetry(repository, source) {
+    const telemetryApi = window.GrammarQuestAppTelemetry;
+    if (!telemetryApi || typeof telemetryApi.createAppTelemetrySink !== 'function') return null;
+    const config = window.GRAMMAR_QUEST_CONFIG && window.GRAMMAR_QUEST_CONFIG.appTelemetry || {};
+    const preferences = repository && typeof repository.getPrivacyPreferences === 'function'
+      ? repository.getPrivacyPreferences()
+      : {};
+    return telemetryApi.createAppTelemetrySink(Object.assign({}, config, {
+      route: window.location && window.location.pathname || '/',
+      privacyPreferences: preferences,
+      parentPreview: source && source.parentPreview === true || new URLSearchParams(window.location.search).get('parentBrowse') === '1'
+    }));
+  }
+
+  function attachGoalTelemetry(root, projection, telemetry) {
+    if (!projection) return;
+    captureGoalInteraction(telemetry, 'impression', {
+      cardId: 'summary',
+      band: projection.summaryBand
+    });
+    root.querySelectorAll('[data-goal-card-id]').forEach(element => {
+      element.addEventListener('click', () => {
+        captureGoalInteraction(telemetry, 'click', {
+          cardId: element.dataset.goalCardId,
+          band: element.dataset.goalBand || projection.summaryBand
+        });
+      });
+    });
+  }
+
+  function captureGoalInteraction(telemetry, kind, detail) {
+    const event = {
+      type: 'goal_card_interaction',
+      route: window.location && window.location.pathname || '/',
+      category: `goal card ${kind}`,
+      severity: 'info',
+      interaction: {
+        kind,
+        cardId: detail.cardId,
+        band: detail.band,
+        roleView
+      }
+    };
+    if (telemetry && typeof telemetry.capture === 'function') telemetry.capture(event);
+    if (window.dispatchEvent) {
+      window.dispatchEvent(new CustomEvent('grammarquest:goal-card-interaction', {
+        detail: event.interaction
+      }));
+    }
   }
 
   function escapeHtml(value) {

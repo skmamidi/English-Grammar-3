@@ -11,6 +11,8 @@
   const CLOSED_REPORT_STATUSES = new Set(['resolved', 'dismissed', 'closed_no_change']);
   const goalsDomain = root.GrammarQuestLearnerGoalsDomain ||
     (typeof require === 'function' ? require('./learner-goals-domain') : null);
+  const goalProjectionDomain = root.GrammarQuestLearnerGoalProjectionDomain ||
+    (typeof require === 'function' ? require('./learner-goal-projection-domain') : null);
 
   function buildLearningDashboardProjection(input = {}) {
     const learner = input.learner && typeof input.learner === 'object' ? input.learner : {};
@@ -22,6 +24,7 @@
     const questionReports = normalizeQuestionReports(input.questionReports);
     const skillStats = buildSkillStats(sessions, input.taxonomy);
     const goalProgress = buildGoalProgress(input, now);
+    const goalProjection = buildGoalProjection(input, now);
     const summary = {
       recentPracticeCount: sessions.filter(session => isRecent(session.completedAt, now)).length,
       accuracy: calculateAccuracy(sessions),
@@ -38,7 +41,10 @@
       roleView,
       summary,
       skillHighlights: buildSkillHighlights(skillStats, roleView),
-      goalHighlights: goalProgress ? buildGoalHighlights(goalProgress) : [],
+      goalProjection,
+      nextGoalAction: goalProjection ? goalProjection.nextSuggestedAction : null,
+      goalNotificationCandidates: goalProjection ? goalProjection.notificationCandidates : [],
+      goalHighlights: goalProjection ? buildProjectedGoalHighlights(goalProjection) : goalProgress ? buildGoalHighlights(goalProgress) : [],
       assignmentHighlights: assignments
         .filter(item => ['active', 'in_progress'].includes(item.status))
         .slice(0, 5)
@@ -109,6 +115,34 @@
     });
   }
 
+  function buildGoalProjection(input, now) {
+    if (!input.goals || !goalProjectionDomain || typeof goalProjectionDomain.buildLearnerGoalProjection !== 'function') return null;
+    return goalProjectionDomain.buildLearnerGoalProjection({
+      now: new Date(now).toISOString(),
+      learner: input.learner,
+      goals: input.goals,
+      sessions: input.sessions,
+      assignments: input.assignments,
+      reviewQueue: input.reviewQueue,
+      reviewSchedules: input.reviewSchedules
+    });
+  }
+
+  function buildProjectedGoalHighlights(projection) {
+    const cards = {
+      today_progress: goalCard('daily-questions', 'Daily questions', projection.todayProgress),
+      weekly_progress: goalCard('weekly-sessions', 'Weekly sessions', projection.weeklyProgress),
+      streak_status: goalCard('review-streak', 'Review streak', projection.streakStatus),
+      assignment_status: goalCard('assignment-completion', 'Assignment completion', projection.assignmentStatus)
+    };
+    return [
+      cards.today_progress,
+      cards.weekly_progress,
+      cards.streak_status,
+      cards.assignment_status
+    ];
+  }
+
   function buildGoalHighlights(progress) {
     return [
       goalCard('daily-questions', 'Daily questions', progress.dailyQuestions),
@@ -124,7 +158,9 @@
       label,
       current: Number(source.current) || 0,
       target: Number(source.target) || 0,
-      met: source.met === true
+      met: source.met === true,
+      band: safeString(source.band || (source.met === true ? 'on_track' : 'behind_target')),
+      message: safeString(source.message)
     };
   }
 

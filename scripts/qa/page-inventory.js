@@ -41,7 +41,7 @@ function getRepresentativeSubtopicPages(root = repoRoot) {
 }
 
 function getCorePages(root = repoRoot) {
-  return ['index.html', ...getTopicIndexPages(root), 'reports.html', 'settings.html', 'admin-operations.html', 'character-library.html']
+  return ['index.html', ...getTopicIndexPages(root), 'discovery.html', 'reports.html', 'settings.html', 'admin-operations.html', 'character-library.html']
     .filter(file => fs.existsSync(path.join(root, file)));
 }
 

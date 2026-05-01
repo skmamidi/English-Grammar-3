@@ -106,6 +106,43 @@ test('app telemetry capture never sends from parent preview context', () => {
   assert.deepEqual(sent, []);
 });
 
+test('app telemetry sink gates goal-card interaction telemetry by consent and preview mode', () => {
+  const sent = [];
+  const sink = createAppTelemetrySink({
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: { telemetryEnabled: true },
+    route: '/guardian-dashboard.html?learnerId=secret',
+    transport: event => sent.push(event),
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+
+  assert.equal(sink.capture({
+    type: 'goal_card_interaction',
+    category: 'goal card impression',
+    interaction: {
+      kind: 'impression',
+      cardId: 'review_status',
+      band: 'review_due',
+      roleView: 'parent_guardian',
+      learnerId: 'learner-1'
+    }
+  }).status, 'sent');
+  assert.equal(sent.length, 1);
+  assert.equal(JSON.stringify(sent).includes('learner-1'), false);
+
+  const previewSent = [];
+  const previewSink = createAppTelemetrySink({
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: { telemetryEnabled: true },
+    parentPreview: true,
+    transport: event => previewSent.push(event)
+  });
+  assert.equal(previewSink.capture({ type: 'goal_card_interaction', interaction: { kind: 'click' } }).status, 'disabled');
+  assert.deepEqual(previewSent, []);
+});
+
 function createFakeTarget() {
   const listeners = {};
   return {

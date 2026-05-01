@@ -16,7 +16,8 @@
     'resource_load_failed',
     'long_task_detected',
     'page_performance_summary',
-    'feature_flag_state'
+    'feature_flag_state',
+    'goal_card_interaction'
   ]);
 
   function normalizeAppTelemetryEvent(event, options = {}) {
@@ -24,7 +25,7 @@
     const type = String(input.type || '').trim();
     if (!EVENT_TYPES.has(type)) throw new Error(`app_telemetry_unknown_type:${type}`);
     const now = typeof options.now === 'function' ? options.now : () => new Date();
-    const normalized = privacy.sanitizeAppTelemetryPayload({
+    const payload = {
       type,
       appVersion: safeString(input.appVersion || options.appVersion),
       route: privacy.stripQuery(input.route || options.route || '/'),
@@ -33,7 +34,9 @@
       featureFlags: input.featureFlags || options.featureFlags || {},
       timing: normalizeTiming(input.timing),
       occurredAt: safeIso(input.occurredAt) || now().toISOString()
-    });
+    };
+    if (type === 'goal_card_interaction') payload.interaction = normalizeInteraction(input.interaction);
+    const normalized = privacy.sanitizeAppTelemetryPayload(payload);
     privacy.assertAppTelemetryPrivacy(normalized);
     return normalized;
   }
@@ -47,6 +50,37 @@
     if (text.includes('route')) return 'route_load_failed';
     if (text.includes('long')) return 'long_task';
     return text.replace(/[^a-z0-9_-]+/g, '_').replace(/^_+|_+$/g, '').slice(0, 60) || 'unknown';
+  }
+
+  function normalizeInteraction(interaction) {
+    const input = interaction && typeof interaction === 'object' ? interaction : {};
+    const kind = normalizeEnum(input.kind || input.type, ['impression', 'click'], 'impression');
+    const cardId = normalizeEnum(input.cardId || input.card, [
+      'today_progress',
+      'weekly_progress',
+      'streak_status',
+      'review_status',
+      'assignment_status',
+      'summary'
+    ], 'summary');
+    const band = normalizeEnum(input.band || input.summaryBand, [
+      'empty',
+      'on_track',
+      'near_target',
+      'behind_target',
+      'review_due'
+    ], 'empty');
+    const roleView = normalizeEnum(input.roleView || input.role, [
+      'learner',
+      'parent_guardian',
+      'teacher'
+    ], 'learner');
+    return { band, cardId, kind, roleView };
+  }
+
+  function normalizeEnum(value, allowed, fallback) {
+    const normalized = String(value || '').trim().toLowerCase().replace(/[^a-z0-9_-]+/g, '_');
+    return allowed.includes(normalized) ? normalized : fallback;
   }
 
   function normalizeSeverity(value) {

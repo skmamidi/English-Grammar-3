@@ -141,3 +141,45 @@ test('learning dashboard projection includes aggregate goal cards without privat
   assert.equal(JSON.stringify(projection).includes('raw prompt'), false);
   assert.equal(JSON.stringify(projection).includes('hidden'), false);
 });
+
+test('learning dashboard projection includes goal projection copy and reminder candidates', () => {
+  const projection = dashboard.buildLearningDashboardProjection({
+    learner: { id: 'learner-5', displayName: 'Hidden Learner' },
+    goals: {
+      dailyQuestionTarget: 4,
+      weeklySessionTarget: 2,
+      reviewStreakTargetDays: 2,
+      assignmentCompletionTargetPercent: 50
+    },
+    sessions: [{
+      id: 'session-1',
+      completedAt: '2030-04-29T08:00:00.000Z',
+      attempts: [{ questionId: 'q1' }]
+    }],
+    assignments: [{ id: 'assignment-1', title: 'Private Assignment', status: 'active' }],
+    reviewQueue: {
+      items: [{
+        questionRef: { id: 'private-q1' },
+        status: 'queued',
+        dueAt: '2030-04-29T09:00:00.000Z',
+        question: 'raw prompt'
+      }]
+    },
+    roleView: 'parent_guardian',
+    now
+  });
+
+  assert.equal(projection.goalProjection.summaryBand, 'review_due');
+  assert.equal(projection.nextGoalAction.type, 'review_due');
+  assert.ok(projection.goalNotificationCandidates.some(item => item.type === 'review_due'));
+  assert.ok(projection.goalHighlights.every(item => item.band && item.message));
+  const goalJson = JSON.stringify({
+    goalProjection: projection.goalProjection,
+    nextGoalAction: projection.nextGoalAction,
+    goalNotificationCandidates: projection.goalNotificationCandidates,
+    goalHighlights: projection.goalHighlights
+  });
+  assert.equal(goalJson.includes('Hidden Learner'), false);
+  assert.equal(goalJson.includes('raw prompt'), false);
+  assert.equal(goalJson.includes('private-q1'), false);
+});

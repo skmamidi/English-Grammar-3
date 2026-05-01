@@ -5,6 +5,9 @@ const APP_SHELL_JS_PATTERN = /\/assets\/(?!question-(?:chunks|banks|manifest))(?
 const APP_SHELL_CSS_PATTERN = /\/assets\/[^/]+\.css(?:[?#].*)?$/;
 const SERVICE_WORKER_PATTERN = /\/(?:sw\.js|assets\/service-worker-[^/]+\.js)(?:[?#].*)?$/;
 const RELEASE_METADATA_PATTERN = /\/assets\/(?:release-manifest|build\/frontend-manifest)\.json(?:[?#].*)?$/;
+const STATIC_IMAGE_PATTERN = /\/assets\/images\/[^?#]+\.(?:png|jpe?g|webp|svg)(?:[?#].*)?$/;
+const STATIC_ICON_PATTERN = /\/assets\/icons\/[^?#]+\.(?:svg|ico)(?:[?#].*)?$/;
+const STATIC_FONT_PATTERN = /\/assets\/fonts\/[^?#]+\.(?:woff2?|ttf|otf)(?:[?#].*)?$/;
 
 function createRequestRecorder(page) {
   const requests = [];
@@ -54,15 +57,22 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
   const appShellCss = uniqueAssetPaths(requests.filter(isAppShellCssUrl));
   const serviceWorkers = uniqueAssetPaths(requests.filter(isServiceWorkerUrl));
   const releaseMetadata = uniqueAssetPaths(requests.filter(isReleaseMetadataUrl));
+  const imageAssets = uniqueAssetPaths(requests.filter(isStaticImageUrl));
+  const iconAssets = uniqueAssetPaths(requests.filter(isStaticIconUrl));
+  const fontAssets = uniqueAssetPaths(requests.filter(isStaticFontUrl));
   const appShellJsBytes = sumBytes(appShellJs, responseBytes);
   const appShellCssBytes = sumBytes(appShellCss, responseBytes);
   const serviceWorkerBytes = sumBytes(serviceWorkers, responseBytes);
   const releaseMetadataBytes = sumBytes(releaseMetadata, responseBytes);
+  const imageBytes = sumBytes(imageAssets, responseBytes);
+  const iconBytes = sumBytes(iconAssets, responseBytes);
+  const fontBytes = sumBytes(fontAssets, responseBytes);
 
   return {
     manifestBytes,
     questionBankBytes,
     questionChunkBytes,
+    requiredChunkBytes: questionChunkBytes,
     preloadChunkBytes,
     requiredCachedBytes: cacheMetrics.requiredCachedBytes || questionChunkBytes,
     preloadCachedBytes: cacheMetrics.preloadCachedBytes || preloadChunkBytes,
@@ -73,12 +83,17 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
     appShellCssBytes,
     serviceWorkerBytes,
     releaseMetadataBytes,
-    appShellBytes: appShellJsBytes + appShellCssBytes + serviceWorkerBytes + releaseMetadataBytes,
+    imageBytes,
+    iconBytes,
+    fontBytes,
+    staticAssetBytes: imageBytes + iconBytes + fontBytes,
+    appShellBytes: appShellJsBytes + appShellCssBytes + serviceWorkerBytes + releaseMetadataBytes + imageBytes + iconBytes + fontBytes,
     loadedFullBanks,
     loadedChunks,
     preloadedChunks,
     manifestRequests,
-    appShellAssets: Array.from(new Set(appShellJs.concat(appShellCss, serviceWorkers, releaseMetadata))).sort()
+    staticAssets: Array.from(new Set(imageAssets.concat(iconAssets, fontAssets))).sort(),
+    appShellAssets: Array.from(new Set(appShellJs.concat(appShellCss, serviceWorkers, releaseMetadata, imageAssets, iconAssets, fontAssets))).sort()
   };
 }
 
@@ -181,6 +196,18 @@ function isServiceWorkerUrl(url) {
 
 function isReleaseMetadataUrl(url) {
   return RELEASE_METADATA_PATTERN.test(url);
+}
+
+function isStaticImageUrl(url) {
+  return STATIC_IMAGE_PATTERN.test(url);
+}
+
+function isStaticIconUrl(url) {
+  return STATIC_ICON_PATTERN.test(url);
+}
+
+function isStaticFontUrl(url) {
+  return STATIC_FONT_PATTERN.test(url);
 }
 
 module.exports = {

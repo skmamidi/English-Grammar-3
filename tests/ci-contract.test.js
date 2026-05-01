@@ -55,11 +55,16 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['build:frontend'], 'node scripts/build-frontend.js');
   assert.equal(pkg.scripts['qa:app-shell'], 'node scripts/qa/app-shell-size-budget.js');
   assert.equal(pkg.scripts['qa:app-shell-size'], 'node scripts/qa/app-shell-size-budget.js');
+  assert.equal(pkg.scripts['qa:static-assets'], 'node scripts/qa/static-asset-qa.js');
+  assert.equal(pkg.scripts['qa:ai-authoring'], 'node scripts/qa/ai-authoring-guardrails-qa.js');
+  assert.match(pkg.scripts['qa:content'], /npm run qa:ai-authoring/);
+  assert.match(pkg.scripts['test:fast'], /npm run qa:static-assets/);
   assert.equal(pkg.scripts['qa:pr-readiness'], 'node scripts/qa/pr-readiness-monitor.js');
   assert.match(pkg.scripts['test:unit'], /tests\/access-control\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/frontend-build-contract\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/domain-type-contract\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/app-shell-size-budget\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/static-asset-qa\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/runtime-performance-probe\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/page-shell\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/progressive-enhancement-domain\.test\.js/);
@@ -78,6 +83,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/backend-policy-rules\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-state-repository\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-goals-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/learner-goal-projection-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-data-lifecycle-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-data-retention-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/assignment-domain\.test\.js/);
@@ -97,6 +103,10 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/recommendation-evaluation\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/recommendation-fairness\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/content-discovery-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/content-discovery-ui\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/content-authoring-guardrails-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/ai-authoring-guardrails-qa\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/source-remediation-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/source-attribution\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/source-license-qa\.test\.js/);
   assert.equal(pkg.scripts['qa:source-license'], 'node scripts/qa/source-license-qa.js');
@@ -338,7 +348,7 @@ test('visual regression suite and design token contract exist', () => {
 test('package scripts expose fast browser and full regression gates', () => {
   const pkg = readJson('package.json');
 
-  assert.equal(pkg.scripts['test:fast'], 'npm run qa:questions && npm run qa:app-shell && npm run test:unit');
+  assert.equal(pkg.scripts['test:fast'], 'npm run qa:questions && npm run qa:app-shell && npm run qa:static-assets && npm run test:unit');
   assert.equal(pkg.scripts['test:browser'], 'npm run test:ui');
   assert.equal(pkg.scripts['test:browser:all'], 'npm run test:ui:all');
   assert.match(pkg.scripts['test:full'], /npm run test:fast/);

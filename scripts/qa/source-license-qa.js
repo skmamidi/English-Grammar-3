@@ -3,6 +3,10 @@
 const fs = require('fs');
 const path = require('path');
 const { loadQuestionBanks } = require('./bank-loader');
+const {
+  buildSourceFinding,
+  evaluateSourceRemediation
+} = require('../../assets/source-remediation-domain');
 
 const repoRoot = path.resolve(__dirname, '..', '..');
 const DEFAULT_POLICY_PATH = path.join(repoRoot, 'content-review', 'source-license-policy.json');
@@ -43,13 +47,73 @@ function evaluateSourceLicenses(options = {}) {
     });
   });
 
+  const remediation = options.requireRemediationForWarnings || Array.isArray(options.remediationRecords)
+    ? buildRemediationReport({
+    errors,
+    warnings,
+    records: options.remediationRecords,
+    requireRemediationForWarnings: options.requireRemediationForWarnings,
+    sourceHash: options.sourceHash,
+    now: options.now
+  })
+    : emptyRemediationReport();
+  remediation.errors.forEach(error => {
+    errors.push({
+      ruleId: 'source-remediation-required',
+      remediationCode: error.code,
+      findingId: error.findingId,
+      domain: error.domain,
+      setId: error.setId,
+      questionId: error.questionId,
+      sourceFile: error.sourceFile
+    });
+  });
+
   return {
     status: errors.length ? 'failed' : 'passed',
     errors,
     warnings,
+    remediation,
     summary: {
       errorCount: errors.length,
       warningCount: warnings.length
+    }
+  };
+}
+
+function buildRemediationReport(options = {}) {
+  const errorFindings = Array.isArray(options.records) && options.records.length ? options.errors : [];
+  const warningFindings = options.requireRemediationForWarnings ? options.warnings : [];
+  const findings = (errorFindings || []).concat(warningFindings || []).map(finding => buildSourceFinding({
+    ruleId: finding.ruleId,
+    domain: finding.domain,
+    setId: finding.setId,
+    questionId: finding.questionId,
+    sourceFile: finding.sourceFile,
+    sourceHash: options.sourceHash,
+    severity: (options.errors || []).includes(finding) ? 'error' : 'warning'
+  }));
+  return evaluateSourceRemediation({
+    findings,
+    records: options.records,
+    now: options.now
+  });
+}
+
+function emptyRemediationReport() {
+  return {
+    status: 'passed',
+    errors: [],
+    warnings: [],
+    findings: [],
+    records: [],
+    summary: {
+      findingCount: 0,
+      recordCount: 0,
+      resolvedCount: 0,
+      openCount: 0,
+      errorCount: 0,
+      warningCount: 0
     }
   };
 }

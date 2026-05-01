@@ -7,7 +7,7 @@
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.15",
+    "browserVersion": "147.0.7727.138",
     "platform": "darwin",
     "viewport": {
       "width": 1280,
@@ -15,8 +15,8 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "01c7a77142d228f5917a031fff64e11eb00f70f5c0e9b718d4f6161c0f0bbcbb",
-  "screenshotBytes": 253249,
+  "screenshotSha256": "29d697c1d75ae58ec41cfae29dd57f4218e557bd3c09e5a952514376b69dc7e7",
+  "screenshotBytes": 233308,
   "summary": {
     "title": "Sentence Types",
     "semanticTextHash": "-773680378",

@@ -50,7 +50,7 @@ function collectFiles(dir, root, categorize) {
 function categorizeAssetFile(fileName, fullPath) {
   const relativePath = path.relative(repoRoot, fullPath).split(path.sep).join('/');
   if (SERVICE_WORKER_FILES.has(relativePath)) return 'serviceWorker';
-  if (fileName === 'release-manifest.json' || relativePath === 'assets/build/frontend-manifest.json') return 'releaseMetadata';
+  if (fileName === 'release-manifest.json' || relativePath === 'assets/build/frontend-manifest.json' || relativePath === 'assets/static-asset-manifest.json') return 'releaseMetadata';
   const ext = path.extname(fileName).toLowerCase();
   if (ext === '.js') return 'javascript';
   if (ext === '.css') return 'css';

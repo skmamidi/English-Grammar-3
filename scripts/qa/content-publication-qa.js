@@ -4,6 +4,7 @@ const { loadQuestionBanks } = require('./bank-loader');
 const { buildStandardsCoverageReport } = require('../reports/standards-coverage');
 const { buildSourceAttributionReport } = require('../reports/source-attribution');
 const { evaluateSourceLicenses } = require('./source-license-qa');
+const { buildAiAuthoringGuardrailsCheck } = require('./ai-authoring-guardrails-qa');
 
 function aggregatePublicationQa(options = {}) {
   const checks = Array.isArray(options.checks) ? options.checks : [];
@@ -43,10 +44,14 @@ function buildPublicationGovernanceChecks(options = {}) {
   const attribution = buildSourceAttributionReport({ sources });
   const licensing = evaluateSourceLicenses({
     sources,
-    policy: options.sourceLicensePolicy
+    policy: options.sourceLicensePolicy,
+    remediationRecords: options.sourceRemediationRecords,
+    requireRemediationForWarnings: options.requireSourceRemediation,
+    sourceHash: options.sourceHash,
+    now: options.now
   });
 
-  return [{
+  const checks = [{
     id: 'standards-coverage',
     warnings: standards.warnings,
     errors: [],
@@ -62,6 +67,12 @@ function buildPublicationGovernanceChecks(options = {}) {
     errors: licensing.errors,
     report: licensing
   }];
+  if (Array.isArray(options.aiAuthoringRecords) && options.aiAuthoringRecords.length) {
+    checks.push(buildAiAuthoringGuardrailsCheck({
+      records: options.aiAuthoringRecords
+    }));
+  }
+  return checks;
 }
 
 function normalizeBankLoad(bankLoad) {

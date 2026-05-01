@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>Find Practice</title>
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="container">
+      <a href="index.html" class="logo">English Language Mastery</a>
+      <nav class="header-actions" aria-label="Quick links">
+        <a href="index.html" class="back-link">All practice</a>
+        <a href="assignments.html" class="back-link">Assignments</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container discovery-shell">
+    <div id="content-discovery-root" aria-live="polite"></div>
+  </main>
+
+  <script src="assets/assignment-domain.js"></script>
+  <script src="assets/question-manifest.js"></script>
+  <script src="assets/content-discovery-domain.js"></script>
+  <script src="assets/content-discovery-ui.js"></script>
+  <script>
+    window.GrammarQuestContentDiscoveryUI.initContentDiscoveryPage();
+  </script>
+</body>
+</html>

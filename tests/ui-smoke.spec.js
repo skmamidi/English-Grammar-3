@@ -120,12 +120,15 @@ const VIEWPORTS = {
 };
 const VIEWPORT_SMOKE_PAGES = [
   'index.html',
+  'discovery.html',
   'assignments.html',
   'settings.html',
   'admin-operations.html',
   'topics/grammar/index.html',
   'topics/grammar/subtopics/sentence-types.html',
   'reports.html',
+  'guardian-dashboard.html',
+  'teacher-dashboard.html',
   'character-library.html'
 ];
 async function main() {
@@ -196,6 +199,83 @@ async function main() {
       const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'assignments.html');
       await assertAssignmentCompletionFlow(page, server.baseURL);
+      await page.close();
+    });
+
+    await runCase(failures, 'content discovery searches manifest only before practice starts', async () => {
+      const page = await newPage(browser, browserTracker);
+      const recorder = createRequestRecorder(page);
+      await visitClean(page, server.baseURL, 'discovery.html');
+      await page.fill('#content-search', 'homophones');
+      await page.click('#content-discovery-form button[type="submit"]');
+      await assertVisible(page, '.discovery-result', 'content discovery search result');
+      const metrics = summarizeRequestMetrics({
+        requests: recorder.requests,
+        responses: recorder.responses
+      });
+      assert.equal(metrics.loadedFullBanks.length, 0);
+      assert.equal(metrics.loadedChunks.length, 0);
+      await page.click('.discovery-result a');
+      await assertVisible(page, '#start-btn', 'content discovery practice route');
+      await page.close();
+    });
+
+    await runCase(failures, 'guardian dashboard renders goal projections and bounded interactions', async () => {
+      const page = await newPage(browser, browserTracker);
+      await page.addInitScript(() => {
+        window.__goalTelemetryRecords = [];
+        window.__goalInteractionEvents = [];
+        window.GRAMMAR_QUEST_CONFIG = Object.assign({}, window.GRAMMAR_QUEST_CONFIG, {
+          appTelemetry: {
+            enabled: true,
+            consent: { telemetry: true },
+            transport: event => window.__goalTelemetryRecords.push(event)
+          }
+        });
+        window.addEventListener('grammarquest:goal-card-interaction', event => {
+          window.__goalInteractionEvents.push(event.detail || {});
+        });
+        localStorage.setItem('grammarQuestProgress', JSON.stringify({
+          privacyPreferences: {
+            telemetryEnabled: true,
+            errorTelemetryEnabled: false,
+            performanceTelemetryEnabled: false
+          },
+          learnerGoals: {
+            dailyQuestionTarget: 4,
+            weeklySessionTarget: 2,
+            reviewStreakTargetDays: 2
+          },
+          reports: {
+            sessions: [{
+              id: 'goal-session',
+              studentId: 'current-learner',
+              completedAt: '2026-04-29T09:00:00.000Z',
+              attempts: [{ questionId: 'private-q1', question: 'Raw prompt should stay hidden' }]
+            }]
+          },
+          reviewQueue: {
+            items: [{
+              questionRef: { id: 'private-q1' },
+              status: 'queued',
+              dueAt: '2026-04-29T09:00:00.000Z',
+              question: 'Raw prompt should stay hidden'
+            }]
+          }
+        }));
+      });
+      await visitClean(page, server.baseURL, 'guardian-dashboard.html');
+      await assertVisible(page, '.goal-dashboard-summary', 'guardian dashboard goal summary');
+      const goalText = await textContent(page, '.goal-dashboard-card');
+      assert.match(goalText, /review set is ready/i);
+      assert.doesNotMatch(goalText, /Raw prompt|private-q1/);
+      await page.click('.goal-dashboard-action');
+      const telemetry = await page.evaluate(() => window.__goalTelemetryRecords || []);
+      const interactions = await page.evaluate(() => window.__goalInteractionEvents || []);
+      assert.ok(telemetry.some(event => event.type === 'goal_card_interaction' && event.interaction.kind === 'impression'));
+      assert.ok(telemetry.some(event => event.type === 'goal_card_interaction' && event.interaction.kind === 'click'));
+      assert.equal(JSON.stringify(telemetry).includes('current-learner'), false);
+      assert.ok(interactions.some(event => event.kind === 'click'));
       await page.close();
     });
 

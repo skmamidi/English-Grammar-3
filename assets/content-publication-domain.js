@@ -28,6 +28,7 @@
       changedFiles: normalizeStringArray(input.changedFiles),
       qaResults: normalizeQaResults(input.qaResults),
       reviewItems: normalizeReviewItems(input.reviewItems),
+      aiAuthoringGuardrails: normalizeAiAuthoringGuardrails(input.aiAuthoringGuardrails),
       approvals: normalizeApprovals(input.approvals),
       createdAt: safeString(input.createdAt),
       updatedAt: safeString(input.updatedAt || input.createdAt)
@@ -43,6 +44,9 @@
     if (!normalized.changedFiles.length) errors.push('changedFiles are required');
     normalized.qaResults.filter(result => result.blocking && result.status !== 'passed').forEach(result => {
       errors.push(`blocking QA failed: ${result.id}`);
+    });
+    getBlockingAiGuardrailCodes(normalized.aiAuthoringGuardrails).forEach(code => {
+      errors.push(`blocking AI authoring guardrail failed: ${code}`);
     });
     return errors;
   }
@@ -64,6 +68,7 @@
     const normalized = normalizePublication(publication);
     const blocking = normalized.qaResults.filter(result => result.blocking && result.status !== 'passed');
     if (blocking.length) throw new Error('publication_qa_blocking');
+    if (getBlockingAiGuardrailCodes(normalized.aiAuthoringGuardrails).length) throw new Error('publication_ai_guardrails_blocking');
     if (!normalized.approvals.length) throw new Error('publication_requires_approval');
     if (!normalized.sourceHash || !normalized.artifactHash) throw new Error('publication_requires_hashes');
     return normalizePublication(Object.assign({}, normalized, {
@@ -90,6 +95,22 @@
       status: safeString(item && item.status || 'needs_review'),
       rationale: safeString(item && item.rationale)
     })).filter(item => item.questionId || item.sourceSet || item.ruleId);
+  }
+
+  function normalizeAiAuthoringGuardrails(summary = {}) {
+    const input = summary && typeof summary === 'object' ? summary : {};
+    const issueCodes = normalizeStringArray(input.issueCodes);
+    return {
+      status: safeString(input.status || 'passed'),
+      errorCount: Math.max(0, Number(input.errorCount) || 0),
+      warningCount: Math.max(0, Number(input.warningCount) || 0),
+      issueCodes
+    };
+  }
+
+  function getBlockingAiGuardrailCodes(summary) {
+    if (!summary || summary.status !== 'failed' && !summary.errorCount) return [];
+    return summary.issueCodes.length ? summary.issueCodes : ['ai_guardrail_failed'];
   }
 
   function normalizeApprovals(approvals) {

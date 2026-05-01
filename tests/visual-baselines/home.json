@@ -7,7 +7,7 @@
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.15",
+    "browserVersion": "147.0.7727.138",
     "platform": "darwin",
     "viewport": {
       "width": 1280,
@@ -15,8 +15,8 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "080fea3e42b3584d952656075defb69b933066f9588cc6f006f8025988b2563f",
-  "screenshotBytes": 133918,
+  "screenshotSha256": "a1f57c25188e1ad4fd6893884e1e39d47fab8e82ffef70bf83cc0ec110420065",
+  "screenshotBytes": 127451,
   "summary": {
     "title": "English Language Mastery",
     "semanticTextHash": "1516074770",

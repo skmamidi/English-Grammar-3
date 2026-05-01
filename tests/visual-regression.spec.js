@@ -37,6 +37,7 @@ const CASES = [
   { name: 'quiz-feedback', file: 'topics/grammar/subtopics/sentence-types.html', state: answerQuestion, selectors: ['.app-header', '#quiz-root', '.question-box'] },
   { name: 'quiz-results', file: 'topics/capitalization/subtopics/books-magazines-songs-plays.html', state: finishQuiz, selectors: ['.app-header', '#quiz-root', '.results-card', '.results-box'] },
   { name: 'reports', file: 'reports.html' },
+  { name: 'guardian-goals', file: 'guardian-dashboard.html', beforeVisit: seedGoalDashboard, waitFor: '.goal-dashboard-card', selectors: ['.app-header', '.goal-dashboard-card', '.goal-dashboard-summary'] },
   { name: 'settings', file: 'settings.html', selectors: ['.app-header', '#privacy-settings', '.privacy-toggle-row'] },
   { name: 'parent-preview', file: 'topics/capitalization/subtopics/proper-names-titles.html?parentBrowse=1', waitFor: '#start-btn' },
   { name: 'offline-unavailable', file: 'topics/grammar/subtopics/run-on-sentences.html', state: forceOfflineUnavailable }
@@ -53,6 +54,7 @@ async function main() {
       await runCase(failures, visualCase.name, async () => {
         const page = await newPage(browser);
         try {
+          if (visualCase.beforeVisit) await visualCase.beforeVisit(page);
           await visitClean(page, server.baseURL, visualCase.file);
           if (visualCase.waitFor) await page.waitForSelector(visualCase.waitFor, { state: 'visible' });
           if (visualCase.state) await visualCase.state(page, server.baseURL);
@@ -218,6 +220,33 @@ async function forceOfflineUnavailable(page) {
     }
   });
   await page.waitForSelector('#quiz-root', { state: 'visible' });
+}
+
+async function seedGoalDashboard(page) {
+  await page.addInitScript(() => {
+    localStorage.setItem('grammarQuestProgress', JSON.stringify({
+      learnerGoals: {
+        dailyQuestionTarget: 4,
+        weeklySessionTarget: 2,
+        reviewStreakTargetDays: 2
+      },
+      reports: {
+        sessions: [{
+          id: 'visual-goal-session',
+          studentId: 'current-learner',
+          completedAt: '2026-04-29T09:00:00.000Z',
+          attempts: [{ questionId: 'private-q1' }]
+        }]
+      },
+      reviewQueue: {
+        items: [{
+          questionRef: { id: 'private-q1' },
+          status: 'queued',
+          dueAt: '2026-04-29T09:00:00.000Z'
+        }]
+      }
+    }));
+  });
 }
 
 async function runCase(failures, name, fn) {

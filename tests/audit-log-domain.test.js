@@ -79,6 +79,24 @@ test('question report triage audit events redact report notes and question paylo
   assert.equal(event.metadata.explanation, '[REDACTED]');
 });
 
+test('AI authoring audit metadata redacts raw prompts and reviewer notes', () => {
+  const event = audit.buildAuditEvent(
+    { id: 'reviewer-1', role: 'content_reviewer' },
+    'content-authoring:guardrail-review',
+    { type: 'question', id: 'grammar-sentence-types-q0123' },
+    {
+      promptText: 'Draft a question from private source context.',
+      reviewerNotes: 'Explanation needs a clearer rationale.',
+      guardrailDecision: 'blocked'
+    },
+    { id: () => 'audit-ai-1', now: () => '2030-04-29T12:00:00.000Z' }
+  );
+
+  assert.equal(event.metadata.promptText, '[REDACTED]');
+  assert.equal(event.metadata.reviewerNotes, '[REDACTED]');
+  assert.equal(event.metadata.guardrailDecision, 'blocked');
+});
+
 test('learner data lifecycle audit events redact backup and tombstone details', () => {
   const event = audit.buildLearnerDataLifecycleAuditEvent(
     { id: 'admin-1', role: access.Roles.SYSTEM_ADMIN },

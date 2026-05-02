@@ -1222,8 +1222,8 @@
   function speakWord(word, options = {}) {
     cancelSpeechPlayback();
     const audioEntry = getSpellingAudioEntry(word);
-    if (audioEntry && audioEntry.src) {
-      playWordAudioSequence(audioEntry.src, getSpeechPlaybackProfile().repeatGapMs, () => speakWordWithSpeech(word, options));
+    if (audioEntry && (audioEntry.normalSrc || audioEntry.src)) {
+      playWordAudioSequence(audioEntry, getSpeechPlaybackProfile().repeatGapMs, () => speakWordWithSpeech(word, options));
       return;
     }
     speakWordWithSpeech(word, options);
@@ -1242,30 +1242,44 @@
     return audioManifest && audioManifest[key] || null;
   }
 
-  function playWordAudioSequence(src, gapMs, onFallback) {
+  function getAudioSources(entry) {
+    if (!entry) return [];
+    if (typeof entry === 'string') return [entry, entry];
+    const normalSrc = entry.normalSrc || entry.src;
+    const slowSrc = entry.slowSrc || entry.src || entry.normalSrc;
+    return [normalSrc, slowSrc].filter(Boolean);
+  }
+
+  function playWordAudioSequence(entry, gapMs, onFallback) {
     if (typeof Audio !== 'function') {
       if (typeof onFallback === 'function') onFallback();
       return;
     }
+    const sources = getAudioSources(entry);
+    if (!sources.length) {
+      if (typeof onFallback === 'function') onFallback();
+      return;
+    }
     const sequenceId = ++audioSequenceId;
-    let playCount = 0;
+    let sourceIndex = 0;
     const playNext = () => {
-      if (sequenceId !== audioSequenceId || playCount >= 2) return;
-      playCount += 1;
+      if (sequenceId !== audioSequenceId || sourceIndex >= sources.length) return;
+      const src = sources[sourceIndex];
+      sourceIndex += 1;
       const audio = new Audio(src);
       activeWordAudio = audio;
       audio.preload = 'auto';
       audio.onended = () => {
-        if (sequenceId !== audioSequenceId || playCount >= 2) return;
+        if (sequenceId !== audioSequenceId || sourceIndex >= sources.length) return;
         speechSequenceTimer = window.setTimeout(playNext, gapMs);
       };
       audio.onerror = () => {
-        if (sequenceId === audioSequenceId && playCount === 1 && typeof onFallback === 'function') onFallback();
+        if (sequenceId === audioSequenceId && sourceIndex === 1 && typeof onFallback === 'function') onFallback();
       };
       const playPromise = audio.play();
       if (playPromise && typeof playPromise.catch === 'function') {
         playPromise.catch(() => {
-          if (sequenceId === audioSequenceId && playCount === 1 && typeof onFallback === 'function') onFallback();
+          if (sequenceId === audioSequenceId && sourceIndex === 1 && typeof onFallback === 'function') onFallback();
         });
       }
     };

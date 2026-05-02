@@ -10,7 +10,11 @@ function loadSpellingLabTestApi() {
       SPELLING_WORD_BANK: { title: 'Sound/Symbol Spelling Lab', topic: 'Sound/Symbol Correspondences', questions: [] },
       SPELLING_AUDIO_MANIFEST: {
         entries: {
-          snarl: { src: '../../assets/audio/spelling/snarl.wav' }
+          snarl: {
+            src: '../../assets/audio/spelling/snarl.wav',
+            normalSrc: '../../assets/audio/spelling/snarl.wav',
+            slowSrc: '../../assets/audio/spelling/snarl-slow.wav'
+          }
         }
       },
       GrammarQuestProgress: null,
@@ -101,6 +105,27 @@ function slugify(value) {
     .replace(/^-|-$/g, '');
 }
 
+function getWavDurationSeconds(filePath) {
+  const buffer = fs.readFileSync(filePath);
+  assert.equal(buffer.toString('ascii', 0, 4), 'RIFF', `${filePath} should be a RIFF file`);
+  assert.equal(buffer.toString('ascii', 8, 12), 'WAVE', `${filePath} should be a WAVE file`);
+  const sampleRate = buffer.readUInt32LE(24);
+  const channels = buffer.readUInt16LE(22);
+  const bitsPerSample = buffer.readUInt16LE(34);
+  const bytesPerSecond = sampleRate * channels * (bitsPerSample / 8);
+  let offset = 12;
+  while (offset + 8 <= buffer.length) {
+    const chunkId = buffer.toString('ascii', offset, offset + 4);
+    let chunkSize = buffer.readUInt32LE(offset + 4);
+    if (chunkId === 'data') {
+      if (chunkSize === 0xffffffff) chunkSize = buffer.length - (offset + 8);
+      return chunkSize / bytesPerSecond;
+    }
+    offset += 8 + chunkSize + (chunkSize % 2);
+  }
+  throw new Error(`${filePath} has no WAV data chunk`);
+}
+
 test('word playback uses two clean utterances with a natural Safari repeat gap', () => {
   const api = loadSpellingLabTestApi();
   const plan = api.createWordPlaybackPlanForTest('brilliant');
@@ -114,8 +139,11 @@ test('word playback uses two clean utterances with a natural Safari repeat gap',
 
 test('word playback prefers generated audio assets when a manifest entry exists', () => {
   const api = loadSpellingLabTestApi();
+  const entry = api.getSpellingAudioEntryForTest({ word: 'snarl' });
 
-  assert.equal(api.getSpellingAudioEntryForTest({ word: 'snarl' }).src, '../../assets/audio/spelling/snarl.wav');
+  assert.equal(entry.src, '../../assets/audio/spelling/snarl.wav');
+  assert.equal(entry.normalSrc, '../../assets/audio/spelling/snarl.wav');
+  assert.equal(entry.slowSrc, '../../assets/audio/spelling/snarl-slow.wav');
 });
 
 test('Safari speech voice preference avoids novelty voices and prefers modern US voices', () => {
@@ -160,11 +188,31 @@ test('generated spelling audio manifest covers every spelling lab word', () => {
   const missing = words.filter(key => !manifest.entries[key]);
   const missingFiles = words.filter(key => {
     const entry = manifest.entries[key];
-    if (!entry || !entry.src) return false;
-    const localPath = path.join(__dirname, '..', entry.src.replace('../../', ''));
-    return !fs.existsSync(localPath);
+    if (!entry || !entry.normalSrc || !entry.slowSrc) return false;
+    return [entry.normalSrc, entry.slowSrc].some(src => {
+      const localPath = path.join(__dirname, '..', src.replace('../../', ''));
+      return !fs.existsSync(localPath);
+    });
+  });
+  const silentFiles = words.filter(key => {
+    const entry = manifest.entries[key];
+    if (!entry || !entry.normalSrc || !entry.slowSrc) return false;
+    return [entry.normalSrc, entry.slowSrc].some(src => {
+      const localPath = path.join(__dirname, '..', src.replace('../../', ''));
+      return fs.existsSync(localPath) && fs.statSync(localPath).size < 8192;
+    });
+  });
+  const tooFastSlowFiles = words.filter(key => {
+    const entry = manifest.entries[key];
+    if (!entry || !entry.normalSrc || !entry.slowSrc) return false;
+    const normalPath = path.join(__dirname, '..', entry.normalSrc.replace('../../', ''));
+    const slowPath = path.join(__dirname, '..', entry.slowSrc.replace('../../', ''));
+    if (!fs.existsSync(normalPath) || !fs.existsSync(slowPath)) return false;
+    return getWavDurationSeconds(slowPath) < getWavDurationSeconds(normalPath) * 1.18;
   });
 
   assert.equal(missing.length, 0, `Missing audio manifest entries: ${missing.slice(0, 10).join(', ')}`);
   assert.equal(missingFiles.length, 0, `Missing audio files: ${missingFiles.slice(0, 10).join(', ')}`);
+  assert.equal(silentFiles.length, 0, `Silent or invalid audio files: ${silentFiles.slice(0, 10).join(', ')}`);
+  assert.equal(tooFastSlowFiles.length, 0, `Slow audio too close to normal speed: ${tooFastSlowFiles.slice(0, 10).join(', ')}`);
 });

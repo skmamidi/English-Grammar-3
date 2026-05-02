@@ -195,6 +195,19 @@ const QUALITY_RULES = [{
     }
   }
 }, {
+  id: 'split-possessive-owner-name',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    if (!Array.isArray(question.choices) || !Number.isInteger(question.correct)) return;
+    const ownerName = getBelongsToOwnerName(question.question);
+    if (!ownerName) return;
+    const correctText = String(question.choices[question.correct] || '');
+    if (buildPossessiveOwnerRegExp(ownerName).test(correctText)) return;
+    addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), `Correct choice should keep the single-word owner name "${ownerName}" contiguous before the possessive apostrophe.`, this.id, getQuestionId(question));
+  }
+}, {
   id: 'isolated-word-pattern-cue',
   defaultSeverity: 'error',
   scope: 'question',
@@ -544,6 +557,15 @@ function normalizeChoiceText(value) {
   return String(value || '').trim().replace(/\s+/g, ' ');
 }
 
+function getBelongsToOwnerName(prompt) {
+  const match = String(prompt || '').match(/\bbelongs to ([A-Z][A-Za-z'-]+)\?/);
+  return match ? match[1] : '';
+}
+
+function buildPossessiveOwnerRegExp(ownerName) {
+  return new RegExp(`^${escapeRegExp(ownerName)}[’']s(?=\\b|\\s|$)`);
+}
+
 function getWordPatternCue(prompt) {
   const text = String(prompt || '');
   if (!/\bwhich\s+word\b/i.test(text)) return null;
@@ -612,6 +634,10 @@ function buildFlexibleWordRegExp(value) {
     .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     .replace(/\s+/g, '\\s+');
   return new RegExp(`(^|(?<=\\W))${pattern}(?=$|\\W)`, 'i');
+}
+
+function escapeRegExp(value) {
+  return String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 function addIssue(issues, level, file, setId, location, message, ruleId = '', questionId = '') {

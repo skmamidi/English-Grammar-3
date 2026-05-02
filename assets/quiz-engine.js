@@ -1433,10 +1433,10 @@
   function getUnderlineBodyCandidates(body) {
     const words = String(body || '').match(/[A-Za-z][A-Za-z'-]*/g) || [];
     const stopWords = new Set([
-      'about', 'after', 'again', 'also', 'because', 'before', 'below', 'could', 'each',
+      'about', 'after', 'again', 'also', 'because', 'before', 'below', 'choose', 'could', 'each',
       'every', 'from', 'have', 'into', 'little', 'many', 'more', 'most', 'much',
-      'that', 'their', 'there', 'these', 'they', 'this', 'those', 'very', 'what',
-      'when', 'where', 'which', 'while', 'with', 'word', 'words', 'would'
+      'that', 'their', 'there', 'these', 'they', 'this', 'those', 'underlined', 'very', 'what',
+      'when', 'where', 'which', 'while', 'with', 'word', 'words', 'would', 'the', 'for', 'and'
     ]);
     return uniqueUnderlineTargets(words)
       .filter(word => word.length > 2 && !stopWords.has(word.toLowerCase()));

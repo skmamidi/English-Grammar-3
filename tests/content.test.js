@@ -441,6 +441,29 @@ test('content QA errors for empty or repeated choices', () => {
   assertIssue(result.errors, 'duplicate-correct-answer-text');
 });
 
+test('content QA rejects spaces inside single-word possessive owner names', () => {
+  const questions = [
+    makeQaQuestion(1, {
+      question: 'Which shows that the candy belongs to Shirley?',
+      choices: ['Sh irley’s candy', 'Shirleys’ candy not', 'Shirleys candys’', 'Shirleys’s candy'],
+      correct: 0,
+      explanation: {
+        correct: 'Answer: Sh irley’s candy. The owner name should be Shirley before the apostrophe.',
+        incorrect: [
+          '',
+          'Not: Shirleys’ candy not. This choice does not show singular possession.',
+          'Not: Shirleys candys’. This choice places the apostrophe incorrectly.',
+          'Not: Shirleys’s candy. This choice does not form the name correctly.'
+        ]
+      }
+    })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.errors, 'split-possessive-owner-name', { questionId: 'content-qa-fixture-q0001' });
+});
+
 test('content QA rejects word-pattern prompts where only the answer shows the visual cue', () => {
   const questions = [
     makeQaQuestion(1, {
@@ -547,14 +570,25 @@ test('content QA rejects generic explanation rationales', () => {
 });
 
 test('content QA can emit deterministic explanation review candidates', () => {
-  const result = validateContent();
-  const candidate = validateLoadedContent(result.bankLoad, { explanationReviewCandidates: true })
+  const questions = [
+    makeQaQuestion(1, {
+      explanation: {
+        correct: 'Correct.',
+        incorrect: [
+          '',
+          'Wrong.'
+        ]
+      }
+    })
+  ];
+
+  const candidate = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions), { explanationReviewCandidates: true })
     .explanationReviewCandidates
     .find(item => item.signals.some(signal => signal.type === 'weak-explanation-rationale'));
 
   assert.ok(candidate, 'expected weak explanation QA candidate');
   assert.ok(candidate.questionIdentity.questionId);
-  assert.match(candidate.sourceLocation.file, /^assets\/question-bank-source\//);
+  assert.match(candidate.sourceLocation.file, /content-qa-fixture\.fixture\.js$/);
   assert.match(candidate.sourceLocation.jsonPointer, /^\/sets\/.+\/questions\/\d+\/explanation$/);
   assert.equal(JSON.stringify(candidate).includes('"question"'), false);
 });

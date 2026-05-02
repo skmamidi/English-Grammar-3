@@ -7184,8 +7184,8 @@
         },
         {
           "id": "vocabulary-homophones-q0026",
-          "version": 2,
-          "contentHash": "sha256:cb69a7a331462f847cdcf210b68207a5e0fb7a9bccfb6ac8638dd003851eb9dc",
+          "version": 4,
+          "contentHash": "sha256:e49a211a093570c37993b2b2e10c354b7413aaad060deb1086af7be6bf39dc93",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "the detective, a very clever fellow",
@@ -7195,12 +7195,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: a strange light was seen nearby. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"a strange light was seen nearby\" has the meaning needed in the sentence; homophones can sound alike, so the context decides the word.",
+            "correct": "Answer: a strange light was seen nearby. Rule or clue: Capitalize the first word when the words are being used as the beginning of a full sentence. \"a strange light was seen nearby\" is the choice whose first word should be capitalized because it is being used as the start of a sentence. The sentence should begin with \"A\".",
             "incorrect": [
-              "Not: the detective, a very clever fellow. \"the detective, a very clever fellow\" may sound similar, but its meaning does not fit the sentence context.",
-              "Not: did not find my money. \"did not find my money\" may sound similar, but its meaning does not fit the sentence context.",
+              "Not: the detective, a very clever fellow. \"the detective, a very clever fellow\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"A\".",
+              "Not: did not find my money. \"did not find my money\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"A\".",
               "",
-              "Not: the child to the playground. \"the child to the playground\" may sound similar, but its meaning does not fit the sentence context."
+              "Not: the child to the playground. \"the child to the playground\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"A\"."
             ]
           },
           "metadata": {
@@ -7240,7 +7240,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalize the first word when the words form a sentence or begin a sentence; sentence fragments only need a capital when they are actually used as sentence starts.",
+            "example": "after a while, the children became tired should begin After because it is the start of a sentence.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "vocabulary-homophones-q0027",
@@ -7484,7 +7489,7 @@
         },
         {
           "id": "vocabulary-homophones-q0031",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:e7e82b02000e48b2341aff0188f0df73d4465d4eda885b0383e19b7b510d503a",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -7909,8 +7914,8 @@
         },
         {
           "id": "vocabulary-homophones-q0038",
-          "version": 2,
-          "contentHash": "sha256:4fe9637feeac373021f0e1aead39d1a0b75b1da641366e13a632c223f12fb9c3",
+          "version": 4,
+          "contentHash": "sha256:166a2dffaf7d088ab505535f22087de638c3d9b7013a8ed0ffbb509744951783",
           "question": "Read the sentences below. liza and bobby looked forward to visiting their grandparents. grandma ruth and grandpa john lived in the country and had lots of farm animals. they were really excited about the horses. Which words should be capitalized?",
           "choices": [
             "liz a, bobby, grandparents, grandma ruth, grandpa john",
@@ -7920,12 +7925,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: liza, bobby, grandma ruth, grandpa john, they. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"liza, bobby, grandma ruth, grandpa john, they\" has the meaning needed in the sentence; homophones can sound alike, so the context decides the word.",
+            "correct": "Answer: liza, bobby, grandma ruth, grandpa john, they. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"liza, bobby, grandma ruth, grandpa john, they\" names the words that need capitals in the sentence. liza: is a person’s name, so it needs a capital letter. bobby: is a person’s name, so it needs a capital letter. grandma ruth: is part of a title or family title used with a name, so the title/name expression needs capitals. grandpa john: is part of a title or family title used with a name, so the title/name expression needs capitals.",
             "incorrect": [
-              "Not: liz a, bobby, grandparents, grandma ruth, grandpa john. \"liz a, bobby, grandparents, grandma ruth, grandpa john\" may sound similar, but its meaning does not fit the sentence context.",
+              "Not: liz a, bobby, grandparents, grandma ruth, grandpa john. \"liz a, bobby, grandparents, grandma ruth, grandpa john\" is not the best answer because it leaves out liza, which is a person’s name, so it needs a capital letter.; it leaves out they, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes liz a, but liz a is not one of the words that needs a capital in this sentence.; it includes grandparents, but grandparents is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
               "",
-              "Not: liza, grandparents, country, animals, they. \"liza, grandparents, country, animals, they\" may sound similar, but its meaning does not fit the sentence context.",
-              "Not: liza, bobby, grandparents, they, horses. \"liza, bobby, grandparents, they, horses\" may sound similar, but its meaning does not fit the sentence context."
+              "Not: liza, grandparents, country, animals, they. \"liza, grandparents, country, animals, they\" is not the best answer because it leaves out bobby, which is a person’s name, so it needs a capital letter.; it leaves out grandma ruth, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it leaves out grandpa john, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it includes grandparents, but grandparents is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes country, but country is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes animals, but animals is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: liza, bobby, grandparents, they, horses. \"liza, bobby, grandparents, they, horses\" is not the best answer because it leaves out grandma ruth, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it leaves out grandpa john, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it includes grandparents, but grandparents is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes horses, but horses is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -7965,7 +7970,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "vocabulary-homophones-q0039",
@@ -8449,8 +8459,8 @@
         },
         {
           "id": "vocabulary-homophones-q0047",
-          "version": 2,
-          "contentHash": "sha256:d6348e607f0af23d1be01a89d161584819443ee0040176ed418557e7944fe738",
+          "version": 4,
+          "contentHash": "sha256:5db100defa74e6ac968955b791912197bb06f88c3ac75d409600e2c820cbc693",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "before 5 a.m., ringing so loudly, it woke me up",
@@ -8460,12 +8470,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: after spending just ten minutes outside, I had a sunburn. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"after spending just ten minutes outside, I had a sunburn\" has the meaning needed in the sentence; homophones can sound alike, so the context decides the word.",
+            "correct": "Answer: after spending just ten minutes outside, I had a sunburn. Rule or clue: Capitalize the first word when the words are being used as the beginning of a full sentence. \"after spending just ten minutes outside, I had a sunburn\" is the choice whose first word should be capitalized because it is being used as the start of a sentence. The sentence should begin with \"After\".",
             "incorrect": [
-              "Not: before 5 a.m., ringing so loudly, it woke me up. \"before 5 a.m., ringing so loudly, it woke me up\" may sound similar, but its meaning does not fit the sentence context.",
-              "Not: flew through a hole in the roof to their babies waiting below. \"flew through a hole in the roof to their babies waiting below\" may sound similar, but its meaning does not fit the sentence context.",
+              "Not: before 5 a.m., ringing so loudly, it woke me up. \"before 5 a.m., ringing so loudly, it woke me up\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"After\".",
+              "Not: flew through a hole in the roof to their babies waiting below. \"flew through a hole in the roof to their babies waiting below\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"After\".",
               "",
-              "Not: completely soakedour shirts and shorts. \"completely soakedour shirts and shorts\" may sound similar, but its meaning does not fit the sentence context."
+              "Not: completely soakedour shirts and shorts. \"completely soakedour shirts and shorts\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"After\"."
             ]
           },
           "metadata": {
@@ -8505,7 +8515,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalize the first word when the words form a sentence or begin a sentence; sentence fragments only need a capital when they are actually used as sentence starts.",
+            "example": "after a while, the children became tired should begin After because it is the start of a sentence.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "vocabulary-homophones-q0048",
@@ -14177,8 +14192,8 @@
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0055",
-          "version": 2,
-          "contentHash": "sha256:6f0302dca68215ae0240e2ef2f3a863dec5b040de163c53e0c9e172eab8186a1",
+          "version": 3,
+          "contentHash": "sha256:45f93c1c249c3f6a433c7800eb0b10e98ff82efcd8d06ebeb0130832f9ebdd13",
           "question": "Which words should be capitalized in the sentence below? the tornado caused by the thunderstorm destroyed three towns in in diana.",
           "choices": [
             "the, tornado, towns",
@@ -14188,11 +14203,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: the, indiana. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"the, indiana\" matches the meaning relationship the prompt asks for.",
+            "correct": "Answer: the, indiana. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"the, indiana\" names the words that need capitals in the sentence. the: starts a sentence or passage, so it needs a capital letter. indiana: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
-              "Not: the, tornado, towns. \"the, tornado, towns\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning.",
-              "Not: the, thunderstorm, indiana. \"the, thunderstorm, indiana\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning.",
-              "Not: the, tornado, indiana. \"the, tornado, indiana\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning.",
+              "Not: the, tornado, towns. \"the, tornado, towns\" is not the best answer because it leaves out indiana, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes tornado, but tornado is not one of the words that needs a capital in this sentence.; it includes towns, but towns is not one of the words that needs a capital in this sentence..",
+              "Not: the, thunderstorm, indiana. \"the, thunderstorm, indiana\" is not the best answer because it includes thunderstorm, but thunderstorm is not one of the words that needs a capital in this sentence..",
+              "Not: the, tornado, indiana. \"the, tornado, indiana\" is not the best answer because it includes tornado, but tornado is not one of the words that needs a capital in this sentence..",
               ""
             ]
           },
@@ -14233,7 +14248,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0056",
@@ -32520,7 +32540,7 @@
         },
         {
           "id": "vocabulary-spelling-q0092",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:de9d2a20c189e93d00937c20bd8ebc4471ec19503e45a3cf90055ad05b31afd5",
           "question": "Which title is capitalized correctly?",
           "choices": [
@@ -34003,8 +34023,8 @@
         },
         {
           "id": "vocabulary-spelling-q0117",
-          "version": 2,
-          "contentHash": "sha256:3f8bd7293a4177ddb7116d7a68872cf194298434bf7c95c90e8d1cc7631f9c0f",
+          "version": 3,
+          "contentHash": "sha256:26e845d7e79a3c7c8c8109acd8be4081cd70ebd6731ec2457fa7bc1054568817",
           "question": "Which words should be capitalized? Did you know the senator of massachusetts, senator kennedy, was once a secretary of transportation?",
           "choices": [
             "senator, massachusetts, senator,kennedy",
@@ -34014,12 +34034,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: senator, massachusetts, senator,kennedy. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"senator, massachusetts, senator,kennedy\" is the standard spelling; every needed letter is in the right order.",
+            "correct": "Answer: senator, massachusetts, senator,kennedy. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"senator, massachusetts, senator,kennedy\" names the words that need capitals in the sentence. senator: is part of a title or family title used with a name, so the title/name expression needs capitals. massachusetts: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter. senator: is part of a title or family title used with a name, so the title/name expression needs capitals. kennedy: is a person’s name, so it needs a capital letter.",
             "incorrect": [
               "",
-              "Not: senator, massachusetts, senator kennedy, secretary of transportation. \"senator, massachusetts, senator kennedy, secretary of transportation\" changes, adds, or leaves out letters from the standard spelling \"senator, massachusetts, senator,kennedy\".",
-              "Not: massachusetts, secretary of transportation. \"massachusetts, secretary of transportation\" changes, adds, or leaves out letters from the standard spelling \"senator, massachusetts, senator,kennedy\".",
-              "Not: massachusetts, senator kennedy. \"massachusetts, senator kennedy\" changes, adds, or leaves out letters from the standard spelling \"senator, massachusetts, senator,kennedy\"."
+              "Not: senator, massachusetts, senator kennedy, secretary of transportation. \"senator, massachusetts, senator kennedy, secretary of transportation\" is not the best answer because it leaves out kennedy, which is a person’s name, so it needs a capital letter.; it includes senator kennedy, but senator kennedy is not one of the words that needs a capital in this sentence.; it includes secretary of transportation, but secretary of transportation is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: massachusetts, secretary of transportation. \"massachusetts, secretary of transportation\" is not the best answer because it leaves out senator, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it leaves out senator, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it leaves out kennedy, which is a person’s name, so it needs a capital letter.; it includes secretary of transportation, but secretary of transportation is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: massachusetts, senator kennedy. \"massachusetts, senator kennedy\" is not the best answer because it leaves out senator, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it leaves out senator, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it leaves out kennedy, which is a person’s name, so it needs a capital letter.; it includes senator kennedy, but senator kennedy is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -34059,7 +34079,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "vocabulary-spelling-q0118",
@@ -34303,22 +34328,22 @@
         },
         {
           "id": "vocabulary-spelling-q0122",
-          "version": 2,
-          "contentHash": "sha256:26bcda9ac58ffcb77ebbe24ee9b6386f17c182f34d7dba2afa3cda5d4196bd3e",
+          "version": 6,
+          "contentHash": "sha256:d33282effa8a016ce00ca04d02eec7b5a3ccfcd238796c9c0497ad9439dcc0b1",
           "question": "Which course title is correctly capitalized?",
           "choices": [
             "Language Arts",
             "Geometry",
             "Biology",
-            "Ge rman"
+            "German"
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Ge rman. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Ge rman\" is the standard spelling; every needed letter is in the right order.",
+            "correct": "Answer: German. Rule or clue: Capitalize language names such as German, Spanish, English, and French; ordinary school subjects usually stay lowercase. \"German\" is correct because German names a language, and language names are proper nouns that always need capital letters.",
             "incorrect": [
-              "Not: Language Arts. \"Language Arts\" changes, adds, or leaves out letters from the standard spelling \"Ge rman\".",
-              "Not: Geometry. \"Geometry\" changes, adds, or leaves out letters from the standard spelling \"Ge rman\".",
-              "Not: Biology. \"Biology\" changes, adds, or leaves out letters from the standard spelling \"Ge rman\".",
+              "Not: Language Arts. \"Language Arts\" is not the intended answer here because this item is checking language-name capitalization; German is a language name, while language arts can be a common subject label unless a school uses it as an official course title.",
+              "Not: Geometry. \"Geometry\" names a school subject that is not a language name in this item, so it does not show the specific capitalization rule the question is testing.",
+              "Not: Biology. \"Biology\" names a school subject that is not a language name in this item, so it does not show the specific capitalization rule the question is testing.",
               ""
             ]
           },
@@ -34359,7 +34384,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "School subjects are usually lowercase unless they are language names or official course titles.",
+            "example": "German and Spanish need capitals because they are languages; math and science usually stay lowercase.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "vocabulary-spelling-q0123",
@@ -34843,9 +34873,9 @@
         },
         {
           "id": "vocabulary-spelling-q0131",
-          "version": 2,
-          "contentHash": "sha256:873904d5d18897647b1e55b1684cb79fbcaa5fd19dc378d39187c8a3346dd16b",
-          "question": "Which underlined wor d is incorrectly capitalized? My favorite classes in school are math, french, and art.",
+          "version": 6,
+          "contentHash": "sha256:ca33c4b5687d4c785c1fe4385c3de5d31eb18adafffe7b5b96f792b92d941462",
+          "question": "Which underlined word is incorrectly capitalized? My favorite classes in school are math, french, and art.",
           "choices": [
             "french",
             "classes",
@@ -34854,12 +34884,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: french. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"french\" is the standard spelling; every needed letter is in the right order.",
+            "correct": "Answer: french. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"french\" is the word with the capitalization error in the sentence. french: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
               "",
-              "Not: classes. \"classes\" changes, adds, or leaves out letters from the standard spelling \"french\".",
-              "Not: art. \"art\" changes, adds, or leaves out letters from the standard spelling \"french\".",
-              "Not: math. \"math\" changes, adds, or leaves out letters from the standard spelling \"french\"."
+              "Not: classes. \"classes\" is not the best answer because it leaves out french, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes classes, but classes is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: art. \"art\" is not the best answer because it leaves out french, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes art, but art is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: math. \"math\" is not the best answer because it leaves out french, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes math, but math is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -34899,7 +34929,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "vocabulary-spelling-q0132",

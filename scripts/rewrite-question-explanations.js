@@ -195,7 +195,25 @@ function buildStudyAid(question) {
   const existing = question.studyAid || {};
   let definition = '';
   let example = '';
-  if ((/abbreviation is incorrect/i.test(prompt) && isPostalStateQuestion(question)) || /state abbreviation/i.test(prompt)) {
+  if (isFamilyTitleCapitalizationQuestion(question)) {
+    definition = 'Capitalize family titles when they act like names, including direct address; keep them lowercase after possessive words such as my, your, or our.';
+    example = 'Mother is capitalized in direct address. Dad’s is capitalized when it stands for a name. My aunt and uncle stay lowercase after my.';
+  } else if (/capitalized correctly after an interruption in dialogue/i.test(prompt)) {
+    definition = 'When a speaker tag interrupts one sentence, the second part usually continues with a lowercase letter; names still keep capitals.';
+    example = '"I think," Nora whispered, "we should wait." continues the same sentence after whispered, so we stays lowercase.';
+  } else if (isCapitalizationCoursePrompt(question)) {
+    definition = 'School subjects are usually lowercase unless they are language names or official course titles.';
+    example = 'German and Spanish need capitals because they are languages; math and science usually stay lowercase.';
+  } else if (isCapitalizationAlwaysConceptPrompt(question)) {
+    definition = 'Some words always need capitals because of their job, but many words only need capitals in certain places.';
+    example = 'The first word of a sentence always starts with a capital; common nouns and words after a colon do not always need one.';
+  } else if (isCapitalizationFirstWordChoicePrompt(question)) {
+    definition = 'Capitalize the first word when the words form a sentence or begin a sentence; sentence fragments only need a capital when they are actually used as sentence starts.';
+    example = 'after a while, the children became tired should begin After because it is the start of a sentence.';
+  } else if (isCapitalizationListPrompt(question)) {
+    definition = 'Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.';
+    example = 'In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.';
+  } else if ((/abbreviation is incorrect/i.test(prompt) && isPostalStateQuestion(question)) || /state abbreviation/i.test(prompt)) {
     definition = 'Postal state abbreviations use two capital letters with no periods; the letters must match the state name.';
     example = 'Maine is ME. MA is Massachusetts, so "Maine - MA" is not correct.';
   } else if (/not a correct abbreviation/i.test(prompt)) {
@@ -260,6 +278,24 @@ function getInferredRule(question) {
   const prompt = stripLeadIns(question.question || '');
   const skillText = getSkillText(question);
   const sourceSet = getSourceSet(question);
+  if (isFamilyTitleCapitalizationQuestion(question)) {
+    return 'Capitalize family titles when they are used like names or in direct address; keep family words lowercase after possessive words such as my.';
+  }
+  if (/capitalized correctly after an interruption in dialogue/i.test(prompt)) {
+    return 'When a speaker tag interrupts one sentence, the second part continues lowercase unless a new sentence begins; names still need capitals.';
+  }
+  if (isCapitalizationCoursePrompt(question)) {
+    return 'Capitalize language names such as German, Spanish, English, and French; ordinary school subjects usually stay lowercase.';
+  }
+  if (isCapitalizationAlwaysConceptPrompt(question)) {
+    return 'The first word of a sentence always needs a capital; common nouns, seasons, and words after colons do not always need capitals.';
+  }
+  if (isCapitalizationFirstWordChoicePrompt(question)) {
+    return 'Capitalize the first word when the words are being used as the beginning of a full sentence.';
+  }
+  if (isCapitalizationListPrompt(question)) {
+    return 'Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday.';
+  }
   if ((/abbreviation is incorrect/i.test(prompt) && isPostalStateQuestion(question)) || /state abbreviation/i.test(prompt)) {
     return 'Postal state abbreviations use two capital letters with no periods, and the letters must match the state.';
   }
@@ -930,6 +966,176 @@ function capitalizationDiffReason(choice, correctChoice, isCorrect) {
   return `${quote(choice)} does not match the capitalization pattern required by the sentence or title.`;
 }
 
+function isFamilyTitleCapitalizationQuestion(question) {
+  const prompt = stripLeadIns(question.question || '');
+  return /which words should be capitalized/i.test(prompt) && /\bmother\b/i.test(prompt) && /\bdad[’']s\b/i.test(prompt);
+}
+
+function isCapitalizationFirstWordChoicePrompt(question) {
+  return /which of the following should have the first word capitalized/i.test(stripLeadIns(question.question || ''));
+}
+
+function isCapitalizationAlwaysConceptPrompt(question) {
+  const prompt = stripLeadIns(question.question || '');
+  return /which of the following (must always|would most likely not|should not) be capitalized/i.test(prompt) ||
+    /which types of words are always capitalized/i.test(prompt);
+}
+
+function isCapitalizationListPrompt(question) {
+  const prompt = stripLeadIns(question.question || '');
+  if (!/\b(capitalized|capitalization)\b/i.test(prompt) || !/\bwhich\b/i.test(prompt)) return false;
+  if (isCapitalizationFirstWordChoicePrompt(question) || isCapitalizationAlwaysConceptPrompt(question)) return false;
+  if (/\bwhich sentence\b/i.test(prompt) || /\bwhich answer is capitalized correctly\b/i.test(prompt) || /\bwhich option is capitalized correctly\b/i.test(prompt)) return false;
+  if (/\bwhich (word|words|word or words|wordor words|word\s*\(s\)|underlined word|underlined words|underlined wor\s*d|underlined word or words|pair of words|group of words|list includes all the words|choice) .*capitalized/i.test(prompt)) return true;
+  if (/\bwhich words? (in|are|must|should|below)/i.test(prompt) && /\bcapitalized/i.test(prompt)) return true;
+  const correctChoice = String((question.choices || [])[question.correct] || '');
+  return correctChoice.includes(',') && !/[.!?]["”']?$/.test(correctChoice);
+}
+
+function isCapitalizationCoursePrompt(question) {
+  return /which course title is correctly capitalized/i.test(stripLeadIns(question.question || ''));
+}
+
+function familyTitleCapitalizationReason(choice, correctChoice, question, isCorrect) {
+  const normalizedChoice = normalizeWhitespace(choice).replace(/[']/g, '’');
+  const selected = new Set(normalizedChoice
+    .split(',')
+    .map(item => normalizeWhitespace(item).toLowerCase())
+    .filter(Boolean));
+  const hasMother = selected.has('mother');
+  const hasDad = selected.has('dad’s') || selected.has("dad's") || selected.has('dad’s family') || selected.has("dad's family");
+  const hasAunt = selected.has('aunt');
+  const hasUncle = selected.has('uncle');
+  const hasFamily = selected.has('dad’s family') || selected.has("dad's family");
+  const splitMother = /\bmo\s+ther\b/i.test(choice);
+  if (isCorrect) {
+    return `${quote(correctChoice)} is correct because Mother begins the direct quotation and is used as a name in direct address, and Dad’s is used like a name with no word such as my before it. Aunt and uncle stay lowercase because the sentence says my aunt and uncle.`;
+  }
+  const issues = [];
+  if (splitMother) issues.push('mother is split into two pieces; the word should stay together');
+  if (!hasMother) issues.push('it leaves out mother, which should be capitalized because it begins the quotation and directly addresses someone');
+  if (!hasDad) issues.push('it leaves out dad’s, which should be capitalized because Dad acts like a name here');
+  if (hasAunt || hasUncle) issues.push('aunt and uncle should stay lowercase because my comes before them');
+  if (hasFamily) issues.push('family is a common noun in dad’s family reunion, so it should stay lowercase');
+  if (!issues.length) issues.push('it does not match the family-title capitalization pattern in the sentence');
+  return `${quote(choice)} is not the best answer because ${issues.join('; ')}.`;
+}
+
+function capitalizationFirstWordChoiceReason(choice, correctChoice, question, isCorrect) {
+  const first = (normalizeWhitespace(correctChoice).match(/[A-Za-z][A-Za-z’'-]*/) || [''])[0];
+  const capitalized = first ? first[0].toUpperCase() + first.slice(1) : 'the first word';
+  if (isCorrect) {
+    return `${quote(correctChoice)} is the choice whose first word should be capitalized because it is being used as the start of a sentence. The sentence should begin with ${quote(capitalized)}.`;
+  }
+  return `${quote(choice)} is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to ${quote(capitalized)}.`;
+}
+
+function capitalizationConceptReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  const normalized = normalizeCapitalizationTerm(choice);
+  const correctNormalized = normalizeCapitalizationTerm(correctChoice);
+  if (/should not|most likely not/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} is right because common nouns name general people, places, things, or ideas, so they stay lowercase unless they begin a sentence or are part of a proper name.`;
+    if (/proper noun|geographical|holiday|language|nationalit|first word/.test(normalized)) return `${quote(choice)} is usually capitalized, so it is not the "should not be capitalized" choice.`;
+    return `${quote(choice)} is not the best answer because it can need a capital in some sentence jobs, while ${quote(correctChoice)} names the ordinary word group that usually stays lowercase.`;
+  }
+  if (isCorrect) {
+    if (/first word of a sentence/.test(correctNormalized)) return `${quote(correctChoice)} is right because every sentence begins with a capital letter.`;
+    if (/proper noun|geographical/.test(correctNormalized)) return `${quote(correctChoice)} is right because proper nouns and specific place names name particular people, places, or things.`;
+    return `${quote(correctChoice)} names the word group that the capitalization rule asks for.`;
+  }
+  if (/common noun|season|word after a colon/.test(normalized)) return `${quote(choice)} is not always capitalized; it only gets a capital when it starts a sentence or is part of a proper name.`;
+  return `${quote(choice)} is not the best answer because it does not match the always-capitalized group named by the correct choice.`;
+}
+
+function capitalizationCourseReason(choice, correctChoice, question, isCorrect) {
+  if (isCorrect) return `${quote(correctChoice)} is correct because German names a language, and language names are proper nouns that always need capital letters.`;
+  if (/language arts/i.test(choice)) return `${quote(choice)} is not the intended answer here because this item is checking language-name capitalization; German is a language name, while language arts can be a common subject label unless a school uses it as an official course title.`;
+  return `${quote(choice)} names a school subject that is not a language name in this item, so it does not show the specific capitalization rule the question is testing.`;
+}
+
+function capitalizationListReason(choice, correctChoice, question, isCorrect) {
+  const bad = asksForBadChoice(question);
+  const selected = splitCapitalizationTerms(choice);
+  const correct = splitCapitalizationTerms(correctChoice);
+  const selectedSet = new Set(selected.map(normalizeCapitalizationTerm));
+  const correctSet = new Set(correct.map(normalizeCapitalizationTerm));
+  const missing = correct.filter(term => !selectedSet.has(normalizeCapitalizationTerm(term)));
+  const extra = selected.filter(term => !correctSet.has(normalizeCapitalizationTerm(term)));
+  if (isCorrect) {
+    const notes = correct.slice(0, 4).map(term => `${term}: ${capitalizationTermReason(term, question)}`);
+    const intro = bad
+      ? (correct.length === 1
+        ? `${quote(correctChoice)} is the word with the capitalization error in the sentence.`
+        : `${quote(correctChoice)} names the words with capitalization errors in the sentence.`)
+      : (correct.length === 1
+        ? `${quote(correctChoice)} is the word that needs a capital in the sentence.`
+        : `${quote(correctChoice)} names the words that need capitals in the sentence.`);
+    return `${intro} ${notes.join(' ')}`;
+  }
+  const notes = [];
+  missing.slice(0, 3).forEach(term => {
+    notes.push(`it leaves out ${term}, which ${capitalizationTermReason(term, question)}`);
+  });
+  extra.slice(0, 3).forEach(term => {
+    notes.push(`it includes ${term}, but ${lowercaseTermReason(term, question)}`);
+  });
+  if (!notes.length) notes.push('it does not match the capitalization jobs in the sentence');
+  return `${quote(choice)} is not the best answer because ${notes.join('; ')}.`;
+}
+
+function splitCapitalizationTerms(value) {
+  return normalizeWhitespace(value)
+    .split(',')
+    .map(item => normalizeWhitespace(item))
+    .filter(Boolean);
+}
+
+function normalizeCapitalizationTerm(value) {
+  return normalizeWhitespace(value)
+    .toLowerCase()
+    .replace(/[’']/g, "'")
+    .replace(/\s+/g, ' ');
+}
+
+function capitalizationTermReason(term, question) {
+  const normalized = normalizeCapitalizationTerm(term);
+  const prompt = stripLeadIns(question.question || '');
+  if (/^(my|the|as|before|after|buy|be|do)$/.test(normalized)) {
+    if (/“[^”]*\b/.test(prompt) && /^(before|after|buy|do)$/.test(normalized)) return 'starts a direct quotation, so it needs a capital letter.';
+    if (/^(buy|do)$/.test(normalized)) return 'starts quoted speech, so it needs a capital letter.';
+    return 'starts a sentence or passage, so it needs a capital letter.';
+  }
+  if (/^(mother|dad's|dad’s)$/.test(normalized)) {
+    return 'is a family title used like a name or in direct address, so it needs a capital letter.';
+  }
+  if (/^(aunt|uncle|grandma|grandpa)\s+[a-z]/.test(normalized) || /^(senator|uncle|aunt|grandma|grandpa)\b/.test(normalized)) {
+    return 'is part of a title or family title used with a name, so the title/name expression needs capitals.';
+  }
+  if (/^(marshall|jessie|annie|sam|jeff|frank|kennedy|liza|bobby|ruth|john)$/.test(normalized)) {
+    return 'is a person’s name, so it needs a capital letter.';
+  }
+  if (/^(africa|kenyans|swahili|sweden|swedish|latino|indiana|massachusetts|mississippi|tuesday|christmas|memorial|day|hanoi|vietnam|english|vietnamese|french|german|spanish)$/.test(normalized)) {
+    return 'is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.';
+  }
+  if (/^(river|monument|middle|school|building|state|canyon|grand|potomac|washington|seattle|king|columbia|broadway|bridge|portland|oregon|new|testament|bible|christianity's|christianity’s|buick|chevrolet|ford|toyota|call|wild|d\.c\.)$/.test(normalized)) {
+    return 'is part of a specific proper name or title, so it needs a capital letter.';
+  }
+  return 'is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.';
+}
+
+function lowercaseTermReason(term, question) {
+  const normalized = normalizeCapitalizationTerm(term);
+  const prompt = stripLeadIns(question.question || '');
+  if (/^(aunt|uncle|mother|dad|cousins|grandparents)$/.test(normalized) && /\bmy\b/i.test(prompt)) {
+    return `${term} follows a possessive word such as my, so it stays lowercase.`;
+  }
+  if (/^(family|reunion|plumber|shower|street|boy|newspaper|nose|rock|mouth|water|warm|crossed|continent|speak|located|sits|attends|holiday|documents|teacher|secretary of transportation|vehicle|car|school|high school|club|classes|art|math|grandparents|country|animals|horses)$/.test(normalized)) {
+    return `${term} is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.`;
+  }
+  return `${term} is not one of the words that needs a capital in this sentence.`;
+}
+
 function wordsWithCase(value) {
   return normalizeWhitespace(value)
     .match(/[A-Za-z][A-Za-z.'-]*/g)?.map(raw => {
@@ -1345,6 +1551,21 @@ function domainReason(choice, correctChoice, question, domain, isCorrect) {
   }
   if (/\bcapitalized correctly\b/i.test(prompt)) {
     return capitalizationDiffReason(choice, correctChoice, isCorrect);
+  }
+  if (isFamilyTitleCapitalizationQuestion(question)) {
+    return familyTitleCapitalizationReason(choice, correctChoice, question, isCorrect);
+  }
+  if (isCapitalizationFirstWordChoicePrompt(question)) {
+    return capitalizationFirstWordChoiceReason(choice, correctChoice, question, isCorrect);
+  }
+  if (isCapitalizationAlwaysConceptPrompt(question)) {
+    return capitalizationConceptReason(choice, correctChoice, question, isCorrect);
+  }
+  if (isCapitalizationCoursePrompt(question)) {
+    return capitalizationCourseReason(choice, correctChoice, question, isCorrect);
+  }
+  if (isCapitalizationListPrompt(question)) {
+    return capitalizationListReason(choice, correctChoice, question, isCorrect);
   }
   if (/Correct as is/i.test(String(correctChoice || ''))) {
     if (isCorrect) return `${quote(correctChoice)} is right because the original underlined wording already follows the rule being checked.`;

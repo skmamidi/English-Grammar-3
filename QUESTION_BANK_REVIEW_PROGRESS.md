@@ -14,6 +14,7 @@ Workflow for each sub-topic:
 | Status | Sub-topic | Questions | Notes |
 | --- | --- | ---: | --- |
 | Complete | `punctuation-abbreviations-acronyms` | 185 | Replaced generic study aids; fixed routing for state abbreviations, title abbreviations, acronyms, semicolons, colons, parentheses, introductory commas, dialogue, speaker tags, hyphens, dashes, capitalization, pronoun choice, and sentence-combining prompts. Added QA checks for generic study aids and mismatched abbreviation explanations. |
+| Complete | Cross-bank capitalization prompt-routing sweep | 72 updated | Fixed the reported family-title/direct-quote item, removed the split `mo ther` choice, repaired `family reunion`, and routed capitalization prompts to specific explanations for family titles, sentence starts, interrupted dialogue, language/course titles, capitalization concept questions, and comma-separated word-list questions. Added QA checks for split family-title choices and capitalization explanations that drift into dialogue, spelling, reference, or word-meaning rationales. |
 | In progress | `punctuation-periods-abbreviations` | 24 | First inspection complete. Mixed content includes title abbreviations, state abbreviations, Latin abbreviations, D.C. punctuation, formal-language selection, "Correct as is," weekday/month abbreviations, and measurement abbreviations. Needs another focused pass before completion. |
 
 ## QA Ideas Log
@@ -40,3 +41,18 @@ Validation:
 
 Status:
 - In progress. Initial routing/study-aid fixes started, but not yet marked reviewed.
+
+### Cross-bank capitalization prompt-routing sweep
+- Flag answer choices in "Which words should be capitalized?" items when family-title words are accidentally split, such as `mo ther`.
+- Flag capitalization explanations that talk about dialogue punctuation, quotation marks, spoken words, spelling, reference features, homophones, or word relationships instead of capitalization.
+- Add separate explanation paths for true word-list capitalization questions, "first word should be capitalized" questions, always/not-always capitalization concept questions, language/course-title questions, and interrupted-dialogue capitalization questions.
+
+Implemented:
+- `split-capitalization-choice-word` rejects split family-title choices in capitalization word-list prompts.
+- `generic-explanation-rationale` now rejects capitalization feedback that drifts into dialogue-punctuation, spelling, reference, homophone, or word-relationship language.
+- Generator routing now uses capitalization-specific helpers before falling back to vocabulary, spelling, punctuation, or reference explanations.
+
+Validation:
+- `npm run qa:content`: 0 errors, existing 3586 warning backlog unchanged.
+- `npm run qa:questions`: passed.
+- `node --test tests/content.test.js tests/question-bank-json-source.test.js tests/json-generation-pipeline.test.js`: 41/41 passing.

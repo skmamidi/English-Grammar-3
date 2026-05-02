@@ -8,7 +8,7 @@
       "questions": [
         {
           "id": "capitalization-sentence-beginning-q0001",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:79a7eb084c097d8abd50ca281af8d75869484bc28d88a768dc453effa68c1ded",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -236,8 +236,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0005",
-          "version": 4,
-          "contentHash": "sha256:1e005e0615084a3a6ed6894e32d53cd930c62a81993bc81077dfbd279bd70079",
+          "version": 6,
+          "contentHash": "sha256:43b4263600290b2407f9c6a3b97d8393cf38dd96188f244cf1ccc8d7a6148fed",
           "question": "Which sentence is capitalized correctly after an interruption in dialogue?",
           "choices": [
             "\"I think,\" Nora whispered, \"We should wait.\"",
@@ -247,7 +247,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: \"I think,\" Nora whispered, \"we should wait.\" Rule or clue: Story dialogue puts spoken words in quotation marks and uses punctuation to connect the speaker tag. '\"I think,\" Nora whispered, \"we should wait.\"' follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: \"I think,\" Nora whispered, \"we should wait.\" Rule or clue: When a speaker tag interrupts one sentence, the second part continues lowercase unless a new sentence begins; names still need capitals. '\"I think,\" Nora whispered, \"we should wait.\"' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: \"I think,\" Nora whispered, \"We should wait.\" '\"I think,\" Nora whispered, \"We should wait.\"' is not correct because \"We\" should stay lowercase as \"we\".",
               "",
@@ -256,8 +256,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Dialogue keeps spoken words inside quotation marks and uses punctuation to connect speaker tags.",
-            "example": "\"The bus is here,\" announced Mr. Lee.",
+            "definition": "When a speaker tag interrupts one sentence, the second part usually continues with a lowercase letter; names still keep capitals.",
+            "example": "\"I think,\" Nora whispered, \"we should wait.\" continues the same sentence after whispered, so we stays lowercase.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -464,7 +464,7 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0009",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:ea33945a1e3062ce9209c9a6569ddd15a7703266f5d6b07fd19a47a0f79fd5e6",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -578,7 +578,7 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0011",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:a4a98ed94419f9097578e045c94539e3902554c80493c9d81da9229c4274e179",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -863,8 +863,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0016",
-          "version": 3,
-          "contentHash": "sha256:85dbc2539eab996ba5487698ef95fb3be24c20182c7a8a4e9c4dcea4e14ebffa",
+          "version": 5,
+          "contentHash": "sha256:c02ac5024f44c916fd920194f1449e952c90f89873399d93a0c3e8fa0f5ed91d",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "after a while, the children became tired.",
@@ -874,12 +874,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: after a while, the children became tired. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"after a while, the children became tired.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: after a while, the children became tired. Rule or clue: Capitalize the first word when the words are being used as the beginning of a full sentence. \"after a while, the children became tired.\" is the choice whose first word should be capitalized because it is being used as the start of a sentence. The sentence should begin with \"After\".",
             "incorrect": [
               "",
-              "Not: between the dotted lines. \"between the dotted lines.\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: under the branching elm tree. \"under the branching elm tree.\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: on page ten in the math book. \"on page ten in the math book.\" does not match the capitalization pattern required by the sentence or title."
+              "Not: between the dotted lines. \"between the dotted lines.\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"After\".",
+              "Not: under the branching elm tree. \"under the branching elm tree.\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"After\".",
+              "Not: on page ten in the math book. \"on page ten in the math book.\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"After\"."
             ]
           },
           "metadata": {
@@ -918,12 +918,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalize the first word when the words form a sentence or begin a sentence; sentence fragments only need a capital when they are actually used as sentence starts.",
+            "example": "after a while, the children became tired should begin After because it is the start of a sentence.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-sentence-beginning-q0017",
-          "version": 3,
-          "contentHash": "sha256:da28a3e222d156e3b0ae3513f11228a2ceb5efd2b0817c15660ca258f80890ce",
+          "version": 5,
+          "contentHash": "sha256:5b3f9db43ac08aeda61245196bde68cbf8282ade414053002cc9ee9ac2932fff",
           "question": "Which of the underlined words below should be capitalized? churches, schools, and hospitals are all examples of buildings.",
           "choices": [
             "churches",
@@ -977,7 +982,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-sentence-beginning-q0018",
@@ -1104,8 +1114,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0020",
-          "version": 3,
-          "contentHash": "sha256:9147b23f684ae91f7238ce636cf789d4b86f44c3d919400c35fac0910480baeb",
+          "version": 5,
+          "contentHash": "sha256:be819d51f2e534eb5c851160b2011e736767f1ae95084cb8d30611d486a575bf",
           "question": "Which of the following must always be capitalized?",
           "choices": [
             "first word of a sentence",
@@ -1115,12 +1125,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: first word of a sentence. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"first word of a sentence\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: first word of a sentence. Rule or clue: The first word of a sentence always needs a capital; common nouns, seasons, and words after colons do not always need capitals. \"first word of a sentence\" is right because every sentence begins with a capital letter.",
             "incorrect": [
               "",
-              "Not: the word “doctor”. \"the word “doctor”\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: third word of a sentence. \"third word of a sentence\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: the word “river”. \"the word “river”\" does not match the capitalization pattern required by the sentence or title."
+              "Not: the word “doctor”. \"the word “doctor”\" is not the best answer because it does not match the always-capitalized group named by the correct choice.",
+              "Not: third word of a sentence. \"third word of a sentence\" is not the best answer because it does not match the always-capitalized group named by the correct choice.",
+              "Not: the word “river”. \"the word “river”\" is not the best answer because it does not match the always-capitalized group named by the correct choice."
             ]
           },
           "metadata": {
@@ -1159,12 +1169,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Some words always need capitals because of their job, but many words only need capitals in certain places.",
+            "example": "The first word of a sentence always starts with a capital; common nouns and words after a colon do not always need one.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-sentence-beginning-q0021",
-          "version": 3,
-          "contentHash": "sha256:48875119001288d8b0989ab837fdcb24d9e626622ca03c8735b0c81ec7d96fcb",
+          "version": 4,
+          "contentHash": "sha256:bae84c5cc8d984a3d359f7f8ccc694717f2ae145846a122cfffd64e0f50777e2",
           "question": "Which words in the passage below should be capitalized? my dog is a golden retriever and he loves water. you should see marshall dive for rocks! down under the surface he goes, and up he comes with a nose full of water and a huge rock in his mouth!",
           "choices": [
             "my, you, marshall, down",
@@ -1174,12 +1189,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: my, you, marshall, down. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"my, you, marshall, down\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: my, you, marshall, down. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"my, you, marshall, down\" names the words that need capitals in the sentence. my: starts a sentence or passage, so it needs a capital letter. you: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. marshall: is a person’s name, so it needs a capital letter. down: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
               "",
-              "Not: my, nose, rock, mouth. \"my, nose, rock, mouth\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: marshall, down, nose, water. \"marshall, down, nose, water\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: my, you, marshall, water. \"my, you, marshall, water\" does not match the capitalization pattern required by the sentence or title."
+              "Not: my, nose, rock, mouth. \"my, nose, rock, mouth\" is not the best answer because it leaves out you, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out marshall, which is a person’s name, so it needs a capital letter.; it leaves out down, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes nose, but nose is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes rock, but rock is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes mouth, but mouth is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: marshall, down, nose, water. \"marshall, down, nose, water\" is not the best answer because it leaves out my, which starts a sentence or passage, so it needs a capital letter.; it leaves out you, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes nose, but nose is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes water, but water is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: my, you, marshall, water. \"my, you, marshall, water\" is not the best answer because it leaves out down, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes water, but water is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -1218,7 +1233,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-sentence-beginning-q0022",
@@ -1341,8 +1361,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0024",
-          "version": 3,
-          "contentHash": "sha256:1fdefbe5a45741910855faef03915c7de7d19b670282022122a1fc09d9b0543e",
+          "version": 5,
+          "contentHash": "sha256:f25082a240e9f01830d9e8c669ce94a08b18542a8f1dcb33c0c0604b62f79693",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "all the dishes in the dishwasher.",
@@ -1352,11 +1372,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: he did send thatover. forests. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"he did send thatover. forests\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: he did send thatover. forests. Rule or clue: Capitalize the first word when the words are being used as the beginning of a full sentence. \"he did send thatover. forests\" is the choice whose first word should be capitalized because it is being used as the start of a sentence. The sentence should begin with \"He\".",
             "incorrect": [
-              "Not: all the dishes in the dishwasher. \"all the dishes in the dishwasher.\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: around the corner in the back. \"around the corner in the back.\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: dinner then again at breakfast. \"dinner then again at breakfast.\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: all the dishes in the dishwasher. \"all the dishes in the dishwasher.\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"He\".",
+              "Not: around the corner in the back. \"around the corner in the back.\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"He\".",
+              "Not: dinner then again at breakfast. \"dinner then again at breakfast.\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"He\".",
               ""
             ]
           },
@@ -1397,7 +1417,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalize the first word when the words form a sentence or begin a sentence; sentence fragments only need a capital when they are actually used as sentence starts.",
+            "example": "after a while, the children became tired should begin After because it is the start of a sentence.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-sentence-beginning-q0025",
@@ -1461,8 +1486,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0026",
-          "version": 3,
-          "contentHash": "sha256:da282b5bc2356cc1a9864001c18aee11d45d0b22928d6964b7f22fce4d275b6b",
+          "version": 4,
+          "contentHash": "sha256:0c9c96987d075de15ca09f2ec7c82ad02f9359884ef6217237dcc5b698b51fae",
           "question": "Which words should be capitalized in the sentence below? the plumber fixedour shower door and mr. hews mowedour grass.",
           "choices": [
             "the, plumber, hews",
@@ -1472,11 +1497,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: the, mr., hews. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"the, mr., hews\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: the, mr., hews. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"the, mr., hews\" names the words that need capitals in the sentence. the: starts a sentence or passage, so it needs a capital letter. mr.: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. hews: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: the, plumber, hews. \"the, plumber, hews\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: the, shower, mr, \"the, shower, mr,\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: the, plumber, shower, \"the, plumber, shower,\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: the, plumber, hews. \"the, plumber, hews\" is not the best answer because it leaves out mr., which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes plumber, but plumber is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: the, shower, mr, \"the, shower, mr,\" is not the best answer because it leaves out mr., which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out hews, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes shower, but shower is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes mr, but mr is not one of the words that needs a capital in this sentence..",
+              "Not: the, plumber, shower, \"the, plumber, shower,\" is not the best answer because it leaves out mr., which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out hews, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes plumber, but plumber is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes shower, but shower is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
               ""
             ]
           },
@@ -1517,12 +1542,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-sentence-beginning-q0027",
-          "version": 3,
-          "contentHash": "sha256:7d56b54565a1d28d352b90af7e5f7362c0bab265834ed648d314536fd2bfb396",
+          "version": 5,
+          "contentHash": "sha256:34a5b7c4213c54cc5843539110a77c3623c8ea9261798aac661b94c2c3a8489a",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "flew to its hidden nest in the tree",
@@ -1532,12 +1562,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: the rat chewed through the wire. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"the rat chewed through the wire\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: the rat chewed through the wire. Rule or clue: Capitalize the first word when the words are being used as the beginning of a full sentence. \"the rat chewed through the wire\" is the choice whose first word should be capitalized because it is being used as the start of a sentence. The sentence should begin with \"The\".",
             "incorrect": [
-              "Not: flew to its hidden nest in the tree. \"flew to its hidden nest in the tree\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: the waitress atour table. \"the waitress atour table\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: flew to its hidden nest in the tree. \"flew to its hidden nest in the tree\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"The\".",
+              "Not: the waitress atour table. \"the waitress atour table\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"The\".",
               "",
-              "Not: that was found in the grocery store. \"that was found in the grocery store\" does not match the capitalization pattern required by the sentence or title."
+              "Not: that was found in the grocery store. \"that was found in the grocery store\" is not the best answer because this item is not the sentence-start choice the prompt is testing; the correct item needs its first word changed to \"The\"."
             ]
           },
           "metadata": {
@@ -1577,12 +1607,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalize the first word when the words form a sentence or begin a sentence; sentence fragments only need a capital when they are actually used as sentence starts.",
+            "example": "after a while, the children became tired should begin After because it is the start of a sentence.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-sentence-beginning-q0028",
-          "version": 3,
-          "contentHash": "sha256:f2acf286ecebedb66892d04dc8be4c1a93ff1ba2395802b6ce7cac2193f2dd91",
+          "version": 4,
+          "contentHash": "sha256:e8d4512841baf2089a1db952afcd253d35a6b2f63d99d5c0abcd6afe96f9d9ef",
           "question": "Which words in the sentence are capitalized incorrectly? my mother asked, “do you want to go to Hawaii this spring?”",
           "choices": [
             "my, Haw aii",
@@ -1592,11 +1627,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: my, do. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"my, do\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: my, do. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"my, do\" names the words with capitalization errors in the sentence. my: starts a sentence or passage, so it needs a capital letter. do: starts a direct quotation, so it needs a capital letter.",
             "incorrect": [
-              "Not: my, Haw aii. \"my, Haw aii\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: my, spring. \"my, spring\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: my, Hawaii, do. \"my, Hawaii, do\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: my, Haw aii. \"my, Haw aii\" is not the best answer because it leaves out do, which starts a direct quotation, so it needs a capital letter.; it includes Haw aii, but Haw aii is not one of the words that needs a capital in this sentence..",
+              "Not: my, spring. \"my, spring\" is not the best answer because it leaves out do, which starts a direct quotation, so it needs a capital letter.; it includes spring, but spring is not one of the words that needs a capital in this sentence..",
+              "Not: my, Hawaii, do. \"my, Hawaii, do\" is not the best answer because it includes Hawaii, but Hawaii is not one of the words that needs a capital in this sentence..",
               ""
             ]
           },
@@ -1637,7 +1672,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-sentence-beginning-q0029",
@@ -1701,8 +1741,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0030",
-          "version": 2,
-          "contentHash": "sha256:083aab255db71ca4d1b95f4344e77509afca1b8369e00d411e4976bc226efaeb",
+          "version": 4,
+          "contentHash": "sha256:7f84f5d5eaf8c8fe922131cb435f73cddd8a4004b5b6250679ede409a10f8e30",
           "question": "Which of the following would most likely not be capitalized?",
           "choices": [
             "first word of a quote",
@@ -1712,17 +1752,17 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: first word after a colon. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"first word after a colon\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: first word after a colon. Rule or clue: The first word of a sentence always needs a capital; common nouns, seasons, and words after colons do not always need capitals. \"first word after a colon\" is right because common nouns name general people, places, things, or ideas, so they stay lowercase unless they begin a sentence or are part of a proper name.",
             "incorrect": [
-              "Not: first word of a quote. \"first word of a quote\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: words in titles. \"words in titles\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: time periods. \"time periods\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: first word of a quote. \"first word of a quote\" is usually capitalized, so it is not the \"should not be capitalized\" choice.",
+              "Not: words in titles. \"words in titles\" is not the best answer because it can need a capital in some sentence jobs, while \"first word after a colon\" names the ordinary word group that usually stays lowercase.",
+              "Not: time periods. \"time periods\" is not the best answer because it can need a capital in some sentence jobs, while \"first word after a colon\" names the ordinary word group that usually stays lowercase.",
               ""
             ]
           },
           "studyAid": {
-            "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
-            "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+            "definition": "Some words always need capitals because of their job, but many words only need capitals in certain places.",
+            "example": "The first word of a sentence always starts with a capital; common nouns and words after a colon do not always need one.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -2006,8 +2046,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0101",
-          "version": 2,
-          "contentHash": "sha256:ffec78ef7ef0da968c63daa66c24d308e659b4708dd4303c36b400025ec7cc81",
+          "version": 4,
+          "contentHash": "sha256:dc28a27c9e08a43860ac116e22b39969c071e597bc85e99244581415f39d7a96",
           "question": "Which word in the following sentence should be capitalized? We camped out all night at the store to take advantage of the christmas sa le.",
           "choices": [
             "camp ed",
@@ -2017,17 +2057,17 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: christmas. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"christmas\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: christmas. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"christmas\" is the word that needs a capital in the sentence. christmas: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
-              "Not: camp ed. \"camp ed\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: night. \"night\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: store. \"store\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: camp ed. \"camp ed\" is not the best answer because it leaves out christmas, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes camp ed, but camp ed is not one of the words that needs a capital in this sentence..",
+              "Not: night. \"night\" is not the best answer because it leaves out christmas, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes night, but night is not one of the words that needs a capital in this sentence..",
+              "Not: store. \"store\" is not the best answer because it leaves out christmas, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes store, but store is not one of the words that needs a capital in this sentence..",
               ""
             ]
           },
           "studyAid": {
-            "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
-            "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -2128,8 +2168,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0035",
-          "version": 2,
-          "contentHash": "sha256:ff97fc421026f1bbfedca6c7cf6c90fb42f1a5fe97bf2a7020330265674ed791",
+          "version": 4,
+          "contentHash": "sha256:b46908645f5036996c53aa79aa01b432434f20ec615fe9e3000608f26bf91802",
           "question": "Which of the following should be capitalized?",
           "choices": [
             "city",
@@ -2148,8 +2188,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -2250,8 +2290,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0071",
-          "version": 3,
-          "contentHash": "sha256:065ce495ffa426eb39969600fcb4476aa0a23de80c6dc746ffd5925f5d34c26a",
+          "version": 5,
+          "contentHash": "sha256:9c3b9b083a9dca28d8071db216545b52394953ce82ff54cc7b6c108372e4f3bd",
           "question": "Which incorrectly capitalized? word is We saw the Old Faithful trip to Yellowstone National Park Geyser on our",
           "choices": [
             "Old",
@@ -2270,8 +2310,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -2433,8 +2473,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0152",
-          "version": 2,
-          "contentHash": "sha256:77649251d8bcf6d581ae40619d34522a614a5498abb17ad14f93f71b90cdb61f",
+          "version": 4,
+          "contentHash": "sha256:87b523b8ac478ea979ca4734204f88d1aabe7465a47396222d98f04933d79df2",
           "question": "Which of the following should be capitalized?",
           "choices": [
             "verb s",
@@ -2453,8 +2493,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -2494,7 +2534,7 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0203",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:97815d286ae3f24d32123ade8577cda5e82f8f99bb2e870e18f61f1ff3d0590c",
           "question": "Which answer is capitalized correctly?",
           "choices": [
@@ -2555,8 +2595,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0275",
-          "version": 2,
-          "contentHash": "sha256:e29d6ef8ca92f96a2cffcdf5a1fe72c6e0068e304c31b184af45b2aa74e7a7df",
+          "version": 4,
+          "contentHash": "sha256:068d73e15cbaa42a51b0f20f8c31a1642beb45d7fc1d1c96bbb632798297ef16",
           "question": "Which word is correctly capitalized? My Teacher can speak hindi and english, and she writes child ren’s books.",
           "choices": [
             "Teacher",
@@ -2566,17 +2606,17 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: children’s. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"children’s\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: children’s. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"children’s\" is the word that needs a capital in the sentence. children’s: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: Teacher. \"Teacher\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: hindi. \"hindi\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: english. \"english\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: Teacher. \"Teacher\" is not the best answer because it leaves out children’s, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes Teacher, but Teacher is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: hindi. \"hindi\" is not the best answer because it leaves out children’s, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes hindi, but hindi is not one of the words that needs a capital in this sentence..",
+              "Not: english. \"english\" is not the best answer because it leaves out children’s, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes english, but english is not one of the words that needs a capital in this sentence..",
               ""
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -2616,7 +2656,7 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0305",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:ce69c4f8920f093e0fae749f189a8b31b227c09ca9eaabe24dca41950c145537",
           "question": "Which answer is capitalized correctly?",
           "choices": [
@@ -2697,7 +2737,7 @@
       "questions": [
         {
           "id": "capitalization-days-months-holidays-q0001",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:63458a0d99063d9484b67d5dafbece7a2df73b76411346aa838aa4fd28cd41a4",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -2811,7 +2851,7 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0003",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:43a1e58a9339dae0ef2a8cd396213bbafffe792a72a6e6b40743d865725f55ae",
           "question": "Which option is capitalized correctly?",
           "choices": [
@@ -2982,7 +3022,7 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0006",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:a13f271ff13cb42ea1a6eb4d32aaa4c36f6377149bf603f4fe609200a3ac3e46",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -3267,7 +3307,7 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0011",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:1c0dec8034527af81b025c76c3ee72ffe8ea106c961e8061aa0ff039f1853ea7",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -3552,7 +3592,7 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0016",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:dee6fc4d2e49da6ed510e2e854c522d455f35920452e34bade379a2927d9470b",
           "question": "Which sentence has been capitalized correctly?",
           "choices": [
@@ -3675,8 +3715,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0018",
-          "version": 3,
-          "contentHash": "sha256:b03e7bf6ae9d77c4265ef3e0fbda91a974dd77630fb9d6570e4a85dcaaeba54c",
+          "version": 4,
+          "contentHash": "sha256:223eaf39046147b920004cb32a3b3086120e7a396d1566e79ee42e005db9ba1f",
           "question": "Which words should be capitalized? We crossed the mississippi river on a warm tuesday.",
           "choices": [
             "mississippi, warm",
@@ -3686,12 +3726,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: mississippi, river, tuesday. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"mississippi, river, tuesday\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: mississippi, river, tuesday. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"mississippi, river, tuesday\" names the words that need capitals in the sentence. mississippi: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter. river: is part of a specific proper name or title, so it needs a capital letter. tuesday: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
-              "Not: mississippi, warm. \"mississippi, warm\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: mississippi, warm. \"mississippi, warm\" is not the best answer because it leaves out river, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out tuesday, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes warm, but warm is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
               "",
-              "Not: river, warm, tuesday. \"river, warm, tuesday\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: crossed, warm. \"crossed, warm\" does not match the capitalization pattern required by the sentence or title."
+              "Not: river, warm, tuesday. \"river, warm, tuesday\" is not the best answer because it leaves out mississippi, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes warm, but warm is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: crossed, warm. \"crossed, warm\" is not the best answer because it leaves out mississippi, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it leaves out river, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out tuesday, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes crossed, but crossed is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes warm, but warm is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -3730,12 +3770,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-days-months-holidays-q0019",
-          "version": 3,
-          "contentHash": "sha256:de00b1aebf02c5589096226abe4828bff2be87d23a350801b27cd5dfb87a4471",
+          "version": 4,
+          "contentHash": "sha256:b51749207f8c6a02a5fd2d40fa54a14e2dc72c3d936588c1449ceae454d5225c",
           "question": "Which pair of words must be capitalized in this sentence? Our town has a festival of trees during the christmas season.",
           "choices": [
             "town, festival",
@@ -3745,11 +3790,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: festival, christmas. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"festival, christmas\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: festival, christmas. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"festival, christmas\" names the words that need capitals in the sentence. festival: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. christmas: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
-              "Not: town, festival. \"town, festival\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: trees, season. \"trees, season\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: christmas, town. \"christmas, town\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: town, festival. \"town, festival\" is not the best answer because it leaves out christmas, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes town, but town is not one of the words that needs a capital in this sentence..",
+              "Not: trees, season. \"trees, season\" is not the best answer because it leaves out festival, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out christmas, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes trees, but trees is not one of the words that needs a capital in this sentence.; it includes season, but season is not one of the words that needs a capital in this sentence..",
+              "Not: christmas, town. \"christmas, town\" is not the best answer because it leaves out festival, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes town, but town is not one of the words that needs a capital in this sentence..",
               ""
             ]
           },
@@ -3790,11 +3835,16 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-days-months-holidays-q0020",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:d1429dca128abd1ca36bfc0dc6c7ee9ea90605d34717c5a0e500b982e8d77c23",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -4100,8 +4150,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0073",
-          "version": 2,
-          "contentHash": "sha256:cac4a04c74e69d09bad1752ae8783246d888810387866d7f830a639b01edb0f3",
+          "version": 4,
+          "contentHash": "sha256:234df6416092230d452c1cc295c8edb2e57caeb4b4c55f375a00b27567cdec4c",
           "question": "Which of the following should not be capitalized?",
           "choices": [
             "common nouns",
@@ -4111,17 +4161,17 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: common nouns. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"common nouns\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: common nouns. Rule or clue: The first word of a sentence always needs a capital; common nouns, seasons, and words after colons do not always need capitals. \"common nouns\" is right because common nouns name general people, places, things, or ideas, so they stay lowercase unless they begin a sentence or are part of a proper name.",
             "incorrect": [
               "",
-              "Not: proper nouns. \"proper nouns\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: days of the week. \"days of the week\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: first letter of a sentence. \"first letter of a sentence\" does not match the capitalization pattern required by the sentence or title."
+              "Not: proper nouns. \"proper nouns\" is usually capitalized, so it is not the \"should not be capitalized\" choice.",
+              "Not: days of the week. \"days of the week\" is not the best answer because it can need a capital in some sentence jobs, while \"common nouns\" names the ordinary word group that usually stays lowercase.",
+              "Not: first letter of a sentence. \"first letter of a sentence\" is not the best answer because it can need a capital in some sentence jobs, while \"common nouns\" names the ordinary word group that usually stays lowercase."
             ]
           },
           "studyAid": {
-            "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
-            "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+            "definition": "Some words always need capitals because of their job, but many words only need capitals in certain places.",
+            "example": "The first word of a sentence always starts with a capital; common nouns and words after a colon do not always need one.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -4222,8 +4272,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0103",
-          "version": 2,
-          "contentHash": "sha256:c7fd67f81cbfe6a9b3cc2b2d0c46cdff9f8b73067d9d4c0821d9e0368ad42dd8",
+          "version": 4,
+          "contentHash": "sha256:a8c548622086d645fbebd82c8ca71b32926b79775797435d9b1c0a39821f67f1",
           "question": "Which of the following should not be capitalized?",
           "choices": [
             "p roper nouns",
@@ -4233,17 +4283,17 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: common nouns. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"common nouns\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: common nouns. Rule or clue: The first word of a sentence always needs a capital; common nouns, seasons, and words after colons do not always need capitals. \"common nouns\" is right because common nouns name general people, places, things, or ideas, so they stay lowercase unless they begin a sentence or are part of a proper name.",
             "incorrect": [
-              "Not: p roper nouns. \"p roper nouns\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: p roper nouns. \"p roper nouns\" is not the best answer because it can need a capital in some sentence jobs, while \"common nouns\" names the ordinary word group that usually stays lowercase.",
               "",
-              "Not: days of the week. \"days of the week\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: first letter of a sentence. \"first letter of a sentence\" does not match the capitalization pattern required by the sentence or title."
+              "Not: days of the week. \"days of the week\" is not the best answer because it can need a capital in some sentence jobs, while \"common nouns\" names the ordinary word group that usually stays lowercase.",
+              "Not: first letter of a sentence. \"first letter of a sentence\" is not the best answer because it can need a capital in some sentence jobs, while \"common nouns\" names the ordinary word group that usually stays lowercase."
             ]
           },
           "studyAid": {
-            "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
-            "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+            "definition": "Some words always need capitals because of their job, but many words only need capitals in certain places.",
+            "example": "The first word of a sentence always starts with a capital; common nouns and words after a colon do not always need one.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -4344,8 +4394,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0173",
-          "version": 2,
-          "contentHash": "sha256:d0a0f4fe8c60b1df205575895c0733c7f3379328b7d51e8bd2d54a80a5caa39a",
+          "version": 4,
+          "contentHash": "sha256:474f15cc1d037a2695b413da8a2ada68b66584c181e117a2bc8fc25f7954984a",
           "question": "Which word is correctly capitalized? Memorial Day is a great Holiday to visit the grand canyon.",
           "choices": [
             "Day",
@@ -4355,17 +4405,17 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: Day. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Day\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Day. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"Day\" is the word that needs a capital in the sentence. Day: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
               "",
-              "Not: Holiday. \"Holiday\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: grand. \"grand\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: canyon. \"canyon\" does not match the capitalization pattern required by the sentence or title."
+              "Not: Holiday. \"Holiday\" is not the best answer because it leaves out Day, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes Holiday, but Holiday is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: grand. \"grand\" is not the best answer because it leaves out Day, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes grand, but grand is not one of the words that needs a capital in this sentence..",
+              "Not: canyon. \"canyon\" is not the best answer because it leaves out Day, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes canyon, but canyon is not one of the words that needs a capital in this sentence.."
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -4486,8 +4536,8 @@
       "questions": [
         {
           "id": "capitalization-books-magazines-songs-plays-q0001",
-          "version": 3,
-          "contentHash": "sha256:cb7a2840af85fb4cd57aff2e11216b2ba582d52ba8e0141a88931e8406826087",
+          "version": 5,
+          "contentHash": "sha256:d1d556b4a064ec9dafcc74974700613dd0f6299e77f4847422be929276510513",
           "question": "Which title is capitalized correctly?",
           "choices": [
             "The Lion, The Witch and The Wardrobe",
@@ -4497,7 +4547,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: The Lion, the Witch and the Wardrobe. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"The Lion, the Witch and the Wardrobe\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: The Lion, the Witch and the Wardrobe. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"The Lion, the Witch and the Wardrobe\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The Lion, The Witch and The Wardrobe. \"The Lion, The Witch and The Wardrobe\" is not correct because \"The\" should stay lowercase as \"the\" and \"The\" should stay lowercase as \"the\".",
               "",
@@ -4506,8 +4556,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
-            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Titles"
           },
@@ -4600,7 +4650,7 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0003",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:e0ce239712a0b516f19ee4dea43780f53140b9dc1c23715cd4543d54fc464668",
           "question": "Which song title is capitalized correctly?",
           "choices": [
@@ -4657,7 +4707,7 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0004",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:7b6a5378dfe19ba0665c577e87651a26dbf2f2ce899624aa1e44ceb7a9002e58",
           "question": "Which magazine title and sentence are capitalized correctly?",
           "choices": [
@@ -4828,8 +4878,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0007",
-          "version": 3,
-          "contentHash": "sha256:318a506f2da3815437b2877f7663943b4b1c5e3982a251d6bc396840a2ddc4dc",
+          "version": 5,
+          "contentHash": "sha256:1017d867333969fbae381c2a580c10bb53814ac83fb6383a6edeaf702b7a3ddf",
           "question": "Which title uses correct capitalization?",
           "choices": [
             "From the Mixed-up files of Mrs. Basil E. Frankweiler",
@@ -4848,8 +4898,8 @@
             ]
           },
           "studyAid": {
-            "definition": "In titles of books, magazines, songs, and plays, capitalize the first and last word and important words. Lowercase short articles, conjunctions, and prepositions unless they begin or end the title.",
-            "example": "The Lion, the Witch and the Wardrobe",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Titles"
           },
@@ -4942,7 +4992,7 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0009",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:105db91ac176941b174079ab553da2782a4ea7b8fb275b121bc492870cbbc856",
           "question": "Which title is capitalized correctly?",
           "choices": [
@@ -5113,7 +5163,7 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0012",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:c14686bf1d56fecd36d5ae7e7befe6dd54cc24b7437a979883f4dc8c07b2f5be",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -5170,8 +5220,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0013",
-          "version": 2,
-          "contentHash": "sha256:38b465f11de6f639038c06d0f040d00efedcd53dfd98f3fd8f3d71dfbde6090f",
+          "version": 4,
+          "contentHash": "sha256:213fef50294a946b607a53dc5ecea402db4abae115290f769fda16000ec999ff",
           "question": "Which title follows title capitalization rules?",
           "choices": [
             "The House on Mango Street",
@@ -5190,8 +5240,8 @@
             ]
           },
           "studyAid": {
-            "definition": "In titles of books, magazines, songs, and plays, capitalize the first and last word and important words. Lowercase short articles, conjunctions, and prepositions unless they begin or end the title.",
-            "example": "The Lion, the Witch and the Wardrobe",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Titles"
           },
@@ -5341,8 +5391,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0016",
-          "version": 3,
-          "contentHash": "sha256:dccd8251ede2038bf80a590c018219c525b6ab8df0d595aeb1f6064318b799d6",
+          "version": 4,
+          "contentHash": "sha256:2e9b335fd668f832df1fe377ea0b81d3d96b030b665268ff19b8a1804c0dcc66",
           "question": "Which pair of words must be capitalized in the sentence below? The Lincoln high glee club sang before the los angeles lakers played last night.",
           "choices": [
             "club, sang",
@@ -5352,12 +5402,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: glee, angeles. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"glee, angeles\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: glee, angeles. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"glee, angeles\" names the words that need capitals in the sentence. glee: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. angeles: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: club, sang. \"club, sang\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: club, sang. \"club, sang\" is not the best answer because it leaves out glee, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out angeles, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes club, but club is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes sang, but sang is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: los, played. \"los, played\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: laker s, night. \"laker s, night\" does not match the capitalization pattern required by the sentence or title."
+              "Not: los, played. \"los, played\" is not the best answer because it leaves out glee, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out angeles, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes los, but los is not one of the words that needs a capital in this sentence.; it includes played, but played is not one of the words that needs a capital in this sentence..",
+              "Not: laker s, night. \"laker s, night\" is not the best answer because it leaves out glee, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out angeles, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes laker s, but laker s is not one of the words that needs a capital in this sentence.; it includes night, but night is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -5396,7 +5446,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0017",
@@ -5577,8 +5632,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0020",
-          "version": 3,
-          "contentHash": "sha256:7eaed2a777349790d15dca6fb8b7db88a48c08cb17f2c20736f79fe2c96a2299",
+          "version": 5,
+          "contentHash": "sha256:e7358411027d2affbafa8c4625d26b91cb34aa14a3b065a88ff6c6089c41cf61",
           "question": "Which of the following book titles is correctly capitalized?",
           "choices": [
             "Of Mice And Men",
@@ -5632,12 +5687,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0021",
-          "version": 3,
-          "contentHash": "sha256:a26e76ad496f29169bb8a087d23f98e0479b70a4ed6c5ee85cff1e19c7918491",
+          "version": 4,
+          "contentHash": "sha256:1fb4b6e0031ea04671370838c709fc8cc87ebcc57d379006303d3b4b8a65be77",
           "question": "Which words in the book title should be capitalized? I enjoyed reading the novel call of the wild by Jack London.",
           "choices": [
             "call, the",
@@ -5647,12 +5707,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: call, wild. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"call, wild\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: call, wild. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"call, wild\" names the words that need capitals in the sentence. call: is part of a specific proper name or title, so it needs a capital letter. wild: is part of a specific proper name or title, so it needs a capital letter.",
             "incorrect": [
-              "Not: call, the. \"call, the\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: call, the. \"call, the\" is not the best answer because it leaves out wild, which is part of a specific proper name or title, so it needs a capital letter.; it includes the, but the is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: of, the. \"of, the\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: of, wild. \"of, wild\" does not match the capitalization pattern required by the sentence or title."
+              "Not: of, the. \"of, the\" is not the best answer because it leaves out call, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out wild, which is part of a specific proper name or title, so it needs a capital letter.; it includes of, but of is not one of the words that needs a capital in this sentence.; it includes the, but the is not one of the words that needs a capital in this sentence..",
+              "Not: of, wild. \"of, wild\" is not the best answer because it leaves out call, which is part of a specific proper name or title, so it needs a capital letter.; it includes of, but of is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -5691,7 +5751,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         }
       ],
       "metadata": {
@@ -5715,7 +5780,7 @@
       "questions": [
         {
           "id": "capitalization-proper-names-titles-q0001",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:49ac47260898872eee12919689063334cd4139b029b3e327b4807f6e624e49b8",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -6000,7 +6065,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0006",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:9985e1bd965e094e961fee3b8c45ca4a691ed0e20f208660c738708574859ef1",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -6228,7 +6293,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0010",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:f006a47f3bc7c3963adc45985c2171161b520ca5269046929b9cbc455b817c69",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -6456,7 +6521,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0014",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:6bdf29fe98f5e60a2abcb24db75acf13d3a530dc754331c031d50f02e5c05796",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -6634,8 +6699,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0017",
-          "version": 3,
-          "contentHash": "sha256:5c7b50a10daef383e9a6b5c826f11eed2cdde0a9a1f96fee41616d82924d660d",
+          "version": 5,
+          "contentHash": "sha256:2af76c80a2ccdf708ed4ae879ebcf942e931da0bc404593fe5e4cf6a2b0e0108",
           "question": "Which word in this letter has a capitalization error? Dear Juanita, Would you start dinner when you get home? love, Mom",
           "choices": [
             "Dear",
@@ -6689,11 +6754,16 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0018",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:332dcb2dcbe60df034666d8d462469da1886a20c7649ee5da7b341f68d299685",
           "question": "Which underlined wo rd is inc orrectly capitalized? On vacation we went to see the Lincoln, Washington, and Jefferson monument in Washington, d.c.",
           "choices": [
@@ -6757,7 +6827,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0019",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:e2b53330440024f7b0cc0ca06e6819d81aba39bd0f2b65e395a8bb898ab2efc7",
           "question": "Which sentence has words capitalized correctly?",
           "choices": [
@@ -6821,8 +6891,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0020",
-          "version": 3,
-          "contentHash": "sha256:51ae50de1440871020a0bfac1ee76b3a26bf6dbd36178692b5cf07d17f9156b1",
+          "version": 5,
+          "contentHash": "sha256:c93cdc6d17cb6e189f4d0abc7357efa5cb55249e169ffabf59e9047795b1b3da",
           "question": "Which underlined word is incorrectly capitalized? In class last week we read a Spanish folk tale.",
           "choices": [
             "class",
@@ -6832,12 +6902,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: spanish. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"spanish\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: spanish. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"spanish\" is the word with the capitalization error in the sentence. spanish: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
-              "Not: class. \"class\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: folk. \"folk\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: class. \"class\" is not the best answer because it leaves out spanish, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes class, but class is not one of the words that needs a capital in this sentence..",
+              "Not: folk. \"folk\" is not the best answer because it leaves out spanish, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes folk, but folk is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: tale. \"tale\" does not match the capitalization pattern required by the sentence or title."
+              "Not: tale. \"tale\" is not the best answer because it leaves out spanish, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes tale, but tale is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -6876,7 +6946,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0021",
@@ -6998,8 +7073,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0023",
-          "version": 3,
-          "contentHash": "sha256:53bdaf6c560392f1c0bee012ec0ddca928176aa760647f6eddf3e5c529705ec4",
+          "version": 4,
+          "contentHash": "sha256:8630512fdef0b053cddc8843bd051e2156162ddc390e0d85f7cc93cc996b5684",
           "question": "Which words must be capitalized in this sentence? the new testament is part of the bible, christianity’s most holy book.",
           "choices": [
             "the, new, testament, holy, book",
@@ -7009,12 +7084,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: the, new, testament, bible, christianity’s. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"the, new, testament, bible, christianity’s\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: the, new, testament, bible, christianity’s. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"the, new, testament, bible, christianity’s\" names the words that need capitals in the sentence. the: starts a sentence or passage, so it needs a capital letter. new: is part of a specific proper name or title, so it needs a capital letter. testament: is part of a specific proper name or title, so it needs a capital letter. bible: is part of a specific proper name or title, so it needs a capital letter.",
             "incorrect": [
-              "Not: the, new, testament, holy, book. \"the, new, testament, holy, book\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: the, new, bible, holy, book. \"the, new, bible, holy, book\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: the, new, testament, holy, book. \"the, new, testament, holy, book\" is not the best answer because it leaves out bible, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out christianity’s, which is part of a specific proper name or title, so it needs a capital letter.; it includes holy, but holy is not one of the words that needs a capital in this sentence.; it includes book, but book is not one of the words that needs a capital in this sentence..",
+              "Not: the, new, bible, holy, book. \"the, new, bible, holy, book\" is not the best answer because it leaves out testament, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out christianity’s, which is part of a specific proper name or title, so it needs a capital letter.; it includes holy, but holy is not one of the words that needs a capital in this sentence.; it includes book, but book is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: the, christianity’s, holy, book. \"the, christianity’s, holy, book\" does not match the capitalization pattern required by the sentence or title."
+              "Not: the, christianity’s, holy, book. \"the, christianity’s, holy, book\" is not the best answer because it leaves out new, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out testament, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out bible, which is part of a specific proper name or title, so it needs a capital letter.; it includes holy, but holy is not one of the words that needs a capital in this sentence.; it includes book, but book is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -7053,7 +7128,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0024",
@@ -7116,8 +7196,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0025",
-          "version": 3,
-          "contentHash": "sha256:9f38cc9f05d4825a1a705d093b7abf9f5a010487bce157ee00e59fac77544358",
+          "version": 4,
+          "contentHash": "sha256:7be6a284443ba9c10676fa207a8871bc7bc9b80086703051deb825e7644d14e4",
           "question": "Which words are not correctly capitalized? The Columbia river flows under The Broadway Bridge in Portland, Oregon.",
           "choices": [
             "R iver, The",
@@ -7127,12 +7207,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: R iver, The. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"R iver, The\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: R iver, The. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"R iver, The\" names the words with capitalization errors in the sentence. R iver: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. The: starts a sentence or passage, so it needs a capital letter.",
             "incorrect": [
               "",
-              "Not: Columbia, Portland. \"Columbia, Portland\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: Broadway, O regon. \"Broadway, O regon\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: Br idge, Portland. \"Br idge, Portland\" does not match the capitalization pattern required by the sentence or title."
+              "Not: Columbia, Portland. \"Columbia, Portland\" is not the best answer because it leaves out R iver, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Columbia, but Columbia is not one of the words that needs a capital in this sentence.; it includes Portland, but Portland is not one of the words that needs a capital in this sentence..",
+              "Not: Broadway, O regon. \"Broadway, O regon\" is not the best answer because it leaves out R iver, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Broadway, but Broadway is not one of the words that needs a capital in this sentence.; it includes O regon, but O regon is not one of the words that needs a capital in this sentence..",
+              "Not: Br idge, Portland. \"Br idge, Portland\" is not the best answer because it leaves out R iver, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Br idge, but Br idge is not one of the words that needs a capital in this sentence.; it includes Portland, but Portland is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -7171,12 +7251,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0026",
-          "version": 3,
-          "contentHash": "sha256:a271d2ad21fd63c28c9dd1bcaf4a5a40e6d5d72675aaf2ca0f8ba481f647167d",
+          "version": 6,
+          "contentHash": "sha256:09740b025a9a897c8eb18c2da6d17db0c1a39f8ef4c3723f19f5569ba480bc43",
           "question": "Which course title is correctly capitalized?",
           "choices": [
             "Histor y",
@@ -7186,12 +7271,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: English. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"English\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: English. Rule or clue: Capitalize language names such as German, Spanish, English, and French; ordinary school subjects usually stay lowercase. \"English\" is correct because German names a language, and language names are proper nouns that always need capital letters.",
             "incorrect": [
-              "Not: Histor y. \"Histor y\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: Histor y. \"Histor y\" names a school subject that is not a language name in this item, so it does not show the specific capitalization rule the question is testing.",
               "",
-              "Not: Algebra. \"Algebra\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: Chemistry. \"Chemistry\" does not match the capitalization pattern required by the sentence or title."
+              "Not: Algebra. \"Algebra\" names a school subject that is not a language name in this item, so it does not show the specific capitalization rule the question is testing.",
+              "Not: Chemistry. \"Chemistry\" names a school subject that is not a language name in this item, so it does not show the specific capitalization rule the question is testing."
             ]
           },
           "metadata": {
@@ -7230,12 +7315,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "School subjects are usually lowercase unless they are language names or official course titles.",
+            "example": "German and Spanish need capitals because they are languages; math and science usually stay lowercase.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0027",
-          "version": 3,
-          "contentHash": "sha256:5b9546fd556006a56ea1740e0a37a8e9b6778bb235bda71df23b20434f910596",
+          "version": 5,
+          "contentHash": "sha256:e55b904653e5400fd8ba43a2072cce1c5e640ae909debf3faf2db3ef62adb63d",
           "question": "Which of the underlined words below is incorrectly capitalized? Mary beth Adams was chosen to be the captain of the cheerleading squad.",
           "choices": [
             "captain",
@@ -7289,7 +7379,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0028",
@@ -7534,7 +7629,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0032",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:f917ef23cb1b0a622cb709381a116cb3ff0e38c7482118a2725c47952c0764c9",
           "question": "Which of the following sentences is not capitalized correctly?",
           "choices": [
@@ -7775,8 +7870,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0036",
-          "version": 3,
-          "contentHash": "sha256:8e4a798dbda757c02fcedaae524a1fbb755fd1cca627ddb1d2cc3d56401fe45b",
+          "version": 4,
+          "contentHash": "sha256:7fcf290e53a88e73f6f46774f97c550a3c955da85ed1ac2c2f94c430b17a6be8",
           "question": "Which words in the list below should be capitalized? buick vehicle chevrolet ford toyota",
           "choices": [
             "car, corvette, ford, toyota",
@@ -7786,12 +7881,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: buick, chevrolet, ford, toyota. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"buick, chevrolet, ford, toyota\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: buick, chevrolet, ford, toyota. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"buick, chevrolet, ford, toyota\" names the words that need capitals in the sentence. buick: is part of a specific proper name or title, so it needs a capital letter. chevrolet: is part of a specific proper name or title, so it needs a capital letter. ford: is part of a specific proper name or title, so it needs a capital letter. toyota: is part of a specific proper name or title, so it needs a capital letter.",
             "incorrect": [
-              "Not: car, corvette, ford, toyota. \"car, corvette, ford, toyota\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: car, buick, vehicle, corvette. \"car, buick, vehicle, corvette\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: car, corvette, ford, toyota. \"car, corvette, ford, toyota\" is not the best answer because it leaves out buick, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out chevrolet, which is part of a specific proper name or title, so it needs a capital letter.; it includes car, but car is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes corvette, but corvette is not one of the words that needs a capital in this sentence..",
+              "Not: car, buick, vehicle, corvette. \"car, buick, vehicle, corvette\" is not the best answer because it leaves out chevrolet, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out ford, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out toyota, which is part of a specific proper name or title, so it needs a capital letter.; it includes car, but car is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes vehicle, but vehicle is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes corvette, but corvette is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: buick, vehicle, ford, toyota. \"buick, vehicle, ford, toyota\" does not match the capitalization pattern required by the sentence or title."
+              "Not: buick, vehicle, ford, toyota. \"buick, vehicle, ford, toyota\" is not the best answer because it leaves out chevrolet, which is part of a specific proper name or title, so it needs a capital letter.; it includes vehicle, but vehicle is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -7830,7 +7925,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0037",
@@ -8075,7 +8175,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0041",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:deecc1a7364111a2a17c5460eed718dba582af50d33dc4dee367cd845056cd2c",
           "question": "Which of the following sentences is capitalized correctly?",
           "choices": [
@@ -8198,8 +8298,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0043",
-          "version": 3,
-          "contentHash": "sha256:dd2e140a717d48ccfbc6a1727e47ba18fcc2baaff0fd9432608f233a019c98c5",
+          "version": 4,
+          "contentHash": "sha256:9708c1bee7a788fd71f35830dbc830ba703c83240bdb4eb79c46b4c5d2869ef6",
           "question": "Which words should be capitalized? My cousins, uncle Fred, aunt Mary, and my mother came to my piano recital.",
           "choices": [
             "cousins, uncle Fred, aunt Mary, mother",
@@ -8209,12 +8309,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: uncle Fred, aunt Mary. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"uncle Fred, aunt Mary\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: uncle Fred, aunt Mary. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"uncle Fred, aunt Mary\" names the words that need capitals in the sentence. uncle Fred: is part of a title or family title used with a name, so the title/name expression needs capitals. aunt Mary: is part of a title or family title used with a name, so the title/name expression needs capitals.",
             "incorrect": [
-              "Not: cousins, uncle Fred, aunt Mary, mother. \"cousins, uncle Fred, aunt Mary, mother\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: cousins, uncle Fred, aunt Mary. \"cousins, uncle Fred, aunt Mary\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: cousins, uncle Fred, aunt Mary, mother. \"cousins, uncle Fred, aunt Mary, mother\" is not the best answer because it includes cousins, but cousins follows a possessive word such as my, so it stays lowercase.; it includes mother, but mother follows a possessive word such as my, so it stays lowercase..",
+              "Not: cousins, uncle Fred, aunt Mary. \"cousins, uncle Fred, aunt Mary\" is not the best answer because it includes cousins, but cousins follows a possessive word such as my, so it stays lowercase..",
               "",
-              "Not: mother. \"mother\" does not match the capitalization pattern required by the sentence or title."
+              "Not: mother. \"mother\" is not the best answer because it leaves out uncle Fred, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it leaves out aunt Mary, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it includes mother, but mother follows a possessive word such as my, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -8254,11 +8354,16 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0044",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:97fef201d2d88edf4558f750f1a6e002911c5160f2f7de3c7437cbbd17a09558",
           "question": "Which closing is capitalized correctly? 1. take care, 2. Take Care, 3. Take care, 4. TAKE CARE,",
           "choices": [
@@ -8323,8 +8428,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0045",
-          "version": 3,
-          "contentHash": "sha256:75d044bc94b14015c8c3d92fed188a4cde524d7914efa441ff19a011e32859b0",
+          "version": 7,
+          "contentHash": "sha256:0d98f1c8a88915e5ac95105decefefb30ba93b4aefe31d121e6b2354245a8821",
           "question": "Which underlined wor d is incorrectly capitalized? On our next Vacation, we will visit the Alamo near San Antonio, Texas.",
           "choices": [
             "Vacation",
@@ -8334,12 +8439,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: Vacation. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Vacation\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Vacation. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"Vacation\" is the word with the capitalization error in the sentence. Vacation: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
               "",
-              "Not: Alamo. \"Alamo\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: San. \"San\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: Antonio. \"Antonio\" does not match the capitalization pattern required by the sentence or title."
+              "Not: Alamo. \"Alamo\" is not the best answer because it leaves out Vacation, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes Alamo, but Alamo is not one of the words that needs a capital in this sentence..",
+              "Not: San. \"San\" is not the best answer because it leaves out Vacation, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes San, but San is not one of the words that needs a capital in this sentence..",
+              "Not: Antonio. \"Antonio\" is not the best answer because it leaves out Vacation, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes Antonio, but Antonio is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -8379,7 +8484,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0046",
@@ -8443,7 +8553,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0047",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:fb1a6de10407c890b3ca2f63d702a6df34b281b5b5801d53e71171bb8ee939ba",
           "question": "Which sentence has words capitalized correctly?",
           "choices": [
@@ -8633,8 +8743,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0050",
-          "version": 3,
-          "contentHash": "sha256:49b858ca12d1b45cb00f775e5c3a57fe717a8ba759eafd4e5ec5e3e2ce546098",
+          "version": 5,
+          "contentHash": "sha256:cc33a50164862e3c704866a0b9896eff52196b01aa56e9965b5877da3a366d8a",
           "question": "Which words should be capitalized in the sentence below? Two little dogs named jessie and annie were once the only two in the Jones family. Three years later, sam, a german shepherd, was added to the happy household.",
           "choices": [
             "dogs, jessie, annie, sheph erd",
@@ -8644,12 +8754,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: jessie, annie, sam, german. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"jessie, annie, sam, german\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: jessie, annie, sam, german. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"jessie, annie, sam, german\" names the words that need capitals in the sentence. jessie: is a person’s name, so it needs a capital letter. annie: is a person’s name, so it needs a capital letter. sam: is a person’s name, so it needs a capital letter. german: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
-              "Not: dogs, jessie, annie, sheph erd. \"dogs, jessie, annie, sheph erd\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: dogs, jessie, annie, sheph erd. \"dogs, jessie, annie, sheph erd\" is not the best answer because it leaves out sam, which is a person’s name, so it needs a capital letter.; it leaves out german, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes dogs, but dogs is not one of the words that needs a capital in this sentence.; it includes sheph erd, but sheph erd is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: jessie, family, german, household. \"jessie, family, german, household\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: annie, sam, ge rman, household. \"annie, sam, ge rman, household\" does not match the capitalization pattern required by the sentence or title."
+              "Not: jessie, family, german, household. \"jessie, family, german, household\" is not the best answer because it leaves out annie, which is a person’s name, so it needs a capital letter.; it leaves out sam, which is a person’s name, so it needs a capital letter.; it includes family, but family is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes household, but household is not one of the words that needs a capital in this sentence..",
+              "Not: annie, sam, ge rman, household. \"annie, sam, ge rman, household\" is not the best answer because it leaves out jessie, which is a person’s name, so it needs a capital letter.; it leaves out german, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes ge rman, but ge rman is not one of the words that needs a capital in this sentence.; it includes household, but household is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -8689,12 +8799,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0051",
-          "version": 3,
-          "contentHash": "sha256:34403354208e4602b2e35dd4abc0abfc998c31d17583c53006d306509fbc0bdf",
+          "version": 4,
+          "contentHash": "sha256:53aa73af3b51ed7962c39e8e2560d0233bf8563db2e1f087a053443da7c83012",
           "question": "Which underlined words should be capitalized? The b oy scouts of America, a youth organization, gets some funding from united way.",
           "choices": [
             "boy, scouts, united, way",
@@ -8704,12 +8819,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: boy, scouts, united, way. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"boy, scouts, united, way\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: boy, scouts, united, way. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"boy, scouts, united, way\" names the words that need capitals in the sentence. boy: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. scouts: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. united: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. way: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
               "",
-              "Not: boy, scouts, youth, way. \"boy, scouts, youth, way\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: united, way, youth, scouts. \"united, way, youth, scouts\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: united, way, scouts, youth. \"united, way, scouts, youth\" does not match the capitalization pattern required by the sentence or title."
+              "Not: boy, scouts, youth, way. \"boy, scouts, youth, way\" is not the best answer because it leaves out united, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes youth, but youth is not one of the words that needs a capital in this sentence..",
+              "Not: united, way, youth, scouts. \"united, way, youth, scouts\" is not the best answer because it leaves out boy, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes youth, but youth is not one of the words that needs a capital in this sentence..",
+              "Not: united, way, scouts, youth. \"united, way, scouts, youth\" is not the best answer because it leaves out boy, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes youth, but youth is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -8749,12 +8864,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0052",
-          "version": 3,
-          "contentHash": "sha256:caf0ef3434714030861bb4f772b3e1f62fb5e50af44e3b311f7e53674252e416",
+          "version": 5,
+          "contentHash": "sha256:35ebb3281defda9d5d8e8f03c06095b5ce8e2559e092ce446db1364fd369ba91",
           "question": "Which choice should be capitalized?",
           "choices": [
             "center street",
@@ -8764,12 +8884,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: center street. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"center street\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: center street. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"center street\" is the word that needs a capital in the sentence. center street: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
               "",
-              "Not: first grade. \"first grade\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: living room. \"living room\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: dump truck. \"dump truck\" does not match the capitalization pattern required by the sentence or title."
+              "Not: first grade. \"first grade\" is not the best answer because it leaves out center street, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes first grade, but first grade is not one of the words that needs a capital in this sentence..",
+              "Not: living room. \"living room\" is not the best answer because it leaves out center street, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes living room, but living room is not one of the words that needs a capital in this sentence..",
+              "Not: dump truck. \"dump truck\" is not the best answer because it leaves out center street, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes dump truck, but dump truck is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -8809,7 +8929,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0053",
@@ -8993,7 +9118,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0056",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:2c33fe7a74200b53411dd7a9153334a347db6fbe8858dd0e8b3fd7db0e046c9d",
           "question": "Which of the following is capitalized correctly?",
           "choices": [
@@ -9178,7 +9303,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0059",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:2181a95e3f943f2e29f5652e48d05e77276699d8926e7c3651eed7e96e012b6f",
           "question": "Which of the following sentences is capitalized correctly?",
           "choices": [
@@ -9243,7 +9368,7 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0060",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:bae935c44912a931300fb62e11e9e73b59aab7ba1cf3bbe13ad62aba765e80f6",
           "question": "Which of the following sentences is capitalized correctly?",
           "choices": [
@@ -9308,8 +9433,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0061",
-          "version": 3,
-          "contentHash": "sha256:cb1cc778e6c280aafcca7b685f7f2f3a097059443bdf301c0f0db8595d26ba32",
+          "version": 5,
+          "contentHash": "sha256:43811f653cbde53928622988bae8c9c87d7f57bc5a59d4e150db94b2e404dcfa",
           "question": "Which underlined word is incorrectly capitalized?",
           "choices": [
             "We were tired after our hike up Mount Hood.",
@@ -9319,12 +9444,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: I asked the Judge if I could explain my answer. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"I asked the Judge if I could explain my answer.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: I asked the Judge if I could explain my answer. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"I asked the Judge if I could explain my answer.\" is the word with the capitalization error in the sentence. I asked the Judge if I could explain my answer.: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: We were tired after our hike up Mount Hood. \"We were tired after our hike up Mount Hood.\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: We were tired after our hike up Mount Hood. \"We were tired after our hike up Mount Hood.\" is not the best answer because it leaves out I asked the Judge if I could explain my answer., which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes We were tired after our hike up Mount Hood., but We were tired after our hike up Mount Hood. is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: People liked President Reagan’s speech. \"People liked President Reagan’s speech.\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: We visited Capitol Hill on our trip south. \"We visited Capitol Hill on our trip south.\" does not match the capitalization pattern required by the sentence or title."
+              "Not: People liked President Reagan’s speech. \"People liked President Reagan’s speech.\" is not the best answer because it leaves out I asked the Judge if I could explain my answer., which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes People liked President Reagan’s speech., but People liked President Reagan’s speech. is not one of the words that needs a capital in this sentence..",
+              "Not: We visited Capitol Hill on our trip south. \"We visited Capitol Hill on our trip south.\" is not the best answer because it leaves out I asked the Judge if I could explain my answer., which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes We visited Capitol Hill on our trip south., but We visited Capitol Hill on our trip south. is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -9364,7 +9489,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-proper-names-titles-q0062",
@@ -9752,7 +9882,7 @@
       "questions": [
         {
           "id": "capitalization-names-of-places-q0001",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:39db0f9f2287d52c6ac91a7e1582f66d55cfdef165f12a5a17f21866dbf4a494",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -10037,7 +10167,7 @@
         },
         {
           "id": "capitalization-names-of-places-q0006",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:b80b53d520087bc299781ada1fbed58833650ae1ba01f8b798a282917eb85cb9",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -10265,7 +10395,7 @@
         },
         {
           "id": "capitalization-names-of-places-q0010",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:177b68ece3dbf7d5b616567845b804c59c80d9f9d8c44538c2d606f6f09bb8fd",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -10322,8 +10452,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0011",
-          "version": 3,
-          "contentHash": "sha256:c03dfb769b368b7d27e074e7a733db2a697c6bd78b81ea1f98386d041f5c1852",
+          "version": 5,
+          "contentHash": "sha256:118325245936d1125d0c4d637ee50c11574a8dd05127df09081f05d7678f7aee",
           "question": "Which sentence avoids a common capitalization mistake?",
           "choices": [
             "We live west of lake Erie, near a small lake.",
@@ -10342,8 +10472,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the full official name of a place. Lowercase common place words and articles when they are not part of the official name.",
-            "example": "We crossed the Hudson River, then rested beside a quiet river.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_places.htm",
             "linkText": "Grammar Monster - Place Names"
           },
@@ -10493,7 +10623,7 @@
         },
         {
           "id": "capitalization-names-of-places-q0014",
-          "version": 4,
+          "version": 6,
           "contentHash": "sha256:441149205beadad31b3f014350a05e3d3b4c301301d06bc5193117f0ef40bbed",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
@@ -10607,8 +10737,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0016",
-          "version": 3,
-          "contentHash": "sha256:d785a5b635837ee549c1acb9a955e429573400e5c029d0dea9b3b6e9a4ef8a0c",
+          "version": 4,
+          "contentHash": "sha256:311ce571ff62e37975f44d46b346332d939e4bf0340f742ab03855757ef17eea",
           "question": "Which words should be capitalized? On the continent of africa many kenyans speak swahili.",
           "choices": [
             "continent, africa, swahili",
@@ -10618,12 +10748,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: africa, kenyans, swahili. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"africa, kenyans, swahili\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: africa, kenyans, swahili. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"africa, kenyans, swahili\" names the words that need capitals in the sentence. africa: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter. kenyans: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter. swahili: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
-              "Not: continent, africa, swahili. \"continent, africa, swahili\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: continent, africa, swahili. \"continent, africa, swahili\" is not the best answer because it leaves out kenyans, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes continent, but continent is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
               "",
-              "Not: africa, kenyans, speak. \"africa, kenyans, speak\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: continent, kenyans, swahili. \"continent, kenyans, swahili\" does not match the capitalization pattern required by the sentence or title."
+              "Not: africa, kenyans, speak. \"africa, kenyans, speak\" is not the best answer because it leaves out swahili, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes speak, but speak is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: continent, kenyans, swahili. \"continent, kenyans, swahili\" is not the best answer because it leaves out africa, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes continent, but continent is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -10662,12 +10792,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0017",
-          "version": 3,
-          "contentHash": "sha256:f549ce43e0119626c3fed9af2cadd846dbdc30edf2bdbcf5cdde2e16f9963d10",
+          "version": 4,
+          "contentHash": "sha256:426831061db695a5bf17d622817f65ef0a26f8bfe7b1a266776235a6db715c16",
           "question": "Which underlined word s should be capitalized? The civil war was an event that divided the united states into separate groups.",
           "choices": [
             "event, united, states, groups",
@@ -10677,12 +10812,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: civil, war, united, states. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"civil, war, united, states\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: civil, war, united, states. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"civil, war, united, states\" names the words that need capitals in the sentence. civil: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. war: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. united: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. states: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: event, united, states, groups. \"event, united, states, groups\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: event, united, states, groups. \"event, united, states, groups\" is not the best answer because it leaves out civil, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out war, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes event, but event is not one of the words that needs a capital in this sentence.; it includes groups, but groups is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: civil, united, states, groups. \"civil, united, states, groups\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: ev ent, united, states, groups. \"ev ent, united, states, groups\" does not match the capitalization pattern required by the sentence or title."
+              "Not: civil, united, states, groups. \"civil, united, states, groups\" is not the best answer because it leaves out war, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes groups, but groups is not one of the words that needs a capital in this sentence..",
+              "Not: ev ent, united, states, groups. \"ev ent, united, states, groups\" is not the best answer because it leaves out civil, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out war, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes ev ent, but ev ent is not one of the words that needs a capital in this sentence.; it includes groups, but groups is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -10721,12 +10856,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0018",
-          "version": 3,
-          "contentHash": "sha256:3191fca8fc30b8473fa532888f310cedcc3d745e1cc8e632c8e99504e8747b0f",
+          "version": 4,
+          "contentHash": "sha256:2b6efb4558617aac16775fb1a0d293d67e150c39be6500724f2f1a523b26a6ff",
           "question": "Which words must be capitalized in this sentence? robb and steele Inc. is located in the E mpire State building.",
           "choices": [
             "robb, located, empire",
@@ -10736,12 +10876,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: robb, steele, building. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"robb, steele, building\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: robb, steele, building. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"robb, steele, building\" names the words that need capitals in the sentence. robb: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. steele: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. building: is part of a specific proper name or title, so it needs a capital letter.",
             "incorrect": [
-              "Not: robb, located, empire. \"robb, located, empire\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: robb, located, empire. \"robb, located, empire\" is not the best answer because it leaves out steele, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out building, which is part of a specific proper name or title, so it needs a capital letter.; it includes located, but located is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes empire, but empire is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: steele, the, state. \"steele, the, state\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: robb, incorporated, the. \"robb, incorporated, the\" does not match the capitalization pattern required by the sentence or title."
+              "Not: steele, the, state. \"steele, the, state\" is not the best answer because it leaves out robb, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out building, which is part of a specific proper name or title, so it needs a capital letter.; it includes the, but the is not one of the words that needs a capital in this sentence.; it includes state, but state is not one of the words that needs a capital in this sentence..",
+              "Not: robb, incorporated, the. \"robb, incorporated, the\" is not the best answer because it leaves out steele, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out building, which is part of a specific proper name or title, so it needs a capital letter.; it includes incorporated, but incorporated is not one of the words that needs a capital in this sentence.; it includes the, but the is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -10780,12 +10920,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0019",
-          "version": 3,
-          "contentHash": "sha256:1f603e93225985432b76af80835fd8dff76c51360dbd6386c8f550f8c839617f",
+          "version": 4,
+          "contentHash": "sha256:718fecef0d58900fddb6358cf288c55d0e47f6eaacc099f49d660e4b998c5bd9",
           "question": "Which words should be capitalized? On the west side of town is a museum featuring a rtifacts from the far east.",
           "choices": [
             "w est, side",
@@ -10795,12 +10940,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: far, east. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"far, east\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: far, east. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"far, east\" names the words that need capitals in the sentence. far: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. east: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: w est, side. \"w est, side\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: west, museum. \"west, museum\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: w est, side. \"w est, side\" is not the best answer because it leaves out far, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out east, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes w est, but w est is not one of the words that needs a capital in this sentence.; it includes side, but side is not one of the words that needs a capital in this sentence..",
+              "Not: west, museum. \"west, museum\" is not the best answer because it leaves out far, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out east, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes west, but west is not one of the words that needs a capital in this sentence.; it includes museum, but museum is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: west, east. \"west, east\" does not match the capitalization pattern required by the sentence or title."
+              "Not: west, east. \"west, east\" is not the best answer because it leaves out far, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes west, but west is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -10839,12 +10984,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0020",
-          "version": 3,
-          "contentHash": "sha256:0e6e501b1a387e1c6feccbc394a754f6289f658fc3627643ad1b5915fa0e28a3",
+          "version": 4,
+          "contentHash": "sha256:348fe721674c6d0aad80720cd58a12d20f844222a4c16a6943db4026d291dc3f",
           "question": "Which list includes all the words that should be capitalized in this sentence? The london philharmonic orchestra invited aerosmith to perform with them in their winter concert.",
           "choices": [
             "lon don, winter, concert",
@@ -10854,12 +11004,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: london, philharmonic, orchestra, aerosmi. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"london, philharmonic, orchestra, aerosmi\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: london, philharmonic, orchestra, aerosmi. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"london, philharmonic, orchestra, aerosmi\" names the words that need capitals in the sentence. london: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. philharmonic: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. orchestra: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. aerosmi: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: lon don, winter, concert. \"lon don, winter, concert\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: london, aerosmith. \"london, aerosmith\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: lon don, winter, concert. \"lon don, winter, concert\" is not the best answer because it leaves out london, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out philharmonic, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out orchestra, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes lon don, but lon don is not one of the words that needs a capital in this sentence.; it includes winter, but winter is not one of the words that needs a capital in this sentence.; it includes concert, but concert is not one of the words that needs a capital in this sentence..",
+              "Not: london, aerosmith. \"london, aerosmith\" is not the best answer because it leaves out philharmonic, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out orchestra, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out aerosmi, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes aerosmith, but aerosmith is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: london, philharmonic, orchestra. \"london, philharmonic, orchestra\" does not match the capitalization pattern required by the sentence or title."
+              "Not: london, philharmonic, orchestra. \"london, philharmonic, orchestra\" is not the best answer because it leaves out aerosmi, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.."
             ]
           },
           "metadata": {
@@ -10898,12 +11048,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0021",
-          "version": 3,
-          "contentHash": "sha256:93eb00efac2d0f05fe100ae59cf3f7fb0f8289d023de6498f0ec96e966b29d26",
+          "version": 5,
+          "contentHash": "sha256:002c4a8511b0ea37b335f644d325c20d8ac26ccb5da621e4066d591d1d7bde62",
           "question": "Which underlined word should be capitalized? When we went to the city, we saw senator Miller riding in a car in the parade.",
           "choices": [
             "we",
@@ -10913,12 +11068,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: senator. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"senator\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: senator. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"senator\" is the word that needs a capital in the sentence. senator: is part of a title or family title used with a name, so the title/name expression needs capitals.",
             "incorrect": [
-              "Not: we. \"we\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: we. \"we\" is not the best answer because it leaves out senator, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it includes we, but we is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: city. \"city\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: parade. \"parade\" does not match the capitalization pattern required by the sentence or title."
+              "Not: city. \"city\" is not the best answer because it leaves out senator, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it includes city, but city is not one of the words that needs a capital in this sentence..",
+              "Not: parade. \"parade\" is not the best answer because it leaves out senator, which is part of a title or family title used with a name, so the title/name expression needs capitals.; it includes parade, but parade is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -10957,7 +11112,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0022",
@@ -11020,8 +11180,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0023",
-          "version": 3,
-          "contentHash": "sha256:8dcb0542d6724627b521deeb0fb5247cc494f1b7b5721d9b289edcf838db468c",
+          "version": 5,
+          "contentHash": "sha256:0156fae35c9390641662ee16eca1a0caf6086f38ce66f4deb6a5b731a8605339",
           "question": "Which underlined word or words below should be capitalized? The snake river is in a state with mountains and valleys.",
           "choices": [
             "snake river",
@@ -11031,12 +11191,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: snake river. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"snake river\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: snake river. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"snake river\" is the word that needs a capital in the sentence. snake river: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
               "",
-              "Not: state. \"state\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: mountains. \"mountains\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: valleys. \"valleys\" does not match the capitalization pattern required by the sentence or title."
+              "Not: state. \"state\" is not the best answer because it leaves out snake river, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes state, but state is not one of the words that needs a capital in this sentence..",
+              "Not: mountains. \"mountains\" is not the best answer because it leaves out snake river, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes mountains, but mountains is not one of the words that needs a capital in this sentence..",
+              "Not: valleys. \"valleys\" is not the best answer because it leaves out snake river, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes valleys, but valleys is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -11075,7 +11235,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0024",
@@ -11143,8 +11308,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0025",
-          "version": 3,
-          "contentHash": "sha256:7f3b154fb3def894ee828240de3ae7f1d1ef30c0ed73cf9792fdbd1915a349b5",
+          "version": 5,
+          "contentHash": "sha256:2298a23aeec67192f6234d8e81b980267d4b44cd4ef6667316726dc5a17f9d59",
           "question": "Which underlined word should be capitalized? The Smith family drove through New York city on their vacation across the country.",
           "choices": [
             "family",
@@ -11154,12 +11319,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: city. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"city\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: city. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"city\" is the word that needs a capital in the sentence. city: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: family. \"family\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: vacation. \"vacation\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: family. \"family\" is not the best answer because it leaves out city, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes family, but family is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: vacation. \"vacation\" is not the best answer because it leaves out city, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes vacation, but vacation is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: country. \"country\" does not match the capitalization pattern required by the sentence or title."
+              "Not: country. \"country\" is not the best answer because it leaves out city, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes country, but country is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -11198,12 +11363,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0026",
-          "version": 3,
-          "contentHash": "sha256:93ee411de03eba8a86240b7898d7ac1116fdf678ad75952431337225efd12d14",
+          "version": 5,
+          "contentHash": "sha256:4a641650379c17ef0b33ad91c52961121cf07d5cff442d5ce8ed4c8ec2dd2028",
           "question": "Which words are not capitalized correctly? Important landmarks within the United states are the Mississippi river, Rocky Mountains, and the Appalachian Mountains.",
           "choices": [
             "river, mountains",
@@ -11213,7 +11383,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: states, river. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"states, river\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: states, river. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"states, river\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: river, mountains. \"river, mountains\" does not match the capitalization pattern required by the sentence or title.",
               "Not: states, mountains. \"states, mountains\" does not match the capitalization pattern required by the sentence or title.",
@@ -11258,16 +11428,16 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
-            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.thecorestandards.org/ELA-Literacy/",
             "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0027",
-          "version": 3,
-          "contentHash": "sha256:2f3713d7495f239e7072c6d734ab584d9754699de8ad12fad36e1499af31389f",
+          "version": 4,
+          "contentHash": "sha256:c7a2e5d62b2ef137f98ebb43bc84177549249bdf317dec6418d45d384d1e5b8f",
           "question": "Which underlined words should be capitalized? The first battle of the civil war began at Fort Sumter off the coast of south carolina.",
           "choices": [
             "b attle, civil, coast, south",
@@ -11277,11 +11447,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: civil, war, south, carolina. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"civil, war, south, carolina\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: civil, war, south, carolina. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"civil, war, south, carolina\" names the words that need capitals in the sentence. civil: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. war: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. south: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. carolina: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: b attle, civil, coast, south. \"b attle, civil, coast, south\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: battle, war, coast, carolina. \"battle, war, coast, carolina\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: war, coast, south, carolina. \"war, coast, south, carolina\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: b attle, civil, coast, south. \"b attle, civil, coast, south\" is not the best answer because it leaves out war, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out carolina, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes b attle, but b attle is not one of the words that needs a capital in this sentence.; it includes coast, but coast is not one of the words that needs a capital in this sentence..",
+              "Not: battle, war, coast, carolina. \"battle, war, coast, carolina\" is not the best answer because it leaves out civil, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out south, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes battle, but battle is not one of the words that needs a capital in this sentence.; it includes coast, but coast is not one of the words that needs a capital in this sentence..",
+              "Not: war, coast, south, carolina. \"war, coast, south, carolina\" is not the best answer because it leaves out civil, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes coast, but coast is not one of the words that needs a capital in this sentence..",
               ""
             ]
           },
@@ -11321,11 +11491,16 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0028",
-          "version": 3,
+          "version": 5,
           "contentHash": "sha256:8c77dcb8f17a1faea219a32c306a72e7265fc2195517e760aad8396f69cbdd9a",
           "question": "If the poem “Lady of the Lake” is capitalized correctly, which of the following is also capitalized correctly?",
           "choices": [
@@ -11389,8 +11564,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0029",
-          "version": 3,
-          "contentHash": "sha256:cfd645208805017417cb1f8bb49005cf8b72bf73aa7a5d85c11b15cb6f65ded8",
+          "version": 5,
+          "contentHash": "sha256:aecdf507d6a146eb3b49f0918e17fab206638ca886a8d0af91918b0c81e4818b",
           "question": "Which of the following is correctly capitalized?",
           "choices": [
             "Sp anish-american War",
@@ -11444,12 +11619,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0030",
-          "version": 3,
-          "contentHash": "sha256:7e9bfa436ff5e2081bc8a771ec895865a647ec86412187f12c46154d37da9742",
+          "version": 5,
+          "contentHash": "sha256:fdeda235c33bdc79dba5c220acd94cc0ff264faa6a71fdaf774a999b339a0ea9",
           "question": "Which of the following sentences is correctly capitalized?",
           "choices": [
             "My favorite team is the New York Yankees.",
@@ -11503,12 +11683,17 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0031",
-          "version": 3,
-          "contentHash": "sha256:8c7b65a0c23aad7fa9594b696b1acc05b897d80a1b4f4279e8eb6755522afad5",
+          "version": 5,
+          "contentHash": "sha256:c9f328934d0af37f0b5e4da7fedd66db4c20de6d14cc33daf1edd27217486cc4",
           "question": "Which word in the sentence below is not capitalized correctly? the team is going to Washington D.C.",
           "choices": [
             "the",
@@ -11518,7 +11703,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: the. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"the\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: the. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"the\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: team. \"team\" does not match the capitalization pattern required by the sentence or title.",
@@ -11563,16 +11748,16 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
-            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.thecorestandards.org/ELA-Literacy/",
             "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0032",
-          "version": 3,
-          "contentHash": "sha256:af576881a7d8032cf6b56d383b0822182a68967ce23244b2a6e00fdf7ca288fb",
+          "version": 4,
+          "contentHash": "sha256:a4bec5af1a0ea72a06f8cf59e94ab5b1c6eff58518bccabd02d138ea36317ebb",
           "question": "In the sentence below, which words must be capitalized? The washington monument sits along the potomac river in washington, d.c.",
           "choices": [
             "washington, sits, potomac, d.c.",
@@ -11582,11 +11767,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: washington, potomac, d.c., river, monument. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"washington, potomac, d.c., river, monument\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: washington, potomac, d.c., river, monument. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"washington, potomac, d.c., river, monument\" names the words that need capitals in the sentence. washington: is part of a specific proper name or title, so it needs a capital letter. potomac: is part of a specific proper name or title, so it needs a capital letter. d.c.: is part of a specific proper name or title, so it needs a capital letter. river: is part of a specific proper name or title, so it needs a capital letter.",
             "incorrect": [
-              "Not: washington, sits, potomac, d.c. \"washington, sits, potomac, d.c.\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: monument, along, d.c., river. \"monument, along, d.c., river\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: monument, river, washington, d.c. \"monument, river, washington, d.c.\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: washington, sits, potomac, d.c. \"washington, sits, potomac, d.c.\" is not the best answer because it leaves out river, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out monument, which is part of a specific proper name or title, so it needs a capital letter.; it includes sits, but sits is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: monument, along, d.c., river. \"monument, along, d.c., river\" is not the best answer because it leaves out washington, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out potomac, which is part of a specific proper name or title, so it needs a capital letter.; it includes along, but along is not one of the words that needs a capital in this sentence..",
+              "Not: monument, river, washington, d.c. \"monument, river, washington, d.c.\" is not the best answer because it leaves out potomac, which is part of a specific proper name or title, so it needs a capital letter..",
               ""
             ]
           },
@@ -11628,16 +11813,16 @@
             ]
           },
           "studyAid": {
-            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
-            "example": "I visited Washington, D.C., last summer.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.thecorestandards.org/ELA-Literacy/",
             "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0033",
-          "version": 3,
-          "contentHash": "sha256:afdb39c6e9c9a273de5040d17a2a04597eb877770e8592b847ea17ab8841e4c8",
+          "version": 4,
+          "contentHash": "sha256:613e3474fa485238ae1d7f1af059198daa8a1fa63ff847f7db1d56957e8d7ebe",
           "question": "Which words must be capitalized in this sentence? jeff attends king middle school in seattle, washington this year.",
           "choices": [
             "jeff, king, seattle, washington",
@@ -11647,12 +11832,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: middle, washington, school, seattle, king, jeff. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"middle, washington, school, seattle, king, jeff\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: middle, washington, school, seattle, king, jeff. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"middle, washington, school, seattle, king, jeff\" names the words that need capitals in the sentence. middle: is part of a specific proper name or title, so it needs a capital letter. washington: is part of a specific proper name or title, so it needs a capital letter. school: is part of a specific proper name or title, so it needs a capital letter. seattle: is part of a specific proper name or title, so it needs a capital letter.",
             "incorrect": [
-              "Not: jeff, king, seattle, washington. \"jeff, king, seattle, washington\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: attends, school, seattle, king, jeff. \"attends, school, seattle, king, jeff\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: jeff, king, seattle, washington. \"jeff, king, seattle, washington\" is not the best answer because it leaves out middle, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out school, which is part of a specific proper name or title, so it needs a capital letter..",
+              "Not: attends, school, seattle, king, jeff. \"attends, school, seattle, king, jeff\" is not the best answer because it leaves out middle, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out washington, which is part of a specific proper name or title, so it needs a capital letter.; it includes attends, but attends is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
               "",
-              "Not: school, seattle, washington, jeff. \"school, seattle, washington, jeff\" does not match the capitalization pattern required by the sentence or title."
+              "Not: school, seattle, washington, jeff. \"school, seattle, washington, jeff\" is not the best answer because it leaves out middle, which is part of a specific proper name or title, so it needs a capital letter.; it leaves out king, which is part of a specific proper name or title, so it needs a capital letter.."
             ]
           },
           "metadata": {
@@ -11693,16 +11878,16 @@
             ]
           },
           "studyAid": {
-            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
-            "example": "I visited Washington, D.C., last summer.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.thecorestandards.org/ELA-Literacy/",
             "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0034",
-          "version": 3,
-          "contentHash": "sha256:b1ed277c5e56baade6b052496ab60fea832439175eaadcbbb6f29d32ccfadbaa",
+          "version": 4,
+          "contentHash": "sha256:280b286d9775c84e27ab00e0d32478f55c4ef3e77ed57fe76102d9e258c7ba8f",
           "question": "Which group of words must all be capitalized in this sentence? spirit lake is locatedon the northeastern slope of mt. st. helens in southwest washington s tate.",
           "choices": [
             "spirit lake, helens, washington",
@@ -11712,12 +11897,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: spirit lake, helens, washington. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"spirit lake, helens, washington\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: spirit lake, helens, washington. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"spirit lake, helens, washington\" names the words that need capitals in the sentence. spirit lake: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. helens: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. washington: is part of a specific proper name or title, so it needs a capital letter.",
             "incorrect": [
               "",
-              "Not: spirit, northeastern, state. \"spirit, northeastern, state\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: slope, mt., southwest. \"slope, mt., southwest\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: northeastern, mt., state. \"northeastern, mt., state\" does not match the capitalization pattern required by the sentence or title."
+              "Not: spirit, northeastern, state. \"spirit, northeastern, state\" is not the best answer because it leaves out spirit lake, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out helens, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out washington, which is part of a specific proper name or title, so it needs a capital letter.; it includes spirit, but spirit is not one of the words that needs a capital in this sentence.; it includes northeastern, but northeastern is not one of the words that needs a capital in this sentence.; it includes state, but state is not one of the words that needs a capital in this sentence..",
+              "Not: slope, mt., southwest. \"slope, mt., southwest\" is not the best answer because it leaves out spirit lake, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out helens, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out washington, which is part of a specific proper name or title, so it needs a capital letter.; it includes slope, but slope is not one of the words that needs a capital in this sentence.; it includes mt., but mt. is not one of the words that needs a capital in this sentence.; it includes southwest, but southwest is not one of the words that needs a capital in this sentence..",
+              "Not: northeastern, mt., state. \"northeastern, mt., state\" is not the best answer because it leaves out spirit lake, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out helens, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out washington, which is part of a specific proper name or title, so it needs a capital letter.; it includes northeastern, but northeastern is not one of the words that needs a capital in this sentence.; it includes mt., but mt. is not one of the words that needs a capital in this sentence.; it includes state, but state is not one of the words that needs a capital in this sentence.."
             ]
           },
           "metadata": {
@@ -11758,16 +11943,16 @@
             ]
           },
           "studyAid": {
-            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
-            "example": "I visited Washington, D.C., last summer.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.thecorestandards.org/ELA-Literacy/",
             "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0035",
-          "version": 3,
-          "contentHash": "sha256:c15460ffadc033d857ee323ac9220744754ceedd8c4818eb18d697d4671ebf0c",
+          "version": 5,
+          "contentHash": "sha256:5b2a6d3d45c74acc2b471c733c1baed5a777dcb5b3bfd2b420becca6a7be73e9",
           "question": "Which place should be capitalized?",
           "choices": [
             "high school",
@@ -11822,7 +12007,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "capitalization-names-of-places-q0036",
@@ -11948,8 +12138,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0038",
-          "version": 2,
-          "contentHash": "sha256:4d2bca6c583471faedf8f755e4e6079e4ee366c841376e431a04bd764d5285a6",
+          "version": 3,
+          "contentHash": "sha256:fd03d11bf3338492ab31795402304e5cbcf35043a6200f23db9d14875067547b",
           "question": "Which word (s) in the following sentence should be capitalized? Every year my dad, frank, takes our family on vacation to the grand canyon.",
           "choices": [
             "Dad, Frank, Grand",
@@ -11959,17 +12149,17 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Frank, Gr and, Canyon. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Frank, Gr and, Canyon\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Frank, Gr and, Canyon. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"Frank, Gr and, Canyon\" names the words that need capitals in the sentence. Frank: is a person’s name, so it needs a capital letter. Gr and: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. Canyon: is part of a specific proper name or title, so it needs a capital letter.",
             "incorrect": [
-              "Not: Dad, Frank, Grand. \"Dad, Frank, Grand\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: Dad, Frank, Grand, Canyon. \"Dad, Frank, Grand, Canyon\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: Frank, Grand. \"Frank, Grand\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: Dad, Frank, Grand. \"Dad, Frank, Grand\" is not the best answer because it leaves out Gr and, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out Canyon, which is part of a specific proper name or title, so it needs a capital letter.; it includes Dad, but Dad follows a possessive word such as my, so it stays lowercase.; it includes Grand, but Grand is not one of the words that needs a capital in this sentence..",
+              "Not: Dad, Frank, Grand, Canyon. \"Dad, Frank, Grand, Canyon\" is not the best answer because it leaves out Gr and, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes Dad, but Dad follows a possessive word such as my, so it stays lowercase.; it includes Grand, but Grand is not one of the words that needs a capital in this sentence..",
+              "Not: Frank, Grand. \"Frank, Grand\" is not the best answer because it leaves out Gr and, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out Canyon, which is part of a specific proper name or title, so it needs a capital letter.; it includes Grand, but Grand is not one of the words that needs a capital in this sentence..",
               ""
             ]
           },
           "studyAid": {
-            "definition": "Capitalization marks proper nouns, sentence beginnings, titles, places, days, months, and holidays.",
-            "example": "Capitalize a specific name like Riverside High School, but not a common noun like school.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -12253,8 +12443,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0101",
-          "version": 2,
-          "contentHash": "sha256:d7374b1c8d1df7562a089c854812247d8e1c4868c02bf533ae2492a06c864872",
+          "version": 4,
+          "contentHash": "sha256:96eb4ed0ad82a3f30338b4dd566603bbc7a7c6a87d9289f59f0c6134c8775486",
           "question": "Which word is capitalized incorrectly? When we were visiting Hanoi, Vietnam, we found many official Documents that were written in both English and Vietnamese.",
           "choices": [
             "Hanoi",
@@ -12264,17 +12454,17 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Documents. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Documents\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Documents. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"Documents\" is the word with the capitalization error in the sentence. Documents: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.",
             "incorrect": [
-              "Not: Hanoi. \"Hanoi\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: Vietnam. \"Vietnam\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: Hanoi. \"Hanoi\" is not the best answer because it leaves out Documents, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes Hanoi, but Hanoi is not one of the words that needs a capital in this sentence..",
+              "Not: Vietnam. \"Vietnam\" is not the best answer because it leaves out Documents, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes Vietnam, but Vietnam is not one of the words that needs a capital in this sentence..",
               "",
-              "Not: English. \"English\" does not match the capitalization pattern required by the sentence or title."
+              "Not: English. \"English\" is not the best answer because it leaves out Documents, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes English, but English is not one of the words that needs a capital in this sentence.."
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -12314,8 +12504,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0137",
-          "version": 2,
-          "contentHash": "sha256:c400f03e5c2310e3a9128f12fbf221a098acf1a9a506e3f258c2a9f52409cd35",
+          "version": 4,
+          "contentHash": "sha256:90e9efb55f1a7e9ec640c916b06bb04420070bba7a38dc55578b7d2047d4213c",
           "question": "In the sentence below, which of the following words should be capitalized? I really want some of those royal blue adidas shoes that my grandmother g ot me for my birthday.",
           "choices": [
             "Gran dmother",
@@ -12334,8 +12524,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },

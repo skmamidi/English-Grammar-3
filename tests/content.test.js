@@ -574,6 +574,34 @@ test('content QA rejects generic explanation rationales', () => {
           'Not: 9-00. It does not match the grammar clue.'
         ]
       }
+    }),
+    makeQaQuestion(4, {
+      question: 'Which words should be capitalized? Susan asked, “mother, will my aunt and uncle be attending dad’s family reunion with us?”',
+      choices: ['mother, dad’s family', 'mother, aunt, uncle', 'mother, aunt, uncle, dad’s', 'mother, dad’s'],
+      correct: 3,
+      explanation: {
+        correct: 'Answer: mother, dad’s. Dialogue punctuation keeps the spoken words inside quotation marks.',
+        incorrect: [
+          'Not: mother, dad’s family. This is about spoken words.',
+          'Not: mother, aunt, uncle. This is about quotation marks.',
+          'Not: mother, aunt, uncle, dad’s. This is about spoken words.',
+          ''
+        ]
+      }
+    }),
+    makeQaQuestion(5, {
+      question: 'Which underlined word is incorrectly capitalized? My favorite classes in school are math, french, and art.',
+      choices: ['french', 'classes', 'art', 'math'],
+      correct: 0,
+      explanation: {
+        correct: 'Answer: french. "french" is the standard spelling; every needed letter is in the right order.',
+        incorrect: [
+          '',
+          'Not: classes. "classes" changes, adds, or leaves out letters from the standard spelling "french".',
+          'Not: art. "art" changes, adds, or leaves out letters from the standard spelling "french".',
+          'Not: math. "math" changes, adds, or leaves out letters from the standard spelling "french".'
+        ]
+      }
     })
   ];
 
@@ -582,6 +610,22 @@ test('content QA rejects generic explanation rationales', () => {
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0001' });
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0002' });
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0003' });
+  assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0004' });
+  assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0005' });
+});
+
+test('content QA rejects split family-title words in capitalization choices', () => {
+  const questions = [
+    makeQaQuestion(1, {
+      question: 'Which words should be capitalized? Susan asked, “mother, will my aunt and uncle be attending dad’s family reunion with us?”',
+      choices: ['mo ther, dad’s family', 'mother, aunt, uncle', 'mother, aunt, uncle, dad’s', 'mother, dad’s'],
+      correct: 3
+    })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.errors, 'split-capitalization-choice-word', { questionId: 'content-qa-fixture-q0001' });
 });
 
 test('content QA rejects generic study aids in reviewed abbreviation sub-topic', () => {

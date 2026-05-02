@@ -2988,8 +2988,8 @@
         },
         {
           "id": "reference-skills-italicize-q0016",
-          "version": 2,
-          "contentHash": "sha256:be609f03e925b24b0497310f7b157e530f5626d53bc8652a96e2ef2965aa08ff",
+          "version": 4,
+          "contentHash": "sha256:0315e7f4c432a017d0ee1260437795e45f2b425ff55f8c9298183ec617bff4f6",
           "question": "Which types of words are always capitalized?",
           "choices": [
             "street names, common nouns",
@@ -2999,11 +2999,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: proper nouns, geographical locations. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"proper nouns, geographical locations\" names the reference feature or study skill that the prompt describes.",
+            "correct": "Answer: proper nouns, geographical locations. Rule or clue: The first word of a sentence always needs a capital; common nouns, seasons, and words after colons do not always need capitals. \"proper nouns, geographical locations\" is right because proper nouns and specific place names name particular people, places, or things.",
             "incorrect": [
-              "Not: street names, common nouns. \"street names, common nouns\" names a different reference feature or study skill than the one described in the prompt.",
-              "Not: general compass directions, titles. \"general compass directions, titles\" names a different reference feature or study skill than the one described in the prompt.",
-              "Not: proper adjectives, cardinal numbers. \"proper adjectives, cardinal numbers\" names a different reference feature or study skill than the one described in the prompt.",
+              "Not: street names, common nouns. \"street names, common nouns\" is not always capitalized; it only gets a capital when it starts a sentence or is part of a proper name.",
+              "Not: general compass directions, titles. \"general compass directions, titles\" is not the best answer because it does not match the always-capitalized group named by the correct choice.",
+              "Not: proper adjectives, cardinal numbers. \"proper adjectives, cardinal numbers\" is not the best answer because it does not match the always-capitalized group named by the correct choice.",
               ""
             ]
           },
@@ -3043,7 +3043,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Some words always need capitals because of their job, but many words only need capitals in certain places.",
+            "example": "The first word of a sentence always starts with a capital; common nouns and words after a colon do not always need one.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "reference-skills-italicize-q0017",
@@ -3165,8 +3170,8 @@
         },
         {
           "id": "reference-skills-italicize-q0019",
-          "version": 2,
-          "contentHash": "sha256:825942bd2fda05a340e8dc8ac23be7c2e8714e3d007520ef16d7b2333e903db0",
+          "version": 3,
+          "contentHash": "sha256:0cef1dd2bfe2e801579ea46656b764ff0a561140cb4032f88fa683e78628f377",
           "question": "Which words should be capitalized? My friend, who is an exchange student from sweden, taught swedish phrases to the latin o club at my high school.",
           "choices": [
             "sw eden, swedish, latino",
@@ -3176,12 +3181,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: sw eden, swedish, latino. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"sw eden, swedish, latino\" names the reference feature or study skill that the prompt describes.",
+            "correct": "Answer: sw eden, swedish, latino. Rule or clue: Capitalize each word according to its job in the sentence: sentence start, quotation start, proper name, place, title, language, nationality, day, month, or holiday. \"sw eden, swedish, latino\" names the words that need capitals in the sentence. sw eden: is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning. swedish: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter. latino: is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.",
             "incorrect": [
               "",
-              "Not: sweden, swedish. \"sweden, swedish\" names a different reference feature or study skill than the one described in the prompt.",
-              "Not: sweden, swedish, latino, club. \"sweden, swedish, latino, club\" names a different reference feature or study skill than the one described in the prompt.",
-              "Not: sweden, swedish, latino, club, high school. \"sweden, swedish, latino, club, high school\" names a different reference feature or study skill than the one described in the prompt."
+              "Not: sweden, swedish. \"sweden, swedish\" is not the best answer because it leaves out sw eden, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out latino, which is a proper place, nationality, language, day, month, or holiday word, so it needs a capital letter.; it includes sweden, but sweden is not one of the words that needs a capital in this sentence..",
+              "Not: sweden, swedish, latino, club. \"sweden, swedish, latino, club\" is not the best answer because it leaves out sw eden, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes sweden, but sweden is not one of the words that needs a capital in this sentence.; it includes club, but club is a common noun, describing word, or ordinary sentence word here, so it stays lowercase..",
+              "Not: sweden, swedish, latino, club, high school. \"sweden, swedish, latino, club, high school\" is not the best answer because it leaves out sw eden, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it includes sweden, but sweden is not one of the words that needs a capital in this sentence.; it includes club, but club is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.; it includes high school, but high school is a common noun, describing word, or ordinary sentence word here, so it stays lowercase.."
             ]
           },
           "metadata": {
@@ -3220,7 +3225,12 @@
               "MAP"
             ]
           },
-          "studyAid": {}
+          "studyAid": {
+            "definition": "Capitalization depends on each word’s job: capitalize sentence starts, direct-quote starts, proper names, places, nationalities, languages, holidays, and titles used as names.",
+            "example": "In “my aunt and Dad went to Texas,” Dad and Texas need capitals, but my and aunt do not.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
+          }
         },
         {
           "id": "reference-skills-italicize-q0020",

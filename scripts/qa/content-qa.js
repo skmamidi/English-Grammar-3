@@ -195,6 +195,19 @@ const QUALITY_RULES = [{
     }
   }
 }, {
+  id: 'split-capitalization-choice-word',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    if (!Array.isArray(question.choices)) return;
+    if (!/\bwhich words? should be capitalized\b/i.test(String(question.question || ''))) return;
+    const splitChoice = question.choices.find(choice => /\b(?:mo\s+ther|fa\s+ther|grand\s+pa|grand\s+ma)\b/i.test(String(choice || '')));
+    if (splitChoice) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Capitalization answer choices should not split family-title words such as mother, father, grandma, or grandpa.', this.id, getQuestionId(question));
+    }
+  }
+}, {
   id: 'split-possessive-owner-name',
   defaultSeverity: 'error',
   scope: 'question',
@@ -321,6 +334,8 @@ const QUALITY_RULES = [{
       /\bdifferent grammar job\b/i.test(String(text || '')) ||
       (/\bstandard abbreviation\b/i.test(String(text || '')) && /\b(semicolon|colon|parentheses|introductory phrase|dialogue|speaker tag|new speaker|hyphen|dash|capitalized|missing word|combined into one sentence)\b/i.test(prompt)) ||
       (/\bacronym\b/i.test(String(text || '')) && /\bstate abbreviation\b/i.test(prompt)) ||
+      (/\bwhich words? should be capitalized\b/i.test(prompt) && /\b(dialogue punctuation|quotation marks|spoken words)\b/i.test(String(text || ''))) ||
+      (/\b(capitalized|capitalization)\b/i.test(prompt) && /\b(separates the street|reference feature|homophones?|standard spelling|meaning relationship|word relationship)\b/i.test(String(text || ''))) ||
       hasSelfContradictoryPunctuationNeed(text)
     );
     if (generic) {

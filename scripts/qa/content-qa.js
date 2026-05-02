@@ -336,6 +336,7 @@ const QUALITY_RULES = [{
       (/\bacronym\b/i.test(String(text || '')) && /\bstate abbreviation\b/i.test(prompt)) ||
       (/\bwhich words? should be capitalized\b/i.test(prompt) && /\b(dialogue punctuation|quotation marks|spoken words)\b/i.test(String(text || ''))) ||
       (/\b(capitalized|capitalization)\b/i.test(prompt) && /\b(separates the street|reference feature|homophones?|standard spelling|meaning relationship|word relationship)\b/i.test(String(text || ''))) ||
+      (/\btransform this fragment into a complete sentence\b/i.test(prompt) && /\b(sentence purpose|end punctuation|period for statements|question mark for direct questions|tense, helping verb|subject-verb pattern|grammar clue)\b/i.test(String(text || ''))) ||
       hasSelfContradictoryPunctuationNeed(text)
     );
     if (generic) {

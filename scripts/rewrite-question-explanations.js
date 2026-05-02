@@ -198,6 +198,9 @@ function buildStudyAid(question) {
   if (isFamilyTitleCapitalizationQuestion(question)) {
     definition = 'Capitalize family titles when they act like names, including direct address; keep them lowercase after possessive words such as my, your, or our.';
     example = 'Mother is capitalized in direct address. Dad’s is capitalized when it stands for a name. My aunt and uncle stay lowercase after my.';
+  } else if (isTransformFragmentPrompt(question)) {
+    definition = 'A sentence fragment is missing something a complete sentence needs, such as a main verb or a complete thought.';
+    example = 'Three ways to make good grades is only a noun phrase. There are three ways to make good grades has a subject placeholder and the verb are, so it is complete.';
   } else if (/capitalized correctly after an interruption in dialogue/i.test(prompt)) {
     definition = 'When a speaker tag interrupts one sentence, the second part usually continues with a lowercase letter; names still keep capitals.';
     example = '"I think," Nora whispered, "we should wait." continues the same sentence after whispered, so we stays lowercase.';
@@ -280,6 +283,9 @@ function getInferredRule(question) {
   const sourceSet = getSourceSet(question);
   if (isFamilyTitleCapitalizationQuestion(question)) {
     return 'Capitalize family titles when they are used like names or in direct address; keep family words lowercase after possessive words such as my.';
+  }
+  if (isTransformFragmentPrompt(question)) {
+    return 'To fix a fragment, add the missing sentence part. A noun phrase such as "Three ways..." needs a main verb to become a complete sentence.';
   }
   if (/capitalized correctly after an interruption in dialogue/i.test(prompt)) {
     return 'When a speaker tag interrupts one sentence, the second part continues lowercase unless a new sentence begins; names still need capitals.';
@@ -966,6 +972,10 @@ function capitalizationDiffReason(choice, correctChoice, isCorrect) {
   return `${quote(choice)} does not match the capitalization pattern required by the sentence or title.`;
 }
 
+function isTransformFragmentPrompt(question) {
+  return /what would transform this fragment into a complete sentence/i.test(stripLeadIns(question.question || ''));
+}
+
 function isFamilyTitleCapitalizationQuestion(question) {
   const prompt = stripLeadIns(question.question || '');
   return /which words should be capitalized/i.test(prompt) && /\bmother\b/i.test(prompt) && /\bdad[’']s\b/i.test(prompt);
@@ -1052,6 +1062,26 @@ function capitalizationCourseReason(choice, correctChoice, question, isCorrect) 
   if (isCorrect) return `${quote(correctChoice)} is correct because German names a language, and language names are proper nouns that always need capital letters.`;
   if (/language arts/i.test(choice)) return `${quote(choice)} is not the intended answer here because this item is checking language-name capitalization; German is a language name, while language arts can be a common subject label unless a school uses it as an official course title.`;
   return `${quote(choice)} names a school subject that is not a language name in this item, so it does not show the specific capitalization rule the question is testing.`;
+}
+
+function fragmentRepairReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  const fragment = normalizeWhitespace(prompt.split('?').slice(1).join('?')).replace(/[.?!]$/, '');
+  const fragmentText = fragment || 'the words in the prompt';
+  const completeText = normalizeWhitespace(`${correctChoice.match(/“([^”]+)”/)?.[1] || 'There are'} ${fragmentText.charAt(0).toLowerCase()}${fragmentText.slice(1)}.`);
+  if (isCorrect) {
+    return `${quote(correctChoice)} works because ${quote(fragmentText)} is only a noun phrase: it names the topic but has no main verb. Adding ${quote('There are')} supplies a subject placeholder and the verb ${quote('are')}, turning it into the complete sentence ${quote(completeText)}`;
+  }
+  if (/question mark/i.test(choice)) {
+    return `${quote(choice)} does not fix the fragment because changing the end mark only changes punctuation; it still does not add the missing main verb.`;
+  }
+  if (/attend class|generators|hydroelectric|solar/i.test(choice)) {
+    return `${quote(choice)} adds examples, but the sentence still needs a linking verb such as ${quote('are')} to connect ${quote(fragmentText.split(/\s+/).slice(0, 2).join(' ') || 'the subject')} to that list.`;
+  }
+  if (/nothing/i.test(choice)) {
+    return `${quote(choice)} is not correct because ${quote(fragmentText)} is not complete already; it lacks a main verb that tells what the subject does or is.`;
+  }
+  return `${quote(choice)} does not add the missing main verb needed to turn the fragment into a complete sentence.`;
 }
 
 function capitalizationListReason(choice, correctChoice, question, isCorrect) {
@@ -1548,6 +1578,9 @@ function domainReason(choice, correctChoice, question, domain, isCorrect) {
   }
   if (/\bcombined into one sentence\b/i.test(prompt)) {
     return writingReason(choice, correctChoice, question, isCorrect);
+  }
+  if (isTransformFragmentPrompt(question)) {
+    return fragmentRepairReason(choice, correctChoice, question, isCorrect);
   }
   if (/\bcapitalized correctly\b/i.test(prompt)) {
     return capitalizationDiffReason(choice, correctChoice, isCorrect);

@@ -3573,28 +3573,28 @@
         },
         {
           "id": "punctuation-end-sentence-q0118",
-          "version": 3,
-          "contentHash": "sha256:d3e3a579797b80c4503c845751b52d90a5f38b16e650cdded61eea991143bba7",
-          "question": "What would transform this fragment into a complete sentence? Three ways to make good grade.",
+          "version": 4,
+          "contentHash": "sha256:12a9cdc39fd09601400a8bb4936cbe60ecadc994aaa1f71bccd4fc842b592916",
+          "question": "What would transform this fragment into a complete sentence? Three ways to make good grades.",
           "choices": [
-            "Rep lacing the period with a question mark at the end of the sentence.",
+            "Replacing the period with a question mark at the end of the sentence.",
             "Adding “attend class, stay organized, and study” to the end of the sentence.",
             "Adding “There are” to the beginning of the sentence.",
             "Nothing. The sentence is complete already."
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Adding “There are” to the beginning of the sentence. Rule or clue: End punctuation must match the sentence purpose: period for statements and mild commands, question mark for direct questions, and exclamation point for strong feeling or urgency. \"Adding “There are” to the beginning of the sentence.\" is a statement, command, or indirect question, so it ends with a period.",
+            "correct": "Answer: Adding “There are” to the beginning of the sentence. Rule or clue: To fix a fragment, add the missing sentence part. A noun phrase such as \"Three ways...\" needs a main verb to become a complete sentence. \"Adding “There are” to the beginning of the sentence.\" works because \"Three ways to make good grades\" is only a noun phrase: it names the topic but has no main verb. Adding \"There are\" supplies a subject placeholder and the verb \"are\", turning it into the complete sentence \"There are three ways to make good grades.\"",
             "incorrect": [
-              "Not: Rep lacing the period with a question mark at the end of the sentence. \"Rep lacing the period with a question mark at the end of the sentence.\" does not match the sentence purpose described in the prompt.",
-              "Not: Adding “attend class, stay organized, and study” to the end of the sentence. \"Adding “attend class, stay organized, and study” to the end of the sentence.\" does not match the sentence purpose described in the prompt.",
+              "Not: Replacing the period with a question mark at the end of the sentence. \"Replacing the period with a question mark at the end of the sentence.\" does not fix the fragment because changing the end mark only changes punctuation; it still does not add the missing main verb.",
+              "Not: Adding “attend class, stay organized, and study” to the end of the sentence. \"Adding “attend class, stay organized, and study” to the end of the sentence.\" adds examples, but the sentence still needs a linking verb such as \"are\" to connect \"Three ways\" to that list.",
               "",
-              "Not: Nothing. The sentence is complete already. \"Nothing. The sentence is complete already.\" does not match the sentence purpose described in the prompt."
+              "Not: Nothing. The sentence is complete already. \"Nothing. The sentence is complete already.\" is not correct because \"Three ways to make good grades\" is not complete already; it lacks a main verb that tells what the subject does or is."
             ]
           },
           "studyAid": {
-            "definition": "Punctuation questions ask you to choose marks that make sentence meaning clear.",
-            "example": "Questions end with question marks, and direct speech needs quotation marks.",
+            "definition": "A sentence fragment is missing something a complete sentence needs, such as a main verb or a complete thought.",
+            "example": "Three ways to make good grades is only a noun phrase. There are three ways to make good grades has a subject placeholder and the verb are, so it is complete.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },

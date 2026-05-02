@@ -19149,28 +19149,28 @@
         },
         {
           "id": "grammar-verb-forms-q0063",
-          "version": 2,
-          "contentHash": "sha256:e76cf38ded6f72565115c19146f93524d330698c379bb1b2ddafb2d19d1efbe6",
+          "version": 3,
+          "contentHash": "sha256:1f67dfb298d70bbc9b7641f2b767e00b491c329ef5b6beecd214e639a0eca943",
           "question": "What would transform this fragment into a complete sentence? Five ways to make electricity.",
           "choices": [
-            "Replacing period with a question mark at the end of the sentence. the",
+            "Replacing the period with a question mark at the end of the sentence.",
             "Adding “: generators, steam, hydroelectric, windmill and solar power” to the end of the sentence.",
             "Adding “There are” to the beginning of the sentence.",
             "Nothing. This sentence is complete already."
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Adding “There are” to the beginning of the sentence. Rule or clue: Choose the verb form that matches the time clue, helping verb, and subject in the sentence. \"Adding “There are” to the beginning of the sentence.\" matches the verb form, tense, and subject needed by the sentence.",
+            "correct": "Answer: Adding “There are” to the beginning of the sentence. Rule or clue: To fix a fragment, add the missing sentence part. A noun phrase such as \"Three ways...\" needs a main verb to become a complete sentence. \"Adding “There are” to the beginning of the sentence.\" works because \"Five ways to make electricity\" is only a noun phrase: it names the topic but has no main verb. Adding \"There are\" supplies a subject placeholder and the verb \"are\", turning it into the complete sentence \"There are five ways to make electricity.\"",
             "incorrect": [
-              "Not: Replacing period with a question mark at the end of the sentence. the. \"Replacing period with a question mark at the end of the sentence. the\" does not match the tense, helping verb, or subject-verb pattern required here.",
-              "Not: Adding “: generators, steam, hydroelectric, windmill and solar power” to the end of the sentence. \"Adding “: generators, steam, hydroelectric, windmill and solar power” to the end of the sentence.\" does not match the tense, helping verb, or subject-verb pattern required here.",
+              "Not: Replacing the period with a question mark at the end of the sentence. \"Replacing the period with a question mark at the end of the sentence.\" does not fix the fragment because changing the end mark only changes punctuation; it still does not add the missing main verb.",
+              "Not: Adding “: generators, steam, hydroelectric, windmill and solar power” to the end of the sentence. \"Adding “: generators, steam, hydroelectric, windmill and solar power” to the end of the sentence.\" adds examples, but the sentence still needs a linking verb such as \"are\" to connect \"Five ways\" to that list.",
               "",
-              "Not: Nothing. This sentence is complete already. \"Nothing. This sentence is complete already.\" does not match the tense, helping verb, or subject-verb pattern required here."
+              "Not: Nothing. This sentence is complete already. \"Nothing. This sentence is complete already.\" is not correct because \"Five ways to make electricity\" is not complete already; it lacks a main verb that tells what the subject does or is."
             ]
           },
           "studyAid": {
-            "definition": "Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness.",
-            "example": "Read the whole sentence, identify the job of the missing or underlined word, then test each answer choice.",
+            "definition": "A sentence fragment is missing something a complete sentence needs, such as a main verb or a complete thought.",
+            "example": "Three ways to make good grades is only a noun phrase. There are three ways to make good grades has a subject placeholder and the verb are, so it is complete.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },

@@ -602,6 +602,25 @@ test('content QA rejects generic explanation rationales', () => {
           'Not: math. "math" changes, adds, or leaves out letters from the standard spelling "french".'
         ]
       }
+    }),
+    makeQaQuestion(6, {
+      question: 'What would transform this fragment into a complete sentence? Three ways to make good grades.',
+      choices: [
+        'Replacing the period with a question mark at the end of the sentence.',
+        'Adding “attend class, stay organized, and study” to the end of the sentence.',
+        'Adding “There are” to the beginning of the sentence.',
+        'Nothing. The sentence is complete already.'
+      ],
+      correct: 2,
+      explanation: {
+        correct: 'Answer: Adding “There are” to the beginning of the sentence. End punctuation must match the sentence purpose.',
+        incorrect: [
+          'Not: Replacing the period with a question mark at the end of the sentence. This does not match the sentence purpose described in the prompt.',
+          'Not: Adding examples. This does not match the tense, helping verb, or subject-verb pattern required here.',
+          '',
+          'Not: Nothing. The sentence is complete already. This does not match the grammar clue.'
+        ]
+      }
     })
   ];
 
@@ -612,6 +631,7 @@ test('content QA rejects generic explanation rationales', () => {
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0003' });
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0004' });
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0005' });
+  assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0006' });
 });
 
 test('content QA rejects split family-title words in capitalization choices', () => {

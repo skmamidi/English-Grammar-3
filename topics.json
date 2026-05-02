@@ -1,0 +1,394 @@
+{
+  "capitalization": [
+    {
+      "id": "capitalization-sentence-beginning",
+      "count": 45
+    },
+    {
+      "id": "capitalization-days-months-holidays",
+      "count": 30
+    },
+    {
+      "id": "capitalization-books-magazines-songs-plays",
+      "count": 21
+    },
+    {
+      "id": "capitalization-proper-names-titles",
+      "count": 67
+    },
+    {
+      "id": "capitalization-names-of-places",
+      "count": 44
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-correct-article",
+      "count": 34
+    },
+    {
+      "id": "grammar-double-negatives",
+      "count": 18
+    },
+    {
+      "id": "grammar-pronouns",
+      "count": 154
+    },
+    {
+      "id": "grammar-singular-plural-nouns",
+      "count": 54
+    },
+    {
+      "id": "grammar-verb-forms",
+      "count": 76
+    },
+    {
+      "id": "grammar-run-on-sentences",
+      "count": 16
+    },
+    {
+      "id": "grammar-sentence-types",
+      "count": 24
+    },
+    {
+      "id": "grammar-subject-predicate",
+      "count": 34
+    },
+    {
+      "id": "grammar-parts-of-speech-verbs",
+      "count": 16
+    },
+    {
+      "id": "grammar-parts-of-speech-nouns",
+      "count": 52
+    },
+    {
+      "id": "grammar-parts-of-speech-adjectives",
+      "count": 61
+    },
+    {
+      "id": "grammar-parts-of-speech-adverbs",
+      "count": 40
+    },
+    {
+      "id": "grammar-subject-verb-agreement",
+      "count": 51
+    },
+    {
+      "id": "grammar-conjunctions",
+      "count": 17
+    },
+    {
+      "id": "grammar-identify-sentence",
+      "count": 37
+    },
+    {
+      "id": "grammar-sentence-combinations",
+      "count": 73
+    },
+    {
+      "id": "grammar-friendly-letter",
+      "count": 37
+    },
+    {
+      "id": "grammar-tenses",
+      "count": 37
+    },
+    {
+      "id": "grammar-indentation-rules",
+      "count": 15
+    },
+    {
+      "id": "grammar-point-of-view",
+      "count": 15
+    },
+    {
+      "id": "grammar-sentence-correction",
+      "count": 300
+    },
+    {
+      "id": "grammar-paragraph-structure",
+      "count": 186
+    },
+    {
+      "id": "grammar-opinion-persuasive-writing",
+      "count": 183
+    },
+    {
+      "id": "grammar-informative-explanatory-writing",
+      "count": 183
+    },
+    {
+      "id": "grammar-narrative-writing",
+      "count": 201
+    },
+    {
+      "id": "grammar-revising-editing-strategy",
+      "count": 241
+    },
+    {
+      "id": "grammar-prepositions-prepositional-phrases",
+      "count": 203
+    },
+    {
+      "id": "grammar-clauses-complex-sentences",
+      "count": 184
+    },
+    {
+      "id": "grammar-pronoun-agreement-case",
+      "count": 231
+    },
+    {
+      "id": "grammar-verb-tense-consistency",
+      "count": 180
+    },
+    {
+      "id": "grammar-sentence-variety",
+      "count": 180
+    },
+    {
+      "id": "grammar-appositives-phrases",
+      "count": 180
+    },
+    {
+      "id": "grammar-formal-informal-language",
+      "count": 196
+    },
+    {
+      "id": "grammar-irregular-nouns-plurals",
+      "count": 180
+    }
+  ],
+  "punctuation": [
+    {
+      "id": "punctuation-end-sentence",
+      "count": 72
+    },
+    {
+      "id": "punctuation-periods-abbreviations",
+      "count": 24
+    },
+    {
+      "id": "punctuation-quotation-marks",
+      "count": 36
+    },
+    {
+      "id": "punctuation-commas-series",
+      "count": 57
+    },
+    {
+      "id": "punctuation-commas-dates",
+      "count": 15
+    },
+    {
+      "id": "punctuation-commas-addresses",
+      "count": 15
+    },
+    {
+      "id": "punctuation-commas-dialogue",
+      "count": 15
+    },
+    {
+      "id": "punctuation-colon-time",
+      "count": 15
+    },
+    {
+      "id": "punctuation-apostrophes-contractions",
+      "count": 77
+    },
+    {
+      "id": "punctuation-apostrophes-possessives",
+      "count": 28
+    },
+    {
+      "id": "punctuation-advanced-punctuation",
+      "count": 180
+    },
+    {
+      "id": "punctuation-dialogue-mechanics",
+      "count": 196
+    },
+    {
+      "id": "punctuation-abbreviations-acronyms",
+      "count": 185
+    }
+  ],
+  "reading-comprehension": [
+    {
+      "id": "reading-comprehension-analogies",
+      "count": 52
+    },
+    {
+      "id": "reading-comprehension-categorizing",
+      "count": 31
+    },
+    {
+      "id": "reading-comprehension-cause-effect",
+      "count": 26
+    },
+    {
+      "id": "reading-comprehension-fact-fantasy",
+      "count": 19
+    },
+    {
+      "id": "reading-comprehension-fact-opinion",
+      "count": 45
+    },
+    {
+      "id": "reading-comprehension-inference",
+      "count": 72
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details",
+      "count": 199
+    },
+    {
+      "id": "reading-comprehension-summarizing",
+      "count": 278
+    },
+    {
+      "id": "reading-comprehension-text-evidence",
+      "count": 223
+    },
+    {
+      "id": "reading-comprehension-story-elements",
+      "count": 182
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral",
+      "count": 182
+    },
+    {
+      "id": "reading-comprehension-authors-purpose",
+      "count": 209
+    },
+    {
+      "id": "reading-comprehension-text-structure",
+      "count": 180
+    },
+    {
+      "id": "reading-comprehension-compare-contrast",
+      "count": 191
+    },
+    {
+      "id": "reading-comprehension-poetry-skills",
+      "count": 189
+    },
+    {
+      "id": "reading-comprehension-book-genres",
+      "count": 187
+    },
+    {
+      "id": "reading-comprehension-point-of-view-literature",
+      "count": 180
+    },
+    {
+      "id": "reading-comprehension-tone-mood",
+      "count": 182
+    },
+    {
+      "id": "reading-comprehension-test-taking-reading-skills",
+      "count": 189
+    }
+  ],
+  "reference-skills": [
+    {
+      "id": "reference-skills-sub-heading",
+      "count": 22
+    },
+    {
+      "id": "reference-skills-subject-object",
+      "count": 15
+    },
+    {
+      "id": "reference-skills-italicize",
+      "count": 24
+    },
+    {
+      "id": "reference-skills-alphabetical-order",
+      "count": 31
+    },
+    {
+      "id": "reference-skills-dictionary-guide-words",
+      "count": 55
+    },
+    {
+      "id": "reference-skills-research-skills",
+      "count": 183
+    },
+    {
+      "id": "reference-skills-media-literacy",
+      "count": 180
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features",
+      "count": 298
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-base-words",
+      "count": 62
+    },
+    {
+      "id": "vocabulary-vowel-sounds",
+      "count": 20
+    },
+    {
+      "id": "vocabulary-contractions",
+      "count": 15
+    },
+    {
+      "id": "vocabulary-homophones",
+      "count": 69
+    },
+    {
+      "id": "vocabulary-rhyming",
+      "count": 21
+    },
+    {
+      "id": "vocabulary-synonyms-antonyms",
+      "count": 99
+    },
+    {
+      "id": "vocabulary-comparatives-superlatives",
+      "count": 33
+    },
+    {
+      "id": "vocabulary-word-meaning-context",
+      "count": 143
+    },
+    {
+      "id": "vocabulary-spelling",
+      "count": 186
+    },
+    {
+      "id": "vocabulary-modifier-words",
+      "count": 15
+    },
+    {
+      "id": "vocabulary-figurative-language",
+      "count": 221
+    },
+    {
+      "id": "vocabulary-roots-word-origins",
+      "count": 180
+    },
+    {
+      "id": "vocabulary-multiple-meaning-words",
+      "count": 180
+    },
+    {
+      "id": "vocabulary-shades-of-meaning",
+      "count": 182
+    },
+    {
+      "id": "vocabulary-syllables-decoding",
+      "count": 199
+    },
+    {
+      "id": "vocabulary-spelling-patterns",
+      "count": 180
+    }
+  ]
+}

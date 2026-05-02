@@ -60,7 +60,9 @@
     "test": "npm run qa:questions && npm run qa:content && npm run test:unit && npm run test:ui && npm run test:a11y && npm run test:visual && npm run test:offline"
   },
   "devDependencies": {
+    "@google/generative-ai": "^0.24.1",
     "axe-core": "4.11.4",
+    "dotenv": "^17.4.2",
     "playwright": "1.59.1"
   }
 }

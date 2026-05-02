@@ -1,0 +1,3012 @@
+[
+  {
+    "questionId": "grammar-double-negatives-q0001",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:06:03.206Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0002",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:06:26.942Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0003",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:06:52.117Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0004",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:07:18.350Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0005",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:07:51.117Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0006",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:08:19.773Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0007",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:08:43.715Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0008",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:09:23.995Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0009",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:09:45.802Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0010",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:10:22.670Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0011",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:10:54.000Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0012",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:11:28.601Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0013",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:11:55.646Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0014",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:12:20.027Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0015",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:12:44.505Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0016",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:13:06.275Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0017",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:13:37.876Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0018",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:14:00.081Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0001",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:19:38.955Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0002",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:19:55.224Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0003",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:20:10.877Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0004",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:20:28.537Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0005",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:20:44.178Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0006",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:20:59.227Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0007",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:21:17.966Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0008",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:21:40.467Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0009",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:21:52.476Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0010",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:22:10.472Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0011",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:22:26.068Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0012",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:22:43.881Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0013",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:23:00.513Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0014",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:23:21.223Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0015",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:23:37.496Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0016",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:23:53.178Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0017",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:24:06.264Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0018",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:24:24.440Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0001",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:28:42.854Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0002",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:29:02.630Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0003",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:29:25.303Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0004",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:29:46.804Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0005",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:30:05.541Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0006",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:30:25.817Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0007",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:30:45.076Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0008",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:31:06.053Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0009",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:31:20.892Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0010",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:31:39.343Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0011",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:31:57.165Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0012",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:32:19.876Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0013",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:32:39.498Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0014",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:32:56.354Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0015",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:33:11.469Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0016",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:33:27.333Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0017",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:33:44.380Z"
+  },
+  {
+    "questionId": "grammar-double-negatives-q0018",
+    "sourceSet": "grammar-double-negatives",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:34:01.784Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0001",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:58:56.037Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0002",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:59:11.370Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0003",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:59:27.036Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0004",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:59:43.318Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0005",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T11:59:59.090Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0006",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:00:16.146Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0007",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:00:34.926Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0008",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:01:11.179Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0009",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:01:30.535Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0010",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:01:53.574Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0011",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:02:11.705Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0012",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:02:30.437Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0013",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:02:47.943Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0014",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:03:08.348Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0015",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:03:29.158Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0016",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:03:45.236Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0017",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:03:59.926Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0018",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:04:19.639Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0019",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:04:35.306Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0020",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:04:49.211Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0021",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:05:10.438Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0022",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:05:31.146Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0023",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:05:53.233Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0024",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:06:08.895Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0025",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:06:23.339Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0026",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:06:41.250Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0027",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:07:00.102Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0028",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:07:19.005Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0029",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:07:34.713Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0030",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:07:52.019Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0031",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:08:09.225Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0032",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:08:29.499Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0033",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:08:47.325Z"
+  },
+  {
+    "questionId": "grammar-correct-article-q0034",
+    "sourceSet": "grammar-correct-article",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T12:09:02.675Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0250",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:04:38.945Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0259",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:04:58.703Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0262",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:05:13.352Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0264",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:05:32.102Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0267",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:05:53.799Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0268",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:06:13.167Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0273",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:06:33.619Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0280",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:06:51.717Z"
+  },
+  {
+    "questionId": "grammar-pronouns-q0288",
+    "sourceSet": "grammar-pronouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:07:13.226Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0001",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:11:38.434Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0002",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:11:43.435Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0003",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:11:48.482Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0004",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:11:54.069Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0005",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:11:58.893Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0006",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:03.366Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0007",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:08.144Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0008",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:13.075Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0009",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:17.585Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0010",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:22.179Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0011",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:26.962Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0012",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:31.846Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0013",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:36.385Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0014",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:42.211Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0015",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:47.284Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0016",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:51.890Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0017",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:12:56.329Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0018",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:00.869Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0019",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:06.085Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0020",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:10.618Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0021",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:15.167Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0022",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:19.978Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0023",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:24.514Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0024",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:30.323Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0025",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:35.115Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0026",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:39.991Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0027",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:44.924Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0028",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:49.518Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0029",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:53.939Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0030",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:13:58.710Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0031",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:03.228Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0032",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:08.065Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0033",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:12.846Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0034",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:17.649Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0035",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:22.705Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0036",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:28.032Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0037",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:32.865Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0038",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:37.540Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0039",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:41.997Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0040",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:47.237Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0041",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:51.913Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0042",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:14:56.292Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0043",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:00.998Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0044",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:05.633Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0045",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:10.287Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0046",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:14.863Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0047",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:19.605Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0048",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:24.741Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0049",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:29.363Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0050",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:33.620Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0051",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:38.384Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0052",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:43.028Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0053",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:47.300Z"
+  },
+  {
+    "questionId": "grammar-singular-plural-nouns-q0054",
+    "sourceSet": "grammar-singular-plural-nouns",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:15:51.797Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0001",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:11.606Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0002",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:16.139Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0003",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:20.639Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0004",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:25.697Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0005",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:30.433Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0006",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:35.325Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0007",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:39.857Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0008",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:44.676Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0009",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:49.333Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0010",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:54.203Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0011",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:18:58.838Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0012",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:03.492Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0013",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:08.026Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0014",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:12.627Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0015",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:17.016Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0016",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:21.852Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0017",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:26.591Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0018",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:32.108Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0019",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:36.814Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0020",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:41.495Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0021",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:46.179Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0022",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:50.514Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0023",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:19:55.110Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0024",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:00.329Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0025",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:05.404Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0026",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:09.956Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0027",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:14.572Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0028",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:19.490Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0029",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:24.305Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0030",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:29.259Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0031",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:33.908Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0032",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:38.390Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0033",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:44.296Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0034",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:48.767Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0035",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:53.347Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0036",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:20:58.497Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0037",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:03.543Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0038",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:08.565Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0039",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:13.523Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0040",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:18.017Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0041",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:22.525Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0042",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:27.380Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0043",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:31.909Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0044",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:36.471Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0045",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:41.135Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0046",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:45.390Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0047",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:50.032Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0048",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:54.450Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0049",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:21:58.951Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0050",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:03.360Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0051",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:08.108Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0052",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:12.979Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0053",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:17.406Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0054",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:21.866Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0055",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:26.267Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0056",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:30.991Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0057",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:35.692Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0058",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:40.219Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0059",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:44.896Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0060",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:22:56.257Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0061",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:01.120Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0062",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:05.745Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0063",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:10.743Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0064",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:16.015Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0065",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:20.734Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0066",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:26.287Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0067",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:31.404Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0068",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:36.071Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0069",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:41.238Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0085",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:46.108Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0070",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:51.093Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0072",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:23:56.103Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0073",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:24:01.719Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0214",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:24:06.835Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0232",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:24:11.480Z"
+  },
+  {
+    "questionId": "grammar-verb-forms-q0136",
+    "sourceSet": "grammar-verb-forms",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:24:16.164Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0001",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:28:28.988Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0002",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:28:33.617Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0003",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:28:38.012Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0004",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:28:42.288Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0005",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:28:46.783Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0006",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:28:51.427Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0007",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:28:56.077Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0008",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:00.543Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0009",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:05.083Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0010",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:09.382Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0011",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:14.198Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0012",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:18.797Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0013",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:23.308Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0014",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:28.030Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0015",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:33.191Z"
+  },
+  {
+    "questionId": "grammar-run-on-sentences-q0019",
+    "sourceSet": "grammar-run-on-sentences",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:29:38.211Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0001",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:07.884Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0002",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:12.742Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0003",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:17.819Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0004",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:22.949Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0005",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:27.432Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0006",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:31.885Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0007",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:36.664Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0008",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:41.278Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0009",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:46.148Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0010",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:50.891Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0011",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:55.497Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0012",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:39:59.909Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0013",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:04.714Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0014",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:09.471Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0015",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:13.920Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0016",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:18.474Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0017",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:23.284Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0018",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:27.919Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0019",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:32.345Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0020",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:37.072Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0021",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:41.545Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0022",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:46.116Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0023",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:50.676Z"
+  },
+  {
+    "questionId": "grammar-sentence-types-q0024",
+    "sourceSet": "grammar-sentence-types",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:40:55.643Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0001",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:41:42.156Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0002",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:41:47.362Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0003",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:41:52.009Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0004",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:41:56.891Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0005",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:01.777Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0006",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:06.464Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0007",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:11.088Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0008",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:15.968Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0009",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:20.640Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0010",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:25.271Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0011",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:29.684Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0012",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:34.285Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0013",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:38.998Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0014",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:43.778Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0015",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:48.454Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0016",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:53.176Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0017",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:42:58.610Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0018",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:04.116Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0019",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:09.178Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0020",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:13.643Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0021",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:18.662Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0022",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:23.337Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0023",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:27.791Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0024",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:32.200Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0025",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:37.377Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0026",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:42.005Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0027",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:46.394Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0028",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:51.124Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0029",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:43:56.060Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0030",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:44:00.931Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0031",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:44:05.675Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0032",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:44:10.798Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0033",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:44:15.629Z"
+  },
+  {
+    "questionId": "grammar-subject-predicate-q0054",
+    "sourceSet": "grammar-subject-predicate",
+    "assistance": {
+      "purpose": "explanation+studyAid",
+      "modelFamily": "gemini-3.1-pro-preview",
+      "humanReviewed": false
+    },
+    "timestamp": "2026-05-02T13:44:20.149Z"
+  }
+]

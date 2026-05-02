@@ -82,7 +82,7 @@ That mode keeps the regular UI smoke assertions intact and prints the browser te
 - Increment `version` when changing learner-facing meaning, and regenerate `contentHash` whenever prompt, choices, answer, explanation, study aid, or authored visual scene content changes.
 - Run `npm run qa:schema` before generating artifacts when editing question source.
 - Skill and standards tagging is validated against `assets/question-skill-taxonomy.json`; explicit unknown `metadata.skillIds` or `metadata.standardIds` fail schema and content QA, while known legacy `metadata.skills` labels are mapped deterministically into generated runtime artifacts.
-- Use `npm run questions:normalize` after editing source questions to fill missing ids, normalize source metadata, and refresh content hashes in canonical JSON.
+- Use `npm run questions:normalize` after editing source questions to fill missing ids, normalize source metadata, and refresh content hashes in canonical JSON. If you are regenerating explanations with Gemini, confirm `studyAid.strategyClue` is present before running `questions:normalize` so the generated chunks pick up the full pedagogical set.
 - Authoring tools operate on `assets/question-bank-source/*.json` by default. Legacy JS bank coverage is fixture-only under `tests/fixtures/legacy-bank-conversion`.
 - Runtime question artifacts are generated from JSON in this order: `assets/question-bank-source/*.json` -> `assets/question-manifest.json` -> `assets/question-manifest.js` -> `assets/question-chunks/**/*.js`.
 - Do not manually edit generated manifest or chunk files. Run `npm run questions:write` after changing JSON source.

@@ -2360,6 +2360,12 @@
     const skills = question && question.metadata && Array.isArray(question.metadata.skills)
       ? question.metadata.skills.join(' ').toLowerCase()
       : '';
+
+    // ── Prefer the dedicated per-question strategy clue (process hint, no answer leak) ──
+    const dedicatedClue = getSafeStrategyClueText(question, question && question.studyAid && question.studyAid.strategyClue);
+    if (dedicatedClue) return dedicatedClue;
+
+    // ── Prompt-derived clues (context meaning, word parts, syllables) ──
     const studyExample = getSafeStrategyClueText(question, question && question.studyAid && question.studyAid.example);
     const fallback = getSafeStrategyClueText(question, scene && scene.clue);
 

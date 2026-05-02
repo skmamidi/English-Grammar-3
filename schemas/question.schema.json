@@ -59,6 +59,19 @@
         }
       }
     },
+    "studyAid": {
+      "type": "object",
+      "properties": {
+        "definition":    { "type": "string" },
+        "example":       { "type": "string" },
+        "strategyClue": {
+          "type": "string",
+          "description": "A process hint shown via the Strategy Clue button. Guides students HOW to think through the question without revealing the correct answer. Must not contain or strongly imply the correct choice text."
+        },
+        "link":          { "type": "string" },
+        "linkText":      { "type": "string" }
+      }
+    },
     "metadata": {
       "type": "object",
       "required": ["sourceSet", "sequence", "gradeLevels", "difficultyByGrade", "skills"],

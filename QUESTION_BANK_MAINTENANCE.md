@@ -51,6 +51,14 @@ npm run manifest:write
 
 This writes the question manifest and generated chunk files. Source banks remain the editorial source of truth; files under `assets/question-chunks/` should match the generated output exactly.
 
+If you are using the Gemini authoring pipeline, make sure the generated content includes all learner-facing feedback fields before you rebuild artifacts:
+
+- `explanation.correct`
+- `explanation.incorrect[]`
+- `studyAid.definition`
+- `studyAid.example`
+- `studyAid.strategyClue`
+
 Run the content consistency check before committing:
 
 ```sh

@@ -20,10 +20,12 @@ const pauseAfterArg = extraArgs.find(arg => arg.startsWith('--pause-after='));
 const pauseAfterSets = pauseAfterArg ? Number(pauseAfterArg.split('=')[1]) : 2;
 const startAfterArg = extraArgs.find(arg => arg.startsWith('--start-after='));
 const startAfterId = startAfterArg ? startAfterArg.split('=')[1] : '';
+const chainNext = extraArgs.includes('--chain-next');
 
 if (!domainName || (!targetSetId && !runAllSets)) {
   console.error('Usage: node scripts/ai-generate-explanations.js <domain> <setId>');
   console.error('   or: node scripts/ai-generate-explanations.js <domain> --all [--pause-after=2]');
+  console.error('   or: node scripts/ai-generate-explanations.js <domain> <setId> --chain-next');
   console.error('Example: node scripts/ai-generate-explanations.js grammar grammar-double-negatives');
   process.exit(1);
 }
@@ -32,6 +34,7 @@ if (!domainName || (!targetSetId && !runAllSets)) {
 const sourceFile     = path.join(__dirname, `../assets/question-bank-source/${domainName}.json`);
 const reviewRecordsFile = path.join(__dirname, '../content-review/ai-authoring-records.json');
 const checklistFile = path.join(__dirname, '../GEMINI_CONTENT_CHECKLIST.md');
+const runSummaryFile = path.join(__dirname, '../content-review/last-gemini-run.json');
 
 if (!fs.existsSync(sourceFile)) {
   console.error(`Error: Source file not found: ${sourceFile}`);
@@ -300,9 +303,17 @@ async function runProcessSet(setId, reviewRecords) {
 
   fs.writeFileSync(sourceFile, JSON.stringify(data, null, 2) + '\n');
   fs.writeFileSync(reviewRecordsFile, JSON.stringify(reviewRecords, null, 2) + '\n');
+  fs.writeFileSync(runSummaryFile, JSON.stringify({
+    setId,
+    updatedCount,
+    errorCount,
+    skippedCount,
+    completed: true,
+    finishedAt: new Date().toISOString(),
+  }, null, 2) + '\n');
 
   console.log(`\nDone. Updated: ${updatedCount}  Errors: ${errorCount}  Skipped: ${skippedCount}`);
-  if (updatedCount > 0 && errorCount === 0) {
+  if (updatedCount > 0) {
     markChecklistComplete(setId);
   }
   return { updatedCount, errorCount };
@@ -327,6 +338,20 @@ async function runProcessDomain() {
 
     if (runAllSets && processed === pauseAfterSets && processed < setIds.length) {
       await promptForEnter(`\nPaused after ${processed} sub-topic(s). Review the updated JSON, then press Enter to continue...`);
+    }
+  }
+
+  if (chainNext && !runAllSets && setIds.length === 1) {
+    const nextSetIds = Object.keys(data.sets);
+    const currentIndex = nextSetIds.indexOf(targetSetId);
+    for (const nextSetId of nextSetIds.slice(currentIndex + 1)) {
+      const checklistSource = fs.existsSync(checklistFile) ? fs.readFileSync(checklistFile, 'utf-8') : '';
+      if (checklistSource.includes(`- [x] \`${nextSetId}\``)) {
+        continue;
+      }
+      console.log(`\nChaining to next unfinished set: ${nextSetId}`);
+      await runProcessSet(nextSetId, reviewRecords);
+      break;
     }
   }
 

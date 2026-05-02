@@ -310,7 +310,15 @@ const QUALITY_RULES = [{
     ].filter(Boolean);
     const generic = explanationTexts.find(text =>
       /\bIt does not match the context clue\.?$/i.test(String(text || '')) ||
-      /\bIt does not share the target ending sound\.?$/i.test(String(text || ''))
+      /\bIt does not share the target ending sound\.?$/i.test(String(text || '')) ||
+      /\brule being tested\b/i.test(String(text || '')) ||
+      /\buses the punctuation the sentence needs\b/i.test(String(text || '')) ||
+      /\bThe best answer must match the exact clue in the question\b/i.test(String(text || '')) ||
+      /\bdoes not match the grammar clue\b/i.test(String(text || '')) ||
+      /\bdoes not fit the writing purpose as well\b/i.test(String(text || '')) ||
+      /\bnot supported as strongly\b/i.test(String(text || '')) ||
+      /\bdifferent grammar job\b/i.test(String(text || '')) ||
+      hasSelfContradictoryPunctuationNeed(text)
     );
     if (generic) {
       addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Explanation uses a generic rationale; name the sentence clue, sound, or rule that makes this specific choice right or wrong.', this.id, getQuestionId(question));
@@ -634,6 +642,11 @@ function buildFlexibleWordRegExp(value) {
     .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     .replace(/\s+/g, '\\s+');
   return new RegExp(`(^|(?<=\\W))${pattern}(?=$|\\W)`, 'i');
+}
+
+function hasSelfContradictoryPunctuationNeed(value) {
+  const text = String(value || '');
+  return /\buses "([^"]+)", but [^.]*\bneeds "\1"/i.test(text);
 }
 
 function escapeRegExp(value) {

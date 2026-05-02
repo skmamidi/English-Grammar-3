@@ -560,6 +560,20 @@ test('content QA rejects generic explanation rationales', () => {
           'Not: though. It does not share the target ending sound.'
         ]
       }
+    }),
+    makeQaQuestion(3, {
+      question: 'Which time is correct?',
+      choices: ['9:00', '9.00', '9,00', '9-00'],
+      correct: 0,
+      explanation: {
+        correct: 'Answer: 9:00. Use a colon between hours and minutes.',
+        incorrect: [
+          '',
+          'Not: 9.00. "9.00" uses ".", but the sentence needs "." to match the rule being tested.',
+          'Not: 9,00. Check the grammar clue in the question.',
+          'Not: 9-00. It does not match the grammar clue.'
+        ]
+      }
     })
   ];
 
@@ -567,6 +581,7 @@ test('content QA rejects generic explanation rationales', () => {
 
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0001' });
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0002' });
+  assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0003' });
 });
 
 test('content QA can emit deterministic explanation review candidates', () => {

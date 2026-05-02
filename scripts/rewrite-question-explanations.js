@@ -24,7 +24,7 @@ function normalizeWhitespace(value) {
 function ensurePeriod(value) {
   const text = normalizeWhitespace(value);
   if (!text) return '';
-  return /[.!?]$/.test(text) ? text : `${text}.`;
+  return /[.!?]["'”’)]?$/.test(text) ? text : `${text}.`;
 }
 
 function stripLeadIns(question) {
@@ -36,7 +36,8 @@ function stripLeadIns(question) {
 }
 
 function quote(value) {
-  return `"${displayText(value)}"`;
+  const text = displayText(value);
+  return text.includes('"') ? `'${text}'` : `"${text}"`;
 }
 
 function labelChoice(label, value) {
@@ -104,6 +105,109 @@ function getRule(question) {
 function getInferredRule(question) {
   const prompt = stripLeadIns(question.question || '');
   const skillText = getSkillText(question);
+  const sourceSet = getSourceSet(question);
+  if (/telephone message/i.test(prompt)) {
+    return 'A complete telephone message tells who called and what the listener should know or do next.';
+  }
+  if (/clear situation/i.test(prompt)) {
+    return 'A strong narrative opening introduces who is involved, where they are, and what is happening.';
+  }
+  if (/sensory description/i.test(prompt)) {
+    return 'Sensory details help readers experience a scene through smell, sound, sight, taste, or touch.';
+  }
+  if (/dialogue correctly|dialogue/i.test(prompt)) {
+    return 'Story dialogue puts spoken words in quotation marks and uses punctuation to connect the speaker tag.';
+  }
+  if (/first-person point of view/i.test(prompt)) {
+    return 'First-person point of view uses pronouns such as I, me, my, we, and our.';
+  }
+  if (/third-person limited/i.test(prompt)) {
+    return 'Third-person limited tells the story from outside one character while showing that character’s thoughts or feelings.';
+  }
+  if (/formal tone|formal language|uses a formal tone/i.test(prompt)) {
+    return 'Formal tone uses respectful, clear wording and avoids slang or overly casual language.';
+  }
+  if (/informal tone|informal language/i.test(prompt)) {
+    return 'Informal tone sounds relaxed and conversational, like speech with friends or family.';
+  }
+  if (/worried tone|gloomy mood|tone|mood/i.test(prompt)) {
+    return 'Tone and mood come from word choice and details that create a feeling for the reader.';
+  }
+  if (/more precise|precise revision|makes the sentence more precise/i.test(prompt)) {
+    return 'Precise revision replaces vague words with specific actions, nouns, or details.';
+  }
+  if (/combines ideas smoothly|combine/i.test(prompt)) {
+    return 'A smooth sentence combination connects related ideas without creating a run-on, fragment, or word jumble.';
+  }
+  if (/verb tense consistent|progressive tense|correct verb/i.test(prompt)) {
+    return 'Verb forms should match the sentence time clue and stay consistent unless the meaning changes.';
+  }
+  if (/topic sentence/i.test(prompt)) {
+    return 'A topic sentence states the main idea that the rest of the paragraph can support.';
+  }
+  if (/support(s|ing)? the (topic sentence|claim)|reason best supports|evidence would best support/i.test(prompt)) {
+    return 'Supporting details, reasons, and evidence must connect directly to the topic or claim.';
+  }
+  if (/closing sentence/i.test(prompt)) {
+    return 'A closing sentence wraps up the paragraph by returning to the main idea.';
+  }
+  if (/does NOT belong|does not belong/i.test(prompt)) {
+    return 'Every sentence in a paragraph should stay connected to the same topic.';
+  }
+  if (/informative introduction/i.test(prompt)) {
+    return 'An informative introduction names the topic and begins with factual, relevant information.';
+  }
+  if (/factual enough|informative report/i.test(prompt)) {
+    return 'Informative reports use facts that can be checked, not opinions or persuasive claims.';
+  }
+  if (/organize an explanatory paragraph|transition/i.test(prompt)) {
+    return 'Transitions and sequence words help organize ideas so readers can follow the explanation.';
+  }
+  if (/claim/i.test(prompt)) {
+    return 'A claim states a position that can be supported with reasons or evidence.';
+  }
+  if (/source is best|finding synonyms|finding the meaning/i.test(prompt)) {
+    return 'Choose the reference source that matches the information you need.';
+  }
+  if (/parentheses correctly/i.test(prompt)) {
+    return 'Parentheses come in a matching pair around extra information that can be removed without breaking the sentence.';
+  }
+  if (/comma after an introductory phrase/i.test(prompt)) {
+    return 'Use a comma after an introductory phrase or clause before the main part of the sentence begins.';
+  }
+  if (/hyphen correctly/i.test(prompt)) {
+    return 'A hyphen can join words that work together as one describing word before a noun.';
+  }
+  if (/dash correctly/i.test(prompt)) {
+    return 'A dash can show a sudden break or added thought, but it should not split words that belong together.';
+  }
+  if (/new speaker/i.test(prompt)) {
+    return 'When a new speaker talks, start a new quoted sentence and keep each speaker’s words inside quotation marks.';
+  }
+  if (/colon-time/.test(sourceSet) || /\b\d{1,2}[:.,;-]\d{2}\b/.test(prompt)) {
+    return 'Use a colon to separate hours and minutes in standard time.';
+  }
+  if (/punctuation-end-sentence/.test(sourceSet)) {
+    return 'End punctuation must match the sentence purpose: period for statements and mild commands, question mark for direct questions, and exclamation point for strong feeling or urgency.';
+  }
+  if (/commas-dates/.test(sourceSet)) {
+    return 'Use commas to separate the day from the year, and use another comma after the year when the sentence continues.';
+  }
+  if (/commas-addresses/.test(sourceSet)) {
+    return 'Use commas between the street, city, and state in a one-line address; do not put a comma between the state and ZIP code.';
+  }
+  if (/commas-series/.test(sourceSet)) {
+    return 'Use commas to separate three or more items in a series.';
+  }
+  if (/periods-abbreviations|abbreviations-acronyms/.test(sourceSet)) {
+    return 'Standard abbreviations use periods in specific places; acronyms usually do not use periods.';
+  }
+  if (/quotation|dialogue/.test(sourceSet) && (
+    /\b(quote|quotation|dialogue|speaker|spoken|said|asked|punctuated)\b/i.test(prompt) ||
+    (question.choices || []).some(choice => /["“”‘’]/.test(String(choice || '')))
+  )) {
+    return 'Dialogue punctuation keeps the spoken words inside quotation marks and places commas or end marks with the quoted words.';
+  }
   if (/contraction/.test(skillText)) {
     return 'A contraction combines words and uses an apostrophe to show where letters were left out.';
   }
@@ -121,6 +225,84 @@ function getInferredRule(question) {
   }
   if (/plural|singular/.test(skillText)) {
     return 'A plural noun names more than one; regular plurals often add s or es, while irregular plurals use special forms.';
+  }
+  if (/subject-predicate/.test(sourceSet)) {
+    return 'The simple subject names who or what the sentence is about; the predicate tells what the subject does or is.';
+  }
+  if (/sentence-correction/.test(sourceSet)) {
+    return 'A correct sentence keeps the intended meaning while fixing grammar, capitalization, punctuation, spelling, and usage errors.';
+  }
+  if (/identify-sentence/.test(sourceSet)) {
+    return 'A complete sentence has a subject, a predicate, and a complete thought.';
+  }
+  if (/sentence-combinations/.test(sourceSet)) {
+    return 'A strong sentence combination joins related ideas smoothly without creating a run-on or fragment.';
+  }
+  if (/friendly-letter/.test(sourceSet)) {
+    return 'Friendly letters use standard parts such as the heading, greeting, body, closing, and signature.';
+  }
+  if (/paragraph-structure/.test(sourceSet)) {
+    return 'Paragraph sentences should match their job: topic sentences state the main idea, details support it, and closings wrap it up.';
+  }
+  if (/revising-editing-strategy/.test(sourceSet)) {
+    return 'Revision choices should make writing clearer, more precise, better organized, or more consistent.';
+  }
+  if (/pronoun-agreement-case/.test(sourceSet)) {
+    return 'A pronoun must agree with the noun it replaces and fit its job as subject, object, or possessive.';
+  }
+  if (/prepositions-prepositional-phrases/.test(sourceSet)) {
+    return 'A preposition shows a relationship such as place, time, direction, or connection to another word.';
+  }
+  if (/clauses-complex-sentences/.test(sourceSet)) {
+    return 'Clauses have a subject and verb; dependent clauses cannot stand alone, while independent clauses can.';
+  }
+  if (/narrative-writing/.test(sourceSet)) {
+    return 'Narrative writing develops characters, setting, events, dialogue, and sensory details to tell a story.';
+  }
+  if (/opinion-persuasive-writing/.test(sourceSet)) {
+    return 'Opinion writing states a clear position and supports it with reasons.';
+  }
+  if (/informative-explanatory-writing/.test(sourceSet)) {
+    return 'Informative writing introduces a topic and explains it with accurate, relevant details.';
+  }
+  if (/parts-of-speech-adjectives/.test(sourceSet)) {
+    return 'Adjectives describe or limit nouns by telling which one, what kind, or how many.';
+  }
+  if (/parts-of-speech-nouns/.test(sourceSet)) {
+    return 'Nouns name people, places, things, or ideas.';
+  }
+  if (/spelling/.test(sourceSet)) {
+    return 'The correct spelling uses the accepted letter pattern for the word.';
+  }
+  if (/homophones/.test(sourceSet)) {
+    return 'Homophones may sound alike, but the sentence meaning decides which spelling is correct.';
+  }
+  if (/comparatives-superlatives/.test(sourceSet)) {
+    return 'Comparatives compare two things; superlatives compare three or more.';
+  }
+  if (/synonyms-antonyms/.test(sourceSet)) {
+    return 'Synonyms have similar meanings, and antonyms have opposite meanings.';
+  }
+  if (/base-words/.test(sourceSet)) {
+    return 'Prefixes, suffixes, and base words are meaningful parts that help build and explain a word.';
+  }
+  if (/figurative-language/.test(sourceSet)) {
+    return 'Figurative language uses comparisons or nonliteral wording to create meaning.';
+  }
+  if (/rhyming/.test(sourceSet)) {
+    return 'Rhyming words share the same ending sound.';
+  }
+  if (/reference-skills-sub-heading/.test(sourceSet)) {
+    return 'A subheading introduces a smaller section inside a larger text.';
+  }
+  if (/reference-skills-italicize/.test(sourceSet)) {
+    return 'Use italics for titles of longer works such as books, movies, magazines, and newspapers.';
+  }
+  if (/reference-skills-research-skills/.test(sourceSet)) {
+    return 'Choose the reference source that best matches the kind of information you need.';
+  }
+  if (/authors-purpose/.test(sourceSet)) {
+    return 'An author’s purpose is the main reason for writing, such as to inform, persuade, entertain, or explain.';
   }
   return '';
 }
@@ -145,8 +327,43 @@ function promptFocus(question) {
 
 function asksForBadChoice(question) {
   const prompt = stripLeadIns(question.question || '');
-  return /\b(which|what|choose|identify)\b[\s\S]{0,100}\b(NOT|not|incorrectly|incorrect|error|mistake|does not belong|does NOT belong|least)\b/.test(prompt) &&
+  return /\b(which|what|choose|identify)\b[\s\S]{0,100}\b(not|incorrectly|incorrect|error|mistake|does not belong|least)\b/i.test(prompt) &&
     !/\bfact,\s+not an opinion\b/i.test(prompt);
+}
+
+function getSourceSet(question) {
+  return String(question && question.metadata && question.metadata.sourceSet || '').toLowerCase();
+}
+
+function getChoiceLetters(question, predicate) {
+  return (question.choices || [])
+    .map((choice, index) => predicate(choice, index) ? LETTERS[index] : '')
+    .filter(Boolean);
+}
+
+function hasTimeWithSeparator(value, separator) {
+  const escaped = escapeRegExp(separator);
+  return new RegExp(`\\b\\d{1,2}${escaped}\\d{2}\\b`).test(String(value || ''));
+}
+
+function hasColonTime(value) {
+  return hasTimeWithSeparator(value, ':');
+}
+
+function hasSentenceEnd(value, mark) {
+  return new RegExp(`${escapeRegExp(mark)}[\"'”’)]?$`).test(normalizeWhitespace(value));
+}
+
+function hasCommaBetweenMonthDay(value) {
+  return /\b(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan\.|Feb\.|Mar\.|Apr\.|Jun\.|Jul\.|Aug\.|Sept\.|Sep\.|Oct\.|Nov\.|Dec\.),\s+\d{1,2}\b/i.test(String(value || ''));
+}
+
+function hasDayYearComma(value) {
+  return /\b\d{1,2},\s+\d{4}\b/.test(String(value || ''));
+}
+
+function countCommas(value) {
+  return (String(value || '').match(/,/g) || []).length;
 }
 
 function articleReason(choice, correctChoice, question, isCorrect) {
@@ -158,20 +375,25 @@ function articleReason(choice, correctChoice, question, isCorrect) {
   }
   if (/^a$/i.test(choice)) return `${quote(choice)} is used before consonant sounds, so it does not fit before ${quote(nextWord)} here.`;
   if (/^an$/i.test(choice)) return `${quote(choice)} is used before vowel sounds, so it does not fit the sound needed here.`;
-  if (/^the$/i.test(choice)) return `${quote(choice)} points to a specific noun, but this sentence needs the indefinite article ${quote(correctChoice)}.`;
+  if (/^the$/i.test(choice)) return `${quote(choice)} points to a specific noun, but this sentence needs the indefinite article ${quote(correctChoice)}`;
   return `${quote(choice)} leaves out the article that the sentence needs before ${quote(nextWord)}.`;
 }
 
 function possessiveReason(choice, correctChoice, question, isCorrect) {
   const prompt = question.question || '';
+  const bad = asksForBadChoice(question);
   const owner = (prompt.match(/belongs to\s+([A-Z][A-Za-z'-]*)/i) || [])[1] ||
     (correctChoice.match(/\b(?:The|A|An)\s+([A-Za-z]+)[’']s\s+/i) || [])[1] ||
     (correctChoice.match(/^([A-Z][A-Za-z'-]+)[’']s\b/) || [])[1] ||
     'the owner';
   const owned = (correctChoice.match(/[’']s\s+([A-Za-z]+)\b/) || [])[1] || 'the thing owned';
   if (isCorrect) {
+    if (bad) return `${quote(correctChoice)} is the possessive form the prompt asks you to identify as incorrect or mismatched. Check where the apostrophe is placed and whether the owner is singular or plural.`;
+    if (/\bits\b/i.test(correctChoice) && !/[’']/.test(correctChoice)) return `${quote(correctChoice)} is correct because possessive its has no apostrophe; ${quote("it's")} means ${quote('it is')} or ${quote('it has')}.`;
+    if (/[A-Za-z]s[’']\b/.test(correctChoice)) return `${quote(correctChoice)} correctly puts the apostrophe after the plural owner that already ends in s.`;
     return `The prompt names one owner, ${owner}, so the singular possessive form adds apostrophe + s to the owner: ${quote(correctChoice)} shows that ${owned} belongs to ${owner}.`;
   }
+  if (bad) return `${quote(choice)} is a correctly formed possessive or acceptable noun phrase, so it is not the incorrect choice the prompt asks for.`;
   if (/[’']s\s+\w+(?:ed|ing)\b/i.test(choice) || /[’']s\s+(?:a|an|the|not|parked|going)\b/i.test(choice)) {
     return `${quote(choice)} uses apostrophe + s like a contraction for "is" or "has," not as a possessive noun showing ownership.`;
   }
@@ -195,32 +417,179 @@ function possessiveReason(choice, correctChoice, question, isCorrect) {
 
 function contractionReason(choice, correctChoice, question, isCorrect) {
   const rule = getRule(question);
-  if (isCorrect) return `${quote(correctChoice)} is the correct contraction because the apostrophe marks the letters left out when the two words are combined.`;
+  const bad = asksForBadChoice(question);
+  if (isCorrect) {
+    return bad
+      ? `${quote(correctChoice)} is the contraction error the prompt asks for; it is missing the apostrophe or puts it in the wrong place.`
+      : `${quote(correctChoice)} is the correct contraction because the apostrophe marks the letters left out when the two words are combined.`;
+  }
+  if (bad) return `${quote(choice)} is correctly written as a contraction, so it is not the incorrect choice.`;
   if (!/[’']/.test(choice)) return `${quote(choice)} is missing the apostrophe that contractions need to show omitted letters.`;
   if ((choice.match(/[’']/g) || []).length > 1) return `${quote(choice)} uses too many apostrophes; a contraction needs one apostrophe in the correct spot.`;
   return `${quote(choice)} puts the apostrophe in the wrong place for this contraction. ${rule}`;
 }
 
 function punctuationReason(choice, correctChoice, question, isCorrect) {
-  const prompt = stripLeadIns(question.question || '');
-  const expected = (correctChoice.match(/[.!?]$/) || correctChoice.match(/[:,;]/) || ['punctuation'])[0];
+  const sourceSet = getSourceSet(question);
+  if (/colon-time/.test(sourceSet) || /\b\d{1,2}[:.,;-]\d{2}\b/.test(`${choice} ${correctChoice} ${question.question || ''}`)) {
+    return timePunctuationReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/periods-abbreviations|abbreviations-acronyms/.test(sourceSet) || /abbreviation|acronym|\ba\.m\.|\bp\.m\./i.test(question.question || '')) {
+    return abbreviationPunctuationReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/commas-dates/.test(sourceSet)) {
+    return dateCommaReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/commas-addresses/.test(sourceSet) || /\b(address|street|zip|po box)\b/i.test(question.question || '')) {
+    return addressCommaReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/commas-series/.test(sourceSet) || /\b(series|list)\b/i.test(question.question || '')) {
+    return seriesCommaReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/quotation|dialogue/.test(sourceSet) || /\b(quotation|quote|dialogue|speaker tag|spoken words)\b/i.test(question.question || '')) {
+    return dialoguePunctuationReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/advanced-punctuation/.test(sourceSet) || /\b(semicolon|colon|dash|parentheses)\b/i.test(question.question || '')) {
+    return advancedPunctuationReason(choice, correctChoice, question, isCorrect);
+  }
+  return endPunctuationReason(choice, correctChoice, question, isCorrect);
+}
+
+function timePunctuationReason(choice, correctChoice, question, isCorrect) {
+  const bad = asksForBadChoice(question);
+  const hasColon = hasColonTime(choice);
   if (isCorrect) {
-    return `${quote(correctChoice)} uses the punctuation the sentence needs. The mark ${quote(expected)} matches the purpose or structure asked for in the question.`;
+    return bad
+      ? `${quote(correctChoice)} is the incorrect time format the prompt asks for because standard time uses a colon between hours and minutes.`
+      : `${quote(correctChoice)} is correct because time is written with a colon between the hour and minutes.`;
   }
-  const mark = (choice.match(/[.!?]$/) || choice.match(/[:,;]/) || ['no correct punctuation'])[0];
-  if (/question/i.test(prompt) || correctChoice.endsWith('?')) {
-    return `${quote(choice)} uses ${quote(mark)}, but the sentence is a direct question and needs a question mark.`;
+  if (bad) return `${quote(choice)} uses a colon between the hour and minutes, so it is a correct time format rather than the error.`;
+  if (hasTimeWithSeparator(choice, '.')) return `${quote(choice)} uses a period between the hour and minutes; standard time uses a colon, as in ${quote(correctChoice)}`;
+  if (hasTimeWithSeparator(choice, ',')) return `${quote(choice)} uses a comma between the hour and minutes; standard time uses a colon, as in ${quote(correctChoice)}`;
+  if (hasTimeWithSeparator(choice, '-') || hasTimeWithSeparator(choice, '–')) return `${quote(choice)} uses a hyphen between the hour and minutes; standard time uses a colon, as in ${quote(correctChoice)}`;
+  if (!hasColon) return `${quote(choice)} does not use the colon needed to separate hours and minutes in time.`;
+  return `${quote(choice)} is a correctly written time, so it does not answer this prompt.`;
+}
+
+function abbreviationPunctuationReason(choice, correctChoice, question, isCorrect) {
+  const bad = asksForBadChoice(question);
+  const hasPeriod = /[.]/.test(choice);
+  const hasInternalPeriod = /^[A-Za-z]\.[A-Za-z]/.test(choice) || /\.[A-Za-z]\./.test(choice);
+  const acronym = /^[A-Z]{2,}$/.test(normalizeWhitespace(choice));
+  if (isCorrect) {
+    if (bad) return `${quote(correctChoice)} is the abbreviation error the prompt asks for. Its periods do not match the standard abbreviation form.`;
+    if (acronym) return `${quote(correctChoice)} is correct because acronyms such as NASA are written without periods.`;
+    return `${quote(correctChoice)} is the standard abbreviation form, with the period placed at the end.`;
   }
-  if (/comma|series|date|address|dialogue/i.test(prompt)) {
-    return `${quote(choice)} puts commas in the wrong place or leaves out a comma needed by the pattern in the question.`;
+  if (bad) return `${quote(choice)} is a standard abbreviation or acronym form, so it is not the incorrect choice.`;
+  if (!hasPeriod) return `${quote(choice)} is missing the period that this abbreviation needs.`;
+  if (hasInternalPeriod) return `${quote(choice)} breaks the abbreviation with periods inside the letters instead of using the standard form ${quote(correctChoice)}`;
+  if (acronym && hasPeriod) return `${quote(choice)} adds periods to an acronym that is normally written without them.`;
+  return `${quote(choice)} does not use the standard period placement for this abbreviation.`;
+}
+
+function dateCommaReason(choice, correctChoice, question, isCorrect) {
+  const bad = asksForBadChoice(question);
+  if (isCorrect) {
+    return bad
+      ? `${quote(correctChoice)} is the date with the comma error the prompt asks for.`
+      : `${quote(correctChoice)} places commas where the date format needs them.`;
   }
-  if (/semicolon/i.test(prompt)) {
-    return `${quote(choice)} does not use a semicolon to join two complete, closely related thoughts.`;
+  if (bad) return `${quote(choice)} uses an acceptable date format, so it is not the incorrect choice.`;
+  if (hasCommaBetweenMonthDay(choice)) return `${quote(choice)} puts a comma between the month and day; the comma belongs between the day and year.`;
+  if (!hasDayYearComma(choice) && /\b\d{1,2}\s+\d{4}\b/.test(choice)) return `${quote(choice)} leaves out the comma between the day and the year.`;
+  if (countCommas(choice) < countCommas(correctChoice)) return `${quote(choice)} is missing a comma needed in the full date.`;
+  if (countCommas(choice) > countCommas(correctChoice)) return `${quote(choice)} adds an extra comma that the date format does not need.`;
+  return `${quote(choice)} does not place the date commas in the same required positions as ${quote(correctChoice)}`;
+}
+
+function addressCommaReason(choice, correctChoice, question, isCorrect) {
+  const bad = asksForBadChoice(question);
+  if (isCorrect) {
+    return bad
+      ? `${quote(correctChoice)} is the address with the comma error the prompt asks for.`
+      : `${quote(correctChoice)} separates the street, city, and state correctly.`;
   }
-  if (/quotation|dialogue/i.test(prompt)) {
-    return `${quote(choice)} does not keep the spoken words and dialogue punctuation in the correct places.`;
+  if (bad) return `${quote(choice)} uses acceptable address comma placement, so it is not the incorrect choice.`;
+  if (/^\d+,/.test(normalizeWhitespace(choice))) return `${quote(choice)} puts a comma between the street number and street name, which addresses do not do.`;
+  if (countCommas(choice) < countCommas(correctChoice)) return `${quote(choice)} leaves out a comma between address parts.`;
+  if (countCommas(choice) > countCommas(correctChoice)) return `${quote(choice)} adds a comma where the address should stay together.`;
+  return `${quote(choice)} separates the address parts in the wrong places.`;
+}
+
+function seriesCommaReason(choice, correctChoice, question, isCorrect) {
+  const bad = asksForBadChoice(question);
+  if (isCorrect) {
+    return bad
+      ? `${quote(correctChoice)} is the list with the comma error the prompt asks for.`
+      : `${quote(correctChoice)} uses commas to separate the items in the series.`;
   }
-  return `${quote(choice)} uses ${quote(mark)}, but the sentence needs ${quote(expected)} to match the rule being tested.`;
+  if (bad) return `${quote(choice)} separates the list items correctly, so it is not the incorrect choice.`;
+  if (countCommas(choice) < countCommas(correctChoice)) return `${quote(choice)} leaves out a comma needed to separate items in the series.`;
+  if (countCommas(choice) > countCommas(correctChoice)) return `${quote(choice)} adds a comma where the sentence does not need one.`;
+  return `${quote(choice)} does not place the series commas around the list items correctly.`;
+}
+
+function dialoguePunctuationReason(choice, correctChoice, question, isCorrect) {
+  const bad = asksForBadChoice(question);
+  if (isCorrect) {
+    return bad
+      ? `${quote(correctChoice)} is the dialogue punctuation error the prompt asks for.`
+      : `${quote(correctChoice)} keeps the spoken words inside quotation marks and places the comma or end mark where dialogue needs it.`;
+  }
+  if (bad) return `${quote(choice)} uses acceptable quotation or dialogue punctuation, so it is not the incorrect choice.`;
+  if (!/["'“”‘’]/.test(choice)) return `${quote(choice)} is missing quotation marks around the spoken words or title.`;
+  if (/said\s+[A-Z]/.test(choice) && !/,["'”’]?\s+said/i.test(choice)) return `${quote(choice)} does not use the comma needed before the speaker tag.`;
+  if (/["'“”‘’][^"'“”‘’]*$/.test(choice) && !/[.!?,]["'”’]/.test(choice)) return `${quote(choice)} leaves the quoted words or their punctuation unfinished.`;
+  return `${quote(choice)} puts the quotation marks, capitalization, or dialogue punctuation in the wrong place.`;
+}
+
+function advancedPunctuationReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  const bad = asksForBadChoice(question);
+  if (isCorrect) {
+    if (bad) return `${quote(correctChoice)} is the punctuation error the prompt asks for.`;
+    if (/parentheses/i.test(prompt)) return `${quote(correctChoice)} puts a matching pair of parentheses around extra information while the main sentence still reads correctly.`;
+    if (/introductory phrase/i.test(prompt)) return `${quote(correctChoice)} places the comma after the introductory words and before the main sentence.`;
+    if (/hyphen/i.test(prompt)) return `${quote(correctChoice)} uses a hyphen to join words that work together to describe the noun.`;
+    if (/dash/i.test(prompt)) return `${quote(correctChoice)} uses the dash to show a pause or added thought without splitting a word group.`;
+    if (/new speaker/i.test(prompt)) return `${quote(correctChoice)} starts the new speaker's words as a separate quoted sentence.`;
+    if (/semicolon/i.test(prompt)) return `${quote(correctChoice)} correctly uses a semicolon to join two complete, closely related thoughts.`;
+    if (/colon/i.test(prompt)) return `${quote(correctChoice)} correctly uses a colon to introduce what follows, such as a list or explanation.`;
+    return `${quote(correctChoice)} uses the punctuation mark for the structure described in the prompt.`;
+  }
+  if (bad) return `${quote(choice)} uses acceptable punctuation for this structure, so it is not the incorrect choice.`;
+  if (/parentheses/i.test(prompt)) {
+    if ((choice.match(/\(/g) || []).length !== (choice.match(/\)/g) || []).length) return `${quote(choice)} has only one parenthesis mark; parentheses need a matching opening and closing mark.`;
+    return `${quote(choice)} places the parenthesis so the extra information is not fully enclosed or the main sentence is broken.`;
+  }
+  if (/introductory phrase/i.test(prompt)) return `${quote(choice)} puts the comma before the introductory idea is complete, or leaves out the comma before the main sentence.`;
+  if (/hyphen/i.test(prompt)) return `${quote(choice)} joins the wrong words with a hyphen or leaves the compound describing word unjoined.`;
+  if (/dash/i.test(prompt)) return `${quote(choice)} puts the dash where it splits the sentence awkwardly instead of marking a clear pause or added thought.`;
+  if (/new speaker/i.test(prompt)) return `${quote(choice)} mixes the speakers' words or quotation marks instead of starting the new speaker clearly.`;
+  if (/semicolon/i.test(prompt)) return `${quote(choice)} does not place the semicolon between two complete, closely related thoughts.`;
+  if (/colon/i.test(prompt)) return `${quote(choice)} does not put the colon after a complete setup before the list or explanation.`;
+  return `${quote(choice)} uses the punctuation mark in a place that does not fit the sentence structure.`;
+}
+
+function endPunctuationReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  const bad = asksForBadChoice(question);
+  const expected = (correctChoice.match(/[.!?]["'”’)]?$/) || ['end punctuation'])[0].replace(/["'”’)]/g, '');
+  if (isCorrect) {
+    if (bad) return `${quote(correctChoice)} is the sentence with the end-punctuation error the prompt asks for.`;
+    if (expected === '?') return `${quote(correctChoice)} is a direct question, so it needs a question mark.`;
+    if (expected === '!') return `${quote(correctChoice)} shows strong feeling or urgency, so it needs an exclamation point.`;
+    if (expected === '.') return `${quote(correctChoice)} is a statement, command, or indirect question, so it ends with a period.`;
+    return `${quote(correctChoice)} uses the end punctuation that matches the sentence purpose.`;
+  }
+  if (bad) return `${quote(choice)} has acceptable end punctuation, so it is not the error the prompt asks for.`;
+  if (expected === '?' && !hasSentenceEnd(choice, '?')) return `${quote(choice)} is a direct question but does not end with a question mark.`;
+  if (expected === '!' && !hasSentenceEnd(choice, '!')) return `${quote(choice)} does not use the exclamation point needed for strong feeling or urgency.`;
+  if (expected === '.' && !hasSentenceEnd(choice, '.')) return `${quote(choice)} does not use the period needed for a statement, command, or indirect question.`;
+  if (expected === '!' && hasSentenceEnd(choice, '!')) return `${quote(choice)} has an exclamation point, but the sentence is not the urgent or strongly emotional choice asked for.`;
+  if (expected === '?' && hasSentenceEnd(choice, '?')) return `${quote(choice)} has a question mark, but it is not the direct-question choice asked for.`;
+  return `${quote(choice)} does not match the sentence purpose described in the prompt.`;
 }
 
 function capitalizationDiffReason(choice, correctChoice, isCorrect) {
@@ -245,16 +614,96 @@ function capitalizationDiffReason(choice, correctChoice, isCorrect) {
 
 function wordsWithCase(value) {
   return normalizeWhitespace(value)
-    .match(/[A-Za-z][A-Za-z.'-]*/g)?.map(word => ({ word, lower: word.toLowerCase() })) || [];
+    .match(/[A-Za-z][A-Za-z.'-]*/g)?.map(raw => {
+      const word = raw.replace(/[.?!,:;]+$/g, '');
+      return { word, lower: word.toLowerCase() };
+    }) || [];
 }
 
 function spellingReason(choice, correctChoice, isCorrect) {
   if (isCorrect) return `${quote(correctChoice)} is the standard spelling; every needed letter is in the right order.`;
-  return `${quote(choice)} changes, adds, or leaves out letters from the standard spelling ${quote(correctChoice)}.`;
+  return `${quote(choice)} changes, adds, or leaves out letters from the standard spelling ${quote(correctChoice)}`;
 }
 
 function readingReason(choice, correctChoice, question, isCorrect) {
+  const sourceSet = getSourceSet(question);
   const bad = asksForBadChoice(question);
+  if (/analogies/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} completes the same relationship shown in the first pair of the analogy.`;
+    return `${quote(choice)} does not keep the same relationship as the first pair in the analogy.`;
+  }
+  if (/categorizing/.test(sourceSet)) {
+    if (isCorrect) return bad ? `${quote(correctChoice)} is the item that does not belong with the others.` : `${quote(correctChoice)} belongs in the category named or implied by the prompt.`;
+    return bad ? `${quote(choice)} fits the same category as the other items, so it is not the odd one out.` : `${quote(choice)} does not fit the category as well as the correct answer.`;
+  }
+  if (/cause-effect/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} matches the cause-or-effect relationship asked for in the prompt.`;
+    return `${quote(choice)} names the wrong side of the cause-and-effect relationship or adds an event the sentence does not show.`;
+  }
+  if (/fact-fantasy/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} matches whether the prompt asks for something real and provable or something imaginary.`;
+    return `${quote(choice)} belongs to the other group: fact if the prompt asks for fantasy, or fantasy if the prompt asks for fact.`;
+  }
+  if (/fact-opinion/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} can be checked or proved, so it works as a fact rather than a personal judgment.`;
+    return `${quote(choice)} includes a judgment, preference, or opinion that cannot be proved true for everyone.`;
+  }
+  if (/inference/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} is the inference best supported by the clues in the text.`;
+    return `${quote(choice)} is not the best inference because the text clues do not point to that idea.`;
+  }
+  if (/main-idea-supporting-details/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} states the central idea that the details support.`;
+    return `${quote(choice)} is too narrow, unrelated, or only a detail instead of the main idea.`;
+  }
+  if (/summarizing/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} gives the topic and the most important ideas without extra minor details.`;
+    return `${quote(choice)} is too narrow, adds an opinion, or leaves out the main point of the passage.`;
+  }
+  if (/text-evidence/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} directly supports the idea named in the question.`;
+    return `${quote(choice)} does not give the clearest proof for the idea the question asks about.`;
+  }
+  if (/story-elements/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} matches the character, setting, problem, or event clues in the story.`;
+    return `${quote(choice)} does not match the story clues about the character, setting, problem, or events.`;
+  }
+  if (/theme-lesson-moral/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} states a lesson that fits the whole story, not just one small detail.`;
+    return `${quote(choice)} is too narrow, unsupported, or not the lesson the story teaches.`;
+  }
+  if (/authors-purpose/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} matches what the author is mainly trying to do for the reader.`;
+    return `${quote(choice)} gives a different purpose from the one shown by the passage.`;
+  }
+  if (/text-structure/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} matches how the information is organized in the passage.`;
+    return `${quote(choice)} names a different text structure than the one used in the passage.`;
+  }
+  if (/compare-contrast/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} matches whether the prompt is showing how things are alike or different.`;
+    return `${quote(choice)} confuses a similarity with a difference, or names a relationship the prompt does not show.`;
+  }
+  if (/poetry-skills/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} names the poetry feature described in the prompt.`;
+    return `${quote(choice)} names something other than the poetry feature being asked about.`;
+  }
+  if (/book-genres/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} fits the genre clues in the prompt.`;
+    return `${quote(choice)} is a different genre and does not match the clues given.`;
+  }
+  if (/point-of-view-literature/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} uses the point of view named in the prompt.`;
+    return `${quote(choice)} uses a different point of view from the one the question asks for.`;
+  }
+  if (/tone-mood/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} matches the feeling or attitude created by the word choice.`;
+    return `${quote(choice)} creates a different tone or mood from the one asked for.`;
+  }
+  if (/test-taking-reading-skills/.test(sourceSet)) {
+    if (isCorrect) return `${quote(correctChoice)} is a strong reading-test strategy because it uses the text as evidence.`;
+    return `${quote(choice)} is a weak test strategy because it ignores evidence or relies on a shortcut.`;
+  }
   if (isCorrect) {
     return bad
       ? `${quote(correctChoice)} is the choice the prompt asks for because it is the one that does not fit the category, evidence, or reading task.`
@@ -262,7 +711,192 @@ function readingReason(choice, correctChoice, question, isCorrect) {
   }
   return bad
     ? `${quote(choice)} actually fits the category, evidence, or reading task, so it is not the choice the prompt asks you to find.`
-    : `${quote(choice)} is not supported as strongly by the passage or prompt; it either focuses on the wrong detail or adds an idea the text does not prove.`;
+    : `${quote(choice)} does not follow the evidence in the passage or prompt; it focuses on the wrong detail or adds an idea the text does not prove.`;
+}
+
+function sentenceStructureReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  const choiceText = normalizeWhitespace(choice);
+  const asksCommand = /\b(command|imperative)\b/i.test(prompt);
+  const asksQuestion = /\b(question|interrogative)\b/i.test(prompt);
+  const asksExclamation = /\b(exclamation|exclamatory|strong feeling)\b/i.test(prompt);
+  const asksStatement = /\b(statement|declarative)\b/i.test(prompt);
+  if (isCorrect) {
+    if (asksCommand) return `${quote(correctChoice)} gives a direction or request, so it is a command sentence.`;
+    if (asksQuestion) return `${quote(correctChoice)} asks something directly, so it is a question.`;
+    if (asksExclamation) return `${quote(correctChoice)} shows strong feeling, so it is an exclamation.`;
+    if (asksStatement) return `${quote(correctChoice)} tells information, so it is a statement.`;
+    if (/\bfragment\b/i.test(prompt)) return `${quote(correctChoice)} is the incomplete thought the prompt asks you to identify.`;
+    if (/\brun[- ]on\b/i.test(prompt)) return `${quote(correctChoice)} is the run-on sentence because complete thoughts are joined without correct punctuation or a joining word.`;
+    if (/\bcomplex\b/i.test(prompt)) return `${quote(correctChoice)} has an independent clause plus a dependent clause, which makes it complex.`;
+    if (/\bcompound\b/i.test(prompt)) return `${quote(correctChoice)} joins two complete thoughts correctly, which makes it compound.`;
+    return `${quote(correctChoice)} has the complete, correctly connected sentence structure the prompt asks for.`;
+  }
+  if (asksCommand) return `${quote(choice)} does not give a direct direction or request, so it is not the command sentence.`;
+  if (asksQuestion) return `${quote(choice)} does not ask something directly, so it is not the question sentence.`;
+  if (asksExclamation) return `${quote(choice)} does not show the strong feeling needed for an exclamation.`;
+  if (asksStatement) return `${quote(choice)} is not the statement because it asks, commands, or shows strong feeling instead of simply telling information.`;
+  if (/\bfragment\b/i.test(prompt)) return `${quote(choice)} is a complete sentence or a different error, so it is not the fragment asked for.`;
+  if (/\brun[- ]on\b/i.test(prompt)) return `${quote(choice)} is not the run-on pattern the prompt asks about.`;
+  if (/\bcomplex\b/i.test(prompt)) return `${quote(choice)} does not include both an independent clause and a dependent clause in the way a complex sentence does.`;
+  if (/\bcompound\b/i.test(prompt)) return `${quote(choice)} does not correctly join two complete thoughts.`;
+  if (!/[.!?]["'”’)]?$/.test(choiceText)) return `${quote(choice)} does not express a complete sentence with proper ending punctuation.`;
+  return `${quote(choice)} has a different sentence structure from the one requested in the prompt.`;
+}
+
+function subjectPredicateReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  const asksSimpleSubject = /\bsimple subject\b/i.test(prompt);
+  const asksCompleteSubject = /\bcomplete subject\b|\bsubject and predicate divided\b|\bsubject and predicate separated\b/i.test(prompt);
+  const asksSimplePredicate = /\bsimple predicate\b/i.test(prompt);
+  const asksCompletePredicate = /\bcomplete predicate\b/i.test(prompt);
+  if (isCorrect) {
+    if (asksSimpleSubject) return `${quote(correctChoice)} names the main noun or pronoun the sentence is about, without extra describing words.`;
+    if (asksCompleteSubject) return `${quote(correctChoice)} includes the whole subject part: the subject plus its describing words.`;
+    if (asksSimplePredicate) return `${quote(correctChoice)} names the main verb or verb phrase that tells what the subject does or is.`;
+    if (asksCompletePredicate) return `${quote(correctChoice)} includes the whole predicate part: the verb plus the words that complete the idea.`;
+    return `${quote(correctChoice)} identifies the subject or predicate part asked for in the sentence.`;
+  }
+  if (asksSimpleSubject) return `${quote(choice)} is not just the main subject word; it is extra description, the predicate, or another sentence part.`;
+  if (asksCompleteSubject) return `${quote(choice)} does not include the full subject part before the predicate begins.`;
+  if (asksSimplePredicate) return `${quote(choice)} is not the main verb or verb phrase doing the predicate job.`;
+  if (asksCompletePredicate) return `${quote(choice)} does not include the full predicate part that tells what happens or is true.`;
+  return `${quote(choice)} points to a different sentence part from the subject or predicate part requested.`;
+}
+
+function prepositionReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  if (isCorrect) {
+    if (/\bprepositional phrase\b/i.test(prompt)) return `${quote(correctChoice)} begins with a preposition and includes its object, so it works as a prepositional phrase.`;
+    if (/\bwhat does\b[\s\S]{0,80}\bshow\b/i.test(prompt)) return `${quote(correctChoice)} names the relationship shown by the prepositional phrase in the sentence.`;
+    return `${quote(correctChoice)} is the preposition because it shows a relationship such as place, time, direction, or connection.`;
+  }
+  if (/\bprepositional phrase\b/i.test(prompt)) return `${quote(choice)} is not a prepositional phrase because it does not begin with a preposition followed by its object.`;
+  if (/\bwhat does\b[\s\S]{0,80}\bshow\b/i.test(prompt)) return `${quote(choice)} names a different relationship from the one the prepositional phrase shows.`;
+  return `${quote(choice)} is a noun, verb, adjective, or other word here, not the preposition showing the relationship.`;
+}
+
+function partsOfSpeechReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  if (/\bpreposition|prepositional phrase\b/i.test(prompt)) {
+    return prepositionReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/\bappositive\b/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} renames or explains a noun beside it and is set off correctly.`;
+    return `${quote(choice)} does not place the appositive next to the noun it explains, or it uses commas in the wrong places.`;
+  }
+  if (/\bdependent clause\b/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} has a subject and verb but begins with a word that makes it unable to stand alone.`;
+    return `${quote(choice)} is complete on its own or is only a phrase, so it is not the dependent clause asked for.`;
+  }
+  if (/\badjective\b/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} describes or limits a noun by telling which one, what kind, or how many.`;
+    return `${quote(choice)} does a different job in the sentence instead of describing a noun as an adjective.`;
+  }
+  if (/\badverb\b/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} describes a verb, adjective, or other adverb, often telling how, when, where, or how much.`;
+    return `${quote(choice)} does not do the adverb job asked for in this sentence.`;
+  }
+  if (/\bnoun\b/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} names the person, place, thing, or idea asked for in the prompt.`;
+    return `${quote(choice)} is not the noun type or noun job the prompt asks for.`;
+  }
+  if (/\bconjunction\b/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} joins words or groups of words, so it is the conjunction.`;
+    return `${quote(choice)} does not join the sentence parts in the way a conjunction does.`;
+  }
+  if (isCorrect) return `${quote(correctChoice)} names the word or phrase doing the grammar job asked about in the sentence.`;
+  return `${quote(choice)} points to a word or phrase with a different job from the one the question asks for.`;
+}
+
+function writingReason(choice, correctChoice, question, isCorrect) {
+  const prompt = stripLeadIns(question.question || '');
+  if (/telephone message/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} works for a telephone message because it includes the useful message details clearly.`;
+    return `${quote(choice)} leaves out an important message detail or sounds unlike a useful telephone message.`;
+  }
+  if (/clear situation/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} starts a story by giving a character, place, and event that creates a clear situation.`;
+    return `${quote(choice)} is only a fact or loose detail; it does not set up who is involved, where they are, and what is happening.`;
+  }
+  if (/sensory description/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} adds sensory detail because readers can imagine what is smelled, heard, seen, tasted, or felt.`;
+    return `${quote(choice)} is too general and does not help the reader experience the scene through the senses.`;
+  }
+  if (/dialogue correctly|dialogue/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} writes the spoken words inside quotation marks and uses the comma before the speaker tag.`;
+    return `${quote(choice)} leaves out quotation marks, the comma, or the correct placement needed for dialogue.`;
+  }
+  if (/first-person point of view/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} uses a narrator inside the story with first-person pronouns such as I or my.`;
+    return `${quote(choice)} uses third-person wording or a command, not first-person point of view.`;
+  }
+  if (/third-person limited/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} stays outside the character but shows one character's thoughts or feelings.`;
+    return `${quote(choice)} is first person, a command, or tells more than one character's private thoughts.`;
+  }
+  if (/formal tone|formal language|uses a formal tone/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} uses respectful, school-appropriate wording instead of casual slang.`;
+    return `${quote(choice)} sounds too casual, slangy, or conversational for a formal tone.`;
+  }
+  if (/informal tone|informal language/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} uses relaxed, conversational wording that fits an informal situation.`;
+    return `${quote(choice)} sounds more formal or does not match the casual situation in the prompt.`;
+  }
+  if (/worried tone|gloomy mood|tone|mood/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} creates the feeling asked for through specific word choice and detail.`;
+    return `${quote(choice)} creates a different feeling from the tone or mood named in the prompt.`;
+  }
+  if (/more precise|precise revision|makes the sentence more precise/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} replaces vague wording with specific action or detail.`;
+    return `${quote(choice)} stays vague or unclear, so it does not improve the sentence precisely.`;
+  }
+  if (/combines ideas smoothly|combine/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} connects the two ideas smoothly without making a run-on or word jumble.`;
+    return `${quote(choice)} creates a run-on, fragment, or confusing word order instead of a smooth combination.`;
+  }
+  if (/verb tense consistent|progressive tense|correct verb/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} keeps the verb form matched to the time clue and the rest of the sentence.`;
+    return `${quote(choice)} uses the wrong verb form or shifts tense away from what the sentence needs.`;
+  }
+  if (/topic sentence/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} states the main idea that the whole paragraph can develop.`;
+    return `${quote(choice)} is too narrow, unrelated, or only a detail, so it does not work as the topic sentence.`;
+  }
+  if (/support(s|ing)? the (topic sentence|claim)|reason best supports|evidence would best support/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} gives a relevant reason, detail, or evidence that supports the claim or topic.`;
+    return `${quote(choice)} is unrelated, too weak, or only a surface detail, so it does not support the claim well.`;
+  }
+  if (/closing sentence/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} wraps up the paragraph by returning to the main idea.`;
+    return `${quote(choice)} is unrelated or too small to close the paragraph effectively.`;
+  }
+  if (/does NOT belong|does not belong/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} is off topic, so it is the sentence that does not belong with the paragraph.`;
+    return `${quote(choice)} fits the paragraph topic, so it is not the sentence to remove.`;
+  }
+  if (/informative introduction/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} introduces the topic with factual information instead of opinion or persuasion.`;
+    return `${quote(choice)} is an opinion, a request, or an unrelated detail, so it does not fit an informative introduction.`;
+  }
+  if (/factual enough|informative report/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} gives checkable information that belongs in an informative report.`;
+    return `${quote(choice)} is opinion, persuasion, or unrelated, so it is not factual enough for the report.`;
+  }
+  if (/organize an explanatory paragraph|transition/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} helps organize ideas so the reader can follow the explanation or opinion.`;
+    return `${quote(choice)} does not clearly connect or organize the ideas for this kind of writing.`;
+  }
+  if (/claim/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} takes a position that can be supported with reasons or evidence.`;
+    return `${quote(choice)} is a fact, feature, or broad topic rather than a claim that argues a position.`;
+  }
+  if (/source is best|finding synonyms|finding the meaning/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} is the source that matches the information the writer needs.`;
+    return `${quote(choice)} is a different kind of source and would not give the specific information asked for.`;
+  }
+  if (isCorrect) return `${quote(correctChoice)} fits the exact writing job in the prompt with clear, focused wording.`;
+  return `${quote(choice)} misses the writing job in the prompt because it is off topic, too vague, the wrong tone, or the wrong sentence part.`;
 }
 
 function grammarReason(choice, correctChoice, question, isCorrect) {
@@ -289,25 +923,44 @@ function grammarReason(choice, correctChoice, question, isCorrect) {
     if (isCorrect) return `${quote(correctChoice)} matches the verb form, tense, and subject needed by the sentence.`;
     return bad ? `${quote(choice)} keeps the verb pattern acceptable, so it is not the verb error the prompt asks you to find.` : `${quote(choice)} does not match the tense, helping verb, or subject-verb pattern required here.`;
   }
-  if (/sentence types|identify-sentence|sentence-combinations|run-on|clause|compound|complex/.test(skillText)) {
-    if (isCorrect) return `${quote(correctChoice)} has the sentence structure the prompt asks for and expresses a complete, correctly connected thought.`;
-    return `${quote(choice)} does not have the sentence structure the prompt asks for; it is incomplete, incorrectly joined, or a different sentence type.`;
+  if (/sentence-correction|correction/.test(skillText) || /^choose the best correction/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} fixes the sentence while keeping the intended meaning clear.`;
+    return `${quote(choice)} still leaves a grammar, capitalization, punctuation, spelling, or meaning problem in the sentence.`;
+  }
+  if (/sentence[ -]types|identify-sentence|sentence-combinations|run-on|clause|compound|complex/.test(skillText)) {
+    return sentenceStructureReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/telephone message/i.test(prompt)) return writingReason(choice, correctChoice, question, isCorrect);
+  if (/friendly-letter/.test(skillText) && !/telephone message/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} matches the friendly-letter part or convention asked for in the prompt.`;
+    return `${quote(choice)} belongs to a different letter part or does not follow the friendly-letter convention being tested.`;
+  }
+  if (/indentation-rules/.test(skillText)) {
+    if (isCorrect) return `${quote(correctChoice)} matches the paragraph indentation rule: indent the first line of a new paragraph.`;
+    return `${quote(choice)} indents the wrong line or uses indentation where a paragraph does not need it.`;
+  }
+  if (/point-of-view/.test(skillText)) {
+    if (isCorrect) return `${quote(correctChoice)} uses the pronouns or narrator position for the point of view named in the question.`;
+    return `${quote(choice)} uses a different point of view from the one the question asks for.`;
+  }
+  if (/subject-predicate/.test(skillText)) {
+    return subjectPredicateReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/preposition/.test(skillText)) {
+    return prepositionReason(choice, correctChoice, question, isCorrect);
   }
   if (/parts-of-speech|noun|adjective|adverb|preposition|conjunction|subject-predicate|appositive/.test(skillText)) {
-    if (isCorrect) return `${quote(correctChoice)} names the word or phrase doing the grammar job asked about in the sentence.`;
-    return `${quote(choice)} points to a word or phrase with a different grammar job from the one the question asks for.`;
+    return partsOfSpeechReason(choice, correctChoice, question, isCorrect);
   }
   if (/which claim is clear for an opinion paragraph\?/i.test(prompt)) {
     if (isCorrect) return `${quote(correctChoice)} takes a position and states what someone should think or do, so it is an opinion that can be supported with reasons.`;
     return `${quote(choice)} is a fact, a broad topic, or a statement that does not take a position, so it is not an opinion claim to support with reasons.`;
   }
-  if (/formal|informal|paragraph|opinion|persuasive|informative|narrative|revising|editing|writing/.test(skillText)) {
-    if (isCorrect) return `${quote(correctChoice)} best fits the writing purpose in the prompt because it is clear, precise, and focused on the topic.`;
-    return `${quote(choice)} does not fit the writing purpose as well; it is too vague, off topic, too informal, or not the requested sentence part.`;
+  if (/\b(narrative|sensory description|dialogue correctly|first-person|third-person|formal tone|informal tone|topic sentence|supporting detail|closing sentence|revision|precise|claim|evidence|informative introduction|explanatory paragraph|telephone message)\b/i.test(prompt)) {
+    return writingReason(choice, correctChoice, question, isCorrect);
   }
-  if (/sentence-correction|correction/.test(skillText) || /^choose the best correction/i.test(prompt)) {
-    if (isCorrect) return `${quote(correctChoice)} fixes the sentence while keeping the intended meaning clear.`;
-    return `${quote(choice)} still leaves a grammar, capitalization, punctuation, spelling, or meaning problem in the sentence.`;
+  if (/formal|informal|paragraph|opinion|persuasive|informative|narrative|revising|editing|writing/.test(skillText)) {
+    return writingReason(choice, correctChoice, question, isCorrect);
   }
   if (bad && isCorrect) return `${quote(correctChoice)} is the choice with the error or mismatch the prompt asks you to find.`;
   if (bad) return `${quote(choice)} follows the rule well enough, so it is not the error or mismatch the prompt asks for.`;
@@ -363,6 +1016,12 @@ function referenceReason(choice, correctChoice, question, isCorrect) {
 
 function domainReason(choice, correctChoice, question, domain, isCorrect) {
   const skillText = getSkillText(question);
+  const prompt = stripLeadIns(question.question || '');
+  if (domain === 'punctuation' &&
+    /\b(narrative|sensory|claim|topic sentence|supporting detail|closing sentence|revision|formal tone)\b/i.test(prompt) &&
+    !/\b(punctuat|quote|quotation|dialogue|comma|semicolon|colon|apostrophe|abbreviation|end punctuation)\b/i.test(prompt)) {
+    return writingReason(choice, correctChoice, question, isCorrect);
+  }
   if (/contraction/.test(skillText)) return contractionReason(choice, correctChoice, question, isCorrect);
   if (/apostrophe|possessive/.test(skillText)) return possessiveReason(choice, correctChoice, question, isCorrect);
   if (/punctuation|comma|period|quotation|colon|semicolon|abbreviation/.test(skillText) || domain === 'punctuation') {

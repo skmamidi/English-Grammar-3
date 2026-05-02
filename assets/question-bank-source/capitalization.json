@@ -65,8 +65,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0002",
-          "version": 2,
-          "contentHash": "sha256:084b5ede713cbae305b76975e5fe29fa652492ae9fd500c32de5efff88996533",
+          "version": 3,
+          "contentHash": "sha256:e1cd75266f3a317fb9979b2bfd907f11e206339e68469c9718efee05462b35df",
           "question": "Which choice handles the quotation and dialogue tag correctly?",
           "choices": [
             "\"can we visit the museum?\" asked Priya.",
@@ -76,12 +76,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: \"Can we visit the museum?\" asked Priya. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"\"Can we visit the museum?\" asked Priya.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: \"Can we visit the museum?\" asked Priya. Rule or clue: Story dialogue puts spoken words in quotation marks and uses punctuation to connect the speaker tag. '\"Can we visit the museum?\" asked Priya.' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: \"can we visit the museum?\" asked Priya. \"\"can we visit the museum?\" asked Priya.\" is not correct because \"can\" should be capitalized as \"Can\".",
+              "Not: \"can we visit the museum?\" asked Priya. '\"can we visit the museum?\" asked Priya.' is not correct because \"can\" should be capitalized as \"Can\".",
               "",
-              "Not: \"Can we visit the Museum?\" asked Priya. \"\"Can we visit the Museum?\" asked Priya.\" is not correct because \"Museum\" should stay lowercase as \"museum\".",
-              "Not: \"Can we visit the museum?\" Asked Priya. \"\"Can we visit the museum?\" Asked Priya.\" is not correct because \"Asked\" should stay lowercase as \"asked\"."
+              "Not: \"Can we visit the Museum?\" asked Priya. '\"Can we visit the Museum?\" asked Priya.' is not correct because \"Museum\" should stay lowercase as \"museum\".",
+              "Not: \"Can we visit the museum?\" Asked Priya. '\"Can we visit the museum?\" Asked Priya.' is not correct because \"Asked\" should stay lowercase as \"asked\"."
             ]
           },
           "studyAid": {
@@ -122,8 +122,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0003",
-          "version": 2,
-          "contentHash": "sha256:3ea96897a39c08594d9e5b7e7e96be46427e331d701bc5caffe17e071309b6df",
+          "version": 3,
+          "contentHash": "sha256:327486317d62a66b34bdf192971d2bb70542b821c435fb432f2926929b116482",
           "question": "Which sentence is edited correctly?",
           "choices": [
             "After Lunch, \"We will rehearse,\" said Mr. Ortiz.",
@@ -133,12 +133,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: After lunch, \"We will rehearse,\" said Mr. Ortiz. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"After lunch, \"We will rehearse,\" said Mr. Ortiz.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: After lunch, \"We will rehearse,\" said Mr. Ortiz. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. 'After lunch, \"We will rehearse,\" said Mr. Ortiz.' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: After Lunch, \"We will rehearse,\" said Mr. Ortiz. \"After Lunch, \"We will rehearse,\" said Mr. Ortiz.\" is not correct because \"Lunch\" should stay lowercase as \"lunch\".",
-              "Not: After lunch, \"We will Rehearse,\" said Mr. Ortiz. \"After lunch, \"We will Rehearse,\" said Mr. Ortiz.\" is not correct because \"Rehearse\" should stay lowercase as \"rehearse\".",
+              "Not: After Lunch, \"We will rehearse,\" said Mr. Ortiz. 'After Lunch, \"We will rehearse,\" said Mr. Ortiz.' is not correct because \"Lunch\" should stay lowercase as \"lunch\".",
+              "Not: After lunch, \"We will Rehearse,\" said Mr. Ortiz. 'After lunch, \"We will Rehearse,\" said Mr. Ortiz.' is not correct because \"Rehearse\" should stay lowercase as \"rehearse\".",
               "",
-              "Not: After lunch, \"we will rehearse,\" said Mr. Ortiz. \"After lunch, \"we will rehearse,\" said Mr. Ortiz.\" is not correct because \"we\" should be capitalized as \"We\"."
+              "Not: After lunch, \"we will rehearse,\" said Mr. Ortiz. 'After lunch, \"we will rehearse,\" said Mr. Ortiz.' is not correct because \"we\" should be capitalized as \"We\"."
             ]
           },
           "studyAid": {
@@ -236,8 +236,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0005",
-          "version": 2,
-          "contentHash": "sha256:046e548c4ac3db0a47fe386e2977f40f12487bdee09c4d0114fc8daca4c84c0d",
+          "version": 3,
+          "contentHash": "sha256:4cb916792410795b52d52e99f61d503d9340b83e2a95725cf37fcd6e5be36be0",
           "question": "Which sentence is capitalized correctly after an interruption in dialogue?",
           "choices": [
             "\"I think,\" Nora whispered, \"We should wait.\"",
@@ -247,12 +247,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: \"I think,\" Nora whispered, \"we should wait.\" Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"\"I think,\" Nora whispered, \"we should wait.\"\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: \"I think,\" Nora whispered, \"we should wait.\" Rule or clue: Story dialogue puts spoken words in quotation marks and uses punctuation to connect the speaker tag. '\"I think,\" Nora whispered, \"we should wait.\"' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: \"I think,\" Nora whispered, \"We should wait.\" \"\"I think,\" Nora whispered, \"We should wait.\"\" is not correct because \"We\" should stay lowercase as \"we\".",
+              "Not: \"I think,\" Nora whispered, \"We should wait.\" '\"I think,\" Nora whispered, \"We should wait.\"' is not correct because \"We\" should stay lowercase as \"we\".",
               "",
-              "Not: \"i think,\" Nora whispered, \"we should wait.\" \"\"i think,\" Nora whispered, \"we should wait.\"\" is not correct because \"i\" should be capitalized as \"I\".",
-              "Not: \"I think,\" nora whispered, \"we should wait.\" \"\"I think,\" nora whispered, \"we should wait.\"\" is not correct because \"nora\" should be capitalized as \"Nora\"."
+              "Not: \"i think,\" Nora whispered, \"we should wait.\" '\"i think,\" Nora whispered, \"we should wait.\"' is not correct because \"i\" should be capitalized as \"I\".",
+              "Not: \"I think,\" nora whispered, \"we should wait.\" '\"I think,\" nora whispered, \"we should wait.\"' is not correct because \"nora\" should be capitalized as \"Nora\"."
             ]
           },
           "studyAid": {
@@ -350,8 +350,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0007",
-          "version": 2,
-          "contentHash": "sha256:f619311d2e095b12203cad8299c088280f34dc0f6abd4286c972e927f121e115",
+          "version": 3,
+          "contentHash": "sha256:988d00c63a0537a7b4ea34dcf063da44e9c71a4df18c8c860841c4c055e26237",
           "question": "Which sentence uses capitals correctly?",
           "choices": [
             "no, I have not finished the chart.",
@@ -364,7 +364,7 @@
             "correct": "Answer: No, I have not finished the chart. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"No, I have not finished the chart.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: no, I have not finished the chart. \"no, I have not finished the chart.\" is not correct because \"no\" should be capitalized as \"No\".",
-              "Not: No, I have not finished the Chart. \"No, I have not finished the Chart.\" is not correct because \"Chart.\" should stay lowercase as \"chart.\".",
+              "Not: No, I have not finished the Chart. \"No, I have not finished the Chart.\" is not correct because \"Chart\" should stay lowercase as \"chart\".",
               "",
               "Not: No, i have not finished the chart. \"No, i have not finished the chart.\" is not correct because \"i\" should be capitalized as \"I\"."
             ]
@@ -407,8 +407,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0008",
-          "version": 2,
-          "contentHash": "sha256:284549db72b6ccdf234a64918941c1f278158c16415b236dbed1e2d231b8bf11",
+          "version": 3,
+          "contentHash": "sha256:00ee54bfd84cbf0c07c63666263057583efa509fb6fc1f9d2a8e9b9b20d43a02",
           "question": "Which choice is correct?",
           "choices": [
             "\"Please hurry,\" said Malik, \"The game starts soon.\"",
@@ -418,12 +418,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: \"Please hurry,\" said Malik, \"the game starts soon.\" Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"\"Please hurry,\" said Malik, \"the game starts soon.\"\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: \"Please hurry,\" said Malik, \"the game starts soon.\" Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. '\"Please hurry,\" said Malik, \"the game starts soon.\"' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: \"Please hurry,\" said Malik, \"The game starts soon.\" \"\"Please hurry,\" said Malik, \"The game starts soon.\"\" is not correct because \"The\" should stay lowercase as \"the\".",
-              "Not: \"Please hurry,\" Said Malik, \"the game starts soon.\" \"\"Please hurry,\" Said Malik, \"the game starts soon.\"\" is not correct because \"Said\" should stay lowercase as \"said\".",
+              "Not: \"Please hurry,\" said Malik, \"The game starts soon.\" '\"Please hurry,\" said Malik, \"The game starts soon.\"' is not correct because \"The\" should stay lowercase as \"the\".",
+              "Not: \"Please hurry,\" Said Malik, \"the game starts soon.\" '\"Please hurry,\" Said Malik, \"the game starts soon.\"' is not correct because \"Said\" should stay lowercase as \"said\".",
               "",
-              "Not: \"please hurry,\" said Malik, \"the game starts soon.\" \"\"please hurry,\" said Malik, \"the game starts soon.\"\" is not correct because \"please\" should be capitalized as \"Please\"."
+              "Not: \"please hurry,\" said Malik, \"the game starts soon.\" '\"please hurry,\" said Malik, \"the game starts soon.\"' is not correct because \"please\" should be capitalized as \"Please\"."
             ]
           },
           "studyAid": {
@@ -635,8 +635,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0012",
-          "version": 2,
-          "contentHash": "sha256:6ed57981a3449bd6f9cab8417acdaab49c33851af0ddf175492cef804864361f",
+          "version": 3,
+          "contentHash": "sha256:45a55133c1ee511ea5e78c6397eec12a7d23231c423643058f8c2f92b69002d0",
           "question": "Which choice correctly capitalizes the sentence and the direct quote?",
           "choices": [
             "Talia Asked, \"Where did you put my notes?\"",
@@ -646,12 +646,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: Talia asked, \"Where did you put my notes?\" Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Talia asked, \"Where did you put my notes?\"\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Talia asked, \"Where did you put my notes?\" Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. 'Talia asked, \"Where did you put my notes?\"' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: Talia Asked, \"Where did you put my notes?\" \"Talia Asked, \"Where did you put my notes?\"\" is not correct because \"Asked\" should stay lowercase as \"asked\".",
+              "Not: Talia Asked, \"Where did you put my notes?\" 'Talia Asked, \"Where did you put my notes?\"' is not correct because \"Asked\" should stay lowercase as \"asked\".",
               "",
-              "Not: Talia asked, \"where did you put my notes?\" \"Talia asked, \"where did you put my notes?\"\" is not correct because \"where\" should be capitalized as \"Where\".",
-              "Not: talia asked, \"Where did you put my notes?\" \"talia asked, \"Where did you put my notes?\"\" is not correct because \"talia\" should be capitalized as \"Talia\"."
+              "Not: Talia asked, \"where did you put my notes?\" 'Talia asked, \"where did you put my notes?\"' is not correct because \"where\" should be capitalized as \"Where\".",
+              "Not: talia asked, \"Where did you put my notes?\" 'talia asked, \"Where did you put my notes?\"' is not correct because \"talia\" should be capitalized as \"Talia\"."
             ]
           },
           "studyAid": {
@@ -749,8 +749,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0014",
-          "version": 2,
-          "contentHash": "sha256:ea26af44b9489d6232f5074c7cc87f4cef63d471f70eebf866298d42d1bb3bbb",
+          "version": 3,
+          "contentHash": "sha256:a130c9f70c5594399ca86da7318422c23bae450d7b08baa3ad429620e80f216f",
           "question": "Which sentence is correct?",
           "choices": [
             "\"look at the scoreboard!\" shouted Ava.",
@@ -760,11 +760,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: \"Look at the scoreboard!\" shouted Ava. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"\"Look at the scoreboard!\" shouted Ava.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: \"Look at the scoreboard!\" shouted Ava. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. '\"Look at the scoreboard!\" shouted Ava.' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: \"look at the scoreboard!\" shouted Ava. \"\"look at the scoreboard!\" shouted Ava.\" is not correct because \"look\" should be capitalized as \"Look\".",
-              "Not: \"Look at the scoreboard!\" Shouted Ava. \"\"Look at the scoreboard!\" Shouted Ava.\" is not correct because \"Shouted\" should stay lowercase as \"shouted\".",
-              "Not: \"Look at the Scoreboard!\" shouted Ava. \"\"Look at the Scoreboard!\" shouted Ava.\" is not correct because \"Scoreboard\" should stay lowercase as \"scoreboard\".",
+              "Not: \"look at the scoreboard!\" shouted Ava. '\"look at the scoreboard!\" shouted Ava.' is not correct because \"look\" should be capitalized as \"Look\".",
+              "Not: \"Look at the scoreboard!\" Shouted Ava. '\"Look at the scoreboard!\" Shouted Ava.' is not correct because \"Shouted\" should stay lowercase as \"shouted\".",
+              "Not: \"Look at the Scoreboard!\" shouted Ava. '\"Look at the Scoreboard!\" shouted Ava.' is not correct because \"Scoreboard\" should stay lowercase as \"scoreboard\".",
               ""
             ]
           },
@@ -1387,8 +1387,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0025",
-          "version": 2,
-          "contentHash": "sha256:22ec755ade34316f858977c31e34e19dcd50b700c251643d169d7e85a9637ca9",
+          "version": 3,
+          "contentHash": "sha256:e6a3572c7b5eda09430add1faa1a0fb6f5d8635457a94de4829a376969201eea",
           "question": "Which sentence has a capital letter in the correct place?",
           "choices": [
             "Polar bears like the cold.",
@@ -1403,7 +1403,7 @@
               "",
               "Not: polar Bears like the cold. \"polar Bears like the cold.\" is not correct because \"polar\" should be capitalized as \"Polar\" and \"Bears\" should stay lowercase as \"bears\".",
               "Not: polar bears Like the cold. \"polar bears Like the cold.\" is not correct because \"polar\" should be capitalized as \"Polar\" and \"Like\" should stay lowercase as \"like\".",
-              "Not: polar bears like the Cold. \"polar bears like the Cold.\" is not correct because \"polar\" should be capitalized as \"Polar\" and \"Cold.\" should stay lowercase as \"cold.\"."
+              "Not: polar bears like the Cold. \"polar bears like the Cold.\" is not correct because \"polar\" should be capitalized as \"Polar\" and \"Cold\" should stay lowercase as \"cold\"."
             ]
           },
           "metadata": {
@@ -2048,8 +2048,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0111",
-          "version": 2,
-          "contentHash": "sha256:0efbcb5a7935e8eab4fe85caf3ba998a64c8489d00237a22c35ba72fe35165ac",
+          "version": 3,
+          "contentHash": "sha256:166a8bfa7a04970f6e2b98de2874b14d1a0bc8d055a2602bd921808c825c25bb",
           "question": "Identify the sentence with the correct capitalization.",
           "choices": [
             "We welcome mayor davis as our Lead Speaker.",
@@ -2064,7 +2064,7 @@
               "Not: We welcome mayor davis as our Lead Speaker. \"We welcome mayor davis as our Lead Speaker.\" is not correct because \"mayor\" should be capitalized as \"Mayor\" and \"davis\" should be capitalized as \"Davis\".",
               "Not: We welcome mayor Davis as our lead speaker. \"We welcome mayor Davis as our lead speaker.\" is not correct because \"mayor\" should be capitalized as \"Mayor\".",
               "",
-              "Not: We welcome Mayor Davis as our Lead Speaker. \"We welcome Mayor Davis as our Lead Speaker.\" is not correct because \"Lead\" should stay lowercase as \"lead\" and \"Speaker.\" should stay lowercase as \"speaker.\"."
+              "Not: We welcome Mayor Davis as our Lead Speaker. \"We welcome Mayor Davis as our Lead Speaker.\" is not correct because \"Lead\" should stay lowercase as \"lead\" and \"Speaker\" should stay lowercase as \"speaker\"."
             ]
           },
           "studyAid": {
@@ -2231,8 +2231,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0071",
-          "version": 2,
-          "contentHash": "sha256:b1af810c5a9c9a5301848542c7536f9bba4a2d994f46d111564e20fe215d39b5",
+          "version": 3,
+          "contentHash": "sha256:065ce495ffa426eb39969600fcb4476aa0a23de80c6dc746ffd5925f5d34c26a",
           "question": "Which incorrectly capitalized? word is We saw the Old Faithful trip to Yellowstone National Park Geyser on our",
           "choices": [
             "Old",
@@ -2242,7 +2242,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: Geyser. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Geyser\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Geyser. Rule or clue: Tone and mood come from word choice and details that create a feeling for the reader. \"Geyser\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Old. \"Old\" does not match the capitalization pattern required by the sentence or title.",
               "",
@@ -2292,8 +2292,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0104",
-          "version": 2,
-          "contentHash": "sha256:9277928e1a091666071b4fa29663af1359a262ece7d1c8064d2306d04af2dc26",
+          "version": 3,
+          "contentHash": "sha256:87914653526990de7d0678e77a2d22c55e2225df10efc1268d1722a314c002a2",
           "question": "Choose the correctly capitalized version of the sentence below. The entire family is excited and looking forward to our vacation with uncle jerry, my aunt, grannie, and my grandpa.",
           "choices": [
             "The entire Family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.",
@@ -2306,7 +2306,7 @@
             "correct": "Answer: The entire family is excited and looking forward to our vacation with Uncle Jerry, my aunt, Grannie, and my grandpa. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The entire family is excited and looking forward to our vacation with Uncle Jerry, my aunt, Grannie, and my grandpa.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The entire Family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa. \"The entire Family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.\" is not correct because \"Family\" should stay lowercase as \"family\" and \"Aunt\" should stay lowercase as \"aunt\".",
-              "Not: The entire family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa. \"The entire family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.\" is not correct because \"Aunt\" should stay lowercase as \"aunt\" and \"Grandpa.\" should stay lowercase as \"grandpa.\".",
+              "Not: The entire family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa. \"The entire family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.\" is not correct because \"Aunt\" should stay lowercase as \"aunt\" and \"Grandpa\" should stay lowercase as \"grandpa\".",
               "",
               "Not: The entire family is excited and looking forward to our vacation with uncl e Jerry, my aunt, grannie, and my grandpa. \"The entire family is excited and looking forward to our vacation with uncl e Jerry, my aunt, grannie, and my grandpa.\" does not match the capitalization pattern required by the sentence or title."
             ]
@@ -2678,8 +2678,8 @@
       "questions": [
         {
           "id": "capitalization-days-months-holidays-q0001",
-          "version": 2,
-          "contentHash": "sha256:0cd83a06262f5371ac1c63419c51362caf1b883bd97aebfa5b09c64e3f121570",
+          "version": 3,
+          "contentHash": "sha256:2180447a7c758beda29d2d5f46639b25979f01c12bf8a9435a49a840da9818fb",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "Our Spring concert is on Friday in April.",
@@ -2694,7 +2694,7 @@
               "Not: Our Spring concert is on Friday in April. \"Our Spring concert is on Friday in April.\" is not correct because \"Spring\" should stay lowercase as \"spring\".",
               "",
               "Not: Our spring concert is on friday in April. \"Our spring concert is on friday in April.\" is not correct because \"friday\" should be capitalized as \"Friday\".",
-              "Not: Our spring concert is on Friday in april. \"Our spring concert is on Friday in april.\" is not correct because \"april.\" should be capitalized as \"April.\"."
+              "Not: Our spring concert is on Friday in april. \"Our spring concert is on Friday in april.\" is not correct because \"april\" should be capitalized as \"April\"."
             ]
           },
           "studyAid": {
@@ -2735,8 +2735,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0002",
-          "version": 2,
-          "contentHash": "sha256:7bd62783faa0555258d724eba53fb3ad63de0f02762255c9c622a75edf2fbcee",
+          "version": 3,
+          "contentHash": "sha256:8555b262f8e4c467dde90e282d1cc8f1110502e75909a9dd3c292deaa986e5a3",
           "question": "Which sentence correctly handles a holiday and a season?",
           "choices": [
             "We visit Grandma during winter and on Thanksgiving.",
@@ -2749,8 +2749,8 @@
             "correct": "Answer: We visit Grandma during winter and on Thanksgiving. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We visit Grandma during winter and on Thanksgiving.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
-              "Not: We visit Grandma during winter and on thanksgiving. \"We visit Grandma during winter and on thanksgiving.\" is not correct because \"thanksgiving.\" should be capitalized as \"Thanksgiving.\".",
-              "Not: We visit Grandma during Winter and on thanksgiving. \"We visit Grandma during Winter and on thanksgiving.\" is not correct because \"Winter\" should stay lowercase as \"winter\" and \"thanksgiving.\" should be capitalized as \"Thanksgiving.\".",
+              "Not: We visit Grandma during winter and on thanksgiving. \"We visit Grandma during winter and on thanksgiving.\" is not correct because \"thanksgiving\" should be capitalized as \"Thanksgiving\".",
+              "Not: We visit Grandma during Winter and on thanksgiving. \"We visit Grandma during Winter and on thanksgiving.\" is not correct because \"Winter\" should stay lowercase as \"winter\" and \"thanksgiving\" should be capitalized as \"Thanksgiving\".",
               "Not: We visit Grandma during Winter and on Thanksgiving. \"We visit Grandma during Winter and on Thanksgiving.\" is not correct because \"Winter\" should stay lowercase as \"winter\"."
             ]
           },
@@ -2792,8 +2792,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0003",
-          "version": 2,
-          "contentHash": "sha256:f8138ff1b64a6c315135a2b47839093573795c8fc5006c38a49c3406518f93c4",
+          "version": 3,
+          "contentHash": "sha256:fe40907270fc6f03f182384146bad34cc815dd5b7e9c2c0b1e85d15b07640547",
           "question": "Which option is capitalized correctly?",
           "choices": [
             "The Memorial Day parade starts on Monday.",
@@ -2807,7 +2807,7 @@
             "incorrect": [
               "",
               "Not: The Memorial day Parade starts on Monday. \"The Memorial day Parade starts on Monday.\" is not correct because \"day\" should be capitalized as \"Day\" and \"Parade\" should stay lowercase as \"parade\".",
-              "Not: The Memorial Day parade starts on monday. \"The Memorial Day parade starts on monday.\" is not correct because \"monday.\" should be capitalized as \"Monday.\".",
+              "Not: The Memorial Day parade starts on monday. \"The Memorial Day parade starts on monday.\" is not correct because \"monday\" should be capitalized as \"Monday\".",
               "Not: The memorial day parade starts on Monday. \"The memorial day parade starts on Monday.\" is not correct because \"memorial\" should be capitalized as \"Memorial\" and \"day\" should be capitalized as \"Day\"."
             ]
           },
@@ -2849,8 +2849,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0004",
-          "version": 2,
-          "contentHash": "sha256:b43e0f56c3c87cf2afe7ddf822befe4f51bd88ab9163c08576272f69f331d496",
+          "version": 3,
+          "contentHash": "sha256:30e0dffa1619047417989117f17041423e00b7306246b15dbd90628e4294eff2",
           "question": "Which sentence avoids overcapitalizing a general event?",
           "choices": [
             "The Winter festival begins in February.",
@@ -2865,7 +2865,7 @@
               "Not: The Winter festival begins in February. \"The Winter festival begins in February.\" is not correct because \"Winter\" should stay lowercase as \"winter\".",
               "",
               "Not: The Winter Festival begins in February. \"The Winter Festival begins in February.\" is not correct because \"Winter\" should stay lowercase as \"winter\" and \"Festival\" should stay lowercase as \"festival\".",
-              "Not: The winter Festival begins in february. \"The winter Festival begins in february.\" is not correct because \"Festival\" should stay lowercase as \"festival\" and \"february.\" should be capitalized as \"February.\"."
+              "Not: The winter Festival begins in february. \"The winter Festival begins in february.\" is not correct because \"Festival\" should stay lowercase as \"festival\" and \"february\" should be capitalized as \"February\"."
             ]
           },
           "studyAid": {
@@ -2906,8 +2906,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0005",
-          "version": 2,
-          "contentHash": "sha256:430043d0b3107500d7ac39a8887fe620f7065cb46595b019d447582cd525f300",
+          "version": 3,
+          "contentHash": "sha256:fc5f2164ae653d97252c4e231d5aad3d8f504566df8ee8ad2de5bb1d9c8097f2",
           "question": "Which sentence is correct?",
           "choices": [
             "On New Year's Eve, we stayed awake until midnight.",
@@ -2922,7 +2922,7 @@
               "",
               "Not: On New Year's eve, we stayed awake until midnight. \"On New Year's eve, we stayed awake until midnight.\" is not correct because \"eve\" should be capitalized as \"Eve\".",
               "Not: On new year's Eve, we stayed awake until midnight. \"On new year's Eve, we stayed awake until midnight.\" is not correct because \"new\" should be capitalized as \"New\" and \"year's\" should be capitalized as \"Year's\".",
-              "Not: On New Year's Eve, we stayed awake until Midnight. \"On New Year's Eve, we stayed awake until Midnight.\" is not correct because \"Midnight.\" should stay lowercase as \"midnight.\"."
+              "Not: On New Year's Eve, we stayed awake until Midnight. \"On New Year's Eve, we stayed awake until Midnight.\" is not correct because \"Midnight\" should stay lowercase as \"midnight\"."
             ]
           },
           "studyAid": {
@@ -3020,8 +3020,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0007",
-          "version": 2,
-          "contentHash": "sha256:0ba4af4f38f3ed9e90c0080ff794095c91b3ba3b7b2d01eb46ac6c406b3967a7",
+          "version": 3,
+          "contentHash": "sha256:5e85d4c62a1e36e158b7649a952043256e7135c658c9fa1f59b3d37074327d84",
           "question": "Which choice handles a month and a common noun correctly?",
           "choices": [
             "The science fair moved from March to May.",
@@ -3034,7 +3034,7 @@
             "correct": "Answer: The science fair moved from March to May. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The science fair moved from March to May.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
-              "Not: The science fair moved from March to may. \"The science fair moved from March to may.\" is not correct because \"may.\" should be capitalized as \"May.\".",
+              "Not: The science fair moved from March to may. \"The science fair moved from March to may.\" is not correct because \"may\" should be capitalized as \"May\".",
               "Not: The science fair moved from march to May. \"The science fair moved from march to May.\" is not correct because \"march\" should be capitalized as \"March\".",
               "Not: The Science Fair moved from March to May. \"The Science Fair moved from March to May.\" is not correct because \"Science\" should stay lowercase as \"science\" and \"Fair\" should stay lowercase as \"fair\"."
             ]
@@ -3077,8 +3077,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0008",
-          "version": 2,
-          "contentHash": "sha256:a37492abf5993c37a8a775d4493aeecbabbc543122228daf1310bc2a6812eca9",
+          "version": 3,
+          "contentHash": "sha256:0f163a26b0ab6bb6b1ced58083628d874af70742ecc4269535b0d5c95c5e1f62",
           "question": "Which sentence correctly capitalizes a holiday but not a general break?",
           "choices": [
             "Our Spring break begins after Presidents' day.",
@@ -3090,7 +3090,7 @@
           "explanation": {
             "correct": "Answer: Our spring break begins after Presidents' Day. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Our spring break begins after Presidents' Day.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: Our Spring break begins after Presidents' day. \"Our Spring break begins after Presidents' day.\" is not correct because \"Spring\" should stay lowercase as \"spring\" and \"day.\" should be capitalized as \"Day.\".",
+              "Not: Our Spring break begins after Presidents' day. \"Our Spring break begins after Presidents' day.\" is not correct because \"Spring\" should stay lowercase as \"spring\" and \"day\" should be capitalized as \"Day\".",
               "",
               "Not: Our Spring Break begins after Presidents' Day. \"Our Spring Break begins after Presidents' Day.\" is not correct because \"Spring\" should stay lowercase as \"spring\" and \"Break\" should stay lowercase as \"break\".",
               "Not: Our spring break begins after presidents' Day. \"Our spring break begins after presidents' Day.\" is not correct because \"presidents'\" should be capitalized as \"Presidents'\"."
@@ -3134,8 +3134,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0009",
-          "version": 2,
-          "contentHash": "sha256:12f5816094bc6dfc72171b2feb6f63c94280d816bd0d5d0f899d837a96204b4f",
+          "version": 3,
+          "contentHash": "sha256:f4a545b6921374217bdfe66fbb3bf70e14656fd13cf81049fbe1acf1e1c668cc",
           "question": "Which sentence is correct?",
           "choices": [
             "We have a test next Wednesday, not this thursday.",
@@ -3147,7 +3147,7 @@
           "explanation": {
             "correct": "Answer: We have a test next Wednesday, not this Thursday. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We have a test next Wednesday, not this Thursday.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: We have a test next Wednesday, not this thursday. \"We have a test next Wednesday, not this thursday.\" is not correct because \"thursday.\" should be capitalized as \"Thursday.\".",
+              "Not: We have a test next Wednesday, not this thursday. \"We have a test next Wednesday, not this thursday.\" is not correct because \"thursday\" should be capitalized as \"Thursday\".",
               "Not: We have a test next wednesday, not this Thursday. \"We have a test next wednesday, not this Thursday.\" is not correct because \"wednesday\" should be capitalized as \"Wednesday\".",
               "",
               "Not: We have a Test next Wednesday, not this Thursday. \"We have a Test next Wednesday, not this Thursday.\" is not correct because \"Test\" should stay lowercase as \"test\"."
@@ -3191,8 +3191,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0010",
-          "version": 2,
-          "contentHash": "sha256:2fe0acae2b77252ef82b8cf30dd70e388ab8ffecb4befd2bea4068467cadea31",
+          "version": 3,
+          "contentHash": "sha256:e23d0c90ed3c2f281f89cb427d975af5e5f9ec9ae02efa7760b72b6ff94730d6",
           "question": "Which sentence correctly treats a holiday and ordinary words?",
           "choices": [
             "The Fourth Of July Fireworks lit up the park.",
@@ -3205,7 +3205,7 @@
             "correct": "Answer: The Fourth of July fireworks lit up the park. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The Fourth of July fireworks lit up the park.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The Fourth Of July Fireworks lit up the park. \"The Fourth Of July Fireworks lit up the park.\" is not correct because \"Of\" should stay lowercase as \"of\" and \"Fireworks\" should stay lowercase as \"fireworks\".",
-              "Not: The fourth of July fireworks lit up the Park. \"The fourth of July fireworks lit up the Park.\" is not correct because \"fourth\" should be capitalized as \"Fourth\" and \"Park.\" should stay lowercase as \"park.\".",
+              "Not: The fourth of July fireworks lit up the Park. \"The fourth of July fireworks lit up the Park.\" is not correct because \"fourth\" should be capitalized as \"Fourth\" and \"Park\" should stay lowercase as \"park\".",
               "Not: The Fourth of july fireworks lit up the park. \"The Fourth of july fireworks lit up the park.\" is not correct because \"july\" should be capitalized as \"July\".",
               ""
             ]
@@ -3248,8 +3248,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0011",
-          "version": 2,
-          "contentHash": "sha256:e9903c3bda46499daf5e1348982aaeab8c32aacea16992744825e885aae45c83",
+          "version": 3,
+          "contentHash": "sha256:de2a4b1df53a859dd3e0baf3fe53dcd57cedeca3519d65fdbb1465c56dc5787e",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "The class party is on Valentine's day in February.",
@@ -3262,7 +3262,7 @@
             "correct": "Answer: The class party is on Valentine's Day in February. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The class party is on Valentine's Day in February.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The class party is on Valentine's day in February. \"The class party is on Valentine's day in February.\" is not correct because \"day\" should be capitalized as \"Day\".",
-              "Not: The class party is on valentine's Day in february. \"The class party is on valentine's Day in february.\" is not correct because \"valentine's\" should be capitalized as \"Valentine's\" and \"february.\" should be capitalized as \"February.\".",
+              "Not: The class party is on valentine's Day in february. \"The class party is on valentine's Day in february.\" is not correct because \"valentine's\" should be capitalized as \"Valentine's\" and \"february\" should be capitalized as \"February\".",
               "",
               "Not: The Class Party is on Valentine's Day in February. \"The Class Party is on Valentine's Day in February.\" is not correct because \"Class\" should stay lowercase as \"class\" and \"Party\" should stay lowercase as \"party\"."
             ]
@@ -3305,8 +3305,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0012",
-          "version": 2,
-          "contentHash": "sha256:627dd774c941658b3ce7d816d709d8bb3c8f9fb7ea2227fedd4d709d29dd0393",
+          "version": 3,
+          "contentHash": "sha256:2688e6253efeb0686b07297068e5547500435092223edcaa65a16bbd0b4232df",
           "question": "Which option is correct?",
           "choices": [
             "During autumn, we celebrate Halloween in october.",
@@ -3318,7 +3318,7 @@
           "explanation": {
             "correct": "Answer: During autumn, we celebrate Halloween in October. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"During autumn, we celebrate Halloween in October.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: During autumn, we celebrate Halloween in october. \"During autumn, we celebrate Halloween in october.\" is not correct because \"october.\" should be capitalized as \"October.\".",
+              "Not: During autumn, we celebrate Halloween in october. \"During autumn, we celebrate Halloween in october.\" is not correct because \"october\" should be capitalized as \"October\".",
               "",
               "Not: During Autumn, we celebrate Halloween in October. \"During Autumn, we celebrate Halloween in October.\" is not correct because \"Autumn\" should stay lowercase as \"autumn\".",
               "Not: During autumn, we celebrate halloween in October. \"During autumn, we celebrate halloween in October.\" is not correct because \"halloween\" should be capitalized as \"Halloween\"."
@@ -3362,8 +3362,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0013",
-          "version": 2,
-          "contentHash": "sha256:df6767172683b37c2c58bbab1ab4446ff11f392bd6351f686338120ec7338547",
+          "version": 3,
+          "contentHash": "sha256:f6318618468682473995ab799bf00daaa40e9665134efad12de79edf3eb3e15a",
           "question": "Which sentence correctly capitalizes a specific school event name?",
           "choices": [
             "The Riverdale Fall Festival is on Saturday.",
@@ -3377,7 +3377,7 @@
             "incorrect": [
               "",
               "Not: The Riverdale fall festival is on Saturday. \"The Riverdale fall festival is on Saturday.\" is not correct because \"fall\" should be capitalized as \"Fall\" and \"festival\" should be capitalized as \"Festival\".",
-              "Not: The riverdale Fall Festival is on saturday. \"The riverdale Fall Festival is on saturday.\" is not correct because \"riverdale\" should be capitalized as \"Riverdale\" and \"saturday.\" should be capitalized as \"Saturday.\".",
+              "Not: The riverdale Fall Festival is on saturday. \"The riverdale Fall Festival is on saturday.\" is not correct because \"riverdale\" should be capitalized as \"Riverdale\" and \"saturday\" should be capitalized as \"Saturday\".",
               "Not: The Riverdale Fall festival is on Saturday. \"The Riverdale Fall festival is on Saturday.\" is not correct because \"festival\" should be capitalized as \"Festival\"."
             ]
           },
@@ -3419,8 +3419,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0014",
-          "version": 2,
-          "contentHash": "sha256:a9a41933b76884ba66d5296c3cb088b05afc1f0f76fadf61dfe60bce18b61062",
+          "version": 3,
+          "contentHash": "sha256:9c31c9f36c788fbe7dfaea9cf3489f7d54bbdd29e997efe57e96ded6bdc70cd7",
           "question": "Which sentence avoids capitalizing a season adjective?",
           "choices": [
             "Our Summer Reading List is due in August.",
@@ -3433,7 +3433,7 @@
             "correct": "Answer: Our summer reading list is due in August. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Our summer reading list is due in August.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Our Summer Reading List is due in August. \"Our Summer Reading List is due in August.\" is not correct because \"Summer\" should stay lowercase as \"summer\" and \"Reading\" should stay lowercase as \"reading\".",
-              "Not: Our summer reading list is due in august. \"Our summer reading list is due in august.\" is not correct because \"august.\" should be capitalized as \"August.\".",
+              "Not: Our summer reading list is due in august. \"Our summer reading list is due in august.\" is not correct because \"august\" should be capitalized as \"August\".",
               "Not: Our Summer reading list is due in August. \"Our Summer reading list is due in August.\" is not correct because \"Summer\" should stay lowercase as \"summer\".",
               ""
             ]
@@ -3476,8 +3476,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0015",
-          "version": 2,
-          "contentHash": "sha256:2422dec9d752b57f63b5b6362f8939744a2689e64c937e7a81275c6effeca224",
+          "version": 3,
+          "contentHash": "sha256:cb13f1c8e00fa14a21f1f84687d7ccfa21d6c818ee6eac2e6f3c6b72d3d8e7d2",
           "question": "Which sentence is edited correctly?",
           "choices": [
             "The Concert moved to Friday because Christmas eve is Thursday.",
@@ -3490,7 +3490,7 @@
             "correct": "Answer: The concert moved to Friday because Christmas Eve is Thursday. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The concert moved to Friday because Christmas Eve is Thursday.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The Concert moved to Friday because Christmas eve is Thursday. \"The Concert moved to Friday because Christmas eve is Thursday.\" is not correct because \"Concert\" should stay lowercase as \"concert\" and \"eve\" should be capitalized as \"Eve\".",
-              "Not: The concert moved to Friday because christmas Eve is thursday. \"The concert moved to Friday because christmas Eve is thursday.\" is not correct because \"christmas\" should be capitalized as \"Christmas\" and \"thursday.\" should be capitalized as \"Thursday.\".",
+              "Not: The concert moved to Friday because christmas Eve is thursday. \"The concert moved to Friday because christmas Eve is thursday.\" is not correct because \"christmas\" should be capitalized as \"Christmas\" and \"thursday\" should be capitalized as \"Thursday\".",
               "",
               "Not: The concert moved to friday because Christmas Eve is Thursday. \"The concert moved to friday because Christmas Eve is Thursday.\" is not correct because \"friday\" should be capitalized as \"Friday\"."
             ]
@@ -3766,8 +3766,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0020",
-          "version": 2,
-          "contentHash": "sha256:6985fce3e1ce58756e0ce2625e1011a289e9abb52ac95050212786a2ef12b3db",
+          "version": 3,
+          "contentHash": "sha256:a174290aef8f7f92cbafcdaddfa6ebeb5ae55ce31b7b6e66dd56a4f4ca32aece",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "Hanukkah begins on the last saturday in November.",
@@ -3782,7 +3782,7 @@
               "Not: Hanukkah begins on the last saturday in November. \"Hanukkah begins on the last saturday in November.\" does not match the capitalization pattern required by the sentence or title.",
               "Not: Hanukkah begins on the last Saturday in november. \"Hanukkah begins on the last Saturday in november.\" does not match the capitalization pattern required by the sentence or title.",
               "",
-              "Not: The last Saturday in November is the startof hanukkah. \"The last Saturday in November is the startof hanukkah.\" is not correct because \"hanukkah.\" should be capitalized as \"Hanukkah.\"."
+              "Not: The last Saturday in November is the startof hanukkah. \"The last Saturday in November is the startof hanukkah.\" is not correct because \"hanukkah\" should be capitalized as \"Hanukkah\"."
             ]
           },
           "metadata": {
@@ -4506,8 +4506,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0002",
-          "version": 2,
-          "contentHash": "sha256:0eeaa0f4e420e6a95d0b25672c8ffca9244b93a716c2ea7d2dbb94694fa57cee",
+          "version": 3,
+          "contentHash": "sha256:0ee46ab8864916f7130e31e21fd777fb51e9e2fdc838474405ed9db7e335b793",
           "question": "Which sentence correctly capitalizes a book title?",
           "choices": [
             "We read The Tale Of Despereaux after lunch.",
@@ -4520,7 +4520,7 @@
             "correct": "Answer: We read The Tale of Despereaux after lunch. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We read The Tale of Despereaux after lunch.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: We read The Tale Of Despereaux after lunch. \"We read The Tale Of Despereaux after lunch.\" is not correct because \"Of\" should stay lowercase as \"of\".",
-              "Not: We read the Tale of Despereaux after Lunch. \"We read the Tale of Despereaux after Lunch.\" is not correct because \"the\" should be capitalized as \"The\" and \"Lunch.\" should stay lowercase as \"lunch.\".",
+              "Not: We read the Tale of Despereaux after Lunch. \"We read the Tale of Despereaux after Lunch.\" is not correct because \"the\" should be capitalized as \"The\" and \"Lunch\" should stay lowercase as \"lunch\".",
               "Not: We read The tale of Despereaux after lunch. \"We read The tale of Despereaux after lunch.\" is not correct because \"tale\" should be capitalized as \"Tale\".",
               ""
             ]
@@ -4620,8 +4620,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0004",
-          "version": 2,
-          "contentHash": "sha256:0c9eeb96d8f0dcf735a949d8b3da99aed7e2f56712e8809a77db39347c45aaf7",
+          "version": 3,
+          "contentHash": "sha256:95de81deb9619c6b7b8b2797863357a621a2db31427611c8584b357dcf8272b6",
           "question": "Which magazine title and sentence are capitalized correctly?",
           "choices": [
             "My article appeared in national Geographic kids.",
@@ -4633,7 +4633,7 @@
           "explanation": {
             "correct": "Answer: My article appeared in National Geographic Kids. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"My article appeared in National Geographic Kids.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: My article appeared in national Geographic kids. \"My article appeared in national Geographic kids.\" is not correct because \"national\" should be capitalized as \"National\" and \"kids.\" should be capitalized as \"Kids.\".",
+              "Not: My article appeared in national Geographic kids. \"My article appeared in national Geographic kids.\" is not correct because \"national\" should be capitalized as \"National\" and \"kids\" should be capitalized as \"Kids\".",
               "",
               "Not: My Article appeared in National Geographic Kids. \"My Article appeared in National Geographic Kids.\" is not correct because \"Article\" should stay lowercase as \"article\".",
               "Not: My article appeared in National geographic Kids. \"My article appeared in National geographic Kids.\" is not correct because \"geographic\" should be capitalized as \"Geographic\"."
@@ -4734,8 +4734,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0006",
-          "version": 2,
-          "contentHash": "sha256:03765fdfc91f1ee3d2c2d7d4a09015076c08b1e85af69ea9b1d678d9ea6f5db0",
+          "version": 3,
+          "contentHash": "sha256:c4981a873a5b537e7b5b1cfb995320560ab09783795f642cad1c5e8d7d40be13",
           "question": "Which sentence correctly capitalizes a poem title?",
           "choices": [
             "We discussed \"Stopping By Woods On A Snowy Evening.\"",
@@ -4745,11 +4745,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: We discussed \"Stopping by Woods on a Snowy Evening.\" Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We discussed \"Stopping by Woods on a Snowy Evening.\"\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: We discussed \"Stopping by Woods on a Snowy Evening.\" Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. 'We discussed \"Stopping by Woods on a Snowy Evening.\"' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: We discussed \"Stopping By Woods On A Snowy Evening.\" \"We discussed \"Stopping By Woods On A Snowy Evening.\"\" is not correct because \"By\" should stay lowercase as \"by\" and \"On\" should stay lowercase as \"on\".",
-              "Not: We discussed \"stopping by Woods on a Snowy Evening.\" \"We discussed \"stopping by Woods on a Snowy Evening.\"\" is not correct because \"stopping\" should be capitalized as \"Stopping\".",
-              "Not: We Discussed \"Stopping by Woods on a Snowy Evening.\" \"We Discussed \"Stopping by Woods on a Snowy Evening.\"\" is not correct because \"Discussed\" should stay lowercase as \"discussed\".",
+              "Not: We discussed \"Stopping By Woods On A Snowy Evening.\" 'We discussed \"Stopping By Woods On A Snowy Evening.\"' is not correct because \"By\" should stay lowercase as \"by\" and \"On\" should stay lowercase as \"on\".",
+              "Not: We discussed \"stopping by Woods on a Snowy Evening.\" 'We discussed \"stopping by Woods on a Snowy Evening.\"' is not correct because \"stopping\" should be capitalized as \"Stopping\".",
+              "Not: We Discussed \"Stopping by Woods on a Snowy Evening.\" 'We Discussed \"Stopping by Woods on a Snowy Evening.\"' is not correct because \"Discussed\" should stay lowercase as \"discussed\".",
               ""
             ]
           },
@@ -4791,8 +4791,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0007",
-          "version": 2,
-          "contentHash": "sha256:daf0d6b2273559ffba314c54c96fed7fff4001acd9927221966e3637519abc1a",
+          "version": 3,
+          "contentHash": "sha256:318a506f2da3815437b2877f7663943b4b1c5e3982a251d6bc396840a2ddc4dc",
           "question": "Which title uses correct capitalization?",
           "choices": [
             "From the Mixed-up files of Mrs. Basil E. Frankweiler",
@@ -4805,7 +4805,7 @@
             "correct": "Answer: From the Mixed-Up Files of Mrs. Basil E. Frankweiler. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"From the Mixed-Up Files of Mrs. Basil E. Frankweiler\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: From the Mixed-up files of Mrs. Basil E. Frankweiler. \"From the Mixed-up files of Mrs. Basil E. Frankweiler\" is not correct because \"files\" should be capitalized as \"Files\".",
-              "Not: From the Mixed-Up Files of mrs. Basil E. Frankweiler. \"From the Mixed-Up Files of mrs. Basil E. Frankweiler\" is not correct because \"mrs.\" should be capitalized as \"Mrs.\".",
+              "Not: From the Mixed-Up Files of mrs. Basil E. Frankweiler. \"From the Mixed-Up Files of mrs. Basil E. Frankweiler\" is not correct because \"mrs\" should be capitalized as \"Mrs\".",
               "",
               "Not: From The Mixed-Up Files Of Mrs. Basil E. Frankweiler. \"From The Mixed-Up Files Of Mrs. Basil E. Frankweiler\" is not correct because \"The\" should stay lowercase as \"the\" and \"Of\" should stay lowercase as \"of\"."
             ]
@@ -4848,8 +4848,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0008",
-          "version": 2,
-          "contentHash": "sha256:edd4ed4b54cd14e7893ee835cfed3c57b5105221cc7c7a436382042b6a7b611e",
+          "version": 3,
+          "contentHash": "sha256:41c8d366d254d0098be5a279b3f28b7b77198e1953aa005927faee98c005514f",
           "question": "Which sentence is correct?",
           "choices": [
             "The class sang \"This land Is Your land\" at the assembly.",
@@ -4859,12 +4859,12 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: The class sang \"This Land Is Your Land\" at the assembly. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The class sang \"This Land Is Your Land\" at the assembly.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: The class sang \"This Land Is Your Land\" at the assembly. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. 'The class sang \"This Land Is Your Land\" at the assembly.' follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: The class sang \"This land Is Your land\" at the assembly. \"The class sang \"This land Is Your land\" at the assembly.\" is not correct because \"land\" should be capitalized as \"Land\" and \"land\" should be capitalized as \"Land\".",
+              "Not: The class sang \"This land Is Your land\" at the assembly. 'The class sang \"This land Is Your land\" at the assembly.' is not correct because \"land\" should be capitalized as \"Land\" and \"land\" should be capitalized as \"Land\".",
               "",
-              "Not: The class sang \"This Land is Your Land\" at the assembly. \"The class sang \"This Land is Your Land\" at the assembly.\" is not correct because \"is\" should be capitalized as \"Is\".",
-              "Not: The Class sang \"This Land Is Your Land\" at the Assembly. \"The Class sang \"This Land Is Your Land\" at the Assembly.\" is not correct because \"Class\" should stay lowercase as \"class\" and \"Assembly.\" should stay lowercase as \"assembly.\"."
+              "Not: The class sang \"This Land is Your Land\" at the assembly. 'The class sang \"This Land is Your Land\" at the assembly.' is not correct because \"is\" should be capitalized as \"Is\".",
+              "Not: The Class sang \"This Land Is Your Land\" at the Assembly. 'The Class sang \"This Land Is Your Land\" at the Assembly.' is not correct because \"Class\" should stay lowercase as \"class\" and \"Assembly\" should stay lowercase as \"assembly\"."
             ]
           },
           "studyAid": {
@@ -4962,8 +4962,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0010",
-          "version": 2,
-          "contentHash": "sha256:5a9f2f3d7d50a071b07773ef4d59a00cea5db08e3205210686d649f094a46e43",
+          "version": 3,
+          "contentHash": "sha256:68e88baf40b4c313a77c4df15e7b7a73cee9eb610771ffc00b7431b94a75a70b",
           "question": "Which sentence correctly capitalizes a newspaper name?",
           "choices": [
             "Dad reads the New York times every Sunday.",
@@ -4977,7 +4977,7 @@
             "incorrect": [
               "Not: Dad reads the New York times every Sunday. \"Dad reads the New York times every Sunday.\" is not correct because \"the\" should be capitalized as \"The\" and \"times\" should be capitalized as \"Times\".",
               "Not: Dad Reads The New York Times every Sunday. \"Dad Reads The New York Times every Sunday.\" is not correct because \"Reads\" should stay lowercase as \"reads\".",
-              "Not: Dad reads The New York times every sunday. \"Dad reads The New York times every sunday.\" is not correct because \"times\" should be capitalized as \"Times\" and \"sunday.\" should be capitalized as \"Sunday.\".",
+              "Not: Dad reads The New York times every sunday. \"Dad reads The New York times every sunday.\" is not correct because \"times\" should be capitalized as \"Times\" and \"sunday\" should be capitalized as \"Sunday\".",
               ""
             ]
           },
@@ -5076,8 +5076,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0012",
-          "version": 2,
-          "contentHash": "sha256:19207a7414cecdb95b76eef671dd1c4902ec7b82df4076af4d92aef2a18a2bce",
+          "version": 3,
+          "contentHash": "sha256:d39d7380c7534512d768550d137936d4098d9bd0c541769bd41a7ea9b83832c7",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "We watched the Phantom Tollbooth before dinner.",
@@ -5092,7 +5092,7 @@
               "Not: We watched the Phantom Tollbooth before dinner. \"We watched the Phantom Tollbooth before dinner.\" is not correct because \"the\" should be capitalized as \"The\".",
               "",
               "Not: We Watched The Phantom Tollbooth before dinner. \"We Watched The Phantom Tollbooth before dinner.\" is not correct because \"Watched\" should stay lowercase as \"watched\".",
-              "Not: We watched The Phantom tollbooth before Dinner. \"We watched The Phantom tollbooth before Dinner.\" is not correct because \"tollbooth\" should be capitalized as \"Tollbooth\" and \"Dinner.\" should stay lowercase as \"dinner.\"."
+              "Not: We watched The Phantom tollbooth before Dinner. \"We watched The Phantom tollbooth before Dinner.\" is not correct because \"tollbooth\" should be capitalized as \"Tollbooth\" and \"Dinner\" should stay lowercase as \"dinner\"."
             ]
           },
           "studyAid": {
@@ -5190,8 +5190,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0014",
-          "version": 2,
-          "contentHash": "sha256:00f8922fc1e7fd426ea7a46f3d9326298149167acd70047eae0700ded7973b43",
+          "version": 3,
+          "contentHash": "sha256:98bcb36158cfbeb35bb907c99b3538145c4d71566258c780af98bcb03f558aa9",
           "question": "Which option correctly capitalizes both a title and a proper noun?",
           "choices": [
             "Maya borrowed The Cricket In Times Square from the library.",
@@ -5204,7 +5204,7 @@
             "correct": "Answer: Maya borrowed The Cricket in Times Square from the library. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Maya borrowed The Cricket in Times Square from the library.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Maya borrowed The Cricket In Times Square from the library. \"Maya borrowed The Cricket In Times Square from the library.\" is not correct because \"In\" should stay lowercase as \"in\".",
-              "Not: maya borrowed The Cricket in Times Square from the Library. \"maya borrowed The Cricket in Times Square from the Library.\" is not correct because \"maya\" should be capitalized as \"Maya\" and \"Library.\" should stay lowercase as \"library.\".",
+              "Not: maya borrowed The Cricket in Times Square from the Library. \"maya borrowed The Cricket in Times Square from the Library.\" is not correct because \"maya\" should be capitalized as \"Maya\" and \"Library\" should stay lowercase as \"library\".",
               "Not: Maya borrowed The cricket in Times Square from the library. \"Maya borrowed The cricket in Times Square from the library.\" is not correct because \"cricket\" should be capitalized as \"Cricket\".",
               ""
             ]
@@ -5729,8 +5729,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0002",
-          "version": 2,
-          "contentHash": "sha256:40566941e323392dc6f42a302e6a2f0b6ee2b1df6175765884c579de98f639c0",
+          "version": 3,
+          "contentHash": "sha256:f6462c33f963a4a354fb4d0f0dbdf2cea8eb8f73beb1c2a0ff5735bf867adaea",
           "question": "Which sentence correctly handles a title before a name and a common job title?",
           "choices": [
             "mayor Chen thanked the Mayor's assistant.",
@@ -5743,7 +5743,7 @@
             "correct": "Answer: Mayor Chen thanked the mayor's assistant. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Mayor Chen thanked the mayor's assistant.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: mayor Chen thanked the Mayor's assistant. \"mayor Chen thanked the Mayor's assistant.\" is not correct because \"mayor\" should be capitalized as \"Mayor\" and \"Mayor's\" should stay lowercase as \"mayor's\".",
-              "Not: Mayor Chen thanked the Mayor's Assistant. \"Mayor Chen thanked the Mayor's Assistant.\" is not correct because \"Mayor's\" should stay lowercase as \"mayor's\" and \"Assistant.\" should stay lowercase as \"assistant.\".",
+              "Not: Mayor Chen thanked the Mayor's Assistant. \"Mayor Chen thanked the Mayor's Assistant.\" is not correct because \"Mayor's\" should stay lowercase as \"mayor's\" and \"Assistant\" should stay lowercase as \"assistant\".",
               "Not: The mayor Chen thanked the mayor's assistant. \"The mayor Chen thanked the mayor's assistant.\" does not match the capitalization pattern required by the sentence or title.",
               ""
             ]
@@ -5843,8 +5843,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0004",
-          "version": 2,
-          "contentHash": "sha256:ef711f98be87bbc583e22be9c0132a35192e54f2bf0b1452ae63fd317aefd2fc",
+          "version": 3,
+          "contentHash": "sha256:7183e1a7ae4c27e5c3d3609b7d55132ac79f7dd4270f9d5343f39be6bb13e263",
           "question": "Which sentence capitalizes a school title correctly?",
           "choices": [
             "Principal gomez spoke to the principal after school.",
@@ -5859,7 +5859,7 @@
               "Not: Principal gomez spoke to the principal after school. \"Principal gomez spoke to the principal after school.\" is not correct because \"gomez\" should be capitalized as \"Gomez\".",
               "",
               "Not: principal Gomez spoke to the Principal after school. \"principal Gomez spoke to the Principal after school.\" is not correct because \"principal\" should be capitalized as \"Principal\" and \"Principal\" should stay lowercase as \"principal\".",
-              "Not: Principal Gomez spoke to the Principal after School. \"Principal Gomez spoke to the Principal after School.\" is not correct because \"Principal\" should stay lowercase as \"principal\" and \"School.\" should stay lowercase as \"school.\"."
+              "Not: Principal Gomez spoke to the Principal after School. \"Principal Gomez spoke to the Principal after School.\" is not correct because \"Principal\" should stay lowercase as \"principal\" and \"School\" should stay lowercase as \"school\"."
             ]
           },
           "studyAid": {
@@ -5900,8 +5900,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0005",
-          "version": 2,
-          "contentHash": "sha256:0661fe537421022b5554293bd57d96da205dd1490804fcefb1532696c6cb26b9",
+          "version": 3,
+          "contentHash": "sha256:689b91f602e2bcb0dd65ba5d511e50114e2bdd65ef4bdf16f0e42506e39a7467",
           "question": "Which sentence correctly capitalizes a person's name but not a relationship word?",
           "choices": [
             "My cousin Elena called Grandpa after practice.",
@@ -5915,7 +5915,7 @@
             "incorrect": [
               "",
               "Not: My Cousin Elena called grandpa after practice. \"My Cousin Elena called grandpa after practice.\" is not correct because \"Cousin\" should stay lowercase as \"cousin\" and \"grandpa\" should be capitalized as \"Grandpa\".",
-              "Not: My cousin elena called Grandpa after Practice. \"My cousin elena called Grandpa after Practice.\" is not correct because \"elena\" should be capitalized as \"Elena\" and \"Practice.\" should stay lowercase as \"practice.\".",
+              "Not: My cousin elena called Grandpa after Practice. \"My cousin elena called Grandpa after Practice.\" is not correct because \"elena\" should be capitalized as \"Elena\" and \"Practice\" should stay lowercase as \"practice\".",
               "Not: My Cousin Elena called Grandpa after practice. \"My Cousin Elena called Grandpa after practice.\" is not correct because \"Cousin\" should stay lowercase as \"cousin\"."
             ]
           },
@@ -5957,8 +5957,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0006",
-          "version": 2,
-          "contentHash": "sha256:528431d0711e91eebef65d51680224b1fbd8f5dcd05687adcd11ad9a47f2f3d2",
+          "version": 3,
+          "contentHash": "sha256:e249213be2227fff0e143e9ee7748244b46241f74d2c4b3d5cbca60c291862a7",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "coach Rivera said the Coach would arrive early.",
@@ -5971,7 +5971,7 @@
             "correct": "Answer: Coach Rivera said the coach would arrive early. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Coach Rivera said the coach would arrive early.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: coach Rivera said the Coach would arrive early. \"coach Rivera said the Coach would arrive early.\" is not correct because \"coach\" should be capitalized as \"Coach\" and \"Coach\" should stay lowercase as \"coach\".",
-              "Not: Coach Rivera said the Coach would arrive Early. \"Coach Rivera said the Coach would arrive Early.\" is not correct because \"Coach\" should stay lowercase as \"coach\" and \"Early.\" should stay lowercase as \"early.\".",
+              "Not: Coach Rivera said the Coach would arrive Early. \"Coach Rivera said the Coach would arrive Early.\" is not correct because \"Coach\" should stay lowercase as \"coach\" and \"Early\" should stay lowercase as \"early\".",
               "Not: Coach rivera said the coach would arrive early. \"Coach rivera said the coach would arrive early.\" is not correct because \"rivera\" should be capitalized as \"Rivera\".",
               ""
             ]
@@ -6071,8 +6071,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0008",
-          "version": 2,
-          "contentHash": "sha256:15d0566caada33f669569dc15bbec29224548ba9fb2d59a3050875809d6aa335",
+          "version": 3,
+          "contentHash": "sha256:8fa7191ce86935675f45cf819d44471abdcb23df4aea8f6655d76bf7951dd427",
           "question": "Which sentence is correct?",
           "choices": [
             "Dr. Patel and the Doctor reviewed the Chart.",
@@ -6084,9 +6084,9 @@
           "explanation": {
             "correct": "Answer: Dr. Patel and the doctor reviewed the chart. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Dr. Patel and the doctor reviewed the chart.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: Dr. Patel and the Doctor reviewed the Chart. \"Dr. Patel and the Doctor reviewed the Chart.\" is not correct because \"Doctor\" should stay lowercase as \"doctor\" and \"Chart.\" should stay lowercase as \"chart.\".",
+              "Not: Dr. Patel and the Doctor reviewed the Chart. \"Dr. Patel and the Doctor reviewed the Chart.\" is not correct because \"Doctor\" should stay lowercase as \"doctor\" and \"Chart\" should stay lowercase as \"chart\".",
               "",
-              "Not: dr. Patel and the Doctor reviewed the chart. \"dr. Patel and the Doctor reviewed the chart.\" is not correct because \"dr.\" should be capitalized as \"Dr.\" and \"Doctor\" should stay lowercase as \"doctor\".",
+              "Not: dr. Patel and the Doctor reviewed the chart. \"dr. Patel and the Doctor reviewed the chart.\" is not correct because \"dr\" should be capitalized as \"Dr\" and \"Doctor\" should stay lowercase as \"doctor\".",
               "Not: Dr. patel and the doctor reviewed the chart. \"Dr. patel and the doctor reviewed the chart.\" is not correct because \"patel\" should be capitalized as \"Patel\"."
             ]
           },
@@ -6128,8 +6128,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0009",
-          "version": 2,
-          "contentHash": "sha256:78f9667f4ca6900cb1ea3aa745b7da953ef6c4aec1a81a804e9e5dd9d814911c",
+          "version": 3,
+          "contentHash": "sha256:9ffe8c47c04ef6ce427a33fde1378d5d3fe777e14df3b0ec072b5a4661c8eacb",
           "question": "Which option correctly capitalizes a royal title?",
           "choices": [
             "Queen Elizabeth visited the queen's garden.",
@@ -6143,7 +6143,7 @@
             "incorrect": [
               "",
               "Not: queen Elizabeth visited the Queen's garden. \"queen Elizabeth visited the Queen's garden.\" is not correct because \"queen\" should be capitalized as \"Queen\" and \"Queen's\" should stay lowercase as \"queen's\".",
-              "Not: Queen Elizabeth visited the Queen's Garden. \"Queen Elizabeth visited the Queen's Garden.\" is not correct because \"Queen's\" should stay lowercase as \"queen's\" and \"Garden.\" should stay lowercase as \"garden.\".",
+              "Not: Queen Elizabeth visited the Queen's Garden. \"Queen Elizabeth visited the Queen's Garden.\" is not correct because \"Queen's\" should stay lowercase as \"queen's\" and \"Garden\" should stay lowercase as \"garden\".",
               "Not: Queen elizabeth visited the queen's garden. \"Queen elizabeth visited the queen's garden.\" is not correct because \"elizabeth\" should be capitalized as \"Elizabeth\"."
             ]
           },
@@ -6185,8 +6185,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0010",
-          "version": 2,
-          "contentHash": "sha256:bf6635f4e11e0aaf1ed8d262b990423b9911b0dd8b7a94a5e8d77253d4249139",
+          "version": 3,
+          "contentHash": "sha256:12f0ec9b3423233f5395a33a6154ca59aa5e46cf469c6d98d54d18ff8919ed88",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "My Sister, Naomi, sat beside aunt Lee.",
@@ -6200,7 +6200,7 @@
             "incorrect": [
               "Not: My Sister, Naomi, sat beside aunt Lee. \"My Sister, Naomi, sat beside aunt Lee.\" is not correct because \"Sister\" should stay lowercase as \"sister\" and \"aunt\" should be capitalized as \"Aunt\".",
               "Not: My sister, naomi, sat beside Aunt Lee. \"My sister, naomi, sat beside Aunt Lee.\" is not correct because \"naomi\" should be capitalized as \"Naomi\".",
-              "Not: My Sister, Naomi, sat beside Aunt lee. \"My Sister, Naomi, sat beside Aunt lee.\" is not correct because \"Sister\" should stay lowercase as \"sister\" and \"lee.\" should be capitalized as \"Lee.\".",
+              "Not: My Sister, Naomi, sat beside Aunt lee. \"My Sister, Naomi, sat beside Aunt lee.\" is not correct because \"Sister\" should stay lowercase as \"sister\" and \"lee\" should be capitalized as \"Lee\".",
               ""
             ]
           },
@@ -6299,8 +6299,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0012",
-          "version": 2,
-          "contentHash": "sha256:a807fe91ac0d76ca591fbcb412749a513ce96735e6d96173c12f7502be7096d9",
+          "version": 3,
+          "contentHash": "sha256:6ebae5ef475ff2e82fa39e1bd1dbef7b48d3706b55a0ab1e82d319603a7dcedc",
           "question": "Which sentence is correct?",
           "choices": [
             "my dad asked Dad to save him a seat.",
@@ -6315,7 +6315,7 @@
               "Not: my dad asked Dad to save him a seat. \"my dad asked Dad to save him a seat.\" is not correct because \"my\" should be capitalized as \"My\".",
               "",
               "Not: My Dad asked dad to save him a seat. \"My Dad asked dad to save him a seat.\" is not correct because \"Dad\" should stay lowercase as \"dad\" and \"dad\" should be capitalized as \"Dad\".",
-              "Not: My Dad asked Dad to save him a Seat. \"My Dad asked Dad to save him a Seat.\" is not correct because \"Dad\" should stay lowercase as \"dad\" and \"Seat.\" should stay lowercase as \"seat.\"."
+              "Not: My Dad asked Dad to save him a Seat. \"My Dad asked Dad to save him a Seat.\" is not correct because \"Dad\" should stay lowercase as \"dad\" and \"Seat\" should stay lowercase as \"seat\"."
             ]
           },
           "studyAid": {
@@ -6413,8 +6413,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0014",
-          "version": 2,
-          "contentHash": "sha256:0587b016d9f8b03ebbdb82035fbbdb7e2730d192f5cabee46a56ea99cbf458ed",
+          "version": 3,
+          "contentHash": "sha256:e0b46a408946e5c4e0f2f4e1f331ab122fb2f7d2e00ddcd1e865d0bd118dff31",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "professor Nguyen emailed the Professor after class.",
@@ -6427,7 +6427,7 @@
             "correct": "Answer: Professor Nguyen emailed the professor after class. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Professor Nguyen emailed the professor after class.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: professor Nguyen emailed the Professor after class. \"professor Nguyen emailed the Professor after class.\" is not correct because \"professor\" should be capitalized as \"Professor\" and \"Professor\" should stay lowercase as \"professor\".",
-              "Not: Professor Nguyen emailed the Professor after Class. \"Professor Nguyen emailed the Professor after Class.\" is not correct because \"Professor\" should stay lowercase as \"professor\" and \"Class.\" should stay lowercase as \"class.\".",
+              "Not: Professor Nguyen emailed the Professor after Class. \"Professor Nguyen emailed the Professor after Class.\" is not correct because \"Professor\" should stay lowercase as \"professor\" and \"Class\" should stay lowercase as \"class\".",
               "Not: Professor nguyen emailed the professor after class. \"Professor nguyen emailed the professor after class.\" is not correct because \"nguyen\" should be capitalized as \"Nguyen\".",
               ""
             ]
@@ -6701,8 +6701,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0019",
-          "version": 2,
-          "contentHash": "sha256:2de0f1223bb86353c731065815b3c352969c644add93ab29ec92897ed7c5134e",
+          "version": 3,
+          "contentHash": "sha256:d91e5e0bffa1ee84eee2bc5650c9fdcd9099bc25c7c154309e8842aeb9ef133a",
           "question": "Which sentence has words capitalized correctly?",
           "choices": [
             "We live at 1670 oak street.",
@@ -6714,8 +6714,8 @@
           "explanation": {
             "correct": "Answer: We live at 1670 Oak Street. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We live at 1670 Oak Street.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: We live at 1670 oak street. \"We live at 1670 oak street.\" is not correct because \"oak\" should be capitalized as \"Oak\" and \"street.\" should be capitalized as \"Street.\".",
-              "Not: We live at 1670 Oak street. \"We live at 1670 Oak street.\" is not correct because \"street.\" should be capitalized as \"Street.\".",
+              "Not: We live at 1670 oak street. \"We live at 1670 oak street.\" is not correct because \"oak\" should be capitalized as \"Oak\" and \"street\" should be capitalized as \"Street\".",
+              "Not: We live at 1670 Oak street. \"We live at 1670 Oak street.\" is not correct because \"street\" should be capitalized as \"Street\".",
               "",
               "Not: We live at 1670 oak Street. \"We live at 1670 oak Street.\" is not correct because \"oak\" should be capitalized as \"Oak\"."
             ]
@@ -8329,8 +8329,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0047",
-          "version": 2,
-          "contentHash": "sha256:bcfd710d282eeb637c5c1419d1d196efd57ffc77198e9385093a5646c8f011e1",
+          "version": 3,
+          "contentHash": "sha256:13c385ce884fac8c45f4c946e87f84b9d61b727b8954caf8fde579548a4e0762",
           "question": "Which sentence has words capitalized correctly?",
           "choices": [
             "Our new address is 6405 Heather Glenn Lane.",
@@ -8344,8 +8344,8 @@
             "incorrect": [
               "",
               "Not: Our new address is 6405 heather glenn lane. \"Our new address is 6405 heather glenn lane.\" is not correct because \"heather\" should be capitalized as \"Heather\" and \"glenn\" should be capitalized as \"Glenn\".",
-              "Not: Our new address is 6405 Heather glenn lane. \"Our new address is 6405 Heather glenn lane.\" is not correct because \"glenn\" should be capitalized as \"Glenn\" and \"lane.\" should be capitalized as \"Lane.\".",
-              "Not: Our new address is 6405 Heather Glenn lane. \"Our new address is 6405 Heather Glenn lane.\" is not correct because \"lane.\" should be capitalized as \"Lane.\"."
+              "Not: Our new address is 6405 Heather glenn lane. \"Our new address is 6405 Heather glenn lane.\" is not correct because \"glenn\" should be capitalized as \"Glenn\" and \"lane\" should be capitalized as \"Lane\".",
+              "Not: Our new address is 6405 Heather Glenn lane. \"Our new address is 6405 Heather Glenn lane.\" is not correct because \"lane\" should be capitalized as \"Lane\"."
             ]
           },
           "metadata": {
@@ -8388,8 +8388,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0048",
-          "version": 2,
-          "contentHash": "sha256:239328b9d0601572583c7875c00c3b08da2172f139329467d7afa7c67792b997",
+          "version": 3,
+          "contentHash": "sha256:3664e798cee3ebd825acd7dceee7c3d4da505f634b92fff2b7efa486bff76fbc",
           "question": "Which sentence has a capital letter in the correct place?",
           "choices": [
             "cats like to purr.",
@@ -8404,7 +8404,7 @@
               "Not: cats like to purr. \"cats like to purr.\" is not correct because \"cats\" should be capitalized as \"Cats\".",
               "",
               "Not: cats Like to purr. \"cats Like to purr.\" is not correct because \"cats\" should be capitalized as \"Cats\" and \"Like\" should stay lowercase as \"like\".",
-              "Not: cats like to Purr. \"cats like to Purr.\" is not correct because \"cats\" should be capitalized as \"Cats\" and \"Purr.\" should stay lowercase as \"purr.\"."
+              "Not: cats like to Purr. \"cats like to Purr.\" is not correct because \"cats\" should be capitalized as \"Cats\" and \"Purr\" should stay lowercase as \"purr\"."
             ]
           },
           "metadata": {
@@ -8978,8 +8978,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0058",
-          "version": 2,
-          "contentHash": "sha256:c158572a1af8dbe89a58eec65d4fa6459f5694ca9696db500d3bf91aa184e56c",
+          "version": 3,
+          "contentHash": "sha256:dc79ab1726c50a1b91b964afc901a892b1aede16c5603e80066ce966119b5cbf",
           "question": "When would you use formal language in writing?",
           "choices": [
             "in formational essay, research paper, business lett er",
@@ -8989,7 +8989,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: in formational essay, research paper, business lett er. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"in formational essay, research paper, business lett er\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: in formational essay, research paper, business lett er. Rule or clue: Formal tone uses respectful, clear wording and avoids slang or overly casual language. \"in formational essay, research paper, business lett er\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: recipe, thank you note, grocery list. \"recipe, thank you note, grocery list\" does not match the capitalization pattern required by the sentence or title.",
@@ -9393,8 +9393,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0099",
-          "version": 2,
-          "contentHash": "sha256:8057ad538ea37ea59f9dd1dce895883a0d759d5986f484e9e0e9aa92577d7131",
+          "version": 3,
+          "contentHash": "sha256:d94d42ca5bc0b02e1fff6d3deda458f27af83afffc57f01ba7ee3f92d2b429be",
           "question": "Correctly capitalize the underlined portion of the below address. dr. m. michael jarvis 161 east victory street abilene, tx 79601",
           "choices": [
             "D R. M. Michael Jarvis",
@@ -9409,7 +9409,7 @@
               "Not: D R. M. Michael Jarvis. \"D R. M. Michael Jarvis\" does not match the capitalization pattern required by the sentence or title.",
               "",
               "Not: Dr. M. michael jarvis. \"Dr. M. michael jarvis\" is not correct because \"michael\" should be capitalized as \"Michael\" and \"jarvis\" should be capitalized as \"Jarvis\".",
-              "Not: Dr. m. Michael Jarvis. \"Dr. m. Michael Jarvis\" is not correct because \"m.\" should be capitalized as \"M.\"."
+              "Not: Dr. m. Michael Jarvis. \"Dr. m. Michael Jarvis\" is not correct because \"m\" should be capitalized as \"M\"."
             ]
           },
           "studyAid": {
@@ -9596,8 +9596,8 @@
       "questions": [
         {
           "id": "capitalization-names-of-places-q0001",
-          "version": 2,
-          "contentHash": "sha256:e454e8ee5aabea1c7a4f40787c2ac481fa22596e807e525b390a390640d5167d",
+          "version": 3,
+          "contentHash": "sha256:79fd97628c1b76b1b5ab03abd4d750ad0d0f488018ff79a2b5f7698c51ba19db",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "We crossed the Hudson River and rested by the river.",
@@ -9610,7 +9610,7 @@
             "correct": "Answer: We crossed the Hudson River and rested by the river. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We crossed the Hudson River and rested by the river.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
-              "Not: We crossed the Hudson river and rested by the River. \"We crossed the Hudson river and rested by the River.\" is not correct because \"river\" should be capitalized as \"River\" and \"River.\" should stay lowercase as \"river.\".",
+              "Not: We crossed the Hudson river and rested by the River. \"We crossed the Hudson river and rested by the River.\" is not correct because \"river\" should be capitalized as \"River\" and \"River\" should stay lowercase as \"river\".",
               "Not: We crossed the hudson River and rested by the river. \"We crossed the hudson River and rested by the river.\" is not correct because \"hudson\" should be capitalized as \"Hudson\".",
               "Not: We crossed The Hudson River and rested by the river. \"We crossed The Hudson River and rested by the river.\" is not correct because \"The\" should stay lowercase as \"the\"."
             ]
@@ -9653,8 +9653,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0002",
-          "version": 2,
-          "contentHash": "sha256:076d527038cb48659d85b941131cb76e4270720db1e59a101d5b805fe52c18bd",
+          "version": 3,
+          "contentHash": "sha256:b6ea500a6da4468b502083d28f4d7df1dc3638fa21d1edd5aec44a25397c82c0",
           "question": "Which sentence correctly treats a street name and a common noun?",
           "choices": [
             "The bakery is on Maple street, near a busy Street.",
@@ -9666,7 +9666,7 @@
           "explanation": {
             "correct": "Answer: The bakery is on Maple Street, near a busy street. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The bakery is on Maple Street, near a busy street.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: The bakery is on Maple street, near a busy Street. \"The bakery is on Maple street, near a busy Street.\" is not correct because \"street\" should be capitalized as \"Street\" and \"Street.\" should stay lowercase as \"street.\".",
+              "Not: The bakery is on Maple street, near a busy Street. \"The bakery is on Maple street, near a busy Street.\" is not correct because \"street\" should be capitalized as \"Street\" and \"Street\" should stay lowercase as \"street\".",
               "Not: The Bakery is on Maple Street, near a busy street. \"The Bakery is on Maple Street, near a busy street.\" is not correct because \"Bakery\" should stay lowercase as \"bakery\".",
               "Not: The bakery is on maple Street, near a busy street. \"The bakery is on maple Street, near a busy street.\" is not correct because \"maple\" should be capitalized as \"Maple\".",
               ""
@@ -9710,8 +9710,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0003",
-          "version": 2,
-          "contentHash": "sha256:f19726bc7524cc654fc8956f5d82d3989403d3a5a0f748e09bf1950b4a497ea8",
+          "version": 3,
+          "contentHash": "sha256:3ca3ea3620c7a4f0549fcdd68e8acbc85899a7e33e43b72cc3fdd3feb280e585",
           "question": "Which sentence is correct?",
           "choices": [
             "We visited the grand Canyon during our Trip.",
@@ -9723,7 +9723,7 @@
           "explanation": {
             "correct": "Answer: We visited the Grand Canyon during our trip. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We visited the Grand Canyon during our trip.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: We visited the grand Canyon during our Trip. \"We visited the grand Canyon during our Trip.\" is not correct because \"grand\" should be capitalized as \"Grand\" and \"Trip.\" should stay lowercase as \"trip.\".",
+              "Not: We visited the grand Canyon during our Trip. \"We visited the grand Canyon during our Trip.\" is not correct because \"grand\" should be capitalized as \"Grand\" and \"Trip\" should stay lowercase as \"trip\".",
               "Not: We visited the Grand canyon during our trip. \"We visited the Grand canyon during our trip.\" is not correct because \"canyon\" should be capitalized as \"Canyon\".",
               "",
               "Not: We visited The Grand Canyon during our trip. \"We visited The Grand Canyon during our trip.\" is not correct because \"The\" should stay lowercase as \"the\"."
@@ -9767,8 +9767,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0004",
-          "version": 2,
-          "contentHash": "sha256:8c140b36dea598f217bf1b33d6f7023726d7a0bc7969b1696df42d38ff8d6c5d",
+          "version": 3,
+          "contentHash": "sha256:b6708fee7e3067e9ce1b0f0a623a8a8dbc41cf7d71f84a24e30d746b8cf9c47f",
           "question": "Which sentence correctly capitalizes an official place name?",
           "choices": [
             "The class toured yellowstone National Park.",
@@ -9782,7 +9782,7 @@
             "incorrect": [
               "Not: The class toured yellowstone National Park. \"The class toured yellowstone National Park.\" is not correct because \"yellowstone\" should be capitalized as \"Yellowstone\".",
               "",
-              "Not: The class toured Yellowstone national park. \"The class toured Yellowstone national park.\" is not correct because \"national\" should be capitalized as \"National\" and \"park.\" should be capitalized as \"Park.\".",
+              "Not: The class toured Yellowstone national park. \"The class toured Yellowstone national park.\" is not correct because \"national\" should be capitalized as \"National\" and \"park\" should be capitalized as \"Park\".",
               "Not: The Class toured Yellowstone National Park. \"The Class toured Yellowstone National Park.\" is not correct because \"Class\" should stay lowercase as \"class\"."
             ]
           },
@@ -9824,8 +9824,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0005",
-          "version": 2,
-          "contentHash": "sha256:fab6acde51bbbe737f7257522590ed567fe9594a0367d044bc9749ced9ed7972",
+          "version": 3,
+          "contentHash": "sha256:705f67153d3e3119b72c5ca7416d9569b7ef7e4280fd9dd5dca5431ca4f6e694",
           "question": "Which sentence avoids overcapitalizing common place words?",
           "choices": [
             "We walked through the museum before visiting the Art Institute of Chicago.",
@@ -9840,7 +9840,7 @@
               "",
               "Not: We walked through the Museum before visiting the Art Institute of Chicago. \"We walked through the Museum before visiting the Art Institute of Chicago.\" is not correct because \"Museum\" should stay lowercase as \"museum\".",
               "Not: We walked through the museum before visiting the Art institute of Chicago. \"We walked through the museum before visiting the Art institute of Chicago.\" is not correct because \"institute\" should be capitalized as \"Institute\".",
-              "Not: We walked through the museum before visiting the art Institute of chicago. \"We walked through the museum before visiting the art Institute of chicago.\" is not correct because \"art\" should be capitalized as \"Art\" and \"chicago.\" should be capitalized as \"Chicago.\"."
+              "Not: We walked through the museum before visiting the art Institute of chicago. \"We walked through the museum before visiting the art Institute of chicago.\" is not correct because \"art\" should be capitalized as \"Art\" and \"chicago\" should be capitalized as \"Chicago\"."
             ]
           },
           "studyAid": {
@@ -9938,8 +9938,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0007",
-          "version": 2,
-          "contentHash": "sha256:14999d2718f7564d631d37f5edb74ce62b68ddfc8f3295757f97b8efb6ef9890",
+          "version": 3,
+          "contentHash": "sha256:ba3d265e0cc61e5d138bf2e16f0330200b91735cb5a766c6d94654d60aecf3f9",
           "question": "Which sentence correctly handles an ocean name?",
           "choices": [
             "The pacific Ocean is larger than any nearby ocean.",
@@ -9954,7 +9954,7 @@
               "Not: The pacific Ocean is larger than any nearby ocean. \"The pacific Ocean is larger than any nearby ocean.\" is not correct because \"pacific\" should be capitalized as \"Pacific\".",
               "Not: the Pacific Ocean is larger than any nearby ocean. \"the Pacific Ocean is larger than any nearby ocean.\" is not correct because \"the\" should be capitalized as \"The\".",
               "",
-              "Not: The Pacific ocean is larger than any nearby Ocean. \"The Pacific ocean is larger than any nearby Ocean.\" is not correct because \"ocean\" should be capitalized as \"Ocean\" and \"Ocean.\" should stay lowercase as \"ocean.\"."
+              "Not: The Pacific ocean is larger than any nearby Ocean. \"The Pacific ocean is larger than any nearby Ocean.\" is not correct because \"ocean\" should be capitalized as \"Ocean\" and \"Ocean\" should stay lowercase as \"ocean\"."
             ]
           },
           "studyAid": {
@@ -9995,8 +9995,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0008",
-          "version": 2,
-          "contentHash": "sha256:7b3d315c39cbba50602dc29c9e3e56327b23869f706bfc1ca66214aa4a9c4e68",
+          "version": 3,
+          "contentHash": "sha256:5296b65c206694276ba74b0cdbb0df3e5315228e4a6c753194f9ad4b39bf708f",
           "question": "Which sentence is correct?",
           "choices": [
             "We hiked Mount Rainier, then rested on a nearby Mountain.",
@@ -10008,9 +10008,9 @@
           "explanation": {
             "correct": "Answer: We hiked Mount Rainier, then rested on a nearby mountain. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We hiked Mount Rainier, then rested on a nearby mountain.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: We hiked Mount Rainier, then rested on a nearby Mountain. \"We hiked Mount Rainier, then rested on a nearby Mountain.\" is not correct because \"Mountain.\" should stay lowercase as \"mountain.\".",
+              "Not: We hiked Mount Rainier, then rested on a nearby Mountain. \"We hiked Mount Rainier, then rested on a nearby Mountain.\" is not correct because \"Mountain\" should stay lowercase as \"mountain\".",
               "",
-              "Not: We hiked mount Rainier, then rested on a nearby Mountain. \"We hiked mount Rainier, then rested on a nearby Mountain.\" is not correct because \"mount\" should be capitalized as \"Mount\" and \"Mountain.\" should stay lowercase as \"mountain.\".",
+              "Not: We hiked mount Rainier, then rested on a nearby Mountain. \"We hiked mount Rainier, then rested on a nearby Mountain.\" is not correct because \"mount\" should be capitalized as \"Mount\" and \"Mountain\" should stay lowercase as \"mountain\".",
               "Not: We hiked Mount rainier, then rested on a nearby mountain. \"We hiked Mount rainier, then rested on a nearby mountain.\" is not correct because \"rainier\" should be capitalized as \"Rainier\"."
             ]
           },
@@ -10052,8 +10052,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0009",
-          "version": 2,
-          "contentHash": "sha256:534b5e6f29c72d6b80d18ae27acb280716123dd59ebc14200e196dbd2f896116",
+          "version": 3,
+          "contentHash": "sha256:5468bed984ebdbe87961fe6fb840f3ef9c870ccf77f6b6c17af5ec37b67b0e04",
           "question": "Which sentence correctly capitalizes a place with an official article?",
           "choices": [
             "My cousin visited The Hague last summer.",
@@ -10067,7 +10067,7 @@
             "incorrect": [
               "",
               "Not: My cousin visited the Hague last summer. \"My cousin visited the Hague last summer.\" is not correct because \"the\" should be capitalized as \"The\".",
-              "Not: My Cousin visited The Hague last Summer. \"My Cousin visited The Hague last Summer.\" is not correct because \"Cousin\" should stay lowercase as \"cousin\" and \"Summer.\" should stay lowercase as \"summer.\".",
+              "Not: My Cousin visited The Hague last Summer. \"My Cousin visited The Hague last Summer.\" is not correct because \"Cousin\" should stay lowercase as \"cousin\" and \"Summer\" should stay lowercase as \"summer\".",
               "Not: My cousin visited The hague last summer. \"My cousin visited The hague last summer.\" is not correct because \"hague\" should be capitalized as \"Hague\"."
             ]
           },
@@ -10109,8 +10109,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0010",
-          "version": 2,
-          "contentHash": "sha256:9379fa2136d4a40174b68d93acece07c9c55f24cd9c817f05d01f53a39a24d06",
+          "version": 3,
+          "contentHash": "sha256:c1baab7171469d4bacea0b3d770f55931ece4a4fec38c93051a85e90e3a18da2",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "The train stopped in New York city before heading North.",
@@ -10122,7 +10122,7 @@
           "explanation": {
             "correct": "Answer: The train stopped in New York City before heading north. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The train stopped in New York City before heading north.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: The train stopped in New York city before heading North. \"The train stopped in New York city before heading North.\" is not correct because \"city\" should be capitalized as \"City\" and \"North.\" should stay lowercase as \"north.\".",
+              "Not: The train stopped in New York city before heading North. \"The train stopped in New York city before heading North.\" is not correct because \"city\" should be capitalized as \"City\" and \"North\" should stay lowercase as \"north\".",
               "Not: The Train stopped in New York City before heading north. \"The Train stopped in New York City before heading north.\" is not correct because \"Train\" should stay lowercase as \"train\".",
               "Not: The train stopped in new York City before heading north. \"The train stopped in new York City before heading north.\" is not correct because \"new\" should be capitalized as \"New\".",
               ""
@@ -10166,8 +10166,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0011",
-          "version": 2,
-          "contentHash": "sha256:b7d3d8788d3ecbe2777416d94f6d43742fc616fc5dd70ce57add05ec7a6d0b89",
+          "version": 3,
+          "contentHash": "sha256:c03dfb769b368b7d27e074e7a733db2a697c6bd78b81ea1f98386d041f5c1852",
           "question": "Which sentence avoids a common capitalization mistake?",
           "choices": [
             "We live west of lake Erie, near a small lake.",
@@ -10182,7 +10182,7 @@
               "Not: We live west of lake Erie, near a small lake. \"We live west of lake Erie, near a small lake.\" is not correct because \"lake\" should be capitalized as \"Lake\".",
               "Not: We live west of Lake erie, near a small lake. \"We live west of Lake erie, near a small lake.\" is not correct because \"erie\" should be capitalized as \"Erie\".",
               "",
-              "Not: We live West of Lake Erie, near a small Lake. \"We live West of Lake Erie, near a small Lake.\" is not correct because \"West\" should stay lowercase as \"west\" and \"Lake.\" should stay lowercase as \"lake.\"."
+              "Not: We live West of Lake Erie, near a small Lake. \"We live West of Lake Erie, near a small Lake.\" is not correct because \"West\" should stay lowercase as \"west\" and \"Lake\" should stay lowercase as \"lake\"."
             ]
           },
           "studyAid": {
@@ -10223,8 +10223,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0012",
-          "version": 2,
-          "contentHash": "sha256:e3002f5d97c63318ecb05737a038c846307f5261ebd7b43a7e25918433155d63",
+          "version": 3,
+          "contentHash": "sha256:37a49dd01046d6ba411a6d336f1451f4a428978cccd9386439dbd4328c4a96c2",
           "question": "Which sentence is correct?",
           "choices": [
             "Our class wrote letters to students in mexico city.",
@@ -10236,7 +10236,7 @@
           "explanation": {
             "correct": "Answer: Our class wrote letters to students in Mexico City. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Our class wrote letters to students in Mexico City.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: Our class wrote letters to students in mexico city. \"Our class wrote letters to students in mexico city.\" is not correct because \"mexico\" should be capitalized as \"Mexico\" and \"city.\" should be capitalized as \"City.\".",
+              "Not: Our class wrote letters to students in mexico city. \"Our class wrote letters to students in mexico city.\" is not correct because \"mexico\" should be capitalized as \"Mexico\" and \"city\" should be capitalized as \"City\".",
               "",
               "Not: Our Class wrote letters to students in Mexico City. \"Our Class wrote letters to students in Mexico City.\" is not correct because \"Class\" should stay lowercase as \"class\".",
               "Not: Our class wrote Letters to Students in Mexico City. \"Our class wrote Letters to Students in Mexico City.\" is not correct because \"Letters\" should stay lowercase as \"letters\" and \"Students\" should stay lowercase as \"students\"."
@@ -10280,8 +10280,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0013",
-          "version": 2,
-          "contentHash": "sha256:345e6e62c96cb67642b6684626d77afd60f827199b46dc7691e9c949cce06abe",
+          "version": 3,
+          "contentHash": "sha256:b150ce4cb0093e2eb1214304e0cee3aa20af51be2aaa97b28b4b95326dbe77d5",
           "question": "Which sentence correctly handles a building name?",
           "choices": [
             "We toured the Empire State Building, then entered another building.",
@@ -10294,7 +10294,7 @@
             "correct": "Answer: We toured the Empire State Building, then entered another building. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We toured the Empire State Building, then entered another building.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
-              "Not: We toured the Empire State building, then entered another Building. \"We toured the Empire State building, then entered another Building.\" is not correct because \"building\" should be capitalized as \"Building\" and \"Building.\" should stay lowercase as \"building.\".",
+              "Not: We toured the Empire State building, then entered another Building. \"We toured the Empire State building, then entered another Building.\" is not correct because \"building\" should be capitalized as \"Building\" and \"Building\" should stay lowercase as \"building\".",
               "Not: We toured The Empire State Building, then entered another building. \"We toured The Empire State Building, then entered another building.\" is not correct because \"The\" should stay lowercase as \"the\".",
               "Not: We toured the empire State Building, then entered another building. \"We toured the empire State Building, then entered another building.\" is not correct because \"empire\" should be capitalized as \"Empire\"."
             ]
@@ -10337,8 +10337,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0014",
-          "version": 2,
-          "contentHash": "sha256:4b53eec7f241e1958f42450a3f02c49113b12b83ed59dc59c85149f44a8a30cf",
+          "version": 3,
+          "contentHash": "sha256:aea27ab24985775e7a8c35f7f6e6c79dce0e83a13ec741edbe81c955aa746762",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "The Nile river flows through several Countries in Africa.",
@@ -10351,7 +10351,7 @@
             "correct": "Answer: The Nile River flows through several countries in Africa. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The Nile River flows through several countries in Africa.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The Nile river flows through several Countries in Africa. \"The Nile river flows through several Countries in Africa.\" is not correct because \"river\" should be capitalized as \"River\" and \"Countries\" should stay lowercase as \"countries\".",
-              "Not: The nile River flows through several countries in africa. \"The nile River flows through several countries in africa.\" is not correct because \"nile\" should be capitalized as \"Nile\" and \"africa.\" should be capitalized as \"Africa.\".",
+              "Not: The nile River flows through several countries in africa. \"The nile River flows through several countries in africa.\" is not correct because \"nile\" should be capitalized as \"Nile\" and \"africa\" should be capitalized as \"Africa\".",
               "Not: The Nile River flows through several countries In Africa. \"The Nile River flows through several countries In Africa.\" is not correct because \"In\" should stay lowercase as \"in\".",
               ""
             ]
@@ -10799,8 +10799,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0022",
-          "version": 2,
-          "contentHash": "sha256:623bc8fd8d63b6e72c3e6cd1bc32fc6f83d8bca6111b802f91a8e59e33761213",
+          "version": 3,
+          "contentHash": "sha256:eacf6d67024595fa3efd620a1dd8f2420f6c0837a2de05a251a680599701d686",
           "question": "Which word needs a capital letter? I will go to Yellowstone national Park this summer.",
           "choices": [
             "summer",
@@ -10810,7 +10810,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: national. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"national\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: national. Rule or clue: Tone and mood come from word choice and details that create a feeling for the reader. \"national\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: summer. \"summer\" does not match the capitalization pattern required by the sentence or title.",
               "Not: will. \"will\" does not match the capitalization pattern required by the sentence or title.",
@@ -11676,8 +11676,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0037",
-          "version": 2,
-          "contentHash": "sha256:fcd169bab2724f9dc19870602615e6f6139f862194fd6610e261e2fb5abd823d",
+          "version": 3,
+          "contentHash": "sha256:ed67b681f7312b32b4c5735bae534a70a21909430352a7b420450f6b7cdbc973",
           "question": "Identify the sentence with the correct capitalization.",
           "choices": [
             "Adam went to McDonald’s and ordered a Pepsi, although he preferred a coke.",
@@ -11689,7 +11689,7 @@
           "explanation": {
             "correct": "Answer: Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: Adam went to McDonald’s and ordered a Pepsi, although he preferred a coke. \"Adam went to McDonald’s and ordered a Pepsi, although he preferred a coke.\" is not correct because \"coke.\" should be capitalized as \"Coke.\".",
+              "Not: Adam went to McDonald’s and ordered a Pepsi, although he preferred a coke. \"Adam went to McDonald’s and ordered a Pepsi, although he preferred a coke.\" is not correct because \"coke\" should be capitalized as \"Coke\".",
               "Not: Adam went to mcDonald’s and ordered a Pepsi, although he preferred a Coke. \"Adam went to mcDonald’s and ordered a Pepsi, although he preferred a Coke.\" is not correct because \"mcDonald\" should be capitalized as \"McDonald\".",
               "",
               "Not: Adam went to McDonald’s and ordered a Pepsi, although her preferred a Coke. \"Adam went to McDonald’s and ordered a Pepsi, although her preferred a Coke.\" does not match the capitalization pattern required by the sentence or title."

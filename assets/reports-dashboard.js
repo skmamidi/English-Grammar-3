@@ -1306,11 +1306,18 @@
       <div class="choice-explanations full-question-explanations">
         ${detail.choices.map((choice, index) => {
           const isCorrect = index === detail.correctIndex;
-          const text = isCorrect ? explanation.correct : (explanation.incorrect && explanation.incorrect[index]);
+          let text = isCorrect ? explanation.correct : (explanation.incorrect && explanation.incorrect[index]);
           if (!text) return '';
+          let displayText = '';
+          if (!isCorrect && typeof text === 'object' && text) {
+            const categoryHtml = text.category ? `<span class="explanation-category" style="font-weight: 600;">[${escapeHtml(text.category)}]</span> ` : '';
+            displayText = `${categoryHtml}${escapeHtml(cleanExplanationText(text.reason, detail))}`;
+          } else {
+            displayText = escapeHtml(cleanExplanationText(text, detail));
+          }
           return `
             <div class="choice-explanation ${isCorrect ? 'correct-exp' : 'incorrect-exp'}">
-              <strong>${String.fromCharCode(65 + index)})</strong> ${escapeHtml(cleanExplanationText(text, detail))}
+              <strong>${String.fromCharCode(65 + index)})</strong> ${displayText}
             </div>
           `;
         }).join('')}
@@ -1329,7 +1336,11 @@
   function getSelectedExplanation(detail) {
     const explanation = detail.explanation || {};
     if (detail.selectedIndex === detail.correctIndex) return cleanExplanationText(explanation.correct || '', detail);
-    return cleanExplanationText(explanation.incorrect && explanation.incorrect[detail.selectedIndex] || '', detail);
+    let wrongExplanation = detail.explanation.incorrect && detail.explanation.incorrect[detail.selectedIndex] || '';
+    if (typeof wrongExplanation === 'object' && wrongExplanation) {
+      wrongExplanation = wrongExplanation.reason || '';
+    }
+    return cleanExplanationText(wrongExplanation, detail);
   }
 
   function cleanExplanationText(text, detail) {

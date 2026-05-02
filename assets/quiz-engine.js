@@ -828,13 +828,19 @@
     } else if (q.explanation && q.explanation.incorrect) {
       choiceExplanations = q.choices.map((choice, idx) => {
         const isCorrectChoice = idx === q.correct;
-        const expText = isCorrectChoice
+        let expText = isCorrectChoice
           ? q.explanation.correct
           : (q.explanation.incorrect[idx] || '');
-        const displayText = cleanExplanationText(expText, q);
+        let displayText = '';
+        if (!isCorrectChoice && typeof expText === 'object' && expText) {
+          const categoryHtml = expText.category ? `<span class="explanation-category" style="font-weight: 600;">[${escapeHtml(expText.category)}]</span> ` : '';
+          displayText = `${categoryHtml}${escapeHtml(cleanExplanationText(expText.reason, q))}`;
+        } else {
+          displayText = escapeHtml(cleanExplanationText(expText, q));
+        }
         return `
           <div class="choice-explanation ${isCorrectChoice ? 'correct-exp' : 'incorrect-exp'}">
-            <strong>${String.fromCharCode(65 + idx)})</strong> ${escapeHtml(displayText)}
+            <strong>${String.fromCharCode(65 + idx)})</strong> ${displayText}
           </div>
         `;
       }).join('');
@@ -1334,7 +1340,7 @@
     const explanation = question && question.explanation || {};
     const explanationText = [
       explanation.correct,
-      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect : [])
+      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect.map(item => typeof item === 'object' && item ? item.reason : item) : [])
     ].filter(Boolean).join(' ');
     const choiceText = String(choice || '');
     const inferred = getBestUnderlineCandidate(choiceText, explanationText);
@@ -1417,7 +1423,7 @@
     const explanation = question && question.explanation || {};
     const explanationText = [
       explanation.correct,
-      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect : [])
+      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect.map(item => typeof item === 'object' && item ? item.reason : item) : [])
     ].filter(Boolean).join(' ');
     const candidates = getUnderlineBodyCandidates(body);
     const scored = candidates
@@ -2310,9 +2316,12 @@
   function getSelectedExplanation(question, selectedIndex, isCorrect) {
     if (!question.explanation) return '';
     if (isCorrect) return question.explanation.correct || '';
-    const wrongExplanation = question.explanation.incorrect && question.explanation.incorrect[selectedIndex]
+    let wrongExplanation = question.explanation.incorrect && question.explanation.incorrect[selectedIndex]
       ? question.explanation.incorrect[selectedIndex]
       : '';
+    if (typeof wrongExplanation === 'object' && wrongExplanation) {
+      wrongExplanation = wrongExplanation.reason || '';
+    }
     const answer = question.choices && question.choices[question.correct]
       ? String(question.choices[question.correct]).trim()
       : '';
@@ -3419,9 +3428,12 @@
     if (Number(selectedIndex) !== Number(question && question.correct)) {
       const general = metadata.trapTypes || metadata.commonTrapTypes || metadata.misconceptions;
       if (general) return normalizeTrapList(general);
-      const explanation = question && question.explanation && question.explanation.incorrect
+      let explanation = question && question.explanation && question.explanation.incorrect
         ? question.explanation.incorrect[selectedIndex]
         : '';
+      if (typeof explanation === 'object' && explanation) {
+        explanation = explanation.reason || '';
+      }
       return inferTrapTypes(question, explanation);
     }
     return [];

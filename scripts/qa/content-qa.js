@@ -256,7 +256,7 @@ const QUALITY_RULES = [{
     if (!/which claim is clear for an opinion paragraph\?/i.test(String(question.question || ''))) return;
     const explanation = question.explanation || {};
     const correctText = normalizeText(explanation.correct);
-    const incorrect = Array.isArray(explanation.incorrect) ? explanation.incorrect.map(normalizeText) : [];
+    const incorrect = Array.isArray(explanation.incorrect) ? explanation.incorrect.map(item => normalizeText(typeof item === 'object' && item ? item.reason : item)) : [];
     const wrongExplanations = incorrect.filter(Boolean);
     const hasSpecificCorrect = /\b(takes? a position|states? what.+should|opinion that can be supported|can be supported with reasons)\b/i.test(correctText);
     const genericWrong = wrongExplanations.some(text =>
@@ -277,7 +277,7 @@ const QUALITY_RULES = [{
       question.question,
       ...(Array.isArray(question.choices) ? question.choices : []),
       question.explanation && question.explanation.correct,
-      ...(question.explanation && Array.isArray(question.explanation.incorrect) ? question.explanation.incorrect : [])
+      ...(question.explanation && Array.isArray(question.explanation.incorrect) ? question.explanation.incorrect.map(item => typeof item === 'object' && item ? item.reason : item) : [])
     ];
     if (fields.some(value => /\b(todo|tbd|lorem|insert)\b/i.test(String(value || '')))) {
       addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Question contains placeholder text.', this.id, getQuestionId(question));
@@ -302,7 +302,7 @@ const QUALITY_RULES = [{
     const question = record.question || {};
     const explanation = question.explanation || {};
     const correct = normalizeText(explanation.correct);
-    const incorrect = Array.isArray(explanation.incorrect) ? explanation.incorrect.map(normalizeText) : [];
+    const incorrect = Array.isArray(explanation.incorrect) ? explanation.incorrect.map(item => normalizeText(typeof item === 'object' && item ? item.reason : item)) : [];
     const weakCorrect = correct.length < 24 || /^(correct|yes|right|good job|that's correct)\.?$/.test(correct);
     const repeatedIncorrect = incorrect.some(item => item && item === correct);
     const weakIncorrect = incorrect.some(item => item && item.length < 16);
@@ -319,7 +319,7 @@ const QUALITY_RULES = [{
     const explanation = question.explanation || {};
     const explanationTexts = [
       explanation.correct,
-      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect : [])
+      ...(Array.isArray(explanation.incorrect) ? explanation.incorrect.map(item => typeof item === 'object' && item ? item.reason : item) : [])
     ].filter(Boolean);
     const prompt = String(question.question || '');
     const generic = explanationTexts.find(text =>

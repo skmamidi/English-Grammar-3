@@ -2,7 +2,7 @@
  * English Language Quiz App - reading-comprehension subchunk: reading-comprehension-authors-purpose 5
  * Generated from assets/question-bank-source/reading-comprehension.json.
  * Generator version: 1.
- * Source hash: sha256:6ae15adc1bafe6fcf77726a28d069deca7943bde983780b5682fbe05302df65e.
+ * Source hash: sha256:95fafa00d8ffbe56b19891eb21641fe64c8134dfb94cdc1d8ba855cd35f2c9ab.
  */
 (function () {
   'use strict';

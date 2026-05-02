@@ -1206,7 +1206,7 @@
         {
           "id": "vocabulary-base-words-q0022",
           "version": 3,
-          "contentHash": "sha256:fe6275f2ac4a37543d3341e9d1033a5931b6ba2c2327d620b860e655716e3de7",
+          "contentHash": "sha256:22cd01aa422d5723ea8dd897d6def4f8438a5afa0c807d6dbb4af66a8409c159",
           "question": "Which suffix best completes this sentence? Before Sheila recycles her aluminum cans, she crush__ all of them.",
           "choices": [
             "in g",
@@ -1260,7 +1260,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-base-words-q0023",
@@ -5667,8 +5668,8 @@
         },
         {
           "id": "vocabulary-contractions-q0015",
-          "version": 3,
-          "contentHash": "sha256:65cdf681214d7ceee1730bb10db2e86a9ce7f91d8b01fafd856e54b7cbb061f8",
+          "version": 4,
+          "contentHash": "sha256:045fde98f18d0abab7d950c3ab456a97c4e2900e2b540d506c8f80e47bea2c25",
           "question": "Which sentence correctly uses a contraction in dialogue?",
           "choices": [
             "'I cant believe it,' she said.",
@@ -5687,8 +5688,8 @@
             ]
           },
           "studyAid": {
-            "definition": "In dialogue, contractions make speech sound natural. Always use the correct apostrophe placement.",
-            "example": "cannot → can't; will not → won't; do not → don't",
+            "definition": "Dialogue keeps spoken words inside quotation marks and uses punctuation to connect speaker tags.",
+            "example": "\"The bus is here,\" announced Mr. Lee.",
             "link": "https://www.grammar-monster.com/glossary/contractions.htm",
             "linkText": "Grammar Monster - Contractions"
           },
@@ -6584,7 +6585,7 @@
         {
           "id": "vocabulary-homophones-q0016",
           "version": 4,
-          "contentHash": "sha256:f510da95f5024f58afc83b4b727dfde14a5bee0e77bc6cfcff85c35d75015adf",
+          "contentHash": "sha256:27d25009ece758bdc825a3ada75cd02db42749f59621b454352aaaf002305e1c",
           "question": "Read the sentence below. The bite of a hobo spider is venomous. They rarely cause death. Which word would be used to combine these sentences into a complex sentence?",
           "choices": [
             "because",
@@ -6638,12 +6639,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0017",
           "version": 3,
-          "contentHash": "sha256:618fe805181d6fc452756fe59d0c0fc68690e81a4963791e1127ade97b49bd67",
+          "contentHash": "sha256:7528863e5566c70f60820b3d917d0d18c95a1054df1dda4e41d2c6822588c3a7",
           "question": "Which sentence demonstrates correct subject-verb agreement?",
           "choices": [
             "The girls is walking from class to the gym.",
@@ -6697,12 +6699,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0018",
           "version": 4,
-          "contentHash": "sha256:8c0515b09bc07bbd8c6922c6a6d53e4c607f46489cbff42299121a00fca8773c",
+          "contentHash": "sha256:b286f2f8c5886d771f92c8edf0a7ca436573247d7c309ecb7be1de1d0f16ae3c",
           "question": "Which word would you use to combine the sentences below? Before you go to the game, you must clean your room. I’ll give you ten dollars, if you do a good job.",
           "choices": [
             "therefore",
@@ -6756,12 +6759,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0019",
           "version": 3,
-          "contentHash": "sha256:0afbfa325c0a9121c57e91c4a8a413a37353c9f0f03acdfb08564f571f163184",
+          "contentHash": "sha256:269477228d1aeb329ca1ef90dad9b8908eec64aca2ea0ee0dc408699194a4dea",
           "question": "If you are writing a letter to your grandmother about what your camping site looked like, which one of these are you most likely to write?",
           "choices": [
             "review",
@@ -6815,12 +6819,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0020",
           "version": 3,
-          "contentHash": "sha256:89bedb53149fc8a35f62934199b7334f00a4f1aaf11dac02cb3e494fcbbcdf0f",
+          "contentHash": "sha256:5e452b0b212d2917ff90fa29b80f1c25541791cb41ca718a87d50b4dd9b4edb3",
           "question": "Which choice is not correctly punctuated?",
           "choices": [
             "Leah, and my sister went shopping.",
@@ -6874,12 +6879,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0021",
           "version": 3,
-          "contentHash": "sha256:bb4c421d540bc20383344545161276e55056a3d919d38ce0e70597640294265f",
+          "contentHash": "sha256:5acdb27c293e8d8c9a963405f672132fde7ca1b426f6d91291aaaa71a281bf31",
           "question": "Which word is a homophone?",
           "choices": [
             "melon",
@@ -6933,12 +6939,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0022",
           "version": 3,
-          "contentHash": "sha256:6d3b661d28eedeb8506b6d4d2b911390ac815e34308727384c44ca133a92db74",
+          "contentHash": "sha256:39b0cd4c08e170c1f45c8933abfdb483f7cf0a507998da9dae48165b516b8b99",
           "question": "Which sentence uses the correct possessive pronoun?",
           "choices": [
             "It’s time for the game to start.",
@@ -6992,12 +6999,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0023",
           "version": 3,
-          "contentHash": "sha256:85984050b670b6164b81fd5bc5cd0e8e857d242bf2def0930193ac61bdf64194",
+          "contentHash": "sha256:e9cd2281de39103c3a92ae93d2a200a7b630fd39c211c8d044066132b3f5d29e",
           "question": "Which of the following would be included under the topic of fixing your car?",
           "choices": [
             "The correct kindof tires for your c ar.",
@@ -7051,12 +7059,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0024",
           "version": 3,
-          "contentHash": "sha256:8eed91c125334c5ad3ac405dbdab42ae9c4bc50c95097eeca151bd9f4d986733",
+          "contentHash": "sha256:104053c2382f848fbc58e841505eb1d4afe7e80e2c280f1c0681cfd69d7406a4",
           "question": "Which sentence c ouldonly be about living on an island?",
           "choices": [
             "The ferry only came twice a day to take people to the mainland.",
@@ -7110,12 +7119,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0025",
           "version": 3,
-          "contentHash": "sha256:324c9aa215c74e45e5c8b6545e44ebdd5e15439740dab4bda6081b00947fc7f1",
+          "contentHash": "sha256:f5463b264b15fdb2ee92e74ef8648a20af85f6bb3cf73e2e940f85f73666da94",
           "question": "Which word needs a capital letter?",
           "choices": [
             "birthday",
@@ -7169,12 +7179,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0026",
           "version": 2,
-          "contentHash": "sha256:59e0f7ad040c4eddf9aa0ee8e82d0c28718bece4c34eec44e6b980d37325dc87",
+          "contentHash": "sha256:cb69a7a331462f847cdcf210b68207a5e0fb7a9bccfb6ac8638dd003851eb9dc",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "the detective, a very clever fellow",
@@ -7228,12 +7239,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0027",
           "version": 3,
-          "contentHash": "sha256:6496b20194312c728bcf866d0807e231670f3a2c62dd0601a300945c7e291b63",
+          "contentHash": "sha256:85a851067c0f2fb2fe3619ed8c1947231d538a9d8293c604d776376c0ab5c6cf",
           "question": "Which sentence has the same meaning as the sentence below? Marilyn planned to spend the night ather grandmother’s house. She packed her favorite pajamas. She packed her favorite blanket. She packed her teddy bear.",
           "choices": [
             "Marilyn, who packed her grandmother, spent the night with her teddy bear, pajamas, and blanket.",
@@ -7287,12 +7299,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0028",
           "version": 3,
-          "contentHash": "sha256:8fbb1abc20d69b06ac5163bf6d7167989890c1d8723116e266421f14d794c3ee",
+          "contentHash": "sha256:88826a4f29ff8d8bb9dcf5c06a54e2be1afd091bd8ce32b59b0ebd2da8ada487",
           "question": "Which sentence is missing an article?",
           "choices": [
             "In the woods, big tree fell over.",
@@ -7346,12 +7359,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0029",
-          "version": 3,
-          "contentHash": "sha256:ce2a2485daf438ebf8a903c614832c814e7560530b588967cbf1badd50e8697e",
+          "version": 4,
+          "contentHash": "sha256:f674962f9edff7b900426361503dab3aaeaa0fcf8c9312d6bc06af629c96606b",
           "question": "Which comma is in the correct place?",
           "choices": [
             "Mr, Tom Banks",
@@ -7365,7 +7379,7 @@
             "incorrect": [
               "Not: Mr, Tom Banks. \"Mr, Tom Banks\" may sound similar, but its meaning does not fit the sentence context.",
               "Not: 792 Golden, Lane. \"792 Golden, Lane\" may sound similar, but its meaning does not fit the sentence context.",
-              "Not: Room 35,. \"Room 35,\" may sound similar, but its meaning does not fit the sentence context.",
+              "Not: Room 35, \"Room 35,\" may sound similar, but its meaning does not fit the sentence context.",
               ""
             ]
           },
@@ -7405,12 +7419,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0030",
           "version": 3,
-          "contentHash": "sha256:5bf07e36904320f499f5dba16e34b5358aa82cae9e02847624bf738a9d5b1e2c",
+          "contentHash": "sha256:ce1941f4cd036a135638556dc4f702e004fc9ad3bb5a178488eb8eee27bb0690",
           "question": "Choose the best main topic for the words listed below. rides, clowns, sunshine, cotton candy",
           "choices": [
             "At the Fair",
@@ -7464,12 +7479,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0031",
-          "version": 2,
-          "contentHash": "sha256:eb0e2f01ec73779dd3315b93b6efd298c9345105b07c6519e35f60b15645b4c6",
+          "version": 4,
+          "contentHash": "sha256:e7e82b02000e48b2341aff0188f0df73d4465d4eda885b0383e19b7b510d503a",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "We went to London on our Vacation.",
@@ -7479,12 +7495,12 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: There was a tornado in Alabama. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"There was a tornado in Alabama.\" has the meaning needed in the sentence; homophones can sound alike, so the context decides the word.",
+            "correct": "Answer: There was a tornado in Alabama. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"There was a tornado in Alabama.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: We went to London on our Vacation. \"We went to London on our Vacation.\" may sound similar, but its meaning does not fit the sentence context.",
-              "Not: The dog knockedover Mr. sands. \"The dog knockedover Mr. sands.\" may sound similar, but its meaning does not fit the sentence context.",
+              "Not: We went to London on our Vacation. \"We went to London on our Vacation.\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: The dog knockedover Mr. sands. \"The dog knockedover Mr. sands.\" does not match the capitalization pattern required by the sentence or title.",
               "",
-              "Not: My mom sent me a Birthday Card. \"My mom sent me a Birthday Card.\" may sound similar, but its meaning does not fit the sentence context."
+              "Not: My mom sent me a Birthday Card. \"My mom sent me a Birthday Card.\" does not match the capitalization pattern required by the sentence or title."
             ]
           },
           "metadata": {
@@ -7523,12 +7539,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-homophones-q0032",
           "version": 3,
-          "contentHash": "sha256:d51414c26b0d41b0e89a1706fd902bdce1db4917909d92c4cb58209eccac3297",
+          "contentHash": "sha256:230b2e774dd287394b573a37f0fc6ec102673e958fb54dc1db6aa5e893625fec",
           "question": "Which sentence tells me there wa s a fire?",
           "choices": [
             "The wood was too wet to use.",
@@ -7582,12 +7604,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0033",
           "version": 3,
-          "contentHash": "sha256:ec4c52728dca86bc22a577f7463f9e88f1b27c72cd09978cf2bd4c38bf076b62",
+          "contentHash": "sha256:81b74928b0e84cfeecda96c6de866896d6366e653660b52fd52e7d6d37a6fe29",
           "question": "Which sentence is outof order in the paragraph? 1) Our family wenton a camping trip. 2) Then, we went home. 3) When we got there, we set up our tent. 4) We hiked and ate s’mores.",
           "choices": [
             "1",
@@ -7641,12 +7664,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0034",
           "version": 3,
-          "contentHash": "sha256:5083801613dc41c873df00412432d2e6e587eae31b8a51511b9345ab6e8f9839",
+          "contentHash": "sha256:3ed000516dcf36ab62bd4d7a9d80c731658df5a12b72729bbc317b6639e5c195",
           "question": "Which sentence restates the main idea? All the children were picking up litter that was on the school ground.",
           "choices": [
             "There were dogs running around the school yard.",
@@ -7700,12 +7724,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0035",
           "version": 3,
-          "contentHash": "sha256:56c1f291ac918de48c175b86f3983158c5e99d661a5bde878fa7309443d3d56d",
+          "contentHash": "sha256:3861f33ce0480937acd71999698fd776dad005464c52090a1f1aa22c93da570c",
           "question": "Once there was a funny clown. The sentence above might be used to:",
           "choices": [
             "tell about a trip to the store",
@@ -7759,12 +7784,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0036",
           "version": 3,
-          "contentHash": "sha256:b3b2c48f7d1869181471c3865d177c8aaccb963d3586d4e226cbfc7a25d6b2d3",
+          "contentHash": "sha256:72d7a11ee6582afba60f09ce31b9e55ae2f9151b3ecc11d42bdc6f43c6e41e6d",
           "question": "Which sentence most precisely describes an action?",
           "choices": [
             "He put stuff in a bag.",
@@ -7818,12 +7844,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0037",
           "version": 3,
-          "contentHash": "sha256:82763ed774b2ae79a797c729cb9512c17ee4a9b77cc544210d5318f1f34da16b",
+          "contentHash": "sha256:9835b253636c63d4171232ef071d5f4898ae4fc2120c1b4808b8f24b7cfaac1a",
           "question": "Which sentence is written correctly?",
           "choices": [
             "M rs. Land asked, “who remembered their pencils? ”",
@@ -7877,12 +7904,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0038",
           "version": 2,
-          "contentHash": "sha256:e70dcb05d60ca52b2e7ac161311e856736f4ec4d4eaa07d938e2ab6bcd956463",
+          "contentHash": "sha256:4fe9637feeac373021f0e1aead39d1a0b75b1da641366e13a632c223f12fb9c3",
           "question": "Read the sentences below. liza and bobby looked forward to visiting their grandparents. grandma ruth and grandpa john lived in the country and had lots of farm animals. they were really excited about the horses. Which words should be capitalized?",
           "choices": [
             "liz a, bobby, grandparents, grandma ruth, grandpa john",
@@ -7936,12 +7964,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0039",
           "version": 3,
-          "contentHash": "sha256:cb266366be530b773d66c798d9aeb18e736f8e7d0077cd247136287a77ab026a",
+          "contentHash": "sha256:716875178a4c264ef0d0b71f7604682a5c2df0f326f1c5f08ba77d907b07488b",
           "question": "Identify where there should be a comma in the sentence below. My best friend moved to Denver Colorado.",
           "choices": [
             "My, best",
@@ -7995,12 +8024,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0040",
           "version": 3,
-          "contentHash": "sha256:48cfee5f5b70052dc80a7e939975271c1ff7fe13fa3d1344dac703564459471e",
+          "contentHash": "sha256:00c77e2428164b867368491f1f02a9b7aedcb133e800989bc9db98d0340a13e5",
           "question": "The students ironedout their problems. What does ‘ironedout’mean in the sentence above?",
           "choices": [
             "solved",
@@ -8054,12 +8084,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0041",
           "version": 3,
-          "contentHash": "sha256:c693af4c046e3e2f399228a94c6a9104a73eac35279bab65f61a303b43e77cef",
+          "contentHash": "sha256:ab8e81787e62ae129437e2323b4f08bd33e649730797939f82b64aee6037791f",
           "question": "You are writing a story for young children about their first trip to the dentist. Which group of words is appropriate for your story?",
           "choices": [
             "gu m disease, loss of teeth, root canal",
@@ -8113,12 +8144,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0042",
           "version": 3,
-          "contentHash": "sha256:2615c2d0fa7161f159e8c90ee2a390d3005cb065fdb0e575699d73fb2f8bfb2b",
+          "contentHash": "sha256:63967744052b9ff4c1e0a2dd43087a97e68a5e2eba858c6ae962e916d78e8b6e",
           "question": "Which setof words will complete the sentence below? I will mow the lawn _____ dinner and then water the plants _____.",
           "choices": [
             "now, later",
@@ -8172,12 +8204,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0043",
           "version": 3,
-          "contentHash": "sha256:394e475e7ed36dc1b93d322fc480030691488c3a84a36f967bd3b5f8a58ddca0",
+          "contentHash": "sha256:7ac0b9bf8f84ad5b750efff27cef58055c85078935febe5c7c4c49806fd4a09a",
           "question": "Choose the sentence that is punctuated correctly.",
           "choices": [
             "Dr. Roman thank you for helping me.",
@@ -8231,12 +8264,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0044",
           "version": 3,
-          "contentHash": "sha256:363f3c88c73deb88e559d929720723b72ac4aee4537c1be54371d67444bd7925",
+          "contentHash": "sha256:d03b59add22704b5951ac5bb4500801cd5b6c2f8b97b21beb3692f7a60761dd0",
           "question": "Read the following passage and identify the appropriate audience. Use three hoses to spray water over the whole area. When it is safe, head up to the roof to see if there is any damage.",
           "choices": [
             "gardeners",
@@ -8290,12 +8324,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0045",
           "version": 3,
-          "contentHash": "sha256:d8e8c982654f7d04306aba8e754e436f69068c14d26af633bcfe9577120e51cc",
+          "contentHash": "sha256:5e82d02a5614eebda45bb672c9f7acdcadbcb6733f45057868fa302402395a3d",
           "question": "Who is their talking about in this sentence? Leo and Silas took the puppy over to their grandparent ’s house in Denver.",
           "choices": [
             "Leo and Silas",
@@ -8349,12 +8384,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0046",
           "version": 3,
-          "contentHash": "sha256:17c73691ce01467d8e7eb631034eb92319f1197efed12ffe3d994344341b7bce",
+          "contentHash": "sha256:45ccef45df326b844ca4885b91a95204261d3a6e436b0edd6399298ed60c43bc",
           "question": "Which sentence tells me there were dirty dishes in the sink?",
           "choices": [
             "There are pots and pans everywhere when I cook dinner.",
@@ -8408,12 +8444,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0047",
           "version": 2,
-          "contentHash": "sha256:f1ff94ea28824e89cc4f9381d2c1c00af1e5a724e2370923eef9081dc877924a",
+          "contentHash": "sha256:d6348e607f0af23d1be01a89d161584819443ee0040176ed418557e7944fe738",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "before 5 a.m., ringing so loudly, it woke me up",
@@ -8467,12 +8504,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0048",
           "version": 3,
-          "contentHash": "sha256:16df3d57bab6f4ddffc5a3f312717c23ed6387397c3d6f2b1cce2bde01b83970",
+          "contentHash": "sha256:207e6ff2d643491e1c2ada7479576f273c74e729515fd4d7dfda7012d18f1a88",
           "question": "Which sentence tells you I am home alone?",
           "choices": [
             "I didn’t answer the door when someone rang the doorbell.",
@@ -8526,12 +8564,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0049",
           "version": 4,
-          "contentHash": "sha256:04fce573ea20aba5a90a5cc4e207fd8eca0d52bb21e1b9a64dd839170bcd6a7b",
+          "contentHash": "sha256:43434f3eb533aedb58b79ca29e5a93aee11c2e8b16e6f4af179558a52ce5814c",
           "question": "Which sentence best describes the mood “cheerfulness”?",
           "choices": [
             "The lilacs are nice.",
@@ -8585,12 +8624,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0050",
           "version": 3,
-          "contentHash": "sha256:5f063c2dd993d73cc027f4e1020f053db7e60e55510c4e7c404a139203501dd9",
+          "contentHash": "sha256:ec7707d7e6718f16424f2119c5b80625be29a151aae5d87161def82829f858d3",
           "question": "Which of the following would be a strong sentence starter for the topic below? “Lightning Storm”",
           "choices": [
             "The lights wentout.",
@@ -8644,7 +8684,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-homophones-q0210",
@@ -9695,8 +9736,8 @@
         },
         {
           "id": "vocabulary-homophones-q0164",
-          "version": 3,
-          "contentHash": "sha256:1539040714e7a5fd3297fa6852e392170b0f62c3361396150b9ca2ebdfa3feee",
+          "version": 4,
+          "contentHash": "sha256:be11c57d0e8a7064a88f306bfc189ee9a07b62bad718a9c9e608b97adea22060",
           "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” I ran into the store an hour before it closed to buy some milk.",
           "choices": [
             "will run into",
@@ -9706,17 +9747,17 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Correct as is. Rule or clue: Homophones may sound alike, but the sentence meaning decides which spelling is correct. \"Correct as is\" has the meaning needed in the sentence; homophones can sound alike, so the context decides the word.",
+            "correct": "Answer: Correct as is. Rule or clue: Choose \"Correct as is\" only when the original wording already follows the capitalization, abbreviation, or punctuation rule. \"Correct as is\" is right because the original underlined wording already follows the rule being checked.",
             "incorrect": [
-              "Not: will run into. \"will run into\" may sound similar, but its meaning does not fit the sentence context.",
-              "Not: ran in to. \"ran in to\" may sound similar, but its meaning does not fit the sentence context.",
-              "Not: run into. \"run into\" may sound similar, but its meaning does not fit the sentence context.",
+              "Not: will run into. \"will run into\" changes the original wording in a way that adds a capitalization, abbreviation, punctuation, or usage problem.",
+              "Not: ran in to. \"ran in to\" changes the original wording in a way that adds a capitalization, abbreviation, punctuation, or usage problem.",
+              "Not: run into. \"run into\" changes the original wording in a way that adds a capitalization, abbreviation, punctuation, or usage problem.",
               ""
             ]
           },
           "studyAid": {
-            "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
-            "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+            "definition": "When \"Correct as is\" is a choice, check whether the original sentence already follows the rule.",
+            "example": "Doctor Brown is correct when the title is written out instead of abbreviated as Dr.",
             "link": "https://www.readingrockets.org/topics/vocabulary",
             "linkText": "Reading Rockets - Vocabulary"
           },
@@ -10678,7 +10719,7 @@
         {
           "id": "vocabulary-rhyming-q0016",
           "version": 3,
-          "contentHash": "sha256:64a952f8a03ef0fdcc007cbdb799460a0e86198593d3a261cbd2cf7c83b5d32b",
+          "contentHash": "sha256:80d14290ebed4b3949c81f5ca2dad5da8197ea8066ec2f819492c04ba1acab97",
           "question": "Read the limerick. 1 – There once was an alien from space 2 – Who knew he was going to race 3 – The kids in the school 4 – ________________________ 5 – He won, but left not a trace. Which of the following lines would best fit line 4?",
           "choices": [
             "Wh om he thought very cool.",
@@ -10732,12 +10773,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-rhyming-q0017",
           "version": 3,
-          "contentHash": "sha256:5c49061b2d538665f4b74f580b8519d3a06c166ee8d914077283cb0c4453af30",
+          "contentHash": "sha256:8abf57cbdb7c0386598dc98057cf79ea1a7ec0dc062243ac3ef6916346817f0a",
           "question": "Which of the following sentences have rhyming words?",
           "choices": [
             "Has a tiny tooth to show I have a double row",
@@ -10791,12 +10833,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-rhyming-q0018",
           "version": 3,
-          "contentHash": "sha256:9b1e750d005f5a7e6ae467294cc330a0454df98ce506b412366b2bb86bd41547",
+          "contentHash": "sha256:c988bc6a059ef90d964f63bb4bc0650e91299e20e11a88e78fc36450ce165a2a",
           "question": "Which rhyming word fits in this poem? From the sky Clouds are quickly Drifting _________",
           "choices": [
             "alo ng",
@@ -10850,12 +10893,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-rhyming-q0019",
           "version": 3,
-          "contentHash": "sha256:98dcb5afb38f1c22ccde3b84a62a88fe4ca6b19234694e75fd81b95378aa3daf",
+          "contentHash": "sha256:379636127ec22a2907637b08527863402459a0294a97667f072fca965161369c",
           "question": "Read the limerick. 1 - I went to the mall and paid cash 2 - For a coat and dress with a sash 3 - I jogged to my car 4 - _______________________ 5 - Just to run a stop sign and go crash! Which of the following lines would best fit line 4?",
           "choices": [
             "I o pened the door",
@@ -10909,7 +10953,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-rhyming-q0020",
@@ -13298,7 +13343,7 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0041",
           "version": 3,
-          "contentHash": "sha256:75e4beeab35621028e196858bc1ad076b2a3100eefa984ec881411b76ddbc3fe",
+          "contentHash": "sha256:c70c369fdf87ef8a8f42ac2191fdc4b71b08fb45f3d4181cfd5021a84387a460",
           "question": "Give the synonym for predicate.",
           "choices": [
             "art icle",
@@ -13351,12 +13396,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0042",
           "version": 3,
-          "contentHash": "sha256:6a3f3567f715f314ee48a3a2accf4c51e590e2360bb87d83f862e875c52a71cd",
+          "contentHash": "sha256:aa93c52741152f6e996be072875f3c0dbbff20ed2001c4b8ea7b63e82c6c83e4",
           "question": "Which words have the same meaning as the underlined words in the following sentence? Pete found his homework under his bed.",
           "choices": [
             "below the bed.",
@@ -13409,12 +13455,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0043",
           "version": 3,
-          "contentHash": "sha256:80fd1f69dbc52e8b7555e5fcb5041cc8abfead5e7419c849e13645279e255a36",
+          "contentHash": "sha256:5fdb852554a05f7d7d1008e3f39b0f8781b428f336b8b1b5e4dad94704241518",
           "question": "What does the word “especially” mean in the following sentence? She is especially fondof that teddy bear.",
           "choices": [
             "rat her",
@@ -13467,12 +13514,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0044",
           "version": 3,
-          "contentHash": "sha256:8429c05c55c86215fed140eba55ee0c59877fb723f8ad9c48056221d267f02fb",
+          "contentHash": "sha256:f82a339064f7bcb008bc974a0da859d3a155389770ee33a90067493ade359907",
           "question": "Which two sentences have the same meaning? A) In the kitchen the family was busy. B) The family busiedothers in the kitchen. C) The others busied the family in the kitchen. D) The family was busy in the kitchen.",
           "choices": [
             "B and C",
@@ -13525,12 +13573,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0045",
           "version": 3,
-          "contentHash": "sha256:9d01a6c00f17ab0227a1be3a3d98a9f2a11355bd4ca55dd4ba6a8378841f4d7b",
+          "contentHash": "sha256:ddab81550a6a57528a60f8d97e458da99d3e9ad874a8fec63a840b0c38ae3345",
           "question": "Which choice means nearly the same as the underlined verb? The wind has driven the cattle to find shelter.",
           "choices": [
             "h as thrown",
@@ -13583,12 +13632,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0046",
           "version": 3,
-          "contentHash": "sha256:f351508942950959e9d8551fe28028496157ba5a2dd1dde91ab58aa291196e9f",
+          "contentHash": "sha256:abffeb5abe4a4f3ec31b280e2c0f4ef1f661a361706d48bbfdf5ce36365497a2",
           "question": "Which topic would be listed under in an outline?",
           "choices": [
             "crops",
@@ -13642,12 +13692,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0047",
           "version": 3,
-          "contentHash": "sha256:5ff6e0712b00bc2432a1a015e0fbc3bab19004e69732b3f4d280efff9f480e1b",
+          "contentHash": "sha256:d2b50b6d0803867f6bd9a8a828fe447cf1566918ad9335f46a36e00adf8256b0",
           "question": "Choose the antonym for the underlined word. The powerful leader made the people obey his rules.",
           "choices": [
             "easy",
@@ -13701,12 +13752,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0048",
           "version": 3,
-          "contentHash": "sha256:fc0e37ddf1a3cadfbe7247577cd0e2c536a373a1b7434255ec1c0082fd6be355",
+          "contentHash": "sha256:8920f0cdf64ae823b23fce459e791af3fdfe1db843aadf1cdb7347fca28d7ee2",
           "question": "Which setof words has similar meanings?",
           "choices": [
             "nation, county",
@@ -13760,12 +13812,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0049",
           "version": 3,
-          "contentHash": "sha256:e6e73c2d1eb713c649f0bab8492164bdccf826c34b45cd12bb9479889b852289",
+          "contentHash": "sha256:c01b47b4f8f2b1bfac47dc5dc8e7eca422d8e1b54c2c6df9c61c34e1edc40931",
           "question": "What word is the opposite of loose?",
           "choices": [
             "knot",
@@ -13819,12 +13872,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0050",
           "version": 3,
-          "contentHash": "sha256:81a5c753d64e0376fe7658622414f59cca5460e8d49b8fbda35fb6e9f688bd2e",
+          "contentHash": "sha256:a2a41005a73aa6cebfd7d9ff07fc75683c140d554819f3422a8675567c81c69f",
           "question": "Which sentence has the same meaning as the sentences below. Elison packed his suitcase. Elison packed socks. Elison packed shirts. Elison packed an extra pair of shoes. Elison packed his teddy bear.",
           "choices": [
             "Eliso n packed socks, shirts, an extra pair of shoes, and his teddy bear in his suitcase.",
@@ -13878,12 +13932,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0051",
           "version": 3,
-          "contentHash": "sha256:c742ca12276eec8abfb119c5f6038814defde2bb9e62a55cf47b4cbd8a7d1cc4",
+          "contentHash": "sha256:cf5c9c93b5ccda2c67b4e7de7940fe9bf27e1fe19183526192918267e99395b2",
           "question": "Which is the best way to describe a hurricane destroying beach houses?",
           "choices": [
             "The hurricane blew softly across the beach.",
@@ -13937,12 +13992,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0052",
           "version": 3,
-          "contentHash": "sha256:54ab072b175aa16b193b82849e7c6748571e829c50181bbefa9039f184f0df5b",
+          "contentHash": "sha256:49ef033dca0def59a6833e9f46279efda8eabbe13ac806e2397504c6ebf492a3",
           "question": "Which word means the same as the underlined w ord? My father opened his present first. He felthe couldn’t wait any longer.",
           "choices": [
             "cou ldn’t",
@@ -13996,12 +14052,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0053",
           "version": 3,
-          "contentHash": "sha256:4aa62f3a8706bac666d2744a9b61ff58cb70d48fcaa869a75a641090f81b454a",
+          "contentHash": "sha256:755dbfe3a0eb222bf1c944ab2f3c746b09b8e61339dc5eaddb37b56a40b91dc4",
           "question": "Select the best definition for the underlined words. The alley cat was hanging around with another cat in the neighborhood.",
           "choices": [
             "sleep ing",
@@ -14055,12 +14112,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0054",
           "version": 3,
-          "contentHash": "sha256:b0e3983b6266778cc8c76455e729ba7affab9b46a37b3b268d30e9a63d8430c8",
+          "contentHash": "sha256:3d70a3611a5f86d5b365a8e9068559f74992a9a6ae8644e08de892951577817d",
           "question": "Which is the best way to rewrite the sentence below without changing it? Jill tripped and hurtherself.",
           "choices": [
             "Jill stumbledon her way through the door and twisted her ankle.",
@@ -14114,12 +14172,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0055",
           "version": 2,
-          "contentHash": "sha256:0e2269bd3d938c637962753c50144cbeaf2fcafe7d8f34c0ee4f48836fa68836",
+          "contentHash": "sha256:6f0302dca68215ae0240e2ef2f3a863dec5b040de163c53e0c9e172eab8186a1",
           "question": "Which words should be capitalized in the sentence below? the tornado caused by the thunderstorm destroyed three towns in in diana.",
           "choices": [
             "the, tornado, towns",
@@ -14173,12 +14232,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0056",
           "version": 3,
-          "contentHash": "sha256:8004fd34b4bc2a9fff9ff8e71a8a48022e776f97685b38ddf7c71d283582163f",
+          "contentHash": "sha256:de1a7484448265dad85e5aed83921fb06a620ca45d506345ca1180be78b80200",
           "question": "Which sentence would you use to write a story a bout boating?",
           "choices": [
             "I packed a sleeping bag and a lantern.",
@@ -14232,12 +14292,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0057",
           "version": 3,
-          "contentHash": "sha256:b1c7610d1622869a7f0e6374eb569ae525f54d6de2077d8e1ef598503c075822",
+          "contentHash": "sha256:64ee335638169906034275c7905c54cea45e694af3d3138ff4b8db20904cbc6d",
           "question": "Choose the antonym for the underlined word. The town council decided to restore the park so people could use it again.",
           "choices": [
             "fix",
@@ -14291,12 +14352,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0058",
           "version": 3,
-          "contentHash": "sha256:26cfe47801945e9c3ca929d09de2f0ee4fee9f3737a2ca5e48fe7711293a7245",
+          "contentHash": "sha256:f12e53206f3ab54b427721a676d8364f847813334be7e96c050c033ea2946040",
           "question": "What does the underlined word mean in this sentence? The stubborn nail refused to move.",
           "choices": [
             "ju mped",
@@ -14350,7 +14412,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0059",
@@ -15879,8 +15942,8 @@
         },
         {
           "id": "vocabulary-synonyms-antonyms-q0062",
-          "version": 3,
-          "contentHash": "sha256:cf8041e4648b9632e5a9bae895f7bd37724e0c46fe6fc49f8dcaaced22dfab36",
+          "version": 4,
+          "contentHash": "sha256:43d366245247a2c4c4af9ab3e638a809ede7fa918fe8a93843bb90634302da9f",
           "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” Madelyn had the biggest, most colorful birthday cake I had ever seen.",
           "choices": [
             "most colorful, birthday, biggest cake",
@@ -15890,17 +15953,17 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Correct as is. Rule or clue: Synonyms have similar meanings, and antonyms have opposite meanings. \"Correct as is\" matches the meaning relationship the prompt asks for.",
+            "correct": "Answer: Correct as is. Rule or clue: Choose \"Correct as is\" only when the original wording already follows the capitalization, abbreviation, or punctuation rule. \"Correct as is\" is right because the original underlined wording already follows the rule being checked.",
             "incorrect": [
-              "Not: most colorful, birthday, biggest cake. \"most colorful, birthday, biggest cake\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning.",
-              "Not: birthday, biggest, most colorful cake. \"birthday, biggest, most colorful cake\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning.",
-              "Not: most colorful, biggest, birthday cake. \"most colorful, biggest, birthday cake\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning.",
+              "Not: most colorful, birthday, biggest cake. \"most colorful, birthday, biggest cake\" changes the original wording in a way that adds a capitalization, abbreviation, punctuation, or usage problem.",
+              "Not: birthday, biggest, most colorful cake. \"birthday, biggest, most colorful cake\" changes the original wording in a way that adds a capitalization, abbreviation, punctuation, or usage problem.",
+              "Not: most colorful, biggest, birthday cake. \"most colorful, biggest, birthday cake\" changes the original wording in a way that adds a capitalization, abbreviation, punctuation, or usage problem.",
               ""
             ]
           },
           "studyAid": {
-            "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
-            "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+            "definition": "When \"Correct as is\" is a choice, check whether the original sentence already follows the rule.",
+            "example": "Doctor Brown is correct when the title is written out instead of abbreviated as Dr.",
             "link": "https://www.readingrockets.org/topics/vocabulary",
             "linkText": "Reading Rockets - Vocabulary"
           },
@@ -17686,7 +17749,7 @@
         {
           "id": "vocabulary-comparatives-superlatives-q0016",
           "version": 3,
-          "contentHash": "sha256:eb8378a37e9fc9f15132ad9d5fc5fdddc35b9e9c98fa11c55bbb4aa59e1e5c0a",
+          "contentHash": "sha256:4cae8532ddd868cbda36460035092fa373744b572ccd3b6372af8e7e21aad39f",
           "question": "Which sentence shows a superlative adverb?",
           "choices": [
             "Beth completed the process very efficiently.",
@@ -17739,12 +17802,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0017",
           "version": 3,
-          "contentHash": "sha256:2f70c028c586fbb2ed054d55b50d134deed1253478bb74caaf1cfc83e45dda39",
+          "contentHash": "sha256:c6281a61c9c6d777dcf34949cda82e11cfc1cd650574be14fd3eed51d0a81e15",
           "question": "Which underlined word is used incorrectly in the sentence? After the first session, several students in the class can sew pajamas better than I.",
           "choices": [
             "After",
@@ -17797,12 +17861,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0018",
           "version": 3,
-          "contentHash": "sha256:1b9b004eeaeb294144db91a627b6c862127d570c1de829fded5f5ed4b58b716b",
+          "contentHash": "sha256:6ab0b7b21535faa8d385b6582e389cf0dadcbf4df6e83f59b5587ab9963a0091",
           "question": "Which one of the comparative forms is incorrect?",
           "choices": [
             "good - better- best",
@@ -17855,12 +17920,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0019",
           "version": 3,
-          "contentHash": "sha256:6d9c41bf8b656ac7dadf9de40181a15c58b5477b18d2a47e34ed913c219b40ee",
+          "contentHash": "sha256:9519b6c562b0faff59df102e3d55395d40d96498940b52935681ec15518e592e",
           "question": "Which is the superlative form of the adjective?",
           "choices": [
             "taller",
@@ -17913,12 +17979,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0020",
           "version": 3,
-          "contentHash": "sha256:ee58b98f737dbf3fa27a80753d6920419efac874eb92b3d949cdf80c23726f82",
+          "contentHash": "sha256:8c890c3f4b70f48f4690798f286eb96d2a5d59392643ccec506d0a0953db4ade",
           "question": "Which set of comparative adjectives is NOT written correctly?",
           "choices": [
             "h appy - happier - happiest",
@@ -17971,12 +18038,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0021",
           "version": 3,
-          "contentHash": "sha256:5fbc8c94112f3e1baeb87e77271acc90bd6a0614a725f4b329b0680306183add",
+          "contentHash": "sha256:2367054953e060f58499e3cc32af5ffa415b626dffaeaddcc18ec640f4f15a55",
           "question": "Which sentence contains the correct comparison?",
           "choices": [
             "Belind a is the olde st of the two sisters.",
@@ -18029,12 +18097,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0022",
-          "version": 3,
-          "contentHash": "sha256:1b798fbee6cbf9b0c31bbfcb57f6c5220dae77a10d1f2976caf089fd308ffef6",
+          "version": 4,
+          "contentHash": "sha256:96b80b74cd22f0d7386600dd49417019c6bff0d289cdf91fee9790540f584d11",
           "question": "Choose the best missing word. Yesterday was the _______ day of the year.",
           "choices": [
             "cold er",
@@ -18087,12 +18156,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0023",
-          "version": 3,
-          "contentHash": "sha256:863dad6e82eedff9964fc6d754217456b2a9ee5d9638a8fde12811cace485c6c",
+          "version": 4,
+          "contentHash": "sha256:b8edaddc743fd67c505abe471a086c308fa953f70e6db952bf0b6887dc917a70",
           "question": "Choose the best missing word. Many people think peanut butter is _______ than jelly.",
           "choices": [
             "good",
@@ -18145,12 +18220,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0024",
           "version": 3,
-          "contentHash": "sha256:1abdc1438e0a872589b2d572d0b9a7c42e22c121432b20961d9ce3c2654a5db5",
+          "contentHash": "sha256:b70717640de81555e2373cbe544c1553e7c78ffb99b3c7d6daf89601c477e71f",
           "question": "Choose the correct wordor words to complete this sentence? Elvis was the __________ singer of all time.",
           "choices": [
             "great",
@@ -18203,12 +18284,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0025",
           "version": 3,
-          "contentHash": "sha256:43400b213365281e64ca7bcf10f604bd414de3103d7ef79a83e097b7d2dca820",
+          "contentHash": "sha256:3e3bff011dbbf2b0c80a2911d8eb80f5e68fb03e2e00edf00635e1256924bb97",
           "question": "Choose the correct word to complete this sentence. The right answer is usually the _________ choice.",
           "choices": [
             "worst",
@@ -18261,12 +18343,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0026",
-          "version": 3,
-          "contentHash": "sha256:550dcf4eaa30eaf35780d5b7f579ed1cc9d0a5ef1358b6144983c7d8ae5294fd",
+          "version": 4,
+          "contentHash": "sha256:de563c2d46d4d9077c85191b016aa133550c7a576300f4d317436ebd007e9257",
           "question": "Choose the missing word. Yesterday, I had the _______ dinner ever.",
           "choices": [
             "b addest",
@@ -18319,12 +18402,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0027",
-          "version": 3,
-          "contentHash": "sha256:bf4e7614b7d7e1d073e00e955d277b48045095fe3d5f170a8e36e176aa36f985",
+          "version": 4,
+          "contentHash": "sha256:35f4e7714707330b7d9188413f835927818d7299a102867925a6eae1ee93ebfa",
           "question": "Choose the best missing wordor words. My broken leg was the ______ injury I have ever had.",
           "choices": [
             "p ainfullest",
@@ -18377,12 +18466,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0028",
-          "version": 3,
-          "contentHash": "sha256:192299900ba90daf34df905ffe0df08a0230d01849de1eacbe56ecefbe916a30",
+          "version": 4,
+          "contentHash": "sha256:d762091ac8e4ec3b06ac0916eb7d203d7dfc44a96be9dba669d1e5fc97ea1b99",
           "question": "Choose the best missing wordor words. Joey was the _____ childon the block when he got a new bike for his birthday.",
           "choices": [
             "mo re happy",
@@ -18435,12 +18530,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0029",
-          "version": 3,
-          "contentHash": "sha256:4431741cd17d9052631c3d7709e50acaec0511d0005dd77c7d32c5aeaf751f92",
+          "version": 4,
+          "contentHash": "sha256:e780d7ce6b8f0568519bfa47b4ecc785a8773aa62f2ae5c8611bfa928f17f8d3",
           "question": "Choose the best missing wordor words. She was _______ after the race than before.",
           "choices": [
             "t ired",
@@ -18493,12 +18594,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0030",
           "version": 3,
-          "contentHash": "sha256:f8da025acd71f79fdd52444c54e2b503ed73494d0033ac6bb94140755f5a489c",
+          "contentHash": "sha256:d68400b0c303d81fd77ff7d1ea453250fbc40d8f9b91b8a1a4a6d42efe7a5c95",
           "question": "Which group of letters are adjectives? Several older homes stood along the pleas ant tree-lined block. A B C D E F",
           "choices": [
             "A, C, D",
@@ -18551,12 +18658,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0031",
           "version": 3,
-          "contentHash": "sha256:5af5d370b665799b4d59b48cfc79d83d835c2f2a0e8594ff4e4746ccbaacab6c",
+          "contentHash": "sha256:65a261fb2bf5b7eb674817e184d55076d67369585e6ea34aef189049a2fcdae1",
           "question": "Which words best complete this sentence? Greg is ____________ his father, George.",
           "choices": [
             "tallest than",
@@ -18610,12 +18718,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0032",
           "version": 4,
-          "contentHash": "sha256:0d1c40d9c332698bb8f7c477c1cc1a0c17d2459ebb76fa8d55555bb0cdd57a25",
+          "contentHash": "sha256:2e0e501f6c32f75247ce2d7b2124c897f6e0775270265011b8a7d3a7ed19f030",
           "question": "Choose the correct wordor words to complete the sentence below. This one is _________ than thatone.",
           "choices": [
             "good",
@@ -18669,12 +18778,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-comparatives-superlatives-q0033",
           "version": 3,
-          "contentHash": "sha256:03cf0c91d1a01f09584d298a09a5eab965da191e954743c0392b2d5d782dcf3b",
+          "contentHash": "sha256:738e0b2b60ee2747c2bdb50cb4d99bfab330d3efb28388dddca64d706d50172d",
           "question": "Which setof words will complete the sentence below? The lettuce was ________ than the carrots, but the tomatoes were ______ ___ of all.",
           "choices": [
             "f resher, freshest",
@@ -18728,7 +18838,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         }
       ],
       "metadata": {
@@ -20096,8 +20207,8 @@
         },
         {
           "id": "vocabulary-word-meaning-context-q0025",
-          "version": 3,
-          "contentHash": "sha256:d99d83f24cfdccd95cd04a9e01db723759ac25b75240ae9db18b544a2c3bcb27",
+          "version": 4,
+          "contentHash": "sha256:b0224e729d77a5446328f3cefe3975a8209861205bc1ede353980d738b1495e1",
           "question": "Don't forget to put quotation marks around dialogue.",
           "choices": [
             "dancing",
@@ -20116,8 +20227,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.",
-            "example": "\"The frigid wind made us shiver.\" Frigid means very cold.",
+            "definition": "Dialogue keeps spoken words inside quotation marks and uses punctuation to connect speaker tags.",
+            "example": "\"The bus is here,\" announced Mr. Lee.",
             "link": "https://www.readingrockets.org/article/using-context-clues",
             "linkText": "Reading Rockets - Context Clues"
           },
@@ -22456,8 +22567,8 @@
         },
         {
           "id": "vocabulary-word-meaning-context-q0086",
-          "version": 2,
-          "contentHash": "sha256:0b083c0ee589acc574aa8d0f7d46b8637142b916a490ce156fbc0beadfb8b52f",
+          "version": 3,
+          "contentHash": "sha256:0d9f54b8a05d1662946acf89a8980b114ef8d336ab68012bc43a17f91afc6cc9",
           "question": "Choose the missing word. We hope that we _______ the game.",
           "choices": [
             "w it",
@@ -22467,7 +22578,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: win. Rule or clue: Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words. \"win\" fits the context clues in the sentence, so it gives the intended meaning.",
+            "correct": "Answer: win. Rule or clue: Choose the pronoun that agrees with the noun and fits the sentence meaning. \"win\" fits the context clues in the sentence, so it gives the intended meaning.",
             "incorrect": [
               "Not: w it. \"w it\" does not fit the context clues around the word.",
               "Not: run. \"run\" does not fit the context clues around the word.",
@@ -22476,8 +22587,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
-            "example": "Check the sentence or word part, then test each answer choice against that clue.",
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
             "link": "https://www.readingrockets.org/topics/vocabulary",
             "linkText": "Reading Rockets - Vocabulary"
           },
@@ -32056,7 +32167,7 @@
         {
           "id": "vocabulary-spelling-q0086",
           "version": 3,
-          "contentHash": "sha256:18baa419d749e7e5ddfd03a5187adeb383fc33c2d0d5bfd5afda8c2f16ab331e",
+          "contentHash": "sha256:9c612309671dad102d1a6c78b5c870e6ae955b4ca4217d18d80a1dfb40ce4280",
           "question": "It is conceivable that this is the eighth time I’ve complained about studying speling in grammar class. In the above sentence:",
           "choices": [
             "‘conceivable’ should be ‘concievale’.",
@@ -32109,12 +32220,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0087",
           "version": 3,
-          "contentHash": "sha256:7cd96c0ee8c2bd176084e545cb304f789133a6e05c6a373d58aeb7d44c0c038a",
+          "contentHash": "sha256:b80efa3e69fa704b04776cea4e242eab5f7bdbb47b494913b32c016a703a3204",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
             "acheive",
@@ -32167,12 +32279,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0088",
           "version": 3,
-          "contentHash": "sha256:fd1d1a568a89620620c1baa3e108c1f44c975d851e05e106451ea71bb11e74d2",
+          "contentHash": "sha256:c9ef53d0375717465ffbece9de1434aed280d1409f7be7ebe3c02185b55099ff",
           "question": "Which underlined word is NOT spelled correctly? Does the packet contain an extra pair of scissers?",
           "choices": [
             "p acket",
@@ -32225,12 +32338,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0089",
           "version": 3,
-          "contentHash": "sha256:713578e97456a16fa5edbeeadd9ca3397f52b444f43c651d04d7f6ed976c920a",
+          "contentHash": "sha256:8276b619002826d1170f85924f3a0264d00f9b1399f3ef49f0a705237b20f353",
           "question": "Which underlined word it NOT spelled correctly? Nate accidentaly spilled his glass of milk.",
           "choices": [
             "acciden taly",
@@ -32283,12 +32397,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0090",
           "version": 3,
-          "contentHash": "sha256:83ced9088982203f5e740fe83b350ae9113f04a848fa6bc4b05672f2d8f51280",
+          "contentHash": "sha256:99e670c10ad82409c54d8712004641df337606700f8c380b2a994b5b0e0ec7e4",
           "question": "Which contains a spelling error?",
           "choices": [
             "patios, radios, heros",
@@ -32341,12 +32456,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0091",
           "version": 3,
-          "contentHash": "sha256:cd2bd77914d5ad878b79fdd1004e2b3ad1944348567f1bda4ece45a65933946d",
+          "contentHash": "sha256:d2ee397b9fd8842f42e8026b9ca37b86655d6241cca557b1448ee8911d951b88",
           "question": "Whic h word is spelled in correctly?",
           "choices": [
             "consist e ncy",
@@ -32399,12 +32515,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0092",
-          "version": 2,
-          "contentHash": "sha256:2762f9a2edb9c288b044de60b4097b74029c0c3b9629b0f22dbc056943c4acc2",
+          "version": 4,
+          "contentHash": "sha256:de9d2a20c189e93d00937c20bd8ebc4471ec19503e45a3cf90055ad05b31afd5",
           "question": "Which title is capitalized correctly?",
           "choices": [
             "the President of the United States",
@@ -32414,12 +32531,12 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: the President of the United States. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"the President of the United States\" is the standard spelling; every needed letter is in the right order.",
+            "correct": "Answer: the President of the United States. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"the President of the United States\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
-              "Not: doctor Tom Smith. \"doctor Tom Smith\" changes, adds, or leaves out letters from the standard spelling \"the President of the United States\".",
-              "Not: Novelist John Steinbeck. \"Novelist John Steinbeck\" changes, adds, or leaves out letters from the standard spelling \"the President of the United States\".",
-              "Not: The Pre sident of the class. \"The Pre sident of the class\" changes, adds, or leaves out letters from the standard spelling \"the President of the United States\"."
+              "Not: doctor Tom Smith. \"doctor Tom Smith\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: Novelist John Steinbeck. \"Novelist John Steinbeck\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: The Pre sident of the class. \"The Pre sident of the class\" is not correct because \"The\" should stay lowercase as \"the\"."
             ]
           },
           "metadata": {
@@ -32457,12 +32574,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-spelling-q0093",
           "version": 3,
-          "contentHash": "sha256:fa01a1d870bbe3d55679f7a451083232fac26a696e51dcf021cdc5588c4ab4c8",
+          "contentHash": "sha256:0c32ee71e91d1b0544ce9bf2ec77337c7a3bd658e5f3086f1140013d84d52a4a",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
             "st ationery",
@@ -32515,12 +32638,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0094",
           "version": 3,
-          "contentHash": "sha256:c959220d8c4f26e6030e85cac5a7f033953e1439b38dfacce61670b590c43190",
+          "contentHash": "sha256:ff0ee574cabc65ed1142dd259e6542dff84aa83537e48515291f921ab7e39c05",
           "question": "Which underlined word below is NOT spelled correctly? Jupiter is larger than any planet in the solar sistem.",
           "choices": [
             "Jupiter",
@@ -32573,12 +32697,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0095",
           "version": 3,
-          "contentHash": "sha256:d37779936416f673c78dad89caef1af37dae5a240e4d003f75343c137cde00b5",
+          "contentHash": "sha256:5cffb4009a627f3b7c233ec8c3aff20abf3d3c9a9f07e1a3fb1dcbc8c6b709a7",
           "question": "Which word is spelled correctly?",
           "choices": [
             "su press",
@@ -32631,12 +32756,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0096",
           "version": 3,
-          "contentHash": "sha256:adb5744f241e0d4490c9a0224fb3fe689e32739a6b9cb30ed0a666e3910374c4",
+          "contentHash": "sha256:a6d14ba1618ff560332a565e76dfde5c56545ede443ac13964d5a499dd342351",
           "question": "Which sentence has all the words spelled correctly?",
           "choices": [
             "The plant grow strudy in the hot house.",
@@ -32689,12 +32815,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0097",
           "version": 3,
-          "contentHash": "sha256:f9e7c4471c3daf8fd3a0af67696fad9651d71c58f04e24ece2cb4561f3234bf7",
+          "contentHash": "sha256:b7e234eeef236b8e78079853e49f084ffc75583466474d724fa3f5325165305a",
           "question": "Which is spelled correctly?",
           "choices": [
             "curo us",
@@ -32747,12 +32874,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0098",
           "version": 3,
-          "contentHash": "sha256:fddb0400846a0eb706605a12bc2fa2612d70da89e3fd56d81de482c105df76c2",
+          "contentHash": "sha256:59906b38d6fd3bab737db5f74e5be475218ab588f798312c92fea178ccf84d96",
           "question": "Which is the correct spelling for more than one cemetery?",
           "choices": [
             "cemet eryes",
@@ -32805,12 +32933,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0099",
           "version": 3,
-          "contentHash": "sha256:736a706402d2e8ea035e845a9fc250a91b302be52c2762bd8f634ab2b88cd966",
+          "contentHash": "sha256:0468a79da3da24db6b634ef8c8187a93c54e85257e3f50f24f77af997fb2265c",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
             "d rinking",
@@ -32863,12 +32992,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0100",
           "version": 3,
-          "contentHash": "sha256:73617ef6a51137b5e908026fbae41cd786818914cee6c28252e3bdb9c6177ea8",
+          "contentHash": "sha256:54a933014a925f6bf15f02297ed2685dcd686d9bc291d0c81bdff24d937e402f",
           "question": "Which underlined word is NOT spelled correctly? The grizzly bare frightened me in the forest.",
           "choices": [
             "griz zly",
@@ -32921,12 +33051,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0101",
           "version": 3,
-          "contentHash": "sha256:15135b7a2a2ddbfd1be8f46723d11b357b392598edd9a439c127bdc0b115d48a",
+          "contentHash": "sha256:d77f4f076633b5c4be9b48348f32e6c12e72fbf58e04ac6cf325ccf6d99f9c80",
           "question": "Which underlined word is NOT spelled correctly? The ambulance stoped at the emergency entrance.",
           "choices": [
             "ambulance",
@@ -32979,12 +33110,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0102",
           "version": 3,
-          "contentHash": "sha256:1777e178977ec7014c8bdf7bd1a1bcbb2751d9268c1e8c902bc08839fad9c7a6",
+          "contentHash": "sha256:a0fefac49fe8534c782808dd07144680622ba43a7cf34f9e7eba800555a04801",
           "question": "Which word is spelled correctly?",
           "choices": [
             "recieving",
@@ -33037,12 +33169,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0103",
           "version": 3,
-          "contentHash": "sha256:ba129fc436f4ba596e41d81c7567494123f8b16ffaeac2ab2a936d644ec6fb5a",
+          "contentHash": "sha256:663846ee81b3528e4116247fb0e2cfd5b365fba97bc277ecc5f2cad947c313e4",
           "question": "Select the sentence with all words spelled correctly.",
           "choices": [
             "Ann likes to read storys about partys.",
@@ -33095,12 +33228,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0104",
           "version": 3,
-          "contentHash": "sha256:2c56111bf858fe5b1e1b2ca8be9a2ccb64cde350ac67aae2b6d900dd44c8f30a",
+          "contentHash": "sha256:c6758521b497b2d15fec6f39c920d9eb2ba86c7973ecb8cab4b2d69fdb920a76",
           "question": "Which spelling is correct?",
           "choices": [
             "secretary",
@@ -33153,12 +33287,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0105",
           "version": 3,
-          "contentHash": "sha256:1262a8fc67ca3124ee2f50f3eb584013a7470dcee40fee50ca8fa6656e3c5339",
+          "contentHash": "sha256:41922af4163f78396d8f54322dcc18fd134611a533faa6f7fbc0af280a9360ea",
           "question": "Which word is spelled correctly?",
           "choices": [
             "misp ell",
@@ -33211,12 +33346,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0106",
           "version": 3,
-          "contentHash": "sha256:1bb5b1cc27b7345a1545a10419d9ab982d5ccd253e8b079078ce23bba706d143",
+          "contentHash": "sha256:32fa96d332f807a5e6656a79835619435b9b35830b3715341eeb4d12637c119a",
           "question": "Which sentence has all the words spelled correctly?",
           "choices": [
             "Grandma served warm apple pie for desert.",
@@ -33269,12 +33405,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0107",
           "version": 3,
-          "contentHash": "sha256:cf58d56172f73c336c1c6afe479365ade7f46cbc362e2595b87c01af995455d4",
+          "contentHash": "sha256:7588b48f1811d84a1c7d25dc752248a588c631562f3a9ca733d8a49a5e628ecf",
           "question": "Which word is spelled correctly?",
           "choices": [
             "t eeth",
@@ -33327,12 +33464,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0108",
           "version": 3,
-          "contentHash": "sha256:53662b786cfa5ebab4c2dce14ae197d963bcb0e8a74303084905c7e9ba501e09",
+          "contentHash": "sha256:27038bab838863ba939d565727c5017fb1fd3c9f0ccdad434acc01140f291a09",
           "question": "Which sentence has the underlined word spelled correctly?",
           "choices": [
             "I think a letter has been omitted from that word.",
@@ -33385,12 +33523,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0109",
           "version": 3,
-          "contentHash": "sha256:207a6700452a996045930e132128eee64a68f5976601e123c0755e875d1f2594",
+          "contentHash": "sha256:71e9ea0f780196678ae398fe2b0b687ed72269b58560d597c6d6a42fb098f3e0",
           "question": "Which spelling is correct?",
           "choices": [
             "t hiefs",
@@ -33443,12 +33582,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0110",
           "version": 3,
-          "contentHash": "sha256:4eef4f81f54f36c40c3185b16f637f3ca9c6c71cf14420b2f8cce0e9fb27eec5",
+          "contentHash": "sha256:758542c854efd0fca954010db5e89eb0f4667732a30a7fea1fd19506d638c194",
           "question": "Which word is spelled correctly?",
           "choices": [
             "annonymous",
@@ -33501,12 +33641,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0111",
           "version": 3,
-          "contentHash": "sha256:571c3c1608e943396a99d7e8dea4f4ec826143c032863a28afd2464fcea25db6",
+          "contentHash": "sha256:998243cf9f2d0fe10dd399b3cf53028f971771a54f8aa2b646098241e1881b85",
           "question": "Which underlined word is NOT spelled correctly? Our teacher was absent yesterday, so we had a substatute.",
           "choices": [
             "t eacher",
@@ -33559,12 +33700,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0112",
           "version": 3,
-          "contentHash": "sha256:4d2c4c18565308b042452453b10759434ae75f9b1ac24ce559f064b0b962ba9a",
+          "contentHash": "sha256:a69dbef4a627b897edb2dabdfd6d210a37a7b90af0da8b1295e32045022c6c52",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
             "sep arate",
@@ -33617,12 +33759,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0113",
           "version": 3,
-          "contentHash": "sha256:09b0c0a4eb7eb5ffef8b6d16fdfa7079057549fa32a035fdf9c7a0bd40446bb4",
+          "contentHash": "sha256:419bd4fa81b3f0a0e17fb66a5e597f3813f7a494c7dc462938136e4416584f0a",
           "question": "Which word is spelled correctly?",
           "choices": [
             "d isapear",
@@ -33675,12 +33818,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0114",
           "version": 3,
-          "contentHash": "sha256:418f3af0468cee6e62b7e1a8dbea1c3adcc7c0cc759261206265f84f19dd0488",
+          "contentHash": "sha256:ae37c976623a4afc153f586d301833bf49137963522b65f9de4de97744a0d0c8",
           "question": "Which word in the list would NOT use the same criteria in selecting a movi e?",
           "choices": [
             "En glish",
@@ -33734,12 +33878,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0115",
           "version": 3,
-          "contentHash": "sha256:e3b55df6fdd28929967b1ab48c60193e2ddc02307ed9e9344f7651aa8bc5b5e7",
+          "contentHash": "sha256:1e3c07b19998f55fe2fcbfe6a2a206d5fafdd1a371aa8ed3fe67eca866ac23fe",
           "question": "Which of the following contains an error?",
           "choices": [
             "Mary seems to have growed an inch in the last week.",
@@ -33793,12 +33938,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0116",
           "version": 3,
-          "contentHash": "sha256:dba3d29f3533b2254ee2110d2259e87554970816bca5b73a263e0e001588cb13",
+          "contentHash": "sha256:ec48f73646b28d5a75f4defd987bb9d65396251c0a70597969c24f6209c4ed75",
           "question": "Choose the function of the underlined word(s). Joe built Ruff a dog house.",
           "choices": [
             "subject",
@@ -33852,12 +33998,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0117",
           "version": 2,
-          "contentHash": "sha256:e4fdb2c2843df27a9a112f33378f86cde2c1331a385b0e80f9d7fe070f7231b2",
+          "contentHash": "sha256:3f8bd7293a4177ddb7116d7a68872cf194298434bf7c95c90e8d1cc7631f9c0f",
           "question": "Which words should be capitalized? Did you know the senator of massachusetts, senator kennedy, was once a secretary of transportation?",
           "choices": [
             "senator, massachusetts, senator,kennedy",
@@ -33911,12 +34058,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0118",
           "version": 3,
-          "contentHash": "sha256:1a21f383689916d5f183ce82b7dcff4bc498b352ad5912ad7d04218bf8b6ee9e",
+          "contentHash": "sha256:759720de99b6831668bc0210cef1b00a154922e0872fa23e5cd978fe218efd23",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
             "experience",
@@ -33970,12 +34118,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0119",
           "version": 3,
-          "contentHash": "sha256:ffea44f4d0d0edee054b7a9d2b846f52ac1ee372f5d51c8828270a0af6584ca9",
+          "contentHash": "sha256:729d0a8df26baa9fcfac4f478caff719219459bc02b04af7b81b3d90f2110014",
           "question": "Which sentence has a spelling error?",
           "choices": [
             "My aunt speaks three different languages.",
@@ -34029,12 +34178,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0120",
           "version": 3,
-          "contentHash": "sha256:c26410dbb1ab8dbca47fa6292037fd2a17488338489c38659d9f35fcb821dc19",
+          "contentHash": "sha256:5443a0554056e9e2ac6062e05504f771d74429eda000f56a7fecc1fe13cd7755",
           "question": "Which sentence is NOT written correctly?",
           "choices": [
             "Joyce has gone to the store several times this year.",
@@ -34088,12 +34238,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0121",
           "version": 3,
-          "contentHash": "sha256:2afbbfbe54b0e112b4d1b36c912673729653f6c0494ae43e4979192d0e3b5d59",
+          "contentHash": "sha256:b32ecaa4446ef38ced200a7150aa1696fca50495141c33afd965656dfd2e3edd",
           "question": "Which verb form is not used correctly?",
           "choices": [
             "The children have torn down their fort.",
@@ -34147,12 +34298,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0122",
           "version": 2,
-          "contentHash": "sha256:713d0d5e6be135fde89dcacb63c5f086a09516d6360061f25a8fd6dcebe30623",
+          "contentHash": "sha256:26bcda9ac58ffcb77ebbe24ee9b6386f17c182f34d7dba2afa3cda5d4196bd3e",
           "question": "Which course title is correctly capitalized?",
           "choices": [
             "Language Arts",
@@ -34206,12 +34358,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0123",
           "version": 3,
-          "contentHash": "sha256:23474d3e86570a6bf58b4870fe06d9bcc332bf68d4e47510a98c3ca25a73b078",
+          "contentHash": "sha256:ed810b5fe79fa77ce7c84eba786b818d74797540ecf89d67b1ad91b3e69bde2e",
           "question": "Which word is spelled correctly?",
           "choices": [
             "library",
@@ -34265,12 +34418,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0124",
           "version": 3,
-          "contentHash": "sha256:dc8a62dd6ef252e9d911a0d38709681f0b953e17451f57897c58d89d640b1d29",
+          "contentHash": "sha256:ac7ff776d22c8f359d4bd23f7225a4ef5d6598faeab9cfb619266a19441f3505",
           "question": "Which sentence best supports the opinion expressed below? Science is the best class I am taking this year.",
           "choices": [
             "My math teacher is fun, too.",
@@ -34324,12 +34478,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0125",
           "version": 3,
-          "contentHash": "sha256:345e703a85e116222c2f32d48ae178358f2442d0f081e718a08098b04eaf01ca",
+          "contentHash": "sha256:8de7e26bb0344efb194193d4e3e9b26b46202321c1586d37e7634ce448589793",
           "question": "Choose the word that is spelled incorrectly.",
           "choices": [
             "whistle",
@@ -34383,12 +34538,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0126",
           "version": 3,
-          "contentHash": "sha256:b6bd60547e085ca7a70211b668d3e5848e294ef9d5c6a33326220d5be9ec7d27",
+          "contentHash": "sha256:424c6e35d9471b9d2f73496a42a9753b686b8a4863fef2528ee6ce9ea76901aa",
           "question": "Choose the word that is spelled correctly.",
           "choices": [
             "earing",
@@ -34442,12 +34598,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0127",
           "version": 3,
-          "contentHash": "sha256:6bb29898ab0d961fc948aa44f34f79efea470b6a5e423ae81e1119b31ac97d00",
+          "contentHash": "sha256:575589e28615431968bd4b8c7ab0d6bedd3ca4893ff2c780f428ed055163b35e",
           "question": "Which word is the best choice to replace the underlined word? Marcel handedout papers asking his friends to come to a surprise party for Michele.",
           "choices": [
             "tickets",
@@ -34501,12 +34658,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0128",
           "version": 3,
-          "contentHash": "sha256:0cb570309a0f68b88a885facf9b37edef21c62a8a9fac06fba74d9e3635d7e52",
+          "contentHash": "sha256:e8a75c0f8f35cd5641c88d8d8b99f082e1c29e2050d817b508ed67737b7373b8",
           "question": "What is the correct plural spelling of chalk?",
           "choices": [
             "chalks",
@@ -34560,12 +34718,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0129",
           "version": 3,
-          "contentHash": "sha256:f23a7a716db616ab7ddbcf40846e53c5f024708ba5bbbfdc9023684190a2be38",
+          "contentHash": "sha256:6fae26fa4cbb4ed35382eb5b87950f6e5a1569dec8b412242f413c4a8c71bb7d",
           "question": "Which word is spelled correctly?",
           "choices": [
             "throogh",
@@ -34619,12 +34778,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0130",
           "version": 3,
-          "contentHash": "sha256:b4602804c036132638d71a8f0a769e662f4ed139a5a0f958f3036a56ff9d6d80",
+          "contentHash": "sha256:022c1784fe968175c19775b486e3a57647aa2b338b7511dacac53ad4193d0025",
           "question": "Which sentence does not use vivid descriptors?",
           "choices": [
             "My friends rapidly walked the track.",
@@ -34678,12 +34838,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0131",
           "version": 2,
-          "contentHash": "sha256:50c978d301cf1476bd028410cab429f2a44c3727dc739758eef412f026346b11",
+          "contentHash": "sha256:873904d5d18897647b1e55b1684cb79fbcaa5fd19dc378d39187c8a3346dd16b",
           "question": "Which underlined wor d is incorrectly capitalized? My favorite classes in school are math, french, and art.",
           "choices": [
             "french",
@@ -34737,12 +34898,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0132",
           "version": 3,
-          "contentHash": "sha256:edccc6fef8e25400022c4de903373956cf3957b5d3f489d4307aa58ee06d9b64",
+          "contentHash": "sha256:a0e8d4301959580ef4d5e5609aa365ca569faa8daaec492aa9eb78aded372dcc",
           "question": "Read the sentence. My sister and I are friends. This sentence is:",
           "choices": [
             "a command",
@@ -34796,12 +34958,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0133",
           "version": 3,
-          "contentHash": "sha256:0b3342cb7b986f614a2db2a2303c75acaeeec36eb862b0941d7646bac32ea231",
+          "contentHash": "sha256:11685150fb6e57f506c2d3792a51a2f6f46458683088ecc8f30c9c06e157797d",
           "question": "Which underlined word is NOT spelled correctly? My fr ei nds and I went to the movies together.",
           "choices": [
             "freinds",
@@ -34855,12 +35018,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0134",
           "version": 3,
-          "contentHash": "sha256:2f4bfaeeb1361b9ece1dfebd5886abd9b1f234e28e2035c24cef90af8ffa62dd",
+          "contentHash": "sha256:ef96dd2ee02b53124ccb3bec4fbc05a592d625310bc4d441038f4165c016ef08",
           "question": "What is the correct plural spelling of monkey?",
           "choices": [
             "monkeys",
@@ -34914,12 +35078,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0135",
           "version": 3,
-          "contentHash": "sha256:56633fe55b74a9684096413c1ae659d4b0ceb142e15779999e590d58f0dff65c",
+          "contentHash": "sha256:2a6be63b0dbe0373607d500a8bb9780b8b93b09af676bcc6e78eff281d56a3ed",
           "question": "once there was a little boy who loved to play on the beach. The sentence above:",
           "choices": [
             "is correct",
@@ -34973,12 +35138,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0136",
           "version": 3,
-          "contentHash": "sha256:47381b0301351c1d3a5b2575f162120f7af23c062e0deb6b73b51d1fd9eeab5b",
+          "contentHash": "sha256:22ca6609ada888923e37ab5e2afed36c89dd15db703b4d84892f6233927e96c9",
           "question": "Which word is not spelled correctly?",
           "choices": [
             "center",
@@ -35032,12 +35198,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0137",
           "version": 3,
-          "contentHash": "sha256:6bc34c17b791ac5f5cbaedebc53f2550ef005fec9eca4a5c16c38e7d5c091457",
+          "contentHash": "sha256:3c8a13f65b3e93c0dfe90cd11db0b10b06cada195785fb8418c8db6449e41045",
           "question": "What is the correct plural spelling of pony?",
           "choices": [
             "ponys",
@@ -35091,12 +35258,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0138",
           "version": 3,
-          "contentHash": "sha256:0edc5a12785f7f94c8ae720126ad13d66275c157cab0a2585520c49f671ce564",
+          "contentHash": "sha256:46b5e966213f1a85fa1ab570908bcc4dff8983d0d0d6a06bb8305fded21a613d",
           "question": "Which word is spelled correctly?",
           "choices": [
             "elese",
@@ -35150,12 +35318,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0139",
           "version": 3,
-          "contentHash": "sha256:5c65477760165ecde21e270b4087d38b31c6059adfbc42f78afcfc9ddb6a727f",
+          "contentHash": "sha256:7dcd206b72d13bdf08d5e74e70328ec8c53f73dba21f4ad54a66d68a7b4fa4b3",
           "question": "Read the following sentence. Everyone hid behind the couches and chairs to wait for Steph. What would this sentence most likely describe?",
           "choices": [
             "library",
@@ -35209,12 +35378,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0140",
           "version": 3,
-          "contentHash": "sha256:d147be60822631036f8d645ee14ddc6e26a8cd9be1ff6327f6da46479a52d09f",
+          "contentHash": "sha256:d9f2dffbba24b1d424bfd7b1f3c2b09f09c5a31cf9f294ab9d07147846027050",
           "question": "Choose the best title for this report. Wolves are interesting animals. Wolves live in packs. Wolves are mammals and care for their young. The strongest male is the leader.",
           "choices": [
             "Ye llowstone Park",
@@ -35268,12 +35438,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0141",
           "version": 3,
-          "contentHash": "sha256:b12689ee58685d232879f50e3fad47ff54905457b876cd8712bdac9b72a8d5da",
+          "contentHash": "sha256:ecd3cbe82fe51ab4ed747ae0658ea7258f145bc007070cd0b5f7d31737033b6b",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
             "f earless",
@@ -35327,12 +35498,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0142",
           "version": 3,
-          "contentHash": "sha256:f0c2d4fb1dd50697b4e1e13d65989c6ce3f1bba5d30772a63810ebe3bf3639a0",
+          "contentHash": "sha256:8cb2c6f64e90caf2958672d84c371982c4f984fd807c0fe5965a3bbb4330b9ea",
           "question": "Which sentence has all the words spelled correctly and makes sense?",
           "choices": [
             "The bandage was wound around the woond.",
@@ -35386,12 +35558,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0143",
           "version": 3,
-          "contentHash": "sha256:80bbdeb4d704feafdb2f0ad1c8b6a43934ad5bdaf2e8cc0eab02e8d0bb6b1439",
+          "contentHash": "sha256:ad4e08f8114d3651331185626f151f4ef7512820845e9226e4f1c239e90c4bc5",
           "question": "If you were writing a letter to the editor, w hich sentence would you most likely use to persuade the town council to save a tree that was about to be cut down?",
           "choices": [
             "The tree is an oak tree and a landmark.",
@@ -35445,12 +35618,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0144",
           "version": 3,
-          "contentHash": "sha256:fb9ab42934cf7d096fc4af9dacb3ea208ea2a5fbe043400e77def21969e84b01",
+          "contentHash": "sha256:db46aaccb5bbb26cca2684c8a8defc258054f44a59d5e08ec7b865b885f66dc9",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
             "emb arrass",
@@ -35504,12 +35678,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0145",
           "version": 3,
-          "contentHash": "sha256:c28cf3259facaa54fe0352d6a1292c7e847860b169a5da3ed27055afb9801982",
+          "contentHash": "sha256:9d22d4f3d81695275b59bb17b3be3368301055699ea46d8e328ee62ac4217989",
           "question": "Which sentence has a spelling error?",
           "choices": [
             "There are alotof people at the movies.",
@@ -35563,12 +35738,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0146",
-          "version": 3,
-          "contentHash": "sha256:78f0f79ab6f00afb43ce871988b4f9fc9be2ebee8595a91788482a7f6561af29",
+          "version": 4,
+          "contentHash": "sha256:1a4f5515343e1d70320d3d41d9316f0441f9bed9c6b9431685d109fb9283e028",
           "question": "Choose the best missing word. The __________ were solved by the detective and the policeman.",
           "choices": [
             "myster ies",
@@ -35622,12 +35798,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "vocabulary-spelling-q0147",
           "version": 3,
-          "contentHash": "sha256:894d01c950f1012f91ffb6943ead4c8fcfbb73ccec26abf1b3fc191342cb68f6",
+          "contentHash": "sha256:e16760165e6a57bdf5159bea5ec5c5471e7020e03054c3655c47f72562b2f42d",
           "question": "Which word is spelled correctly?",
           "choices": [
             "recieve",
@@ -35681,12 +35863,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0148",
           "version": 3,
-          "contentHash": "sha256:e93de2e18be0cc3a95f262ede145eea299b12a4849730ba97520b818253db0a3",
+          "contentHash": "sha256:cc9224956b9e9966ec7b9ed78fcf021e1283c8af87acaad1b77ee86a0bdaec56",
           "question": "If you want to convince the library president to startopening the library on Satu rday afternoons, which would you most likely want to write?",
           "choices": [
             "review",
@@ -35740,12 +35923,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0149",
           "version": 3,
-          "contentHash": "sha256:a07dd74a7bea3a5b4986077ee9e7204d7249d8d7cd47e54afe59b7407a7ac4bf",
+          "contentHash": "sha256:aaa2e4ee0db3e45eb1565f4fc382701015f29ca9e72899a773e3e1f11fd2abf4",
           "question": "Which word is spelled incorrectly?",
           "choices": [
             "powder",
@@ -35799,12 +35983,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0150",
           "version": 3,
-          "contentHash": "sha256:3f628719d4a330ed315c1c0989e9e571e4b240a0ef9ee8b35c752f9b26228001",
+          "contentHash": "sha256:7b0f402e494b624842a37b2054fdb3386899c5eb948a5d0b2a1d4d8ee4ce92cd",
           "question": "Choose the word that is spelled correctly.",
           "choices": [
             "blouose",
@@ -35858,12 +36043,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0151",
           "version": 3,
-          "contentHash": "sha256:b92fc6564b29ce4a12424206b5bb73c7f8f01d881ad63985738b60b707436413",
+          "contentHash": "sha256:fa30aad9afcca8a26c1be08efa7d0451fd780b61e24ab2d211d780c6f72ab1c2",
           "question": "What is the correct plural spelling of elf?",
           "choices": [
             "elfes",
@@ -35917,12 +36103,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0152",
           "version": 3,
-          "contentHash": "sha256:924522bd65f1b3d9ab24e49dda921f7eda9e6564aaa7711a50e7243d2d99c5d1",
+          "contentHash": "sha256:515f5e845cb56fff92431135db9f6dca10c59831d069537b4d15b5e2f490c096",
           "question": "Which word is spelled incorrectly?",
           "choices": [
             "excuse",
@@ -35976,12 +36163,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0153",
           "version": 3,
-          "contentHash": "sha256:057c3974e5c1931914097019a78a87efc1c4a65e4154c167643cdedb47fe32de",
+          "contentHash": "sha256:50ff81289bc2ed54255894b0793b6f2fb09251bf30163a997781dda61f684737",
           "question": "Which of the underlined words is used incorrectly? Many ships and plains have disappeared in the Bermuda Triangle for unknown reasons.",
           "choices": [
             "man y",
@@ -36035,12 +36223,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0154",
           "version": 3,
-          "contentHash": "sha256:5b396270cd44d6b26c108fde8c57e317ed2c0c67ce0816e06a768b9e67de58f6",
+          "contentHash": "sha256:4c1d6b7f22e6befe8fe93a58f5861b008d0a7424990ed2f7e7e79d2749e43765",
           "question": "Identify the best word to complete the following sentence. My friends planned a ____________ party.",
           "choices": [
             "f ood",
@@ -36094,7 +36283,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-spelling-q0155",
@@ -48462,7 +48652,7 @@
         {
           "id": "vocabulary-figurative-language-q0181",
           "version": 3,
-          "contentHash": "sha256:771181ea9639b29a511a837f0c59726952d57f972ee9c70ad84c6fdd914dd42a",
+          "contentHash": "sha256:8655a0d8d0c0baeaef2a39a08dd80f607076fa80b5ce1e805e7523890a89d7ee",
           "question": "Read the sentence. I am so hungry I could eat a horse. What figure of speech does this sentence use?",
           "choices": [
             "metaphor",
@@ -48516,12 +48706,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-figurative-language-q0182",
           "version": 3,
-          "contentHash": "sha256:e6c057f954cd2f8c1cea41126c6d8d419c39f22dd5c7dd3d01ea027ef156f0e5",
+          "contentHash": "sha256:d3b229ea805b181b6e7aa51fe7dfcdc978041f60c8491612a52c32c4de07fcda",
           "question": "Which of the following sentences does NOT contain a figure of speech?",
           "choices": [
             "She ran to her locker with urgency.",
@@ -48575,12 +48766,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-figurative-language-q0183",
           "version": 3,
-          "contentHash": "sha256:1abb868993f7a1eaf7b7e4a48c2536bef748ffc77d07f2d29e9b3746c4b792b2",
+          "contentHash": "sha256:c860852f8e1135a4cbd896fec063cbb24125a798c9a07d07c9d49871edd13cfa",
           "question": "Which of the following does NOT contain a figure of speech?",
           "choices": [
             "My love is like a red, red rose.",
@@ -48634,12 +48826,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-figurative-language-q0184",
           "version": 3,
-          "contentHash": "sha256:f250b97ff859f70fc6a9398984251895ca2a197bdbf2132a3dee3031ed31fc50",
+          "contentHash": "sha256:92a11ebeff97451eb9958b0dc7a8d247bdde3a32760762471f4f11f892981dd4",
           "question": "Which sentence below is NOT a simile?",
           "choices": [
             "The fluffy cloud loo ked like a baby lamb following its mother.",
@@ -48693,7 +48886,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "vocabulary-figurative-language-q0185",

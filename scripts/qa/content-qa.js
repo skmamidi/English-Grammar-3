@@ -308,6 +308,7 @@ const QUALITY_RULES = [{
       explanation.correct,
       ...(Array.isArray(explanation.incorrect) ? explanation.incorrect : [])
     ].filter(Boolean);
+    const prompt = String(question.question || '');
     const generic = explanationTexts.find(text =>
       /\bIt does not match the context clue\.?$/i.test(String(text || '')) ||
       /\bIt does not share the target ending sound\.?$/i.test(String(text || '')) ||
@@ -318,10 +319,31 @@ const QUALITY_RULES = [{
       /\bdoes not fit the writing purpose as well\b/i.test(String(text || '')) ||
       /\bnot supported as strongly\b/i.test(String(text || '')) ||
       /\bdifferent grammar job\b/i.test(String(text || '')) ||
+      (/\bstandard abbreviation\b/i.test(String(text || '')) && /\b(semicolon|colon|parentheses|introductory phrase|dialogue|speaker tag|new speaker|hyphen|dash|capitalized|missing word|combined into one sentence)\b/i.test(prompt)) ||
+      (/\bacronym\b/i.test(String(text || '')) && /\bstate abbreviation\b/i.test(prompt)) ||
       hasSelfContradictoryPunctuationNeed(text)
     );
     if (generic) {
       addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Explanation uses a generic rationale; name the sentence clue, sound, or rule that makes this specific choice right or wrong.', this.id, getQuestionId(question));
+    }
+  }
+}, {
+  id: 'generic-study-aid',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    const prompt = String(question.question || '');
+    const studyAid = question.studyAid || {};
+    const definition = String(studyAid.definition || '');
+    const example = String(studyAid.example || '');
+    if (!/punctuation-abbreviations-acronyms/.test(String(question.metadata && question.metadata.sourceSet || ''))) return;
+    const needsSpecificAid = /\b(abbreviation|acronym|semicolon|colon|parentheses|introductory phrase|dialogue|speaker tag|new speaker|hyphen|dash|capitalized|missing word|combined into one sentence)\b/i.test(prompt);
+    if (!needsSpecificAid) return;
+    const isGeneric = /Punctuation marks help readers understand sentence meaning/i.test(definition) ||
+      /Questions end with question marks, and direct speech needs quotation marks/i.test(example);
+    if (isGeneric) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Study aid is too generic for this sub-topic question; use the specific abbreviation, punctuation, capitalization, pronoun, or writing rule.', this.id, getQuestionId(question));
     }
   }
 }, {

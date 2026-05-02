@@ -8,8 +8,8 @@
       "questions": [
         {
           "id": "capitalization-sentence-beginning-q0001",
-          "version": 2,
-          "contentHash": "sha256:546afe2ca6e098f4385dcbaa521e215da26fe34711c450a7f15322a8841fdee1",
+          "version": 3,
+          "contentHash": "sha256:79a7eb084c097d8abd50ca281af8d75869484bc28d88a768dc453effa68c1ded",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "Before the bell rang, The class packed up.",
@@ -19,7 +19,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: Before the bell rang, the class packed up. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Before the bell rang, the class packed up.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Before the bell rang, the class packed up. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Before the bell rang, the class packed up.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Before the bell rang, The class packed up. \"Before the bell rang, The class packed up.\" is not correct because \"The\" should stay lowercase as \"the\".",
               "",
@@ -28,8 +28,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the first word of every sentence and the first word of a direct quotation, but keep continuing dialogue tags and ordinary words lowercase.",
-            "example": "After Maya asked, \"Where is my notebook?\" her brother said, \"It is on the desk.\"",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -65,8 +65,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0002",
-          "version": 3,
-          "contentHash": "sha256:e1cd75266f3a317fb9979b2bfd907f11e206339e68469c9718efee05462b35df",
+          "version": 4,
+          "contentHash": "sha256:d0fa066622c0e3d441e2a6af3b48fd3345af54de5fbef70233fa2c964973671e",
           "question": "Which choice handles the quotation and dialogue tag correctly?",
           "choices": [
             "\"can we visit the museum?\" asked Priya.",
@@ -85,8 +85,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the first word of every sentence and the first word of a direct quotation, but keep continuing dialogue tags and ordinary words lowercase.",
-            "example": "After Maya asked, \"Where is my notebook?\" her brother said, \"It is on the desk.\"",
+            "definition": "Dialogue keeps spoken words inside quotation marks and uses punctuation to connect speaker tags.",
+            "example": "\"The bus is here,\" announced Mr. Lee.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -236,8 +236,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0005",
-          "version": 3,
-          "contentHash": "sha256:4cb916792410795b52d52e99f61d503d9340b83e2a95725cf37fcd6e5be36be0",
+          "version": 4,
+          "contentHash": "sha256:1e005e0615084a3a6ed6894e32d53cd930c62a81993bc81077dfbd279bd70079",
           "question": "Which sentence is capitalized correctly after an interruption in dialogue?",
           "choices": [
             "\"I think,\" Nora whispered, \"We should wait.\"",
@@ -256,8 +256,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the first word of every sentence and the first word of a direct quotation, but keep continuing dialogue tags and ordinary words lowercase.",
-            "example": "After Maya asked, \"Where is my notebook?\" her brother said, \"It is on the desk.\"",
+            "definition": "Dialogue keeps spoken words inside quotation marks and uses punctuation to connect speaker tags.",
+            "example": "\"The bus is here,\" announced Mr. Lee.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -464,8 +464,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0009",
-          "version": 2,
-          "contentHash": "sha256:d24e1fe137c490ecfc8725e2d6808d547afc008b36235d748620581f20efbe31",
+          "version": 3,
+          "contentHash": "sha256:ea33945a1e3062ce9209c9a6569ddd15a7703266f5d6b07fd19a47a0f79fd5e6",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "Because the storm ended, The team returned to practice.",
@@ -475,7 +475,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Because the storm ended, the team returned to practice. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Because the storm ended, the team returned to practice.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Because the storm ended, the team returned to practice. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Because the storm ended, the team returned to practice.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Because the storm ended, The team returned to practice. \"Because the storm ended, The team returned to practice.\" is not correct because \"The\" should stay lowercase as \"the\".",
               "Not: Because the Storm ended, the team returned to practice. \"Because the Storm ended, the team returned to practice.\" is not correct because \"Storm\" should stay lowercase as \"storm\".",
@@ -484,8 +484,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the first word of every sentence and the first word of a direct quotation, but keep continuing dialogue tags and ordinary words lowercase.",
-            "example": "After Maya asked, \"Where is my notebook?\" her brother said, \"It is on the desk.\"",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -578,8 +578,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0011",
-          "version": 2,
-          "contentHash": "sha256:f184854d110af37444dc3160f95089865f6a6fcd87624c959802dffd6da9ac96",
+          "version": 3,
+          "contentHash": "sha256:a4a98ed94419f9097578e045c94539e3902554c80493c9d81da9229c4274e179",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "in the morning, I read quietly.",
@@ -589,7 +589,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: In the morning, I read quietly. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"In the morning, I read quietly.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: In the morning, I read quietly. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"In the morning, I read quietly.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: in the morning, I read quietly. \"in the morning, I read quietly.\" is not correct because \"in\" should be capitalized as \"In\".",
               "Not: In the morning, i read quietly. \"In the morning, i read quietly.\" is not correct because \"i\" should be capitalized as \"I\".",
@@ -598,8 +598,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the first word of every sentence and the first word of a direct quotation, but keep continuing dialogue tags and ordinary words lowercase.",
-            "example": "After Maya asked, \"Where is my notebook?\" her brother said, \"It is on the desk.\"",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -692,8 +692,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0013",
-          "version": 2,
-          "contentHash": "sha256:9f686eda2798a11de69f8bbcfc23a80cd7dad53ba8d9a7e7157085e7505a6208",
+          "version": 3,
+          "contentHash": "sha256:75fbd79fc713db021e738119ca19076af51cbb6467d3d43c66610c4db29af8dc",
           "question": "Which sentence avoids the common error after a colon?",
           "choices": [
             "Remember this rule: always check the first word.",
@@ -703,7 +703,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: Remember this rule: always check the first word. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Remember this rule: always check the first word.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Remember this rule: always check the first word. Rule or clue: A colon can introduce a list after a complete setup. \"Remember this rule: always check the first word.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: Remember this rule: Always check the first word. \"Remember this rule: Always check the first word.\" is not correct because \"Always\" should stay lowercase as \"always\".",
@@ -863,8 +863,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0016",
-          "version": 2,
-          "contentHash": "sha256:3ffbc1801d26ec7b87fd3784893718c834237007ecff35705f165aa10f8d7931",
+          "version": 3,
+          "contentHash": "sha256:85dbc2539eab996ba5487698ef95fb3be24c20182c7a8a4e9c4dcea4e14ebffa",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "after a while, the children became tired.",
@@ -917,12 +917,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0017",
-          "version": 2,
-          "contentHash": "sha256:2540b23eb4242eeb9ada4c5af358f89994318153e6802d8104569831563965d3",
+          "version": 3,
+          "contentHash": "sha256:da28a3e222d156e3b0ae3513f11228a2ceb5efd2b0817c15660ca258f80890ce",
           "question": "Which of the underlined words below should be capitalized? churches, schools, and hospitals are all examples of buildings.",
           "choices": [
             "churches",
@@ -975,12 +976,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0018",
-          "version": 2,
-          "contentHash": "sha256:74e2db0255097acb44ee09605ec2edb11158a6e8776205ae0faaf0fef00de0ed",
+          "version": 3,
+          "contentHash": "sha256:a902f6128b7d8490c82e36015a9c154bd3cf0113a949a0f135af86d5ad51001e",
           "question": "__________ found a bag of candy. Which of the following completes the sentence correctly?",
           "choices": [
             "a Policeman",
@@ -1033,12 +1035,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0019",
-          "version": 2,
-          "contentHash": "sha256:acb92ed3460ec0425c698d911f73b759e47f273577f52f858fc3c384d9755ec5",
+          "version": 3,
+          "contentHash": "sha256:0f3a8d480d5d3a118926bdb163d41e9af16d3eea8eda401c2b402cb983406f77",
           "question": "Choose the missing words in the following sentenc e. ______________ ate lunch together.",
           "choices": [
             "yesterday, Margi and Mary",
@@ -1091,12 +1094,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-sentence-beginning-q0020",
-          "version": 2,
-          "contentHash": "sha256:ba66f740c298b29783a4a9e9f40f64339aaf9c2a658e6b29c6ba773a9ccd5246",
+          "version": 3,
+          "contentHash": "sha256:9147b23f684ae91f7238ce636cf789d4b86f44c3d919400c35fac0910480baeb",
           "question": "Which of the following must always be capitalized?",
           "choices": [
             "first word of a sentence",
@@ -1149,12 +1158,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0021",
-          "version": 2,
-          "contentHash": "sha256:b90a1c0feaffc418b458ef65c3bcc0f0df40ec79453f5ad13b61372134982b0b",
+          "version": 3,
+          "contentHash": "sha256:48875119001288d8b0989ab837fdcb24d9e626622ca03c8735b0c81ec7d96fcb",
           "question": "Which words in the passage below should be capitalized? my dog is a golden retriever and he loves water. you should see marshall dive for rocks! down under the surface he goes, and up he comes with a nose full of water and a huge rock in his mouth!",
           "choices": [
             "my, you, marshall, down",
@@ -1207,12 +1217,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0022",
-          "version": 2,
-          "contentHash": "sha256:14cb10c0e5eecef812693737d9b27c7b4f984cc02a507373ce47d5e3fb89f71b",
+          "version": 3,
+          "contentHash": "sha256:26c1998ba20203dadac991094cef2a27a641a2b72fd6d3532296d2440568b2de",
           "question": "Which sentence is written correctly?",
           "choices": [
             "all the children wanted to pet the cute, warm, cu ddly kitten.",
@@ -1265,12 +1276,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0023",
-          "version": 2,
-          "contentHash": "sha256:340627fe335568637a8cea5d197f1ea9db9e7cc58b929410954f65c462af83f7",
+          "version": 3,
+          "contentHash": "sha256:d4912b4025c8d4c4efce9c4221b3864b9e7df681b4ae85ddc081c14ce888ce49",
           "question": "Which closing for a letter is correctly written?",
           "choices": [
             "Thank You,",
@@ -1280,11 +1292,11 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: With love,. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"With love,\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: With love, Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"With love,\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
-              "Not: Thank You,. \"Thank You,\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: your friend,. \"your friend,\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: All the Best,. \"All the Best,\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: Thank You, \"Thank You,\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: your friend, \"your friend,\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: All the Best, \"All the Best,\" does not match the capitalization pattern required by the sentence or title.",
               ""
             ]
           },
@@ -1324,12 +1336,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0024",
-          "version": 2,
-          "contentHash": "sha256:d003bf97a67cf5e67dae4eda072f702f19954eed424e07910ff68d22b0eb0c7d",
+          "version": 3,
+          "contentHash": "sha256:1fdefbe5a45741910855faef03915c7de7d19b670282022122a1fc09d9b0543e",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "all the dishes in the dishwasher.",
@@ -1383,12 +1396,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0025",
-          "version": 3,
-          "contentHash": "sha256:e6a3572c7b5eda09430add1faa1a0fb6f5d8635457a94de4829a376969201eea",
+          "version": 4,
+          "contentHash": "sha256:1bac446297187bfde8078aa3592879705f5707f096b6cba71d73c03199b44416",
           "question": "Which sentence has a capital letter in the correct place?",
           "choices": [
             "Polar bears like the cold.",
@@ -1442,12 +1456,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0026",
-          "version": 2,
-          "contentHash": "sha256:8720ee3da3658a92796941d05844cd67478870739188ebb5d4913355d3bc0c92",
+          "version": 3,
+          "contentHash": "sha256:da282b5bc2356cc1a9864001c18aee11d45d0b22928d6964b7f22fce4d275b6b",
           "question": "Which words should be capitalized in the sentence below? the plumber fixedour shower door and mr. hews mowedour grass.",
           "choices": [
             "the, plumber, hews",
@@ -1460,8 +1475,8 @@
             "correct": "Answer: the, mr., hews. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"the, mr., hews\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: the, plumber, hews. \"the, plumber, hews\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: the, shower, mr,. \"the, shower, mr,\" does not match the capitalization pattern required by the sentence or title.",
-              "Not: the, plumber, shower,. \"the, plumber, shower,\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: the, shower, mr, \"the, shower, mr,\" does not match the capitalization pattern required by the sentence or title.",
+              "Not: the, plumber, shower, \"the, plumber, shower,\" does not match the capitalization pattern required by the sentence or title.",
               ""
             ]
           },
@@ -1501,12 +1516,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0027",
-          "version": 2,
-          "contentHash": "sha256:98b250834b9c00c7db083c6bf658820c27d3545f5fbe742edf8d9893202dc704",
+          "version": 3,
+          "contentHash": "sha256:7d56b54565a1d28d352b90af7e5f7362c0bab265834ed648d314536fd2bfb396",
           "question": "Which of the following should have the first word capitalized?",
           "choices": [
             "flew to its hidden nest in the tree",
@@ -1560,12 +1576,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0028",
-          "version": 2,
-          "contentHash": "sha256:b9be300346e30c9ba912c2b764364039ba10b5633279aba80e89d57f8a0cb783",
+          "version": 3,
+          "contentHash": "sha256:f2acf286ecebedb66892d04dc8be4c1a93ff1ba2395802b6ce7cac2193f2dd91",
           "question": "Which words in the sentence are capitalized incorrectly? my mother asked, “do you want to go to Hawaii this spring?”",
           "choices": [
             "my, Haw aii",
@@ -1619,12 +1636,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0029",
-          "version": 2,
-          "contentHash": "sha256:1c778407f1e7a1a1cb43db66c977c384f260a1ef3f993e6f0be526da346833e0",
+          "version": 3,
+          "contentHash": "sha256:5752e60f7fe1ed790e47254dcd6aab94fe3ff0d09edbbb6a4d0b1058aace1694",
           "question": "Which word should start with a capital letter?",
           "choices": [
             "jupiter",
@@ -1678,7 +1696,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-sentence-beginning-q0030",
@@ -2475,8 +2494,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0203",
-          "version": 2,
-          "contentHash": "sha256:f3e42bb4a7d45c013414d80bc5e8d3d17743a8447b34626f8bc473ef2f7b260b",
+          "version": 3,
+          "contentHash": "sha256:97815d286ae3f24d32123ade8577cda5e82f8f99bb2e870e18f61f1ff3d0590c",
           "question": "Which answer is capitalized correctly?",
           "choices": [
             "grocery store",
@@ -2486,7 +2505,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: grocery store. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"grocery store\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: grocery store. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"grocery store\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: mount Rushmore. \"mount Rushmore\" does not match the capitalization pattern required by the sentence or title.",
@@ -2495,8 +2514,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -2597,8 +2616,8 @@
         },
         {
           "id": "capitalization-sentence-beginning-q0305",
-          "version": 2,
-          "contentHash": "sha256:7d5e7f324526eaa238da2e55ceca1e40481aec186b17b10c29c4d60c5a690676",
+          "version": 3,
+          "contentHash": "sha256:ce69c4f8920f093e0fae749f189a8b31b227c09ca9eaabe24dca41950c145537",
           "question": "Which answer is capitalized correctly?",
           "choices": [
             "French Speaking",
@@ -2608,7 +2627,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Aunt Edith. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Aunt Edith\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Aunt Edith. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Aunt Edith\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: French Speaking. \"French Speaking\" does not match the capitalization pattern required by the sentence or title.",
               "Not: Tuesday’s Dinner. \"Tuesday’s Dinner\" does not match the capitalization pattern required by the sentence or title.",
@@ -2617,8 +2636,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },
@@ -2678,8 +2697,8 @@
       "questions": [
         {
           "id": "capitalization-days-months-holidays-q0001",
-          "version": 3,
-          "contentHash": "sha256:2180447a7c758beda29d2d5f46639b25979f01c12bf8a9435a49a840da9818fb",
+          "version": 4,
+          "contentHash": "sha256:63458a0d99063d9484b67d5dafbece7a2df73b76411346aa838aa4fd28cd41a4",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "Our Spring concert is on Friday in April.",
@@ -2689,7 +2708,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: Our spring concert is on Friday in April. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Our spring concert is on Friday in April.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Our spring concert is on Friday in April. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Our spring concert is on Friday in April.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Our Spring concert is on Friday in April. \"Our Spring concert is on Friday in April.\" is not correct because \"Spring\" should stay lowercase as \"spring\".",
               "",
@@ -2698,8 +2717,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize days, months, and official holidays. Do not capitalize seasons or general words like break, vacation, parade, or weekend unless they are part of an official name.",
-            "example": "The winter break begins in December, and Martin Luther King Jr. Day is in January.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -2792,8 +2811,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0003",
-          "version": 3,
-          "contentHash": "sha256:fe40907270fc6f03f182384146bad34cc815dd5b7e9c2c0b1e85d15b07640547",
+          "version": 4,
+          "contentHash": "sha256:43a1e58a9339dae0ef2a8cd396213bbafffe792a72a6e6b40743d865725f55ae",
           "question": "Which option is capitalized correctly?",
           "choices": [
             "The Memorial Day parade starts on Monday.",
@@ -2803,7 +2822,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: The Memorial Day parade starts on Monday. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The Memorial Day parade starts on Monday.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: The Memorial Day parade starts on Monday. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"The Memorial Day parade starts on Monday.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: The Memorial day Parade starts on Monday. \"The Memorial day Parade starts on Monday.\" is not correct because \"day\" should be capitalized as \"Day\" and \"Parade\" should stay lowercase as \"parade\".",
@@ -2812,8 +2831,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize days, months, and official holidays. Do not capitalize seasons or general words like break, vacation, parade, or weekend unless they are part of an official name.",
-            "example": "The winter break begins in December, and Martin Luther King Jr. Day is in January.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -2963,8 +2982,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0006",
-          "version": 2,
-          "contentHash": "sha256:a8f3f05390a6f05a9d9c8818f7e74041a6890a643f86cdeff2156a9185bd41bc",
+          "version": 3,
+          "contentHash": "sha256:a13f271ff13cb42ea1a6eb4d32aaa4c36f6377149bf603f4fe609200a3ac3e46",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "School starts the tuesday after Labor Day.",
@@ -2974,7 +2993,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: School starts the Tuesday after Labor Day. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"School starts the Tuesday after Labor Day.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: School starts the Tuesday after Labor Day. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"School starts the Tuesday after Labor Day.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: School starts the tuesday after Labor Day. \"School starts the tuesday after Labor Day.\" is not correct because \"tuesday\" should be capitalized as \"Tuesday\".",
               "",
@@ -2983,8 +3002,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize days, months, and official holidays. Do not capitalize seasons or general words like break, vacation, parade, or weekend unless they are part of an official name.",
-            "example": "The winter break begins in December, and Martin Luther King Jr. Day is in January.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -3248,8 +3267,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0011",
-          "version": 3,
-          "contentHash": "sha256:de2a4b1df53a859dd3e0baf3fe53dcd57cedeca3519d65fdbb1465c56dc5787e",
+          "version": 4,
+          "contentHash": "sha256:1c0dec8034527af81b025c76c3ee72ffe8ea106c961e8061aa0ff039f1853ea7",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "The class party is on Valentine's day in February.",
@@ -3259,7 +3278,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: The class party is on Valentine's Day in February. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The class party is on Valentine's Day in February.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: The class party is on Valentine's Day in February. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"The class party is on Valentine's Day in February.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The class party is on Valentine's day in February. \"The class party is on Valentine's day in February.\" is not correct because \"day\" should be capitalized as \"Day\".",
               "Not: The class party is on valentine's Day in february. \"The class party is on valentine's Day in february.\" is not correct because \"valentine's\" should be capitalized as \"Valentine's\" and \"february\" should be capitalized as \"February\".",
@@ -3268,8 +3287,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize days, months, and official holidays. Do not capitalize seasons or general words like break, vacation, parade, or weekend unless they are part of an official name.",
-            "example": "The winter break begins in December, and Martin Luther King Jr. Day is in January.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -3533,8 +3552,8 @@
         },
         {
           "id": "capitalization-days-months-holidays-q0016",
-          "version": 2,
-          "contentHash": "sha256:c53263df48850095b494b52de9686292773d7bbcc1ef334e271da2f5d7d9d973",
+          "version": 3,
+          "contentHash": "sha256:dee6fc4d2e49da6ed510e2e854c522d455f35920452e34bade379a2927d9470b",
           "question": "Which sentence has been capitalized correctly?",
           "choices": [
             "Mayor Brown, the Mayor of our city, is a remarkable woman.",
@@ -3544,7 +3563,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: When we went to London on our vacations, we saw Queen Elizabeth II at the palace. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"When we went to London on our vacations, we saw Queen Elizabeth II at the palace.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: When we went to London on our vacations, we saw Queen Elizabeth II at the palace. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"When we went to London on our vacations, we saw Queen Elizabeth II at the palace.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Mayor Brown, the Mayor of our city, is a remarkable woman. \"Mayor Brown, the Mayor of our city, is a remarkable woman.\" does not match the capitalization pattern required by the sentence or title.",
               "",
@@ -3587,12 +3606,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-days-months-holidays-q0017",
-          "version": 2,
-          "contentHash": "sha256:68706036ac422d5de2259058ecf9e5d1b7709f21d2fb0bb6f18348122312c78a",
+          "version": 3,
+          "contentHash": "sha256:00969d5c96611cf2a9089cd5d130dde9782718821e5f9a7da4131296b680abd2",
           "question": "In the sentence below, which word needs a capital letter? I will have a party the first tuesday of May.",
           "choices": [
             "tuesday",
@@ -3645,12 +3670,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-days-months-holidays-q0018",
-          "version": 2,
-          "contentHash": "sha256:b16795d9f6991e386fdf5acaf4ca6a130d94903189e357cd2642e90483566ba3",
+          "version": 3,
+          "contentHash": "sha256:b03e7bf6ae9d77c4265ef3e0fbda91a974dd77630fb9d6570e4a85dcaaeba54c",
           "question": "Which words should be capitalized? We crossed the mississippi river on a warm tuesday.",
           "choices": [
             "mississippi, warm",
@@ -3703,12 +3729,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-days-months-holidays-q0019",
-          "version": 2,
-          "contentHash": "sha256:764a3f6fe3a795bae0dcfd83612a30c529aea08363ca54e6984aaae2da65fa39",
+          "version": 3,
+          "contentHash": "sha256:de00b1aebf02c5589096226abe4828bff2be87d23a350801b27cd5dfb87a4471",
           "question": "Which pair of words must be capitalized in this sentence? Our town has a festival of trees during the christmas season.",
           "choices": [
             "town, festival",
@@ -3762,12 +3789,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-days-months-holidays-q0020",
-          "version": 3,
-          "contentHash": "sha256:a174290aef8f7f92cbafcdaddfa6ebeb5ae55ce31b7b6e66dd56a4f4ca32aece",
+          "version": 4,
+          "contentHash": "sha256:d1429dca128abd1ca36bfc0dc6c7ee9ea90605d34717c5a0e500b982e8d77c23",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "Hanukkah begins on the last saturday in November.",
@@ -3777,7 +3805,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: The last Saturday in November is the startof Hanukkah. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The last Saturday in November is the startof Hanukkah.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: The last Saturday in November is the startof Hanukkah. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"The last Saturday in November is the startof Hanukkah.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Hanukkah begins on the last saturday in November. \"Hanukkah begins on the last saturday in November.\" does not match the capitalization pattern required by the sentence or title.",
               "Not: Hanukkah begins on the last Saturday in november. \"Hanukkah begins on the last Saturday in november.\" does not match the capitalization pattern required by the sentence or title.",
@@ -3821,12 +3849,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-days-months-holidays-q0021",
-          "version": 2,
-          "contentHash": "sha256:a59f6ebce1967ae2395f5758153ff6e776108f22962f426400acd209c62f4408",
+          "version": 3,
+          "contentHash": "sha256:84ef77b0e1dd8bf8116fdd8299094d05379e07494a12abfa2e7f0c08a0c39b5c",
           "question": "Which word should not start with a capital letter?",
           "choices": [
             "Tuesday",
@@ -3880,12 +3914,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-days-months-holidays-q0022",
-          "version": 2,
-          "contentHash": "sha256:67cb38955218d8ea86174b4a3e1cbdbb3b8a0e53e81d751c2d323cc35772709b",
+          "version": 3,
+          "contentHash": "sha256:abedb1b5281d714d469c478049c0d44eb5d523b5f72c513c49228a4b11ac74c3",
           "question": "Read the passage below. It all started when I left school on the last day of the year. When I got home, the minivan was packed, and mom and dad were waiting for me. We stopped at McDonald’s on our wayoutof town. Choose the best title for the passage.",
           "choices": [
             "Wh en My Little Brother Was Born",
@@ -3939,12 +3974,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-days-months-holidays-q0023",
-          "version": 2,
-          "contentHash": "sha256:702a5a4c028ab6d6b2855780393d9e0dd30fdb09217057fdb3ac036bceadad92",
+          "version": 3,
+          "contentHash": "sha256:105e4e00dcb7f6db0cd105998082960272eabd746c83f75821d7479a7b46abe5",
           "question": "Which sentence has all the capital letters in the correct place?",
           "choices": [
             "We took the train from Paris to London on Tuesday.",
@@ -3998,7 +4034,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-days-months-holidays-q0037",
@@ -4449,8 +4486,8 @@
       "questions": [
         {
           "id": "capitalization-books-magazines-songs-plays-q0001",
-          "version": 2,
-          "contentHash": "sha256:b42408982fef66b8a32dd6fb096a79abdbe004377aa27823e8015eee662bcc1d",
+          "version": 3,
+          "contentHash": "sha256:cb7a2840af85fb4cd57aff2e11216b2ba582d52ba8e0141a88931e8406826087",
           "question": "Which title is capitalized correctly?",
           "choices": [
             "The Lion, The Witch and The Wardrobe",
@@ -4460,7 +4497,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: The Lion, the Witch and the Wardrobe. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The Lion, the Witch and the Wardrobe\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: The Lion, the Witch and the Wardrobe. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"The Lion, the Witch and the Wardrobe\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The Lion, The Witch and The Wardrobe. \"The Lion, The Witch and The Wardrobe\" is not correct because \"The\" should stay lowercase as \"the\" and \"The\" should stay lowercase as \"the\".",
               "",
@@ -4469,8 +4506,8 @@
             ]
           },
           "studyAid": {
-            "definition": "In titles of books, magazines, songs, and plays, capitalize the first and last word and important words. Lowercase short articles, conjunctions, and prepositions unless they begin or end the title.",
-            "example": "The Lion, the Witch and the Wardrobe",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Titles"
           },
@@ -4563,8 +4600,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0003",
-          "version": 2,
-          "contentHash": "sha256:ef2933b9c6d25271a06cd65b2b3955d609692057fee7569546e031e592e539a2",
+          "version": 3,
+          "contentHash": "sha256:e0ce239712a0b516f19ee4dea43780f53140b9dc1c23715cd4543d54fc464668",
           "question": "Which song title is capitalized correctly?",
           "choices": [
             "Here comes the Sun",
@@ -4574,7 +4611,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Here Comes the Sun. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Here Comes the Sun\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Here Comes the Sun. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Here Comes the Sun\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Here comes the Sun. \"Here comes the Sun\" is not correct because \"comes\" should be capitalized as \"Comes\".",
               "Not: Here Comes the sun. \"Here Comes the sun\" is not correct because \"sun\" should be capitalized as \"Sun\".",
@@ -4583,8 +4620,8 @@
             ]
           },
           "studyAid": {
-            "definition": "In titles of books, magazines, songs, and plays, capitalize the first and last word and important words. Lowercase short articles, conjunctions, and prepositions unless they begin or end the title.",
-            "example": "The Lion, the Witch and the Wardrobe",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Titles"
           },
@@ -4620,8 +4657,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0004",
-          "version": 3,
-          "contentHash": "sha256:95de81deb9619c6b7b8b2797863357a621a2db31427611c8584b357dcf8272b6",
+          "version": 4,
+          "contentHash": "sha256:7b6a5378dfe19ba0665c577e87651a26dbf2f2ce899624aa1e44ceb7a9002e58",
           "question": "Which magazine title and sentence are capitalized correctly?",
           "choices": [
             "My article appeared in national Geographic kids.",
@@ -4631,7 +4668,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: My article appeared in National Geographic Kids. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"My article appeared in National Geographic Kids.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: My article appeared in National Geographic Kids. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"My article appeared in National Geographic Kids.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: My article appeared in national Geographic kids. \"My article appeared in national Geographic kids.\" is not correct because \"national\" should be capitalized as \"National\" and \"kids\" should be capitalized as \"Kids\".",
               "",
@@ -4640,8 +4677,8 @@
             ]
           },
           "studyAid": {
-            "definition": "In titles of books, magazines, songs, and plays, capitalize the first and last word and important words. Lowercase short articles, conjunctions, and prepositions unless they begin or end the title.",
-            "example": "The Lion, the Witch and the Wardrobe",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Titles"
           },
@@ -4905,8 +4942,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0009",
-          "version": 2,
-          "contentHash": "sha256:1151303a5a8a8eba330f18e76e0c677985f799cfb9d144e7c4174f61497dcf20",
+          "version": 3,
+          "contentHash": "sha256:105db91ac176941b174079ab553da2782a4ea7b8fb275b121bc492870cbbc856",
           "question": "Which title is capitalized correctly?",
           "choices": [
             "Because of Winn-Dixie",
@@ -4916,7 +4953,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: Because of Winn-Dixie. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Because of Winn-Dixie\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Because of Winn-Dixie. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Because of Winn-Dixie\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: Because Of Winn-Dixie. \"Because Of Winn-Dixie\" is not correct because \"Of\" should stay lowercase as \"of\".",
@@ -4925,8 +4962,8 @@
             ]
           },
           "studyAid": {
-            "definition": "In titles of books, magazines, songs, and plays, capitalize the first and last word and important words. Lowercase short articles, conjunctions, and prepositions unless they begin or end the title.",
-            "example": "The Lion, the Witch and the Wardrobe",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Titles"
           },
@@ -5076,8 +5113,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0012",
-          "version": 3,
-          "contentHash": "sha256:d39d7380c7534512d768550d137936d4098d9bd0c541769bd41a7ea9b83832c7",
+          "version": 4,
+          "contentHash": "sha256:c14686bf1d56fecd36d5ae7e7befe6dd54cc24b7437a979883f4dc8c07b2f5be",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "We watched the Phantom Tollbooth before dinner.",
@@ -5087,7 +5124,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: We watched The Phantom Tollbooth before dinner. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We watched The Phantom Tollbooth before dinner.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: We watched The Phantom Tollbooth before dinner. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"We watched The Phantom Tollbooth before dinner.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: We watched the Phantom Tollbooth before dinner. \"We watched the Phantom Tollbooth before dinner.\" is not correct because \"the\" should be capitalized as \"The\".",
               "",
@@ -5096,8 +5133,8 @@
             ]
           },
           "studyAid": {
-            "definition": "In titles of books, magazines, songs, and plays, capitalize the first and last word and important words. Lowercase short articles, conjunctions, and prepositions unless they begin or end the title.",
-            "example": "The Lion, the Witch and the Wardrobe",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Titles"
           },
@@ -5304,8 +5341,8 @@
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0016",
-          "version": 2,
-          "contentHash": "sha256:fb76da75ebca5c5fb36aea6016bf5bb200ebd3ccf3b3089bbdcf313c9eb8db64",
+          "version": 3,
+          "contentHash": "sha256:dccd8251ede2038bf80a590c018219c525b6ab8df0d595aeb1f6064318b799d6",
           "question": "Which pair of words must be capitalized in the sentence below? The Lincoln high glee club sang before the los angeles lakers played last night.",
           "choices": [
             "club, sang",
@@ -5358,12 +5395,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0017",
-          "version": 2,
-          "contentHash": "sha256:868886f7122caa0918dfb61bf4a1ea32b6980217ce7ed53a25db24c2df74775b",
+          "version": 3,
+          "contentHash": "sha256:c2b70a75d72bec471ea2512681b3feafdc0008317d35469d980690bca433be97",
           "question": "Which sentence is correctly punctuated?",
           "choices": [
             "We read “Romeo and Juliet” in nin th grade.",
@@ -5416,12 +5454,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0018",
-          "version": 2,
-          "contentHash": "sha256:7dccb359de5bef95bdbb480d5f002c74fa7e52e20b6b1ede5f480bd78f3e697e",
+          "version": 3,
+          "contentHash": "sha256:b4d3a5e20a08cf6a7da4f87ba3c1e5a7ec1a1bd8affe34a3b1af921d28985867",
           "question": "Choose the correctly capitalized words. ________________ is a book by Roald Dahl.",
           "choices": [
             "James and the giant peach",
@@ -5474,12 +5513,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0019",
-          "version": 2,
-          "contentHash": "sha256:addb084a491971d0f083ceeafb8e959e7507f4a23ccbebb48feba79852dce832",
+          "version": 3,
+          "contentHash": "sha256:a4bed0e4044cb6a35c3ce2b176c9c92633f3069424b26cdef12ae1eb491dbb3e",
           "question": "Choose the correctly written book title.",
           "choices": [
             "Harry Po tter and The chamber of secrets",
@@ -5532,12 +5572,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0020",
-          "version": 2,
-          "contentHash": "sha256:fc09d5a221cc0853aee4656a2b5f3e4bcd29bffeccc4830d821af2cd10e9f13d",
+          "version": 3,
+          "contentHash": "sha256:7eaed2a777349790d15dca6fb8b7db88a48c08cb17f2c20736f79fe2c96a2299",
           "question": "Which of the following book titles is correctly capitalized?",
           "choices": [
             "Of Mice And Men",
@@ -5590,12 +5631,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-books-magazines-songs-plays-q0021",
-          "version": 2,
-          "contentHash": "sha256:1c2bee5930875a7f86c2a5efed2540882068c57d987e249f4b9b51a5eaed423d",
+          "version": 3,
+          "contentHash": "sha256:a26e76ad496f29169bb8a087d23f98e0479b70a4ed6c5ee85cff1e19c7918491",
           "question": "Which words in the book title should be capitalized? I enjoyed reading the novel call of the wild by Jack London.",
           "choices": [
             "call, the",
@@ -5648,7 +5690,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         }
       ],
       "metadata": {
@@ -5672,8 +5715,8 @@
       "questions": [
         {
           "id": "capitalization-proper-names-titles-q0001",
-          "version": 2,
-          "contentHash": "sha256:1462bb9bc1af62560752eaffcc948cd86a28d1bb96bc0ac120c0e493b54889bf",
+          "version": 3,
+          "contentHash": "sha256:49ac47260898872eee12919689063334cd4139b029b3e327b4807f6e624e49b8",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "My Uncle Ray helped my uncle fix the fence.",
@@ -5683,7 +5726,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: My uncle Ray helped my uncle fix the fence. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"My uncle Ray helped my uncle fix the fence.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: My uncle Ray helped my uncle fix the fence. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"My uncle Ray helped my uncle fix the fence.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: My Uncle Ray helped my uncle fix the fence. \"My Uncle Ray helped my uncle fix the fence.\" is not correct because \"Uncle\" should stay lowercase as \"uncle\".",
               "",
@@ -5692,8 +5735,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize a person's name and titles used directly before a name. Lowercase relationship words and job titles when they are used as common nouns.",
-            "example": "Aunt Rosa called my aunt. Mayor Lee thanked the mayor's staff.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -5957,8 +6000,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0006",
-          "version": 3,
-          "contentHash": "sha256:e249213be2227fff0e143e9ee7748244b46241f74d2c4b3d5cbca60c291862a7",
+          "version": 4,
+          "contentHash": "sha256:9985e1bd965e094e961fee3b8c45ca4a691ed0e20f208660c738708574859ef1",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "coach Rivera said the Coach would arrive early.",
@@ -5968,7 +6011,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Coach Rivera said the coach would arrive early. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Coach Rivera said the coach would arrive early.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Coach Rivera said the coach would arrive early. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Coach Rivera said the coach would arrive early.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: coach Rivera said the Coach would arrive early. \"coach Rivera said the Coach would arrive early.\" is not correct because \"coach\" should be capitalized as \"Coach\" and \"Coach\" should stay lowercase as \"coach\".",
               "Not: Coach Rivera said the Coach would arrive Early. \"Coach Rivera said the Coach would arrive Early.\" is not correct because \"Coach\" should stay lowercase as \"coach\" and \"Early\" should stay lowercase as \"early\".",
@@ -5977,8 +6020,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize a person's name and titles used directly before a name. Lowercase relationship words and job titles when they are used as common nouns.",
-            "example": "Aunt Rosa called my aunt. Mayor Lee thanked the mayor's staff.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -6185,8 +6228,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0010",
-          "version": 3,
-          "contentHash": "sha256:12f0ec9b3423233f5395a33a6154ca59aa5e46cf469c6d98d54d18ff8919ed88",
+          "version": 4,
+          "contentHash": "sha256:f006a47f3bc7c3963adc45985c2171161b520ca5269046929b9cbc455b817c69",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "My Sister, Naomi, sat beside aunt Lee.",
@@ -6196,7 +6239,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: My sister, Naomi, sat beside Aunt Lee. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"My sister, Naomi, sat beside Aunt Lee.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: My sister, Naomi, sat beside Aunt Lee. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"My sister, Naomi, sat beside Aunt Lee.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: My Sister, Naomi, sat beside aunt Lee. \"My Sister, Naomi, sat beside aunt Lee.\" is not correct because \"Sister\" should stay lowercase as \"sister\" and \"aunt\" should be capitalized as \"Aunt\".",
               "Not: My sister, naomi, sat beside Aunt Lee. \"My sister, naomi, sat beside Aunt Lee.\" is not correct because \"naomi\" should be capitalized as \"Naomi\".",
@@ -6205,8 +6248,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize a person's name and titles used directly before a name. Lowercase relationship words and job titles when they are used as common nouns.",
-            "example": "Aunt Rosa called my aunt. Mayor Lee thanked the mayor's staff.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -6413,8 +6456,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0014",
-          "version": 3,
-          "contentHash": "sha256:e0b46a408946e5c4e0f2f4e1f331ab122fb2f7d2e00ddcd1e865d0bd118dff31",
+          "version": 4,
+          "contentHash": "sha256:6bdf29fe98f5e60a2abcb24db75acf13d3a530dc754331c031d50f02e5c05796",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "professor Nguyen emailed the Professor after class.",
@@ -6424,7 +6467,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Professor Nguyen emailed the professor after class. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Professor Nguyen emailed the professor after class.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Professor Nguyen emailed the professor after class. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Professor Nguyen emailed the professor after class.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: professor Nguyen emailed the Professor after class. \"professor Nguyen emailed the Professor after class.\" is not correct because \"professor\" should be capitalized as \"Professor\" and \"Professor\" should stay lowercase as \"professor\".",
               "Not: Professor Nguyen emailed the Professor after Class. \"Professor Nguyen emailed the Professor after Class.\" is not correct because \"Professor\" should stay lowercase as \"professor\" and \"Class\" should stay lowercase as \"class\".",
@@ -6433,8 +6476,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize a person's name and titles used directly before a name. Lowercase relationship words and job titles when they are used as common nouns.",
-            "example": "Aunt Rosa called my aunt. Mayor Lee thanked the mayor's staff.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
             "linkText": "Grammar Monster - Capital Letters"
           },
@@ -6527,8 +6570,8 @@
         },
         {
           "id": "capitalization-proper-names-titles-q0016",
-          "version": 2,
-          "contentHash": "sha256:964f80e06e541a8dda8e2a7d706a3690b81208084a57e3f9c9e1e03e0c4ef74f",
+          "version": 3,
+          "contentHash": "sha256:60667432e5eb28d95543328b82a6a5dd9049bea608d2c8ec9df1b2b84b3971b9",
           "question": "Choose the correct missing words. ____________ had to put a cast on his broken arm.",
           "choices": [
             "d r. John Adams",
@@ -6538,7 +6581,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Dr. John Adams. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Dr. John Adams\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Dr. John Adams. Rule or clue: A pronoun must agree with the noun it replaces and fit its job in the sentence. \"Dr. John Adams\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: d r. John Adams. \"d r. John Adams\" does not match the capitalization pattern required by the sentence or title.",
               "Not: Dr. john Adams. \"Dr. john Adams\" is not correct because \"john\" should be capitalized as \"John\".",
@@ -6581,12 +6624,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0017",
-          "version": 2,
-          "contentHash": "sha256:a2b1d1dfc62cb48ca50b3cc015aeab6519c6aeed8a9fcdaad4c640b495ae2d32",
+          "version": 3,
+          "contentHash": "sha256:5c7b50a10daef383e9a6b5c826f11eed2cdde0a9a1f96fee41616d82924d660d",
           "question": "Which word in this letter has a capitalization error? Dear Juanita, Would you start dinner when you get home? love, Mom",
           "choices": [
             "Dear",
@@ -6639,12 +6688,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0018",
-          "version": 2,
-          "contentHash": "sha256:d3c21b9c1fc24a9bb41f08544e89c8c158f771785a7678e8f09eb84a85ec5e5b",
+          "version": 3,
+          "contentHash": "sha256:332dcb2dcbe60df034666d8d462469da1886a20c7649ee5da7b341f68d299685",
           "question": "Which underlined wo rd is inc orrectly capitalized? On vacation we went to see the Lincoln, Washington, and Jefferson monument in Washington, d.c.",
           "choices": [
             "Washington, d.c.",
@@ -6697,12 +6747,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
+            "example": "I visited Washington, D.C., last summer.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0019",
-          "version": 3,
-          "contentHash": "sha256:d91e5e0bffa1ee84eee2bc5650c9fdcd9099bc25c7c154309e8842aeb9ef133a",
+          "version": 4,
+          "contentHash": "sha256:e2b53330440024f7b0cc0ca06e6819d81aba39bd0f2b65e395a8bb898ab2efc7",
           "question": "Which sentence has words capitalized correctly?",
           "choices": [
             "We live at 1670 oak street.",
@@ -6712,7 +6768,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: We live at 1670 Oak Street. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We live at 1670 Oak Street.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: We live at 1670 Oak Street. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"We live at 1670 Oak Street.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: We live at 1670 oak street. \"We live at 1670 oak street.\" is not correct because \"oak\" should be capitalized as \"Oak\" and \"street\" should be capitalized as \"Street\".",
               "Not: We live at 1670 Oak street. \"We live at 1670 Oak street.\" is not correct because \"street\" should be capitalized as \"Street\".",
@@ -6755,12 +6811,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0020",
-          "version": 2,
-          "contentHash": "sha256:413e7e512ed3ec89c7397b6753bc61fb4abb9a823d800c9046123e3e68d94495",
+          "version": 3,
+          "contentHash": "sha256:51ae50de1440871020a0bfac1ee76b3a26bf6dbd36178692b5cf07d17f9156b1",
           "question": "Which underlined word is incorrectly capitalized? In class last week we read a Spanish folk tale.",
           "choices": [
             "class",
@@ -6813,12 +6875,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0021",
-          "version": 2,
-          "contentHash": "sha256:6a5f46b68db1177819e0ba11919f8a2cdc5a2cabb854bc4136d721a80340f641",
+          "version": 3,
+          "contentHash": "sha256:b908cbe2cb35b75b8dfe47687296afbb49f46fad085a79bed7d704a2b1844fe0",
           "question": "Identify which underlined words are proper nouns. On our vacation we visited many sites and places like Mt. Rushmore, old mining towns, forts, and museums.",
           "choices": [
             "Mt. Rushmore",
@@ -6871,12 +6934,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0022",
-          "version": 2,
-          "contentHash": "sha256:e59818d15e07f476771b9b3c15e155dd995ed5d0e14d31bf556ad56d31fe8f4e",
+          "version": 3,
+          "contentHash": "sha256:399538f0b7345402363bcf6cf8eb34bfc639cd9e2caebf4b9625ccfe47cf58b1",
           "question": "Choose the sentence that is written correctly.",
           "choices": [
             "i will go on the trip if I can.",
@@ -6929,12 +6993,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0023",
-          "version": 2,
-          "contentHash": "sha256:6317f6004919a33861d2d732737cc420d1b63dd074fd10c34da08db1e61f4dea",
+          "version": 3,
+          "contentHash": "sha256:53bdaf6c560392f1c0bee012ec0ddca928176aa760647f6eddf3e5c529705ec4",
           "question": "Which words must be capitalized in this sentence? the new testament is part of the bible, christianity’s most holy book.",
           "choices": [
             "the, new, testament, holy, book",
@@ -6987,12 +7052,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0024",
-          "version": 2,
-          "contentHash": "sha256:6ecde9147574a14120686600507226faa1821d727aa011a6b644c9c08191559f",
+          "version": 3,
+          "contentHash": "sha256:0b2af6f763f9b2b5f158f55a542b6a4799305650845246f6a10859bf5369f81d",
           "question": "Identify the correctly capitalized title.",
           "choices": [
             "dr. Jones",
@@ -7045,12 +7111,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0025",
-          "version": 2,
-          "contentHash": "sha256:50b6640722bccd3a536685dbf1159b4a58ec43ae32164bb1960fba19860d42b5",
+          "version": 3,
+          "contentHash": "sha256:9f38cc9f05d4825a1a705d093b7abf9f5a010487bce157ee00e59fac77544358",
           "question": "Which words are not correctly capitalized? The Columbia river flows under The Broadway Bridge in Portland, Oregon.",
           "choices": [
             "R iver, The",
@@ -7103,12 +7170,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0026",
-          "version": 2,
-          "contentHash": "sha256:705df70904abb5e6b7afe3ebc368c1152680b8842e8fd466b76a6c32ebd87805",
+          "version": 3,
+          "contentHash": "sha256:a271d2ad21fd63c28c9dd1bcaf4a5a40e6d5d72675aaf2ca0f8ba481f647167d",
           "question": "Which course title is correctly capitalized?",
           "choices": [
             "Histor y",
@@ -7161,12 +7229,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0027",
-          "version": 2,
-          "contentHash": "sha256:ab22ad95ad0a3c5882f8cb37f28f9af002010d607a9a6bea3b43c617729ed70e",
+          "version": 3,
+          "contentHash": "sha256:5b9546fd556006a56ea1740e0a37a8e9b6778bb235bda71df23b20434f910596",
           "question": "Which of the underlined words below is incorrectly capitalized? Mary beth Adams was chosen to be the captain of the cheerleading squad.",
           "choices": [
             "captain",
@@ -7219,12 +7288,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0028",
-          "version": 2,
-          "contentHash": "sha256:0ec904e0c81f2c32ca13bcb86d45d1e916d51451b55c47deaeb0ee62d34af6db",
+          "version": 3,
+          "contentHash": "sha256:7196ae204139c91c86db0a4ad3c0900c78f6ee92c733c627553000898270f180",
           "question": "Choose the correct missing words. ______________ are going to the movies.",
           "choices": [
             "Jim and i",
@@ -7234,7 +7304,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Jim and I. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Jim and I\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Jim and I. Rule or clue: A pronoun must agree with the noun it replaces and fit its job in the sentence. \"Jim and I\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Jim and i. \"Jim and i\" is not correct because \"i\" should be capitalized as \"I\".",
               "Not: jim and i. \"jim and i\" is not correct because \"jim\" should be capitalized as \"Jim\" and \"i\" should be capitalized as \"I\".",
@@ -7277,12 +7347,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0029",
-          "version": 2,
-          "contentHash": "sha256:a819d02b14cb71645ac5501ec3925c79f86b0c427a29124669c4b149f8b50d43",
+          "version": 3,
+          "contentHash": "sha256:30512bae8ef1e55847ac94b3e89f5ac719c44f76457d3e8371d08b1eb399cd7d",
           "question": "Which sentence is written correctly?",
           "choices": [
             "i think I need to do my homework before playing.",
@@ -7335,12 +7411,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0030",
-          "version": 2,
-          "contentHash": "sha256:c3994af216b469351beb45195bdc8874e378bfa929cb0e78fcf3aa8d8508fcaf",
+          "version": 3,
+          "contentHash": "sha256:cfd393015b2b7d6f13b10a3cc09a462733c2464e82ab0abf83848e464b3d2996",
           "question": "Which word needs a capital letter? The students gave miss Smith a gift for her birthday.",
           "choices": [
             "birthday",
@@ -7393,12 +7470,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0031",
-          "version": 2,
-          "contentHash": "sha256:8137da5c302917d5d93272c1034529d72ef1be33bbed5a8f361c51bdc872daa8",
+          "version": 3,
+          "contentHash": "sha256:63cf3ee86ab096df399cff61791a46f5925c9edb4a86bf31a07aac35cc166770",
           "question": "Which word needs a capital letter? I let rita borrow my jacket and soccer ball.",
           "choices": [
             "jacket",
@@ -7451,12 +7529,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0032",
-          "version": 2,
-          "contentHash": "sha256:d192a6770e2322cf143a2d0e9e4ce56bb8bde0b54674806622c36c85ade83eb7",
+          "version": 3,
+          "contentHash": "sha256:f917ef23cb1b0a622cb709381a116cb3ff0e38c7482118a2725c47952c0764c9",
           "question": "Which of the following sentences is not capitalized correctly?",
           "choices": [
             "I won the race.",
@@ -7466,7 +7545,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Sally and i ate lunch together. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Sally and i ate lunch together.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Sally and i ate lunch together. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Sally and i ate lunch together.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: I won the race. \"I won the race.\" does not match the capitalization pattern required by the sentence or title.",
               "Not: Mom said that I forgot to call. \"Mom said that I forgot to call.\" does not match the capitalization pattern required by the sentence or title.",
@@ -7509,12 +7588,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0033",
-          "version": 2,
-          "contentHash": "sha256:24a69936e989da8c9dee36796d7bb3b5b82f8790d1401574fc65d7b09c33f3ca",
+          "version": 3,
+          "contentHash": "sha256:956c5ddec3a51d5825b5275b280ac3d934769b9e8f5e3560fa63321f0f298c56",
           "question": "Which of the following is a proper noun?",
           "choices": [
             "beth",
@@ -7567,12 +7652,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0034",
-          "version": 2,
-          "contentHash": "sha256:d1d2504d763166b523475f14ffb732815996975afc88c68967e9131a575f73e5",
+          "version": 3,
+          "contentHash": "sha256:fcf4a06ef81f4955030ae0cc4152aecfb053037fd607a93254fe0f16896f9d06",
           "question": "Which of the following sentences is written corre ctly?",
           "choices": [
             "i think i’ll call her.",
@@ -7625,12 +7711,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0035",
-          "version": 2,
-          "contentHash": "sha256:4b7c85ea7f48bc088a13bf6be44c7f95556c85262e7b99eca288b86eda635775",
+          "version": 3,
+          "contentHash": "sha256:595edc985b20f65bd4119fc6f603f406233f48c2121850f4d4289fa91ae9660e",
           "question": "Which of the following is a proper noun?",
           "choices": [
             "p umpkin",
@@ -7683,12 +7770,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0036",
-          "version": 2,
-          "contentHash": "sha256:8398f457b1260beb82ab2738a5dadfed8986bab36846f4cfc910bcdd14ab87ab",
+          "version": 3,
+          "contentHash": "sha256:8e4a798dbda757c02fcedaae524a1fbb755fd1cca627ddb1d2cc3d56401fe45b",
           "question": "Which words in the list below should be capitalized? buick vehicle chevrolet ford toyota",
           "choices": [
             "car, corvette, ford, toyota",
@@ -7741,12 +7829,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0037",
-          "version": 2,
-          "contentHash": "sha256:b3e6b4242c09b15aef339426218be3a29aa66df5aa4bc3292d077723ee608fcf",
+          "version": 3,
+          "contentHash": "sha256:033c46cc33580ef8a46d618b6ac8bd814c357eddcdd9fdd1dc27dca65808d507",
           "question": "Identify the sentence below that is capitalized correctly.",
           "choices": [
             "Gerry loves Chinese food.",
@@ -7756,7 +7845,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: My mother can speak French and German. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"My mother can speak French and German.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: My mother can speak French and German. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"My mother can speak French and German.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Gerry loves Chinese food. \"Gerry loves Chinese food.\" does not match the capitalization pattern required by the sentence or title.",
               "",
@@ -7799,12 +7888,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0038",
-          "version": 2,
-          "contentHash": "sha256:6fd7d82e58f9bc15f9f33e06993d1c7874befff582767f7aa61704dbc269d094",
+          "version": 3,
+          "contentHash": "sha256:98187b6e286060803c1222f98d1210c797661b29878e6a106816079cd33d3dfa",
           "question": "Which word from the sentence below is a proper noun? Mrs. Smith teaches math class at the high school.",
           "choices": [
             "Mrs. Smith",
@@ -7857,12 +7952,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0039",
-          "version": 2,
-          "contentHash": "sha256:eea3fc7269ea829814c2bf72817ebad85c581c21eb772c5bf96f556b99834ee7",
+          "version": 3,
+          "contentHash": "sha256:b203d976d0404fe8ac29a458220fa1a9ef4b963efb4e38198dab5f8e7065a123",
           "question": "Which of the following sentences is written correctly?",
           "choices": [
             "The liberty bell is a famous American monument.",
@@ -7915,12 +8011,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0040",
-          "version": 2,
-          "contentHash": "sha256:db7f378a7ab80ad7ffbb3d6e6401596dc0f7a3ce001aa20c749dc715dbdc1fff",
+          "version": 3,
+          "contentHash": "sha256:ba28ec99b5ece62c4ee600e679bda3acb5b43fcab19a28943c0a70653e693986",
           "question": "Read the following letter. dear Susan 1., Please meet me after school to take 2. your test 3.. sincerely, Mrs. Jones 4. Which lines need corrections?",
           "choices": [
             "1, 2, 3",
@@ -7973,12 +8070,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0041",
-          "version": 2,
-          "contentHash": "sha256:9b2fba761bcdc7d3a2b6fb51556bb8a49ac2da0158042821517b3e6917b62209",
+          "version": 3,
+          "contentHash": "sha256:deecc1a7364111a2a17c5460eed718dba582af50d33dc4dee367cd845056cd2c",
           "question": "Which of the following sentences is capitalized correctly?",
           "choices": [
             "Tom joined the boy scouts of America.",
@@ -7988,7 +8086,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Tom joined the Boy Scouts of America. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Tom joined the Boy Scouts of America\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Tom joined the Boy Scouts of America. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Tom joined the Boy Scouts of America\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: Tom joined the boy scouts of America. \"Tom joined the boy scouts of America.\" is not correct because \"boy\" should be capitalized as \"Boy\" and \"scouts\" should be capitalized as \"Scouts\".",
               "Not: Tom joined the boy Scouts of America. \"Tom joined the boy Scouts of America\" is not correct because \"boy\" should be capitalized as \"Boy\".",
@@ -8031,12 +8129,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0042",
-          "version": 2,
-          "contentHash": "sha256:5c2b30e1a8b66bb2d000eb5e158adec83747bc6717e0784fbfc68851c75cf8d5",
+          "version": 3,
+          "contentHash": "sha256:ab77378b23d39c10d13483dfa2ae261aa53ceb3542672fcfbc2ec73ccae92d38",
           "question": "Which indicates the speaker is excited?",
           "choices": [
             "Su re, I can do that!",
@@ -8089,12 +8193,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0043",
-          "version": 2,
-          "contentHash": "sha256:f0e7e04fcf1534aa4e558ea34d88d0131a45aff26cba4abae0249c105f8e271e",
+          "version": 3,
+          "contentHash": "sha256:dd2e140a717d48ccfbc6a1727e47ba18fcc2baaff0fd9432608f233a019c98c5",
           "question": "Which words should be capitalized? My cousins, uncle Fred, aunt Mary, and my mother came to my piano recital.",
           "choices": [
             "cousins, uncle Fred, aunt Mary, mother",
@@ -8148,12 +8253,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0044",
-          "version": 2,
-          "contentHash": "sha256:874c1593ec2cc9641d3fa66635204a7cd1afc5958c7cb1561d8f0f70e3f0b7b0",
+          "version": 3,
+          "contentHash": "sha256:97fef201d2d88edf4558f750f1a6e002911c5160f2f7de3c7437cbbd17a09558",
           "question": "Which closing is capitalized correctly? 1. take care, 2. Take Care, 3. Take care, 4. TAKE CARE,",
           "choices": [
             "1",
@@ -8163,7 +8269,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: 3. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"3\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: 3. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"3\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: 1. \"1\" does not match the capitalization pattern required by the sentence or title.",
               "Not: 2. \"2\" does not match the capitalization pattern required by the sentence or title.",
@@ -8207,12 +8313,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0045",
-          "version": 2,
-          "contentHash": "sha256:326ca99c5aaca7579ab62ce63f24503142821f6c9fb3e1d22a0aedecfe033c92",
+          "version": 3,
+          "contentHash": "sha256:75d044bc94b14015c8c3d92fed188a4cde524d7914efa441ff19a011e32859b0",
           "question": "Which underlined wor d is incorrectly capitalized? On our next Vacation, we will visit the Alamo near San Antonio, Texas.",
           "choices": [
             "Vacation",
@@ -8266,12 +8378,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0046",
-          "version": 2,
-          "contentHash": "sha256:0873bf5c43009d3d2b5b2211036ba5c8068939aba00614e2b3bf31500450cf27",
+          "version": 3,
+          "contentHash": "sha256:22735c0fdf5a9c956250f46aea92f2401dfec7cb958e27daaca81cbd2cb5dcbd",
           "question": "Which sentence uses correct syntax?",
           "choices": [
             "The race of Blake is the winner.",
@@ -8325,12 +8438,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0047",
-          "version": 3,
-          "contentHash": "sha256:13c385ce884fac8c45f4c946e87f84b9d61b727b8954caf8fde579548a4e0762",
+          "version": 4,
+          "contentHash": "sha256:fb1a6de10407c890b3ca2f63d702a6df34b281b5b5801d53e71171bb8ee939ba",
           "question": "Which sentence has words capitalized correctly?",
           "choices": [
             "Our new address is 6405 Heather Glenn Lane.",
@@ -8340,7 +8454,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: Our new address is 6405 Heather Glenn Lane. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Our new address is 6405 Heather Glenn Lane.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Our new address is 6405 Heather Glenn Lane. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Our new address is 6405 Heather Glenn Lane.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: Our new address is 6405 heather glenn lane. \"Our new address is 6405 heather glenn lane.\" is not correct because \"heather\" should be capitalized as \"Heather\" and \"glenn\" should be capitalized as \"Glenn\".",
@@ -8384,12 +8498,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0048",
-          "version": 3,
-          "contentHash": "sha256:3664e798cee3ebd825acd7dceee7c3d4da505f634b92fff2b7efa486bff76fbc",
+          "version": 4,
+          "contentHash": "sha256:cd905af6451b6f0fe1b27ff15a7e527589a78d49c24197d032dc04a8ceb8335b",
           "question": "Which sentence has a capital letter in the correct place?",
           "choices": [
             "cats like to purr.",
@@ -8443,12 +8563,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0049",
-          "version": 2,
-          "contentHash": "sha256:6db6fcea4068cdf8750bb74dbc6c3123e01e4c884976254b8efcd1304a686378",
+          "version": 3,
+          "contentHash": "sha256:fbbceb1a4addcadbecc80031ef1fe3a2fb643369d2576ddef20532f713d6bd2d",
           "question": "Choose the sentence that is capitalized correctly.",
           "choices": [
             "this is Northview school.",
@@ -8458,7 +8579,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: My brother’s name is Jose. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"My brother’s name is Jose.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: My brother’s name is Jose. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"My brother’s name is Jose.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: this is Northview school. \"this is Northview school.\" does not match the capitalization pattern required by the sentence or title.",
               "Not: She goes to Johnson middle School. \"She goes to Johnson middle School.\" does not match the capitalization pattern required by the sentence or title.",
@@ -8502,12 +8623,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0050",
-          "version": 2,
-          "contentHash": "sha256:0462bec8c721a13ba857a76d94e899b09d46955f4ceee2ff3524bf19dd12a0aa",
+          "version": 3,
+          "contentHash": "sha256:49b858ca12d1b45cb00f775e5c3a57fe717a8ba759eafd4e5ec5e3e2ce546098",
           "question": "Which words should be capitalized in the sentence below? Two little dogs named jessie and annie were once the only two in the Jones family. Three years later, sam, a german shepherd, was added to the happy household.",
           "choices": [
             "dogs, jessie, annie, sheph erd",
@@ -8561,12 +8688,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0051",
-          "version": 2,
-          "contentHash": "sha256:189fbc2c611d5e7c0554a8a4c21c168f2c5b02378c5ce3e1bc451446d1b98be6",
+          "version": 3,
+          "contentHash": "sha256:34403354208e4602b2e35dd4abc0abfc998c31d17583c53006d306509fbc0bdf",
           "question": "Which underlined words should be capitalized? The b oy scouts of America, a youth organization, gets some funding from united way.",
           "choices": [
             "boy, scouts, united, way",
@@ -8620,12 +8748,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0052",
-          "version": 2,
-          "contentHash": "sha256:e45627f702c995ae20f8b3a49a3913996770df145f72583a88853f7a6248f37b",
+          "version": 3,
+          "contentHash": "sha256:caf0ef3434714030861bb4f772b3e1f62fb5e50af44e3b311f7e53674252e416",
           "question": "Which choice should be capitalized?",
           "choices": [
             "center street",
@@ -8679,12 +8808,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0053",
-          "version": 2,
-          "contentHash": "sha256:da537afd178983cb556c579ffb07a1bb3c60a01e691ae699e638664029b1d8aa",
+          "version": 3,
+          "contentHash": "sha256:d9158d691cec4996173e67563408b30a6b287b3276fa1b34562b3d8f1e6b52ba",
           "question": "What is the verb in this sentence? Samuel rode his bike.",
           "choices": [
             "Samuel",
@@ -8738,12 +8868,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0054",
-          "version": 2,
-          "contentHash": "sha256:7e044267890ae2919c4bb6d9b3f6e826de06497e392912583139fa631675fb15",
+          "version": 3,
+          "contentHash": "sha256:27b89b5ecc9afd44c8f981b30d929053fa73a34cb8cdff418a8237480d30db77",
           "question": "Which genre is this passage? Soft white clouds rolled in Large raindrops fell from the clouds Smooth white shells washed in with the waves While rains pound ed the surf.",
           "choices": [
             "sh ort story",
@@ -8797,12 +8928,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0055",
-          "version": 2,
-          "contentHash": "sha256:4af9c7e113fb75808913284bba2ce8dbe7eb07d3192d2aa3ab097de6f6b98e65",
+          "version": 3,
+          "contentHash": "sha256:51b62c8c7354840fa86904665d99cfa44ceff62fcfe741c56fae1e48b2b254cd",
           "question": "Choose the correct format to complete this sente nce. To get to the lake, turn ________ and then __________.",
           "choices": [
             "sou th, West",
@@ -8856,12 +8988,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0056",
-          "version": 2,
-          "contentHash": "sha256:5fd2aefaa726e2b06b395d068a35de8c3b61a5c09e02b5b5e372439fa782ede7",
+          "version": 3,
+          "contentHash": "sha256:2c33fe7a74200b53411dd7a9153334a347db6fbe8858dd0e8b3fd7db0e046c9d",
           "question": "Which of the following is capitalized correctly?",
           "choices": [
             "My family loves campbell’s Chicken Noodle soup.",
@@ -8871,7 +9004,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Maria bought a Hershey’s candy bar. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Maria bought a Hershey’s candy bar.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Maria bought a Hershey’s candy bar. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"Maria bought a Hershey’s candy bar.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: My family loves campbell’s Chicken Noodle soup. \"My family loves campbell’s Chicken Noodle soup.\" does not match the capitalization pattern required by the sentence or title.",
               "Not: Do you have the new nintendo Video game? \"Do you have the new nintendo Video game?\" does not match the capitalization pattern required by the sentence or title.",
@@ -8915,12 +9048,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0057",
-          "version": 2,
-          "contentHash": "sha256:2a5893bb4da4d5c73047556da41ce1ab884d2f1501743acee6c6ac73a36914ce",
+          "version": 3,
+          "contentHash": "sha256:71da65d82efead6a98284d75e9dd3e7861e04806865df9488765015adb12994a",
           "question": "Identify the correctorder of sentences in this par agraph. 1. Then she called her family to the table. 2. Everyone had a great time. 3. Maureen made a special birthday dinner for Sam. 4. She baked a cake and cooked a roast.",
           "choices": [
             "3, 4, 1, 2",
@@ -8974,12 +9113,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0058",
-          "version": 3,
-          "contentHash": "sha256:dc79ab1726c50a1b91b964afc901a892b1aede16c5603e80066ce966119b5cbf",
+          "version": 4,
+          "contentHash": "sha256:d91c75c24a25999bf5a66ef65df73099f3db9398b6f585ae88b5030c515843c2",
           "question": "When would you use formal language in writing?",
           "choices": [
             "in formational essay, research paper, business lett er",
@@ -9033,12 +9173,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0059",
-          "version": 2,
-          "contentHash": "sha256:7b1cb5996b5e6a22561bb34b9f0e8cb4e0290ade39e2cd42c68173c31f8dbc60",
+          "version": 3,
+          "contentHash": "sha256:2181a95e3f943f2e29f5652e48d05e77276699d8926e7c3651eed7e96e012b6f",
           "question": "Which of the following sentences is capitalized correctly?",
           "choices": [
             "It has been a cold winter!",
@@ -9048,7 +9189,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: It has been a cold winter! Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"It has been a cold winter!\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: It has been a cold winter! Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"It has been a cold winter!\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: Yesterday, School was closed. \"Yesterday, School was closed.\" does not match the capitalization pattern required by the sentence or title.",
@@ -9092,12 +9233,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0060",
-          "version": 2,
-          "contentHash": "sha256:1f1457ef75c49c585bfa6e8b93ca9b317b16475eec70dbb3586076dbc46fc046",
+          "version": 3,
+          "contentHash": "sha256:bae935c44912a931300fb62e11e9e73b59aab7ba1cf3bbe13ad62aba765e80f6",
           "question": "Which of the following sentences is capitalized correctly?",
           "choices": [
             "We won a game against the Denver darts last week.",
@@ -9107,7 +9254,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: My soccer team is the Cleveland Cougars. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"My soccer team is the Cleveland Cougars.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: My soccer team is the Cleveland Cougars. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"My soccer team is the Cleveland Cougars.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: We won a game against the Denver darts last week. \"We won a game against the Denver darts last week.\" does not match the capitalization pattern required by the sentence or title.",
               "Not: My sister plays for the cleveland cats. \"My sister plays for the cleveland cats.\" is not correct because \"cleveland\" should be capitalized as \"Cleveland\".",
@@ -9151,12 +9298,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-proper-names-titles-q0061",
-          "version": 2,
-          "contentHash": "sha256:eef76b7a502ba61fe8091b7f8be718bf1161380721746911c4078f8d9f947309",
+          "version": 3,
+          "contentHash": "sha256:cb1cc778e6c280aafcca7b685f7f2f3a097059443bdf301c0f0db8595d26ba32",
           "question": "Which underlined word is incorrectly capitalized?",
           "choices": [
             "We were tired after our hike up Mount Hood.",
@@ -9210,12 +9363,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0062",
-          "version": 2,
-          "contentHash": "sha256:e5ffe67ec0b14862f1e0c96578c0d4131606fbbc0e4a937c1e7a816c72b2b6b3",
+          "version": 3,
+          "contentHash": "sha256:087aa98010364c863c6b87a9f74c7172c28267e3e2bc8a1a735a121c5b6653e4",
           "question": "What is the plural of homework?",
           "choices": [
             "homework",
@@ -9269,12 +9423,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0063",
-          "version": 2,
-          "contentHash": "sha256:d824c9fa3594b43789aaed261ae8beacf6ea00a807269f014df6b07a56396f7f",
+          "version": 3,
+          "contentHash": "sha256:e26d264b1b123593459c54af31a1fc7c605a4dbe440cc36d0d016af45477459e",
           "question": "Which group of words would need capital letters?",
           "choices": [
             "car, t ruck, van",
@@ -9328,7 +9483,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-proper-names-titles-q0064",
@@ -9596,8 +9752,8 @@
       "questions": [
         {
           "id": "capitalization-names-of-places-q0001",
-          "version": 3,
-          "contentHash": "sha256:79fd97628c1b76b1b5ab03abd4d750ad0d0f488018ff79a2b5f7698c51ba19db",
+          "version": 4,
+          "contentHash": "sha256:39db0f9f2287d52c6ac91a7e1582f66d55cfdef165f12a5a17f21866dbf4a494",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "We crossed the Hudson River and rested by the river.",
@@ -9607,7 +9763,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: We crossed the Hudson River and rested by the river. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"We crossed the Hudson River and rested by the river.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: We crossed the Hudson River and rested by the river. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"We crossed the Hudson River and rested by the river.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: We crossed the Hudson river and rested by the River. \"We crossed the Hudson river and rested by the River.\" is not correct because \"river\" should be capitalized as \"River\" and \"River\" should stay lowercase as \"river\".",
@@ -9616,8 +9772,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the full official name of a place. Lowercase common place words and articles when they are not part of the official name.",
-            "example": "We crossed the Hudson River, then rested beside a quiet river.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_places.htm",
             "linkText": "Grammar Monster - Place Names"
           },
@@ -9881,8 +10037,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0006",
-          "version": 2,
-          "contentHash": "sha256:f22fd2bb6df018596323dc1086100abaabb00b9063a90f152cc6ff00dfded617",
+          "version": 3,
+          "contentHash": "sha256:b80b53d520087bc299781ada1fbed58833650ae1ba01f8b798a282917eb85cb9",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "My aunt moved from south Carolina to Southern Georgia.",
@@ -9892,7 +10048,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: My aunt moved from South Carolina to southern Georgia. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"My aunt moved from South Carolina to southern Georgia.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: My aunt moved from South Carolina to southern Georgia. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"My aunt moved from South Carolina to southern Georgia.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: My aunt moved from south Carolina to Southern Georgia. \"My aunt moved from south Carolina to Southern Georgia.\" is not correct because \"south\" should be capitalized as \"South\" and \"Southern\" should stay lowercase as \"southern\".",
               "Not: My Aunt moved from South Carolina to southern Georgia. \"My Aunt moved from South Carolina to southern Georgia.\" is not correct because \"Aunt\" should stay lowercase as \"aunt\".",
@@ -9901,8 +10057,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the full official name of a place. Lowercase common place words and articles when they are not part of the official name.",
-            "example": "We crossed the Hudson River, then rested beside a quiet river.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_places.htm",
             "linkText": "Grammar Monster - Place Names"
           },
@@ -10109,8 +10265,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0010",
-          "version": 3,
-          "contentHash": "sha256:c1baab7171469d4bacea0b3d770f55931ece4a4fec38c93051a85e90e3a18da2",
+          "version": 4,
+          "contentHash": "sha256:177b68ece3dbf7d5b616567845b804c59c80d9f9d8c44538c2d606f6f09bb8fd",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "The train stopped in New York city before heading North.",
@@ -10120,7 +10276,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: The train stopped in New York City before heading north. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The train stopped in New York City before heading north.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: The train stopped in New York City before heading north. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"The train stopped in New York City before heading north.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The train stopped in New York city before heading North. \"The train stopped in New York city before heading North.\" is not correct because \"city\" should be capitalized as \"City\" and \"North\" should stay lowercase as \"north\".",
               "Not: The Train stopped in New York City before heading north. \"The Train stopped in New York City before heading north.\" is not correct because \"Train\" should stay lowercase as \"train\".",
@@ -10129,8 +10285,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the full official name of a place. Lowercase common place words and articles when they are not part of the official name.",
-            "example": "We crossed the Hudson River, then rested beside a quiet river.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_places.htm",
             "linkText": "Grammar Monster - Place Names"
           },
@@ -10337,8 +10493,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0014",
-          "version": 3,
-          "contentHash": "sha256:aea27ab24985775e7a8c35f7f6e6c79dce0e83a13ec741edbe81c955aa746762",
+          "version": 4,
+          "contentHash": "sha256:441149205beadad31b3f014350a05e3d3b4c301301d06bc5193117f0ef40bbed",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
             "The Nile river flows through several Countries in Africa.",
@@ -10348,7 +10504,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: The Nile River flows through several countries in Africa. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"The Nile River flows through several countries in Africa.\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: The Nile River flows through several countries in Africa. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"The Nile River flows through several countries in Africa.\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: The Nile river flows through several Countries in Africa. \"The Nile river flows through several Countries in Africa.\" is not correct because \"river\" should be capitalized as \"River\" and \"Countries\" should stay lowercase as \"countries\".",
               "Not: The nile River flows through several countries in africa. \"The nile River flows through several countries in africa.\" is not correct because \"nile\" should be capitalized as \"Nile\" and \"africa\" should be capitalized as \"Africa\".",
@@ -10357,8 +10513,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Capitalize the full official name of a place. Lowercase common place words and articles when they are not part of the official name.",
-            "example": "We crossed the Hudson River, then rested beside a quiet river.",
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
             "link": "https://www.grammar-monster.com/lessons/capital_letters_places.htm",
             "linkText": "Grammar Monster - Place Names"
           },
@@ -10451,8 +10607,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0016",
-          "version": 2,
-          "contentHash": "sha256:d3442f01d81a27eb7aac9907ac2d33a64ab8a6503ca551152980abd2efd69f64",
+          "version": 3,
+          "contentHash": "sha256:d785a5b635837ee549c1acb9a955e429573400e5c029d0dea9b3b6e9a4ef8a0c",
           "question": "Which words should be capitalized? On the continent of africa many kenyans speak swahili.",
           "choices": [
             "continent, africa, swahili",
@@ -10505,12 +10661,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0017",
-          "version": 2,
-          "contentHash": "sha256:39cede12e0ef54b00e7c41cdf209261446b01fd77bd774163e32e48eb6d0b809",
+          "version": 3,
+          "contentHash": "sha256:f549ce43e0119626c3fed9af2cadd846dbdc30edf2bdbcf5cdde2e16f9963d10",
           "question": "Which underlined word s should be capitalized? The civil war was an event that divided the united states into separate groups.",
           "choices": [
             "event, united, states, groups",
@@ -10563,12 +10720,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0018",
-          "version": 2,
-          "contentHash": "sha256:7cdad08d46a65b68df9abe3aaacb261e49a8b590693f5e882ae300c87b824aa9",
+          "version": 3,
+          "contentHash": "sha256:3191fca8fc30b8473fa532888f310cedcc3d745e1cc8e632c8e99504e8747b0f",
           "question": "Which words must be capitalized in this sentence? robb and steele Inc. is located in the E mpire State building.",
           "choices": [
             "robb, located, empire",
@@ -10621,12 +10779,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0019",
-          "version": 2,
-          "contentHash": "sha256:c3c3d6722d8442c794b936bebd9b15a6941aed95a2eaefbd25c13a25e134b2f6",
+          "version": 3,
+          "contentHash": "sha256:1f603e93225985432b76af80835fd8dff76c51360dbd6386c8f550f8c839617f",
           "question": "Which words should be capitalized? On the west side of town is a museum featuring a rtifacts from the far east.",
           "choices": [
             "w est, side",
@@ -10679,12 +10838,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0020",
-          "version": 2,
-          "contentHash": "sha256:38ef41afd9f2ca6500450b2b5b80572e56117144f8e150b539daca245db53da7",
+          "version": 3,
+          "contentHash": "sha256:0e6e501b1a387e1c6feccbc394a754f6289f658fc3627643ad1b5915fa0e28a3",
           "question": "Which list includes all the words that should be capitalized in this sentence? The london philharmonic orchestra invited aerosmith to perform with them in their winter concert.",
           "choices": [
             "lon don, winter, concert",
@@ -10737,12 +10897,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0021",
-          "version": 2,
-          "contentHash": "sha256:ad33c0d927ca4893d840ded8f96b23219a9b4405c52a122eb25f95d090f66c00",
+          "version": 3,
+          "contentHash": "sha256:93eb00efac2d0f05fe100ae59cf3f7fb0f8289d023de6498f0ec96e966b29d26",
           "question": "Which underlined word should be capitalized? When we went to the city, we saw senator Miller riding in a car in the parade.",
           "choices": [
             "we",
@@ -10795,12 +10956,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0022",
-          "version": 3,
-          "contentHash": "sha256:eacf6d67024595fa3efd620a1dd8f2420f6c0837a2de05a251a680599701d686",
+          "version": 4,
+          "contentHash": "sha256:5735b5b039d21ceec455d834264650084b04db8ccbcb5d4c871150eb284f5f28",
           "question": "Which word needs a capital letter? I will go to Yellowstone national Park this summer.",
           "choices": [
             "summer",
@@ -10853,12 +11015,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0023",
-          "version": 2,
-          "contentHash": "sha256:b9ab299de5f7bbc85e9736bfa08a7a264cf46151063b666d7711455f68d89486",
+          "version": 3,
+          "contentHash": "sha256:8dcb0542d6724627b521deeb0fb5247cc494f1b7b5721d9b289edcf838db468c",
           "question": "Which underlined word or words below should be capitalized? The snake river is in a state with mountains and valleys.",
           "choices": [
             "snake river",
@@ -10911,12 +11074,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0024",
-          "version": 2,
-          "contentHash": "sha256:1db920940dc3efcc215714a4e914a5bbddfe7d29cb5221b035c0d626c386f143",
+          "version": 3,
+          "contentHash": "sha256:ad19a0f476fad8087f8436ac8e4b35712c6d3cccdf5d9362939b03625472de88",
           "question": "Choose the correct missing words. We wrote a letter to our state ____________ asking for his support.",
           "choices": [
             "sen ator Joe Allen",
@@ -10926,7 +11090,7 @@
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: Senator Joe Allen. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Senator Joe Allen\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Senator Joe Allen. Rule or clue: A pronoun must agree with the noun it replaces and fit its job in the sentence. \"Senator Joe Allen\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: sen ator Joe Allen. \"sen ator Joe Allen\" does not match the capitalization pattern required by the sentence or title.",
               "",
@@ -10969,12 +11133,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Choose the pronoun that agrees with the noun and fits the sentence meaning.",
+            "example": "Mrs. Porter is one woman, so the subject pronoun is She.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0025",
-          "version": 2,
-          "contentHash": "sha256:96744e168f51e332f520fa682dc3c4eb7aeb92b90761f93c1a57c9f8b56bce9f",
+          "version": 3,
+          "contentHash": "sha256:7f3b154fb3def894ee828240de3ae7f1d1ef30c0ed73cf9792fdbd1915a349b5",
           "question": "Which underlined word should be capitalized? The Smith family drove through New York city on their vacation across the country.",
           "choices": [
             "family",
@@ -11027,12 +11197,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0026",
-          "version": 2,
-          "contentHash": "sha256:d21c303b6cdabe9371cecf43833e5cd552355ebcefd5d5d30e9719251288f7bd",
+          "version": 3,
+          "contentHash": "sha256:93ee411de03eba8a86240b7898d7ac1116fdf678ad75952431337225efd12d14",
           "question": "Which words are not capitalized correctly? Important landmarks within the United states are the Mississippi river, Rocky Mountains, and the Appalachian Mountains.",
           "choices": [
             "river, mountains",
@@ -11042,7 +11213,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: states, river. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"states, river\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: states, river. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"states, river\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "Not: river, mountains. \"river, mountains\" does not match the capitalization pattern required by the sentence or title.",
               "Not: states, mountains. \"states, mountains\" does not match the capitalization pattern required by the sentence or title.",
@@ -11085,12 +11256,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0027",
-          "version": 2,
-          "contentHash": "sha256:36645826db811cf0d75d8099392a5693cccda45a68ba199f331950516f29f68a",
+          "version": 3,
+          "contentHash": "sha256:2f3713d7495f239e7072c6d734ab584d9754699de8ad12fad36e1499af31389f",
           "question": "Which underlined words should be capitalized? The first battle of the civil war began at Fort Sumter off the coast of south carolina.",
           "choices": [
             "b attle, civil, coast, south",
@@ -11143,12 +11320,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0028",
-          "version": 2,
-          "contentHash": "sha256:fb91107b70cbed5ef1d4da667abea2b417f3df9ec4e3ecefe2a58b30fb37f24e",
+          "version": 3,
+          "contentHash": "sha256:8c77dcb8f17a1faea219a32c306a72e7265fc2195517e760aad8396f69cbdd9a",
           "question": "If the poem “Lady of the Lake” is capitalized correctly, which of the following is also capitalized correctly?",
           "choices": [
             "“Hou nd of the Valley”",
@@ -11158,7 +11336,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: “Hou nd of the Valley”. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"“Hou nd of the Valley”\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: “Hou nd of the Valley”. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"“Hou nd of the Valley”\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: “boy of the Wilderness”. \"“boy of the Wilderness”\" does not match the capitalization pattern required by the sentence or title.",
@@ -11201,12 +11379,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0029",
-          "version": 2,
-          "contentHash": "sha256:07f981d7794ac94036604c0901aad3db337365362e5bb10a8c9467be300ae8d2",
+          "version": 3,
+          "contentHash": "sha256:cfd645208805017417cb1f8bb49005cf8b72bf73aa7a5d85c11b15cb6f65ded8",
           "question": "Which of the following is correctly capitalized?",
           "choices": [
             "Sp anish-american War",
@@ -11259,12 +11443,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0030",
-          "version": 2,
-          "contentHash": "sha256:01ae5cf4b31456824c2a95855024b946c2e986be0460d03b96324f19e2049f6f",
+          "version": 3,
+          "contentHash": "sha256:7e9bfa436ff5e2081bc8a771ec895865a647ec86412187f12c46154d37da9742",
           "question": "Which of the following sentences is correctly capitalized?",
           "choices": [
             "My favorite team is the New York Yankees.",
@@ -11317,12 +11502,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0031",
-          "version": 2,
-          "contentHash": "sha256:93a2a31036bf5a752ac4be3895c59b3a1564265a174344beaeda80dfaa8426d8",
+          "version": 3,
+          "contentHash": "sha256:8c7b65a0c23aad7fa9594b696b1acc05b897d80a1b4f4279e8eb6755522afad5",
           "question": "Which word in the sentence below is not capitalized correctly? the team is going to Washington D.C.",
           "choices": [
             "the",
@@ -11332,7 +11518,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: the. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"the\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: the. Rule or clue: Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence. \"the\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: team. \"team\" does not match the capitalization pattern required by the sentence or title.",
@@ -11375,12 +11561,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.",
+            "example": "Dr. Fred E. Meyer capitalizes the title and each part of the name.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0032",
-          "version": 2,
-          "contentHash": "sha256:6144be40bff7567b188e24c0f919cda1e73f3e95c1a4665a2cc72a9e164aabfa",
+          "version": 3,
+          "contentHash": "sha256:af576881a7d8032cf6b56d383b0822182a68967ce23244b2a6e00fdf7ca288fb",
           "question": "In the sentence below, which words must be capitalized? The washington monument sits along the potomac river in washington, d.c.",
           "choices": [
             "washington, sits, potomac, d.c.",
@@ -11434,12 +11626,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
+            "example": "I visited Washington, D.C., last summer.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0033",
-          "version": 2,
-          "contentHash": "sha256:9997598b3246f15c7e81652e71b14d1d8e348347f7ed10d8bfa776042b6de108",
+          "version": 3,
+          "contentHash": "sha256:afdb39c6e9c9a273de5040d17a2a04597eb877770e8592b847ea17ab8841e4c8",
           "question": "Which words must be capitalized in this sentence? jeff attends king middle school in seattle, washington this year.",
           "choices": [
             "jeff, king, seattle, washington",
@@ -11493,12 +11691,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
+            "example": "I visited Washington, D.C., last summer.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0034",
-          "version": 2,
-          "contentHash": "sha256:cda79eacec0176a07a94e2387f0e8bf19dce5c4d057221e8ab2e4956e25125a0",
+          "version": 3,
+          "contentHash": "sha256:b1ed277c5e56baade6b052496ab60fea832439175eaadcbbb6f29d32ccfadbaa",
           "question": "Which group of words must all be capitalized in this sentence? spirit lake is locatedon the northeastern slope of mt. st. helens in southwest washington s tate.",
           "choices": [
             "spirit lake, helens, washington",
@@ -11552,12 +11756,18 @@
             "Test focus": [
               "MAP"
             ]
+          },
+          "studyAid": {
+            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
+            "example": "I visited Washington, D.C., last summer.",
+            "link": "https://www.thecorestandards.org/ELA-Literacy/",
+            "linkText": "Common Core ELA standards"
           }
         },
         {
           "id": "capitalization-names-of-places-q0035",
-          "version": 2,
-          "contentHash": "sha256:b6ef031e5dfca18acb9aba588558cc9c7899a9828cb0f3a8251bd8f7846c3d93",
+          "version": 3,
+          "contentHash": "sha256:c15460ffadc033d857ee323ac9220744754ceedd8c4818eb18d697d4671ebf0c",
           "question": "Which place should be capitalized?",
           "choices": [
             "high school",
@@ -11611,7 +11821,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "capitalization-names-of-places-q0036",
@@ -11798,8 +12009,8 @@
         },
         {
           "id": "capitalization-names-of-places-q0039",
-          "version": 2,
-          "contentHash": "sha256:bac7dcff5b422561d87731a67e57af2c510f0f5626118695f3f982ed204f17ed",
+          "version": 3,
+          "contentHash": "sha256:fbe7f61949bc7ad64c343efb2e30d495ec416db78d0a8849bc453246a30007c3",
           "question": "Choose the best way to write the underlined portion of the sentence. I f the underlined part is correct, choose “Correct as is.” We visited the national memorial in Oklahoma City Oklahoma.",
           "choices": [
             "Oklahoma City, Oklahoma",
@@ -11809,7 +12020,7 @@
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: Oklahoma City, Oklahoma. Rule or clue: Capitalize proper nouns, names, titles used with names, and the first word of a sentence; keep ordinary common nouns lowercase. \"Oklahoma City, Oklahoma\" follows the capitalization rule and keeps ordinary words lowercase.",
+            "correct": "Answer: Oklahoma City, Oklahoma. Rule or clue: Choose \"Correct as is\" only when the original wording already follows the capitalization, abbreviation, or punctuation rule. \"Oklahoma City, Oklahoma\" follows the capitalization rule and keeps ordinary words lowercase.",
             "incorrect": [
               "",
               "Not: Oklahoma, City Oklahoma. \"Oklahoma, City Oklahoma\" does not match the capitalization pattern required by the sentence or title.",
@@ -11818,8 +12029,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
-            "example": "Identify the rule first, then test it against the full sentence.",
+            "definition": "When \"Correct as is\" is a choice, check whether the original sentence already follows the rule.",
+            "example": "Doctor Brown is correct when the title is written out instead of abbreviated as Dr.",
             "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
             "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
           },

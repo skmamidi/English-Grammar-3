@@ -584,6 +584,31 @@ test('content QA rejects generic explanation rationales', () => {
   assertIssue(result.errors, 'generic-explanation-rationale', { questionId: 'content-qa-fixture-q0003' });
 });
 
+test('content QA rejects generic study aids in reviewed abbreviation sub-topic', () => {
+  const questions = [
+    makeQaQuestion(1, {
+      question: 'Which abbreviation is incorrect?',
+      choices: ['Minnesota - MN', 'Missouri - MO', 'Mississippi - MS', 'Maine - MA'],
+      correct: 3,
+      metadata: {
+        sourceSet: 'punctuation-abbreviations-acronyms',
+        sequence: 1,
+        gradeLevels: [4],
+        difficultyByGrade: { 4: 'medium' },
+        skills: ['abbreviations']
+      },
+      studyAid: {
+        definition: 'Punctuation marks help readers understand sentence meaning, pauses, titles, speech, and relationships between ideas.',
+        example: 'Questions end with question marks, and direct speech needs quotation marks.'
+      }
+    })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.errors, 'generic-study-aid', { questionId: 'content-qa-fixture-q0001' });
+});
+
 test('content QA can emit deterministic explanation review candidates', () => {
   const questions = [
     makeQaQuestion(1, {

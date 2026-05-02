@@ -849,7 +849,7 @@
         {
           "id": "reference-skills-sub-heading-q0016",
           "version": 3,
-          "contentHash": "sha256:39c209bdc70b9caff3d132dda35df14764e7204efcc23c936fe427e60361eaa1",
+          "contentHash": "sha256:caee9acf3da75c021aa05a338fb652321a7743cbc533b847464db6e57cd09561",
           "question": "Which topics would best complete the following outline? I. Sports equipment",
           "choices": [
             "cleated shoes",
@@ -903,12 +903,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-sub-heading-q0017",
           "version": 3,
-          "contentHash": "sha256:10e1258d708d9ccd2ea9f19d164ff37b36a6393605c159736550b29854aa5fe4",
+          "contentHash": "sha256:0824baf00dd34313b55f2fcb2133655abcd38a692fdb44397f04a97316a0bab0",
           "question": "Choose the best main topic for the words listed below. programs, touch, battery, video",
           "choices": [
             "My New Television",
@@ -962,12 +963,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-sub-heading-q0018",
           "version": 3,
-          "contentHash": "sha256:a43d46e99b7dcc75c081f98e2cbf5340e69b37b163227d3cc5f34d0265d30fb6",
+          "contentHash": "sha256:3cd31ce75f2f7ef78e92669e23c89a0a63f019d7e684eb17e9b3bc7a04661b97",
           "question": "Which one would be the main topic in an outline?",
           "choices": [
             "Glacier",
@@ -1021,12 +1023,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-sub-heading-q0019",
           "version": 3,
-          "contentHash": "sha256:f06f1a54f4452f4b813c945235feea209db555d3ccc0439bf802eb1456977bcb",
+          "contentHash": "sha256:091f24aeecf40f09ab0b23c510a0052003788ae516621a90ef0804b0bba699fd",
           "question": "Which of the following would be a sub-heading in an outline about pets?",
           "choices": [
             "dogs",
@@ -1080,12 +1083,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-sub-heading-q0020",
           "version": 3,
-          "contentHash": "sha256:f4e1ad5896e3f401b3af0d05572cf20f83d14a4bd4e54157d82cea3c785cf0a1",
+          "contentHash": "sha256:2a39b59e40d84ee739974eeaba0312bc63e93d695dbd777ceb40dd75ee44cf30",
           "question": "Choose the best main topic for the words listed below. hiking, animal tracks, flowers, logs",
           "choices": [
             "My Backpack",
@@ -1139,12 +1143,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-sub-heading-q0021",
           "version": 3,
-          "contentHash": "sha256:a6b2e0049d8099fb1afe56beddff18c4eb1557995c7d5be9ffcbbcc69eb00ba2",
+          "contentHash": "sha256:c7691ba8a21f8dafca9f40f0b5d777a8383d38f7431c6a9f65f01bea757f434b",
           "question": "Choose the best main topic for the words listed below. machines, warehouses, jobs, trucks",
           "choices": [
             "My Trip to the Zoo",
@@ -1198,12 +1203,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-sub-heading-q0022",
           "version": 3,
-          "contentHash": "sha256:b93dbe125db4ffc08733b7f034fededfaf335d42e85fddcfc9d221004309d88b",
+          "contentHash": "sha256:d6e9b92bbb87e02cf28ac1d8f0acd676f9f8a762beab627285582031c528488e",
           "question": "Read the following topics. Paint brushes Water colors Art class Charcoal pencils Pen and ink Easels Which would be the main topic on an outline?",
           "choices": [
             "Wat er colors",
@@ -1257,7 +1263,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         }
       ],
       "metadata": {
@@ -2982,7 +2989,7 @@
         {
           "id": "reference-skills-italicize-q0016",
           "version": 2,
-          "contentHash": "sha256:72471e39c975dc223819f4013107273fa1a518c5064f1057ae4ab4fae40ad374",
+          "contentHash": "sha256:be609f03e925b24b0497310f7b157e530f5626d53bc8652a96e2ef2965aa08ff",
           "question": "Which types of words are always capitalized?",
           "choices": [
             "street names, common nouns",
@@ -3035,12 +3042,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-italicize-q0017",
           "version": 3,
-          "contentHash": "sha256:27c4a82a3689e7d1d9cafa2b5348a34337e7da9bf36d722dde9ffc2fb0e771c7",
+          "contentHash": "sha256:6139e12159b7eecac106ea92aa6de7c3df28ae445e5c8af2c01c170042e3df4b",
           "question": "Which sentence is correctly punctuated?",
           "choices": [
             "Shreyas’ going to the mall.",
@@ -3093,12 +3101,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-italicize-q0018",
           "version": 3,
-          "contentHash": "sha256:efea672ea4ae5d079051d88fde0976711183be49c8d4efd325a60b79254650be",
+          "contentHash": "sha256:b94c084ef6664b758b4ba0541db92673f42fe61d615a5c721c24674ed941292f",
           "question": "Which sentence correctly punctuates the movie title?",
           "choices": [
             "Jaws was a scary movie when it first came out.",
@@ -3151,12 +3160,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-italicize-q0019",
           "version": 2,
-          "contentHash": "sha256:24a9ede72e0f926dd9925ad4eac1151a5561f98aa79a5be119fa35e893d7c7e4",
+          "contentHash": "sha256:825942bd2fda05a340e8dc8ac23be7c2e8714e3d007520ef16d7b2333e903db0",
           "question": "Which words should be capitalized? My friend, who is an exchange student from sweden, taught swedish phrases to the latin o club at my high school.",
           "choices": [
             "sw eden, swedish, latino",
@@ -3209,12 +3219,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-italicize-q0020",
           "version": 3,
-          "contentHash": "sha256:73036d016925d77add378d1398f3a156d38b13cd86dca33163af97492f92b14d",
+          "contentHash": "sha256:8f8bc914f065574b760c10e45ba3a7b7d501397bbd94d8e8d72c092ec0945100",
           "question": "Which sentence uses commas correctly?",
           "choices": [
             "I w ent to the store and bought gold fish, pudding, and yogurt.",
@@ -3267,12 +3278,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-italicize-q0021",
           "version": 3,
-          "contentHash": "sha256:eb8eed2ffadd7b1e7bc3ed3f19bf6f855d8522ff47ddefe76145393b69a005ea",
+          "contentHash": "sha256:eea4b8b4385b8e140a0ee8980e3e6ef926c0150eaf30b42f555ded499998d738",
           "question": "Which sentence is punctuated correctly?",
           "choices": [
             "is a popular magazi ne.",
@@ -3325,12 +3337,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-italicize-q0022",
           "version": 3,
-          "contentHash": "sha256:bb3eec6f22c34c8b68d7930e5e149fc89c255ee72a820f122cebceff31356a4c",
+          "contentHash": "sha256:7529b225e3efb5282faff90b0c8cf8bb953b262ffb96cb20208fd34d9a56edd7",
           "question": "Which sentence punctuates the title Great Expectations correctly?",
           "choices": [
             "Have you read Dickens’, Great Expectations? Great Expectations",
@@ -3383,12 +3396,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-italicize-q0023",
           "version": 3,
-          "contentHash": "sha256:84e9dc514da312b9285e492dff1576ea79269c57d89a9310ddca22579c0b7b63",
+          "contentHash": "sha256:ceb18d5500ce4136ac13bec50a069d2da57cdadfd29f2c81785ede3f091067dc",
           "question": "Which book title is written correctly? The Changing Colors Of The Ocean",
           "choices": [
             "The Changing Colors of the ocean",
@@ -3442,12 +3456,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-italicize-q0024",
           "version": 3,
-          "contentHash": "sha256:cbf6c3dafa281e734bf1acc6f30523f22fd3269f34f3414993397dd0fb1605a0",
+          "contentHash": "sha256:1de859447fa28d6fcf24641fd28ca13e955c5ae472c467a3c9e1a96aeaef9ea9",
           "question": "A noted female author wrote the book, ____________________. Choose the correct title format to complete this sentence.",
           "choices": [
             "Sarah, Plain and tall",
@@ -3501,7 +3516,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         }
       ],
       "metadata": {
@@ -17947,7 +17963,7 @@
         {
           "id": "reference-skills-research-skills-q0181",
           "version": 3,
-          "contentHash": "sha256:44bf4793ea6b520e6a43576ea592b49ac13a9882d551bb3cb7abd11dbfad825a",
+          "contentHash": "sha256:b94438909853dc505a3b19c9334865eba21efc9cddf1a2d62d1c469525bdb4fe",
           "question": "You are assigned a research paper on primates. From the following list, choose which pair you would be sure to include.",
           "choices": [
             "lizards, monkeys",
@@ -18001,12 +18017,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-research-skills-q0182",
           "version": 3,
-          "contentHash": "sha256:ea54f32a259e0a03c0a0464b7648bc423160153472e8650dc7f9b713ca961dc5",
+          "contentHash": "sha256:b448eec17a03e1b85f76807bee732a1311d14e7e275aaa59870f425e09a9e38b",
           "question": "If a student selects “cars” as a topic for a research paper, which words would NOT provide the basis for appropriate information?",
           "choices": [
             "American trucks",
@@ -18060,12 +18077,13 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         },
         {
           "id": "reference-skills-research-skills-q0183",
           "version": 3,
-          "contentHash": "sha256:29707937198081c2cd725cdf9542902776c665e574651f862fc2cd0d339da1f7",
+          "contentHash": "sha256:6d204b50a6b62092cc08386816ebd44e6632d89aabbbfd78266791b8f02b05e4",
           "question": "Which of the following does a research paper require?",
           "choices": [
             "h umor",
@@ -18119,7 +18137,8 @@
             "Test focus": [
               "MAP"
             ]
-          }
+          },
+          "studyAid": {}
         }
       ],
       "metadata": {
@@ -38694,8 +38713,8 @@
         },
         {
           "id": "reference-skills-nonfiction-text-features-q0204",
-          "version": 2,
-          "contentHash": "sha256:0c4af5bd1274a7243f24df599aea18a8a4729288b73e969ca1adc77d457dd9b9",
+          "version": 4,
+          "contentHash": "sha256:4ddcd5ad988e73d2580736254dd9a1d3a269a26fc9026f3f390c2b5155c515f3",
           "question": "Read the passage. I was once a strawberry in a Hansel and Gretel pageant w hen I was in nursery school and didn’t have no better sense than to dance on ti ptoe with my arms in a circle over my head doing um brella steps and being a perfect fool just so my mother and fat her could come dressed up and clap. You’d think they’d know better than to encourage that kind of non sense. I am not a strawberry. I do not dance on my toes. I run. That is “Raymond’s Run”, E lements of Li terature: Second Course. Holt, Rinehart what I am all abo ut. So I always come late to the May D ay program, ju st in time to get and Winston 199 7. my number pin ned on and lay in the gras s till they ann ounce the fifty -yard dash. What makes the paragraph interesting?",
           "choices": [
             "the author’s use of foreshadowing",
@@ -38705,7 +38724,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: the author’s use of humor. Rule or clue: Reference skills help readers use text features such as indexes, charts, headings, maps, and directions to locate information. \"the author’s use of humor\" names the reference feature or study skill that the prompt describes.",
+            "correct": "Answer: the author’s use of humor. Rule or clue: A dash can show a sudden break or added thought, but it should not split words that belong together. \"the author’s use of humor\" names the reference feature or study skill that the prompt describes.",
             "incorrect": [
               "Not: the author’s use of foreshadowing. \"the author’s use of foreshadowing\" names a different reference feature or study skill than the one described in the prompt.",
               "Not: poetry. \"poetry\" names a different reference feature or study skill than the one described in the prompt.",
@@ -38714,8 +38733,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Reference skills help readers use text features such as indexes, charts, headings, maps, and directions to locate information.",
-            "example": "Look at the feature first, then match the question to the exact label, page, or detail.",
+            "definition": "A dash can show a sudden pause or added thought, but it should not split words that belong together.",
+            "example": "I opened the box - and gasped at the surprise inside.",
             "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
             "linkText": "Reading Rockets - Text Features"
           },
@@ -43391,8 +43410,8 @@
         },
         {
           "id": "reference-skills-nonfiction-text-features-q0281",
-          "version": 2,
-          "contentHash": "sha256:43a8967dad97e28634bca99789c94e851dc303a64c6c4d116ed4e1a32587ddbd",
+          "version": 3,
+          "contentHash": "sha256:61fbe4e55672c8a363a3762bd68444c73519a6fdb11949ea07c071fe6b16f239",
           "question": "Read the passage. At the very time of the humiliation at Fort Duquesne when George Washington, — Daniel Boone, and General Edward Braddock were defeated by French and Indian foes —a Mohawk Indian was readying himself for a warriors’ dance. The Mohawk — name Warraghiyagey (war--- YAH-gay) painted bright designs on his naked rag ee — chest, stepped into a deerskin kilt adorned with porcupine quills, and do nned a cap topped with a single eagle feather. Tied to his wrists and ankles were dried deer’s hoofs that rattled as he moved. He ate of ceremonial dog meat and threw a red-painted hatchet onto a war post. Soon he would lead the strenuous danc e. From Colonies to Country: 1710 -1791. Book 3, Second Edition. Oxford University Press, 1999. In the last three sentences, to whom does “he” r efer?",
           "choices": [
             "Fort Duquesne",
@@ -43402,7 +43421,7 @@
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Warraghiyagey. Rule or clue: Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings. \"Warraghiyagey\" names the reference feature or study skill that the prompt describes.",
+            "correct": "Answer: Warraghiyagey. Rule or clue: Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence. \"Warraghiyagey\" names the reference feature or study skill that the prompt describes.",
             "incorrect": [
               "Not: Fort Duquesne. \"Fort Duquesne\" names a different reference feature or study skill than the one described in the prompt.",
               "Not: Daniel Boone. \"Daniel Boone\" names a different reference feature or study skill than the one described in the prompt.",
@@ -43411,8 +43430,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
-            "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
+            "example": "I visited Washington, D.C., last summer.",
             "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
             "linkText": "Reading Rockets-Text Features"
           },
@@ -43574,8 +43593,8 @@
         },
         {
           "id": "reference-skills-nonfiction-text-features-q0284",
-          "version": 2,
-          "contentHash": "sha256:5ea6ecfcd0d22669d5409e1f8dd85df516fc26aa0521218574362c9a01efe482",
+          "version": 3,
+          "contentHash": "sha256:8f47aff0a741ee0e239044af283bb802af8c1a4b52108863221a453a313cfa55",
           "question": "Directions for washing the dishes: 1. Dry the dishes off and put them away. 2. Put the dirty dishes in the water and scrub them clean. 3. Fill the sink with warm water and soap. 4. Rinse the dishes with clean water. What is the correct order of the sentences above?",
           "choices": [
             "1, 2, 3,",
@@ -43587,9 +43606,9 @@
           "explanation": {
             "correct": "Answer: 3, 2, 4, 1. Rule or clue: Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings. \"3, 2, 4, 1\" names the reference feature or study skill that the prompt describes.",
             "incorrect": [
-              "Not: 1, 2, 3,. \"1, 2, 3,\" names a different reference feature or study skill than the one described in the prompt.",
-              "Not: 3, 1, 2,. \"3, 1, 2,\" names a different reference feature or study skill than the one described in the prompt.",
-              "Not: 2, 3, 1,. \"2, 3, 1,\" names a different reference feature or study skill than the one described in the prompt.",
+              "Not: 1, 2, 3, \"1, 2, 3,\" names a different reference feature or study skill than the one described in the prompt.",
+              "Not: 3, 1, 2, \"3, 1, 2,\" names a different reference feature or study skill than the one described in the prompt.",
+              "Not: 2, 3, 1, \"2, 3, 1,\" names a different reference feature or study skill than the one described in the prompt.",
               ""
             ]
           },
@@ -44001,8 +44020,8 @@
         },
         {
           "id": "reference-skills-nonfiction-text-features-q0291",
-          "version": 2,
-          "contentHash": "sha256:413100c79dcb76dab7a4869f3770eec3522e5aca2906c9bf6e7abf8f80a1ba43",
+          "version": 4,
+          "contentHash": "sha256:0231b22f47b277be952aead90e074fd214d3d5c627ac36a454c2d55657c2ab63",
           "question": "Read the passage. Peter ran into the house after school to get ready for his soccer game. This was the big championship, and he had been anticipating it for weeks. He knew he needed to be there ontime, or the coach would really be upset, and the game was about an hour’s drive away. He wanted to leave early. Peter was starting to feel anxious as he noticed the time on the hallway clock. He only had one and a half hours to get there. He dashed into the kitchento see if his mother was ready to take him. “I have a millionthings to do before we can leave!” she tol d Peter. How does his mother’s comment make Peter feel?",
           "choices": [
             "relaxed",
@@ -44012,7 +44031,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: hopeless. Rule or clue: Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings. \"hopeless\" names the reference feature or study skill that the prompt describes.",
+            "correct": "Answer: hopeless. Rule or clue: A dash can show a sudden break or added thought, but it should not split words that belong together. \"hopeless\" names the reference feature or study skill that the prompt describes.",
             "incorrect": [
               "Not: relaxed. \"relaxed\" names a different reference feature or study skill than the one described in the prompt.",
               "Not: hopeful. \"hopeful\" names a different reference feature or study skill than the one described in the prompt.",
@@ -44021,8 +44040,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
-            "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+            "definition": "A dash can show a sudden pause or added thought, but it should not split words that belong together.",
+            "example": "I opened the box - and gasped at the surprise inside.",
             "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
             "linkText": "Reading Rockets-Text Features"
           },
@@ -44123,8 +44142,8 @@
         },
         {
           "id": "reference-skills-nonfiction-text-features-q0293",
-          "version": 2,
-          "contentHash": "sha256:02db689bc3fef4432ef65acd92950974f9b9db30a8cdcd1caf9365e54b1a2d82",
+          "version": 3,
+          "contentHash": "sha256:acddd21092357abf33d301ddb7181d19936b3758f9b4048f3edf46b17e884aba",
           "question": "Read the following paragraph. George Washington was a great man. He was the first president of the United States. We have been studying presidents in social studies class, and we are currently doing research on Ronald Reagan. He was an actor before he got into politics. Whichis a statement of opinion?",
           "choices": [
             "George Washington was the first president of the United States",
@@ -44134,7 +44153,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: George Washington was a great. man. Rule or clue: Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings. \"George Washington was a great. man\" names the reference feature or study skill that the prompt describes.",
+            "correct": "Answer: George Washington was a great. man. Rule or clue: Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence. \"George Washington was a great. man\" names the reference feature or study skill that the prompt describes.",
             "incorrect": [
               "Not: George Washington was the first president of the United States. \"George Washington was the first president of the United States\" names a different reference feature or study skill than the one described in the prompt.",
               "Not: They are studying presidents in social studies. \"They are studying presidents in social studies.\" names a different reference feature or study skill than the one described in the prompt.",
@@ -44143,8 +44162,8 @@
             ]
           },
           "studyAid": {
-            "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
-            "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+            "definition": "Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.",
+            "example": "I visited Washington, D.C., last summer.",
             "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
             "linkText": "Reading Rockets-Text Features"
           },

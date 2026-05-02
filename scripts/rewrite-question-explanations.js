@@ -12,6 +12,94 @@ const {
 } = require('./qa/json-source-loader');
 
 const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const STATE_ABBREVIATIONS = {
+  Alabama: 'AL',
+  Alaska: 'AK',
+  Arizona: 'AZ',
+  Arkansas: 'AR',
+  California: 'CA',
+  Colorado: 'CO',
+  Connecticut: 'CT',
+  Delaware: 'DE',
+  Florida: 'FL',
+  Georgia: 'GA',
+  Hawaii: 'HI',
+  Idaho: 'ID',
+  Illinois: 'IL',
+  Indiana: 'IN',
+  Iowa: 'IA',
+  Kansas: 'KS',
+  Kentucky: 'KY',
+  Louisiana: 'LA',
+  Maine: 'ME',
+  Maryland: 'MD',
+  Massachusetts: 'MA',
+  Michigan: 'MI',
+  Minnesota: 'MN',
+  Mississippi: 'MS',
+  Missouri: 'MO',
+  Montana: 'MT',
+  Nebraska: 'NE',
+  Nevada: 'NV',
+  'New Hampshire': 'NH',
+  'New Jersey': 'NJ',
+  'New Mexico': 'NM',
+  'New York': 'NY',
+  'North Carolina': 'NC',
+  'North Dakota': 'ND',
+  Ohio: 'OH',
+  Oklahoma: 'OK',
+  Oregon: 'OR',
+  Pennsylvania: 'PA',
+  'Rhode Island': 'RI',
+  'South Carolina': 'SC',
+  'South Dakota': 'SD',
+  Tennessee: 'TN',
+  Texas: 'TX',
+  Utah: 'UT',
+  Vermont: 'VT',
+  Virginia: 'VA',
+  Washington: 'WA',
+  'West Virginia': 'WV',
+  Wisconsin: 'WI',
+  Wyoming: 'WY'
+};
+const ABBREVIATION_OWNERS = Object.fromEntries(Object.entries(STATE_ABBREVIATIONS).map(([name, abbr]) => [abbr, name]));
+const STREET_ABBREVIATIONS = {
+  Road: 'Rd.',
+  Street: 'St.',
+  Drive: 'Dr.',
+  Lane: 'Ln.',
+  Avenue: 'Ave.',
+  Boulevard: 'Blvd.'
+};
+const COMMON_ABBREVIATIONS = {
+  Doctor: 'Dr.',
+  Mister: 'Mr.',
+  Avenue: 'Ave.',
+  'et cetera': 'etc.',
+  January: 'Jan.',
+  Junior: 'Jr.',
+  Incorporated: 'Inc.',
+  approximately: 'approx.',
+  Road: 'Rd.',
+  Street: 'St.',
+  Drive: 'Dr.',
+  Lane: 'Ln.',
+  apartment: 'apt.',
+  hospital: 'hosp.',
+  building: 'bldg.',
+  avenue: 'Ave.',
+  Senior: 'Sr.',
+  Inch: 'in.',
+  Cup: 'c.',
+  teaspoon: 'tsp.',
+  yard: 'yd.',
+  minute: 'min.',
+  gallon: 'gal.',
+  Wednesday: 'Wed.',
+  September: 'Sept.'
+};
 
 function normalizeWhitespace(value) {
   return String(value || '')
@@ -42,7 +130,7 @@ function quote(value) {
 
 function labelChoice(label, value) {
   const text = displayText(value);
-  return `${label}: ${text}${/[.!?]["'”’]?$/.test(text) ? '' : '.'}`;
+  return `${label}: ${text}${/[.!?,;:]["'”’]?$/.test(text) ? '' : '.'}`;
 }
 
 function displayText(value) {
@@ -102,10 +190,91 @@ function getRule(question) {
   return 'The best answer must match the exact clue in the question.';
 }
 
+function buildStudyAid(question) {
+  const prompt = stripLeadIns(question.question || '');
+  const existing = question.studyAid || {};
+  let definition = '';
+  let example = '';
+  if ((/abbreviation is incorrect/i.test(prompt) && isPostalStateQuestion(question)) || /state abbreviation/i.test(prompt)) {
+    definition = 'Postal state abbreviations use two capital letters with no periods; the letters must match the state name.';
+    example = 'Maine is ME. MA is Massachusetts, so "Maine - MA" is not correct.';
+  } else if (/not a correct abbreviation/i.test(prompt)) {
+    definition = 'Common address-word abbreviations must use the accepted short form and period.';
+    example = 'Road becomes Rd., Street becomes St., Drive becomes Dr., and Lane becomes Ln.';
+  } else if (/abbreviation is incorrect|abbreviation is inc orrect/i.test(prompt)) {
+    definition = 'Accepted abbreviations use the standard letters, capitalization, and periods for that word.';
+    example = 'Wednesday is Wed., yard is yd., and Avenue is Ave.';
+  } else if (/uses an abbreviation/i.test(prompt)) {
+    definition = 'Many titles before names use an accepted abbreviation with one period at the end.';
+    example = 'Doctor Patel can be written as Dr. Patel.';
+  } else if (/acronym/i.test(prompt)) {
+    definition = 'Acronyms made from initials are usually written in capital letters with no periods.';
+    example = 'NASA uses all capitals, not N.a.s.a. or Nasa.';
+  } else if (/semicolon/i.test(prompt)) {
+    definition = 'A semicolon can join two complete, closely related sentences.';
+    example = 'The storm ended; the teams returned.';
+  } else if (/colon correctly/i.test(prompt)) {
+    definition = 'A colon can introduce a list after a complete setup.';
+    example = 'Bring three supplies: pencils, paper, and glue.';
+  } else if (/parentheses/i.test(prompt)) {
+    definition = 'Parentheses come in a matching pair around extra information.';
+    example = 'The trip (originally planned for May) moved to June.';
+  } else if (/introductory phrase/i.test(prompt)) {
+    definition = 'Use a comma after an introductory phrase or clause before the main sentence.';
+    example = 'After the bell rang, students lined up.';
+  } else if (/dialogue|speaker tag|new speaker/i.test(prompt)) {
+    definition = 'Dialogue keeps spoken words inside quotation marks and uses punctuation to connect speaker tags.';
+    example = '"The bus is here," announced Mr. Lee.';
+  } else if (/hyphen/i.test(prompt)) {
+    definition = 'A hyphen can join words that work together as one describing word before a noun.';
+    example = 'A well-known author uses well-known to describe author.';
+  } else if (/dash/i.test(prompt)) {
+    definition = 'A dash can show a sudden pause or added thought, but it should not split words that belong together.';
+    example = 'I opened the box - and gasped at the surprise inside.';
+  } else if (/combined into one sentence/i.test(prompt)) {
+    definition = 'Combine sentences when the ideas are closely related and can make one clearer sentence.';
+    example = 'Related ideas about one person or event often combine better than unrelated events.';
+  } else if (/capitalized correctly/i.test(prompt)) {
+    definition = 'Capitalize titles and proper names; keep ordinary words lowercase unless they start a sentence.';
+    example = 'Dr. Fred E. Meyer capitalizes the title and each part of the name.';
+  } else if (/D\.C\.|Washington/i.test(prompt)) {
+    definition = 'Place abbreviations such as D.C. keep periods, and commas may be needed around the place name in a sentence.';
+    example = 'I visited Washington, D.C., last summer.';
+  } else if ((question.choices || []).some(choice => /Correct as is/i.test(String(choice || '')))) {
+    definition = 'When "Correct as is" is a choice, check whether the original sentence already follows the rule.';
+    example = 'Doctor Brown is correct when the title is written out instead of abbreviated as Dr.';
+  } else if (/missing word/i.test(prompt)) {
+    definition = 'Choose the pronoun that agrees with the noun and fits the sentence meaning.';
+    example = 'Mrs. Porter is one woman, so the subject pronoun is She.';
+  }
+  if (!definition && !example) return existing;
+  return {
+    definition: definition || existing.definition || '',
+    example: example || existing.example || '',
+    link: existing.link || 'https://www.thecorestandards.org/ELA-Literacy/',
+    linkText: existing.linkText || 'Common Core ELA standards'
+  };
+}
+
 function getInferredRule(question) {
   const prompt = stripLeadIns(question.question || '');
   const skillText = getSkillText(question);
   const sourceSet = getSourceSet(question);
+  if ((/abbreviation is incorrect/i.test(prompt) && isPostalStateQuestion(question)) || /state abbreviation/i.test(prompt)) {
+    return 'Postal state abbreviations use two capital letters with no periods, and the letters must match the state.';
+  }
+  if (/abbreviation is incorrect|abbreviation is inc orrect|not a correct abbreviation/i.test(prompt)) {
+    return 'Accepted abbreviations use the standard letters, capitalization, and periods for that word.';
+  }
+  if (/not a correct abbreviation/i.test(prompt)) {
+    return 'Address-word abbreviations use accepted short forms, such as Rd. for Road and Ln. for Lane.';
+  }
+  if (/uses an abbreviation/i.test(prompt)) {
+    return 'Title abbreviations such as Dr. use one period at the end.';
+  }
+  if (/acronym/i.test(prompt)) {
+    return 'Acronyms such as NASA are usually written in all capital letters with no periods.';
+  }
   if (/telephone message/i.test(prompt)) {
     return 'A complete telephone message tells who called and what the listener should know or do next.';
   }
@@ -169,19 +338,37 @@ function getInferredRule(question) {
   if (/source is best|finding synonyms|finding the meaning/i.test(prompt)) {
     return 'Choose the reference source that matches the information you need.';
   }
-  if (/parentheses correctly/i.test(prompt)) {
+  if (/combined into one sentence/i.test(prompt)) {
+    return 'A smooth sentence combination connects related ideas without creating a run-on, fragment, or word jumble.';
+  }
+  if (/capitalized correctly/i.test(prompt)) {
+    return 'Capitalize proper names and titles used with names; keep ordinary words lowercase unless they start a sentence.';
+  }
+  if (/correct missing word/i.test(prompt)) {
+    return 'A pronoun must agree with the noun it replaces and fit its job in the sentence.';
+  }
+  if ((question.choices || []).some(choice => /Correct as is/i.test(String(choice || '')))) {
+    return 'Choose "Correct as is" only when the original wording already follows the capitalization, abbreviation, or punctuation rule.';
+  }
+  if (/semicolon/i.test(prompt)) {
+    return 'A semicolon can join two complete, closely related thoughts.';
+  }
+  if (/\bcolon\b/i.test(prompt)) {
+    return 'A colon can introduce a list after a complete setup.';
+  }
+  if (/parentheses/i.test(prompt)) {
     return 'Parentheses come in a matching pair around extra information that can be removed without breaking the sentence.';
   }
-  if (/comma after an introductory phrase/i.test(prompt)) {
+  if (/introductory phrase/i.test(prompt)) {
     return 'Use a comma after an introductory phrase or clause before the main part of the sentence begins.';
   }
-  if (/hyphen correctly/i.test(prompt)) {
+  if (/hyphen/i.test(prompt)) {
     return 'A hyphen can join words that work together as one describing word before a noun.';
   }
-  if (/dash correctly/i.test(prompt)) {
+  if (/dash/i.test(prompt)) {
     return 'A dash can show a sudden break or added thought, but it should not split words that belong together.';
   }
-  if (/new speaker/i.test(prompt)) {
+  if (/speaker tag|new speaker/i.test(prompt)) {
     return 'When a new speaker talks, start a new quoted sentence and keep each speaker’s words inside quotation marks.';
   }
   if (/colon-time/.test(sourceSet) || /\b\d{1,2}[:.,;-]\d{2}\b/.test(prompt)) {
@@ -366,6 +553,71 @@ function countCommas(value) {
   return (String(value || '').match(/,/g) || []).length;
 }
 
+function parseNameAbbreviationPair(value) {
+  const text = normalizeWhitespace(value).replace(/[–—]/g, '-');
+  const match = text.match(/^([A-Za-z]+(?:\s+[A-Za-z]+)*)\s*-\s*([A-Za-z.]+)$/);
+  if (!match) return null;
+  return { name: match[1], abbreviation: match[2] };
+}
+
+function isPostalStateQuestion(question) {
+  return /\bstate abbreviation\b|\bMinnesota\b|\bMissouri\b|\bMississippi\b|\bMaine\b|\bVirginia\b/i.test(`${question.question || ''} ${(question.choices || []).join(' ')}`);
+}
+
+function isValidStatePair(value) {
+  const pair = parseNameAbbreviationPair(value);
+  if (!pair) return false;
+  return STATE_ABBREVIATIONS[pair.name] === pair.abbreviation;
+}
+
+function statePairReason(value) {
+  const pair = parseNameAbbreviationPair(value);
+  if (!pair) return '';
+  const expected = STATE_ABBREVIATIONS[pair.name];
+  if (!expected) return '';
+  const belongsTo = ABBREVIATION_OWNERS[pair.abbreviation];
+  if (pair.abbreviation === expected) return `${pair.abbreviation} is the postal abbreviation for ${pair.name}.`;
+  if (belongsTo) return `${pair.abbreviation} is the postal abbreviation for ${belongsTo}, not ${pair.name}; ${pair.name} is ${expected}.`;
+  return `${pair.name} is abbreviated ${expected}, not ${pair.abbreviation}.`;
+}
+
+function isStreetAbbreviationQuestion(question) {
+  return /\bnot a correct abbreviation\b/i.test(question.question || '') ||
+    (question.choices || []).some(choice => parseStreetAbbreviationPair(choice));
+}
+
+function parseStreetAbbreviationPair(value) {
+  const text = normalizeWhitespace(value).replace(/[–—]/g, '-');
+  const match = text.match(/^([A-Za-z]+)\s*-\s*([A-Za-z.]+)$/);
+  if (!match || !STREET_ABBREVIATIONS[match[1]]) return null;
+  return { word: match[1], abbreviation: match[2] };
+}
+
+function streetPairReason(value) {
+  const pair = parseStreetAbbreviationPair(value);
+  if (!pair) return '';
+  const expected = STREET_ABBREVIATIONS[pair.word];
+  if (pair.abbreviation === expected) return `${pair.abbreviation} is the accepted abbreviation for ${pair.word}.`;
+  return `${pair.word} is abbreviated ${expected}, not ${quote(pair.abbreviation)}.`;
+}
+
+function parseCommonAbbreviationPair(value) {
+  const text = normalizeWhitespace(value).replace(/[–—=]/g, '-');
+  const match = text.match(/^([A-Za-z]+(?:\s+[A-Za-z]+)*)\s*-\s*([A-Za-z.]+)$/);
+  if (!match) return null;
+  const word = match[1];
+  if (!COMMON_ABBREVIATIONS[word]) return null;
+  return { word, abbreviation: match[2] };
+}
+
+function commonAbbreviationReason(value) {
+  const pair = parseCommonAbbreviationPair(value);
+  if (!pair) return '';
+  const expected = COMMON_ABBREVIATIONS[pair.word];
+  if (pair.abbreviation === expected) return `${pair.abbreviation} is the accepted abbreviation for ${pair.word}.`;
+  return `${pair.word} is abbreviated ${expected}, not ${quote(pair.abbreviation)}.`;
+}
+
 function articleReason(choice, correctChoice, question, isCorrect) {
   const prompt = question.question || '';
   const blankTail = (prompt.match(/___\s+([^.'"?]+)/) || [])[1] || '';
@@ -431,26 +683,30 @@ function contractionReason(choice, correctChoice, question, isCorrect) {
 
 function punctuationReason(choice, correctChoice, question, isCorrect) {
   const sourceSet = getSourceSet(question);
+  const promptText = question.question || '';
   if (/colon-time/.test(sourceSet) || /\b\d{1,2}[:.,;-]\d{2}\b/.test(`${choice} ${correctChoice} ${question.question || ''}`)) {
     return timePunctuationReason(choice, correctChoice, question, isCorrect);
   }
-  if (/periods-abbreviations|abbreviations-acronyms/.test(sourceSet) || /abbreviation|acronym|\ba\.m\.|\bp\.m\./i.test(question.question || '')) {
+  if (/\b(abbreviation|acronym)\b/i.test(promptText)) {
     return abbreviationPunctuationReason(choice, correctChoice, question, isCorrect);
   }
   if (/commas-dates/.test(sourceSet)) {
     return dateCommaReason(choice, correctChoice, question, isCorrect);
   }
-  if (/commas-addresses/.test(sourceSet) || /\b(address|street|zip|po box)\b/i.test(question.question || '')) {
+  if (/advanced-punctuation/.test(sourceSet) || /\b(semicolon|colon|dash|parentheses|hyphen|introductory phrase)\b/i.test(promptText)) {
+    return advancedPunctuationReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/commas-addresses/.test(sourceSet) || /\b(address|street|zip|po box)\b/i.test(promptText)) {
     return addressCommaReason(choice, correctChoice, question, isCorrect);
   }
-  if (/commas-series/.test(sourceSet) || /\b(series|list)\b/i.test(question.question || '')) {
+  if (/commas-series/.test(sourceSet) || /\b(series|list)\b/i.test(promptText)) {
     return seriesCommaReason(choice, correctChoice, question, isCorrect);
   }
-  if (/quotation|dialogue/.test(sourceSet) || /\b(quotation|quote|dialogue|speaker tag|spoken words)\b/i.test(question.question || '')) {
+  if (/quotation|dialogue/.test(sourceSet) || /\b(quotation|quote|dialogue|speaker tag|spoken words|new speaker)\b/i.test(promptText)) {
     return dialoguePunctuationReason(choice, correctChoice, question, isCorrect);
   }
-  if (/advanced-punctuation/.test(sourceSet) || /\b(semicolon|colon|dash|parentheses)\b/i.test(question.question || '')) {
-    return advancedPunctuationReason(choice, correctChoice, question, isCorrect);
+  if (/periods-abbreviations|abbreviations-acronyms/.test(sourceSet) || /abbreviation|acronym|\ba\.m\.|\bp\.m\./i.test(promptText)) {
+    return abbreviationPunctuationReason(choice, correctChoice, question, isCorrect);
   }
   return endPunctuationReason(choice, correctChoice, question, isCorrect);
 }
@@ -475,13 +731,75 @@ function abbreviationPunctuationReason(choice, correctChoice, question, isCorrec
   const bad = asksForBadChoice(question);
   const hasPeriod = /[.]/.test(choice);
   const hasInternalPeriod = /^[A-Za-z]\.[A-Za-z]/.test(choice) || /\.[A-Za-z]\./.test(choice);
-  const acronym = /^[A-Z]{2,}$/.test(normalizeWhitespace(choice));
+  const choiceText = normalizeWhitespace(choice);
+  const correctText = normalizeWhitespace(correctChoice);
+  const prompt = stripLeadIns(question.question || '');
+  const acronymToken = (choiceText.match(/\b[A-Za-z]{2,}\b/) || [''])[0];
+  const acronym = /^[A-Z]{2,}$/.test(choiceText) || /\b[A-Z]{2,}\b/.test(choiceText);
+  const stateReason = statePairReason(choice);
+  const streetReason = streetPairReason(choice);
+  const commonReason = commonAbbreviationReason(choice);
+  if (isPostalStateQuestion(question)) {
+    if (isCorrect) {
+      return bad
+        ? `${quote(correctChoice)} is the incorrect state abbreviation the prompt asks for. ${statePairReason(correctChoice)}`
+        : `${quote(correctChoice)} is correct because postal state abbreviations use two capital letters with no periods.`;
+    }
+    if (bad) return `${quote(choice)} is not the error because ${stateReason || 'it follows the two-capital-letter postal abbreviation pattern.'}`;
+    if (stateReason) return `${quote(choice)} does not match the postal abbreviation for the state named. ${stateReason}`;
+    if (/[.]/.test(choiceText)) return `${quote(choice)} uses periods, but postal state abbreviations do not use periods.`;
+    if (/\s/.test(choiceText.trim())) return `${quote(choice)} separates the letters, but a postal state abbreviation is written as two letters together.`;
+    if (/[a-z]/.test(choiceText)) return `${quote(choice)} uses lowercase or mixed-case letters; postal state abbreviations use two capitals.`;
+    return `${quote(choice)} does not follow the two-capital-letter postal abbreviation pattern.`;
+  }
+  if (isStreetAbbreviationQuestion(question) && streetReason) {
+    if (isCorrect) {
+      return bad
+        ? `${quote(correctChoice)} is the incorrect abbreviation the prompt asks for. ${streetPairReason(correctChoice)}`
+        : `${quote(correctChoice)} is correct. ${streetPairReason(correctChoice)}`;
+    }
+    return bad
+      ? `${quote(choice)} is not the error because ${streetReason}`
+      : `${quote(choice)} is not the accepted abbreviation for that address word. ${streetReason}`;
+  }
+  if ((/abbreviation is incorrect|abbreviation is inc orrect|not a correct abbreviation/i.test(prompt)) && commonReason) {
+    if (isCorrect) {
+      return bad
+        ? `${quote(correctChoice)} is the incorrect abbreviation the prompt asks for. ${commonAbbreviationReason(correctChoice)}`
+        : `${quote(correctChoice)} is correct. ${commonAbbreviationReason(correctChoice)}`;
+    }
+    return bad
+      ? `${quote(choice)} is not the error because ${commonReason}`
+      : `${quote(choice)} is not the accepted abbreviation for that word. ${commonReason}`;
+  }
+  if (/\ba\.m\.|\bp\.m\.|am\.|pm\./i.test(`${choiceText} ${correctText} ${prompt}`)) {
+    if (isCorrect) return bad ? `${quote(correctChoice)} is the incorrect time abbreviation because it does not use the standard lowercase form with two periods.` : `${quote(correctChoice)} uses the standard time abbreviation form.`;
+    if (bad) return `${quote(choice)} is an accepted time abbreviation, so it is not the incorrect choice.`;
+    return `${quote(choice)} does not use the standard time abbreviation form, such as a.m. or p.m.`;
+  }
+  if (/D\.C\.|Washington/i.test(`${choiceText} ${correctText} ${prompt}`)) {
+    if (isCorrect) return `${quote(correctChoice)} correctly uses periods in D.C. and commas around Washington, D.C., in the sentence.`;
+    return `${quote(choice)} leaves out a needed comma or period in Washington, D.C.`;
+  }
+  if (/acronym/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} is correct because the acronym is written in all capital letters with no periods.`;
+    if (/\b(?:[A-Za-z]\.){2,}/.test(choiceText)) return `${quote(choice)} adds periods between acronym letters; this acronym should be written as ${quote(correctText)}.`;
+    if (/[a-z]/.test(acronymToken)) return `${quote(choice)} does not capitalize every letter of the acronym.`;
+    return `${quote(choice)} is not the standard acronym form asked for in the prompt.`;
+  }
+  if (/uses an abbreviation/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} correctly writes the title abbreviation with one period after Dr.`;
+    if (/\bDr\s+[A-Z]/.test(choiceText)) return `${quote(choice)} leaves out the period after the title abbreviation Dr.`;
+    if (/\bD\.r\./.test(choiceText)) return `${quote(choice)} puts a period inside the abbreviation; Dr. needs one period at the end.`;
+    if (/\bDr\.\./.test(choiceText)) return `${quote(choice)} uses an extra period after Dr.; the title needs only one.`;
+    return `${quote(choice)} does not use the accepted title abbreviation form Dr.`;
+  }
   if (isCorrect) {
     if (bad) return `${quote(correctChoice)} is the abbreviation error the prompt asks for. Its periods do not match the standard abbreviation form.`;
-    if (acronym) return `${quote(correctChoice)} is correct because acronyms such as NASA are written without periods.`;
-    return `${quote(correctChoice)} is the standard abbreviation form, with the period placed at the end.`;
+    if (acronym) return `${quote(correctChoice)} is correct because this abbreviation is written with capital letters and no extra periods.`;
+    return `${quote(correctChoice)} is the standard abbreviation form, with one period in the accepted place.`;
   }
-  if (bad) return `${quote(choice)} is a standard abbreviation or acronym form, so it is not the incorrect choice.`;
+  if (bad) return `${quote(choice)} is a standard abbreviation form, so it is not the incorrect choice.`;
   if (!hasPeriod) return `${quote(choice)} is missing the period that this abbreviation needs.`;
   if (hasInternalPeriod) return `${quote(choice)} breaks the abbreviation with periods inside the letters instead of using the standard form ${quote(correctChoice)}`;
   if (acronym && hasPeriod) return `${quote(choice)} adds periods to an acronym that is normally written without them.`;
@@ -1018,9 +1336,23 @@ function domainReason(choice, correctChoice, question, domain, isCorrect) {
   const skillText = getSkillText(question);
   const prompt = stripLeadIns(question.question || '');
   if (domain === 'punctuation' &&
-    /\b(narrative|sensory|claim|topic sentence|supporting detail|closing sentence|revision|formal tone)\b/i.test(prompt) &&
+    /\b(narrative|sensory|claim|topic sentence|supporting detail|closing sentence|revision|formal tone|formal language|informal language)\b/i.test(prompt) &&
     !/\b(punctuat|quote|quotation|dialogue|comma|semicolon|colon|apostrophe|abbreviation|end punctuation)\b/i.test(prompt)) {
     return writingReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/\bcombined into one sentence\b/i.test(prompt)) {
+    return writingReason(choice, correctChoice, question, isCorrect);
+  }
+  if (/\bcapitalized correctly\b/i.test(prompt)) {
+    return capitalizationDiffReason(choice, correctChoice, isCorrect);
+  }
+  if (/Correct as is/i.test(String(correctChoice || ''))) {
+    if (isCorrect) return `${quote(correctChoice)} is right because the original underlined wording already follows the rule being checked.`;
+    return `${quote(choice)} changes the original wording in a way that adds a capitalization, abbreviation, punctuation, or usage problem.`;
+  }
+  if (/\bcorrect missing word\b/i.test(prompt)) {
+    if (isCorrect) return `${quote(correctChoice)} is the pronoun that agrees with Mrs. Porter and works as the subject of the sentence.`;
+    return `${quote(choice)} does not agree with Mrs. Porter or does not fit as the subject pronoun in this sentence.`;
   }
   if (/contraction/.test(skillText)) return contractionReason(choice, correctChoice, question, isCorrect);
   if (/apostrophe|possessive/.test(skillText)) return possessiveReason(choice, correctChoice, question, isCorrect);
@@ -1052,13 +1384,20 @@ function buildWrongExplanation(question, domain, index) {
 function rewriteQuestion(question, domain) {
   if (!question || !Array.isArray(question.choices)) return false;
   if (!Number.isInteger(question.correct) || question.correct < 0 || question.correct >= question.choices.length) return false;
-  const before = JSON.stringify(question.explanation || {});
+  const before = JSON.stringify({
+    explanation: question.explanation || {},
+    studyAid: question.studyAid || {}
+  });
+  question.studyAid = buildStudyAid(question);
   const explanation = {
     correct: buildCorrectExplanation(question, domain),
     incorrect: question.choices.map((_, index) => buildWrongExplanation(question, domain, index))
   };
   question.explanation = explanation;
-  const after = JSON.stringify(explanation);
+  const after = JSON.stringify({
+    explanation,
+    studyAid: question.studyAid || {}
+  });
   if (before === after) return false;
   question.version = Number.isInteger(Number(question.version)) ? Number(question.version) + 1 : 2;
   question.contentHash = computeContentHash(question);

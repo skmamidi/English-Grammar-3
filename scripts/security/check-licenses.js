@@ -18,6 +18,15 @@ const LICENSE_OVERRIDES = Object.freeze({
   'playwright-core': 'Apache-2.0'
 });
 
+const LICENSE_EXCEPTIONS = Object.freeze({
+  'axe-core@4.11.4': Object.freeze({
+    license: 'MPL-2.0',
+    reason: 'Reviewed dev-only accessibility engine used by automated axe checks; not shipped as learner content.',
+    reviewer: 'accessibility-security-review',
+    reviewBy: '2027-05-01'
+  })
+});
+
 function loadPackageLicenses(options = {}) {
   const rootDir = path.resolve(options.rootDir || process.cwd());
   const lockPath = path.join(rootDir, 'package-lock.json');
@@ -43,7 +52,7 @@ function checkLicensePolicy(options = {}) {
   const warnings = [];
   packages.forEach(pkg => {
     const license = normalizeLicense(pkg.license || LICENSE_OVERRIDES[pkg.name]);
-    if (!license || !ALLOWED_LICENSES.includes(license)) {
+    if (!license || (!ALLOWED_LICENSES.includes(license) && !isReviewedException(pkg, license))) {
       blockers.push({
         name: pkg.name,
         version: pkg.version,
@@ -53,6 +62,15 @@ function checkLicensePolicy(options = {}) {
     }
   });
   return { blockers, warnings, packages };
+}
+
+function isReviewedException(pkg, license) {
+  const exception = LICENSE_EXCEPTIONS[`${pkg.name}@${pkg.version}`];
+  if (!exception) return false;
+  return normalizeLicense(exception.license) === normalizeLicense(license) &&
+    Boolean(exception.reason) &&
+    Boolean(exception.reviewer) &&
+    /^\d{4}-\d{2}-\d{2}$/.test(exception.reviewBy || '');
 }
 
 function readPackageLicense(rootDir, packagePath, name) {
@@ -85,6 +103,7 @@ if (require.main === module) {
 
 module.exports = {
   ALLOWED_LICENSES,
+  LICENSE_EXCEPTIONS,
   LICENSE_OVERRIDES,
   checkLicensePolicy,
   loadPackageLicenses

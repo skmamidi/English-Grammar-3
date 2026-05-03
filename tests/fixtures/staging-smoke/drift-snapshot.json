@@ -1,0 +1,35 @@
+{
+  "releaseManifest": {
+    "releaseId": "old",
+    "appVersion": "0.9.0",
+    "questionManifestSourceHash": "sha256:stale",
+    "serviceWorkerCacheVersion": "gq-stale",
+    "featureFlagConfigHash": "sha256:stale"
+  },
+  "frontendManifest": {
+    "sha256": "stale"
+  },
+  "staticAssets": [
+    {
+      "path": "assets/build/app-entry.js",
+      "status": 200,
+      "sha256": "stale"
+    }
+  ],
+  "routes": [
+    { "path": "/", "status": 200 },
+    { "path": "/topics/grammar/index.html", "status": 503 }
+  ],
+  "securityHeaders": {
+    "Referrer-Policy": "unsafe-url",
+    "X-Content-Type-Options": "sniff"
+  },
+  "allowedOrigins": ["https://unexpected.example.test"],
+  "telemetryConfig": {
+    "default": "enabled"
+  },
+  "healthReadiness": {
+    "status": "degraded",
+    "releaseId": "old"
+  }
+}

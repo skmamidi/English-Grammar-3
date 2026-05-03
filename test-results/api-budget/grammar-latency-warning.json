@@ -4,16 +4,16 @@
     "maxP95LatencyMs": 100
   },
   "stats": {
-    "minMs": 12.925917,
-    "medianMs": 25.043416,
-    "p95Ms": 127.723917,
+    "minMs": 6.008458,
+    "medianMs": 20.272458,
+    "p95Ms": 522.881792,
     "maxResponseBytes": 12164,
     "responseBytes": 12164,
     "selectedCount": 60,
-    "sourceHash": "sha256:7f1acbde92194196dbe086dfbb7ce43b8833fa77073514357830b2fe961ca485"
+    "sourceHash": "sha256:3de96e1aec0bd15d2864bbbb286e966f7006e08d302f6ec4b90e803505aa423c"
   },
   "selectedCount": 60,
   "responseBytes": 12164,
-  "sourceHash": "sha256:7f1acbde92194196dbe086dfbb7ce43b8833fa77073514357830b2fe961ca485",
+  "sourceHash": "sha256:3de96e1aec0bd15d2864bbbb286e966f7006e08d302f6ec4b90e803505aa423c",
   "strict": false
 }

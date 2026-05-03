@@ -117,6 +117,29 @@ test('request metrics classify static images fonts and icons separately from que
   assert.equal(summary.requiredChunkBytes, 4000);
 });
 
+test('static asset docs define design asset cache and preload policy', () => {
+  const docs = fs.readFileSync(path.join(repoRoot, 'docs', 'performance', 'static-assets.md'), 'utf8');
+
+  [
+    'critical-shell',
+    'lazy-ui',
+    'generated-content',
+    'decorative'
+  ].forEach(category => {
+    assert.match(docs, new RegExp('`' + category + '`'), `static asset docs should define ${category}`);
+  });
+
+  assert.match(docs, /^## Preload Rules$/m);
+  assert.match(docs, /critical-shell[\s\S]*service worker precache/i);
+  assert.match(docs, /lazy-ui[\s\S]*not preload/i);
+  assert.match(docs, /generated-content[\s\S]*question content/i);
+  assert.match(docs, /decorative[\s\S]*must not be preloaded/i);
+  assert.match(docs, /npm run qa:static-assets/);
+  assert.match(docs, /npm run qa:app-shell/);
+  assert.match(docs, /node --test tests\/service-worker-cache\.test\.js/);
+  assert.match(docs, /generated question payloads remain separate/i);
+});
+
 function makeFixtureRoot() {
   return fs.mkdtempSync(path.join(repoRoot, 'test-results', 'static-asset-qa-'));
 }

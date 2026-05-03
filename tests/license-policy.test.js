@@ -5,6 +5,7 @@ const test = require('node:test');
 
 const {
   ALLOWED_LICENSES,
+  LICENSE_EXCEPTIONS,
   checkLicensePolicy,
   loadPackageLicenses
 } = require('../scripts/security/check-licenses');
@@ -21,6 +22,24 @@ test('license policy allows reviewed permissive dependency licenses', () => {
   });
 
   assert.deepEqual(result.blockers, []);
+});
+
+test('license policy allows reviewed exact-version exceptions only', () => {
+  assert.equal(LICENSE_EXCEPTIONS['axe-core@4.11.4'].license, 'MPL-2.0');
+
+  const accepted = checkLicensePolicy({
+    packages: [
+      { name: 'axe-core', version: '4.11.4', license: 'MPL-2.0' }
+    ]
+  });
+  const rejected = checkLicensePolicy({
+    packages: [
+      { name: 'axe-core', version: '4.12.0', license: 'MPL-2.0' }
+    ]
+  });
+
+  assert.deepEqual(accepted.blockers, []);
+  assert.deepEqual(rejected.blockers.map(item => item.name), ['axe-core']);
 });
 
 test('license policy blocks missing unknown and copyleft-incompatible licenses', () => {

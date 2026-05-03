@@ -1,0 +1,19 @@
+{
+  "domain": "reading-comprehension",
+  "budget": {
+    "maxP95LatencyMs": 120
+  },
+  "stats": {
+    "minMs": 7.981458,
+    "medianMs": 32.200334,
+    "p95Ms": 299.900708,
+    "maxResponseBytes": 13481,
+    "responseBytes": 13481,
+    "selectedCount": 60,
+    "sourceHash": "sha256:3de96e1aec0bd15d2864bbbb286e966f7006e08d302f6ec4b90e803505aa423c"
+  },
+  "selectedCount": 60,
+  "responseBytes": 13481,
+  "sourceHash": "sha256:3de96e1aec0bd15d2864bbbb286e966f7006e08d302f6ec4b90e803505aa423c",
+  "strict": false
+}

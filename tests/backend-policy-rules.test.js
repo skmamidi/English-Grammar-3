@@ -7,6 +7,7 @@ const {
   BACKEND_STORAGE_PATHS,
   assertBackendReadableDocumentSafe,
   evaluateBackendPolicy,
+  evaluateBackendStoragePolicy,
   resolveBackendResource
 } = require('../server/backend-policy-rules');
 
@@ -92,4 +93,23 @@ test('backend readable documents reject private signing keys tokens and secret r
   assert.throws(() => assertBackendReadableDocumentSafe('releaseManifests/current', {
     serviceAccount: { client_email: 'bot@example.test' }
   }), /backend_readable_secret_field/);
+});
+
+test('backend storage policy denies writes that would expose secret fields', () => {
+  const safeFlag = evaluateBackendStoragePolicy({
+    actor: actors.systemAdmin,
+    operation: 'write',
+    path: BACKEND_STORAGE_PATHS.featureFlag('server-selection'),
+    document: { enabled: true, rolloutPercent: 10 }
+  });
+  const unsafeFlag = evaluateBackendStoragePolicy({
+    actor: actors.systemAdmin,
+    operation: 'write',
+    path: BACKEND_STORAGE_PATHS.featureFlag('server-selection'),
+    document: { enabled: true, privateKeyRef: 'projects/app/secrets/key' }
+  });
+
+  assert.equal(safeFlag.allow, true);
+  assert.equal(unsafeFlag.allow, false);
+  assert.equal(unsafeFlag.reason, 'backend_document_secret_field');
 });

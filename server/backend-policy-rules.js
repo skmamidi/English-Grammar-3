@@ -48,6 +48,25 @@ function evaluateBackendPolicy(input = {}) {
   return deny(resource, 'operation_denied');
 }
 
+function evaluateBackendStoragePolicy(input = {}) {
+  const path = normalizePath(input.path);
+  const operation = normalizeOperation(input.operation);
+  const baseDecision = evaluateBackendPolicy(input);
+
+  if (!baseDecision.allow) return baseDecision;
+  if (['read', 'create', 'write', 'update'].includes(operation) && input.document && typeof input.document === 'object') {
+    try {
+      assertBackendReadableDocumentSafe(path, input.document);
+    } catch (error) {
+      if (/^backend_readable_secret_field/.test(error.message)) {
+        return deny(baseDecision.resource, 'backend_document_secret_field');
+      }
+      return deny(baseDecision.resource, error.message || 'backend_document_denied');
+    }
+  }
+  return baseDecision;
+}
+
 function canRead(actor, resource) {
   if (resource.type === access.ResourceTypes.AUDIT_LOG) {
     return access.canAccess(actor, access.Capabilities.viewAuditLogs, resource);
@@ -232,5 +251,6 @@ module.exports = {
   BACKEND_STORAGE_PATHS,
   assertBackendReadableDocumentSafe,
   evaluateBackendPolicy,
+  evaluateBackendStoragePolicy,
   resolveBackendResource
 };

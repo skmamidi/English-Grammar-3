@@ -1,0 +1,19 @@
+{
+  "domain": "punctuation",
+  "budget": {
+    "maxP95LatencyMs": 100
+  },
+  "stats": {
+    "minMs": 18.679792,
+    "medianMs": 43.122875,
+    "p95Ms": 689.880541,
+    "maxResponseBytes": 10886,
+    "responseBytes": 10886,
+    "selectedCount": 52,
+    "sourceHash": "sha256:3de96e1aec0bd15d2864bbbb286e966f7006e08d302f6ec4b90e803505aa423c"
+  },
+  "selectedCount": 52,
+  "responseBytes": 10886,
+  "sourceHash": "sha256:3de96e1aec0bd15d2864bbbb286e966f7006e08d302f6ec4b90e803505aa423c",
+  "strict": false
+}

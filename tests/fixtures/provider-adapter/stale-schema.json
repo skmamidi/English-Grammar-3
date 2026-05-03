@@ -1,0 +1,11 @@
+{
+  "provider": "firestore",
+  "status": "ready",
+  "schemaVersion": 0,
+  "checkedAt": "2026-05-03T00:00:00Z",
+  "capabilities": ["health_metadata"],
+  "diagnostics": {
+    "region": "local-emulator",
+    "source": "provider_adapter_pilot"
+  }
+}

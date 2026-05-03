@@ -59,6 +59,9 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['qa:page-inventory'], 'node scripts/qa/page-inventory.js');
   assert.equal(pkg.scripts['qa:operational-costs'], 'node scripts/qa/operational-cost-budget.js');
   assert.equal(pkg.scripts['qa:failure-drills'], 'node scripts/qa/failure-injection-drills.js');
+  assert.equal(pkg.scripts['qa:backup-rollback'], 'node scripts/qa/backup-rollback-rehearsals.js');
+  assert.equal(pkg.scripts['qa:incident-review'], 'node scripts/qa/incident-review-policy.js');
+  assert.equal(pkg.scripts['qa:environment-parity'], 'node scripts/qa/environment-parity.js');
   assert.equal(pkg.scripts['qa:ai-authoring'], 'node scripts/qa/ai-authoring-guardrails-qa.js');
   assert.match(pkg.scripts['qa:content'], /npm run qa:ai-authoring/);
   assert.match(pkg.scripts['test:fast'], /npm run qa:static-assets/);
@@ -84,6 +87,9 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-telemetry\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/production-slo-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/failure-injection-drill-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/backup-rollback-rehearsal-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/incident-review-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/environment-parity-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-api-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-service\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/backend-policy-rules\.test\.js/);

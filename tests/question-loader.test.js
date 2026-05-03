@@ -155,6 +155,7 @@ test('loader can assemble a full oversized set from all generated subchunks', as
 
 test('loader sends server selection request and hydrates returned refs when enabled', async () => {
   const requests = [];
+  const manifestQuestion = getManifestQuestion('capitalization-proper-names-titles', 'capitalization-proper-names-titles-q0001');
   const context = createLoaderContext({
     manifest: loadManifest(),
     config: {
@@ -173,8 +174,8 @@ test('loader sends server selection request and hydrates returned refs when enab
           questionRefs: [{
             id: 'capitalization-proper-names-titles-q0001',
             sourceSet: 'capitalization-proper-names-titles',
-            version: 1,
-            contentHash: getManifestQuestion('capitalization-proper-names-titles', 'capitalization-proper-names-titles-q0001').contentHash,
+            version: manifestQuestion.version,
+            contentHash: manifestQuestion.contentHash,
             sequence: 1
           }]
         }, body)

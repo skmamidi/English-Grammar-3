@@ -156,7 +156,7 @@
       title: 'Grammar Lab Scene',
       settings: ['classroom', 'desk', 'notebook', 'science'],
       board: 'Grammar lab',
-      clue: 'The sentence job and word role point to the answer.',
+      clue: 'The sentence job and word role identify the best choice.',
       narration: ''
     }
   ];
@@ -328,9 +328,18 @@
   }
 
   function getClue(profile, question) {
+    const vowelSoundClue = getVowelSoundSceneClue(question);
+    if (vowelSoundClue) return vowelSoundClue;
     const definition = question && question.studyAid && question.studyAid.definition;
     if (definition) return shorten(stripExampleTail(definition), 88);
     return profile.clue;
+  }
+
+  function getVowelSoundSceneClue(question) {
+    const prompt = cleanPrompt(question && question.question);
+    if (!/same vowel sound/i.test(prompt)) return '';
+    if (/\bcloud\b/i.test(prompt)) return "'ou' and 'ow' both make the /ow/ sound";
+    return '';
   }
 
   function sanitizeSceneClue(question, sceneData, fallback) {

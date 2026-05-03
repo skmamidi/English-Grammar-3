@@ -50375,7 +50375,7 @@
         {
           "id": "punctuation-dialogue-mechanics-q0188",
           "version": 4,
-          "contentHash": "sha256:86fe250b04c2921945938a4b4f7396d1c40167a70f0274b605b5269df771dae0",
+          "contentHash": "sha256:eb644f89b62012f5219e87e6dcb656ab6845ea2f5dcacc5195152cdac0ddba32",
           "question": "Which words should be capitalized in the sentence below? as the young boy sauntered down the street, he yelled, “buy your newspaper from me!”",
           "choices": [
             "as, street",
@@ -50385,7 +50385,7 @@
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: as, buy. The word 'As' must be capitalized because it is the first word of a sentence. The word 'Buy' must be capitalized because it is the first word inside the direct quotation marks.",
+            "correct": "Answer: as, buy. The word 'As' must be capitalized because it is the first word of a sentence. The word 'Buy' must be capitalized because it starts the complete sentence inside the direct speech.",
             "incorrect": [
               {
                 "choice": "as, street",

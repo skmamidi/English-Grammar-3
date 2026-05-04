@@ -140,6 +140,35 @@
     return errors;
   }
 
+  function validateStoryLessonSummaryContract(summary) {
+    const errors = [];
+    if (!summary || typeof summary !== 'object') return ['story_lesson_summary_must_be_object'];
+    if (summary.schemaVersion !== 1) errors.push('story_lesson_summary_schema_version_required');
+    if (!safeString(summary.setId)) errors.push('story_lesson_summary_set_id_required');
+    if (!safeString(summary.domain)) errors.push('story_lesson_summary_domain_required');
+    if (!safeString(summary.title)) errors.push('story_lesson_summary_title_required');
+    if (!Array.isArray(summary.availableGrades)) errors.push('story_lesson_summary_available_grades_required');
+    if (!summary.route || summary.route.type !== 'story_lesson') errors.push('story_lesson_summary_route_required');
+    if (hasLessonBodyPayload(summary) || hasUnsafePayload(summary)) errors.push('story_lesson_summary_must_not_include_body_payload');
+    return errors;
+  }
+
+  function validateInternalLessonLinkContract(link) {
+    const errors = [];
+    if (!link || typeof link !== 'object') return ['internal_lesson_link_must_be_object'];
+    if (link.type !== 'story_lesson') errors.push('internal_lesson_link_type_required');
+    if (!safeString(link.webPath)) errors.push('internal_lesson_link_web_path_required');
+    if (/^[a-z][a-z0-9+.-]*:/i.test(safeString(link.webPath)) || safeString(link.webPath).startsWith('//')) {
+      errors.push('internal_lesson_link_must_not_use_external_url');
+    }
+    if (!link.params || link.params.learn !== '1') errors.push('internal_lesson_link_learn_param_required');
+    if (link.params && (!safeString(link.params.setId) || !safeString(link.params.domain))) {
+      errors.push('internal_lesson_link_params_required');
+    }
+    if (hasLessonBodyPayload(link) || hasUnsafePayload(link)) errors.push('internal_lesson_link_must_not_include_body_payload');
+    return errors;
+  }
+
   function validateCommerceCatalogContract(catalog) {
     const errors = [];
     if (!catalog || typeof catalog !== 'object') return ['commerce_catalog_must_be_object'];
@@ -208,6 +237,26 @@
     });
   }
 
+  function hasLessonBodyPayload(value) {
+    const bodyKeys = new Set([
+      'storyBeats',
+      'conceptRules',
+      'examples',
+      'guidedChecks',
+      'commonMistakes',
+      'vocabulary',
+      'quizHandoff',
+      'narrative',
+      'prompt'
+    ]);
+    return scan(value);
+
+    function scan(input) {
+      if (!input || typeof input !== 'object') return false;
+      return Object.keys(input).some(key => bodyKeys.has(key) || scan(input[key]));
+    }
+  }
+
   function safeIso(value) {
     if (!value) return '';
     const date = new Date(value);
@@ -231,6 +280,8 @@
     validateReviewItemContract,
     validateSavedSessionContract,
     validateSelectionResponseContract,
-    validateSelectionTelemetryEventContract
+    validateSelectionTelemetryEventContract,
+    validateInternalLessonLinkContract,
+    validateStoryLessonSummaryContract
   };
 });

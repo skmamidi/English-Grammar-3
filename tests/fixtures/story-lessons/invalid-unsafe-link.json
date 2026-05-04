@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-sentence-types",
+  "domain": "grammar",
+  "title": "Sentence Types",
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "setup",
+          "characterRoleId": "guide",
+          "narrative": "A lesson body exists."
+        }
+      ],
+      "conceptRules": [
+        "A sentence tells a complete idea."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is bright.",
+          "explanation": "This tells an idea."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What ends a telling sentence?",
+          "answer": "period"
+        }
+      ],
+      "commonMistakes": [
+        "Do not use unsafe links."
+      ],
+      "quizHandoff": {
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "3": {},
+    "4": {},
+    "5": {},
+    "6": {}
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "https://evil.example/lesson",
+      "relationship": "external"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "unknown-character",
+      "purpose": "unsafe"
+    }
+  ]
+}

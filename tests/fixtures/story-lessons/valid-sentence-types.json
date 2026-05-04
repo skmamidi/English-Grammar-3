@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-sentence-types",
+  "domain": "grammar",
+  "title": "Sentence Types",
+  "version": 1,
+  "contentHash": "sha256:lesson-sentence-types",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "setup",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens the message sorter and finds four kinds of notes."
+        }
+      ],
+      "conceptRules": [
+        "A telling sentence ends with a period."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The map is on the desk.",
+          "explanation": "This tells an idea."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Which mark belongs after a question?",
+          "answer": "question mark"
+        }
+      ],
+      "commonMistakes": [
+        "Do not put a question mark after a telling sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence",
+          "definition": "A group of words that shares a complete idea."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice sentence types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "setup",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts mystery notes by purpose before the team files them."
+        }
+      ],
+      "conceptRules": [
+        "Declarative, interrogative, imperative, and exclamatory sentences have different jobs."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Please close the notebook.",
+          "explanation": "This gives a command."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What kind of sentence asks something?",
+          "answer": "interrogative"
+        }
+      ],
+      "commonMistakes": [
+        "A sentence can be polite and still be a command."
+      ],
+      "vocabulary": [
+        {
+          "term": "interrogative",
+          "definition": "A sentence that asks a question."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice sentence types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "setup",
+          "characterRoleId": "coach",
+          "narrative": "Jo checks each note for its job and its ending punctuation."
+        }
+      ],
+      "conceptRules": [
+        "Sentence type depends on purpose, not only the punctuation mark."
+      ],
+      "examples": [
+        {
+          "type": "near_miss",
+          "text": "Could you hand me the clue.",
+          "explanation": "The words ask a question, so the ending mark should match."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Name the purpose of an imperative sentence.",
+          "answer": "command or request"
+        }
+      ],
+      "commonMistakes": [
+        "Do not classify only by the final punctuation mark."
+      ],
+      "vocabulary": [
+        {
+          "term": "imperative",
+          "definition": "A sentence that gives a command or request."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice sentence types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "setup",
+          "characterRoleId": "coach",
+          "narrative": "Jo tests tricky clues where punctuation and sentence purpose disagree."
+        }
+      ],
+      "conceptRules": [
+        "Writers choose sentence types to control clarity, pacing, and tone."
+      ],
+      "examples": [
+        {
+          "type": "transfer",
+          "text": "What a surprising clue!",
+          "explanation": "This exclamation shows strong feeling."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Which sentence type shows strong feeling?",
+          "answer": "exclamatory"
+        }
+      ],
+      "commonMistakes": [
+        "A sentence beginning with what or how can be exclamatory when it shows strong feeling."
+      ],
+      "vocabulary": [
+        {
+          "term": "exclamatory",
+          "definition": "A sentence that shows strong feeling."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice sentence types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "setup",
+          "characterRoleId": "guide",
+          "narrative": "Mina revises a case report by varying sentence types for effect."
+        }
+      ],
+      "conceptRules": [
+        "A sentence's communicative function should guide its punctuation and revision choices."
+      ],
+      "examples": [
+        {
+          "type": "transfer",
+          "text": "Revise: The clue was hidden. We found it.",
+          "explanation": "Varying sentence types can make the report more engaging."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should guide sentence type during revision?",
+          "answer": "purpose"
+        }
+      ],
+      "commonMistakes": [
+        "Do not add exclamation points just to make writing sound exciting."
+      ],
+      "vocabulary": [
+        {
+          "term": "communicative function",
+          "definition": "The job a sentence does for the reader."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice sentence types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-subject-predicate",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-correction",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mystery"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "sentence-types"
+    ],
+    "skillIds": [
+      "grammar.sentence-analysis"
+    ],
+    "standardIds": [
+      "L.3-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check"
+    ],
+    "commonMistakeIds": [
+      "punctuation-only-classification"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

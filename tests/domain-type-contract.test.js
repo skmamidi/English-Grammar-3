@@ -6,6 +6,12 @@ const assignment = require('../assets/assignment-domain');
 const telemetry = require('../assets/app-telemetry-domain');
 const selectionTelemetry = require('../assets/question-selection-telemetry');
 const contracts = require('../assets/domain-type-contracts');
+const {
+  buildLessonRouteDescriptor,
+  normalizeLessonSummary
+} = require('../assets/story-lesson-domain');
+const manifest = require('../assets/question-manifest.json');
+const validLesson = require('./fixtures/story-lessons/valid-sentence-types.json');
 
 test('typed domain contracts document learner state and question ref shapes', () => {
   const state = normalizeLearnerState({
@@ -137,6 +143,22 @@ test('typed domain contracts document future entitlement projections without pro
     source: 'provider_redirect',
     providerPayload: { subscriptionId: 'sub_123' }
   }).includes('entitlement_projection_must_not_include_provider_payload'));
+});
+
+test('typed domain contracts document story lesson summaries and internal lesson links', () => {
+  const summary = normalizeLessonSummary(validLesson, { manifest });
+  const route = buildLessonRouteDescriptor({ setId: 'grammar-sentence-types' }, { manifest });
+
+  assert.deepEqual(contracts.validateStoryLessonSummaryContract(summary), []);
+  assert.deepEqual(contracts.validateInternalLessonLinkContract(route), []);
+  assert.ok(contracts.validateStoryLessonSummaryContract(Object.assign({}, summary, {
+    storyBeats: [{ narrative: 'Full lesson body should not be exposed.' }]
+  })).includes('story_lesson_summary_must_not_include_body_payload'));
+  assert.ok(contracts.validateInternalLessonLinkContract({
+    type: 'story_lesson',
+    webPath: 'https://evil.example/topics/grammar/subtopics/sentence-types.html?learn=1',
+    params: route.params
+  }).includes('internal_lesson_link_must_not_use_external_url'));
 });
 
 test('typed domain contracts document provider-neutral billing records', () => {

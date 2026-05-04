@@ -79,7 +79,9 @@ test('route composition inventory classifies shells optional scripts and legacy 
   assert.equal(byPath.get('guardian-dashboard.html').type, 'dashboard');
   assert.equal(byPath.get('admin-operations.html').type, 'operations');
   assert.equal(byPath.get('discovery.html').type, 'content-discovery');
+  assert.equal(byPath.get('subscription.html').type, 'subscription');
   assert.equal(byPath.get('settings.html').usesSharedShell, true);
+  assert.equal(byPath.get('subscription.html').usesSharedShell, true);
   assert.equal(byPath.get('index.html').serviceWorkerParticipation, 'registers');
   assert.ok(byPath.get('guardian-dashboard.html').optionalScripts.includes('assets/app-telemetry.js'));
   assert.ok(byPath.get('topics/grammar/subtopics/sentence-types.html').legacyGlobals.includes('QUIZ_SET_ID'));

@@ -121,3 +121,45 @@ test('typed domain contracts validate selection responses and release manifests'
     privateKey: '-----BEGIN PRIVATE KEY-----'
   }).includes('release_manifest_must_not_include_secret_material'));
 });
+
+test('typed domain contracts document future entitlement projections without provider payloads', () => {
+  assert.deepEqual(contracts.validateEntitlementProjectionContract({
+    schemaVersion: 1,
+    accessState: 'free',
+    featureEntitlements: ['core_practice', 'local_progress'],
+    source: 'static_default',
+    evaluatedAt: '2030-04-29T12:00:00.000Z'
+  }), []);
+  assert.ok(contracts.validateEntitlementProjectionContract({
+    schemaVersion: 1,
+    accessState: 'premium',
+    featureEntitlements: ['core_practice'],
+    source: 'provider_redirect',
+    providerPayload: { subscriptionId: 'sub_123' }
+  }).includes('entitlement_projection_must_not_include_provider_payload'));
+});
+
+test('typed domain contracts document provider-neutral billing records', () => {
+  assert.deepEqual(contracts.validateBillingDomainRecordContract({
+    schemaVersion: 1,
+    recordType: 'payment',
+    billingAccountId: 'billing-account-1',
+    paymentId: 'payment-1',
+    amountMinor: 1200,
+    currency: 'USD',
+    status: 'succeeded',
+    sourceLedgerEventId: 'ledger-payment-succeeded'
+  }), []);
+  assert.ok(contracts.validateBillingDomainRecordContract({
+    schemaVersion: 1,
+    recordType: 'subscription',
+    billingAccountId: 'billing-account-1',
+    providerPayload: { providerSubscriptionId: 'provider-subscription-placeholder' }
+  }).includes('billing_domain_record_must_not_include_provider_payload'));
+  assert.ok(contracts.validateBillingDomainRecordContract({
+    schemaVersion: 1,
+    recordType: 'billing_account',
+    billingAccountId: 'billing-account-1',
+    learnerId: 'learner-1'
+  }).includes('billing_domain_record_must_not_include_learner_payload'));
+});

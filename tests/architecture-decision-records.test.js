@@ -28,7 +28,8 @@ const requiredBoundaries = [
   'institutional policy',
   'native-readiness contracts',
   'native-platform architecture',
-  'commerce/billing boundaries'
+  'commerce/billing boundaries',
+  'commerce-readiness launch gate'
 ];
 
 test('architecture decision records cover required major boundaries', () => {

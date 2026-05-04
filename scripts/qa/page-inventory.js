@@ -117,6 +117,7 @@ function classifyRoute(file) {
   if (file === 'admin-operations.html') return 'operations';
   if (file === 'discovery.html') return 'content-discovery';
   if (file === 'settings.html') return 'settings';
+  if (file === 'subscription.html') return 'subscription';
   if (file === 'reports.html' || file === 'question-reports.html') return 'reports';
   if (file === 'assignments.html') return 'assignments';
   if (file === 'character-library.html') return 'character-library';

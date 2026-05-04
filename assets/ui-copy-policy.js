@@ -13,7 +13,13 @@
     'learner_error',
     'guardian_dashboard',
     'teacher_dashboard',
-    'operator_status'
+    'operator_status',
+    'billing_material_terms',
+    'billing_renewal_disclosure',
+    'billing_cancellation',
+    'billing_refund',
+    'billing_one_time_access',
+    'billing_failed_payment'
   ]);
   const RAW_DIAGNOSTIC_PATTERN = /\b(TypeError|ReferenceError|SyntaxError|stack trace|undefined|null pointer|exception|at\s+\w+\s*\()/i;
   const PRIVATE_DATA_PATTERN = /\b(token|secret|password|private key|credential|learnerId|studentId|email|prompt|answer choices|explanation)=?/i;
@@ -26,7 +32,13 @@
       category('learner_error', 'Learner errors', 'learner', 140),
       category('guardian_dashboard', 'Guardian dashboard', 'guardian', 140),
       category('teacher_dashboard', 'Teacher dashboard', 'teacher', 140),
-      category('operator_status', 'Operator status', 'operator', 160)
+      category('operator_status', 'Operator status', 'operator', 160),
+      category('billing_material_terms', 'Billing material terms', 'guardian', 180),
+      category('billing_renewal_disclosure', 'Billing renewal disclosure', 'guardian', 180),
+      category('billing_cancellation', 'Billing cancellation', 'guardian', 180),
+      category('billing_refund', 'Billing refund', 'guardian', 180),
+      category('billing_one_time_access', 'Billing one-time access', 'guardian', 180),
+      category('billing_failed_payment', 'Billing failed payment', 'guardian', 180)
     ]),
     entries: Object.freeze([
       entry('quiz.start', 'learner_control', 'quiz', 'learner', 'Start practice', 'learning-experience', 28),
@@ -34,7 +46,13 @@
       entry('quiz.offline', 'learner_error', 'quiz', 'learner', 'This quiz needs a connection before it can load. Reconnect, then try again.', 'platform', 140),
       entry('guardian.summary.empty', 'guardian_dashboard', 'guardian-dashboard', 'guardian', 'No saved progress in this area yet.', 'family-experience', 140),
       entry('teacher.assignment.empty', 'teacher_dashboard', 'assignments', 'teacher', 'No assignments are ready for this class yet.', 'classroom-experience', 140),
-      entry('operations.cache.warning', 'operator_status', 'admin-operations', 'operator', 'Service worker cache metadata needs review before release.', 'platform', 160)
+      entry('operations.cache.warning', 'operator_status', 'admin-operations', 'operator', 'Service worker cache metadata needs review before release.', 'platform', 160),
+      entry('billing.terms.summary', 'billing_material_terms', 'subscription', 'guardian', 'Review the plan, price, renewal, cancellation, and access terms before continuing.', 'commerce-platform', 180),
+      entry('billing.renewal.notice', 'billing_renewal_disclosure', 'subscription', 'guardian', 'This subscription renews automatically until you cancel.', 'commerce-platform', 180),
+      entry('billing.cancel.notice', 'billing_cancellation', 'subscription', 'guardian', 'You can cancel from account settings before the next renewal.', 'commerce-platform', 180),
+      entry('billing.refund.help', 'billing_refund', 'subscription', 'guardian', 'Refund requests go through billing support and depend on the approved policy.', 'commerce-platform', 180),
+      entry('billing.onetime.window', 'billing_one_time_access', 'subscription', 'guardian', 'One-time access lasts for the shown dates and does not renew automatically.', 'commerce-platform', 180),
+      entry('billing.payment.retry', 'billing_failed_payment', 'subscription', 'guardian', 'Update payment details to keep paid access active.', 'commerce-platform', 180)
     ])
   });
 

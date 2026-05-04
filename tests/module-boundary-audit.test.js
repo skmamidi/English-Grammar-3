@@ -18,6 +18,7 @@ test('module boundary policy exposes explicit layers and forbidden rules', () =>
     'browser_shell',
     'browser_ui',
     'browser_domain',
+    'portable_domain',
     'generated_content',
     'server_runtime',
     'qa_scripts',
@@ -29,7 +30,7 @@ test('module boundary policy exposes explicit layers and forbidden rules', () =>
   assert.equal(classifyLayer('index.html'), 'production_html');
   assert.equal(classifyLayer('assets/page-shell.js'), 'browser_shell');
   assert.equal(classifyLayer('assets/dashboard-ui.js'), 'browser_ui');
-  assert.equal(classifyLayer('assets/quiz-selection-core.js'), 'browser_domain');
+  assert.equal(classifyLayer('assets/quiz-selection-core.js'), 'portable_domain');
   assert.equal(classifyLayer('assets/question-chunks/grammar/sentence-types.js'), 'generated_content');
   assert.equal(classifyLayer('server/question-selection-runtime.js'), 'server_runtime');
   assert.equal(classifyLayer('scripts/qa/content-qa.js'), 'qa_scripts');
@@ -43,7 +44,7 @@ test('module boundary audit rejects forbidden UI server generated shell and prov
     'index.html': '<script src="assets/page-shell.js"></script><script>window.NEW_ROUTE_GLOBAL = true;</script>',
     'assets/dashboard-ui.js': "const runtime = require('../server/question-selection-runtime');",
     'assets/page-shell.js': "import chunks from './question-chunks/grammar/sentence-types.js';",
-    'assets/quiz-selection-core.js': "const firebase = require('firebase/app');",
+    'assets/quiz-selection-core.js': "const firebase = require('firebase/app'); localStorage.getItem('x');",
     'assets/question-selection-telemetry.js': "module.exports = { send() { fetch('/telemetry'); } };",
     'server/question-selection-runtime.js': 'module.exports = {};',
     'assets/question-chunks/grammar/sentence-types.js': 'window.QUESTION_BANK = {};',
@@ -56,6 +57,7 @@ test('module boundary audit rejects forbidden UI server generated shell and prov
   assert.ok(codes.includes('browser_ui_depends_on_server_runtime'));
   assert.ok(codes.includes('browser_shell_depends_on_generated_content'));
   assert.ok(codes.includes('provider_sdk_in_browser_domain'));
+  assert.ok(codes.includes('browser_api_in_portable_domain'));
   assert.ok(codes.includes('telemetry_without_privacy_gate'));
   assert.ok(codes.includes('unowned_production_global'));
   assert.equal(report.ok, false);
@@ -86,6 +88,7 @@ test('current repository passes module boundary audit', () => {
   assert.ok(report.summary.productionRoutes > 0);
   assert.ok(report.summary.dependencies > 0);
   assert.ok(report.summary.ownedProductionGlobals.includes('QUIZ_SET_ID'));
+  assert.ok(report.summary.portableDomainModules >= 10);
 });
 
 test('module boundary docs and package script are wired', () => {

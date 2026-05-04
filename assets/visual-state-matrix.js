@@ -12,6 +12,7 @@
     'discovery',
     'reports',
     'dashboard',
+    'subscription',
     'offline',
     'settings',
     'operations'
@@ -92,6 +93,13 @@
         state: 'teacher-view',
         route: 'teacher-dashboard.html',
         nonVisualReason: 'UI smoke and dashboard unit contracts cover deterministic teacher aggregates without adding a duplicate dashboard baseline.'
+      }),
+      entry({
+        id: 'subscription-route',
+        flow: 'subscription',
+        state: 'disabled',
+        route: 'subscription.html',
+        nonVisualReason: 'Subscription route contract, accessibility smoke, and page-shell unit tests cover the deterministic disabled checkout state before visual billing baselines exist.'
       }),
       entry({
         id: 'offline-unavailable',

@@ -2,6 +2,7 @@ function buildSecurityHeaders(options = {}) {
   const cspHeader = options.cspMode === 'enforce'
     ? 'Content-Security-Policy'
     : 'Content-Security-Policy-Report-Only';
+  const paymentPermission = isPaymentRoute(options.routeClass) ? 'payment=(self)' : 'payment=()';
   const headers = {
     [cspHeader]: [
       "default-src 'self'",
@@ -15,14 +16,14 @@ function buildSecurityHeaders(options = {}) {
     ].join('; '),
     'Referrer-Policy': 'strict-origin-when-cross-origin',
     'X-Content-Type-Options': 'nosniff',
-    'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=()',
+    'Permissions-Policy': `camera=(), microphone=(), geolocation=(), ${paymentPermission}`,
     'X-Frame-Options': 'DENY',
     'Cross-Origin-Opener-Policy': 'same-origin'
   };
   return headers;
 }
 
-function validateSecurityHeaderPolicy(headers = {}) {
+function validateSecurityHeaderPolicy(headers = {}, options = {}) {
   [
     'Referrer-Policy',
     'X-Content-Type-Options',
@@ -39,10 +40,21 @@ function validateSecurityHeaderPolicy(headers = {}) {
     throw new Error('weak_content_security_policy');
   }
   if (headers['X-Content-Type-Options'] !== 'nosniff') throw new Error('weak_content_type_options');
+  const permissions = String(headers['Permissions-Policy'] || '');
+  if (isPaymentRoute(options.routeClass)) {
+    if (!/payment=\(self\)/.test(permissions)) throw new Error('missing_checkout_payment_permission');
+  } else if (!/payment=\(\)/.test(permissions)) {
+    throw new Error('payment_permission_not_route_scoped');
+  }
   return true;
+}
+
+function isPaymentRoute(routeClass) {
+  return ['checkout', 'payment'].includes(String(routeClass || '').trim());
 }
 
 module.exports = {
   buildSecurityHeaders,
+  isPaymentRoute,
   validateSecurityHeaderPolicy
 };

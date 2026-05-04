@@ -30,6 +30,7 @@ const APP_PAGES = [
   { label: 'Question feedback', file: 'topics/grammar/subtopics/sentence-types.html', state: answerQuestion },
   { label: 'Quiz results', file: 'topics/capitalization/subtopics/books-magazines-songs-plays.html', state: finishQuiz },
   { label: 'Reports', file: 'reports.html' },
+  { label: 'Subscription', file: 'subscription.html', waitFor: '#subscription-entitlement' },
   { label: 'Assignments', file: 'assignments.html', waitFor: '#assignment-list' },
   { label: 'Guardian dashboard', file: 'guardian-dashboard.html', waitFor: '#learning-dashboard-root' },
   { label: 'Teacher dashboard', file: 'teacher-dashboard.html', waitFor: '#learning-dashboard-root' },

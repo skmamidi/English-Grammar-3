@@ -11,6 +11,29 @@ const SERVICE_WORKER_FILES = new Set([
   'assets/service-worker-core.js',
   'assets/service-worker-registration.js'
 ]);
+const NON_RUNTIME_CONTRACT_FILES = new Set([
+  'assets/native-learner-sync-acceptance.js',
+  'assets/universal-link-route-parity.js',
+  'assets/cross-platform-release-policy.js',
+  'assets/commerce-readiness-policy.js',
+  'assets/billing-owner-profile-domain.js',
+  'assets/commerce-catalog-domain.js',
+  'assets/subscription-ux-policy.js',
+  'assets/subscription-plan-choice-policy.js',
+  'assets/ui-copy-policy.js',
+  'assets/transactional-communication-contract.js',
+  'assets/commerce-security-policy.js',
+  'assets/commerce-support-policy.js',
+  'assets/billing-domain-contracts.js',
+  'assets/billing-entitlement-projection.js',
+  'assets/billing-status-presentation.js',
+  'assets/payment-history-presentation.js',
+  'assets/billing-management-action-policy.js',
+  'assets/billing-state-presentation-policy.js',
+  'assets/subscription-route-contract.js',
+  'assets/checkout-method-policy.js',
+  'assets/checkout-launch-availability-policy.js'
+]);
 const ASSET_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.webp', '.gif', '.svg', '.ico', '.woff', '.woff2', '.ttf', '.otf']);
 
 function checkAppShellSizeBudget(options = {}) {
@@ -49,6 +72,7 @@ function collectFiles(dir, root, categorize) {
 
 function categorizeAssetFile(fileName, fullPath) {
   const relativePath = path.relative(repoRoot, fullPath).split(path.sep).join('/');
+  if (NON_RUNTIME_CONTRACT_FILES.has(relativePath)) return '';
   if (SERVICE_WORKER_FILES.has(relativePath)) return 'serviceWorker';
   if (fileName === 'release-manifest.json' || relativePath === 'assets/build/frontend-manifest.json' || relativePath === 'assets/static-asset-manifest.json') return 'releaseMetadata';
   const ext = path.extname(fileName).toLowerCase();

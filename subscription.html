@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-route="subscription">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>Subscription</title>
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-billing-surface="parent-account">
+  <header class="app-header">
+    <div class="container">
+      <a href="index.html" class="logo">English Language Mastery</a>
+      <nav class="header-actions" aria-label="Quick links">
+        <a href="guardian-dashboard.html" class="back-link">Parent dashboard</a>
+        <a href="reports.html" class="header-icon-link" aria-label="Reports" title="Reports">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M4 19V5"></path>
+            <path d="M4 19h16"></path>
+            <path d="M8 16v-5"></path>
+            <path d="M12 16V8"></path>
+            <path d="M16 16v-7"></path>
+            <path d="M20 16v-3"></path>
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container reports-shell subscription-shell">
+    <section class="reports-hero" aria-labelledby="subscription-title">
+      <div>
+        <div class="quest-kicker">Parent Account</div>
+        <h1 class="page-title" id="subscription-title">Subscription</h1>
+        <p class="page-subtitle">Review parent-safe access status before billing management becomes available.</p>
+      </div>
+      <div class="admin-ops-status" id="subscription-route-status" aria-live="polite">Checkout is not available yet</div>
+    </section>
+
+    <section id="subscription-entitlement" class="card" aria-labelledby="subscription-entitlement-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Access</span>
+          <h2 id="subscription-entitlement-title">Current Access</h2>
+        </div>
+      </div>
+      <p>Core practice remains available while paid billing features are being prepared.</p>
+      <ul class="review-list">
+        <li>Free practice is available.</li>
+        <li>Paid checkout is disabled until hosted payment contracts are implemented.</li>
+        <li>Parent preview is read-only and unpaid.</li>
+      </ul>
+    </section>
+
+    <section id="subscription-billing-status" class="card" aria-labelledby="subscription-billing-status-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Billing Status</span>
+          <h2 id="subscription-billing-status-title">Status and Renewal</h2>
+        </div>
+      </div>
+      <p>Future status rows will use the verified billing projection for Auto-renew, Renewal or expiration timing, cancellation effective dates, grace windows, and recovery actions.</p>
+      <ul class="review-list">
+        <li>Current plan and access state come from the parent billing projection.</li>
+        <li>Renewal or expiration countdowns use verified projection dates.</li>
+        <li>Free practice remains available while billing status refreshes.</li>
+      </ul>
+    </section>
+
+    <section id="subscription-payment-history" class="card" aria-labelledby="subscription-payment-history-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Payment History</span>
+          <h2 id="subscription-payment-history-title">Receipts and Invoices</h2>
+        </div>
+      </div>
+      <p>Future payment history rows will show app-owned dates, amounts, statuses, plans, masked payment method labels, receipt or invoice links, and refund or dispute status without provider details.</p>
+      <ul class="review-list">
+        <li>Receipt and invoice links stay on app billing routes.</li>
+        <li>Failed-payment recovery actions remain server mediated.</li>
+        <li>Full card numbers, wallet identifiers, provider payloads, learner IDs, and student names are never shown.</li>
+      </ul>
+    </section>
+
+    <section id="subscription-management-actions" class="card" aria-labelledby="subscription-management-actions-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Billing Management</span>
+          <h2 id="subscription-management-actions-title">Manage Safely</h2>
+        </div>
+      </div>
+      <p>Future management actions will be explicit server-mediated requests for payment method updates, Cancel at period end, reactivation, and Renew one-time access.</p>
+      <ul class="review-list">
+        <li>One-time renewal stays separate from recurring subscription signup.</li>
+        <li>Converting one-time access to auto-renew requires explicit confirmation.</li>
+        <li>Browser actions cannot directly change provider records or paid entitlement.</li>
+      </ul>
+    </section>
+
+    <section id="subscription-recovery-states" class="card" aria-labelledby="subscription-recovery-states-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Billing Recovery States</span>
+          <h2 id="subscription-recovery-states-title">Clear Recovery Copy</h2>
+        </div>
+      </div>
+      <p>Billing recovery states will explain no subscription, checkout pending, payment processing, failed payment, provider unavailable, webhook delay, renewal failure, expiration, refund, dispute, and canceled-at-period-end cases.</p>
+      <ul class="review-list">
+        <li>Free practice and parent dashboard access remain predictable while billing refreshes.</li>
+        <li>Recovery actions are server mediated and non-destructive.</li>
+        <li>Messages avoid blame, pressure, provider internals, and paid-access overpromises.</li>
+      </ul>
+    </section>
+
+    <section id="subscription-plan-choices" class="card" aria-labelledby="subscription-plan-choices-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Plan Choices</span>
+          <h2 id="subscription-plan-choices-title">Compare Options</h2>
+        </div>
+      </div>
+      <div class="dashboard-grid">
+        <article>
+          <h3>Monthly</h3>
+          <p>Renews monthly until canceled. Price, taxes, fees, cancellation timing, and refund terms must be shown before checkout starts.</p>
+        </article>
+        <article>
+          <h3>Annual</h3>
+          <p>Renews annually until canceled. Annual pricing must not hide the recurring commitment.</p>
+        </article>
+        <article>
+          <h3>One-time</h3>
+          <p>Access ends after the shown window and does not renew automatically.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="subscription-payment-methods" class="card" aria-labelledby="subscription-payment-methods-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Checkout Readiness</span>
+          <h2 id="subscription-payment-methods-title">Payment Method Availability</h2>
+        </div>
+      </div>
+      <p>Checkout launch will stay server-owned and will only show methods supported for the selected plan, browser, device, region, and renewal type.</p>
+      <ul class="review-list">
+        <li>Major cards use hosted checkout or provider elements.</li>
+        <li>Apple Pay appears only when the browser, device, region, and provider support it.</li>
+        <li>PayPal remains a wallet option when it is supported for the selected plan.</li>
+        <li>Venmo can fall back to another supported method without changing the selected plan.</li>
+      </ul>
+    </section>
+
+    <section id="subscription-auth" class="card" aria-labelledby="subscription-auth-title">
+      <div class="admin-ops-section-heading">
+        <div>
+          <span class="quest-kicker">Account</span>
+          <h2 id="subscription-auth-title">Billing Owner Required</h2>
+        </div>
+      </div>
+      <p>An authenticated parent or guardian account with verified billing-owner details will be required before paid actions become available.</p>
+      <a class="btn btn-secondary" href="guardian-dashboard.html">Return to parent dashboard</a>
+    </section>
+  </main>
+
+  <script src="assets/components/status-components.js"></script>
+  <script src="assets/page-shell.js"></script>
+  <script src="assets/commerce-catalog-domain.js"></script>
+  <script src="assets/checkout-method-policy.js"></script>
+  <script src="assets/checkout-launch-availability-policy.js"></script>
+  <script src="assets/subscription-plan-choice-policy.js"></script>
+  <script src="assets/billing-entitlement-projection.js"></script>
+  <script src="assets/billing-status-presentation.js"></script>
+  <script src="assets/payment-history-presentation.js"></script>
+  <script src="assets/billing-management-action-policy.js"></script>
+  <script src="assets/billing-state-presentation-policy.js"></script>
+  <script src="assets/subscription-route.js"></script>
+</body>
+</html>

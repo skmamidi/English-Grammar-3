@@ -605,6 +605,7 @@
       reviewQueue: normalizeReviewQueue(input.reviewQueue),
       reviewSchedules: normalizeReviewSchedules(input.reviewSchedules),
       mastery: normalizeMastery(input.mastery),
+      entitlementProjection: normalizeEntitlementProjection(input.entitlementProjection),
       deletionRequests: normalizeDeletionRequests(input.deletionRequests),
       deletionTombstones: normalizeDeletionTombstones(input.deletionTombstones),
       privacyPreferences: normalizePrivacyPreferences(input.privacyPreferences),
@@ -657,6 +658,22 @@
       updatedAt: '',
       updatedBy: '',
       policyVersion: 1
+    };
+  }
+
+  function normalizeEntitlementProjection(projection) {
+    const input = projection && typeof projection === 'object' ? projection : {};
+    const accessState = ['free', 'trial', 'premium', 'expired', 'managed'].includes(input.accessState)
+      ? input.accessState
+      : 'free';
+    return {
+      schemaVersion: 1,
+      accessState,
+      featureEntitlements: normalizeStringArray(input.featureEntitlements),
+      source: safeString(input.source || 'static_default'),
+      evaluatedAt: safeIso(input.evaluatedAt) || '',
+      expiresAt: safeIso(input.expiresAt) || '',
+      billingOwnerRef: safeString(input.billingOwnerRef)
     };
   }
 
@@ -1053,6 +1070,10 @@
     return (Array.isArray(values) ? values : [])
       .map(value => String(value || '').trim())
       .filter(Boolean);
+  }
+
+  function safeString(value) {
+    return String(value || '').trim();
   }
 
   function safeIso(value) {

@@ -114,6 +114,19 @@
     return errors;
   }
 
+  function validateEntitlementProjectionContract(projection) {
+    const errors = [];
+    if (!projection || typeof projection !== 'object') return ['entitlement_projection_must_be_object'];
+    if (projection.schemaVersion !== 1) errors.push('entitlement_projection_schema_version_required');
+    if (!['free', 'trial', 'premium', 'expired', 'managed'].includes(projection.accessState)) {
+      errors.push('entitlement_projection_access_state_required');
+    }
+    if (!Array.isArray(projection.featureEntitlements)) errors.push('entitlement_projection_feature_entitlements_required');
+    if (!safeString(projection.source)) errors.push('entitlement_projection_source_required');
+    if (hasProviderPayload(projection)) errors.push('entitlement_projection_must_not_include_provider_payload');
+    return errors;
+  }
+
   function validateReleaseManifestContract(manifest) {
     const errors = [];
     if (!manifest || typeof manifest !== 'object') return ['release_manifest_must_be_object'];
@@ -124,6 +137,34 @@
     if (!manifest.questionManifest || !safeString(manifest.questionManifest.sourceHash)) errors.push('release_manifest_question_manifest_hash_required');
     if (!manifest.serviceWorker || !safeString(manifest.serviceWorker.cacheName)) errors.push('release_manifest_service_worker_cache_required');
     if (hasSecretMaterial(manifest)) errors.push('release_manifest_must_not_include_secret_material');
+    return errors;
+  }
+
+  function validateCommerceCatalogContract(catalog) {
+    const errors = [];
+    if (!catalog || typeof catalog !== 'object') return ['commerce_catalog_must_be_object'];
+    if (catalog.schemaVersion !== 1) errors.push('commerce_catalog_schema_version_required');
+    if (!Array.isArray(catalog.products)) errors.push('commerce_catalog_products_required');
+    if (!Array.isArray(catalog.plans)) errors.push('commerce_catalog_plans_required');
+    if (Array.isArray(catalog.plans)) {
+      catalog.plans.forEach((plan, index) => {
+        if (!safeString(plan && plan.planId)) errors.push(`commerce_catalog_plan_${index}_id_required`);
+        if (!safeString(plan && plan.entitlementLevel)) errors.push(`commerce_catalog_plan_${index}_entitlement_required`);
+        if (!Array.isArray(plan && plan.featureGates)) errors.push(`commerce_catalog_plan_${index}_feature_gates_required`);
+      });
+    }
+    if (hasProviderPayload(catalog)) errors.push('commerce_catalog_must_not_include_provider_payload');
+    return errors;
+  }
+
+  function validateBillingDomainRecordContract(record) {
+    const errors = [];
+    if (!record || typeof record !== 'object') return ['billing_domain_record_must_be_object'];
+    if (record.schemaVersion !== 1) errors.push('billing_domain_record_schema_version_required');
+    if (!safeString(record.recordType)) errors.push('billing_domain_record_type_required');
+    if (!safeString(record.billingAccountId)) errors.push('billing_domain_record_account_required');
+    if (hasUnsafePayload(record) || hasLearnerIdentity(record)) errors.push('billing_domain_record_must_not_include_learner_payload');
+    if (hasProviderPayload(record)) errors.push('billing_domain_record_must_not_include_provider_payload');
     return errors;
   }
 
@@ -148,6 +189,25 @@
     });
   }
 
+  function hasLearnerIdentity(value) {
+    if (!value || typeof value !== 'object') return false;
+    return Object.keys(value).some(key => {
+      if (/learnerId|studentId|studentName|learnerEmail/i.test(key)) return true;
+      const child = value[key];
+      return child && typeof child === 'object' && hasLearnerIdentity(child);
+    });
+  }
+
+  function hasProviderPayload(value) {
+    if (!value || typeof value !== 'object') return false;
+    return Object.keys(value).some(key => {
+      if (/providerPlanId|providerPriceId/i.test(key) && safeString(value[key])) return true;
+      if (/providerPayload|rawProvider|subscriptionId|paymentToken|customerId|token|secret/i.test(key)) return true;
+      const child = value[key];
+      return child && typeof child === 'object' && hasProviderPayload(child);
+    });
+  }
+
   function safeIso(value) {
     if (!value) return '';
     const date = new Date(value);
@@ -161,6 +221,9 @@
   return {
     validateAppTelemetryEventContract,
     validateAssignmentContract,
+    validateBillingDomainRecordContract,
+    validateCommerceCatalogContract,
+    validateEntitlementProjectionContract,
     validateLearnerStateContract,
     validateQuestionReportContract,
     validateQuestionRefContract,

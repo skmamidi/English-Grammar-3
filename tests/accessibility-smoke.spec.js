@@ -12,6 +12,7 @@ const A11Y_PAGES = [
   'index.html',
   'discovery.html',
   'settings.html',
+  'subscription.html',
   'admin-operations.html',
   'topics/grammar/index.html',
   'topics/grammar/subtopics/sentence-types.html',

@@ -5,6 +5,7 @@ const path = require('path');
 
 const repoRoot = path.resolve(__dirname, '..', '..');
 const pageInventory = require('./page-inventory');
+const sharedDomainContracts = require('../../assets/shared-domain-contracts');
 
 const MODULE_BOUNDARY_POLICY = {
   layers: [
@@ -12,6 +13,7 @@ const MODULE_BOUNDARY_POLICY = {
     'browser_shell',
     'browser_ui',
     'browser_domain',
+    'portable_domain',
     'generated_content',
     'server_runtime',
     'qa_scripts',
@@ -21,13 +23,18 @@ const MODULE_BOUNDARY_POLICY = {
   ],
   providerSdkPrefixes: [
     '@aws-sdk/',
+    '@braintree/',
     '@firebase/',
     '@google-cloud/',
+    '@paypal/',
     '@sentry/',
     '@stripe/',
     'aws-sdk',
+    'braintree',
     'firebase',
     'firebase/',
+    'paypal',
+    'paypal-checkout',
     'stripe',
     'supabase',
     '@supabase/'
@@ -35,6 +42,20 @@ const MODULE_BOUNDARY_POLICY = {
   ownedProductionGlobals: [
     'GRAMMAR_QUEST_CACHE_QUOTA_EXCEEDED',
     'QUIZ_SET_ID'
+  ],
+  portableDomainModules: [
+    'assets/adaptive-review-domain.js',
+    'assets/app-telemetry-domain.js',
+    'assets/assignment-domain.js',
+    'assets/feature-flag-domain.js',
+    'assets/learner-goals-domain.js',
+    'assets/learner-state-sync-domain.js',
+    'assets/mastery-projection-domain.js',
+    'assets/privacy-preferences-domain.js',
+    'assets/quiz-selection-core.js',
+    'assets/selection-telemetry-domain.js',
+    'assets/spaced-repetition-domain.js',
+    'assets/weak-skill-recommendation-domain.js'
   ]
 };
 
@@ -64,6 +85,15 @@ function auditModuleBoundaries(options = {}) {
   });
 
   files
+    .filter(file => classifyLayer(file) === 'portable_domain')
+    .forEach(file => {
+      const source = fs.readFileSync(path.join(root, file), 'utf8');
+      sharedDomainContracts.auditPortableDomainSource(file, source).forEach(item => {
+        violations.push(violation(item.code, item.file, null, item.message));
+      });
+    });
+
+  files
     .filter(file => classifyLayer(file) === 'browser_domain' || classifyLayer(file) === 'browser_ui' || classifyLayer(file) === 'browser_shell')
     .filter(file => /telemetry/i.test(path.basename(file)))
     .forEach(file => {
@@ -88,6 +118,7 @@ function auditModuleBoundaries(options = {}) {
       totalFiles: files.length,
       dependencies: dependencies.length,
       productionRoutes: productionInventory.routes.length,
+      portableDomainModules: files.filter(file => classifyLayer(file) === 'portable_domain').length,
       ownedProductionGlobals
     },
     dependencies,
@@ -199,6 +230,7 @@ function classifyLayer(file) {
   if (/^(providers|adapters)\//.test(normalized)) return 'provider_adapters';
   if (/^scripts\//.test(normalized)) return 'qa_scripts';
   if (/^assets\/question-chunks\//.test(normalized) || /^assets\/question-bank-source\//.test(normalized)) return 'generated_content';
+  if (MODULE_BOUNDARY_POLICY.portableDomainModules.includes(normalized)) return 'portable_domain';
   if (/^assets\/(?:page-shell|app-entry|service-worker-registration|service-worker-core|theme)\.js$/.test(normalized)) return 'browser_shell';
   if (/^assets\/build\//.test(normalized)) return 'browser_shell';
   if (/^assets\/.*(?:-ui|dashboard|reports|assignments-page|progress-transfer|entry)\.js$/.test(normalized)) return 'browser_ui';
@@ -219,7 +251,7 @@ function collectOwnedProductionGlobals(root) {
 }
 
 function isBrowserLayer(layer) {
-  return ['browser_shell', 'browser_ui', 'browser_domain'].includes(layer);
+  return ['browser_shell', 'browser_ui', 'browser_domain', 'portable_domain'].includes(layer);
 }
 
 function isProviderSdk(specifier) {

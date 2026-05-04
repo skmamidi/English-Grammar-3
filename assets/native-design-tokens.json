@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "assets/design-tokens.css",
+  "color": {
+    "primary": {
+      "value": "#2563eb",
+      "role": "brand action"
+    },
+    "primaryStrong": {
+      "value": "#1d4ed8",
+      "role": "pressed action"
+    },
+    "accent": {
+      "value": "#f97316",
+      "role": "accent"
+    },
+    "success": {
+      "value": "#16a34a",
+      "role": "positive state"
+    },
+    "danger": {
+      "value": "#dc2626",
+      "role": "critical state"
+    },
+    "warning": {
+      "value": "#ca8a04",
+      "role": "warning state"
+    },
+    "surface": {
+      "value": "#ffffff",
+      "role": "base surface"
+    },
+    "surfaceMuted": {
+      "value": "#f8fafc",
+      "role": "muted surface"
+    },
+    "text": {
+      "value": "#1e293b",
+      "role": "primary text"
+    },
+    "textMuted": {
+      "value": "#64748b",
+      "role": "secondary text"
+    },
+    "border": {
+      "value": "#e2e8f0",
+      "role": "border"
+    },
+    "focus": {
+      "value": "#2563eb",
+      "role": "keyboard focus"
+    },
+    "link": {
+      "value": "#1d4ed8",
+      "role": "link text"
+    },
+    "linkVisited": {
+      "value": "#6d28d9",
+      "role": "visited link"
+    },
+    "buttonBg": {
+      "value": "#2563eb",
+      "role": "button background"
+    },
+    "buttonText": {
+      "value": "#ffffff",
+      "role": "button text"
+    },
+    "alertBg": {
+      "value": "#fff1f2",
+      "role": "alert background"
+    },
+    "alertBorder": {
+      "value": "#fecaca",
+      "role": "alert border"
+    },
+    "alertText": {
+      "value": "#991b1b",
+      "role": "alert text"
+    },
+    "feedbackCorrect": {
+      "value": "#166534",
+      "role": "correct feedback"
+    },
+    "feedbackIncorrect": {
+      "value": "#991b1b",
+      "role": "incorrect feedback"
+    }
+  },
+  "typeScale": {
+    "sm": {
+      "value": "0.875rem"
+    },
+    "md": {
+      "value": "1rem"
+    },
+    "lg": {
+      "value": "1.25rem"
+    },
+    "xl": {
+      "value": "1.5rem"
+    }
+  },
+  "spacing": {
+    "1": {
+      "value": "0.25rem"
+    },
+    "2": {
+      "value": "0.5rem"
+    },
+    "3": {
+      "value": "0.75rem"
+    },
+    "4": {
+      "value": "1rem"
+    },
+    "6": {
+      "value": "1.5rem"
+    },
+    "8": {
+      "value": "2rem"
+    }
+  },
+  "radius": {
+    "sm": {
+      "value": "8px"
+    },
+    "md": {
+      "value": "12px"
+    },
+    "lg": {
+      "value": "16px"
+    }
+  },
+  "focus": {
+    "ring": {
+      "value": "0 0 0 4px rgb(37 99 235 / 0.16)",
+      "nativeRole": "focusHalo"
+    },
+    "minimumTargetSize": {
+      "value": "44px",
+      "nativeRole": "minimumTapTarget"
+    }
+  },
+  "contrast": {
+    "minimumTextRatio": 4.5,
+    "pairs": [
+      {
+        "name": "primary-on-surface",
+        "foreground": "#2563eb",
+        "background": "#ffffff",
+        "ratio": 5.17
+      },
+      {
+        "name": "button-text",
+        "foreground": "#ffffff",
+        "background": "#2563eb",
+        "ratio": 5.17
+      },
+      {
+        "name": "alert-text",
+        "foreground": "#991b1b",
+        "background": "#fff1f2",
+        "ratio": 7.56
+      }
+    ]
+  },
+  "motion": {
+    "reducedMotion": {
+      "required": true,
+      "nativeRole": "reduceMotion",
+      "rule": "disable non-essential transitions and feedback animations"
+    }
+  },
+  "elevation": {
+    "raised": {
+      "value": "0 8px 24px rgba(15, 23, 42, 0.12)",
+      "nativeRole": "cardShadow"
+    },
+    "overlay": {
+      "value": "0 16px 40px rgba(15, 23, 42, 0.16)",
+      "nativeRole": "modalShadow"
+    }
+  },
+  "icons": {
+    "names": [
+      "alert",
+      "check",
+      "close",
+      "info",
+      "offline",
+      "settings"
+    ]
+  },
+  "assets": [
+    {
+      "role": "app-icon",
+      "platforms": [
+        "ios",
+        "ipadOS",
+        "web"
+      ],
+      "scaleFactors": [
+        1,
+        2,
+        3
+      ],
+      "license": "project-owned",
+      "cacheCategory": "critical-shell",
+      "localizationSensitive": false,
+      "variants": [
+        "default",
+        "dark",
+        "high-contrast"
+      ]
+    }
+  ]
+}

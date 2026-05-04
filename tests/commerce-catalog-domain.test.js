@@ -10,6 +10,10 @@ const {
   normalizeCommerceCatalog,
   validateCommerceCatalog
 } = require('../assets/commerce-catalog-domain');
+const {
+  DEFAULT_BILLING_MARKET_READINESS_MATRIX,
+  buildCatalogMarketPriceReview
+} = require('../assets/billing-market-readiness-matrix');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -98,6 +102,15 @@ test('catalog can produce provider-neutral entitlement projections', () => {
     evaluatedAt: '2030-04-29T12:00:00.000Z'
   });
   assert.deepEqual(contracts.validateEntitlementProjectionContract(projection), []);
+});
+
+test('commerce catalog feeds market price readiness review without provider configuration', () => {
+  const review = buildCatalogMarketPriceReview(DEFAULT_COMMERCE_CATALOG, DEFAULT_BILLING_MARKET_READINESS_MATRIX);
+
+  assert.equal(review.mutatesCatalogPrices, false);
+  assert.ok(review.rows.some(row => row.planId === 'free' && row.market === 'US' && row.priceStatus === 'approved'));
+  assert.ok(review.rows.some(row => row.planId === 'premium_monthly' && row.market === 'CA' && row.currency === 'CAD'));
+  assert.ok(review.rows.every(row => !Object.hasOwn(row, 'providerPriceId')));
 });
 
 test('domain type contracts validate commerce catalog shape without provider payloads', () => {

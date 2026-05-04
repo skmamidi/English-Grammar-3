@@ -13,6 +13,10 @@ const {
   validateCredentialPlacement,
   validateSessionStoragePolicy
 } = require('../assets/cross-platform-session-storage-policy');
+const {
+  buildCrossPlatformAccountLinkingPlan,
+  validateCrossPlatformCommerceRecord
+} = require('../assets/cross-platform-commerce-policy');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -127,6 +131,23 @@ test('parent and learner account state stays separated across profiles and secur
     learnerAccount: { accountRef: 'parent:guardian-1', storageScope: 'shared_profile', canManageBilling: true },
     activeLearnerRef: 'parent:guardian-1'
   }).includes('parent_and_learner_accounts_must_not_share_identity'));
+});
+
+test('session account linking plans keep billing owner and learner identity separated', () => {
+  const plan = buildCrossPlatformAccountLinkingPlan({
+    platform: 'ios_ipados',
+    parentAccountRef: 'parent:guardian-1',
+    learnerAccountRef: 'learner:learner-1',
+    purchaseChannel: 'ios_iap',
+    receiptSource: 'app_store_receipt_ref'
+  });
+
+  assert.equal(plan.accountLinkingState, 'linked');
+  assert.equal(plan.parentAccountRef, 'parent:guardian-1');
+  assert.equal(plan.learnerAccountRef, 'learner:learner-1');
+  assert.equal(plan.billingOwnerBoundary, 'parent_guardian_account');
+  assert.equal(plan.learnerProgressBoundary, 'ref_only_learning_state');
+  assert.deepEqual(validateCrossPlatformCommerceRecord(plan).errors, []);
 });
 
 test('session fixtures are sanitized and docs are wired', () => {

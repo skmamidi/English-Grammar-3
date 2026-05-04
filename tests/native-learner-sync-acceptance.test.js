@@ -8,6 +8,9 @@ const {
   runNativeLearnerSyncAcceptance,
   validateNativeLearnerSyncEnvelope
 } = require('../assets/native-learner-sync-acceptance');
+const {
+  assertCrossPlatformCommercePrivacy
+} = require('../assets/cross-platform-commerce-policy');
 const { containsQuestionPayload } = require('../assets/learner-state-sync-domain');
 
 const repoRoot = path.resolve(__dirname, '..');
@@ -31,6 +34,7 @@ test('web and future native clients round-trip the shared learner-state envelope
   assert.ok(result.record.state.deletionTombstones.some(tombstone => tombstone.learnerId === 'learner-native-1'));
   assert.equal(containsQuestionPayload(result.record.state), false);
   assert.equal(JSON.stringify(result.record).includes('raw prompt'), false);
+  assert.doesNotThrow(() => assertCrossPlatformCommercePrivacy(result.record.state.entitlementProjection));
 });
 
 test('native sync acceptance reports deterministic multi-device conflicts', () => {

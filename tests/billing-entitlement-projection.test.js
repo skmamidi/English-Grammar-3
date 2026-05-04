@@ -11,6 +11,10 @@ const {
   validateBillingEntitlementProjection,
   validateBillingEntitlementProjectionPolicy
 } = require('../assets/billing-entitlement-projection');
+const {
+  buildCrossPlatformEntitlementView,
+  validateCrossPlatformCommerceRecord
+} = require('../assets/cross-platform-commerce-policy');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -210,6 +214,33 @@ test('projection ignores unverified and browser-origin events without touching l
   assert.equal(projection.freePracticeAvailable, true);
   assert.equal(Object.hasOwn(projection, 'learnerProgress'), false);
   assert.equal(Object.hasOwn(projection, 'sessions'), false);
+});
+
+test('billing entitlement projection can feed cross-platform access without purchase internals', () => {
+  const projection = deriveBillingEntitlementProjection({
+    billingAccountId: 'billing-account-1',
+    ledgerEvents: [ledgerEvent()],
+    now: '2030-05-20T00:00:00.000Z'
+  });
+
+  const nativeView = buildCrossPlatformEntitlementView({
+    platform: 'ios_ipados',
+    purchaseChannel: 'web_checkout',
+    receiptSource: 'web_provider_receipt_ref',
+    accountLinking: {
+      parentAccountRef: 'parent:guardian-1',
+      learnerAccountRef: 'learner:learner-1',
+      linkingState: 'linked'
+    },
+    entitlementProjection: projection
+  });
+
+  assert.equal(nativeView.entitlement.accessState, 'premium');
+  assert.equal(nativeView.purchaseChannel, 'web_checkout');
+  assert.equal(nativeView.receiptSource, 'web_provider_receipt_ref');
+  assert.equal(nativeView.supportVisibility, 'billing_summary_only');
+  assert.deepEqual(validateCrossPlatformCommerceRecord(nativeView).errors, []);
+  assert.equal(Object.hasOwn(nativeView, 'sourceLedgerEventId'), false);
 });
 
 test('projection validation rejects learner identity provider payloads credentials and ledger details', () => {

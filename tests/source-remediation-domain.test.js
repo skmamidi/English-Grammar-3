@@ -16,6 +16,9 @@ const {
 const {
   buildReviewerWorkloadSlaReport
 } = require('../assets/reviewer-workload-sla-report');
+const {
+  getAuthoringFixture
+} = require('../assets/authoring-fixture-library');
 
 test('source remediation findings normalize deterministic identifiers', () => {
   const finding = buildSourceFinding({
@@ -196,4 +199,28 @@ test('source remediation findings roll into reviewer workload SLA reports', () =
   assert.equal(report.summary.byIssueType.source_finding, 1);
   assert.equal(report.rows[0].publicationBlockingState, 'blocking');
   assert.doesNotMatch(JSON.stringify(report), /source excerpt|answerKey|learner-/i);
+});
+
+test('stale source remediation fixture produces stale remediation blocker', () => {
+  const fixture = getAuthoringFixture('stale_source_remediation');
+  const finding = buildSourceFinding({
+    ruleId: fixture.expectedSignals[0],
+    domain: fixture.domain,
+    setId: fixture.sourceSet,
+    questionId: fixture.metadata.questionId,
+    sourceFile: fixture.metadata.sourceFile,
+    sourceHash: fixture.metadata.currentSourceHash
+  });
+  const result = evaluateSourceRemediation({
+    findings: [finding],
+    records: [{
+      findingId: finding.findingId,
+      status: 'fixed',
+      owner: 'reviewer-1',
+      rationale: 'Fixture remediation was reviewed before the source changed.',
+      sourceHash: fixture.metadata.previousSourceHash
+    }]
+  });
+
+  assert.equal(result.errors[0].code, 'source_remediation_stale');
 });

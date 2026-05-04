@@ -108,6 +108,8 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/billing-observability-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/billing-payment-rehearsal-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/billing-rollback-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/cross-platform-commerce-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-market-readiness-matrix\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/app-shell-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/static-asset-qa\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/runtime-performance-probe\.test\.js/);
@@ -179,6 +181,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/content-change-impact-analysis\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/curriculum-release-channel-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/reviewer-workload-sla-report\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/authoring-fixture-library\.test\.js/);
   assert.equal(pkg.scripts['qa:source-license'], 'node scripts/qa/source-license-qa.js');
   assert.match(pkg.scripts['test:unit'], /tests\/chunk-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);

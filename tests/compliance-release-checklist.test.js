@@ -120,6 +120,8 @@ test('compliance docs cover required sections and link release evidence', () => 
     'billing-entitlement-projection.test.js',
     'fake-provider-billing-fixtures.md',
     'fake-provider-billing-fixtures.test.js',
+    'billing-market-readiness-matrix.md',
+    'billing-market-readiness-matrix.test.js',
     'records-of-processing.md',
     'analytics-release-policy.md',
     'source-license-qa',

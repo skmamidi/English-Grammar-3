@@ -20,6 +20,10 @@ const {
 const {
   buildReviewerWorkloadSlaReport
 } = require('../assets/reviewer-workload-sla-report');
+const {
+  DEFAULT_AUTHORING_FIXTURE_LIBRARY,
+  buildAuthoringFixturePublicationBlockers
+} = require('../assets/authoring-fixture-library');
 
 test('content publication domain normalizes statuses, hashes, QA, and approvals', () => {
   const publication = createPublication({
@@ -188,4 +192,15 @@ test('content publication blockers roll into reviewer workload SLA reports', () 
   assert.equal(report.summary.byIssueType.publication_blocker, 1);
   assert.equal(report.summary.byPublicationBlocking.blocking, 1);
   assert.equal(report.rows[0].slaBucket, 'overdue');
+});
+
+test('authoring fixture publication blockers project without answer payloads', () => {
+  const blockers = buildAuthoringFixturePublicationBlockers(DEFAULT_AUTHORING_FIXTURE_LIBRARY);
+  const projection = buildCurriculumReviewQueueProjection({
+    now: '2030-05-10T00:00:00.000Z',
+    publicationBlockers: blockers
+  });
+
+  assert.ok(projection.summary.byIssueType.publication_blocker >= 1);
+  assert.doesNotMatch(JSON.stringify(projection), /answerKey|correctAnswer|choices|questionText|rawAiDraft|learner-/i);
 });

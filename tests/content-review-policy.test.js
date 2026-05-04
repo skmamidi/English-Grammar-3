@@ -6,6 +6,9 @@ const {
   isReviewClassificationStale,
   validateReviewClassification
 } = require('../assets/content-review-policy');
+const {
+  getAuthoringFixture
+} = require('../assets/authoring-fixture-library');
 
 test('review classifications require stable identity reviewer and rationale', () => {
   const classification = classifyReviewIssue({
@@ -28,4 +31,20 @@ test('review classifications reject missing rationale and unknown status', () =>
   assert.ok(errors.includes('reviewer is required'));
   assert.ok(errors.includes('rationale is required'));
   assert.ok(errors.includes('status is invalid'));
+});
+
+test('duplicate prompt fixture feeds review classification without prompt text', () => {
+  const fixture = getAuthoringFixture('duplicated_prompt');
+  const classification = classifyReviewIssue({
+    questionId: fixture.metadata.questionId,
+    sourceSet: fixture.sourceSet,
+    ruleId: fixture.expectedSignals[0],
+    contentHash: fixture.metadata.contentHash,
+    reviewer: 'reviewer-1',
+    rationale: 'Representative duplicate prompt fixture.',
+    status: 'deferred'
+  });
+
+  assert.deepEqual(validateReviewClassification(classification), []);
+  assert.doesNotMatch(JSON.stringify(fixture), /questionText|choices|answerKey|correctAnswer/i);
 });

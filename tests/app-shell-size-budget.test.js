@@ -69,6 +69,30 @@ test('app shell size budget measures assets and release metadata separately', ()
   assert.equal(result.totals.javascriptBytes, 1024);
 });
 
+test('app shell budget excludes non-runtime policy modules but counts browser route code', () => {
+  const result = budget.checkAppShellSizeBudget({ root: repoRoot });
+  const countedPaths = new Set(result.files.map(file => file.path));
+
+  [
+    'assets/billing-operations-job-policy.js',
+    'assets/billing-rollback-policy.js',
+    'assets/curriculum-release-channel-policy.js',
+    'assets/reviewer-workload-sla-report.js',
+    'assets/cross-platform-commerce-policy.js',
+    'assets/billing-market-readiness-matrix.js'
+  ].forEach(file => {
+    assert.equal(countedPaths.has(file), false, `${file} should stay out of runtime shell totals`);
+  });
+
+  [
+    'assets/subscription-route.js',
+    'assets/page-shell.js',
+    'assets/theme.js'
+  ].forEach(file => {
+    assert.equal(countedPaths.has(file), true, `${file} should remain budgeted runtime code`);
+  });
+});
+
 test('app shell budget contract is documented for release review', () => {
   const checklist = fs.readFileSync(path.join(repoRoot, 'docs', 'release-checklist.md'), 'utf8');
   const docs = fs.readFileSync(path.join(repoRoot, 'docs', 'performance', 'app-shell-budgets.md'), 'utf8');
@@ -77,4 +101,5 @@ test('app shell budget contract is documented for release review', () => {
   assert.match(checklist, /npm run qa:app-shell/);
   assert.match(docs, /required app shell/i);
   assert.match(docs, /preloaded question chunks/i);
+  assert.match(docs, /non-runtime policy modules/i);
 });

@@ -15,6 +15,7 @@ const NON_RUNTIME_CONTRACT_FILES = new Set([
   'assets/native-learner-sync-acceptance.js',
   'assets/universal-link-route-parity.js',
   'assets/cross-platform-release-policy.js',
+  'assets/cross-platform-commerce-policy.js',
   'assets/commerce-readiness-policy.js',
   'assets/billing-owner-profile-domain.js',
   'assets/commerce-catalog-domain.js',
@@ -32,7 +33,25 @@ const NON_RUNTIME_CONTRACT_FILES = new Set([
   'assets/billing-state-presentation-policy.js',
   'assets/subscription-route-contract.js',
   'assets/checkout-method-policy.js',
-  'assets/checkout-launch-availability-policy.js'
+  'assets/checkout-launch-availability-policy.js',
+  'assets/billing-ux-regression-policy.js',
+  'assets/billing-data-inventory-policy.js',
+  'assets/billing-launch-checklist-policy.js',
+  'assets/billing-operations-job-policy.js',
+  'assets/billing-support-workflow-policy.js',
+  'assets/billing-observability-policy.js',
+  'assets/billing-payment-rehearsal-policy.js',
+  'assets/billing-rollback-policy.js',
+  'assets/billing-market-readiness-matrix.js',
+  'assets/compliance-release-checklist.js',
+  'assets/production-slo-policy.js',
+  'assets/synthetic-monitor-policy.js',
+  'assets/operational-cost-budget.js',
+  'assets/curriculum-review-queue-dashboard.js',
+  'assets/content-change-impact-analysis.js',
+  'assets/curriculum-release-channel-policy.js',
+  'assets/reviewer-workload-sla-report.js',
+  'assets/authoring-fixture-library.js'
 ]);
 const ASSET_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.webp', '.gif', '.svg', '.ico', '.woff', '.woff2', '.ttf', '.otf']);
 

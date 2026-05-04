@@ -16,6 +16,10 @@ const {
   DEFAULT_VISUAL_STATE_MATRIX,
   validateVisualStateMatrix
 } = require('../assets/visual-state-matrix');
+const {
+  DEFAULT_BILLING_MARKET_READINESS_MATRIX,
+  buildMarketUxRegressionFixtures
+} = require('../assets/billing-market-readiness-matrix');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -78,6 +82,22 @@ test('billing UX fixtures withstand long localized strings without exposing unsa
   harness.assertFocusVisible('button');
   harness.assertNoOverflowText({ maxWordLength: 36 });
   harness.assertNoUnsafeCopy();
+});
+
+test('market readiness localized strings render through billing UX regression fixtures', () => {
+  const marketFixtures = buildMarketUxRegressionFixtures(DEFAULT_BILLING_MARKET_READINESS_MATRIX);
+  const de = marketFixtures.find(fixture => fixture.locale === 'de-DE');
+  const fixture = buildBillingUxStateFixture({
+    scenarioId: de.scenarioId,
+    locale: de.locale,
+    priceLabel: de.priceLabel,
+    renewalLabel: de.renewalLabel,
+    recoveryAction: de.cancellationLabel
+  });
+
+  assert.equal(fixture.privacySafe, true);
+  assert.match(fixture.html, /Verlangerung/);
+  assert.doesNotThrow(() => assertBillingUxProjectionPrivacy(fixture.projection));
 });
 
 test('billing UX projection privacy rejects provider payloads credentials learners and student names', () => {

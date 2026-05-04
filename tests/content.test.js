@@ -554,6 +554,16 @@ test('content QA warns for placeholders, whitespace, weak explanations, and long
   assertIssue(result.warnings, 'overlong-choice');
 });
 
+test('authoring fixture library names content QA regression signals', () => {
+  const {
+    getAuthoringFixture
+  } = require('../assets/authoring-fixture-library');
+
+  assert.equal(getAuthoringFixture('malformed_answer').expectedSignals.includes('invalid-correct-index'), true);
+  assert.equal(getAuthoringFixture('weak_explanation').expectedSignals.includes('weak-explanation-rationale'), true);
+  assert.equal(getAuthoringFixture('duplicated_prompt').expectedSignals.includes('duplicate-prompt-in-set'), true);
+});
+
 test('content QA rejects generic explanation rationales', () => {
   const questions = [
     makeQaQuestion(1, {

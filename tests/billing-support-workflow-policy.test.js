@@ -14,6 +14,10 @@ const {
   validateBillingSupportWorkflowPolicy,
   validateBillingSupportWorkflowRequest
 } = require('../assets/billing-support-workflow-policy');
+const {
+  buildCrossPlatformSupportCase,
+  validateCrossPlatformCommerceRecord
+} = require('../assets/cross-platform-commerce-policy');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -93,6 +97,32 @@ test('refund cancellation and chargeback requests are escalations not direct mut
   assert.ok(unsafe.errors.includes('support workflow cannot directly issue refunds'));
   assert.ok(unsafe.errors.includes('support workflow cannot mutate provider records'));
   assert.ok(unsafe.errors.includes('support workflow cannot directly change entitlements'));
+});
+
+test('cross-platform support cases expose purchase channel without raw receipts', () => {
+  const supportCase = buildCrossPlatformSupportCase({
+    billingOwnerId: 'guardian-1',
+    platform: 'ios_ipados',
+    purchaseChannel: 'ios_iap',
+    receiptSource: 'app_store_receipt_ref',
+    issueType: 'refund_request',
+    status: 'escalated',
+    rawReceipt: 'receipt-live-value',
+    providerPayload: { nested: true },
+    learnerId: 'learner-unsafe'
+  });
+
+  assert.deepEqual(supportCase, {
+    billingOwnerId: 'guardian-1',
+    platform: 'ios_ipados',
+    purchaseChannel: 'ios_iap',
+    receiptSource: 'app_store_receipt_ref',
+    issueType: 'refund_request',
+    status: 'escalated',
+    visibility: 'billing_summary_only',
+    entitlementMutation: 'server_only'
+  });
+  assert.deepEqual(validateCrossPlatformCommerceRecord(supportCase).errors, []);
 });
 
 test('manual adjustments require source evidence expiration and remain temporary', () => {

@@ -14,6 +14,10 @@ const {
   validateCommerceRouteSecurity,
   validatePaymentCredentialFields
 } = require('../assets/commerce-security-policy');
+const {
+  DEFAULT_BILLING_MARKET_READINESS_MATRIX,
+  getWalletAvailabilityForMarket
+} = require('../assets/billing-market-readiness-matrix');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -83,6 +87,19 @@ test('checkout initiation is server-owned and browser-safe', () => {
     ...request,
     requestedPaymentMethods: ['bank_transfer']
   }).errors.includes('unsupported checkout payment method: bank_transfer'));
+});
+
+test('checkout method availability is market-reviewed before payment launch', () => {
+  const us = getWalletAvailabilityForMarket(DEFAULT_BILLING_MARKET_READINESS_MATRIX, 'US');
+  const ca = getWalletAvailabilityForMarket(DEFAULT_BILLING_MARKET_READINESS_MATRIX, 'CA');
+
+  REQUIRED_PAYMENT_METHODS.forEach(method => {
+    assert.ok(us[method], `${method} must have US market availability`);
+    assert.ok(ca[method], `${method} must have CA market availability`);
+    assert.ok(['preview_ready', 'requires_evidence', 'not_available'].includes(us[method].status));
+  });
+  assert.equal(ca.venmo.status, 'not_available');
+  assert.ok(ca.venmo.fallbackCopyKey);
 });
 
 test('payment method surfaces reject custom app-owned credential forms', () => {

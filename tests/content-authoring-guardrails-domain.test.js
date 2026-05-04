@@ -7,6 +7,9 @@ const {
   normalizeAuthoringRecord,
   sanitizeAuthoringRecord
 } = require('../assets/content-authoring-guardrails-domain');
+const {
+  getAuthoringFixture
+} = require('../assets/authoring-fixture-library');
 
 function validRecord(overrides = {}) {
   return {
@@ -129,4 +132,19 @@ test('sanitized authoring records omit raw prompts notes and learner identifiers
   assert.equal(sanitized.reviewerNotes, undefined);
   assert.equal(sanitized.learnerEmail, undefined);
   assert.equal(sanitized.assistance.promptRecordId, 'authoring-prompt-2030-04-29-a');
+});
+
+test('AI authoring guardrails consume invalid assistance fixture descriptors', () => {
+  const fixture = getAuthoringFixture('invalid_ai_assistance_metadata');
+  const result = evaluateAuthoringGuardrails(validRecord({
+    assistance: Object.assign({}, validRecord().assistance, {
+      purpose: fixture.metadata.assistancePurpose,
+      humanReviewed: false,
+      reviewerId: '',
+      reviewedAt: ''
+    })
+  }));
+
+  assert.ok(result.issues.some(issue => issue.code === 'ai_purpose_invalid'));
+  assert.ok(result.issues.some(issue => issue.code === 'ai_review_required'));
 });

@@ -441,6 +441,29 @@ test('content QA errors for empty or repeated choices', () => {
   assertIssue(result.errors, 'duplicate-correct-answer-text');
 });
 
+test('content QA rejects suspicious spaces inside a learner-facing word', () => {
+  const questions = [
+    makeQaQuestion(1, {
+      question: 'Which word best completes the sentence?',
+      choices: ['to', 'two', 'toe', 't oo'],
+      correct: 3,
+      explanation: {
+        correct: 'Answer: too. Too means excessively in this sentence.',
+        incorrect: [
+          'To points in a direction.',
+          'Two is a number.',
+          'Toe is a body part.',
+          ''
+        ]
+      }
+    })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.errors, 'split-word-spacing', { questionId: 'content-qa-fixture-q0001' });
+});
+
 test('content QA rejects spaces inside single-word possessive owner names', () => {
   const questions = [
     makeQaQuestion(1, {

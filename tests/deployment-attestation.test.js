@@ -108,6 +108,8 @@ test('deployment attestation docs and package wiring are present', () => {
   assert.match(docs, /service-worker cache version/i);
   assert.match(docs, /provider config revision/i);
   assert.match(docs, /secret-free/i);
+  assert.match(docs, /billing-payment-rehearsals\.md/);
+  assert.match(docs, /payment rehearsal evidence/i);
   assert.match(rollbackDocs, /deployment attestation/i);
   assert.match(checklist, /qa:deployment-attestation/);
   assert.equal(pkg.scripts['qa:deployment-attestation'], 'node scripts/qa/deployment-attestation.js');

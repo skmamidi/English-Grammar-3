@@ -107,6 +107,7 @@ test('commerce readiness docs and ADR wire launch gate into release evidence', (
     'provider capability matrix',
     'native/App Store policy',
     'billing rollback',
+    'billing-rollback-policy.md',
     'Milestone 27',
     'Milestone 28',
     'Milestone 29'

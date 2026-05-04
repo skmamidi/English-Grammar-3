@@ -4,6 +4,9 @@ const test = require('node:test');
 const {
   buildStandardsCoverageReport
 } = require('../scripts/reports/standards-coverage');
+const {
+  buildCurriculumReviewQueueProjection
+} = require('../assets/curriculum-review-queue-dashboard');
 
 test('standards coverage report summarizes canonical questions deterministically', () => {
   const report = buildStandardsCoverageReport({
@@ -98,4 +101,23 @@ test('standards coverage report marks configurable standards gaps as warnings', 
   assert.equal(report.gaps[0].standardId, 'L.4.2');
   assert.equal(report.gaps[0].questionCount, 1);
   assert.equal(report.summary.warningCount, 1);
+});
+
+test('standards coverage gaps project into the curriculum review queue', () => {
+  const projection = buildCurriculumReviewQueueProjection({
+    now: '2030-05-10T00:00:00.000Z',
+    standardsGaps: [{
+      domain: 'grammar',
+      sourceSet: 'grammar-set',
+      standardId: 'L.4.2',
+      severity: 'medium',
+      status: 'needs_review',
+      owner: 'standards_owner',
+      createdAt: '2030-05-08T00:00:00.000Z'
+    }]
+  });
+
+  assert.equal(projection.rows[0].issueType, 'standards_gap');
+  assert.equal(projection.rows[0].publicationBlockingReason, 'standards_gap:L.4.2');
+  assert.equal(projection.summary.byOwner.standards_owner, 1);
 });

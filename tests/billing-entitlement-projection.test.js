@@ -264,6 +264,8 @@ test('entitlement projection docs shared contract and package wiring are present
   assert.match(docs, /separate from learner progress/i);
   assert.match(docs, /free practice/i);
   assert.match(docs, /billing unavailable/i);
+  assert.match(docs, /billing-rollback-policy\.md/);
+  assert.match(docs, /preserve existing paid access/i);
   assert.match(billingDocs, /small entitlement read model/i);
   assert.match(sharedDocs, /assets\/billing-entitlement-projection\.js/i);
   assert.match(pkg.scripts['test:unit'], /tests\/billing-entitlement-projection\.test\.js/);

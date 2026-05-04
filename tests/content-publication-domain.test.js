@@ -7,6 +7,9 @@ const {
   publishPublication,
   validatePublication
 } = require('../assets/content-publication-domain');
+const {
+  buildCurriculumReviewQueueProjection
+} = require('../assets/curriculum-review-queue-dashboard');
 
 test('content publication domain normalizes statuses, hashes, QA, and approvals', () => {
   const publication = createPublication({
@@ -76,4 +79,24 @@ test('content publication blocks failed AI authoring guardrails before release',
     'blocking AI authoring guardrail failed: ai_source_missing'
   ]);
   assert.throws(() => publishPublication(publication), /publication_ai_guardrails_blocking/);
+});
+
+test('content publication blockers project into the curriculum review queue', () => {
+  const projection = buildCurriculumReviewQueueProjection({
+    now: '2030-05-10T00:00:00.000Z',
+    publicationBlockers: [{
+      id: 'pub-content-blocked',
+      domain: 'grammar',
+      sourceSet: 'grammar-set',
+      severity: 'critical',
+      status: 'needs_review',
+      owner: 'content_reviewer',
+      createdAt: '2030-05-05T00:00:00.000Z',
+      blocker: 'publication_qa_blocking'
+    }]
+  });
+
+  assert.equal(projection.rows[0].issueType, 'publication_blocker');
+  assert.equal(projection.rows[0].publicationBlockingReason, 'publication_qa_blocking');
+  assert.equal(projection.rows[0].ageDays, 5);
 });

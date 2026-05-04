@@ -18,7 +18,7 @@
     const learner = input.learner && typeof input.learner === 'object' ? input.learner : {};
     const roleView = safeString(input.roleView || 'parent_guardian');
     const now = toTime(input.now) || Date.now();
-    const sessions = normalizeSessions(input.sessions);
+    const sessions = normalizeSessions(getInputSessions(input));
     const assignments = normalizeAssignments(input.assignments);
     const reviewItems = normalizeReviewItems(input.reviewQueue);
     const questionReports = normalizeQuestionReports(input.questionReports);
@@ -54,15 +54,7 @@
           status: item.status,
           skillIds: normalizeStringArray(item.skillIds)
         })),
-      reviewHighlights: reviewItems
-        .filter(item => isDue(item, now))
-        .slice(0, 5)
-        .map(item => ({
-          questionRef: item.questionRef,
-          skillIds: item.skillIds,
-          dueAt: item.dueAt,
-          reason: item.reason
-        })),
+      reviewHighlights: buildReviewHighlights(reviewItems, sessions, now),
       questionReportHighlights: questionReports
         .filter(report => !CLOSED_REPORT_STATUSES.has(report.status))
         .slice(0, 5)
@@ -74,6 +66,12 @@
         })),
       recommendationHighlights: normalizeRecommendations(input.recommendations).slice(0, 3)
     };
+  }
+
+  function getInputSessions(input) {
+    if (Array.isArray(input.sessions)) return input.sessions;
+    const reports = input && input.progress && input.progress.reports;
+    return reports && Array.isArray(reports.sessions) ? reports.sessions : [];
   }
 
   function buildSkillStats(sessions, taxonomy = {}) {
@@ -108,7 +106,7 @@
     return goalsDomain.buildLearnerGoalProgress({
       now: new Date(now).toISOString(),
       goals: input.goals,
-      sessions: input.sessions,
+      sessions: getInputSessions(input),
       assignments: input.assignments,
       reviewQueue: input.reviewQueue,
       reviewSchedules: input.reviewSchedules
@@ -121,7 +119,7 @@
       now: new Date(now).toISOString(),
       learner: input.learner,
       goals: input.goals,
-      sessions: input.sessions,
+      sessions: getInputSessions(input),
       assignments: input.assignments,
       reviewQueue: input.reviewQueue,
       reviewSchedules: input.reviewSchedules
@@ -180,6 +178,7 @@
   function normalizeSessions(sessions) {
     return (Array.isArray(sessions) ? sessions : []).map(session => ({
       id: safeString(session && session.id),
+      mode: safeString(session && (session.mode || session.quizMode)),
       completedAt: safeString(session && session.completedAt),
       attempts: (Array.isArray(session && session.attempts) ? session.attempts : []).map(attempt => ({
         questionId: safeString(attempt && (attempt.questionId || attempt.id)),
@@ -188,6 +187,38 @@
         standardIds: normalizeStringArray(attempt && attempt.standardIds)
       }))
     }));
+  }
+
+  function buildReviewHighlights(reviewItems, sessions, now) {
+    const highlights = [];
+    const seen = new Set();
+    reviewItems
+      .filter(item => isDue(item, now))
+      .forEach(item => {
+        if (!item.questionRef.id || seen.has(item.questionRef.id)) return;
+        seen.add(item.questionRef.id);
+        highlights.push({
+          questionRef: item.questionRef,
+          skillIds: item.skillIds,
+          dueAt: item.dueAt,
+          reason: item.reason || 'due'
+        });
+      });
+
+    sessions.forEach(session => {
+      session.attempts.forEach(attempt => {
+        if (attempt.correct || !attempt.questionId || seen.has(attempt.questionId)) return;
+        seen.add(attempt.questionId);
+        highlights.push({
+          questionRef: { id: attempt.questionId, sourceSet: '', version: 0, contentHash: '', sequence: 0 },
+          skillIds: attempt.skillIds.length ? attempt.skillIds : ['practice.mixed'],
+          dueAt: session.completedAt,
+          reason: session.mode === 'mixed' ? 'missed_mixed_quiz' : 'missed_practice'
+        });
+      });
+    });
+
+    return highlights.slice(0, 5);
   }
 
   function normalizeAssignments(assignments) {

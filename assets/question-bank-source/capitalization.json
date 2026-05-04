@@ -1290,8 +1290,8 @@
         {
           "id": "capitalization-sentence-beginning-q0019",
           "version": 3,
-          "contentHash": "sha256:18ccb4a3de524af92e6b2bd118ad84abd7c22e40ccc7e2f996463bc313bf9e54",
-          "question": "Choose the missing words in the following sentenc e. ______________ ate lunch together.",
+          "contentHash": "sha256:aa8b7ccbec1dcab4eb25608c2e3c9f328a557c8ad396dacc52f893672ca4c6e9",
+          "question": "Choose the missing words in the following sentence. ______________ ate lunch together.",
           "choices": [
             "yesterday, Margi and Mary",
             "Yesterday, Margi and Mary",
@@ -1521,10 +1521,10 @@
         {
           "id": "capitalization-sentence-beginning-q0022",
           "version": 3,
-          "contentHash": "sha256:fdb129dd29a63e39f4a8fcdff74c0ab1241bd5329ab0a5254b36e8894297e286",
+          "contentHash": "sha256:1c812bdb7ee41d0fe4b2d89c0f8e5ec862fe5462e1991e5e4688b14910019cdd",
           "question": "Which sentence is written correctly?",
           "choices": [
-            "all the children wanted to pet the cute, warm, cu ddly kitten.",
+            "all the children wanted to pet the cute, warm, cuddly kitten.",
             "the kitten was terrified at first when fifteen chil dren ran to pet it.",
             "Many children Screamed with Laughter when the little cat meowed.",
             "Two children in the class eventually became the kitty’s care takers."
@@ -1534,7 +1534,7 @@
             "correct": "Answer: Two children in the class eventually became the kitty’s care takers. This sentence correctly uses lowercase for common nouns and maintains proper punctuation and capitalization for the start of the sentence.",
             "incorrect": [
               {
-                "choice": "all the children wanted to pet the cute, warm, cu ddly kitten.",
+                "choice": "all the children wanted to pet the cute, warm, cuddly kitten.",
                 "category": "capitalization and spacing",
                 "reason": "Sentences must start with a capital letter, and the word 'cuddly' should not have a space in the middle."
               },
@@ -2218,8 +2218,8 @@
         {
           "id": "capitalization-sentence-beginning-q0059",
           "version": 2,
-          "contentHash": "sha256:4a89543fc86eee5bf9271adebf6b7877e5fddbf7df798f281d6b35a97b508c54",
-          "question": "Choose the answer that fits best in the blank and shows co rrect capitalization and punctuation. The new sch ool will open ____________.",
+          "contentHash": "sha256:53f807407269e08c9998396c09c66a59d30aa58529f2438aad2a245e8e9dabdc",
+          "question": "Choose the answer that fits best in the blank and shows correct capitalization and punctuation. The new sch ool will open ____________.",
           "choices": [
             "August 15 2020",
             "august 15, 20 20",
@@ -2438,20 +2438,20 @@
         {
           "id": "capitalization-sentence-beginning-q0091",
           "version": 2,
-          "contentHash": "sha256:6eb361539cd4a80ff049e590d5c3e023c11d2bdc41874bd60ae7005cd843584d",
+          "contentHash": "sha256:d90130f57958c8ccce5d3d61ba615f9406de9f9c8efb81213b05632058e226c4",
           "question": "Identify the sentence with the correct capitalization.",
           "choices": [
-            "Zach ordered Grilled Cheese from a restaura nt called Grilled Cheese company in Dallas, Texas.",
+            "Zach ordered Grilled Cheese from a restaurant called Grilled Cheese company in Dallas, Texas.",
             "Zach ordered grilled cheese from a Restaurant ca lled Grilled Cheese Company in Dallas, Texas.",
             "Zach ordered grilled cheese from a restaurant called Grilled Cheese Company in Dallas, Texas.",
-            "Zach ordered grilled cheese from a restaura nt called grilled cheese company in Dallas, Texas."
+            "Zach ordered grilled cheese from a restaurant called grilled cheese company in Dallas, Texas."
           ],
           "correct": 2,
           "explanation": {
             "correct": "Answer: Zach ordered grilled cheese from a restaurant called Grilled Cheese Company in Dallas, Texas. Proper nouns like names of businesses and specific places must be capitalized, while common nouns like 'grilled cheese' or 'restaurant' should remain lowercase unless they are part of a formal title.",
             "incorrect": [
               {
-                "choice": "Zach ordered Grilled Cheese from a restaura nt called Grilled Cheese company in Dallas, Texas.",
+                "choice": "Zach ordered Grilled Cheese from a restaurant called Grilled Cheese company in Dallas, Texas.",
                 "category": "improper noun capitalization",
                 "reason": "The common noun 'grilled cheese' should not be capitalized as a dish name, and 'company' must be capitalized because it is part of the proper name of the business."
               },
@@ -2462,7 +2462,7 @@
               },
               "",
               {
-                "choice": "Zach ordered grilled cheese from a restaura nt called grilled cheese company in Dallas, Texas.",
+                "choice": "Zach ordered grilled cheese from a restaurant called grilled cheese company in Dallas, Texas.",
                 "category": "proper name capitalization",
                 "reason": "The name of a specific business, 'Grilled Cheese Company', is a proper noun and must have each major word capitalized to show it is a formal title."
               }
@@ -2512,8 +2512,8 @@
         {
           "id": "capitalization-sentence-beginning-q0101",
           "version": 4,
-          "contentHash": "sha256:e8666c0c80337c2c07ed2d563cfe44fec86021e47fabb4a09b40f4b04db274fa",
-          "question": "Which word in the following sentence should be capitalized? We camped out all night at the store to take advantage of the christmas sa le.",
+          "contentHash": "sha256:f6d8ed99e34fdd48716c3f2c37112f599747a41244b95d1d261fb1e9246a9032",
+          "question": "Which word in the following sentence should be capitalized? We camped out all night at the store to take advantage of the christmas sale.",
           "choices": [
             "camp ed",
             "night",
@@ -4857,10 +4857,10 @@
         {
           "id": "capitalization-days-months-holidays-q0022",
           "version": 3,
-          "contentHash": "sha256:a280db8ff1c52a3660f49593e1ac7325ce079b482b4df32d6925882e9802442b",
+          "contentHash": "sha256:853a45cd935c1f3c8b7a72f28b926833601f75abe58d6a6a6b4c2490bdaadb17",
           "question": "Read the passage below. It all started when I left school on the last day of the year. When I got home, the minivan was packed, and mom and dad were waiting for me. We stopped at McDonald’s on our wayoutof town. Choose the best title for the passage.",
           "choices": [
-            "Wh en My Little Brother Was Born",
+            "When My Little Brother Was Born",
             "My Trip To Eat",
             "My Summer Trip",
             "A Great Christmas Break"
@@ -4870,7 +4870,7 @@
             "correct": "Answer: My Summer Trip. This title correctly summarizes the main event described in the passage, which is starting a journey right after school ends for the year.",
             "incorrect": [
               {
-                "choice": "Wh en My Little Brother Was Born",
+                "choice": "When My Little Brother Was Born",
                 "category": "irrelevant information",
                 "reason": "The passage does not mention a sibling or a birth. This title does not match the actual events of the story."
               },
@@ -5308,8 +5308,8 @@
         {
           "id": "capitalization-days-months-holidays-q0028",
           "version": 2,
-          "contentHash": "sha256:276542e7e63b1adaaf23bd6410201014a312f901f21e2b6e8857eddbb8855114",
-          "question": "Identify the words that need to be capitalized i n the sentence below. mother and father plan to celebrate by having us color easter eggs.",
+          "contentHash": "sha256:40de7de3ac99be121c58d7a56f7175f692ed73eafadfa1f3aa402e0cd1c0046d",
+          "question": "Identify the words that need to be capitalized in the sentence below. mother and father plan to celebrate by having us color easter eggs.",
           "choices": [
             "Mother, Easter",
             "Mother, Father",
@@ -8286,8 +8286,8 @@
         {
           "id": "capitalization-proper-names-titles-q0018",
           "version": 5,
-          "contentHash": "sha256:9ae49abd9a6613b662987f57359f882439ef78409e680ec2a13a81a99cd5e33d",
-          "question": "Which underlined wo rd is inc orrectly capitalized? On vacation we went to see the Lincoln, Washington, and Jefferson monument in Washington, d.c.",
+          "contentHash": "sha256:257965b4223ed3ec422c745a32689f07e7c8dcf743625262f4ef8ed2eb4b032b",
+          "question": "Which underlined word is incorrectly capitalized? On vacation we went to see the Lincoln, Washington, and Jefferson monument in Washington, d.c.",
           "choices": [
             "Washington, d.c.",
             "Jefferson",
@@ -8824,13 +8824,13 @@
         {
           "id": "capitalization-proper-names-titles-q0025",
           "version": 4,
-          "contentHash": "sha256:a486834b67cae431aa9b64888dc2a9c98c2d6a4512617909226f2ce0753e1fe8",
+          "contentHash": "sha256:1a858cc2cc27274becb0a260a3419d4e14c722956c7a22d750ccddb193b2965f",
           "question": "Which words are not correctly capitalized? The Columbia river flows under The Broadway Bridge in Portland, Oregon.",
           "choices": [
             "R iver, The",
             "Columbia, Portland",
             "Broadway, O regon",
-            "Br idge, Portland"
+            "Bridge, Portland"
           ],
           "correct": 0,
           "explanation": {
@@ -8847,8 +8847,8 @@
                 "reason": "\"Broadway, O regon\" is not the best answer because it leaves out R iver, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Broadway, but Broadway is not one of the words that needs a capital in this sentence.; it includes O regon, but O regon is not one of the words that needs a capital in this sentence.."
               },
               {
-                "choice": "Br idge, Portland",
-                "reason": "\"Br idge, Portland\" is not the best answer because it leaves out R iver, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Br idge, but Br idge is not one of the words that needs a capital in this sentence.; it includes Portland, but Portland is not one of the words that needs a capital in this sentence.."
+                "choice": "Bridge, Portland",
+                "reason": "\"Bridge, Portland\" is not the best answer because it leaves out R iver, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Bridge, but Bridge is not one of the words that needs a capital in this sentence.; it includes Portland, but Portland is not one of the words that needs a capital in this sentence.."
               }
             ]
           },
@@ -9515,12 +9515,12 @@
         {
           "id": "capitalization-proper-names-titles-q0034",
           "version": 3,
-          "contentHash": "sha256:0d6a6c89d1da7cd7a7109beed3afbfa0d8143904f74100e7f697619e04b374c2",
+          "contentHash": "sha256:4e233f8ac0a3b8f792e8a11a754c78255e74bdef60d3010d478de613502815e9",
           "question": "Which of the following sentences is written corre ctly?",
           "choices": [
             "i think i’ll call her.",
             "She answered My letter.",
-            "I belie ve I’ll have a cookie.",
+            "I believe I’ll have a cookie.",
             "She said i’m late."
           ],
           "correct": 2,
@@ -10127,17 +10127,17 @@
         {
           "id": "capitalization-proper-names-titles-q0042",
           "version": 3,
-          "contentHash": "sha256:1b5eb0eb48f690bff416717c5f8cda988ef7a5149c72d48a7477819995610464",
+          "contentHash": "sha256:1018d7a07325cca714b6604ab78ad0178fd9daded1ab80df980d980f54fe1fa8",
           "question": "Which indicates the speaker is excited?",
           "choices": [
-            "Su re, I can do that!",
+            "Sure, I can do that!",
             "Sure, I can do that.",
             "Sure, I can do that?",
             "I can do that."
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: Su re, I can do that!. The exclamation point is used at the end of a sentence to show strong feeling or excitement.",
+            "correct": "Answer: Sure, I can do that!. The exclamation point is used at the end of a sentence to show strong feeling or excitement.",
             "incorrect": [
               "",
               {
@@ -13281,13 +13281,13 @@
         {
           "id": "capitalization-names-of-places-q0017",
           "version": 4,
-          "contentHash": "sha256:1daec180c09bdf8506598f5b3e8d733113f56a20f97fd6036f5d7d72ec528834",
-          "question": "Which underlined word s should be capitalized? The civil war was an event that divided the united states into separate groups.",
+          "contentHash": "sha256:66a082cf81f39a717198743a2420ab0d05cc0f27e836b547851f81b797613bf3",
+          "question": "Which underlined words should be capitalized? The civil war was an event that divided the united states into separate groups.",
           "choices": [
             "event, united, states, groups",
             "civil, war, united, states",
             "civil, united, states, groups",
-            "ev ent, united, states, groups"
+            "civil, war, event, groups"
           ],
           "correct": 1,
           "explanation": {
@@ -13305,9 +13305,9 @@
                 "reason": "In this sentence, 'Civil War' is the proper name of an event, so both words must be capitalized. Also, 'groups' is a common noun and should remain lowercase."
               },
               {
-                "choice": "ev ent, united, states, groups",
-                "category": "incorrect spelling and capitalization",
-                "reason": "The word 'event' is misspelled as 'ev ent' and is a common noun that should not be capitalized. Proper noun capitalization rules apply to the specific names of the historical war and the nation."
+                "choice": "civil, war, event, groups",
+                "category": "overcapitalizing common nouns",
+                "reason": "This choice includes 'Civil War,' but it also includes the common nouns 'event' and 'groups' and leaves out 'United States,' which is a specific country name."
               }
             ]
           },
@@ -14128,17 +14128,17 @@
         {
           "id": "capitalization-names-of-places-q0028",
           "version": 5,
-          "contentHash": "sha256:79ecf9d042df59bd23421a33592c0e55d6a67d9d3ffb3a0d2b4ce175bf9844bb",
+          "contentHash": "sha256:3bdfb60e86469801ded6f87c44a40d765d5e37bcce0bde21fa58c5e9baf1b934",
           "question": "If the poem “Lady of the Lake” is capitalized correctly, which of the following is also capitalized correctly?",
           "choices": [
-            "“Hou nd of the Valley”",
+            "“Hound of the Valley”",
             "“boy of the Wilderness”",
             "“Teacher of the animals”",
             "“memory of the trees”"
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: “Hou nd of the Valley”. In titles, major words like nouns, adjectives, and verbs are capitalized, while minor words like 'of' and 'the' are lowercase unless they are the first or last word.",
+            "correct": "Answer: “Hound of the Valley”. In titles, major words like nouns, adjectives, and verbs are capitalized, while minor words like 'of' and 'the' are lowercase unless they are the first or last word.",
             "incorrect": [
               "",
               {
@@ -14205,10 +14205,10 @@
         {
           "id": "capitalization-names-of-places-q0029",
           "version": 5,
-          "contentHash": "sha256:89b8ecb3cabe1111b66d061cd40f474436dcbf3f97c888913fbada8e567abd86",
+          "contentHash": "sha256:20f587760a524eaf10dacc420fa0b254e177e9bd3f2f32ffeeb871011ef343ee",
           "question": "Which of the following is correctly capitalized?",
           "choices": [
-            "Sp anish-american War",
+            "Spanish-american War",
             "gulf-War",
             "Civil War",
             "Revolutionary war"
@@ -14218,7 +14218,7 @@
             "correct": "Answer: Civil War. Proper nouns that name specific historical events, wars, or periods should always be capitalized.",
             "incorrect": [
               {
-                "choice": "Sp anish-american War",
+                "choice": "Spanish-american War",
                 "category": "improper noun capitalization",
                 "reason": "This choice has an accidental space in the middle of 'Spanish' and fails to capitalize the 'a' in 'American'. Proper nouns need all parts capitalized."
               },
@@ -14896,13 +14896,13 @@
         {
           "id": "capitalization-names-of-places-q0038",
           "version": 3,
-          "contentHash": "sha256:095c31e778c6e80ff15c6e9a2abd171611aaa8764074acf3bd2ef8fffc5b59db",
+          "contentHash": "sha256:812f96cde009c16b1847da785a068d39b2cd1892db12e2737f6061a38aa99cfc",
           "question": "Which word (s) in the following sentence should be capitalized? Every year my dad, frank, takes our family on vacation to the grand canyon.",
           "choices": [
             "Dad, Frank, Grand",
             "Dad, Frank, Grand, Canyon",
             "Frank, Grand",
-            "Frank, Gr and, Canyon"
+            "Frank, Grand, Canyon"
           ],
           "correct": 3,
           "explanation": {
@@ -14970,8 +14970,8 @@
         {
           "id": "capitalization-names-of-places-q0039",
           "version": 3,
-          "contentHash": "sha256:22fdf103935439d2c25ed0fb8c7523e6aaade959c641f1e5b0604fb35eea1b58",
-          "question": "Choose the best way to write the underlined portion of the sentence. I f the underlined part is correct, choose “Correct as is.” We visited the national memorial in Oklahoma City Oklahoma.",
+          "contentHash": "sha256:4539ffc3a8d605826c693222e3da1e42a516ac744a40008f1e4630b7a53409cd",
+          "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” We visited the national memorial in Oklahoma City Oklahoma.",
           "choices": [
             "Oklahoma City, Oklahoma",
             "Oklahoma, City Oklahoma",
@@ -15044,12 +15044,12 @@
         {
           "id": "capitalization-names-of-places-q0040",
           "version": 2,
-          "contentHash": "sha256:b5d07265c42c3ffbe1d2f262af533cd38338bd0f8aae5922eba1dd8496e954f2",
+          "contentHash": "sha256:751539008d483eefb90c3fd25711e3fc57e6e2e737b3f141d0dc030b30f86f5e",
           "question": "Choose the sentence that shows correct punctuation and capitalization?",
           "choices": [
-            "Hen ry asked, “When do I get to ride the donkey”?",
+            "Henry asked, “When do I get to ride the donkey”?",
             "“Don’t forget to take out the trash!” exclaimed Mother.",
-            "“Do we have to go see Grandma again this weeke nd? David asked.”",
+            "“Do we have to go see Grandma again this weekend? David asked.”",
             "Hillary exclaimed, “the ball just went through the window!”"
           ],
           "correct": 1,
@@ -15057,13 +15057,13 @@
             "correct": "Answer: “Don’t forget to take out the trash!” exclaimed Mother. This sentence correctly places the exclamation mark inside the quotation marks, correctly capitalizes the first word inside the quotes, and properly uses a comma before the speaker tag.",
             "incorrect": [
               {
-                "choice": "Hen ry asked, “When do I get to ride the donkey”?",
+                "choice": "Henry asked, “When do I get to ride the donkey”?",
                 "category": "incorrect punctuation placement",
                 "reason": "The question mark belongs inside the closing quotation mark because it is part of the speaker's question. Additionally, 'Henry' should be one word."
               },
               "",
               {
-                "choice": "“Do we have to go see Grandma again this weeke nd? David asked.”",
+                "choice": "“Do we have to go see Grandma again this weekend? David asked.”",
                 "category": "misplaced quotation marks",
                 "reason": "The closing quotation mark should come after the question mark but before the speaker's name. Also, 'weekend' is one word, not two."
               },
@@ -15339,8 +15339,8 @@
         {
           "id": "capitalization-names-of-places-q0137",
           "version": 4,
-          "contentHash": "sha256:dd38f4b5aa482f49745369c2bc3df1217f8c7d864477807c37ebb75c037a44ca",
-          "question": "In the sentence below, which of the following words should be capitalized? I really want some of those royal blue adidas shoes that my grandmother g ot me for my birthday.",
+          "contentHash": "sha256:e24bd05b8d9e763d9791b8acf257588c535ce0fcea43159b490e1447c482bd80",
+          "question": "In the sentence below, which of the following words should be capitalized? I really want some of those royal blue adidas shoes that my grandmother got me for my birthday.",
           "choices": [
             "Gran dmother",
             "Adidas",

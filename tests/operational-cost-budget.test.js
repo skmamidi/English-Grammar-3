@@ -29,7 +29,11 @@ test('operational cost budget policy defines required production cost dimensions
     'cache_storage_bytes',
     'telemetry_volume_bytes',
     'selection_api_work',
-    'sync_payload_bytes'
+    'sync_payload_bytes',
+    'provider_fees_minor',
+    'failed_payment_recovery_minor',
+    'refund_dispute_queue_age_hours',
+    'billing_monitor_requests'
   ]);
 });
 
@@ -50,7 +54,7 @@ test('operational cost budget policy rejects unsafe or incomplete budget definit
 
   assert.deepEqual(result.errors, [
     'unsafe_cost label is required',
-    'unsafe_cost metric must be one of requestCount, chunkBytes, cacheStorageBytes, telemetryVolumeBytes, selectionApiWork, syncPayloadBytes',
+    'unsafe_cost metric must be one of requestCount, chunkBytes, cacheStorageBytes, telemetryVolumeBytes, selectionApiWork, syncPayloadBytes, providerFeesMinor, failedPaymentRecoveryMinor, refundDisputeQueueAgeHours, billingMonitorRequests',
     'unsafe_cost fail must be greater than warn',
     'unsafe_cost unit is required',
     'unsafe_cost owner is required',

@@ -183,3 +183,44 @@ test('learning dashboard projection includes goal projection copy and reminder c
   assert.equal(goalJson.includes('raw prompt'), false);
   assert.equal(goalJson.includes('private-q1'), false);
 });
+
+test('learning dashboard projection includes mixed quiz sessions in parent analysis', () => {
+  const projection = dashboard.buildLearningDashboardProjection({
+    learner: { id: 'learner-mixed' },
+    progress: {
+      reports: {
+        sessions: [{
+          id: 'mixed-session-1',
+          mode: 'mixed',
+          completedAt: '2030-04-29T08:00:00.000Z',
+          attempts: [
+            { questionId: 'grammar-sentence-types-q0001', correct: false, skillIds: ['grammar.sentence-analysis'] },
+            { questionId: 'grammar-nouns-q0001', correct: true, skillIds: ['grammar.nouns'] },
+            { questionId: 'grammar-mixed-q0001', correct: false }
+          ]
+        }]
+      }
+    },
+    taxonomy: {
+      skills: {
+        'grammar.sentence-analysis': { label: 'Sentence analysis' },
+        'grammar.nouns': { label: 'Nouns' },
+        'practice.mixed': { label: 'Mixed practice' }
+      }
+    },
+    roleView: 'parent_guardian',
+    now
+  });
+
+  assert.equal(projection.summary.recentPracticeCount, 1);
+  assert.equal(projection.summary.accuracy, 0.33);
+  assert.deepEqual(projection.skillHighlights.map(item => item.skillId), [
+    'grammar.sentence-analysis',
+    'practice.mixed',
+    'grammar.nouns'
+  ]);
+  assert.deepEqual(projection.reviewHighlights.map(item => item.questionRef.id), [
+    'grammar-sentence-types-q0001',
+    'grammar-mixed-q0001'
+  ]);
+});

@@ -82,6 +82,68 @@ test('shared selection core preserves mixed per-subtopic and max semantics', () 
   assert.equal(maxMode.length, 10);
 });
 
+test('shared selection core allows one question per selected mixed subtopic', () => {
+  const alpha = Array.from({ length: 5 }, (_, index) => q(`alpha-${index + 1}`, [4], { 4: 'medium' }, 'alpha'));
+  const beta = Array.from({ length: 5 }, (_, index) => q(`beta-${index + 1}`, [4], { 4: 'medium' }, 'beta'));
+
+  const selected = core.selectMixedQuestions({
+    mixedQuizConfig: {
+      questionsPerSubtopic: 4,
+      subtopics: [
+        { id: 'alpha', questions: alpha },
+        { id: 'beta', questions: beta }
+      ]
+    },
+    selectedMixedQuestionLimit: '1',
+    selectedGrade: '4',
+    selectedDifficulty: 'medium'
+  }, { shuffle: identity });
+
+  assert.deepEqual(selected.map(question => question.metadata.sourceSet), ['alpha', 'beta']);
+});
+
+test('selection request normalization accepts mixed quiz per-subtopic count of one', () => {
+  const request = core.normalizeSelectionRequest({
+    mode: 'mixed',
+    domain: 'grammar',
+    setIds: ['alpha', 'beta'],
+    count: 2,
+    questionsPerSubtopic: 1
+  });
+
+  assert.equal(request.count, 2);
+  assert.equal(request.questionsPerSubtopic, 1);
+});
+
+test('shared selection core resumes at first unanswered question when saved index is stale', () => {
+  const questions = Array.from({ length: 12 }, (_, index) => q(`alpha-${index + 1}`, [4], { 4: 'medium' }, 'alpha'));
+  const attempts = questions.slice(0, 10).map((question, index) => ({
+    position: index + 1,
+    questionId: question.id,
+    correct: index % 2 === 0
+  }));
+
+  assert.equal(core.findNextUnansweredQuestionIndex(questions, attempts, 3), 10);
+});
+
+test('shared selection core uses question ids to recover answered mixed questions when positions are missing', () => {
+  const alpha = Array.from({ length: 3 }, (_, index) => q(`alpha-${index + 1}`, [4], { 4: 'medium' }, 'alpha'));
+  const beta = Array.from({ length: 3 }, (_, index) => q(`beta-${index + 1}`, [4], { 4: 'medium' }, 'beta'));
+  const questions = [alpha[0], beta[0], alpha[1], beta[1], alpha[2], beta[2]];
+  const attempts = questions.slice(0, 4).map(question => ({
+    questionId: question.id,
+    correct: true
+  }));
+
+  assert.equal(core.findNextUnansweredQuestionIndex(questions, attempts, 0), 4);
+});
+
+test('shared selection core preserves saved index when no answered question evidence exists', () => {
+  const questions = Array.from({ length: 5 }, (_, index) => q(`alpha-${index + 1}`, [4], { 4: 'medium' }, 'alpha'));
+
+  assert.equal(core.findNextUnansweredQuestionIndex(questions, [], 2), 2);
+});
+
 test('shared selection core does not select repeated semantic variants from a set', () => {
   const questions = [
     semanticVariant('alpha-q0001', 'Grade 3 Easy: Choose the best answer. Which detail best supports the topic sentence "Libraries help students learn"?', [

@@ -2,7 +2,7 @@
  * English Language Quiz App - grammar subchunk: grammar-narrative-writing 2
  * Generated from assets/question-bank-source/grammar.json.
  * Generator version: 1.
- * Source hash: sha256:4c78feb13ad79b98774dbd2e070febb2acae7675eae4a69ad2f368fd0062de1a.
+ * Source hash: sha256:574047bc30166a1e2bd8a54a8ebba6765f18729d2a0ff16285a823d540b68419.
  */
 (function () {
   'use strict';

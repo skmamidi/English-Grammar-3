@@ -2,7 +2,7 @@
  * English Language Quiz App - reading-comprehension subchunk: reading-comprehension-compare-contrast 3
  * Generated from assets/question-bank-source/reading-comprehension.json.
  * Generator version: 1.
- * Source hash: sha256:4346330c7774fb0bdbe2e55e0089509a08ebbd1e978fee31499cd5c65deb459c.
+ * Source hash: sha256:f570e4bac98e2927cebeeae22323149f0f6754b8992500e2028105926adf819d.
  */
 (function () {
   'use strict';

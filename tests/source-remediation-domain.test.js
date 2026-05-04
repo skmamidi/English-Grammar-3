@@ -7,6 +7,9 @@ const {
   normalizeRemediationRecord,
   validateRemediationRecord
 } = require('../assets/source-remediation-domain');
+const {
+  buildCurriculumReviewQueueProjection
+} = require('../assets/curriculum-review-queue-dashboard');
 
 test('source remediation findings normalize deterministic identifiers', () => {
   const finding = buildSourceFinding({
@@ -99,4 +102,25 @@ test('source remediation accepts fixed and active deferred records', () => {
   assert.equal(result.status, 'passed');
   assert.equal(result.errors.length, 0);
   assert.equal(result.summary.resolvedCount, 2);
+});
+
+test('source remediation findings project into review queue without source details', () => {
+  const projection = buildCurriculumReviewQueueProjection({
+    now: '2030-05-10T00:00:00.000Z',
+    sourceFindings: [{
+      findingId: 'missing-source-file|grammar|grammar-set|q-open|source.pdf',
+      ruleId: 'missing-source-file',
+      domain: 'grammar',
+      sourceSet: 'grammar-set',
+      severity: 'critical',
+      status: 'needs_review',
+      owner: 'source_owner',
+      createdAt: '2030-05-01T00:00:00.000Z',
+      sourceExcerpt: 'do not show copyrighted source paragraph'
+    }]
+  });
+
+  assert.equal(projection.rows[0].issueType, 'source_finding');
+  assert.equal(projection.rows[0].publicationBlockingReason, 'source_finding:missing-source-file');
+  assert.doesNotMatch(JSON.stringify(projection), /copyrighted source paragraph/);
 });

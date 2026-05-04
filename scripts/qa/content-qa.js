@@ -23,6 +23,10 @@ const {
 const {
   evaluateSourceLicenses
 } = require('./source-license-qa');
+const {
+  findSuspiciousSplitWordsInText,
+  buildSplitWordLexicon
+} = require('./split-word-spacing');
 
 function validateContent(options = {}) {
   const bankLoad = loadQuestionBanks(options);
@@ -49,7 +53,7 @@ function validateLoadedContent(bankLoad, options = {}) {
   questions.forEach(record => validateQuestion(record, issues, taxonomy));
   validateUniqueQuestionKeys(sets, issues);
   validateStableQuestionIdentity(sets, issues);
-  runContentQualityRules(sets, questions, issues, options);
+  runContentQualityRules(sets, questions, issues, Object.assign({}, options, { bankLoad }));
   if (options.sourceGovernance) runSourceGovernanceChecks(bankLoad, issues, options);
 
   return {
@@ -295,6 +299,31 @@ const QUALITY_RULES = [{
     }
   }
 }, {
+  id: 'split-word-spacing',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    const fields = [
+      { label: 'prompt', value: question.question },
+      ...(Array.isArray(question.choices) ? question.choices.map((choice, index) => ({ label: `choice ${index + 1}`, value: choice })) : [])
+    ];
+    fields.forEach(field => {
+      findSuspiciousSplitWordsInText(field.value, { lexicon: this.splitWordLexicon }).forEach(match => {
+        addIssue(
+          issues,
+          this.defaultSeverity,
+          record.file,
+          record.setId,
+          questionLocation(question, record.questionNumber - 1),
+          `${field.label} contains suspicious split word "${match.splitText}". Did you mean "${match.replacement}"?`,
+          this.id,
+          getQuestionId(question)
+        );
+      });
+    });
+  }
+}, {
   id: 'weak-explanation-rationale',
   defaultSeverity: 'warning',
   scope: 'question',
@@ -390,9 +419,11 @@ const QUALITY_RULES = [{
 
 function runContentQualityRules(sets, questions, issues, options = {}) {
   const severityByRule = options.ruleSeverity || {};
+  const splitWordLexicon = buildSplitWordLexicon(options.bankLoad);
   QUALITY_RULES.forEach(rule => {
     const activeRule = Object.assign({}, rule, {
-      defaultSeverity: severityByRule[rule.id] || rule.defaultSeverity
+      defaultSeverity: severityByRule[rule.id] || rule.defaultSeverity,
+      splitWordLexicon
     });
     if (rule.scope === 'set') {
       sets.forEach(record => activeRule.run(record, issues));

@@ -100,6 +100,14 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/fake-provider-billing-fixtures\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/subscription-route-contract\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/subscription-plan-choice-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-ux-regression-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-data-inventory-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-launch-checklist-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-operations-job-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-support-workflow-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-observability-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-payment-rehearsal-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/billing-rollback-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/app-shell-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/static-asset-qa\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/runtime-performance-probe\.test\.js/);
@@ -167,6 +175,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/source-remediation-domain\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/source-attribution\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/source-license-qa\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/curriculum-review-queue-dashboard\.test\.js/);
   assert.equal(pkg.scripts['qa:source-license'], 'node scripts/qa/source-license-qa.js');
   assert.match(pkg.scripts['test:unit'], /tests\/chunk-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);

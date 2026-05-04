@@ -23,7 +23,11 @@ test('synthetic monitor policy defines the critical public and operational flows
     'subtopic_quiz_start',
     'selection_health_readiness',
     'offline_fallback',
-    'admin_readiness_metadata'
+    'admin_readiness_metadata',
+    'billing_operations_health',
+    'billing_page_render_health',
+    'billing_checkout_start_test_mode',
+    'billing_webhook_health_test_mode'
   ]);
 });
 

@@ -13,7 +13,11 @@
     'cacheStorageBytes',
     'telemetryVolumeBytes',
     'selectionApiWork',
-    'syncPayloadBytes'
+    'syncPayloadBytes',
+    'providerFeesMinor',
+    'failedPaymentRecoveryMinor',
+    'refundDisputeQueueAgeHours',
+    'billingMonitorRequests'
   ]);
   const PRIVATE_KEYS = new Set([
     'learnerId',
@@ -28,7 +32,10 @@
     'email',
     'stack',
     'responseBody',
-    'body'
+    'body',
+    'rawProviderPayload',
+    'paymentCredential',
+    'providerCustomerId'
   ]);
 
   const DEFAULT_OPERATIONAL_COST_BUDGET_POLICY = Object.freeze({
@@ -99,6 +106,50 @@
         owner: 'data-platform',
         runbook: 'docs/operations/runbook-learner-sync-failure.md',
         mitigation: 'Compact learner-state deltas and remove redundant fields before increasing sync payload budgets.'
+      }),
+      budget({
+        id: 'provider_fees_minor',
+        label: 'Provider fees',
+        metric: 'providerFeesMinor',
+        warn: 100000,
+        fail: 150000,
+        unit: 'minor currency units',
+        owner: 'finance_owner',
+        runbook: 'docs/operations/billing-observability.md',
+        mitigation: 'Review provider fee assumptions, target markets, and plan pricing before widening the launch budget.'
+      }),
+      budget({
+        id: 'failed_payment_recovery_minor',
+        label: 'Failed-payment recovery costs',
+        metric: 'failedPaymentRecoveryMinor',
+        warn: 40000,
+        fail: 60000,
+        unit: 'minor currency units',
+        owner: 'billing_policy_owner',
+        runbook: 'docs/operations/billing-observability.md',
+        mitigation: 'Review dunning volume, retry policy, and support escalation before widening recovery budgets.'
+      }),
+      budget({
+        id: 'refund_dispute_queue_age_hours',
+        label: 'Refund and dispute queue age',
+        metric: 'refundDisputeQueueAgeHours',
+        warn: 48,
+        fail: 72,
+        unit: 'hours',
+        owner: 'billing_policy_owner',
+        runbook: 'docs/operations/billing-observability.md',
+        mitigation: 'Escalate billing support queue ownership before widening queue age budgets.'
+      }),
+      budget({
+        id: 'billing_monitor_requests',
+        label: 'Billing monitor requests',
+        metric: 'billingMonitorRequests',
+        warn: 400,
+        fail: 600,
+        unit: 'requests',
+        owner: 'operations_owner',
+        runbook: 'docs/operations/billing-observability.md',
+        mitigation: 'Reduce monitor frequency or target count before increasing synthetic billing monitor traffic.'
       })
     ])
   });
@@ -172,6 +223,10 @@
       telemetryVolumeBytes: boundedNumber(input.telemetryVolumeBytes),
       selectionApiWork: boundedNumber(input.selectionApiWork),
       syncPayloadBytes: boundedNumber(input.syncPayloadBytes),
+      providerFeesMinor: boundedNumber(input.providerFeesMinor),
+      failedPaymentRecoveryMinor: boundedNumber(input.failedPaymentRecoveryMinor),
+      refundDisputeQueueAgeHours: boundedNumber(input.refundDisputeQueueAgeHours),
+      billingMonitorRequests: boundedNumber(input.billingMonitorRequests),
       details: input.details && typeof input.details === 'object' ? sanitizeValue(input.details) : undefined
     };
   }

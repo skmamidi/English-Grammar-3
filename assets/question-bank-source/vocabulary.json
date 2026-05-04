@@ -2581,10 +2581,10 @@
         {
           "id": "vocabulary-base-words-q0037",
           "version": 3,
-          "contentHash": "sha256:1ef0bf80c08597c8ed14a4881079444a3228e4d9ce0fbd5fc3029632fd6c6dfc",
+          "contentHash": "sha256:9e3b5572dd72ae407247c00acf4685bbe734844b82a3142cce34c50ba85e1ad1",
           "question": "If the root word alter means other, what would alternate mean? “” “”",
           "choices": [
-            "t o be silent",
+            "to be silent",
             "to use your voice",
             "a place",
             "another choice"
@@ -2594,7 +2594,7 @@
             "correct": "Answer: another choice. Since 'alter' means 'other', the word 'alternate' describes moving between one thing and an 'other' thing or picking one from a set of choices.",
             "incorrect": [
               {
-                "choice": "t o be silent",
+                "choice": "to be silent",
                 "category": "incorrect word definition",
                 "reason": "Being silent relates to the word 'mute', not 'alter'. Since 'alter' means other, it cannot mean to be silent."
               },
@@ -3691,13 +3691,13 @@
         {
           "id": "vocabulary-base-words-q0084",
           "version": 3,
-          "contentHash": "sha256:632adb1c66d44b20317bc9f7632301ba1dcc08a6b7c432746de6cd03e2ed42fe",
+          "contentHash": "sha256:525d67dacb9c25d189ecc89f87e76ee0a7f7e166746e29faa5d1d293edae2e51",
           "question": "What is the meaning of the root word “port”?",
           "choices": [
             "call",
             "give",
             "know",
-            "car ry"
+            "carry"
           ],
           "correct": 3,
           "explanation": {
@@ -4357,8 +4357,8 @@
         {
           "id": "vocabulary-base-words-q0261",
           "version": 3,
-          "contentHash": "sha256:a2a2e6ebe7b0b8b19f358d3ec98d76ec204de2e694a8a767230335607dca6549",
-          "question": "If the root word means to pu ll, then wh at woul d the word tract tr actor mean?",
+          "contentHash": "sha256:1c2b0fae159a664c43a412b3f458e1f1a1f2e78e9c106490a6ea99f4e38d0526",
+          "question": "If the root word means to pull, then what woul d the word tract tractor mean?",
           "choices": [
             "related to pulling",
             "that whic h pulls",
@@ -6354,13 +6354,13 @@
         {
           "id": "vocabulary-contractions-q0007",
           "version": 2,
-          "contentHash": "sha256:8648a65f56c36b9902e3630aa5185a34846c4f1553be82b36b83fb8bf309cfcf",
+          "contentHash": "sha256:75214639a24d95fb60f7ad70fe29689b56511b023ae96a9089fcb5b5b1fab61a",
           "question": "Which two words form 'could've'?",
           "choices": [
             "could of",
             "could have",
             "could love",
-            "could ve"
+            "couldve"
           ],
           "correct": 1,
           "explanation": {
@@ -6378,7 +6378,7 @@
                 "reason": "The word 'love' does not fit the structure of the contraction 'could've'. While it sounds slightly similar, it changes the entire meaning of the verb phrase."
               },
               {
-                "choice": "could ve",
+                "choice": "couldve",
                 "category": "missing helper verb",
                 "reason": "'Ve' is just the shortened ending of the word, not a full word itself. You must use the complete verb 'have' to make the sentence grammatically correct."
               }
@@ -8108,13 +8108,13 @@
         {
           "id": "vocabulary-homophones-q0017",
           "version": 3,
-          "contentHash": "sha256:f377c8c935fc551fe36a7e91b45ebbfb19bfaaf1bff75b745e5637def62665e9",
+          "contentHash": "sha256:309aab7a3e31bc6986e996d48dfc2acd15074d47f167dee994a9250108612773",
           "question": "Which sentence demonstrates correct subject-verb agreement?",
           "choices": [
             "The girls is walking from class to the gym.",
             "My son are taking too long to return my phone call.",
             "The children is playing kickball during recess.",
-            "Pe ople in the city honk their horn a lot."
+            "People in the city honk their horn a lot."
           ],
           "correct": 3,
           "explanation": {
@@ -9278,8 +9278,8 @@
         {
           "id": "vocabulary-homophones-q0032",
           "version": 3,
-          "contentHash": "sha256:4fd6b1dea143c54d77d0b3d569df1b45114dbe20ce6de9766217a5546879299b",
-          "question": "Which sentence tells me there wa s a fire?",
+          "contentHash": "sha256:7b2a8c6ac67f7b3b12e3286c3b61856a07bbdd0200f639ef794734d2b421348e",
+          "question": "Which sentence tells me there was a fire?",
           "choices": [
             "The wood was too wet to use.",
             "The flames reached the ceiling.",
@@ -9668,10 +9668,10 @@
         {
           "id": "vocabulary-homophones-q0037",
           "version": 3,
-          "contentHash": "sha256:c3b1b9a9690c0170e59cb628595bf0c649bde13bcf3993294afbbdd870636861",
+          "contentHash": "sha256:b46f94e1f59d0dd0299f12afcedfc3586339f5b4ccc31dd58e3f87db6a2fd1c0",
           "question": "Which sentence is written correctly?",
           "choices": [
-            "M rs. Land asked, “who remembered their pencils? ”",
+            "Mrs. Land asked, “who remembered their pencils? ”",
             "“I need to walk the dog,” Dad told me.",
             "“call me when you get home,” said Jody.",
             "She said, “how are you today?”"
@@ -9681,7 +9681,7 @@
             "correct": "Answer: “I need to walk the dog,” Dad told me. In English, direct quotations must start with a capital letter, even if they appear in the middle of a sentence, because they represent the exact words being spoken.",
             "incorrect": [
               {
-                "choice": "M rs. Land asked, “who remembered their pencils? ”",
+                "choice": "Mrs. Land asked, “who remembered their pencils? ”",
                 "category": "capitalization of quotations",
                 "reason": "The word 'who' inside the quotation marks should start with a capital letter because it is the beginning of a person's spoken words."
               },
@@ -9980,10 +9980,10 @@
         {
           "id": "vocabulary-homophones-q0041",
           "version": 3,
-          "contentHash": "sha256:cece6c1f15cd0dac71c18e75492fd623fec712edeb978cf1733f1490ae5b7700",
+          "contentHash": "sha256:a70b61b3229b15b02f2a0dd8c20a0308c895e202d2a79439373d51016eeefb65",
           "question": "You are writing a story for young children about their first trip to the dentist. Which group of words is appropriate for your story?",
           "choices": [
-            "gu m disease, loss of teeth, root canal",
+            "gum disease, loss of teeth, root canal",
             "brush, floss, prevention",
             "friendly dentist, happy teeth, tooth fairy",
             "expense, anesthesia, pain"
@@ -9993,7 +9993,7 @@
             "correct": "Answer: friendly dentist, happy teeth, tooth fairy. These words use a positive, gentle tone that is perfect for young children who might be nervous about their first dentist visit.",
             "incorrect": [
               {
-                "choice": "gu m disease, loss of teeth, root canal",
+                "choice": "gum disease, loss of teeth, root canal",
                 "category": "tone and vocabulary",
                 "reason": "These terms are too scary and technical for a young child's story. Words like 'disease' and 'root canal' could make a child feel worried rather than excited."
               },
@@ -11355,8 +11355,8 @@
         {
           "id": "vocabulary-homophones-q0059",
           "version": 3,
-          "contentHash": "sha256:b1de27e74ff034ef8f449d680b62540715a885e34e17ec4fa732868a8574603c",
-          "question": "Choose the word that best completes the sentence. The mayor ______ into the town hall meeting to show off his new suit. H e had a very high opinion of himself.",
+          "contentHash": "sha256:efcfe8ccfbb73cbe0dd615305bc824e655c38d6d67bc8a172813373d0f42b29f",
+          "question": "Choose the word that best completes the sentence. The mayor ______ into the town hall meeting to show off his new suit. He had a very high opinion of himself.",
           "choices": [
             "meandered",
             "strutted",
@@ -12102,8 +12102,8 @@
         {
           "id": "vocabulary-homophones-q0256",
           "version": 3,
-          "contentHash": "sha256:cd25c74086a31312cd18fe7599de25a5676316e712cf0e181db06d526d96b49a",
-          "question": "Fill the blank with the correct word ch oice. in I the race by one second.",
+          "contentHash": "sha256:b0cc0339769539e457bc770da0c1610d8d57cb6f5ed19ecb5e8501618770e77b",
+          "question": "Fill the blank with the correct word choice. in I the race by one second.",
           "choices": [
             "lose",
             "did losed",
@@ -13227,10 +13227,10 @@
         {
           "id": "vocabulary-rhyming-q0016",
           "version": 3,
-          "contentHash": "sha256:838bf8638f6c2972bbdf4edb70bba2725459a0907b9ef4dbb58ebc4cc30d9efd",
+          "contentHash": "sha256:d73995b9c0025b3c4cfd0f8974d639926c4f75bccf10dea39abf6d1e32231aaf",
           "question": "Read the limerick. 1 – There once was an alien from space 2 – Who knew he was going to race 3 – The kids in the school 4 – ________________________ 5 – He won, but left not a trace. Which of the following lines would best fit line 4?",
           "choices": [
-            "Wh om he thought very cool.",
+            "Whom he thought very cool.",
             "Thoughthe was groovy.",
             "Wentoutside to play with him.",
             "Could not run his pace."
@@ -13382,10 +13382,10 @@
         {
           "id": "vocabulary-rhyming-q0018",
           "version": 3,
-          "contentHash": "sha256:3abf91b09fc4ba33299fa00c813f747e105db0902894b763f1524e83b7f91be0",
+          "contentHash": "sha256:bea70d1b8d363a5efac8a3b5cb2f4b9b29988e157e25c2abab94ed0338b380be",
           "question": "Which rhyming word fits in this poem? From the sky Clouds are quickly Drifting _________",
           "choices": [
-            "alo ng",
+            "along",
             "through",
             "by",
             "around"
@@ -13395,7 +13395,7 @@
             "correct": "Answer: by. This word completes the rhyme with the word 'sky' in the first line of the poem. In poetry, rhyming words share the same ending sound.",
             "incorrect": [
               {
-                "choice": "alo ng",
+                "choice": "along",
                 "category": "spelling and rhyme",
                 "reason": "This is not a real word, and it does not share the same ending sound as 'sky'. The sounds must match to create a rhyme."
               },
@@ -18219,20 +18219,20 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0100",
           "version": 3,
-          "contentHash": "sha256:9a2180f898e5583c26a5ce5e865e75de7d92a33adcd30026fb9760a5ddb4d5d6",
+          "contentHash": "sha256:cb9d7a87593f8f7a9766bd6a444302dc05609bdb0ace3a1518573256ba9e5e36",
           "question": "Which word means the opposite of hard?",
           "choices": [
-            "h ot",
+            "hot",
             "cold",
             "easy",
-            "fun Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2"
+            "fun Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2"
           ],
           "correct": 2,
           "explanation": {
             "correct": "Answer: easy. The word 'hard' can mean difficult, so 'easy' is its direct opposite.",
             "incorrect": [
               {
-                "choice": "h ot",
+                "choice": "hot",
                 "category": "temperature versus difficulty",
                 "reason": "The word 'hot' is a temperature, not a measure of difficulty. It is the opposite of 'cold', not 'hard'."
               },
@@ -18243,7 +18243,7 @@
               },
               "",
               {
-                "choice": "fun Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2",
+                "choice": "fun Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2",
                 "category": "unrelated vocabulary choice",
                 "reason": "This phrase contains extra text that is not a word meaning the opposite of hard. 'Fun' describes enjoyment, but it is not the opposite of a difficult task."
               }
@@ -18440,13 +18440,13 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0206",
           "version": 3,
-          "contentHash": "sha256:f3e77ee8c00effd4654732b688c029266ebcb5e66880d3bd19e821aa100f2fd9",
+          "contentHash": "sha256:5609b919032d81d7cce5aecadc9c2b3506ebd0b98819d5b013c5a24b9d61fdfb",
           "question": "Read the sentence and choose the best synonym for the u nderlined word. In the gloom of the rainy dawn, Kayla scanned the horizon searching for the long -promised arrival of the horse-drawn carriage.",
           "choices": [
             "looked",
             "glanced",
             "searched",
-            "noticed Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3"
+            "noticed Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3"
           ],
           "correct": 2,
           "explanation": {
@@ -18464,8 +18464,8 @@
               },
               "",
               {
-                "choice": "noticed Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3",
-                "reason": "All rights reserved worldwide. Use of this do cument 3. \"noticed Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
+                "choice": "noticed Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3",
+                "reason": "All rights reserved worldwide. Use of this do cument 3. \"noticed Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
               }
             ]
           },
@@ -18957,8 +18957,8 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0074",
           "version": 3,
-          "contentHash": "sha256:17cb15b5b597bbd1a0e7c943483a2890371393bdb51077e1977a3119f32ce78a",
-          "question": "Which reference material would you use to fi nd a synonym for a word?",
+          "contentHash": "sha256:9c2c3cf7a18bd1d87b36f036032852a5856b04e327cfa46578cd8ca54ab59c51",
+          "question": "Which reference material would you use to fi nda synonym for a word?",
           "choices": [
             "d ictionary",
             "encyclopedia",
@@ -26887,12 +26887,12 @@
         {
           "id": "vocabulary-word-meaning-context-q0068",
           "version": 2,
-          "contentHash": "sha256:2205774ee08673cd0c2fe3bbd9c9d5f248ec56dd66d90d3963185fca859af7de",
+          "contentHash": "sha256:33f0d62adf73b4de4763af77212b611b6e5352803afaf676dbf49a3694fd7ca9",
           "question": "Choose the correct word for the sentence below. Don’t ______ your coat when it is cold outside.",
           "choices": [
             "rez ip",
             "uncover",
-            "unz ip",
+            "unzip",
             "zipper"
           ],
           "correct": 2,
@@ -27109,10 +27109,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0071",
           "version": 2,
-          "contentHash": "sha256:2a59366a4da11b032555a6e716bfe8882763546eee88c6ae00a13d326ffa2c94",
+          "contentHash": "sha256:0b992375b9e3a25c05656f45451fa7dfd07689f3a780fcaa8a6e2bc95c0742d6",
           "question": "I will help mother dress the turkey. What does the word dress mean?",
           "choices": [
-            "ou tfit",
+            "outfit",
             "shirt",
             "eat",
             "fix"
@@ -27122,7 +27122,7 @@
             "correct": "Answer: fix. In this context, 'dress' means to prepare food for cooking, such as cleaning or seasoning it, rather than putting clothes on something.",
             "incorrect": [
               {
-                "choice": "ou tfit",
+                "choice": "outfit",
                 "category": "confusing word meanings",
                 "reason": "While 'dress' often relates to clothes, a turkey does not wear an outfit. Look at the surrounding words to determine if the context is about cooking or fashion."
               },
@@ -27479,10 +27479,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0080",
           "version": 2,
-          "contentHash": "sha256:0d1364dfdf2f306cfe9d742d36abee379fbf91d47150cd26be3bfbfbc6811e6e",
+          "contentHash": "sha256:957a0d2110802b2ff812e14652d4c4c0c55b444e03bb31a43f6338cdfc731d5e",
           "question": "The ___________ rushed to the burning building.",
           "choices": [
-            "h ot",
+            "hot",
             "fireplace",
             "firefighter",
             "houses"
@@ -27492,9 +27492,9 @@
             "correct": "Answer: firefighter. A 'firefighter' is the person who performs the action of rushing to a burning building, making it the only noun that makes sense in the context of the sentence.",
             "incorrect": [
               {
-                "choice": "h ot",
+                "choice": "hot",
                 "category": "incorrect word choice",
-                "reason": "'h ot' is not a noun and does not describe a person; it appears to be a fragmented or misspelled adjective that cannot perform the action of rushing."
+                "reason": "'hot' is not a noun and does not describe a person; it appears to be a fragmented or misspelled adjective that cannot perform the action of rushing."
               },
               {
                 "choice": "fireplace",
@@ -27627,10 +27627,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0083",
           "version": 2,
-          "contentHash": "sha256:ddf94ddfaaa06f9fff18577ae22ec1ebd77f62dd96da59ed1941a7cce98de5b7",
+          "contentHash": "sha256:9a1db0050fd81badb436cfeb562c1a7f99b21363dd8e5bb26ce4eb3dc6c3a304",
           "question": "January, February, March, ____________.",
           "choices": [
-            "Su nday",
+            "Sunday",
             "spring",
             "cookie",
             "April"
@@ -27640,7 +27640,7 @@
             "correct": "Answer: April. Months follow a specific calendar order, and April is the month that immediately follows March.",
             "incorrect": [
               {
-                "choice": "Su nday",
+                "choice": "Sunday",
                 "category": "category error",
                 "reason": "Sunday is a day of the week, not a month. The list is comprised strictly of calendar months."
               },
@@ -28515,13 +28515,13 @@
         {
           "id": "vocabulary-word-meaning-context-q0102",
           "version": 2,
-          "contentHash": "sha256:6c6e77628fc723f0889062ac4350681c1b649aa7baf5999c891d79e0c652a910",
+          "contentHash": "sha256:94da4abe7cd604e7d8ab414ccd17673bac20aa994db9e578e4711e7ab86ade9c",
           "question": "Which group of letters only contains vowels?",
           "choices": [
             "a, o, n, d",
             "i, s, y, u",
             "e, a, i, u",
-            "u, a, i, g Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3"
+            "u, a, i, g Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3"
           ],
           "correct": 2,
           "explanation": {
@@ -28539,7 +28539,7 @@
               },
               "",
               {
-                "choice": "u, a, i, g Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3",
+                "choice": "u, a, i, g Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3",
                 "category": "includes consonants",
                 "reason": "The letter 'g' is a consonant. The remaining text is extra formatting and not part of the letter list."
               }
@@ -28663,10 +28663,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0146",
           "version": 2,
-          "contentHash": "sha256:36326bcc0e9ab920d82afbfdaf3108cac09a613aa030c471f5236cc322f9463d",
+          "contentHash": "sha256:2b80317e5ffb5552ff6ddbc7f959323725ab15405659500e547b00d669356c44",
           "question": "Read the passage. Washing our hands before meals is important to our health. Some dirt ha s germs and germs causedisease. If we eat with dirty hands, the germs can enter our bodies with the food. So, if you want to look good and stay healthy, you m ust keep yourself clean. Which words persuade the reader to wash their hands?",
           "choices": [
-            "t o look good",
+            "to look good",
             "to stay healthy",
             "to smell",
             "some dirt and germs"
@@ -28676,7 +28676,7 @@
             "correct": "Answer: to stay healthy. This phrase provides a logical, health-based reason for the reader to take action, which is a persuasive technique used to encourage healthy habits.",
             "incorrect": [
               {
-                "choice": "t o look good",
+                "choice": "to look good",
                 "category": "irrelevant reasoning",
                 "reason": "While the passage mentions looking good, hygiene is primarily focused on health rather than appearance. 'Looking good' is not the core persuasive argument for handwashing."
               },
@@ -28811,8 +28811,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0151",
           "version": 2,
-          "contentHash": "sha256:48887bbe9c20019ab86c267bd582cfa78357c2cb85651bc7b73a23fe3a8dd4b2",
-          "question": "Read the passage. Yes, Utzel hated everybody and everything, buthe adored his daughter. H e daydreamed that a rich young man would fall in love with her, marry her, and “Utzel and H is Daughter, Poverty,” p age 149. Teacher auth ors: Phillips, provide for his wife and his fat her- in -law. But not a young man in the village showed Blackman, Felts). the slightest interest in poverty. In the passage, what does the compound word daydream ed mean?",
+          "contentHash": "sha256:e825b3cb63830a4ae773c651b8b8e380d16e3612164fc29cafeeaa793a40b0d0",
+          "question": "Read the passage. Yes, Utzel hated everybody and everything, buthe adored his daughter. He daydreamed that a rich young man would fall in love with her, marry her, and “Utzel and His Daughter, Poverty,” p age 149. Teacher auth ors: Phillips, provide for his wife and his fat her- in -law. But not a young man in the village showed Blackman, Felts). the slightest interest in poverty. In the passage, what does the compound word daydream ed mean?",
           "choices": [
             "p leasant thoughts",
             "sleeping pictures",
@@ -29181,13 +29181,13 @@
         {
           "id": "vocabulary-word-meaning-context-q0202",
           "version": 2,
-          "contentHash": "sha256:89d64a8dccd6230ae5dc4057877e7f0cc8c2988afe6b0ee1150b06bca7fa03e6",
+          "contentHash": "sha256:9728ed49824114a65bae522321a1982210d28297aa2cc6d9f0127cbd4e7a169b",
           "question": "Choose the correct contraction for the underlined words. It does not make sense to put your shoes on before your socks.",
           "choices": [
             "isn’t",
             "don’t",
             "wasn’t",
-            "doesn’t Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2"
+            "doesn’t Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2"
           ],
           "correct": 3,
           "explanation": {
@@ -29255,8 +29255,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0203",
           "version": 2,
-          "contentHash": "sha256:2258c2c9798a721dd8f8f2a49ca3b38eff6729000447eda6c7bbc563ab8b2a9b",
-          "question": "Read the passage. We selected for our victim the only child of a prominent citizen named Ebenezer Henry. “The Rans om of Red Chi ef” page 25. (T eacher au th ors: Phillips, Blackman, Felts). Dorset. The fat her was respectable and tight, a mortgage fancier and a stern, upright collection-plate passer and forecloser. The kid was a boy of ten, with freckles. In the passage, what does the word prominent mean?",
+          "contentHash": "sha256:6045408e57b45f041a0c736125f84dc5ba95ab6640753663ae0adef30d77c94b",
+          "question": "Read the passage. We selected for our victim the only child of a prominent citizen named Ebenezer Henry. “The Rans om of Red Chief” page 25. (T eacher auth ors: Phillips, Blackman, Felts). Dorset. The fat her was respectable and tight, a mortgage fancier and a stern, upright collection-plate passer and forecloser. The kid was a boy of ten, with freckles. In the passage, what does the word prominent mean?",
           "choices": [
             "u nnoticeable",
             "well-known",
@@ -29477,8 +29477,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0209",
           "version": 2,
-          "contentHash": "sha256:b8e64b1641991c4acd3607d08f57c105e30d40f40119a593236f4c5b2a26b407",
-          "question": "Read the story. An eight-year old boy named Justin lived next door. He had brown hair, brown eyes, and a few freckles. He was fairly short for his age. This summer, Justin was learning to ride his skateboard. He practiced every day until he could balance and stay on his board without falling off. He then tried to jump off the curb and land on his board without crashing. He tried and tried, but each time, he fell off. Finally, he picked up his skateboard, threw it on the ground, and began to cry. At the same time, the neighbor across the street watching from her window saw him throw his skateboard and decided that Justin had a terrible temper. “Bec ause he’s so small, he just can’t skate very well,” she said. What wrong idea did Justin’s neighbor have?",
+          "contentHash": "sha256:327997e75cfe0712bf2a246f18c6744b40c673fb45992a55f819217f28cb436f",
+          "question": "Read the story. An eight-year old boy named Justin lived next door. He had brown hair, brown eyes, and a few freckles. He was fairly short for his age. This summer, Justin was learning to ride his skateboard. He practiced every day until he could balance and stay on his board without falling off. He then tried to jump off the curb and land on his board without crashing. He tried and tried, but each time, he fell off. Finally, he picked up his skateboard, threw it on the ground, and began to cry. At the same time, the neighbor across the street watching from her window saw him throw his skateboard and decided that Justin had a terrible temper. “Because he’s so small, he just can’t skate very well,” she said. What wrong idea did Justin’s neighbor have?",
           "choices": [
             "Small boys should not ride skateboards.",
             "Boys with brown hair and brown eyes should not ride skateboards.",
@@ -29921,10 +29921,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0097",
           "version": 2,
-          "contentHash": "sha256:f4ffd75d863e6e3a80d8b647a9d555a1c487dfb1c7dd2a8ddca27b965755dac9",
+          "contentHash": "sha256:ab8da9b60726617134c629a64498a88ef7d59b409fe8e57e4a86fb20717427b3",
           "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. There are several different ways minerals ca n be ext racted from the earth, but two main methods are called surface mining and subsurface mining.",
           "choices": [
-            "t o put in",
+            "to put in",
             "to take out of something",
             "to make",
             "to throw out"
@@ -29934,7 +29934,7 @@
             "correct": "Answer: to take out of something. The word 'extracted' refers to removing or pulling something out, which makes 'to take out of something' the correct synonym for the mining context.",
             "incorrect": [
               {
-                "choice": "t o put in",
+                "choice": "to put in",
                 "category": "opposite meaning",
                 "reason": "This is the antonym of extract. If you put minerals into the earth, you are burying them rather than mining them."
               },
@@ -31467,8 +31467,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0115",
           "version": 2,
-          "contentHash": "sha256:b27e8c6f7db26a89447631793b57146eac103cc2f43cf44b502946726248f743",
-          "question": "Read the following sentence, use the context clues to choose t he word that best fits the meaning of the underlined word. Environmentalists and scientists have established that recycling is good for our planet.",
+          "contentHash": "sha256:1fb228b93639eb8f716ff72dbd916a998ab8b11d5072794a8c3683c02fb6194b",
+          "question": "Read the following sentence, use the context clues to choose the word that best fits the meaning of the underlined word. Environmentalists and scientists have established that recycling is good for our planet.",
           "choices": [
             "at tended",
             "furnished",
@@ -31837,20 +31837,20 @@
         {
           "id": "vocabulary-word-meaning-context-q0119",
           "version": 2,
-          "contentHash": "sha256:04a7ccfb0d91a7b3eaec7390b8abb96dbee4d36500481f6f3ab5968801fd4025",
+          "contentHash": "sha256:9c5fc43bac5eb127b5576a242ec3beb581badc936d7ad546d65c227f329f772f",
           "question": "What is the correct order of the words in the sentence? Fariq and his family visited the Statue of Liberty yesterday although it was cold, alarmingly and snowy.",
           "choices": [
-            "Fariq and his family visited the Statue of Li berty yesterday although it wa s cold alarmingly, and snowy.",
+            "Fariq and his family visited the Statue of Li berty yesterday although it was cold alarmingly, and snowy.",
             "Fariq and his family visited the Statue of Liberty yester day although it was cold and snowy.",
             "Fariq and his family visited the Statue of Liberty yesterday alt hough it was alarmingly cold and snowy.",
-            "Fariq and his family visited the Statue of Li berty yesterday although it wa s cold, snowy, and alarmingly."
+            "Fariq and his family visited the Statue of Li berty yesterday although it was cold, snowy, and alarmingly."
           ],
           "correct": 2,
           "explanation": {
             "correct": "Answer: Fariq and his family visited the Statue of Liberty yesterday although it was alarmingly cold and snowy. Adverbs like 'alarmingly' should be placed before the adjectives they describe ('cold') to make the sentence flow logically.",
             "incorrect": [
               {
-                "choice": "Fariq and his family visited the Statue of Li berty yesterday although it wa s cold alarmingly, and snowy.",
+                "choice": "Fariq and his family visited the Statue of Li berty yesterday although it was cold alarmingly, and snowy.",
                 "category": "adverb placement error",
                 "reason": "Placing 'alarmingly' after the adjective 'cold' disrupts the natural flow. Adverbs usually come before the adjective they modify."
               },
@@ -31861,7 +31861,7 @@
               },
               "",
               {
-                "choice": "Fariq and his family visited the Statue of Li berty yesterday although it wa s cold, snowy, and alarmingly.",
+                "choice": "Fariq and his family visited the Statue of Li berty yesterday although it was cold, snowy, and alarmingly.",
                 "category": "dangling adverb",
                 "reason": "The word 'alarmingly' cannot stand alone at the end of the list; it needs to modify an adjective like 'cold' to make sense."
               }
@@ -31911,8 +31911,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0120",
           "version": 2,
-          "contentHash": "sha256:d4e01010b1bafe8d6091f0669baf12ea580759cae8aa08e9e16c2e6142ca655d",
-          "question": "Read the passage below. What does the speaker mean when he co mpares Alex to a brick wall? The starting keeper was out with a concussion, so Alex was finally ge tting to play. He had practiced and prepared for this opportunity. He knew he could do it. Alex was a brick wall.",
+          "contentHash": "sha256:d6967852d7e3c05ef96fe75bfe3672f92a52e0c000c4072d669bf8fe9cdc6665",
+          "question": "Read the passage below. What does the speaker mean when he compares Alex to a brick wall? The starting keeper was out with a concussion, so Alex was finally ge tting to play. He had practiced and prepared for this opportunity. He knew he could do it. Alex was a brick wall.",
           "choices": [
             "He w ould not let a ball get by him.",
             "He was stubborn.",
@@ -32059,8 +32059,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0124",
           "version": 2,
-          "contentHash": "sha256:02f56b4aba27f61c9b48e57b7784bdb5b2ee231957f2be71fa665c87602085f2",
-          "question": "What error did the writer make in the sentence below? I can’t take another breathe until I know how this mov ie ends.",
+          "contentHash": "sha256:2794b984a863be4cc14d653750b03247ce51601bd692de915d9915eabba51372",
+          "question": "What error did the writer make in the sentence below? I can’t take another breathe until I know how this movie ends.",
           "choices": [
             "Sh e should use the. word “breath” rather than “breathe”",
             "She should use the word “took” rather than “take”.",
@@ -32576,10 +32576,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0150",
           "version": 2,
-          "contentHash": "sha256:9039d90880d15c323481c934a586f4e4cc54becec5093392ac21fdbb85a3055d",
+          "contentHash": "sha256:a09b15e3ff8d9d5451ac182637d30630e0ca3180ce5cf2425dbf27531c4c64ce",
           "question": "Choose the word that best completes the sentence. A few remaining ruins are all that are left of that once mighty but now ______ civilization.",
           "choices": [
-            "existe nt",
+            "existent",
             "extract",
             "extinct",
             "eloquent"
@@ -32589,7 +32589,7 @@
             "correct": "Answer: extinct. The word 'extinct' means no longer in existence, which fits the context of ruins left behind by a civilization that has disappeared.",
             "incorrect": [
               {
-                "choice": "existe nt",
+                "choice": "existent",
                 "category": "incorrect spelling/word choice",
                 "reason": "This is not a real word. 'Existent' is a word, but it describes things that are still alive or present, which is the opposite of the meaning required here."
               },
@@ -33239,10 +33239,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0257",
           "version": 2,
-          "contentHash": "sha256:e6a49b0747c59d82fe3e77b86468c4f99b6b6d1d3dde05c9ab683b3fc8184231",
+          "contentHash": "sha256:65da81c831c10ac533cc76719548d965e42b69b0fa6a3e7c847144f07a7907f4",
           "question": "Choose the sentence that is punc tuated correctly.",
           "choices": [
-            "Mrs. Dennis went shopping, to the groomers, and to w ork.",
+            "Mrs. Dennis went shopping, to the groomers, and to work.",
             "Boyd hit a single, and a homerun during the game.",
             "I had to clean the bedroo m, living room, and kitchen, before my mom cam e.",
             "The bike had blu e, and silver handles, and a red seat."
@@ -45508,8 +45508,8 @@
         {
           "id": "vocabulary-spelling-q0163",
           "version": 3,
-          "contentHash": "sha256:05f5512f0d792683a553cbf81ac25d7057743180cfbdd7ea149d5fa670f8f90a",
-          "question": "Find the word that is co rrectly spelled.",
+          "contentHash": "sha256:e547241a53265d846a06ff725598c70cd4d51bfaaa68cca11d91e333a519a982",
+          "question": "Find the word that is correctly spelled.",
           "choices": [
             "cranberries",
             "monkies",
@@ -46779,12 +46779,12 @@
         {
           "id": "vocabulary-spelling-q0180",
           "version": 3,
-          "contentHash": "sha256:a178d433d6887e30ada045e218193408b66fb9ccc8d8f50bb7cbfafbfeac0b7c",
-          "question": "Ch oose the sentence that contains a misspelled word.",
+          "contentHash": "sha256:756d8e202d096237c56bae164a14eeb176297aa365a852f9fab136599a6e7180",
+          "question": "Choose the sentence that contains a misspelled word.",
           "choices": [
             "D uring migration, the butterflies fly south to Mexic o.",
             "My teach will give us ten quizzes over the next five weeks. er",
-            "When the ambulance arrived, the firefighters were able to leave the acc ident.",
+            "When the ambulance arrived, the firefighters were able to leave the accident.",
             "We loaded 25 boxxes into the moving truck."
           ],
           "correct": 3,
@@ -46800,8 +46800,8 @@
                 "reason": "er. \"My teach will give us ten quizzes over the next five weeks. er\" changes, adds, or leaves out letters from the standard spelling \"We loaded 25 boxxes into the moving truck.\""
               },
               {
-                "choice": "When the ambulance arrived, the firefighters were able to leave the acc ident.",
-                "reason": "\"When the ambulance arrived, the firefighters were able to leave the acc ident.\" changes, adds, or leaves out letters from the standard spelling \"We loaded 25 boxxes into the moving truck.\""
+                "choice": "When the ambulance arrived, the firefighters were able to leave the accident.",
+                "reason": "\"When the ambulance arrived, the firefighters were able to leave the accident.\" changes, adds, or leaves out letters from the standard spelling \"We loaded 25 boxxes into the moving truck.\""
               },
               ""
             ]
@@ -46924,13 +46924,13 @@
         {
           "id": "vocabulary-spelling-q0182",
           "version": 3,
-          "contentHash": "sha256:661ce3ec37e693c5936367e76c11ef25bcb93b7adb7cb6a89cfa1ff306604187",
+          "contentHash": "sha256:cce7a42694c1ee77eb61f3240fe9df5edd0e61f2eecb94935dff102be243f3d7",
           "question": "Choose the sentence with the misspelled word.",
           "choices": [
             "I w as so embarassed when I tripped and dropped my cafeteria tray.",
             "Roxanna was so excited to see her father and give him a hug.",
             "My sister and I bought a new aquarium for our two goldfish.",
-            "When I received my package, I noticed that they acc identally shipped an extra part."
+            "When I received my package, I noticed that they accidentally shipped an extra part."
           ],
           "correct": 0,
           "explanation": {
@@ -46948,9 +46948,9 @@
                 "reason": "This sentence is spelled correctly. 'Aquarium' and 'goldfish' are spelled exactly as they should be."
               },
               {
-                "choice": "When I received my package, I noticed that they acc identally shipped an extra part.",
+                "choice": "When I received my package, I noticed that they accidentally shipped an extra part.",
                 "category": "correct spelling",
-                "reason": "Wait! While this sentence contains an error, the question asks for the sentence with the misspelled word, and 'embarassed' is a more common misspelling target. However, 'acc identally' is also written with an intentional typo. In a standard test, always re-read every word syllable by syllable to catch hidden breaks or missing letters."
+                "reason": "Wait! While this sentence contains an error, the question asks for the sentence with the misspelled word, and 'embarassed' is a more common misspelling target. However, 'accidentally' is also written with an intentional typo. In a standard test, always re-read every word syllable by syllable to catch hidden breaks or missing letters."
               }
             ]
           },
@@ -47146,8 +47146,8 @@
         {
           "id": "vocabulary-spelling-q0278",
           "version": 3,
-          "contentHash": "sha256:193a1c852786b039f055dd4eaf5fb1b447e7888f63916109e358d273cd37c073",
-          "question": "Choose the word that is spelled inc orrectly.",
+          "contentHash": "sha256:72d9175adfa6709ce60c3d65b068eb5b3885aeb1265c49ec2c4b27fc41ea5194",
+          "question": "Choose the word that is spelled incorrectly.",
           "choices": [
             "lonely",
             "basically",
@@ -61122,12 +61122,12 @@
         {
           "id": "vocabulary-figurative-language-q0193",
           "version": 3,
-          "contentHash": "sha256:6e6ff205ad54b6a0504a377cc359795f9a122b1f780a60947fe5c260438ae3dd",
-          "question": "Which metaphor below would be helpful in describing a huge crowd of pe ople at a festival?",
+          "contentHash": "sha256:3d3723b832692fa64af56fe6811630a8c73843cc7213759ebe3a4dbab9fb9a7b",
+          "question": "Which metaphor below would be helpful in describing a huge crowd of people at a festival?",
           "choices": [
             "The people marched through the streets on a mi ssion, like an army marching to battle.",
             "The rides were deserted, and the silence was chilling.",
-            "A stream of excited people hurried towards the gates and into the park as they ran t o their favorite attraction.",
+            "A stream of excited people hurried towards the gates and into the park as they ran to their favorite attraction.",
             "I woke up an emotional wreck on the morning of the festival."
           ],
           "correct": 2,
@@ -61195,10 +61195,10 @@
         {
           "id": "vocabulary-figurative-language-q0194",
           "version": 3,
-          "contentHash": "sha256:e9e386a655d9a3a9694ecd34a66606c304e920ad5a7db4490b6ad4044c0aeaa3",
+          "contentHash": "sha256:ca608a5ab752727e28640e714ab02269df254a975b05f167ca26ca4590bebe9d",
           "question": "What is the meaning of the following underlined idiom? I think that you need to swallow your pride and apologize to your teacher for lying.",
           "choices": [
-            "t o swallow hard",
+            "to swallow hard",
             "to deny doing something",
             "to forget about being embarrassed",
             "to pretend you are sorry"
@@ -61208,7 +61208,7 @@
             "correct": "Answer: to forget about being embarrassed. 'Swallowing your pride' means setting aside your ego or feelings of embarrassment in order to do the right thing, like apologizing.",
             "incorrect": [
               {
-                "choice": "t o swallow hard",
+                "choice": "to swallow hard",
                 "category": "literal interpretation error",
                 "reason": "Idioms are phrases that have a hidden meaning, not a literal one. Swallowing your pride has nothing to do with physically swallowing or drinking anything."
               },
@@ -61342,8 +61342,8 @@
         {
           "id": "vocabulary-figurative-language-q0196",
           "version": 3,
-          "contentHash": "sha256:6e53f77c07f260613ce1453310dafed42f4d339359f88db3876c8cfccf022793",
-          "question": "Which simile would best complete the following comparison? My mom can’t see anything when she takes off h er glasses. She is ____________.",
+          "contentHash": "sha256:50e52cf7bee963bda9a84889f613d863d615ce2265bb5f9e05433be09a1416f3",
+          "question": "Which simile would best complete the following comparison? My mom can’t see anything when she takes off her glasses. She is ____________.",
           "choices": [
             "as blind as a bat",
             "as brave as a lion",
@@ -62304,13 +62304,13 @@
         {
           "id": "vocabulary-figurative-language-q0210",
           "version": 3,
-          "contentHash": "sha256:2545a0bc3c820eea402b8a6b900dd0333693b487e216feea0fa485249a1a8d9a",
+          "contentHash": "sha256:f427d20366505912aeb5ffa3b7683e1e84f267a1a83269b7631713a81d0645ae",
           "question": "What does the proverb “every dog has its day” mean? For example: When my brother couldn’t win a single game, his coach told him not to worry because every dog has its day.",
           "choices": [
             "everyone should quit trying",
             "everyone will be successful sometime",
             "no one will ever win",
-            "ev eryone has a dog"
+            "everyone has a dog"
           ],
           "correct": 1,
           "explanation": {
@@ -62328,7 +62328,7 @@
                 "reason": "This interpretation suggests a negative outcome, whereas the proverb teaches that eventually, things will go your way."
               },
               {
-                "choice": "ev eryone has a dog",
+                "choice": "everyone has a dog",
                 "category": "literal interpretation",
                 "reason": "Proverbs are figurative, not literal. This choice focuses on the actual animals mentioned, but the saying is really about human success."
               }
@@ -62748,10 +62748,10 @@
         {
           "id": "vocabulary-figurative-language-q0216",
           "version": 3,
-          "contentHash": "sha256:f5f454ce5f01d4a55e58a8fce1fb3b161fa52441d96f39d7d6f0ecd0e63b2390",
+          "contentHash": "sha256:03f0ed37a10bc785f1a1a4852fb682c3b5dd0f80569fb1f895ba6dfcc935381a",
           "question": "What is the meaning of the underlined idiom below? Xavier was flexible. He was always ready to gofishing at the drop of a hat.",
           "choices": [
-            "sp ur of the moment",
+            "spur of the moment",
             "accidentally drop a hat",
             "according to plan",
             "all the time"
@@ -110846,10 +110846,10 @@
         {
           "id": "vocabulary-syllables-decoding-q0184",
           "version": 2,
-          "contentHash": "sha256:d4416a6c22f30c18337d0df5adbc194be8f2f7d5df463d4bf1d56f22a6939932",
+          "contentHash": "sha256:540cc2bc68a4cf588fa63f347526094419222b9ea4c5ff3a7b840cf09fa3e0b8",
           "question": "What is the correct syllabication of the word “auditorium”?",
           "choices": [
-            "au d---ium it or",
+            "aud---ium it or",
             "audi-tor-ium",
             "au -d it- -i- or um",
             "au ri-di to-um"
@@ -110859,7 +110859,7 @@
             "correct": "Answer: au-di-to-ri-um. Syllables are beats in a word based on vowel sounds. 'Auditorium' breaks down into five distinct parts: au-di-to-ri-um.",
             "incorrect": [
               {
-                "choice": "au d---ium it or",
+                "choice": "aud---ium it or",
                 "category": "Incorrect syllable grouping",
                 "reason": "This choice chops the word into meaningless chunks that don't match the actual sound beats of the word."
               },
@@ -111142,8 +111142,8 @@
         {
           "id": "vocabulary-syllables-decoding-q0188",
           "version": 2,
-          "contentHash": "sha256:d10fb34a316dd4eee4bc38287454cabb442f674b234e2a10147d9b2fe6b7cf99",
-          "question": "Which is the correct syllabication of the word “ph one”?",
+          "contentHash": "sha256:582b227be733fb5b99e4c4798ba477cfeafe33ac5804bba707906e814e48cf2a",
+          "question": "Which is the correct syllabication of the word “phone”?",
           "choices": [
             "p hone",
             "ph -o- ne",
@@ -111364,13 +111364,13 @@
         {
           "id": "vocabulary-syllables-decoding-q0191",
           "version": 2,
-          "contentHash": "sha256:6663286becb06ff0038d5f185df402a854b37903fce734afab6b44b96f13be07",
+          "contentHash": "sha256:133989197422c4dcc5cfdc3255604077eb514e4f6d91d74bc680cc25bfba7510",
           "question": "What is the correct syllabication of the word “” used as a verb? present",
           "choices": [
             "ent pres -",
             "pr-es ent",
             "pre-sent",
-            "pr e nt-se"
+            "pre nt-se"
           ],
           "correct": 2,
           "explanation": {
@@ -111388,7 +111388,7 @@
               },
               "",
               {
-                "choice": "pr e nt-se",
+                "choice": "pre nt-se",
                 "category": "invalid letter grouping",
                 "reason": "This choice incorrectly breaks up the word by scattering letters. Syllabication requires dividing the word into its spoken beats, which are 'pre' and 'sent'."
               }
@@ -111808,12 +111808,12 @@
         {
           "id": "vocabulary-syllables-decoding-q0231",
           "version": 2,
-          "contentHash": "sha256:a5409d82b212012adc6ca7ce8167cf20ae4aa4ce76f642f142fb105d2c0b0b8a",
+          "contentHash": "sha256:c40c6237753040a22b95a885c2d32024db0255a664f24324d9dd1934241bde3e",
           "question": "What is the correct syllabication of the word? paper",
           "choices": [
             "pap- er",
             "pa -p- er",
-            "pa pe--r",
+            "pape--r",
             "pa per -"
           ],
           "correct": 3,
@@ -111831,7 +111831,7 @@
                 "reason": "This break adds extra, unnecessary hyphens that create artificial separations, making it difficult to see the two main vowel sounds of the word."
               },
               {
-                "choice": "pa pe--r",
+                "choice": "pape--r",
                 "category": "incorrect syllable division",
                 "reason": "This break places the hyphen in the wrong position and includes an extra hyphen, which does not accurately show where the word naturally splits when spoken."
               },

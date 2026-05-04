@@ -63,7 +63,7 @@
 
     const limit = state && state.selectedMixedQuestionLimit === 'max'
       ? 'max'
-      : Math.max(4, Number(state && state.selectedMixedQuestionLimit) || Number(mixedQuizConfig.questionsPerSubtopic) || 4);
+      : Math.max(1, Number(state && state.selectedMixedQuestionLimit) || Number(mixedQuizConfig.questionsPerSubtopic) || 4);
     const selected = [];
     const activeSubtopics = getActiveMixedSubtopics(state);
     activeSubtopics.forEach(subtopic => {
@@ -211,6 +211,42 @@
     return (Array.isArray(questions) ? questions : []).map((question, index) => getQuestionRef(question, index + 1, subtopic));
   }
 
+  function findNextUnansweredQuestionIndex(questions, attempts, savedIndex) {
+    const source = Array.isArray(questions) ? questions : [];
+    const total = source.length;
+    if (!total) return 0;
+    const normalizedSavedIndex = Math.min(Math.max(0, Number(savedIndex) || 0), total);
+    const answered = getAnsweredQuestionIndexes(source, attempts);
+    if (!answered.size) return normalizedSavedIndex;
+    for (let index = 0; index < total; index += 1) {
+      if (!answered.has(index)) return index;
+    }
+    return total;
+  }
+
+  function getAnsweredQuestionIndexes(questions, attempts) {
+    const source = Array.isArray(questions) ? questions : [];
+    const byId = {};
+    source.forEach((question, index) => {
+      const ref = getQuestionRef(question, index + 1);
+      if (ref.id) byId[ref.id] = index;
+    });
+    const answered = new Set();
+    (Array.isArray(attempts) ? attempts : []).forEach(attempt => {
+      if (!attempt || typeof attempt !== 'object') return;
+      const position = Number(attempt.position);
+      if (Number.isInteger(position) && position >= 1 && position <= source.length) {
+        answered.add(position - 1);
+        return;
+      }
+      const id = getAttemptQuestionId(attempt);
+      if (id && Object.prototype.hasOwnProperty.call(byId, id)) {
+        answered.add(byId[id]);
+      }
+    });
+    return answered;
+  }
+
   function normalizeSelectionRequest(input = {}, options = {}) {
     const setIds = Array.from(new Set((Array.isArray(input.setIds) ? input.setIds : [])
       .map(value => String(value || '').trim())
@@ -255,6 +291,7 @@
     getDifficultyDistance,
     difficultyRank,
     buildQuestionRefs,
+    findNextUnansweredQuestionIndex,
     normalizeSelectionRequest,
     getQuestionId,
     getQuestionRef,

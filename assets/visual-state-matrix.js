@@ -102,6 +102,34 @@
         nonVisualReason: 'Subscription route contract, accessibility smoke, and page-shell unit tests cover the deterministic disabled checkout state before visual billing baselines exist.'
       }),
       entry({
+        id: 'subscription-billing-loading',
+        flow: 'subscription',
+        state: 'loading',
+        route: 'subscription.html',
+        nonVisualReason: 'Billing UX regression unit and accessibility coverage assert parent-safe loading copy, aria-live status, and free-practice availability without a high-churn baseline.'
+      }),
+      entry({
+        id: 'subscription-billing-empty',
+        flow: 'subscription',
+        state: 'empty',
+        route: 'subscription.html',
+        nonVisualReason: 'Billing UX regression component coverage validates no-subscription and no-receipts empty states across responsive copy pressure.'
+      }),
+      entry({
+        id: 'subscription-billing-error-recovery',
+        flow: 'subscription',
+        state: 'error',
+        route: 'subscription.html',
+        nonVisualReason: 'Billing UX regression tests cover provider unavailable, failed-payment, and delayed-webhook recovery copy more deterministically than a screenshot.'
+      }),
+      entry({
+        id: 'subscription-checkout-method-fallbacks',
+        flow: 'subscription',
+        state: 'disabled',
+        route: 'subscription.html',
+        nonVisualReason: 'Checkout availability and billing UX unit coverage assert selected-plan preservation and fallback payment methods while checkout remains disabled.'
+      }),
+      entry({
         id: 'offline-unavailable',
         flow: 'offline',
         state: 'offline',

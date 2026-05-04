@@ -735,12 +735,24 @@
     return {
       id: String(session.id || ''),
       learnerId: String(session.learnerId || session.studentId || ''),
+      title: String(session.title || ''),
+      topic: String(session.topic || ''),
+      mode: String(session.mode || session.quizMode || ''),
+      quizMode: String(session.quizMode || session.mode || ''),
+      score: Number(session.score) || 0,
+      total: Number(session.total) || 0,
+      percentage: Number(session.percentage) || 0,
+      durationSeconds: Number(session.durationSeconds) || 0,
       completedAt: String(session.completedAt || ''),
       attempts: (Array.isArray(session.attempts) ? session.attempts : []).map(attempt => ({
         questionId: String(attempt.questionId || attempt.id || ''),
         questionVersion: Number(attempt.questionVersion) || 0,
         questionHash: String(attempt.questionHash || attempt.contentHash || ''),
         correct: attempt.correct === true,
+        grade: String(attempt.grade || ''),
+        difficulty: String(attempt.difficulty || ''),
+        subtopicId: String(attempt.subtopicId || attempt.sourceSet || ''),
+        subtopicTitle: String(attempt.subtopicTitle || ''),
         skillIds: normalizeStringArray(attempt.skillIds),
         standardIds: normalizeStringArray(attempt.standardIds)
       }))

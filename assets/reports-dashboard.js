@@ -678,6 +678,7 @@
           </div>
         </div>
         <dl class="answer-meta">
+          ${renderQuestionIdentityMeta(report)}
           <div><dt>Reason</dt><dd>${escapeHtml(formatReportReason(report.reason))}</dd></div>
           <div><dt>Status</dt><dd>${escapeHtml(formatReportStatus(report.status))}</dd></div>
           <div><dt>Reported</dt><dd>${formatDate(report.createdAt)}</dd></div>
@@ -791,12 +792,13 @@
 
   function renderQuestionIdentityMeta(attempt) {
     const parts = [];
+    const questionId = getAttemptQuestionId(attempt);
     if (attempt.questionVersion) parts.push(`v${attempt.questionVersion}`);
     if (attempt.questionHash) parts.push(String(attempt.questionHash).slice(0, 18));
     if (attempt.sourceSet) parts.push(attempt.sourceSet);
     if (attempt.sequence) parts.push(`sequence ${attempt.sequence}`);
-    return parts.length
-      ? `<div><dt>Question ID</dt><dd>${escapeHtml([getAttemptQuestionId(attempt)].concat(parts).join(' · '))}</dd></div>`
+    return questionId || parts.length
+      ? `<div><dt>Question ID</dt><dd>${escapeHtml([questionId].concat(parts).filter(Boolean).join(' · '))}</dd></div>`
       : '';
   }
 
@@ -927,7 +929,7 @@
       correctChoice: choices[correctIndex] || item.correctChoice || '',
       explanation: item.explanation || null,
       studyAid: item.studyAid || null,
-      visualScene: item.visualScene || null,
+      visualScene: item.visualScene || item.generatedVisualScene || null,
       spelling: item.spelling || null,
       correct: typeof item.correct === 'boolean' ? item.correct : selectedIndex >= 0 && selectedIndex === correctIndex,
       topic: item.title || item.topic || item.subtopicTitle || '',

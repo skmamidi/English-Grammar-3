@@ -159,11 +159,13 @@ test('checkout launch docs subscription route and package wiring are present', (
     'unsupported recurrence type',
     'provider outage',
     'checkout readiness failure',
+    'sandbox and staging payment rehearsals',
     'preserve the selected plan',
     'free practice remains available'
   ].forEach(required => assert.match(docs, new RegExp(escapeRegex(required), 'i')));
 
   assert.match(checkoutDocs, /checkout-launch-availability-policy\.md/);
+  assert.match(docs, /billing-payment-rehearsals\.md/);
   assert.match(subscription, /Payment Method Availability/i);
   assert.match(subscription, /Major cards/i);
   assert.match(subscription, /Apple Pay/i);

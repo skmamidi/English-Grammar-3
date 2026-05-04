@@ -4636,8 +4636,8 @@
         {
           "id": "grammar-pronouns-q0016",
           "version": 2,
-          "contentHash": "sha256:14ed948c34a7dd2bcd3b86f9c6bc541f5099fc6cc2bb480dae4b8db9ee5e7e8d",
-          "question": "Fill in the blank with the correct word choice. June and July are the months ________ most peo ple take trips.",
+          "contentHash": "sha256:1225d73b2d8a2c78866fd96939368cbe7b93191ea1262f522d9e049eea92d3b9",
+          "question": "Fill in the blank with the correct word choice. June and July are the months ________ most people take trips.",
           "choices": [
             "when",
             "how",
@@ -5204,21 +5204,21 @@
         {
           "id": "grammar-pronouns-q0024",
           "version": 2,
-          "contentHash": "sha256:bcf1701d5483ca63ea1c782add46084c3ed09d2f014fd11c4f68e0982670282b",
+          "contentHash": "sha256:3dd3c1937899174fc8fd613b7e194caecb1ddf587f958b83407422c12750aeb5",
           "question": "When in a sentence? is “who” used",
           "choices": [
-            "Wh o and whom can be used in place of one another.",
+            "Who and whom can be used in place of one another.",
             "Who is always used as an object.",
-            "Wh o is always used as the subject a verb. to",
+            "Who is always used as the subject a verb. to",
             "None of the above"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Wh o is always used as the subject a verb. to. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"Wh o is always used as the subject a verb. to\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: Who is always used as the subject a verb. to. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"Who is always used as the subject a verb. to\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
-                "choice": "Wh o and whom can be used in place of one another.",
-                "reason": "\"Wh o and whom can be used in place of one another.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Who and whom can be used in place of one another.",
+                "reason": "\"Who and whom can be used in place of one another.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "Who is always used as an object.",
@@ -5630,10 +5630,10 @@
         {
           "id": "grammar-pronouns-q0034",
           "version": 2,
-          "contentHash": "sha256:fa05edb5be7a86183351ceed48c20a846ed24e5222ab9bdb28f7a0eeffcfe960",
+          "contentHash": "sha256:0db21dfbdd17c4f4d9595e83292dabb7b5d5da561e3b8b71b393eeccde901388",
           "question": "Identify therelative pronoun in the sentence below. The boy who stole your jacket has been caught at his sschool.",
           "choices": [
-            "b oy",
+            "boy",
             "who",
             "has been",
             "his"
@@ -5643,8 +5643,8 @@
             "correct": "Answer: who. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"who\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
-                "choice": "b oy",
-                "reason": "\"b oy\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "boy",
+                "reason": "\"boy\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               "",
               {
@@ -5843,12 +5843,12 @@
         {
           "id": "grammar-pronouns-q0041",
           "version": 2,
-          "contentHash": "sha256:64519f30e8affa43222a65881d482fd2838f4fa093a17fc9df00b3b59bf76019",
+          "contentHash": "sha256:d9ff4f456767597a6552e219bbe19757f1adc11de8d87054751face1a5c929d7",
           "question": "Fill in the blank with the correct word choice. She has a bike ____ she got from her mom.",
           "choices": [
             "who",
             "whom",
-            "wh ose",
+            "whose",
             "th at"
           ],
           "correct": 3,
@@ -5864,8 +5864,8 @@
                 "reason": "\"whom\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
-                "choice": "wh ose",
-                "reason": "\"wh ose\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "whose",
+                "reason": "\"whose\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               ""
             ]
@@ -6056,8 +6056,8 @@
         {
           "id": "grammar-pronouns-q0044",
           "version": 2,
-          "contentHash": "sha256:a069811c4960ad7bb1e039f96c2b390212c1fd7cb4961f19ec2700c28550a09e",
-          "question": "Fill in the blank with the correct word choic e. _______ are yo u going to ask to the d ance?",
+          "contentHash": "sha256:e16ce7a3baa755cfb246126754a3e4c3f3ac361b8614375531042c941a4434d7",
+          "question": "Fill in the blank with the correct word choice. _______ are you going to ask to the d ance?",
           "choices": [
             "Whose",
             "Whom",
@@ -6127,8 +6127,8 @@
         {
           "id": "grammar-pronouns-q0047",
           "version": 2,
-          "contentHash": "sha256:52681883cc464374edef60019846aed4ed07c58a70baf997bb8f1c3e627b005f",
-          "question": "Ch oo se the sentence that is correct.",
+          "contentHash": "sha256:48c23c432a88204d47d8fd9a40a424a11828b80795f78a2e226db087f4f95a00",
+          "question": "Choo se the sentence that is correct.",
           "choices": [
             "Their are not enough seats for our family.",
             "There are not enough seats for our family.",
@@ -6269,17 +6269,17 @@
         {
           "id": "grammar-pronouns-q0051",
           "version": 2,
-          "contentHash": "sha256:ff6e82fb0ff33146b92ee765a709eb900baa62f1cabf15b067a21cee7478d8ac",
+          "contentHash": "sha256:c1967f2b26bf96d213eb695a61358a260c28294e202cb3284b447ca12cbda319",
           "question": "Fill in the blank with the correct word choice. The vase, ________ is old, belonged to his great aunt.",
           "choices": [
-            "wh ich",
+            "which",
             "who",
             "whose",
             "that"
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: wh ich. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"wh ich\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: which. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"which\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               "",
               {
@@ -6340,8 +6340,8 @@
         {
           "id": "grammar-pronouns-q0052",
           "version": 2,
-          "contentHash": "sha256:af68414fcb15451d230b873a1bae2f0c51f46c0929870f6d31bc7cb04e208664",
-          "question": "Choose the sentence that uses verb tenses correc tly.",
+          "contentHash": "sha256:41ae3825c33347a412de980ab6aee74fd94673bd0175dc312d8c428f895ab7bc",
+          "question": "Choose the sentence that uses verb tenses correctly.",
           "choices": [
             "The teacher was told us about our homework assignment.",
             "Therain will starting this afternoon.",
@@ -6624,8 +6624,8 @@
         {
           "id": "grammar-pronouns-q0059",
           "version": 3,
-          "contentHash": "sha256:a8b1a9b951ce7f2cace8e9bf5993f230b6ea4e2d1ca264cbf06781ca33b90e61",
-          "question": "In the sentence below, replace “can” with the correct verb i n the sentence. Loretta can have taken the test before she went on vacation, but she did not inform her teacher about the trip in advance.",
+          "contentHash": "sha256:993963c391b254bea565987205a610bcbee1bf9778cc195a451e313070f39644",
+          "question": "In the sentence below, replace “can” with the correct verb in the sentence. Loretta can have taken the test before she went on vacation, but she did not inform her teacher about the trip in advance.",
           "choices": [
             "can’t",
             "will",
@@ -6695,10 +6695,10 @@
         {
           "id": "grammar-pronouns-q0061",
           "version": 2,
-          "contentHash": "sha256:92f7a23ead7c4ff45ce5b7afda7c55895e642093c9f7f2fe255f328234044d4e",
+          "contentHash": "sha256:facc8f1a6601d41150d9c7d147a7d391186ebeb5d137254fb25facb06c9881fa",
           "question": "Fill in the blank with the correct word choice. _________ dog is barkingoutside?",
           "choices": [
-            "Wh o’s",
+            "Who’s",
             "Whose",
             "Whom",
             "Who"
@@ -6708,8 +6708,8 @@
             "correct": "Answer: Whose. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"Whose\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
-                "choice": "Wh o’s",
-                "reason": "\"Wh o’s\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Who’s",
+                "reason": "\"Who’s\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               "",
               {
@@ -6766,17 +6766,17 @@
         {
           "id": "grammar-pronouns-q0062",
           "version": 2,
-          "contentHash": "sha256:45399484829b09844ab5ec849ec33ffac60904dcc95ca5a2be6aa66f9195d7e1",
+          "contentHash": "sha256:e55c460529134dd3050bf0b0da589cd3177b5493bf7f2d513320fd9cd3438c86",
           "question": "Which of the following words is not a relative pronoun?",
           "choices": [
-            "h is",
+            "his",
             "whose",
             "which",
             "that"
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: h is. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"h is\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: his. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"his\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               "",
               {
@@ -7121,17 +7121,17 @@
         {
           "id": "grammar-pronouns-q0071",
           "version": 2,
-          "contentHash": "sha256:3501d93a84c5377223d00918477861824ca1f4c5105cb87fd0af98ceb2d64f44",
+          "contentHash": "sha256:53d4c60bd5fce7f6b8c50d796eeb634c6b3cd5c66e5ae5b9a97850d02741fb5d",
           "question": "Fill in the blank with the correct word choice. _________ is going to clean the yard?",
           "choices": [
             "Who’s",
             "Who m",
-            "Wh o",
-            "Wh ich"
+            "Who",
+            "Which"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Wh o. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"Wh o\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: Who. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"Who\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
                 "choice": "Who’s",
@@ -7143,8 +7143,8 @@
               },
               "",
               {
-                "choice": "Wh ich",
-                "reason": "\"Wh ich\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Which",
+                "reason": "\"Which\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               }
             ]
           },
@@ -7476,13 +7476,13 @@
         {
           "id": "grammar-pronouns-q0082",
           "version": 2,
-          "contentHash": "sha256:bac9210ed68422e5934c40bbbad5fd70084bdf4c21c96e9506c8472bc9b17089",
-          "question": "Wh ich of the following words is not a relative pronoun?",
+          "contentHash": "sha256:4e18332e724c0f3f784340e5b923dd7c45f4bcdbd8583c6a4a35af6c9e6540ce",
+          "question": "Which of the following words is not a relative pronoun?",
           "choices": [
             "mine",
             "whom",
             "whose",
-            "wh o"
+            "who"
           ],
           "correct": 0,
           "explanation": {
@@ -7498,8 +7498,8 @@
                 "reason": "\"whose\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
-                "choice": "wh o",
-                "reason": "\"wh o\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "who",
+                "reason": "\"who\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               }
             ]
           },
@@ -7760,11 +7760,11 @@
         {
           "id": "grammar-pronouns-q0088",
           "version": 2,
-          "contentHash": "sha256:76ee42b5de9dd05aaea804c3cc4879455d66c37fd6aea7761a324feb56afb632",
+          "contentHash": "sha256:d5f11c25888f669ab871029f122cf81e1dd5155335e08b43db17549f790cb185",
           "question": "Which answer choice corrects this run-on sentence? Jonathan wants to go outside and play with his puppy his mother said he had to do his homework rst.",
           "choices": [
             "Jo nathan wants to go outside and play with his puppy, but his m other said he had to do his homework rst.",
-            "Jonathan wants to go outside and play but his mother won’t le t him.",
+            "Jonathan wants to go outside and play but his mother won’t let him.",
             "Jonathan wants, to go outside and play with his puppy but his mother said he had to do his homework rst.",
             "Jonathan wants to go outside. And play with his puppy. But his mother said he had to do his homework rst."
           ],
@@ -7774,8 +7774,8 @@
             "incorrect": [
               "",
               {
-                "choice": "Jonathan wants to go outside and play but his mother won’t le t him.",
-                "reason": "\"Jonathan wants to go outside and play but his mother won’t le t him.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Jonathan wants to go outside and play but his mother won’t let him.",
+                "reason": "\"Jonathan wants to go outside and play but his mother won’t let him.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "Jonathan wants, to go outside and play with his puppy but his mother said he had to do his homework rst.",
@@ -8463,17 +8463,17 @@
         {
           "id": "grammar-pronouns-q0077",
           "version": 2,
-          "contentHash": "sha256:931d00af834a9ebdff76247b3d6caaf97ab5abb211cf9c27aee8693deb39c1e1",
+          "contentHash": "sha256:e3f202581b61628309a63f99981a3106ecf655f0fdb3283b896e6ddcb16885e1",
           "question": "In which section of the following sentence is a word used incorrectly? Stop, drop, and role is a fire safety technique when clothing catches fire.",
           "choices": [
-            "St op, drop, and role",
+            "Stop, drop, and role",
             "is a fire safety",
             "technique when clothing",
             "catches fire."
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: St op, drop, and role. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"St op, drop, and role\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: Stop, drop, and role. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"Stop, drop, and role\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               "",
               {
@@ -8603,10 +8603,10 @@
         {
           "id": "grammar-pronouns-q0080",
           "version": 2,
-          "contentHash": "sha256:cea72d3acdd70f443d9ade85404c652ebd35b2e626ecb72f305f66fa891078c3",
+          "contentHash": "sha256:10a2b97cec12559df70f750c94d9573b84fa7e0f8c1333ab1409a98284762318",
           "question": "Fill in the blank with the correct word choice. ________ made the birthday cake?",
           "choices": [
-            "Wh ose",
+            "Whose",
             "Who",
             "Which",
             "Whom"
@@ -8616,8 +8616,8 @@
             "correct": "Answer: Who. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"Who\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
-                "choice": "Wh ose",
-                "reason": "\"Wh ose\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Whose",
+                "reason": "\"Whose\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               "",
               {
@@ -10493,10 +10493,10 @@
         {
           "id": "grammar-pronouns-q0110",
           "version": 2,
-          "contentHash": "sha256:567e641104dbf938ca69c6fa0a0d3f9314e42febf156ea070e1eea4888b8ad93",
+          "contentHash": "sha256:e914324832d7929e7c5f3711345afd19e651a1e85fc024b6d5fe4d2cb6420906",
           "question": "In the passage below, what is the meaning of the word, miser? At the beginning of",
           "choices": [
-            "Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser w ho doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver",
+            "Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver",
             "someone who thinks of others first",
             "someone who wishes to spend as little money as possible",
             "someone who is very old"
@@ -10506,8 +10506,8 @@
             "correct": "Answer: someone who wishes to spend as little money as possible. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"someone who wishes to spend as little money as possible\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
-                "choice": "Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser w ho doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver",
-                "reason": "A. someo ne who is a gift giver. \"Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser w ho doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver",
+                "reason": "A. someo ne who is a gift giver. \"Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "someone who thinks of others first",
@@ -10563,10 +10563,10 @@
         {
           "id": "grammar-pronouns-q0111",
           "version": 2,
-          "contentHash": "sha256:e898859235feab1aa70db887511e4f3a3246faf1f41f560b572839b71b3298d9",
+          "contentHash": "sha256:ba2646f38cb5120e1c580cff4d484be03c6e7d45dc1f17f7c53a96ea52e9bdfb",
           "question": "Which of the following words contains a prefix self that means “?”",
           "choices": [
-            "au dio",
+            "audio",
             "authority",
             "audible",
             "automatic"
@@ -10576,8 +10576,8 @@
             "correct": "Answer: automatic. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"automatic\" matches the word meaning, spelling pattern, or word relationship asked for in the prompt.",
             "incorrect": [
               {
-                "choice": "au dio",
-                "reason": "\"au dio\" does not match the meaning, spelling pattern, or word relationship needed here."
+                "choice": "audio",
+                "reason": "\"audio\" does not match the meaning, spelling pattern, or word relationship needed here."
               },
               {
                 "choice": "authority",
@@ -10633,10 +10633,10 @@
         {
           "id": "grammar-pronouns-q0127",
           "version": 3,
-          "contentHash": "sha256:a07265b936e526c77396ca1ad9193097492aab10ca058d23f2813819fa6bd440",
-          "question": "Which words below are used toform a present progressive tense ve r b?",
+          "contentHash": "sha256:ed58df83d05592374920ed4a8d6e63acb03ac22ad94243491e52244b15e46e04",
+          "question": "Which words below are used toform a present progressive tense ver b?",
           "choices": [
-            "t he/this/that",
+            "the/this/that",
             "were/was/been",
             "has/have/had",
             "am/is/are"
@@ -10646,8 +10646,8 @@
             "correct": "Answer: am/is/are. Rule or clue: Verb forms should match the sentence time clue and stay consistent unless the meaning changes. \"am/is/are\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
-                "choice": "t he/this/that",
-                "reason": "\"t he/this/that\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "the/this/that",
+                "reason": "\"the/this/that\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "were/was/been",
@@ -10843,10 +10843,10 @@
         {
           "id": "grammar-pronouns-q0144",
           "version": 2,
-          "contentHash": "sha256:4d51cc29495b3309d8f006bcb0e2b2e37fee7a55779a81cb5b24d6ce63bdaec2",
+          "contentHash": "sha256:dd69a5caffdebcbaea919f1a5fb717a40a901108df821af11dba84adc53483bf",
           "question": "Look at the exc pt from the dictionary. Which is not a definition of the word? er imperialism",
           "choices": [
-            "t he policy of forming and maintaining an empire",
+            "the policy of forming and maintaining an empire",
             "of great size or superior quality",
             "the policy of seeking to dominate the affairs of weaker countries",
             "imperial state or authority"
@@ -10856,8 +10856,8 @@
             "correct": "Answer: of great size or superior quality. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"of great size or superior quality\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
-                "choice": "t he policy of forming and maintaining an empire",
-                "reason": "\"t he policy of forming and maintaining an empire\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "the policy of forming and maintaining an empire",
+                "reason": "\"the policy of forming and maintaining an empire\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               "",
               {
@@ -10983,11 +10983,11 @@
         {
           "id": "grammar-pronouns-q0149",
           "version": 2,
-          "contentHash": "sha256:02f1ea6f58e2524c4c272978a4c6bc081c300c3fe3dc6353119afc6ede2b7235",
+          "contentHash": "sha256:02469f8f7c697e1b418cb1dd80f79435d703c1e509a44b04e99b36e79f280874",
           "question": "Which answer choice corrects this run-on sentence? Manny wants to play basketball with his friends hi s mother said that he had to mow the lawn first.",
           "choices": [
             "Manny wants to play basketball with his friends, but his mother said that he had to mow the lawn first.",
-            "Manny wants to play basketball with his friends but his mother said that h e had to mow the lawn first.",
+            "Manny wants to play basketball with his friends but his mother said that he had to mow the lawn first.",
             "M anny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.”",
             "M anny wants to play basketball. With his friends. But his mother said that he had to mow the lawn first."
           ],
@@ -10997,8 +10997,8 @@
             "incorrect": [
               "",
               {
-                "choice": "Manny wants to play basketball with his friends but his mother said that h e had to mow the lawn first.",
-                "reason": "\"Manny wants to play basketball with his friends but his mother said that h e had to mow the lawn first.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Manny wants to play basketball with his friends but his mother said that he had to mow the lawn first.",
+                "reason": "\"Manny wants to play basketball with his friends but his mother said that he had to mow the lawn first.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "M anny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.”",
@@ -13663,8 +13663,8 @@
         {
           "id": "grammar-pronouns-q0268",
           "version": 2,
-          "contentHash": "sha256:c9c6992f29bd2eaa840143f19300838baf1d86cf069d714d3bce4a9ea6a004ac",
-          "question": "Which word is inc orrect in this sentence? Jim and J ohn insisted they needed tofind an favorite notebook they left behind.",
+          "contentHash": "sha256:bf516671d75c2ccd6327564f4dfd218da51402290fb995f0fda5d8ff1f61ab22",
+          "question": "Which word is incorrect in this sentence? Jim and J ohn insisted they needed tofind an favorite notebook they left behind.",
           "choices": [
             "insisted",
             "find",
@@ -13737,8 +13737,8 @@
         {
           "id": "grammar-pronouns-q0273",
           "version": 2,
-          "contentHash": "sha256:230facd5e61dce354d9938a98e45c43949225f99c9567611cc9f3ff0a9e8f521",
-          "question": "Which the following similes wo uld best complete the co mparison? of Marcelle cooked the pie so lo ng that the crust was as.",
+          "contentHash": "sha256:ee3101055197af423b176bf9e752207544c33db4e54565072452c468ed1c37ce",
+          "question": "Which the following similes wo uld best complete the comparison? of Marcelle cooked the pie so long that the crust was as.",
           "choices": [
             "light at air",
             "hard as nails",
@@ -14099,13 +14099,13 @@
         {
           "id": "grammar-pronouns-q0290",
           "version": 2,
-          "contentHash": "sha256:ee5072f43c70075ba63d5a394a4cf924538f48c4b26a6f2da0f6d04b68126f56",
-          "question": "Which sentence shows that Tom was very hap py?",
+          "contentHash": "sha256:023ef9525c893ae8edbd9b810a71243205108daa295a8fdc189cc9ad28eb0168",
+          "question": "Which sentence shows that Tom was very happy?",
           "choices": [
             "Tom ate lunch with his friends.",
             "Tom was excited to learn he won first place.",
             "Tom smiled when he saw the kids at the park.",
-            "Tom woke up fr om his nap feeling better."
+            "Tom woke up from his nap feeling better."
           ],
           "correct": 1,
           "explanation": {
@@ -14121,8 +14121,8 @@
                 "reason": "\"Tom smiled when he saw the kids at the park.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
-                "choice": "Tom woke up fr om his nap feeling better.",
-                "reason": "\"Tom woke up fr om his nap feeling better.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Tom woke up from his nap feeling better.",
+                "reason": "\"Tom woke up from his nap feeling better.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               }
             ]
           },
@@ -14169,8 +14169,8 @@
         {
           "id": "grammar-pronouns-q0291",
           "version": 2,
-          "contentHash": "sha256:2350b08478bfe25bbab3f88664b161f1df3a5ae26ad7654edcdf1036e780d40c",
-          "question": "Which word sho ws emotion?",
+          "contentHash": "sha256:67e3524885356ff7edc73314d2b4fcc9536567387a71cae40e12dd25871f6f13",
+          "question": "Which word shows emotion?",
           "choices": [
             "ignore",
             "admit",
@@ -16778,10 +16778,10 @@
         {
           "id": "grammar-singular-plural-nouns-q0034",
           "version": 2,
-          "contentHash": "sha256:2903d8dae84db97f9029af62c92c706601f4d26f2af82ffcfcb47bea6a8f7f51",
+          "contentHash": "sha256:90b317ec51550ca51d42887aa3618e866f5effd94ac0349d44494f298726e58b",
           "question": "Identify the underlined phrase. Soccer, Henry’s favorite sport, has become more popular among American children.",
           "choices": [
-            "geru nd phrase",
+            "gerund phrase",
             "participial phrase",
             "infinitive phrase",
             "appositive phrase"
@@ -16791,7 +16791,7 @@
             "correct": "Answer: appositive phrase. An appositive is a noun or noun phrase that renames another noun right beside it. In this sentence, 'Henry’s favorite sport' renames the word 'Soccer'.",
             "incorrect": [
               {
-                "choice": "geru nd phrase",
+                "choice": "gerund phrase",
                 "category": "gerund phrase error",
                 "reason": "A gerund phrase begins with a verb ending in -ing that acts as a noun. 'Henry's favorite sport' does not contain a gerund."
               },
@@ -17546,10 +17546,10 @@
         {
           "id": "grammar-singular-plural-nouns-q0044",
           "version": 3,
-          "contentHash": "sha256:08d5e50dc395f79a415a92cb2d982eabcf92aeee912281533495a0e0c38c0de3",
+          "contentHash": "sha256:68e2c3bf47bbe07624e5b03d38c01730fa0151b5b15fc58601c13e3446940f43",
           "question": "Which underlined word is NOT a plural noun? Six dogs with rawhide bones followed the boy into the trees.",
           "choices": [
-            "b oy",
+            "boy",
             "dogs",
             "bones",
             "trees"
@@ -20837,10 +20837,10 @@
         {
           "id": "grammar-verb-forms-q0034",
           "version": 2,
-          "contentHash": "sha256:27087a75ea4ad185badf817e267bf296350fdf9d0582fb3d1b3d33864d9e29da",
+          "contentHash": "sha256:e147fefa4ed50bcebdc619735c6bd25df3f68974ea7e625ea52d2dc40254ff30",
           "question": "Which is the past tense form of the word speak? Gerry speak kindly of his father.",
           "choices": [
-            "sp eaks",
+            "speaks",
             "will speak",
             "spoke",
             "speaked"
@@ -20850,7 +20850,7 @@
             "correct": "Answer: spoke. The verb 'speak' is an irregular verb, which means it does not follow the regular -ed pattern to form the past tense. 'Spoke' is the correct past tense form.",
             "incorrect": [
               {
-                "choice": "sp eaks",
+                "choice": "speaks",
                 "category": "present tense verb",
                 "reason": "'Speaks' is the present tense form. It describes an action happening now, not an action that already happened in the past."
               },
@@ -22391,10 +22391,10 @@
         {
           "id": "grammar-verb-forms-q0054",
           "version": 2,
-          "contentHash": "sha256:3767e54dbdfc45a80491a1d285355a829acb4cacd5932ec7e775151982984e72",
+          "contentHash": "sha256:29a5314ec7d8800a57e4758ebc9830569a4d8831661c2d1e189eeaa02f3aa148",
           "question": "In which sentence is an irregular past tense form of a verb used?",
           "choices": [
-            "At the endof the ceremony, all the gues ts will have cake and ice cream.",
+            "At the endof the ceremony, all the guests will have cake and ice cream.",
             "The bird sang from its perch on the rooftop.",
             "The farmer will harvest his crop in late November.",
             "Sadie always bakes cookies for Maggie, her best friend."
@@ -22404,7 +22404,7 @@
             "correct": "Answer: The bird sang from its perch on the rooftop. The word 'sang' is the irregular past tense of the verb 'sing,' meaning it does not follow the standard rule of adding '-ed' to show past action.",
             "incorrect": [
               {
-                "choice": "At the endof the ceremony, all the gues ts will have cake and ice cream.",
+                "choice": "At the endof the ceremony, all the guests will have cake and ice cream.",
                 "category": "future tense verb",
                 "reason": "This sentence uses 'will have,' which is future tense rather than past tense. It describes something that hasn't happened yet."
               },
@@ -23159,8 +23159,8 @@
         {
           "id": "grammar-verb-forms-q0064",
           "version": 2,
-          "contentHash": "sha256:02ee5fd17d57fa30c4448c6ca2a3872df40fc5a0a2356af531ea4b622bb7df9d",
-          "question": "Wh ich of the following sentences correctly uses a modal auxiliary verb? You really ______ see that lm because it is so good",
+          "contentHash": "sha256:dcae83c9662430c26159c220508ab06111888953e6cb79d53ee210d7883360ea",
+          "question": "Which of the following sentences correctly uses a modal auxiliary verb? You really ______ see that lm because it is so good",
           "choices": [
             "can",
             "may",
@@ -23758,10 +23758,10 @@
         {
           "id": "grammar-verb-forms-q0072",
           "version": 2,
-          "contentHash": "sha256:6d31b2b96b5a4dd0d34695742343e922a1a9479e63ad76fce7bb5f1f0983eab7",
+          "contentHash": "sha256:b32aad247592c2f15e136c6b879ad9f67586cd53a3f6b2bbae511e853583991e",
           "question": "When writing, when should the modal auxiliary verb “may not” be use d?",
           "choices": [
-            "t o show the opposite of must",
+            "to show the opposite of must",
             "to show the opposite of can",
             "to show the opposite of may",
             "none of the above"
@@ -23771,7 +23771,7 @@
             "correct": "Answer: to show the opposite of may. The modal 'may' expresses permission or possibility, and adding 'not' creates the negative form of that specific verb.",
             "incorrect": [
               {
-                "choice": "t o show the opposite of must",
+                "choice": "to show the opposite of must",
                 "category": "incorrect verb negation",
                 "reason": "The opposite of 'must' is 'must not' or 'need not'. 'May not' relates specifically to the permission or possibility suggested by 'may'."
               },
@@ -28832,10 +28832,10 @@
         {
           "id": "grammar-subject-predicate-q0028",
           "version": 4,
-          "contentHash": "sha256:67ce5c244566d4ac355f4e2084029c98f4c28e37b0088fbc7244b3b3c5735920",
+          "contentHash": "sha256:3e3758428007545b69d7c4983cf9f564f01b0f916a21909135b878a6733de632",
           "question": "The two main parts of a sentence are:",
           "choices": [
-            "su bject and predicate",
+            "subject and predicate",
             "predicate and direct object",
             "subject and noun",
             "object and verb phrase"
@@ -33705,10 +33705,10 @@
         {
           "id": "grammar-parts-of-speech-nouns-q0047",
           "version": 4,
-          "contentHash": "sha256:1e105460b7788f483eff19607e2947f2b7204a9349b6ebacb8ce322736be4cfd",
+          "contentHash": "sha256:66f010545f4d65ec1410dfe8618f3e841a1934fb02dba7534ec5bb3cc2c684c2",
           "question": "Which underlined word in the sentence below is the subject of the sentence. The workers first dug a hole and then carefully lowered the new shrub into the hole.",
           "choices": [
-            "w orkers",
+            "workers",
             "dug",
             "lowered",
             "shrub"
@@ -34093,10 +34093,10 @@
         {
           "id": "grammar-parts-of-speech-nouns-q0052",
           "version": 4,
-          "contentHash": "sha256:64c1198b99ad54ecd8fa131398ec22cedd2d18f9fa07c9da1b3a24ba0e2eb96d",
+          "contentHash": "sha256:ef0e3c16a81d60ae998d669164a293dd73b225ec7e9de93d6dfb1b5a095117c4",
           "question": "Which underlined word is the noun in the sentence? The old scissors were too rusty to use for cutting the thick paper.",
           "choices": [
-            "ru sty",
+            "rusty",
             "thick",
             "scissors",
             "were"
@@ -34106,8 +34106,8 @@
             "correct": "Answer: scissors. A noun is a person, place, thing, or idea. 'Scissors' is the name of a tool (a thing), making it the noun in this sentence.",
             "incorrect": [
               {
-                "choice": "ru sty",
-                "reason": "\"ru sty\" is not the noun type or noun job the prompt asks for."
+                "choice": "rusty",
+                "reason": "\"rusty\" is not the noun type or noun job the prompt asks for."
               },
               {
                 "choice": "thick",
@@ -35302,13 +35302,13 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0017",
           "version": 4,
-          "contentHash": "sha256:7b7a699e6a5dbcab9e8951b96732f67a7533c94a98d0ee2b1aa039e49c93c443",
+          "contentHash": "sha256:79cb98a14e109dba2f89ffca40ae53aadf48002f33d12dba515bb26bdc9758ed",
           "question": "After completing a difficult race, Marty was proud to find his name on the winner’s board. Look at the underlined words in the sentence above. These words are:",
           "choices": [
             "nouns",
             "verbs",
             "adjectives",
-            "adver bs"
+            "adverbs"
           ],
           "correct": 2,
           "explanation": {
@@ -35326,7 +35326,7 @@
               },
               "",
               {
-                "choice": "adver bs",
+                "choice": "adverbs",
                 "category": "adverb identification",
                 "reason": "Adverbs usually describe actions by telling us how, when, or where something happened. These words describe nouns rather than actions, which means they are not adverbs."
               }
@@ -35533,10 +35533,10 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0020",
           "version": 4,
-          "contentHash": "sha256:2b8077de8c6942266bf8bbb769e28628fb3b2c9c5e1ddd1406a8021a4790ecb2",
+          "contentHash": "sha256:78a7b0cf09eb2883f640ef8b0cc9d3d29bcb86991e543d37b380d017883c64bb",
           "question": "Identify the sentence with the misplaced modifier.",
           "choices": [
-            "Wh en I was a baby, my mother taught me to dri nk from a cup.",
+            "When I was a baby, my mother taught me to drink from a cup.",
             "The teacher complimented the students at the beginning of class.",
             "I read a story in my literature book about a man who took care of sick animals",
             "Karen made cookies for the scout troop that had c hocolate chips. for non-pay ing members of TestingMo m.com is strictly p rohibited."
@@ -35546,8 +35546,8 @@
             "correct": "Answer: Karen made cookies for the scout troop that had chocolate chips. This is a misplaced modifier because the phrase 'that had chocolate chips' is placed next to 'scout troop' instead of 'cookies', making it sound like the scouts are made of chocolate chips.",
             "incorrect": [
               {
-                "choice": "Wh en I was a baby, my mother taught me to dri nk from a cup.",
-                "reason": "\"Wh en I was a baby, my mother taught me to dri nk from a cup.\" points to a word or phrase with a different job from the one the question asks for."
+                "choice": "When I was a baby, my mother taught me to drink from a cup.",
+                "reason": "\"When I was a baby, my mother taught me to drink from a cup.\" points to a word or phrase with a different job from the one the question asks for."
               },
               {
                 "choice": "The teacher complimented the students at the beginning of class.",
@@ -36077,10 +36077,10 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0027",
           "version": 4,
-          "contentHash": "sha256:adf01436435678a4a767129c330faf14c84ca90e84a90f12332c65c0a67a6da8",
+          "contentHash": "sha256:ec714128d787520bf294dec2f1ab288dab6e3bb089ea392970e444d4795cdfb8",
           "question": "Identify the correct use of adjectives.",
           "choices": [
-            "The hummingbird is smaller bi rd I’ve seen.",
+            "The hummingbird is smaller bird I’ve seen.",
             "The hummingbird is the most small bird I’ve ever seen.",
             "The hummingbird is the more smaller bird I’ve seen.",
             "The hummingbird is the smallest bird I’ve seen."
@@ -36090,7 +36090,7 @@
             "correct": "Answer: The hummingbird is the smallest bird I’ve seen. When comparing one item to three or more (or a whole group), we use the superlative form of the adjective, which adds '-est' to the word 'small'.",
             "incorrect": [
               {
-                "choice": "The hummingbird is smaller bi rd I’ve seen.",
+                "choice": "The hummingbird is smaller bird I’ve seen.",
                 "category": "comparative adjective error",
                 "reason": "The word 'smaller' is the comparative form, used only when comparing two things. Since you are talking about all birds seen in your life, you need the superlative form."
               },
@@ -37247,10 +37247,10 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0042",
           "version": 4,
-          "contentHash": "sha256:4e49acdde53d7375d0b72f73d72cd4d1d5f7e91f0f478d0e6084ba85d3be0444",
-          "question": "Identify the underlined word that is a good descriptor in the followi ng passage. “Cress Creek” is an exciting story. It is about two boys who went fishing and got lost. The adventures they have will keep you on the edge of your seat.",
+          "contentHash": "sha256:1c83c5e163b7cabeded60c3e139fda8cf065c785419ad7a127beab142290e165",
+          "question": "Identify the underlined word that is a good descriptor in the following passage. “Cress Creek” is an exciting story. It is about two boys who went fishing and got lost. The adventures they have will keep you on the edge of your seat.",
           "choices": [
-            "you r",
+            "your",
             "boys",
             "exciting",
             "The"
@@ -37260,9 +37260,9 @@
             "correct": "Answer: exciting. An adjective is a word that describes a noun. 'Exciting' describes the noun 'story', telling us what kind of story it is.",
             "incorrect": [
               {
-                "choice": "you r",
+                "choice": "your",
                 "category": "pronoun usage",
-                "reason": "'Your' (misspelled as 'you r') is a possessive pronoun used to show ownership, not a descriptor."
+                "reason": "'Your' (misspelled as 'your') is a possessive pronoun used to show ownership, not a descriptor."
               },
               {
                 "choice": "boys",
@@ -38252,8 +38252,8 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0055",
           "version": 4,
-          "contentHash": "sha256:82cb92dbd6c5cc8ab301a486ef417d0697d80851807fbadd0c42e013076b052d",
-          "question": "Which sentence co rrectly orders the adjectives?",
+          "contentHash": "sha256:1b07cc9d7916ae82db663b3fe78d229c7df624d7e456d150993e90e5909d2879",
+          "question": "Which sentence correctly orders the adjectives?",
           "choices": [
             "I like the j uicy rm pear.",
             "I like the new sparkly necklace.",
@@ -40055,13 +40055,13 @@
         {
           "id": "grammar-parts-of-speech-adverbs-q0019",
           "version": 2,
-          "contentHash": "sha256:30b6eafd23dadacd6028c50d3ab4e621d10328437842cb66f3413e44c003f80b",
+          "contentHash": "sha256:deee545258b0b3f69354a42c2a57ef6ba0b88f1a7c35111382a2bb5b9cf70b23",
           "question": "Choose the sentence using active voice.",
           "choices": [
             "The grades were assigned by the teacher.",
             "The home was built by a reputable contractor.",
             "Adam quickly finished his homework.",
-            "T he winning goal was kicked by a freshman."
+            "The winning goal was kicked by a freshman."
           ],
           "correct": 2,
           "explanation": {
@@ -40079,7 +40079,7 @@
               },
               "",
               {
-                "choice": "T he winning goal was kicked by a freshman.",
+                "choice": "The winning goal was kicked by a freshman.",
                 "category": "passive voice construction",
                 "reason": "The subject 'the winning goal' is receiving the action of being kicked. An active sentence would name the person doing the kicking as the subject."
               }
@@ -40439,10 +40439,10 @@
         {
           "id": "grammar-parts-of-speech-adverbs-q0024",
           "version": 4,
-          "contentHash": "sha256:742cba7dba314825f5939f27dd92c5bf537d5915b9a575f2cc46e5adec5d0020",
+          "contentHash": "sha256:25326904ec53c1713a756bb817350a09b5660b5672c4da4e065a0ce6f0db18e2",
           "question": "Choose the correct missing word. Janet ________ appeared in the room.",
           "choices": [
-            "su ddenly",
+            "suddenly",
             "sudden",
             "sooner",
             "soonest"
@@ -56233,10 +56233,10 @@
         {
           "id": "grammar-friendly-letter-q0028",
           "version": 4,
-          "contentHash": "sha256:5e6f2f9ddedbee78aace03e3b209353f8de0452a72ce4963408e1e11407970d7",
+          "contentHash": "sha256:a7429868ef1ec7d9f24a9abe5794afe58bd4afbbc6390398f01f1c199444200d",
           "question": "Which of the following letter closings is correctly written?",
           "choices": [
-            "you rs Truly,",
+            "yours Truly,",
             "Sincerely Yours,",
             "Yours truly,",
             "sincerely yours,"
@@ -56246,7 +56246,7 @@
             "correct": "Answer: Yours truly,. In a formal letter closing, the first word is capitalized, and the phrase is followed by a comma to correctly set off the signature.",
             "incorrect": [
               {
-                "choice": "you rs Truly,",
+                "choice": "yours Truly,",
                 "category": "capitalization and spacing",
                 "reason": "This option contains a space in the middle of the word 'yours' and unnecessary capitalization of 'Truly'. Only the first word should be capitalized."
               },
@@ -56933,8 +56933,8 @@
         {
           "id": "grammar-friendly-letter-q0037",
           "version": 3,
-          "contentHash": "sha256:98f38243f7467ae1f4086ba7979c13c81cd8afed2ad9df861259a80a43b3d650",
-          "question": "Wellmark Light bulb Co mpany 660 Main Street Moscow, ID 83343 Dear Sir or Mada m: I recently bought a box of your light bul bs ando ne of them wor ked. Ple ase refund my mone y. I ha ve enclosed a re ceipt for $8.99. Yours Truly. Janet Monk Which line of the letter is written incorrectly?",
+          "contentHash": "sha256:222973f87a2dfa972419ae35e33aac37184881d888a5b26ed47d3cfcd01e8761",
+          "question": "Wellmark Light bulb Company 660 Main Street Moscow, ID 83343 Dear Sir or Mada m: I recently bought a box of your light bulbs ando ne of them wor ked. Ple ase refund my mone y. I have enclosed a re ceipt for $8.99. Yours Truly. Janet Monk Which line of the letter is written incorrectly?",
           "choices": [
             "d ate line",
             "greeting",
@@ -78845,10 +78845,10 @@
         {
           "id": "grammar-sentence-correction-q0249",
           "version": 3,
-          "contentHash": "sha256:f6d9c63e7730957608fe29dc75028acd5a8c69f317f393d794c6790a3b4bd35a",
+          "contentHash": "sha256:32ee95bbb399026bd7b14464d7756c89b5f2632ac1027eb1aa4137a9993b120e",
           "question": "My complaint to the principal is about the student counsel, and whether they will raise enough capital to fundour new computer lab. In the above sentence:",
           "choices": [
-            "‘princip al ’ should be ‘princip le ’.",
+            "‘princip al ’ should be ‘principle ’.",
             "‘ counsel’ should be council’.",
             "‘whether’ should be ‘weather’.",
             "‘ capital’ should be ‘capitol’."
@@ -78858,7 +78858,7 @@
             "correct": "Answer: ‘ counsel’ should be council’. A 'council' is a group of people who meet to make decisions, whereas 'counsel' is advice or a person who gives advice.",
             "incorrect": [
               {
-                "choice": "‘princip al ’ should be ‘princip le ’.",
+                "choice": "‘princip al ’ should be ‘principle ’.",
                 "category": "homophone error",
                 "reason": "Actually, 'principal' is the correct spelling for the head of a school. 'Principle' refers to a fundamental truth or rule, not a person."
               },
@@ -79767,13 +79767,13 @@
         {
           "id": "grammar-sentence-correction-q0261",
           "version": 3,
-          "contentHash": "sha256:bdfc9bb635dbd200bae48420ea365bf20551f588db98883c5732711db6203a84",
+          "contentHash": "sha256:a9feeeba7ca29e561de90ba8b5ea03564c3b9ce841395ac9f3e0e7a5800a6542",
           "question": "Choose the missing phrase. The teachers __________________.",
           "choices": [
             "in the school.",
             "helped with th e dance.",
             "on the panel.",
-            "w ho like to read."
+            "who like to read."
           ],
           "correct": 1,
           "explanation": {
@@ -79791,8 +79791,8 @@
                 "reason": "This is a prepositional phrase that describes a location, but it does not contain a verb. Without a verb, the sentence cannot express an action or state of being."
               },
               {
-                "choice": "w ho like to read.",
-                "reason": "\"w ho like to read.\" still leaves a grammar, capitalization, punctuation, spelling, or meaning problem in the sentence."
+                "choice": "who like to read.",
+                "reason": "\"who like to read.\" still leaves a grammar, capitalization, punctuation, spelling, or meaning problem in the sentence."
               }
             ]
           },
@@ -79843,8 +79843,8 @@
         {
           "id": "grammar-sentence-correction-q0262",
           "version": 5,
-          "contentHash": "sha256:ac59068300ae445372d46b9d551ab1515ee0efa4286f01a782bcd669cc0ae022",
-          "question": "Choose the correct missing words. _______________ is our scho ol’s n ew principal.",
+          "contentHash": "sha256:b5a31c14832ec1652bd8a4927a0ac60d1aa9d12aa82d39a4da0d0fa950df8549",
+          "question": "Choose the correct missing words. _______________ is our scho ol’s new principal.",
           "choices": [
             "Mr. j.a. Brown",
             "mr. J.A. Brown",
@@ -80613,10 +80613,10 @@
         {
           "id": "grammar-sentence-correction-q0272",
           "version": 3,
-          "contentHash": "sha256:b5c97e3b30f361bead4ae5496781c9bbee005062cdd96fb47ce8de81ea8004a2",
+          "contentHash": "sha256:7a73a5e8a6580f34cd7f236548b9c1c5a9ebe06c703d33bc132af2db87f73070",
           "question": "Choose the best interpretation of this sentence. Before you leave for the game, you must clean your room.",
           "choices": [
-            "Yo u don’t have to clean your room.",
+            "You don’t have to clean your room.",
             "You must clean your room.",
             "You may clean your room after the game.",
             "If you want to go to the game, you must clean your room first."
@@ -80626,7 +80626,7 @@
             "correct": "Answer: If you want to go to the game, you must clean your room first. The word 'before' creates a condition that must be completed prior to the action of leaving.",
             "incorrect": [
               {
-                "choice": "Yo u don’t have to clean your room.",
+                "choice": "You don’t have to clean your room.",
                 "category": "incorrect condition",
                 "reason": "The sentence uses the word 'must,' which indicates a requirement, not an optional task."
               },
@@ -82013,8 +82013,8 @@
         {
           "id": "grammar-sentence-correction-q0290",
           "version": 3,
-          "contentHash": "sha256:9165ff68f0ad5b23cccda3b25e4198acb4a489765ad2be1f9b7e18621f48b6d5",
-          "question": "Choose the correct word to complete the sentenc e. I have to _______ my offer letter of employment. If I want to earn some extra money, then I need to get a job.",
+          "contentHash": "sha256:640b1a80544fd2dffcd59192e9c560b45d6d3ba330c7553cd96537ca3ebab16b",
+          "question": "Choose the correct word to complete the sentence. I have to _______ my offer letter of employment. If I want to earn some extra money, then I need to get a job.",
           "choices": [
             "axcept",
             "expect",
@@ -82235,13 +82235,13 @@
         {
           "id": "grammar-sentence-correction-q0293",
           "version": 3,
-          "contentHash": "sha256:00efe6c8cd08497c275d40bcfcb01e786b17da9a7c8c430ea976c2523306440a",
+          "contentHash": "sha256:5e316336002bbe2defd169c2eca8fd881293e054309d76cd8caf8c68feac0576",
           "question": "Identify the correct word that goes in the blank. There is ______ much milk in my coffee.",
           "choices": [
             "to",
             "two",
             "toe",
-            "t oo"
+            "too"
           ],
           "correct": 3,
           "explanation": {
@@ -82309,10 +82309,10 @@
         {
           "id": "grammar-sentence-correction-q0294",
           "version": 3,
-          "contentHash": "sha256:4b24187cecb4ecf192fde79cd19bf7abf07c85e0fd97185ec186adb90a17777a",
+          "contentHash": "sha256:b2121ce16e7eb02cbf68ba159069efb5f0c34938f48818463fdf020eb91a6dc2",
           "question": "Choose the correct word for the sentence below. I think that my daughter is the ________ girl in the world.",
           "choices": [
-            "b eautifulest",
+            "beautifulest",
             "beautifuler",
             "most beautiful",
             "more beautiful"
@@ -82322,7 +82322,7 @@
             "correct": "Answer: most beautiful. When comparing one person to everyone else in a group (the world), we use the superlative form 'most' with adjectives that have more than two syllables.",
             "incorrect": [
               {
-                "choice": "b eautifulest",
+                "choice": "beautifulest",
                 "category": "incorrect superlative formation",
                 "reason": "Adding '-est' to 'beautiful' is incorrect. Because 'beautiful' is a long, multi-syllable word, we use 'most' instead of changing the ending."
               },
@@ -82383,13 +82383,13 @@
         {
           "id": "grammar-sentence-correction-q0295",
           "version": 3,
-          "contentHash": "sha256:b095f9fc524116ab4d611551d3e8bce182a7442a986327fb30b236821f5eca66",
+          "contentHash": "sha256:d8266b26c4579d74f950f496c96a780a3e13a57cb2336413b08af12660629922",
           "question": "When do you use “whose” when writing a sentence?",
           "choices": [
             "when referring to people",
             "when referring to how many",
             "when referring to which one",
-            "when re ferring to possessions"
+            "when referring to possessions"
           ],
           "correct": 3,
           "explanation": {
@@ -82604,11 +82604,11 @@
         {
           "id": "grammar-sentence-correction-q0298",
           "version": 3,
-          "contentHash": "sha256:7cd037627a0bdc6828abc14602e0e8206cdf91d42be904b2cc2a21da61011784",
+          "contentHash": "sha256:04b64df5fb72f4e3c0514a0f5fc239650f64f9171e8fcd4b55378abedbc71350",
           "question": "Identify the run-on sentence.",
           "choices": [
             "The person that I admire most in life is my father.",
-            "He fought during World War II, and he suffered during the Great Depressi on.",
+            "He fought during World War II, and he suffered during the Great Depression.",
             "I want to be just like him when I grow up.",
             "None of the above"
           ],
@@ -82622,7 +82622,7 @@
                 "reason": "This is a simple sentence with one subject and one verb. It is grammatically correct and does not run two independent thoughts together."
               },
               {
-                "choice": "He fought during World War II, and he suffered during the Great Depressi on.",
+                "choice": "He fought during World War II, and he suffered during the Great Depression.",
                 "category": "compound sentence",
                 "reason": "This is a correctly punctuated compound sentence. The comma before the conjunction 'and' properly separates two independent clauses."
               },
@@ -82678,12 +82678,12 @@
         {
           "id": "grammar-sentence-correction-q0299",
           "version": 3,
-          "contentHash": "sha256:1775981653ffe949ba9b41439292f4cb358d6905ec0fc311b22ef9bd052d87cf",
+          "contentHash": "sha256:9248b16c94ae68a7a547a87c7a0b9f0b9ee58551d8b4e7dbd4ecd12ef3e0429b",
           "question": "What error did the writer make in the sentence below? Since it is Valentine’s Day, I assumed the school dance would be sold out. Were are all the people?",
           "choices": [
-            "He u sed “were” instead of “where”.",
+            "He used “were” instead of “where”.",
             "He wrote a run-on sentence.",
-            "He shou ld not have capit alized Valentine’s Day.",
+            "He should not have capitalized Valentine’s Day.",
             "He spelled “assumed” incorrectly."
           ],
           "correct": 0,
@@ -82697,8 +82697,8 @@
                 "reason": "The sentence is not a run-on because the thoughts are correctly separated by periods. The punctuation marks are placed correctly at the end of each independent thought."
               },
               {
-                "choice": "He shou ld not have capit alized Valentine’s Day.",
-                "reason": "\"He shou ld not have capit alized Valentine’s Day.\" still leaves a grammar, capitalization, punctuation, spelling, or meaning problem in the sentence."
+                "choice": "He should not have capitalized Valentine’s Day.",
+                "reason": "\"He should not have capitalized Valentine’s Day.\" still leaves a grammar, capitalization, punctuation, spelling, or meaning problem in the sentence."
               },
               {
                 "choice": "He spelled “assumed” incorrectly.",
@@ -95036,8 +95036,8 @@
         {
           "id": "grammar-paragraph-structure-q0185",
           "version": 4,
-          "contentHash": "sha256:be24b3a0f0fdf1adfba53365796f101e3b2f1cb34420843f6e5861fbe1642b99",
-          "question": "Read the following passage insert. We had just begun our hike, when it began to snow. One trail was slick and many of us were wearing sandals, butour crazy teacher insisted that the fl akes would stop falling soon and the sun would meltoff the drifts that were f orming. Later that afternoon, as we climbed back on the bus, our teacher apologized. Too bad many of us had frostbite by then. We will never forget that trip. To revise the passage, where should you start a n ew paragraph?",
+          "contentHash": "sha256:a8138a6546e6b240cc727041a308c1a2cb1f5a2dbd69f00c228cfb16ca83e984",
+          "question": "Read the following passage insert. We had just begun our hike, when it began to snow. One trail was slick and many of us were wearing sandals, butour crazy teacher insisted that the flakes would stop falling soon and the sun would meltoff the drifts that were f orming. Later that afternoon, as we climbed back on the bus, our teacher apologized. Too bad many of us had frostbite by then. We will never forget that trip. To revise the passage, where should you start a new paragraph?",
           "choices": [
             "a f ter “... frostbite by then.”",
             "after “... our teacher apologized.”",
@@ -132863,8 +132863,8 @@
         {
           "id": "grammar-narrative-writing-q0198",
           "version": 4,
-          "contentHash": "sha256:f97ae2795e62904d5241cf7cf47768efb319728e5a7c36e741adb43873ac5694",
-          "question": "Read the paragraph below. Which sentence desc ribes the main idea of the paragraph? Earthquakes can be deadly. The earth shakes, causing buildings to fall, roads to break, and rivers to flood. Many people are killed duri ng an earthquake. The safest place to be during an earthquake is in a doorway. Forecasting an earthquak e is difficult.",
+          "contentHash": "sha256:2ce3536d5fedbfd20f5d6cbee3f435fdfd678324a4c5a784585bc59e7be8d25f",
+          "question": "Read the paragraph below. Which sentence desc ribes the main idea of the paragraph? Earthquakes can be deadly. The earth shakes, causing buildings to fall, roads to break, and rivers to flood. Many people are killed during an earthquake. The safest place to be during an earthquake is in a doorway. Forecasting an earthquak e is difficult.",
           "choices": [
             "Fo recasting an earthquake is difficult.",
             "Building fall, roads break, and rivers flood.",
@@ -133096,8 +133096,8 @@
         {
           "id": "grammar-narrative-writing-q0201",
           "version": 4,
-          "contentHash": "sha256:dda9cbb4a90c1323e5cc55630343d598185ceec2bbe23f54988044279230573a",
-          "question": "May 4, 2019 – We took a quiz a bout characte rs in mytho logy today. Which type of writing is this?",
+          "contentHash": "sha256:e3782c01843962d8855e89a7e9aa7525c5fc7d6abb533f7b58982614ff9162ac",
+          "question": "May 4, 2019 – We took a quiz a bout characters in mytho logy today. Which type of writing is this?",
           "choices": [
             "let ter",
             "story",
@@ -146110,13 +146110,13 @@
         {
           "id": "grammar-revising-editing-strategy-q0192",
           "version": 4,
-          "contentHash": "sha256:44f04f9d88c29e1b5e58511f2b6566a1ca341ebbbba91e165c0188a0717342ef",
+          "contentHash": "sha256:4b84e3b5fcce86b640ec1ff818652d7179fe1821ce4a897aa79a5639efb8d593",
           "question": "Choose the first step for how to make a peanut butter sandwich.",
           "choices": [
             "Next, put the two pieces of bread together.",
             "Last, pick up the sandwich and eat it.",
             "Then, spread peanut butter on one piece.",
-            "First, get tw o pieces of bread."
+            "First, get two pieces of bread."
           ],
           "correct": 3,
           "explanation": {
@@ -146266,8 +146266,8 @@
         {
           "id": "grammar-revising-editing-strategy-q0194",
           "version": 4,
-          "contentHash": "sha256:dbef9e5abfe4a76073cc4a97d15ebc35c4445486c3d8e6bb8eeb6ed76e95b7fc",
-          "question": "Identify the words that add details to the topic. My ___________ bi cycle is a __________.",
+          "contentHash": "sha256:657ca15294428ef5c827053ac845ee99d16446f83c991752533c1d5e771c1fe3",
+          "question": "Identify the words that add details to the topic. My ___________ bicycle is a __________.",
           "choices": [
             "yellow, tricycle",
             "tricycle, ten- speed",
@@ -148760,10 +148760,10 @@
         {
           "id": "grammar-revising-editing-strategy-q0226",
           "version": 4,
-          "contentHash": "sha256:3df3d2b7a1dddeb20d4a037cbf3594106562de827f15d0c4fcbef02296ff3bca",
+          "contentHash": "sha256:ffabe11b51b88d0ad55a4bd42b4629bb9bbc21e2055ecbc33c180a8efe6c2d95",
           "question": "In which section of the newspaper or online news would this article a ppear? “Sunny Today Turning to Partly Cloudy”",
           "choices": [
-            "sp orts",
+            "sports",
             "weather",
             "horoscope",
             "community"
@@ -148773,7 +148773,7 @@
             "correct": "Answer: weather. The headline 'Sunny Today Turning to Partly Cloudy' describes atmospheric conditions and temperature, which are the primary focus of a weather report.",
             "incorrect": [
               {
-                "choice": "sp orts",
+                "choice": "sports",
                 "category": "mismatched content topic",
                 "reason": "Sports sections focus on games, scores, and athletes. Weather information about sun and clouds does not belong in this section."
               },
@@ -149928,13 +149928,13 @@
         {
           "id": "grammar-revising-editing-strategy-q0241",
           "version": 4,
-          "contentHash": "sha256:26bd282da524b36977d82204958b733fe0d2ade49ce382a7ff0b3d06296d5dff",
+          "contentHash": "sha256:12b102a1583bc593e76ec86159ae6bd18f87dc91b2a0f6bb8c850a6870fb32f3",
           "question": "Which is another way to write this sentence? The terrifying dog growled menacingly at me as I slowly backed up towar d the crumbling building.",
           "choices": [
             "I slo wly crumbled toward the menacing building as the slow dog terrified me.",
             "The crumbled dog terrified me slowly as I backed up towar d the menacing building.",
             "I slowly backed up toward the crumbling building as the terrifying dog growled menacingly at me.",
-            "The terrified dog menaced me slowly as I cr umbled toward the growling building."
+            "The terrified dog menaced me slowly as I crumbled toward the growling building."
           ],
           "correct": 2,
           "explanation": {
@@ -149952,7 +149952,7 @@
               },
               "",
               {
-                "choice": "The terrified dog menaced me slowly as I cr umbled toward the growling building.",
+                "choice": "The terrified dog menaced me slowly as I crumbled toward the growling building.",
                 "category": "swapped roles and actions",
                 "reason": "In this version, the dog is 'terrified' instead of 'terrifying', and the building is 'growling'. Check that your rewrite keeps the action connected to the correct person or object."
               }
@@ -161726,10 +161726,10 @@
         {
           "id": "grammar-prepositions-prepositional-phrases-q0181",
           "version": 4,
-          "contentHash": "sha256:10c23ed290b520c940f914973acb3162a769d00eb44aa97d47597f56a3c9edf2",
+          "contentHash": "sha256:035780f72ace84ba7f46e6a93ebeb5983b0fffaa676ca84634c581a10aff33c7",
           "question": "A red bus with a double deck skidded across the pavement. The prepositional phrase with a double deck modifies:",
           "choices": [
-            "t he verb “skidded”",
+            "the verb “skidded”",
             "the noun “bus”",
             "the preposition “down”",
             "the adjective “red”"
@@ -161739,7 +161739,7 @@
             "correct": "Answer: the noun “bus”. A prepositional phrase acts as an adjective when it describes a person, place, or thing. In this sentence, 'with a double deck' tells us which specific bus is being described.",
             "incorrect": [
               {
-                "choice": "t he verb “skidded”",
+                "choice": "the verb “skidded”",
                 "category": "misidentifying adverbial function",
                 "reason": "While prepositional phrases can sometimes tell us how an action happened, 'with a double deck' is describing the object (the bus), not the action of skidding."
               },
@@ -161957,8 +161957,8 @@
         {
           "id": "grammar-prepositions-prepositional-phrases-q0184",
           "version": 4,
-          "contentHash": "sha256:71f4cc88a6cd2c457a54910bfeadbfa2af89c64cdd0ea01a262ae325dd49048b",
-          "question": "Wh i ch adverb phrase in the sentences below answers the question “how”?",
+          "contentHash": "sha256:763bd7682e9d718d3f1fb45e065bddf208457106356220b87fefc4e5551f3a50",
+          "question": "Which adverb phrase in the sentences below answers the question “how”?",
           "choices": [
             "The school bell rings at eight o’clock every morning.",
             "The students carefully looked for the lost glasses.",
@@ -162492,8 +162492,8 @@
         {
           "id": "grammar-prepositions-prepositional-phrases-q0191",
           "version": 4,
-          "contentHash": "sha256:682659a1aa1f2efe80e850efa7f1730b77b3a5606570740f93d39309db8c8494",
-          "question": "Choose the best preposition to ll in the blan k. The light switch is ____________ the kitchen cabin et.",
+          "contentHash": "sha256:b4821323ea1892737f3b0ad03a69a134976f519939a6f7c0050064da81ec050b",
+          "question": "Choose the best preposition toll in the blan k. The light switch is ____________ the kitchen cabinet.",
           "choices": [
             "toward",
             "across",
@@ -187909,12 +187909,12 @@
         {
           "id": "grammar-pronoun-agreement-case-q0188",
           "version": 3,
-          "contentHash": "sha256:91fd9bac32bebcba7e05fa67f395f454c3755f04f405d679a43a2e0593449e5a",
+          "contentHash": "sha256:7f53aa4d812583781b3d63c025f57e19aded692ce1b421b95d4b9e0d2b0b569d",
           "question": "Which sentence is correct?",
           "choices": [
             "Him an d Sandra ate lunch at the hot dog stand.",
             "She and Ellen continue to work on the newspaper staff.",
-            "They and the lifeguards cleaned the bea ch.",
+            "They and the lifeguards cleaned the beach.",
             "You and the other students will be testing on Tuesday."
           ],
           "correct": 0,
@@ -187928,8 +187928,8 @@
                 "reason": "While this sentence is grammatically correct, the question requires identifying the specific structure where both names act as subjects; however, since all options are provided, ensure you are checking for pronoun cases like 'Him' vs 'He'."
               },
               {
-                "choice": "They and the lifeguards cleaned the bea ch.",
-                "reason": "\"They and the lifeguards cleaned the bea ch.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "They and the lifeguards cleaned the beach.",
+                "reason": "\"They and the lifeguards cleaned the beach.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "You and the other students will be testing on Tuesday.",
@@ -189211,10 +189211,10 @@
         {
           "id": "grammar-pronoun-agreement-case-q0205",
           "version": 4,
-          "contentHash": "sha256:758bafb1b0ba0f637b84a2ce7689fabcfbc28e6668f951b6b76961e9c0b75ae1",
+          "contentHash": "sha256:1426f482cf99747a29a77512ae911aabd7a9ceddd470a88f3feabf1824252df0",
           "question": "Choose the best missing word. Do you think coach will give ______ and him a break this afternoon?",
           "choices": [
-            "ou r",
+            "our",
             "th ey",
             "we",
             "us"
@@ -189224,7 +189224,7 @@
             "correct": "Answer: us. The sentence needs an object pronoun because the coach is giving the break *to* them. 'Us' is the object form of 'we'.",
             "incorrect": [
               {
-                "choice": "ou r",
+                "choice": "our",
                 "category": "possessive pronoun error",
                 "reason": "The word 'our' is a possessive pronoun used to show ownership, not to name the person receiving the action. Use 'us' when you are the object of a verb."
               },
@@ -189827,10 +189827,10 @@
         {
           "id": "grammar-pronoun-agreement-case-q0213",
           "version": 3,
-          "contentHash": "sha256:09bf5918a894fc43c2a835bba52ce92c273611ac70eed7bbf4421c7294bbf112",
+          "contentHash": "sha256:e3917152cec4bf2520078d3c08f91295ad1eedb8500a32d43f183aa368aa0e3d",
           "question": "Choose the correct pronoun. The students neatly stacked ______ books on the table.",
           "choices": [
-            "h er",
+            "her",
             "there",
             "their",
             "they’re"
@@ -189840,7 +189840,7 @@
             "correct": "Answer: their. The word 'their' is a possessive pronoun used to show that the books belong to the students. Because the subject 'students' is plural, the possessive pronoun must also be plural.",
             "incorrect": [
               {
-                "choice": "h er",
+                "choice": "her",
                 "category": "pronoun number disagreement",
                 "reason": "The word 'her' is singular and would only refer to one person. Since 'students' is a plural noun, you need the plural possessive pronoun 'their'."
               },
@@ -190364,10 +190364,10 @@
         {
           "id": "grammar-pronoun-agreement-case-q0220",
           "version": 3,
-          "contentHash": "sha256:0867376c59a8bd753f0d9c4d533bd8bf57dd895b3b35429a81ebe7aa5f03915c",
+          "contentHash": "sha256:404577669b72da7b7404573fcd02324698878970cbd5430306474d281ad9d770",
           "question": "Choose the pronouns that will correctly replace the underlined word(s). Marge, yesterday you promised to lend your bike to Judy. _______ should have given it to _____.",
           "choices": [
-            "h er, us",
+            "her, us",
             "you, her",
             "you, him",
             "she, you"
@@ -190377,9 +190377,9 @@
             "correct": "Answer: you, her. Since Marge is talking directly to the person who promised to lend the bike, the first pronoun refers to the person being spoken to (you). The second pronoun refers to Judy, who is a female person being discussed, so we use 'her' to show the bike is being given to her.",
             "incorrect": [
               {
-                "choice": "h er, us",
+                "choice": "her, us",
                 "category": "Incorrect pronoun form",
-                "reason": "'h er' is a typo and not a standard English pronoun. 'Us' would refer to a group that includes the speaker, but the sentence is about Judy receiving the bike."
+                "reason": "'her' is a typo and not a standard English pronoun. 'Us' would refer to a group that includes the speaker, but the sentence is about Judy receiving the bike."
               },
               "",
               {
@@ -238901,12 +238901,12 @@
         {
           "id": "grammar-formal-informal-language-q0186",
           "version": 4,
-          "contentHash": "sha256:32b29600f979c7b078483eb9ea17f3544122cb4f33fd1b214666fd08a5ff7193",
+          "contentHash": "sha256:81444f8eb3afa0ad778ce535bbc90a98ffce1e25f3a84000870a8de1c1535b0c",
           "question": "Which of the following would be an example of informal language?",
           "choices": [
-            "Are we there y et?",
+            "Are we there yet?",
             "At what time do you expect us to be finished with our trip?",
-            "Has the time co me for our trip to be over?",
+            "Has the time come for our trip to be over?",
             "Have we arrived at o ur destination at this tim e?"
           ],
           "correct": 0,
@@ -238920,8 +238920,8 @@
                 "reason": "This sentence uses complete phrasing and a professional tone, making it formal rather than informal."
               },
               {
-                "choice": "Has the time co me for our trip to be over?",
-                "reason": "Not: Has the time co me for our trip to be over? \"Has the time co me for our trip to be over?\" sounds too casual, slangy, or conversational for a formal tone."
+                "choice": "Has the time come for our trip to be over?",
+                "reason": "Not: Has the time come for our trip to be over? \"Has the time come for our trip to be over?\" sounds too casual, slangy, or conversational for a formal tone."
               },
               {
                 "choice": "Have we arrived at o ur destination at this tim e?",

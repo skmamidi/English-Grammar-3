@@ -81,6 +81,42 @@
         sloObjectiveId: 'content_publication_freshness',
         runbook: 'docs/operations/runbook-content-publication-rollback.md',
         nextStep: 'Check admin readiness metadata and content publication rollback signals.'
+      }),
+      monitor({
+        id: 'billing_operations_health',
+        label: 'Billing operations health',
+        targetPath: '/api/billing/operations/health',
+        assertions: ['status:200'],
+        sloObjectiveId: 'billing_operations_health',
+        runbook: 'docs/operations/runbook-billing-operations.md',
+        nextStep: 'Check billing reconciliation, missed-webhook, dunning, retry, and provider-health summaries.'
+      }),
+      monitor({
+        id: 'billing_page_render_health',
+        label: 'Billing page render health',
+        targetPath: '/subscription.html',
+        assertions: ['status:200', 'body:Subscription'],
+        sloObjectiveId: 'billing_page_render_health',
+        runbook: 'docs/operations/runbook-billing-operations.md',
+        nextStep: 'Check subscription route render health and read-only billing fallback.'
+      }),
+      monitor({
+        id: 'billing_checkout_start_test_mode',
+        label: 'Billing checkout start test mode',
+        targetPath: '/api/billing/checkout/test-mode/start',
+        assertions: ['status:200'],
+        sloObjectiveId: 'billing_checkout_start_success',
+        runbook: 'docs/operations/runbook-billing-operations.md',
+        nextStep: 'Check test-mode checkout start without real charges or credentials.'
+      }),
+      monitor({
+        id: 'billing_webhook_health_test_mode',
+        label: 'Billing webhook health test mode',
+        targetPath: '/api/billing/webhooks/test-mode/health',
+        assertions: ['status:200'],
+        sloObjectiveId: 'billing_webhook_failure_rate',
+        runbook: 'docs/operations/runbook-billing-operations.md',
+        nextStep: 'Check signed webhook health, latency, and idempotent ledger readiness.'
       })
     ])
   });

@@ -77,6 +77,105 @@
         telemetrySignals: ['release_manifest_fresh', 'content_publication_failed', 'stale_artifact_detected'],
         runbook: 'docs/operations/runbook-content-publication-rollback.md',
         rollback: 'Roll back to the last approved release manifest and regenerate stale artifacts.'
+      }),
+      objective({
+        id: 'billing_operations_health',
+        label: 'Billing operations health',
+        owner: 'billing-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['billing_reconciliation_completed', 'billing_missed_webhook_detected', 'billing_provider_health_degraded'],
+        runbook: 'docs/billing-operations-jobs.md',
+        rollback: 'Pause paid checkout, keep free practice available, and queue billing operations review.'
+      }),
+      objective({
+        id: 'billing_checkout_start_success',
+        label: 'Billing checkout start success',
+        owner: 'billing-platform',
+        measurementWindow: '7d',
+        target: 0.995,
+        errorBudget: 0.02,
+        telemetrySignals: ['billing_checkout_start_completed', 'billing_checkout_start_failed'],
+        runbook: 'docs/operations/billing-observability.md',
+        rollback: 'Disable paid checkout and keep subscription route read-only.'
+      }),
+      objective({
+        id: 'billing_checkout_completion_webhook_latency',
+        label: 'Billing checkout completion webhook latency',
+        owner: 'billing-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['billing_webhook_received_within_target', 'billing_webhook_late'],
+        runbook: 'docs/operations/billing-observability.md',
+        rollback: 'Pause checkout and route parents to pending status copy.'
+      }),
+      objective({
+        id: 'billing_entitlement_update_latency',
+        label: 'Billing entitlement update latency',
+        owner: 'billing-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['billing_entitlement_projection_updated', 'billing_entitlement_projection_late'],
+        runbook: 'docs/operations/billing-observability.md',
+        rollback: 'Keep free practice active and queue entitlement review.'
+      }),
+      objective({
+        id: 'billing_renewal_success',
+        label: 'Billing renewal success',
+        owner: 'billing-policy',
+        measurementWindow: '30d',
+        target: 0.985,
+        errorBudget: 0.04,
+        telemetrySignals: ['billing_renewal_succeeded', 'billing_renewal_failed'],
+        runbook: 'docs/operations/billing-observability.md',
+        rollback: 'Pause renewal expansion and review dunning projections.'
+      }),
+      objective({
+        id: 'billing_provider_api_error_rate',
+        label: 'Billing provider API healthy response rate',
+        owner: 'billing-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.05,
+        telemetrySignals: ['billing_provider_api_ok', 'billing_provider_api_failed'],
+        runbook: 'docs/operations/billing-observability.md',
+        rollback: 'Disable provider-dependent checkout surfaces.'
+      }),
+      objective({
+        id: 'billing_page_render_health',
+        label: 'Billing page render health',
+        owner: 'platform',
+        measurementWindow: '7d',
+        target: 0.995,
+        errorBudget: 0.02,
+        telemetrySignals: ['subscription_route_loaded', 'subscription_route_failed'],
+        runbook: 'docs/operations/billing-observability.md',
+        rollback: 'Keep subscription route in read-only fallback.'
+      }),
+      objective({
+        id: 'billing_webhook_failure_rate',
+        label: 'Billing webhook healthy processing rate',
+        owner: 'billing-platform',
+        measurementWindow: '7d',
+        target: 0.995,
+        errorBudget: 0.02,
+        telemetrySignals: ['billing_webhook_processed', 'billing_webhook_failed'],
+        runbook: 'docs/operations/billing-observability.md',
+        rollback: 'Pause entitlement-changing billing launches.'
+      }),
+      objective({
+        id: 'billing_refund_dispute_queue_age',
+        label: 'Billing refund and dispute queue age',
+        owner: 'billing-policy',
+        measurementWindow: '7d',
+        target: 0.98,
+        errorBudget: 0.05,
+        telemetrySignals: ['billing_refund_dispute_within_target', 'billing_refund_dispute_overdue'],
+        runbook: 'docs/operations/billing-observability.md',
+        rollback: 'Escalate support queue and pause checkout expansion.'
       })
     ])
   });

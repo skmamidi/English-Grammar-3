@@ -324,6 +324,59 @@ test('learner state repository returns normalized dashboard sources without ques
   assert.equal(JSON.stringify(source).includes('raw answer'), false);
 });
 
+test('learner state repository preserves mixed quiz dashboard evidence without question payloads', () => {
+  const repository = createRepository();
+  repository.saveProgress({
+    reports: {
+      sessions: [{
+        id: 'mixed-session-1',
+        studentId: 'learner-1',
+        title: 'Grammar Mixed Quiz',
+        topic: 'Grammar',
+        mode: 'mixed',
+        quizMode: 'mixed',
+        score: 1,
+        total: 2,
+        percentage: 50,
+        durationSeconds: 120,
+        completedAt: '2030-04-29T12:00:00.000Z',
+        attempts: [
+          {
+            questionId: 'grammar-sentence-types-q0001',
+            correct: false,
+            subtopicId: 'grammar-sentence-types',
+            subtopicTitle: 'Sentence Types',
+            skillIds: ['grammar.sentence-analysis'],
+            difficulty: 'medium',
+            question: 'raw prompt'
+          },
+          {
+            questionId: 'grammar-nouns-q0001',
+            correct: true,
+            subtopicId: 'grammar-parts-of-speech-nouns',
+            subtopicTitle: 'Nouns',
+            skillIds: ['grammar.nouns'],
+            difficulty: 'medium',
+            answer: 'raw answer'
+          }
+        ]
+      }]
+    }
+  });
+
+  const source = repository.getLearnerDashboardSource('learner-1');
+  const session = source.sessions[0];
+
+  assert.equal(session.mode, 'mixed');
+  assert.equal(session.title, 'Grammar Mixed Quiz');
+  assert.equal(session.score, 1);
+  assert.equal(session.total, 2);
+  assert.equal(session.attempts[0].subtopicTitle, 'Sentence Types');
+  assert.deepEqual(session.attempts[0].skillIds, ['grammar.sentence-analysis']);
+  assert.equal(JSON.stringify(source).includes('raw prompt'), false);
+  assert.equal(JSON.stringify(source).includes('raw answer'), false);
+});
+
 test('learner state repository saves and clears active quiz refs atomically', () => {
   const repository = createRepository();
   repository.saveActiveQuiz({

@@ -133,9 +133,11 @@ test('billing management docs subscription route and package wiring are present'
     'convert one-time access to auto-renew',
     'server-mediated',
     'browser actions are requests',
-    'explicit confirmation'
+    'explicit confirmation',
+    'sandbox and staging payment rehearsals'
   ].forEach(required => assert.match(docs, new RegExp(escapeRegex(required), 'i')));
 
+  assert.match(docs, /billing-payment-rehearsals\.md/);
   assert.match(checkoutDocs, /billing-management-actions\.md/);
   assert.match(uxDocs, /one-time access to auto-renew/i);
   assert.match(subscription, /Billing Management/i);

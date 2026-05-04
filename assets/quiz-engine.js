@@ -556,14 +556,14 @@
       return;
     }
     currentQuestions = resolvedQuestions;
-    currentIndex = Math.min(Math.max(0, Number(savedQuiz.currentIndex) || 0), currentQuestions.length);
-    score = Number(savedQuiz.score) || 0;
-    combo = Number(savedQuiz.combo) || 0;
+    attemptRecords = normalizeSavedAttemptRecords(savedQuiz.attempts);
+    currentIndex = getResumeQuestionIndex(savedQuiz);
+    score = attemptRecords.filter(attempt => attempt && attempt.correct === true).length;
+    combo = calculateResumeCombo(attemptRecords);
     missedQuestions = Array.isArray(savedQuiz.missedQuestions) ? savedQuiz.missedQuestions : [];
     reviewMode = !!savedQuiz.reviewMode;
     hintsUsed = Number(savedQuiz.hintsUsed) || 0;
     confidenceStats = Array.isArray(savedQuiz.confidenceStats) ? savedQuiz.confidenceStats : [];
-    attemptRecords = Array.isArray(savedQuiz.attempts) ? savedQuiz.attempts : [];
     reviewAttemptRecords = Array.isArray(savedQuiz.reviewAttempts) ? savedQuiz.reviewAttempts : [];
     sessionStartedAt = savedQuiz.startedAt ? Date.parse(savedQuiz.startedAt) || Date.now() : Date.now();
     questionStartedAt = savedQuiz.questionStartedAt ? Date.parse(savedQuiz.questionStartedAt) || Date.now() : Date.now();
@@ -573,6 +573,22 @@
       return;
     }
     renderQuestion();
+  }
+
+  function getResumeQuestionIndex(savedQuiz) {
+    const savedIndex = Number(savedQuiz && savedQuiz.currentIndex) || 0;
+    const nextIndex = quizDomain && typeof quizDomain.findNextUnansweredQuestionIndex === 'function'
+      ? quizDomain.findNextUnansweredQuestionIndex(currentQuestions, attemptRecords, savedIndex)
+      : Math.max(savedIndex, getCompletedQuestionCount());
+    return Math.min(Math.max(0, nextIndex), currentQuestions.length);
+  }
+
+  function calculateResumeCombo(attempts) {
+    let comboCount = 0;
+    normalizeSavedAttemptRecords(attempts).forEach(attempt => {
+      comboCount = attempt && attempt.correct === true ? comboCount + 1 : 0;
+    });
+    return comboCount;
   }
 
   async function resolveActiveQuizQuestions(activeQuiz) {
@@ -742,6 +758,7 @@
       questionHash: questionRef.contentHash,
       sourceSet: questionRef.sourceSet,
       sequence: questionRef.sequence,
+      position: currentIndex + 1,
       question: q,
       selectedIndex,
       correct: isCorrect,
@@ -757,7 +774,7 @@
     combo = isCorrect ? combo + 1 : 0;
     confidenceStats.push({ confidence: currentConfidence || 'thinking', correct: isCorrect });
     if (reviewMode) reviewAttemptRecords.push(attemptRecord);
-    else attemptRecords.push(attemptRecord);
+    else upsertAttemptRecord(attemptRecord, currentIndex);
     if (!isCorrect && !reviewMode && !missedQuestions.includes(q)) {
       missedQuestions.push(q);
     }
@@ -800,17 +817,84 @@
   }
 
   function getCompletedQuestionCount() {
-    return Math.min(attemptRecords.length, currentQuestions.length);
+    if (reviewMode) return Math.min(reviewAttemptRecords.length, currentQuestions.length);
+    return getAnsweredQuestionIndexes().size;
   }
 
   function getActiveUnansweredIndex() {
-    return Math.min(getCompletedQuestionCount(), currentQuestions.length - 1);
+    const nextIndex = quizDomain && typeof quizDomain.findNextUnansweredQuestionIndex === 'function'
+      ? quizDomain.findNextUnansweredQuestionIndex(currentQuestions, attemptRecords, currentIndex)
+      : getCompletedQuestionCount();
+    return Math.min(nextIndex, currentQuestions.length - 1);
   }
 
   function getCompletedAttemptForIndex(index) {
     if (reviewMode) return null;
-    if (index < 0 || index >= getCompletedQuestionCount()) return null;
-    return attemptRecords[index] || null;
+    if (index < 0 || index >= currentQuestions.length) return null;
+    return findAttemptForQuestionIndex(index);
+  }
+
+  function upsertAttemptRecord(attempt, index) {
+    const key = getAttemptMatchKey(attempt, index);
+    const existingIndex = attemptRecords.findIndex(item => getAttemptMatchKey(item, getAttemptQuestionIndex(item)) === key);
+    if (existingIndex >= 0) {
+      attemptRecords[existingIndex] = attempt;
+      return;
+    }
+    attemptRecords.push(attempt);
+    attemptRecords = normalizeSavedAttemptRecords(attemptRecords);
+  }
+
+  function findAttemptForQuestionIndex(index) {
+    return attemptRecords.find(attempt => getAttemptQuestionIndex(attempt) === index)
+      || (attemptRecords[index] && getAttemptQuestionIndex(attemptRecords[index]) < 0 ? attemptRecords[index] : null);
+  }
+
+  function getAnsweredQuestionIndexes() {
+    const indexes = new Set();
+    attemptRecords.forEach((attempt, fallbackIndex) => {
+      const index = getAttemptQuestionIndex(attempt);
+      if (index >= 0 && index < currentQuestions.length) indexes.add(index);
+      else if (fallbackIndex >= 0 && fallbackIndex < currentQuestions.length) indexes.add(fallbackIndex);
+    });
+    return indexes;
+  }
+
+  function normalizeSavedAttemptRecords(attempts) {
+    const byKey = {};
+    (Array.isArray(attempts) ? attempts : []).forEach((attempt, index) => {
+      if (!attempt || typeof attempt !== 'object') return;
+      const normalized = Object.assign({}, attempt);
+      const key = getAttemptMatchKey(normalized, getAttemptQuestionIndex(normalized), index);
+      byKey[key] = normalized;
+    });
+    return Object.keys(byKey)
+      .map(key => byKey[key])
+      .sort((a, b) => {
+        const aIndex = getAttemptQuestionIndex(a);
+        const bIndex = getAttemptQuestionIndex(b);
+        if (aIndex >= 0 && bIndex >= 0) return aIndex - bIndex;
+        if (aIndex >= 0) return -1;
+        if (bIndex >= 0) return 1;
+        return 0;
+      });
+  }
+
+  function getAttemptMatchKey(attempt, index, fallbackIndex) {
+    const questionIndex = Number.isInteger(index) && index >= 0 ? index : getAttemptQuestionIndex(attempt);
+    if (questionIndex >= 0) return `index:${questionIndex}`;
+    const id = getAttemptQuestionId(attempt);
+    if (id) return `id:${id}`;
+    return `fallback:${Number(fallbackIndex) || 0}`;
+  }
+
+  function getAttemptQuestionIndex(attempt) {
+    if (!attempt || typeof attempt !== 'object') return -1;
+    const position = Number(attempt.position);
+    if (Number.isInteger(position) && position >= 1 && position <= currentQuestions.length) return position - 1;
+    const id = getAttemptQuestionId(attempt);
+    if (!id) return -1;
+    return currentQuestions.findIndex(question => getQuestionRef(question).id === id || getQuestionId(question) === id);
   }
 
   function renderFeedback(q, selectedIndex, isCorrect, options) {
@@ -1058,6 +1142,11 @@
       setId: window.QUIZ_SET_ID || '',
       title: activeSet && activeSet.title || 'Practice Quiz',
       topic: activeSet && activeSet.topic || 'English Language Arts',
+      mode: mixedQuizConfig ? 'mixed' : 'subtopic',
+      quizMode: mixedQuizConfig ? 'mixed' : 'subtopic',
+      mixedTitle: mixedQuizConfig && mixedQuizConfig.title || '',
+      mixedSubtopicIds: mixedQuizConfig ? getActiveMixedSubtopics().map(subtopic => subtopic.id) : [],
+      questionsPerSubtopic: mixedQuizConfig ? getSelectedMixedQuestionLimit() : 0,
       grade: selectedGrade,
       difficulty: selectedDifficulty,
       questionId: getQuestionId(question),
@@ -2807,7 +2896,7 @@
 
   function renderMixedSubtopicSelector() {
     const limit = getSelectedMixedQuestionLimit();
-    const limitOptions = ['4', '5', '6', '7', '8', '9', '10']
+    const limitOptions = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
       .map(value => `<option value="${value}" ${limit === Number(value) ? 'selected' : ''}>${value} per subtopic</option>`)
       .join('');
     const options = mixedQuizConfig.subtopics.map(subtopic => `
@@ -2928,12 +3017,18 @@
 
   function saveQuestResult(percentage, correct, total, attempts) {
     const progress = loadProgress();
-    const today = getTodayKey();
-    const yesterday = getDateKey(-1);
+    const completedAt = new Date().toISOString();
+    const streakProjection = progressStore && typeof progressStore.projectPracticeCompletion === 'function'
+      ? progressStore.projectPracticeCompletion(progress, completedAt)
+      : null;
+    const today = streakProjection ? streakProjection.lastPracticeDate || getTodayKey() : getTodayKey();
     let streakBonus = 0;
 
-    if (progress.lastPracticeDate !== today) {
-      progress.streakDays = progress.lastPracticeDate === yesterday ? progress.streakDays + 1 : 1;
+    if (streakProjection) {
+      progress.streakDays = streakProjection.streakDays;
+      progress.lastPracticeDate = today;
+    } else if (progress.lastPracticeDate !== today) {
+      progress.streakDays = progress.lastPracticeDate === getDateKey(-1) ? progress.streakDays + 1 : 1;
       progress.lastPracticeDate = today;
     }
 
@@ -2950,7 +3045,7 @@
       percentage,
       correct,
       total,
-      completedAt: new Date().toISOString(),
+      completedAt,
       startedAt: sessionStartedAt ? new Date(sessionStartedAt).toISOString() : '',
       durationSeconds: sessionStartedAt ? Math.max(1, Math.round((Date.now() - sessionStartedAt) / 1000)) : 0
     });
@@ -3063,6 +3158,11 @@
       studentName: getActiveStudentName(),
       title: activeSet && activeSet.title || 'Practice Quiz',
       topic: activeSet && activeSet.topic || 'English Language Arts',
+      mode: mixedQuizConfig ? 'mixed' : 'subtopic',
+      quizMode: mixedQuizConfig ? 'mixed' : 'subtopic',
+      mixedTitle: mixedQuizConfig && mixedQuizConfig.title || '',
+      mixedSubtopicIds: mixedQuizConfig ? getActiveMixedSubtopics().map(subtopic => subtopic.id) : [],
+      questionsPerSubtopic: mixedQuizConfig ? getSelectedMixedQuestionLimit() : 0,
       grade: selectedGrade,
       difficulty: selectedDifficulty,
       score: summary.correct,
@@ -3213,7 +3313,10 @@
 
   function saveActiveQuiz(options) {
     if (isParentMode()) return;
-    const nextIndex = options && Number.isFinite(options.nextIndex) ? options.nextIndex : currentIndex;
+    const evidenceIndex = quizDomain && typeof quizDomain.findNextUnansweredQuestionIndex === 'function'
+      ? quizDomain.findNextUnansweredQuestionIndex(currentQuestions, attemptRecords, currentIndex)
+      : currentIndex;
+    const nextIndex = options && Number.isFinite(options.nextIndex) ? options.nextIndex : evidenceIndex;
     const activeQuiz = {
       schemaVersion: 2,
       setId: window.QUIZ_SET_ID || '',
@@ -3230,7 +3333,7 @@
       reviewMode,
       hintsUsed,
       confidenceStats,
-      attempts: attemptRecords,
+      attempts: normalizeSavedAttemptRecords(attemptRecords),
       reviewAttempts: reviewAttemptRecords,
       missedQuestions,
       startedAt: sessionStartedAt ? new Date(sessionStartedAt).toISOString() : new Date().toISOString(),
@@ -3616,14 +3719,14 @@
 
   function getConfiguredQuestionsPerSubtopic() {
     const configured = parseInt(window.QUIZ_QUESTIONS_PER_SUBTOPIC, 10);
-    return Number.isFinite(configured) && configured >= 4 ? Math.min(configured, 10) : 4;
+    return Number.isFinite(configured) && configured >= 1 ? Math.min(configured, 10) : 4;
   }
 
   function normalizeMixedQuestionLimit(value) {
     if (String(value || '').toLowerCase() === 'max') return 'max';
     const number = parseInt(value, 10);
     if (!Number.isFinite(number)) return '4';
-    return String(Math.min(10, Math.max(4, number)));
+    return String(Math.min(10, Math.max(1, number)));
   }
 
   function normalizeMixedSubtopics(config) {

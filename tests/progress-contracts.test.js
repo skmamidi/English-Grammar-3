@@ -315,6 +315,103 @@ test('progress store projects skill-id mastery from saved sessions', () => {
   assert.equal(progress.mastery.standards['L.3-6.1'].total, 1);
 });
 
+test('runtime progress store derives streak from consecutive saved test sessions', () => {
+  const { progressStore } = loadProgressStoreForTest();
+
+  progressStore.saveProgress({
+    streakDays: 1,
+    lastPracticeDate: '2030-04-29',
+    reports: {
+      sessions: [
+        { id: 'session-day-2b', completedAt: '2030-04-30T15:00:00.000Z', attempts: [{ questionId: 'q2b' }] },
+        { id: 'session-day-2', completedAt: '2030-04-30T12:00:00.000Z', attempts: [{ questionId: 'q2' }] },
+        { id: 'session-day-1', completedAt: '2030-04-29T12:00:00.000Z', attempts: [{ questionId: 'q1' }] }
+      ]
+    }
+  }, { sync: false });
+
+  const progress = progressStore.getProgress();
+
+  assert.equal(progress.streakDays, 2);
+  assert.equal(progress.lastPracticeDate, '2030-04-30');
+});
+
+test('runtime progress store ignores saved sessions without completed attempts when deriving streaks', () => {
+  const { progressStore } = loadProgressStoreForTest();
+
+  progressStore.saveProgress({
+    streakDays: 3,
+    lastPracticeDate: '2030-04-30',
+    reports: {
+      sessions: [
+        { id: 'empty-session', completedAt: '2030-04-30T12:00:00.000Z', attempts: [] },
+        { id: 'session-day-2', completedAt: '2030-04-29T12:00:00.000Z', attempts: [{ questionId: 'q2' }] },
+        { id: 'session-day-1', completedAt: '2030-04-28T12:00:00.000Z', attempts: [{ questionId: 'q1' }] }
+      ]
+    }
+  }, { sync: false });
+
+  const progress = progressStore.getProgress();
+
+  assert.equal(progress.streakDays, 2);
+  assert.equal(progress.lastPracticeDate, '2030-04-29');
+});
+
+test('runtime progress store projects a newly completed test onto existing session streak evidence', () => {
+  const { progressStore } = loadProgressStoreForTest();
+
+  const streak = progressStore.projectPracticeCompletion({
+    streakDays: 1,
+    lastPracticeDate: '2030-04-28',
+    reports: {
+      sessions: [
+        { id: 'session-day-1', completedAt: '2030-04-29T12:00:00.000Z', attempts: [{ questionId: 'q1' }] }
+      ]
+    }
+  }, '2030-04-30T12:00:00.000Z');
+
+  assert.equal(streak.streakDays, 2);
+  assert.equal(streak.lastPracticeDate, '2030-04-30');
+});
+
+test('runtime progress store counts completed mixed quiz sessions toward streaks', () => {
+  const { progressStore } = loadProgressStoreForTest();
+
+  progressStore.saveProgress({
+    streakDays: 1,
+    lastPracticeDate: '2030-04-29',
+    reports: {
+      sessions: [
+        {
+          id: 'mixed-session-day-2',
+          mode: 'mixed',
+          quizMode: 'mixed',
+          completedAt: '2030-04-30T12:00:00.000Z',
+          attempts: [{
+            questionId: 'grammar-sentence-types-q0001',
+            sourceSet: 'grammar-sentence-types',
+            correct: true
+          }]
+        },
+        {
+          id: 'subtopic-session-day-1',
+          completedAt: '2030-04-29T12:00:00.000Z',
+          attempts: [{
+            questionId: 'grammar-parts-of-speech-nouns-q0001',
+            sourceSet: 'grammar-parts-of-speech-nouns',
+            correct: true
+          }]
+        }
+      ]
+    }
+  }, { sync: false });
+
+  const progress = progressStore.getProgress();
+
+  assert.equal(progress.streakDays, 2);
+  assert.equal(progress.lastPracticeDate, '2030-04-30');
+});
+
 test('runtime progress store normalizes and updates spaced repetition schedules', () => {
   const { progressStore } = loadProgressStoreForTest({
     spacedRepetitionDomain: require('../assets/spaced-repetition-domain')

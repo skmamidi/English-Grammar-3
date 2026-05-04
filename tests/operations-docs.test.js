@@ -13,7 +13,8 @@ const requiredRunbooks = [
   'runbook-auth-session-outage.md',
   'runbook-telemetry-outage.md',
   'runbook-learner-sync-failure.md',
-  'runbook-content-publication-rollback.md'
+  'runbook-content-publication-rollback.md',
+  'runbook-billing-rollback.md'
 ];
 const requiredSections = [
   'Symptoms',

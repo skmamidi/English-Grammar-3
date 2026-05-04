@@ -202,6 +202,8 @@ test('billing webhook ledger docs and package wiring are present', () => {
   assert.match(docs, /stale webhook rejected/i);
   assert.match(docs, /provider outage fallback/i);
   assert.match(docs, /checkout success redirects are informational/i);
+  assert.match(docs, /billing-rollback-policy\.md/);
+  assert.match(docs, /verified webhook processing/i);
   assert.match(billingDomainDocs, /verified billing ledger/i);
   assert.match(pkg.scripts['test:unit'], /tests\/billing-webhook-ledger-policy\.test\.js/);
 });

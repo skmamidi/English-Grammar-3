@@ -1634,12 +1634,18 @@
         progress
       };
     }
-    const today = getDateKey(0);
-    const yesterday = getDateKey(-1);
+    const completedAt = new Date().toISOString();
+    const streakProjection = progressStore && typeof progressStore.projectPracticeCompletion === 'function'
+      ? progressStore.projectPracticeCompletion(progress, completedAt)
+      : null;
+    const today = streakProjection ? streakProjection.lastPracticeDate || getDateKey(0) : getDateKey(0);
     let streakBonus = 0;
 
-    if (progress.lastPracticeDate !== today) {
-      progress.streakDays = progress.lastPracticeDate === yesterday ? progress.streakDays + 1 : 1;
+    if (streakProjection) {
+      progress.streakDays = streakProjection.streakDays;
+      progress.lastPracticeDate = today;
+    } else if (progress.lastPracticeDate !== today) {
+      progress.streakDays = progress.lastPracticeDate === getDateKey(-1) ? progress.streakDays + 1 : 1;
       progress.lastPracticeDate = today;
     }
 
@@ -1656,7 +1662,7 @@
       percentage,
       correct,
       total,
-      completedAt: new Date().toISOString(),
+      completedAt,
       startedAt: state.sessionStartedAt ? new Date(state.sessionStartedAt).toISOString() : '',
       durationSeconds: state.sessionStartedAt ? Math.max(1, Math.round((Date.now() - state.sessionStartedAt) / 1000)) : 0
     });

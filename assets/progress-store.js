@@ -83,12 +83,131 @@
     normalized.lastPracticeDate = normalized.lastPracticeDate || "";
     normalized.badges = Array.isArray(normalized.badges) ? normalized.badges : [];
     normalized.reports = normalizeReports(normalized.reports);
+    const streakProjection = projectPracticeStreak(normalized);
+    normalized.streakDays = streakProjection.streakDays;
+    normalized.lastPracticeDate = streakProjection.lastPracticeDate;
     normalized.activeQuiz = normalizeActiveQuiz(normalized.activeQuiz);
     normalized.mastery = normalizeMastery(normalized.mastery);
     normalized.assignments = normalizeAssignments(normalized.assignments);
     normalized.reviewQueue = normalizeReviewQueue(normalized.reviewQueue);
     normalized.reviewSchedules = normalizeReviewSchedules(normalized.reviewSchedules);
     return normalized;
+  }
+
+  function projectPracticeStreak(progress) {
+    const storedStreakDays = Math.max(0, Math.round(Number(progress && progress.streakDays) || 0));
+    const storedLastPracticeDate = normalizeDateKey(progress && progress.lastPracticeDate) || "";
+    const sessions = progress && progress.reports && Array.isArray(progress.reports.sessions)
+      ? progress.reports.sessions
+      : [];
+    const dayKeys = getCompletedPracticeDayKeys(sessions);
+    if (!dayKeys.length) {
+      return {
+        streakDays: storedStreakDays,
+        lastPracticeDate: storedLastPracticeDate
+      };
+    }
+
+    return {
+      streakDays: countConsecutivePracticeDays(dayKeys),
+      lastPracticeDate: dayKeys[0]
+    };
+  }
+
+  function projectPracticeCompletion(progress, completedAt) {
+    const current = normalizeProgress(progress);
+    const completedDay = dateKeyFromTimestamp(completedAt) || dateKeyFromDate(new Date());
+    const sessions = current.reports && Array.isArray(current.reports.sessions)
+      ? current.reports.sessions
+      : [];
+
+    if (getCompletedPracticeDayKeys(sessions).length) {
+      return projectPracticeStreak(Object.assign({}, current, {
+        reports: Object.assign({}, current.reports, {
+          sessions: [{
+            id: "__current-practice-completion__",
+            completedAt: completedAt || new Date().toISOString(),
+            attempts: [{ questionId: "__current-practice-completion__" }]
+          }].concat(sessions)
+        })
+      }));
+    }
+
+    if (current.lastPracticeDate === completedDay) {
+      return {
+        streakDays: current.streakDays,
+        lastPracticeDate: completedDay
+      };
+    }
+
+    return {
+      streakDays: current.lastPracticeDate === previousDateKey(completedDay) ? current.streakDays + 1 : 1,
+      lastPracticeDate: completedDay
+    };
+  }
+
+  function getCompletedPracticeDayKeys(sessions) {
+    const dayKeys = new Set();
+    (Array.isArray(sessions) ? sessions : []).forEach(session => {
+      if (!isCompletedPracticeSession(session)) return;
+      const dayKey = dateKeyFromTimestamp(session.completedAt || session.updatedAt || session.createdAt);
+      if (dayKey) dayKeys.add(dayKey);
+    });
+    return Array.from(dayKeys).sort().reverse();
+  }
+
+  function isCompletedPracticeSession(session) {
+    return !!(
+      session &&
+      typeof session === "object" &&
+      Array.isArray(session.attempts) &&
+      session.attempts.length > 0 &&
+      (session.completedAt || session.updatedAt || session.createdAt)
+    );
+  }
+
+  function countConsecutivePracticeDays(dayKeys) {
+    const sorted = Array.from(new Set((Array.isArray(dayKeys) ? dayKeys : []).map(normalizeDateKey).filter(Boolean)))
+      .sort()
+      .reverse();
+    if (!sorted.length) return 0;
+
+    let count = 1;
+    let expected = previousDateKey(sorted[0]);
+    for (let index = 1; index < sorted.length; index += 1) {
+      if (sorted[index] !== expected) break;
+      count += 1;
+      expected = previousDateKey(sorted[index]);
+    }
+    return count;
+  }
+
+  function previousDateKey(dayKey) {
+    const parts = String(dayKey || "").split("-").map(part => Number(part));
+    if (parts.length !== 3 || parts.some(part => !Number.isFinite(part))) return "";
+    const date = new Date(parts[0], parts[1] - 1, parts[2]);
+    date.setDate(date.getDate() - 1);
+    return dateKeyFromDate(date);
+  }
+
+  function normalizeDateKey(value) {
+    const text = String(value || "");
+    if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return text;
+    return dateKeyFromTimestamp(text);
+  }
+
+  function dateKeyFromTimestamp(value) {
+    const date = value instanceof Date ? value : new Date(value || "");
+    if (Number.isNaN(date.getTime())) return "";
+    return dateKeyFromDate(date);
+  }
+
+  function dateKeyFromDate(date) {
+    if (!(date instanceof Date) || Number.isNaN(date.getTime())) return "";
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
   }
 
   function normalizeReviewSchedules(schedules) {
@@ -1132,6 +1251,9 @@
     getReportQuestionId,
     looksLikeStableQuestionId,
     normalizeActiveQuiz,
+    projectPracticeStreak,
+    projectPracticeCompletion,
+    dateKeyFromTimestamp,
     setCloudAdapter,
     syncFromCloud,
     syncToCloud,

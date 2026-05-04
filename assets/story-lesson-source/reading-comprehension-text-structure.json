@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "setId": "reading-comprehension-text-structure",
+  "domain": "reading-comprehension",
+  "title": "Text Structure",
+  "version": 1,
+  "contentHash": "sha256:reading-comprehension-text-structure-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "text-structure-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for noticing how a text is organized."
+        }
+      ],
+      "conceptRules": [
+        "Use one clue to explain noticing how a text is organized."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo sees first, next, and finally in a passage about building a kite.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing how a text is organized?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "text structure",
+          "definition": "A reading strategy for noticing how a text is organized."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Structure",
+        "targetSetId": "reading-comprehension-text-structure"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "text-structure-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for noticing how a text is organized."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain noticing how a text is organized."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo sees first, next, and finally in a passage about building a kite.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing how a text is organized?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "text structure",
+          "definition": "A reading strategy for noticing how a text is organized."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Structure",
+        "targetSetId": "reading-comprehension-text-structure"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "text-structure-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers noticing how a text is organized to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain noticing how a text is organized."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo sees first, next, and finally in a passage about building a kite.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing how a text is organized?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "text structure",
+          "definition": "A reading strategy for noticing how a text is organized."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Structure",
+        "targetSetId": "reading-comprehension-text-structure"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "text-structure-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers noticing how a text is organized to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain noticing how a text is organized."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo sees first, next, and finally in a passage about building a kite.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing how a text is organized?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "text structure",
+          "definition": "A reading strategy for noticing how a text is organized."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Structure",
+        "targetSetId": "reading-comprehension-text-structure"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "text-structure-g6",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers noticing how a text is organized to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use multiple pieces of evidence to explain noticing how a text is organized and consider another possible reading."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo sees first, next, and finally in a passage about building a kite.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing how a text is organized?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not stop at a likely answer; weigh competing clues before deciding."
+      ],
+      "vocabulary": [
+        {
+          "term": "text structure",
+          "definition": "A reading strategy for noticing how a text is organized."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Structure",
+        "targetSetId": "reading-comprehension-text-structure"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "reading-comprehension-summarizing",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "reading-comprehension-cause-effect",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models clue noticing"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches evidence explanation and transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "text-structure"
+    ],
+    "skillIds": [
+      "reading.strategy"
+    ],
+    "standardIds": [
+      "RL.RI.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "evidence",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "reading-comprehension-text-structure-unsupported-answer"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

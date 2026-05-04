@@ -48,7 +48,7 @@
     const required = pathSet(input.requiredChunkUrls);
     const recent = pathSet(input.recentChunkUrls);
     const pathKey = normalizePath(pathname);
-    if (/^\/assets\/question-chunks\/[^/]+\/[^/]+\.js$/.test(pathname)) {
+    if (/^\/assets\/(?:question|story-lesson)-chunks\/[^/]+\/[^/]+\.js$/.test(pathname)) {
       if (preload) return { priorityGroup: PRIORITY_GROUPS.preloadChunk };
       if (required.has(pathKey)) return { priorityGroup: PRIORITY_GROUPS.currentRequiredChunk };
       if (recent.has(pathKey)) return { priorityGroup: PRIORITY_GROUPS.recentRequiredChunk };
@@ -188,7 +188,7 @@
   }
 
   function isQuizChunk(record) {
-    return /\/assets\/question-chunks\/[^/]+\/[^/]+\.js$/.test(String(record.url || ''));
+    return /\/assets\/(?:question|story-lesson)-chunks\/[^/]+\/[^/]+\.js$/.test(String(record.url || ''));
   }
 
   function isRetainedRequiredChunk(record) {

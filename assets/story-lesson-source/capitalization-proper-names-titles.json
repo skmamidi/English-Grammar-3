@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "capitalization-proper-names-titles",
+  "domain": "capitalization",
+  "title": "Proper Names and Titles of People",
+  "version": 1,
+  "contentHash": "sha256:capitalization-proper-names-titles-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "proper-names-titles-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters for proper names and titles of people."
+        }
+      ],
+      "conceptRules": [
+        "People names begin with capital letters."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Lee",
+          "explanation": "This example helps learners see capital letters for proper names and titles of people."
+        },
+        {
+          "type": "near_miss",
+          "text": "Aunt Rosa",
+          "explanation": "This example helps learners see capital letters for proper names and titles of people."
+        },
+        {
+          "type": "transfer",
+          "text": "Mayor Chen",
+          "explanation": "This example helps learners see capital letters for proper names and titles of people."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for proper names and titles of people?",
+          "answer": "Capitalize names and titles when they are part of a specific person's name."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a family title when it is used as a common noun, as in my aunt."
+      ],
+      "vocabulary": [
+        {
+          "term": "title of a person",
+          "definition": "A word like Dr., Aunt, or Mayor used with a name."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Proper Names and Titles of People",
+        "targetSetId": "capitalization-proper-names-titles"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "proper-names-titles-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters for proper names and titles of people."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize names and titles when they are part of a specific person's name."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Lee",
+          "explanation": "This example helps learners see capital letters for proper names and titles of people."
+        },
+        {
+          "type": "near_miss",
+          "text": "Aunt Rosa",
+          "explanation": "This example helps learners see capital letters for proper names and titles of people."
+        },
+        {
+          "type": "transfer",
+          "text": "Mayor Chen",
+          "explanation": "This example helps learners see capital letters for proper names and titles of people."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for proper names and titles of people?",
+          "answer": "Capitalize names and titles when they are part of a specific person's name."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a family title when it is used as a common noun, as in my aunt."
+      ],
+      "vocabulary": [
+        {
+          "term": "title of a person",
+          "definition": "A word like Dr., Aunt, or Mayor used with a name."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Proper Names and Titles of People",
+        "targetSetId": "capitalization-proper-names-titles"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "proper-names-titles-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters for proper names and titles of people changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize names and titles when they are part of a specific person's name."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Lee",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Aunt Rosa",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "Mayor Chen",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for proper names and titles of people?",
+          "answer": "Capitalize names and titles when they are part of a specific person's name."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a family title when it is used as a common noun, as in my aunt."
+      ],
+      "vocabulary": [
+        {
+          "term": "title of a person",
+          "definition": "A word like Dr., Aunt, or Mayor used with a name."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Proper Names and Titles of People",
+        "targetSetId": "capitalization-proper-names-titles"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "proper-names-titles-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters for proper names and titles of people changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize names and titles when they are part of a specific person's name."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Lee",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Aunt Rosa",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "Mayor Chen",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for proper names and titles of people?",
+          "answer": "Capitalize names and titles when they are part of a specific person's name."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a family title when it is used as a common noun, as in my aunt."
+      ],
+      "vocabulary": [
+        {
+          "term": "title of a person",
+          "definition": "A word like Dr., Aunt, or Mayor used with a name."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Proper Names and Titles of People",
+        "targetSetId": "capitalization-proper-names-titles"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "proper-names-titles-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using capital letters for proper names and titles of people to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize names and titles when they are part of a specific person's name. Use context to decide whether a title names one person or only describes a role."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Lee",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "Aunt Rosa",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "Mayor Chen",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for proper names and titles of people?",
+          "answer": "Capitalize names and titles when they are part of a specific person's name."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a family title when it is used as a common noun, as in my aunt. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "title of a person",
+          "definition": "A word like Dr., Aunt, or Mayor used with a name."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Proper Names and Titles of People",
+        "targetSetId": "capitalization-proper-names-titles"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "capitalization-sentence-beginning",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "capitalization-names-of-places",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "proper-names-titles"
+    ],
+    "skillIds": [
+      "capitalization.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "capitalization-proper-names-titles-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

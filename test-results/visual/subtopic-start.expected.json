@@ -1,0 +1,59 @@
+{
+  "name": "subtopic-start",
+  "file": "topics/grammar/subtopics/sentence-types.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.138",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
+  "screenshotSha256": "adbf3fc44fd22a0896752fdaf1a7512a185835d357f318d3797ef38d1ec21c0f",
+  "screenshotBytes": 183294,
+  "summary": {
+    "title": "Sentence Types",
+    "semanticTextHash": "392291953",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← Back to Topic",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "CHAPTER MISSION Sentence Types The Word Woods need a careful sentence scout. Choose a level, answer 15 questions, collect star gems, and keep your practice streak glowing. Grade Gr",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 155,
+          "width": 1032,
+          "height": 813
+        }
+      },
+      {
+        "selector": "#start-btn",
+        "text": "Start Quiz",
+        "visible": true,
+        "rect": {
+          "x": 580,
+          "y": 878,
+          "width": 120,
+          "height": 48
+        }
+      }
+    ]
+  }
+}

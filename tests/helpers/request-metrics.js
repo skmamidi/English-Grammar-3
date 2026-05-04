@@ -1,7 +1,9 @@
 const QUESTION_BANK_PATTERN = /\/assets\/question-banks\/[^/]+\.js(?:[?#].*)?$/;
 const QUESTION_CHUNK_PATTERN = /\/assets\/question-chunks\/[^/]+\/[^/]+\.js(?:[?#].*)?$/;
 const QUESTION_MANIFEST_PATTERN = /\/assets\/question-manifest\.js(?:[?#].*)?$/;
-const APP_SHELL_JS_PATTERN = /\/assets\/(?!question-(?:chunks|banks|manifest))(?:.+\/)?[^/]+\.js(?:[?#].*)?$/;
+const STORY_LESSON_CHUNK_PATTERN = /\/assets\/story-lesson-chunks\/[^/]+\/[^/]+\.js(?:[?#].*)?$/;
+const STORY_LESSON_MANIFEST_PATTERN = /\/assets\/story-lesson-manifest\.js(?:[?#].*)?$/;
+const APP_SHELL_JS_PATTERN = /\/assets\/(?!(?:question-(?:chunks|banks|manifest)|story-lesson-(?:chunks|manifest)))(?:.+\/)?[^/]+\.js(?:[?#].*)?$/;
 const APP_SHELL_CSS_PATTERN = /\/assets\/[^/]+\.css(?:[?#].*)?$/;
 const SERVICE_WORKER_PATTERN = /\/(?:sw\.js|assets\/service-worker-[^/]+\.js)(?:[?#].*)?$/;
 const RELEASE_METADATA_PATTERN = /\/assets\/(?:release-manifest|build\/frontend-manifest)\.json(?:[?#].*)?$/;
@@ -48,9 +50,13 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
   const loadedChunks = uniqueAssetPaths(requests.filter(isQuestionChunkUrl))
     .filter(assetPath => !preloadSet.has(assetPath));
   const manifestRequests = uniqueAssetPaths(requests.filter(isQuestionManifestUrl));
+  const loadedLessonChunks = uniqueAssetPaths(requests.filter(isStoryLessonChunkUrl));
+  const lessonManifestRequests = uniqueAssetPaths(requests.filter(isStoryLessonManifestUrl));
   const manifestBytes = sumBytes(manifestRequests, responseBytes);
   const questionBankBytes = sumBytes(loadedFullBanks, responseBytes);
   const questionChunkBytes = sumBytes(loadedChunks, responseBytes);
+  const storyLessonChunkBytes = sumBytes(loadedLessonChunks, responseBytes);
+  const storyLessonManifestBytes = sumBytes(lessonManifestRequests, responseBytes);
   const preloadChunkBytes = sumBytes(preloadedChunks, responseBytes);
   const cacheMetrics = summarizeCacheEvents(cacheEvents);
   const appShellJs = uniqueAssetPaths(requests.filter(isAppShellJsUrl));
@@ -72,6 +78,8 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
     manifestBytes,
     questionBankBytes,
     questionChunkBytes,
+    storyLessonChunkBytes,
+    storyLessonManifestBytes,
     requiredChunkBytes: questionChunkBytes,
     preloadChunkBytes,
     requiredCachedBytes: cacheMetrics.requiredCachedBytes || questionChunkBytes,
@@ -79,6 +87,7 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
     evictedChunkCount: cacheMetrics.evictedChunkCount,
     staleCacheCleanupCount: cacheMetrics.staleCacheCleanupCount,
     questionPayloadBytes: manifestBytes + questionBankBytes + questionChunkBytes,
+    lessonPayloadBytes: storyLessonManifestBytes + storyLessonChunkBytes,
     appShellJsBytes,
     appShellCssBytes,
     serviceWorkerBytes,
@@ -90,8 +99,10 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
     appShellBytes: appShellJsBytes + appShellCssBytes + serviceWorkerBytes + releaseMetadataBytes + imageBytes + iconBytes + fontBytes,
     loadedFullBanks,
     loadedChunks,
+    loadedLessonChunks,
     preloadedChunks,
     manifestRequests,
+    lessonManifestRequests,
     staticAssets: Array.from(new Set(imageAssets.concat(iconAssets, fontAssets))).sort(),
     appShellAssets: Array.from(new Set(appShellJs.concat(appShellCss, serviceWorkers, releaseMetadata, imageAssets, iconAssets, fontAssets))).sort()
   };
@@ -119,12 +130,15 @@ function formatRequestMetrics(metrics) {
     `manifestBytes=${metrics.manifestBytes}`,
     `questionBankBytes=${metrics.questionBankBytes}`,
     `questionChunkBytes=${metrics.questionChunkBytes}`,
+    `lessonPayloadBytes=${metrics.lessonPayloadBytes || 0}`,
+    `storyLessonChunkBytes=${metrics.storyLessonChunkBytes || 0}`,
     `preloadChunkBytes=${metrics.preloadChunkBytes}`,
     `appShellBytes=${metrics.appShellBytes || 0}`,
     `appShellJsBytes=${metrics.appShellJsBytes || 0}`,
     `appShellCssBytes=${metrics.appShellCssBytes || 0}`,
     `loadedFullBanks=[${metrics.loadedFullBanks.join(', ')}]`,
     `loadedChunks=[${metrics.loadedChunks.join(', ')}]`,
+    `loadedLessonChunks=[${(metrics.loadedLessonChunks || []).join(', ')}]`,
     `preloadedChunks=[${(metrics.preloadedChunks || []).join(', ')}]`
   ].join('; ');
 }
@@ -180,6 +194,14 @@ function isQuestionChunkUrl(url) {
 
 function isQuestionManifestUrl(url) {
   return QUESTION_MANIFEST_PATTERN.test(url);
+}
+
+function isStoryLessonChunkUrl(url) {
+  return STORY_LESSON_CHUNK_PATTERN.test(url);
+}
+
+function isStoryLessonManifestUrl(url) {
+  return STORY_LESSON_MANIFEST_PATTERN.test(url);
 }
 
 function isAppShellJsUrl(url) {

@@ -11,6 +11,7 @@
   const SAFE_ID_PATTERN = /^[a-z0-9]+(?:[-_][a-z0-9]+)*$/i;
   const SAFE_DOMAIN_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/i;
   const SUBTOPIC_ALIASES = Object.freeze({
+    'punctuation-end-sentence': 'punctuation-end-sentence',
     'vocabulary-base-words': 'base-words-prefix-suffix',
     'vocabulary-roots-word-origins': 'roots-word-origins'
   });

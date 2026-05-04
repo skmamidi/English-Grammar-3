@@ -1,0 +1,48 @@
+{
+  "changedSelectors": [
+    {
+      "selector": "#quiz-root",
+      "expected": {
+        "selector": "#quiz-root",
+        "text": "CHAPTER MISSION Run-on Sentences The Word Woods need a careful sentence scout. Choose a level, answer 15 questions, collect star gems, and keep your practice streak glowing. Grade ",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 155,
+          "width": 1032,
+          "height": 813
+        }
+      },
+      "actual": {
+        "selector": "#quiz-root",
+        "text": "LEARN FIRST Run-on Sentences Grade 2 3 4 5 6 jo-pocket Jo compares a clean example with a near miss for fixing sentences that join too many ideas. Rules to Try A run-on sentence jo",
+        "visible": true,
+        "rect": {
+          "x": 214,
+          "y": 155,
+          "width": 852,
+          "height": 1266
+        }
+      }
+    },
+    {
+      "selector": "#start-btn",
+      "expected": {
+        "selector": "#start-btn",
+        "text": "Start Quiz",
+        "visible": true,
+        "rect": {
+          "x": 580,
+          "y": 878,
+          "width": 120,
+          "height": 48
+        }
+      },
+      "actual": null
+    }
+  ],
+  "hashDelta": {
+    "expected": "-1172466341",
+    "actual": "1168534871"
+  }
+}

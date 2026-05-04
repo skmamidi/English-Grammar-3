@@ -35,6 +35,8 @@ test('content discovery UI hides teacher-only assignment actions for learners', 
   });
 
   assert.match(html, /Start practice/);
+  assert.match(html, /href="topics\/vocabulary\/subtopics\/homophones\.html\?practice=1"/);
+  assert.match(html, /data-copy-route="topics\/vocabulary\/subtopics\/homophones\.html"/);
   assert.doesNotMatch(html, /Prefill assignment/);
 });
 

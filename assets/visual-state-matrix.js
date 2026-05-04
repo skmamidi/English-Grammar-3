@@ -10,6 +10,7 @@
   const REQUIRED_VISUAL_FLOWS = Object.freeze([
     'quiz',
     'discovery',
+    'story-lesson',
     'reports',
     'dashboard',
     'subscription',
@@ -23,6 +24,9 @@
     'error',
     'offline',
     'disabled',
+    'lesson-loaded',
+    'guided-check-feedback',
+    'reduced-motion',
     'parent-preview',
     'teacher-view',
     'guardian-view',
@@ -70,6 +74,27 @@
         state: 'empty',
         route: 'discovery.html',
         nonVisualReason: 'Deterministic component and unit contracts cover empty discovery copy; full visual state would duplicate smoke coverage.'
+      }),
+      entry({
+        id: 'story-lesson-loaded',
+        flow: 'story-lesson',
+        state: 'lesson-loaded',
+        route: 'topics/grammar/subtopics/sentence-types.html',
+        nonVisualReason: 'UI smoke, accessibility, and lesson QA coverage assert deterministic story lesson load, grade selector, related links, and quiz handoff without a duplicate screenshot.'
+      }),
+      entry({
+        id: 'story-lesson-guided-check-feedback',
+        flow: 'story-lesson',
+        state: 'guided-check-feedback',
+        route: 'topics/grammar/subtopics/sentence-types.html',
+        nonVisualReason: 'UI smoke and accessibility coverage exercise guided check reveal behavior more deterministically than a screenshot baseline.'
+      }),
+      entry({
+        id: 'story-lesson-reduced-motion',
+        flow: 'story-lesson',
+        state: 'reduced-motion',
+        route: 'topics/grammar/subtopics/sentence-types.html',
+        nonVisualReason: 'Accessibility preferences coverage verifies reduced-motion story lesson interactions and handoff timing without adding high-churn visual baselines.'
       }),
       entry({
         id: 'reports-empty',

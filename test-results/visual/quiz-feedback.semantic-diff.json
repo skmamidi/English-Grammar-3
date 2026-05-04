@@ -1,0 +1,30 @@
+{
+  "changedSelectors": [
+    {
+      "selector": "#quiz-root",
+      "expected": {
+        "selector": "#quiz-root",
+        "text": "Question 1 of 15 0 day streak 0 gems Combo 0 Score: 0 / 1 Math Book Moment QUESTION After correct punctuation is added, what type is the math book sentence? Test the word job insid",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 87,
+          "width": 1032,
+          "height": 1662
+        }
+      },
+      "actual": {
+        "selector": "#quiz-root",
+        "text": "Question 1 of 15 0 day streak 0 gems Combo 0 Score: 0 / 1 Math Book Moment QUESTION After correct punctuation is added, what type is the math book sentence? Test the word job insid",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 87,
+          "width": 1032,
+          "height": 1738
+        }
+      }
+    }
+  ],
+  "hashDelta": null
+}

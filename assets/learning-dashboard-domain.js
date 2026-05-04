@@ -25,6 +25,7 @@
     const skillStats = buildSkillStats(sessions, input.taxonomy);
     const goalProgress = buildGoalProgress(input, now);
     const goalProjection = buildGoalProjection(input, now);
+    const xpSummary = buildXpSummary(input);
     const summary = {
       recentPracticeCount: sessions.filter(session => isRecent(session.completedAt, now)).length,
       accuracy: calculateAccuracy(sessions),
@@ -35,11 +36,17 @@
       openQuestionReportCount: questionReports.filter(report => !CLOSED_REPORT_STATUSES.has(report.status)).length
     };
     if (goalProgress) summary.goalMetCount = goalProgress.overall.metCount;
+    if (xpSummary) {
+      summary.totalXp = xpSummary.totalXp;
+      summary.weeklyXp = xpSummary.weeklyXp;
+      summary.monthlyXp = xpSummary.monthlyXp;
+    }
 
     return {
       learnerId: safeString(learner.id || input.learnerId),
       roleView,
       summary,
+      xpSummary,
       skillHighlights: buildSkillHighlights(skillStats, roleView),
       goalProjection,
       nextGoalAction: goalProjection ? goalProjection.nextSuggestedAction : null,
@@ -65,6 +72,82 @@
           category: report.category
         })),
       recommendationHighlights: normalizeRecommendations(input.recommendations).slice(0, 3)
+    };
+  }
+
+  function buildXpSummary(input) {
+    const xp = readXpSource(input);
+    const projection = xp.projection;
+    if (!projection) return null;
+    const weeklyTrend = normalizeXpTrend(projection.weeklyTrend || projection.weekly || []);
+    const recentAwards = normalizeRecentAwards(projection.recentAwards || input.xpAwardEvents || []);
+    const reconciliation = summarizeXpReconciliation(xp.offlineQueue);
+    const trend = summarizeTrend(weeklyTrend);
+    return {
+      schemaVersion: 1,
+      totalXp: Math.max(0, Math.round(Number(projection.totalXp) || 0)),
+      weeklyXp: Math.max(0, Math.round(Number(projection.currentWeeklyXp) || 0)),
+      monthlyXp: Math.max(0, Math.round(Number(projection.currentMonthlyXp) || 0)),
+      trend,
+      weeklyTrend,
+      recentAwards,
+      reconciliation,
+      guardianCopy: trend.direction === 'up'
+        ? 'XP trend is rising from recent practice.'
+        : trend.direction === 'down'
+        ? 'XP trend is quieter this period; gentle review can help.'
+        : 'XP trend is steady across recent practice.'
+    };
+  }
+
+  function readXpSource(input) {
+    const progressXp = input && input.progress && input.progress.xp && typeof input.progress.xp === 'object'
+      ? input.progress.xp
+      : {};
+    return {
+      projection: input.xpProjection || progressXp.projection || null,
+      offlineQueue: Array.isArray(input.xpOfflineQueue) ? input.xpOfflineQueue : progressXp.offlineQueue
+    };
+  }
+
+  function normalizeXpTrend(trend) {
+    return (Array.isArray(trend) ? trend : []).map(item => ({
+      periodId: safeString(item && item.periodId),
+      xp: Math.max(0, Math.round(Number(item && (item.xp || item.awardedXp)) || 0)),
+      awardedAt: safeString(item && item.awardedAt)
+    })).filter(item => item.periodId || item.awardedAt).slice(-8);
+  }
+
+  function normalizeRecentAwards(awards) {
+    return (Array.isArray(awards) ? awards : []).map(award => ({
+      awardedXp: Math.max(0, Math.round(Number(award && (award.awardedXp || award.xp)) || 0)),
+      awardedAt: safeString(award && award.awardedAt),
+      source: safeString(award && award.source || 'quiz_completion')
+    })).filter(award => award.awardedXp > 0 || award.awardedAt).slice(0, 5);
+  }
+
+  function summarizeTrend(trend) {
+    if (trend.length < 2) return { direction: 'steady', deltaXp: 0 };
+    const previous = trend[trend.length - 2].xp;
+    const current = trend[trend.length - 1].xp;
+    const deltaXp = current - previous;
+    return {
+      direction: deltaXp > 0 ? 'up' : deltaXp < 0 ? 'down' : 'steady',
+      deltaXp
+    };
+  }
+
+  function summarizeXpReconciliation(queue) {
+    const entries = Array.isArray(queue) ? queue : [];
+    const pendingCount = entries.filter(entry => ['provisional', 'submitted', 'syncing'].includes(safeString(entry && entry.status))).length;
+    const rejectedCount = entries.filter(entry => ['rejected', 'duplicate', 'local-only'].includes(safeString(entry && entry.status))).length;
+    return {
+      status: pendingCount ? 'provisional' : rejectedCount ? 'reviewed' : 'synced',
+      pendingCount,
+      reviewedCount: rejectedCount,
+      copy: pendingCount
+        ? 'Some XP is provisional while sync finishes.'
+        : 'Recent XP reconciliation is up to date.'
     };
   }
 

@@ -1,5 +1,5 @@
-importScripts('/assets/offline-cache-policy.js');
-importScripts('/assets/service-worker-core.js');
+importScripts('/assets/offline-cache-policy.js?workerImport=pr207');
+importScripts('/assets/service-worker-core.js?workerImport=pr207');
 
 const core = self.GrammarQuestServiceWorkerCore;
 const sourceHash = new URL(self.location.href).searchParams.get('sourceHash') || 'dev';
@@ -51,11 +51,14 @@ async function cacheFirst(request, cacheName, url) {
     if (response && response.ok) await putWithPolicy(cache, request, response.clone(), cacheName, url);
     return response;
   } catch (error) {
-    return new Response('window.GRAMMAR_QUEST_OFFLINE_CHUNK_MISSING = true;', {
+    const lessonChunkMissing = core.isStoryLessonChunkRequest && core.isStoryLessonChunkRequest(url);
+    return new Response(lessonChunkMissing
+      ? 'window.GRAMMAR_QUEST_OFFLINE_LESSON_MISSING = true;'
+      : 'window.GRAMMAR_QUEST_OFFLINE_CHUNK_MISSING = true;', {
       status: 503,
       headers: {
         'Content-Type': 'text/javascript; charset=utf-8',
-        'X-GrammarQuest-Offline': 'chunk-missing'
+        'X-GrammarQuest-Offline': lessonChunkMissing ? 'lesson-missing' : 'chunk-missing'
       }
     });
   }

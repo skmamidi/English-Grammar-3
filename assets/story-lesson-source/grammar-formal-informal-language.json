@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-formal-informal-language",
+  "domain": "grammar",
+  "title": "Formal vs. Informal Language",
+  "version": 1,
+  "contentHash": "sha256:grammar-formal-informal-language-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "formal-informal-language-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan choosing language for audience and purpose."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for choosing language for audience and purpose."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Please submit the report.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Hand it over now!",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise a casual note for a principal.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing language for audience and purpose?",
+          "answer": "Formal and informal language choices should match the audience, purpose, and situation."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing language for audience and purpose?",
+          "answer": "Please submit the report."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Hand it over now!"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise a casual note for a principal."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "formal vs informal",
+          "definition": "A writing or language strategy for choosing language for audience and purpose."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Formal vs. Informal Language",
+        "targetSetId": "grammar-formal-informal-language"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "formal-informal-language-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks choosing language for audience and purpose."
+        }
+      ],
+      "conceptRules": [
+        "Formal and informal language choices should match the audience, purpose, and situation."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Please submit the report.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Hand it over now!",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise a casual note for a principal.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing language for audience and purpose?",
+          "answer": "Formal and informal language choices should match the audience, purpose, and situation."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing language for audience and purpose?",
+          "answer": "Please submit the report."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Hand it over now!"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise a casual note for a principal."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "formal vs informal",
+          "definition": "A writing or language strategy for choosing language for audience and purpose."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Formal vs. Informal Language",
+        "targetSetId": "grammar-formal-informal-language"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "formal-informal-language-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks choosing language for audience and purpose."
+        }
+      ],
+      "conceptRules": [
+        "Formal and informal language choices should match the audience, purpose, and situation."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Please submit the report.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Hand it over now!",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise a casual note for a principal.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing language for audience and purpose?",
+          "answer": "Formal and informal language choices should match the audience, purpose, and situation."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing language for audience and purpose?",
+          "answer": "Please submit the report."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Hand it over now!"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise a casual note for a principal."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "formal vs informal",
+          "definition": "A writing or language strategy for choosing language for audience and purpose."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Formal vs. Informal Language",
+        "targetSetId": "grammar-formal-informal-language"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "formal-informal-language-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks choosing language for audience and purpose."
+        }
+      ],
+      "conceptRules": [
+        "Formal and informal language choices should match the audience, purpose, and situation."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Please submit the report.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Hand it over now!",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise a casual note for a principal.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing language for audience and purpose?",
+          "answer": "Formal and informal language choices should match the audience, purpose, and situation."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing language for audience and purpose?",
+          "answer": "Please submit the report."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Hand it over now!"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise a casual note for a principal."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "formal vs informal",
+          "definition": "A writing or language strategy for choosing language for audience and purpose."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Formal vs. Informal Language",
+        "targetSetId": "grammar-formal-informal-language"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "formal-informal-language-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer choosing language for audience and purpose to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Formal and informal language choices should match the audience, purpose, and situation. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Please submit the report.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Hand it over now!",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise a casual note for a principal.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing language for audience and purpose?",
+          "answer": "Formal and informal language choices should match the audience, purpose, and situation."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing language for audience and purpose?",
+          "answer": "Please submit the report."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Hand it over now!"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise a casual note for a principal."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "formal vs informal",
+          "definition": "A writing or language strategy for choosing language for audience and purpose."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Formal vs. Informal Language",
+        "targetSetId": "grammar-formal-informal-language"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-opinion-persuasive-writing",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-revising-editing-strategy",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "formal-informal-language"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-formal-informal-language-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

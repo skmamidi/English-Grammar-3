@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture_only_until_content_prs",
+  "description": "PR 204 completes story lesson content coverage for all current manifest sets.",
+  "additionalDeferredPrs": [],
+  "domainDeferrals": {}
+}

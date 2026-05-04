@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "reference-skills-italicize",
+  "domain": "reference-skills",
+  "title": "Italicize",
+  "version": 1,
+  "contentHash": "sha256:reference-skills-italicize-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "italicize-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a reference mission and models using the italicize tool or text feature."
+        }
+      ],
+      "conceptRules": [
+        "Use one text tool or feature to find information."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina checks the guide words before turning the dictionary page.",
+          "explanation": "This shows a useful source, feature, or tool step."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo chooses a source without checking the heading.",
+          "explanation": "This near miss skips the source or feature check."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses a caption, heading, or index entry to locate the answer.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Tool step: Which source, guide word, or text feature helps?",
+          "answer": "Choose the tool or feature that points to the needed information."
+        }
+      ],
+      "commonMistakes": [
+        "Do not scan randomly when a tool or feature can guide you."
+      ],
+      "vocabulary": [
+        {
+          "term": "italicize",
+          "definition": "A reference strategy for using the italicize tool or text feature."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Italicize",
+        "targetSetId": "reference-skills-italicize"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "italicize-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a reference mission and models using the italicize tool or text feature."
+        }
+      ],
+      "conceptRules": [
+        "Use tool clues, guide words, headings, or features to find information efficiently."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina checks the guide words before turning the dictionary page.",
+          "explanation": "This shows a useful source, feature, or tool step."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo chooses a source without checking the heading.",
+          "explanation": "This near miss skips the source or feature check."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses a caption, heading, or index entry to locate the answer.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Tool step: Which source, guide word, or text feature helps?",
+          "answer": "Choose the tool or feature that points to the needed information."
+        }
+      ],
+      "commonMistakes": [
+        "Do not scan randomly when a tool or feature can guide you."
+      ],
+      "vocabulary": [
+        {
+          "term": "italicize",
+          "definition": "A reference strategy for using the italicize tool or text feature."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Italicize",
+        "targetSetId": "reference-skills-italicize"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "italicize-g4",
+          "characterRoleId": "coach",
+          "narrative": "Mina opens a reference mission and models using the italicize tool or text feature."
+        }
+      ],
+      "conceptRules": [
+        "Use tool clues, guide words, headings, or features to find information efficiently."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina checks the guide words before turning the dictionary page.",
+          "explanation": "This shows a useful source, feature, or tool step."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo chooses a source without checking the heading.",
+          "explanation": "This near miss skips the source or feature check."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses a caption, heading, or index entry to locate the answer.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Tool step: Which source, guide word, or text feature helps?",
+          "answer": "Choose the tool or feature that points to the needed information."
+        }
+      ],
+      "commonMistakes": [
+        "Do not scan randomly when a tool or feature can guide you."
+      ],
+      "vocabulary": [
+        {
+          "term": "italicize",
+          "definition": "A reference strategy for using the italicize tool or text feature."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Italicize",
+        "targetSetId": "reference-skills-italicize"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "italicize-g5",
+          "characterRoleId": "coach",
+          "narrative": "Mina opens a reference mission and models using the italicize tool or text feature."
+        }
+      ],
+      "conceptRules": [
+        "Use tool clues, guide words, headings, or features to find information efficiently."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina checks the guide words before turning the dictionary page.",
+          "explanation": "This shows a useful source, feature, or tool step."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo chooses a source without checking the heading.",
+          "explanation": "This near miss skips the source or feature check."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses a caption, heading, or index entry to locate the answer.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Tool step: Which source, guide word, or text feature helps?",
+          "answer": "Choose the tool or feature that points to the needed information."
+        }
+      ],
+      "commonMistakes": [
+        "Do not scan randomly when a tool or feature can guide you."
+      ],
+      "vocabulary": [
+        {
+          "term": "italicize",
+          "definition": "A reference strategy for using the italicize tool or text feature."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Italicize",
+        "targetSetId": "reference-skills-italicize"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "italicize-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina opens a reference mission and models using the italicize tool or text feature."
+        }
+      ],
+      "conceptRules": [
+        "Choose the best source, tool, or feature and explain why it fits the research task."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina checks the guide words before turning the dictionary page.",
+          "explanation": "This shows a useful source, feature, or tool step."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo chooses a source without checking the heading.",
+          "explanation": "This near miss skips the source or feature check."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses a caption, heading, or index entry to locate the answer.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Tool step: Which source, guide word, or text feature helps?",
+          "answer": "Choose the tool or feature that points to the needed information."
+        }
+      ],
+      "commonMistakes": [
+        "Do not scan randomly when a tool or feature can guide you."
+      ],
+      "vocabulary": [
+        {
+          "term": "italicize",
+          "definition": "A reference strategy for using the italicize tool or text feature."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Italicize",
+        "targetSetId": "reference-skills-italicize"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "reference-skills-alphabetical-order",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "reference-skills-research-skills",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models discovery and tool choice"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks word clues and transfer tasks"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "italicize"
+    ],
+    "skillIds": [
+      "reference.tool-use"
+    ],
+    "standardIds": [
+      "L.RI.2-6.4"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "reference-skills-italicize-unsupported-guess"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

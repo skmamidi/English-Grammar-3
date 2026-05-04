@@ -62,6 +62,19 @@ test('secret scanner allows public keys and documented placeholders', () => {
 test('repository secret scan covers security-sensitive project areas', () => {
   assert.ok(DEFAULT_SCAN_TARGETS.includes('assets'));
   assert.ok(DEFAULT_SCAN_TARGETS.includes('docs'));
+  assert.ok(DEFAULT_SCAN_TARGETS.includes('content-review'));
   assert.ok(DEFAULT_SCAN_TARGETS.includes('.github/workflows'));
   assert.doesNotThrow(() => scanRepositoryForSecrets({ rootDir: path.resolve(__dirname, '..') }));
+});
+
+test('story lesson AI draft records stay sanitized for repository scans', () => {
+  const recordPath = path.join(__dirname, '..', 'content-review', 'story-lesson-authoring-records.json');
+  const source = fs.readFileSync(recordPath, 'utf8');
+  const findings = scanFilesForSecrets({
+    files: [{ path: 'content-review/story-lesson-authoring-records.json', content: source }],
+    allowlist: []
+  });
+
+  assert.deepEqual(findings, []);
+  assert.doesNotMatch(source, /rawPrompt|providerResponse|reviewerNotes|OPENAI_API_KEY|GEMINI_API_KEY|sk-/i);
 });

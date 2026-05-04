@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-sentence-variety",
+  "domain": "grammar",
+  "title": "Sentence Variety",
+  "version": 1,
+  "contentHash": "sha256:grammar-sentence-variety-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "sentence-variety-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for varying sentence patterns for clarity and rhythm."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina paused. Then she smiled.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Every sentence starts the same way.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Combine one sentence and shorten another.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for varying sentence patterns for clarity and rhythm?",
+          "answer": "Sentence variety changes length, beginning, and structure to guide the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows varying sentence patterns for clarity and rhythm?",
+          "answer": "Mina paused. Then she smiled."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Every sentence starts the same way."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Combine one sentence and shorten another."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence variety",
+          "definition": "A writing or language strategy for varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Variety",
+        "targetSetId": "grammar-sentence-variety"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "sentence-variety-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "conceptRules": [
+        "Sentence variety changes length, beginning, and structure to guide the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina paused. Then she smiled.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Every sentence starts the same way.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Combine one sentence and shorten another.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for varying sentence patterns for clarity and rhythm?",
+          "answer": "Sentence variety changes length, beginning, and structure to guide the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows varying sentence patterns for clarity and rhythm?",
+          "answer": "Mina paused. Then she smiled."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Every sentence starts the same way."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Combine one sentence and shorten another."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence variety",
+          "definition": "A writing or language strategy for varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Variety",
+        "targetSetId": "grammar-sentence-variety"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "sentence-variety-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "conceptRules": [
+        "Sentence variety changes length, beginning, and structure to guide the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina paused. Then she smiled.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Every sentence starts the same way.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Combine one sentence and shorten another.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for varying sentence patterns for clarity and rhythm?",
+          "answer": "Sentence variety changes length, beginning, and structure to guide the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows varying sentence patterns for clarity and rhythm?",
+          "answer": "Mina paused. Then she smiled."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Every sentence starts the same way."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Combine one sentence and shorten another."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence variety",
+          "definition": "A writing or language strategy for varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Variety",
+        "targetSetId": "grammar-sentence-variety"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "sentence-variety-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "conceptRules": [
+        "Sentence variety changes length, beginning, and structure to guide the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina paused. Then she smiled.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Every sentence starts the same way.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Combine one sentence and shorten another.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for varying sentence patterns for clarity and rhythm?",
+          "answer": "Sentence variety changes length, beginning, and structure to guide the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows varying sentence patterns for clarity and rhythm?",
+          "answer": "Mina paused. Then she smiled."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Every sentence starts the same way."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Combine one sentence and shorten another."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence variety",
+          "definition": "A writing or language strategy for varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Variety",
+        "targetSetId": "grammar-sentence-variety"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "sentence-variety-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer varying sentence patterns for clarity and rhythm to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Sentence variety changes length, beginning, and structure to guide the reader. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina paused. Then she smiled.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Every sentence starts the same way.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Combine one sentence and shorten another.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for varying sentence patterns for clarity and rhythm?",
+          "answer": "Sentence variety changes length, beginning, and structure to guide the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows varying sentence patterns for clarity and rhythm?",
+          "answer": "Mina paused. Then she smiled."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Every sentence starts the same way."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Combine one sentence and shorten another."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence variety",
+          "definition": "A writing or language strategy for varying sentence patterns for clarity and rhythm."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Variety",
+        "targetSetId": "grammar-sentence-variety"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-sentence-types",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-combinations",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "sentence-variety"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-sentence-variety-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

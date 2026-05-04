@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-subject-predicate",
+  "domain": "grammar",
+  "title": "Subject and Predicate",
+  "version": 1,
+  "contentHash": "sha256:grammar-subject-predicate-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "subject-predicate-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to separating who or what from what happens."
+        }
+      ],
+      "conceptRules": [
+        "Look for separating who or what from what happens in a short sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the note.",
+          "explanation": "This shows separating who or what from what happens clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "The old clock ticked.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Behind the shelf, Jo waited quietly.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking separating who or what from what happens?",
+          "answer": "The subject names who or what the sentence is about, and the predicate tells what happens."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "subject and predicate",
+          "definition": "A grammar skill for separating who or what from what happens."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Subject and Predicate",
+        "targetSetId": "grammar-subject-predicate"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "subject-predicate-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to separating who or what from what happens."
+        }
+      ],
+      "conceptRules": [
+        "The subject names who or what the sentence is about, and the predicate tells what happens."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the note.",
+          "explanation": "This shows separating who or what from what happens clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "The old clock ticked.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Behind the shelf, Jo waited quietly.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking separating who or what from what happens?",
+          "answer": "The subject names who or what the sentence is about, and the predicate tells what happens."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "subject and predicate",
+          "definition": "A grammar skill for separating who or what from what happens."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Subject and Predicate",
+        "targetSetId": "grammar-subject-predicate"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "subject-predicate-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for separating who or what from what happens."
+        }
+      ],
+      "conceptRules": [
+        "The subject names who or what the sentence is about, and the predicate tells what happens."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the note.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "The old clock ticked.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Behind the shelf, Jo waited quietly.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking separating who or what from what happens?",
+          "answer": "The subject names who or what the sentence is about, and the predicate tells what happens."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "subject and predicate",
+          "definition": "A grammar skill for separating who or what from what happens."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Subject and Predicate",
+        "targetSetId": "grammar-subject-predicate"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "subject-predicate-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for separating who or what from what happens."
+        }
+      ],
+      "conceptRules": [
+        "The subject names who or what the sentence is about, and the predicate tells what happens."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the note.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "The old clock ticked.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Behind the shelf, Jo waited quietly.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking separating who or what from what happens?",
+          "answer": "The subject names who or what the sentence is about, and the predicate tells what happens."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "subject and predicate",
+          "definition": "A grammar skill for separating who or what from what happens."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Subject and Predicate",
+        "targetSetId": "grammar-subject-predicate"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "subject-predicate-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final paragraph and transfer separating who or what from what happens into independent editing."
+        }
+      ],
+      "conceptRules": [
+        "The subject names who or what the sentence is about, and the predicate tells what happens. Transfer the check into editing by explaining why the sentence works."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the note.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "The old clock ticked.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Behind the shelf, Jo waited quietly.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking separating who or what from what happens?",
+          "answer": "The subject names who or what the sentence is about, and the predicate tells what happens."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess by sound alone; prove the grammar relationship in the sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "subject and predicate",
+          "definition": "A grammar skill for separating who or what from what happens."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Subject and Predicate",
+        "targetSetId": "grammar-subject-predicate"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-identify-sentence",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-subject-verb-agreement",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the grammar foundation"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks near misses and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "subject-predicate"
+    ],
+    "skillIds": [
+      "grammar.foundations"
+    ],
+    "standardIds": [
+      "L.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-subject-predicate-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

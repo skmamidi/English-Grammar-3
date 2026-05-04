@@ -37,6 +37,11 @@
     aiAssistedAuthoringEnabled: false,
     preloadingEnabled: false,
     syncEnabled: false,
+    xpLocalPreviewEnabled: false,
+    xpServerAwardingEnabled: false,
+    leaderboardMaterializationEnabled: false,
+    leaderboardDisplayEnabled: false,
+    xpTelemetryEnabled: false,
     optionalPersonalizationEnabled: false,
     notificationDeliveryEnabled: false,
     nativeContentBundleEnabled: false,
@@ -57,6 +62,11 @@
     flags.aiAssistedAuthoringEnabled = input.aiAssistedAuthoringEnabled === true;
     flags.preloadingEnabled = input.preloadingEnabled === true || input.enableQuestionChunkPreload === true;
     flags.syncEnabled = input.syncEnabled === true;
+    flags.xpLocalPreviewEnabled = input.xpLocalPreviewEnabled === true;
+    flags.xpServerAwardingEnabled = input.xpServerAwardingEnabled === true;
+    flags.leaderboardMaterializationEnabled = input.leaderboardMaterializationEnabled === true;
+    flags.leaderboardDisplayEnabled = input.leaderboardDisplayEnabled === true;
+    flags.xpTelemetryEnabled = input.xpTelemetryEnabled === true;
     flags.optionalPersonalizationEnabled = input.optionalPersonalizationEnabled === true;
     flags.notificationDeliveryEnabled = input.notificationDeliveryEnabled === true || input.notificationsEnabled === true;
     flags.nativeContentBundleEnabled = input.nativeContentBundleEnabled === true;

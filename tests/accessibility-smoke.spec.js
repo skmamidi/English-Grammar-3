@@ -161,6 +161,9 @@ async function assertFocusedControlIsVisible(page, file) {
 }
 
 async function assertAnswerButtonsAreAccessible(page, file) {
+  if (await page.$('#story-lesson-start-practice')) {
+    await page.click('#story-lesson-start-practice');
+  }
   await page.click('#start-btn');
   await page.waitForSelector('.choice-btn', { state: 'visible' });
   if (await page.$('.confidence-btn')) await page.click('.confidence-btn');

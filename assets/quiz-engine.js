@@ -69,6 +69,7 @@
 
   window.GrammarQuestQuizEngine = {
     start,
+    renderStudyAidForTest: renderStudyAid,
     answerVisibleChoiceForTest() {
       const choice = document.querySelector('#choices .choice-btn:not([disabled])');
       if (choice) handleAnswer({ currentTarget: choice });
@@ -96,6 +97,9 @@
       console.error('Quiz engine: #quiz-root element not found');
       return;
     }
+    if (window.GRAMMAR_QUEST_DEFER_QUIZ_START === true) {
+      return;
+    }
     if (!quizDomain) {
       console.error('Quiz engine: assets/quiz-domain.js must load before assets/quiz-engine.js');
       quizContainer.innerHTML = '<p class="page-subtitle">Error: Quiz domain failed to load.</p>';
@@ -114,7 +118,10 @@
     }
 
     if (!setId && window.QUIZ_MIXED_TOPIC_CONFIG) {
-      initMixedQuiz(window.QUIZ_MIXED_TOPIC_CONFIG);
+      initMixedQuiz(window.QUIZ_MIXED_TOPIC_CONFIG).catch(error => {
+        console.error(error);
+        renderUnavailableQuestions();
+      });
       return;
     }
 
@@ -162,6 +169,7 @@
     attemptRecords = [];
     reviewAttemptRecords = [];
 
+    await ensureXpSummaryDependency();
     renderStartScreen(set);
   }
 
@@ -215,6 +223,7 @@
       itemCount: currentQuestions.length,
       source: 'review'
     });
+    await ensureXpSummaryDependency();
     renderStartScreen(activeSet);
   }
 
@@ -305,6 +314,15 @@
       .catch(error => console.warn('Quiz preload skipped:', error));
   }
 
+  function ensureXpSummaryDependency() {
+    return Promise.resolve()
+      .then(() => window.GrammarQuestXpDomain ? Promise.resolve() : loadRuntimeScriptOnce(resolveAssetScriptPath('xp-domain.js')))
+      .then(() => window.GrammarQuestXpSummaryUi ? Promise.resolve() : loadRuntimeScriptOnce(resolveAssetScriptPath('xp-summary-ui.js')))
+      .catch(error => {
+        console.warn('Quiz engine: XP summary tools could not be loaded.', error);
+      });
+  }
+
   function loadRuntimeScriptOnce(src) {
     if (!src || typeof document === 'undefined' || typeof document.createElement !== 'function') return Promise.resolve();
     if (runtimeScriptPromises[src]) return runtimeScriptPromises[src];
@@ -375,7 +393,7 @@
     `;
   }
 
-  function initMixedQuiz(config) {
+  async function initMixedQuiz(config) {
     const subtopics = normalizeMixedSubtopics(config);
     if (!subtopics.length) {
       quizContainer.innerHTML = '';
@@ -409,6 +427,7 @@
     attemptRecords = [];
     reviewAttemptRecords = [];
 
+    await ensureXpSummaryDependency();
     renderStartScreen(activeSet);
   }
 
@@ -930,8 +949,9 @@
       }).join('');
     }
 
-    const studyAidHtml = renderStudyAid(q.studyAid);
+    const studyAidHtml = renderStudyAid(q);
     const characterNotesHtml = renderCharacterNotes(q, currentIndex);
+    const xpPreviewHtml = renderXpQuestionPreview(q, isCorrect);
 
     feedbackArea.innerHTML = `
       <div class="feedback-box">
@@ -942,6 +962,7 @@
           <div class="feedback-answer-pill">${escapeHtml(String.fromCharCode(65 + selectedIndex))}</div>
         </div>
         ${comboMessage}
+        ${xpPreviewHtml}
         ${syllableFeedback}
         ${choiceExplanations ? `<div class="choice-explanations">${choiceExplanations}</div>` : ''}
         ${studyAidHtml}
@@ -952,6 +973,25 @@
     const isLast = currentIndex === currentQuestions.length - 1;
     controls.innerHTML = renderQuestionControls(completedView);
     attachQuestionControlHandlers();
+  }
+
+  function renderXpQuestionPreview(question, isCorrect) {
+    const api = window.GrammarQuestXpSummaryUi;
+    if (!api || typeof api.buildQuestionXpPreview !== 'function' || typeof api.renderQuestionXpPreview !== 'function') return '';
+    if (isParentMode() || reviewMode) return '';
+    try {
+      return api.renderQuestionXpPreview(api.buildQuestionXpPreview({
+        question: {
+          correct: isCorrect === true,
+          difficulty: question && question.difficulty || selectedDifficulty
+        },
+        assignedGrade: getAssignedGradeForXp(),
+        quizGrade: selectedGrade
+      }));
+    } catch (error) {
+      console.warn('Quiz engine: XP preview skipped.', error);
+      return '';
+    }
   }
 
   function renderQuestionControls(completedView) {
@@ -1184,7 +1224,9 @@
     if (status) status.textContent = text || '';
   }
 
-  function renderStudyAid(aid) {
+  function renderStudyAid(input) {
+    const question = input && input.studyAid ? input : { studyAid: input || {} };
+    const aid = question.studyAid;
     if (!aid) return '';
     let html = '<div class="study-aid">';
     html += '<div class="study-aid-title">📚 Study Aid</div>';
@@ -1197,8 +1239,30 @@
     if (aid.link && aid.linkText) {
       html += `<p><span class="label">Learn more:</span> <a href="${escapeHtml(aid.link)}" target="_blank" rel="noopener">${escapeHtml(aid.linkText)}</a></p>`;
     }
+    const internalLinks = normalizeStudyAidLinks(question);
+    if (internalLinks.length) {
+      html += `<div class="study-aid-internal-links"><span class="label">Lessons:</span> ${internalLinks.map(link => `<a href="${escapeHtml(resolveInternalLessonHref(link.route))}" data-study-aid-lesson-link data-target-set-id="${escapeHtml(link.targetSetId)}">${escapeHtml(link.label)}</a>`).join(' ')}</div>`;
+    }
     html += '</div>';
     return html;
+  }
+
+  function normalizeStudyAidLinks(question) {
+    const domain = window.GrammarQuestStudyAidLinks;
+    if (!domain || typeof domain.normalizeStudyAidInternalLinks !== 'function') return [];
+    const metadata = question && question.metadata || {};
+    return domain.normalizeStudyAidInternalLinks({
+      sourceSet: metadata.sourceSet || window.QUIZ_SET_ID || '',
+      studyAid: question && question.studyAid || {},
+      questionManifest: window.QUESTION_MANIFEST || {},
+      lessonManifest: window.STORY_LESSON_MANIFEST || {}
+    });
+  }
+
+  function resolveInternalLessonHref(route) {
+    const path = route && route.webPath || '';
+    if (!path || /^https?:/i.test(path)) return '#';
+    return path.startsWith('/') ? path : `../../../${path}`;
   }
 
   function renderCharacterScene(options) {
@@ -2206,6 +2270,7 @@
       : '';
     const confidenceReport = renderConfidenceReport(displayedAttempts);
     const subtopicReport = renderSubtopicReport(displayedAttempts);
+    const xpCompletionSummary = renderXpCompletionSummary(displayedAttempts, parentMode);
     let message = '';
     if (percentage >= 90) {
       message = 'Outstanding work! You have mastered this skill!';
@@ -2239,6 +2304,7 @@
         </div>
         ${confidenceReport}
         ${subtopicReport}
+        ${xpCompletionSummary}
         ${parentMode ? '<div class="parent-preview-note">Parent preview is read-only. Reports, streaks, gems, and mastery were not updated.</div>' : `<div class="reward-panel" aria-label="Rewards earned">
           <div class="reward-main">${reviewMode ? 'Review practice logged' : `+${reward.gemsEarned} star gems`}</div>
           <div class="reward-grid">
@@ -3002,6 +3068,37 @@
     } catch (error) {
       return fallback;
     }
+  }
+
+  function renderXpCompletionSummary(attempts, parentMode) {
+    const api = window.GrammarQuestXpSummaryUi;
+    if (parentMode || !api || typeof api.buildQuizXpCompletionSummary !== 'function' || typeof api.renderQuizXpCompletionSummary !== 'function') return '';
+    const awardState = typeof navigator !== 'undefined' && navigator.onLine === false ? 'provisional' : 'syncing';
+    try {
+      return api.renderQuizXpCompletionSummary(api.buildQuizXpCompletionSummary({
+        questions: (Array.isArray(attempts) ? attempts : []).map(attempt => ({
+          correct: attempt && attempt.correct === true,
+          difficulty: attempt && attempt.difficulty || selectedDifficulty
+        })),
+        assignedGrade: getAssignedGradeForXp(),
+        quizGrade: selectedGrade,
+        awardState,
+        offline: awardState === 'provisional'
+      }));
+    } catch (error) {
+      console.warn('Quiz engine: XP completion summary skipped.', error);
+      return '';
+    }
+  }
+
+  function getAssignedGradeForXp() {
+    const auth = window.GrammarQuestAuth;
+    const authState = auth && typeof auth.getState === 'function' ? auth.getState() : {};
+    const grade = authState.studentMode && authState.activeStudent && authState.activeStudent.defaultGrade
+      || loadSetting('grammarQuestActiveStudentDefaultGrade', '')
+      || selectedGrade
+      || '4';
+    return Math.round(Number(grade) || 4);
   }
 
   function getInitialGrade() {

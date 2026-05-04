@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-verb-tense-consistency",
+  "domain": "grammar",
+  "title": "Verb Tense Consistency",
+  "version": 1,
+  "contentHash": "sha256:grammar-verb-tense-consistency-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "verb-tense-consistency-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan keeping verb time consistent."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for keeping verb time consistent."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the box and read the note.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina opened the box and reads the note.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Shift tense only when the time changes.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for keeping verb time consistent?",
+          "answer": "Verb tense should stay consistent unless the time clearly changes."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows keeping verb time consistent?",
+          "answer": "Mina opened the box and read the note."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina opened the box and reads the note."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Shift tense only when the time changes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "verb tense consistency",
+          "definition": "A writing or language strategy for keeping verb time consistent."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Verb Tense Consistency",
+        "targetSetId": "grammar-verb-tense-consistency"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "verb-tense-consistency-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks keeping verb time consistent."
+        }
+      ],
+      "conceptRules": [
+        "Verb tense should stay consistent unless the time clearly changes."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the box and read the note.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina opened the box and reads the note.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Shift tense only when the time changes.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for keeping verb time consistent?",
+          "answer": "Verb tense should stay consistent unless the time clearly changes."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows keeping verb time consistent?",
+          "answer": "Mina opened the box and read the note."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina opened the box and reads the note."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Shift tense only when the time changes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "verb tense consistency",
+          "definition": "A writing or language strategy for keeping verb time consistent."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Verb Tense Consistency",
+        "targetSetId": "grammar-verb-tense-consistency"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "verb-tense-consistency-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks keeping verb time consistent."
+        }
+      ],
+      "conceptRules": [
+        "Verb tense should stay consistent unless the time clearly changes."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the box and read the note.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina opened the box and reads the note.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Shift tense only when the time changes.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for keeping verb time consistent?",
+          "answer": "Verb tense should stay consistent unless the time clearly changes."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows keeping verb time consistent?",
+          "answer": "Mina opened the box and read the note."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina opened the box and reads the note."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Shift tense only when the time changes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "verb tense consistency",
+          "definition": "A writing or language strategy for keeping verb time consistent."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Verb Tense Consistency",
+        "targetSetId": "grammar-verb-tense-consistency"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "verb-tense-consistency-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks keeping verb time consistent."
+        }
+      ],
+      "conceptRules": [
+        "Verb tense should stay consistent unless the time clearly changes."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the box and read the note.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina opened the box and reads the note.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Shift tense only when the time changes.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for keeping verb time consistent?",
+          "answer": "Verb tense should stay consistent unless the time clearly changes."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows keeping verb time consistent?",
+          "answer": "Mina opened the box and read the note."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina opened the box and reads the note."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Shift tense only when the time changes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "verb tense consistency",
+          "definition": "A writing or language strategy for keeping verb time consistent."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Verb Tense Consistency",
+        "targetSetId": "grammar-verb-tense-consistency"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "verb-tense-consistency-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer keeping verb time consistent to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Verb tense should stay consistent unless the time clearly changes. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina opened the box and read the note.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina opened the box and reads the note.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Shift tense only when the time changes.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for keeping verb time consistent?",
+          "answer": "Verb tense should stay consistent unless the time clearly changes."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows keeping verb time consistent?",
+          "answer": "Mina opened the box and read the note."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina opened the box and reads the note."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Shift tense only when the time changes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "verb tense consistency",
+          "definition": "A writing or language strategy for keeping verb time consistent."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Verb Tense Consistency",
+        "targetSetId": "grammar-verb-tense-consistency"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-tenses",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-verb-forms",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "verb-tense-consistency"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-verb-tense-consistency-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

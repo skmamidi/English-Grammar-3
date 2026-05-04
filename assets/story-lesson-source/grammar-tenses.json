@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-tenses",
+  "domain": "grammar",
+  "title": "Past, Present, and Future Tenses",
+  "version": 1,
+  "contentHash": "sha256:grammar-tenses-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "tenses-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to showing time with verbs."
+        }
+      ],
+      "conceptRules": [
+        "Look for showing time with verbs in a short sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I walked yesterday.",
+          "explanation": "This shows showing time with verbs clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "I walk today.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "I will walk tomorrow.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking showing time with verbs?",
+          "answer": "Verb tense tells whether an action happens in the past, present, or future."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "past present and",
+          "definition": "A grammar skill for showing time with verbs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Past, Present, and Future Tenses",
+        "targetSetId": "grammar-tenses"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "tenses-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to showing time with verbs."
+        }
+      ],
+      "conceptRules": [
+        "Verb tense tells whether an action happens in the past, present, or future."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I walked yesterday.",
+          "explanation": "This shows showing time with verbs clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "I walk today.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "I will walk tomorrow.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking showing time with verbs?",
+          "answer": "Verb tense tells whether an action happens in the past, present, or future."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "past present and",
+          "definition": "A grammar skill for showing time with verbs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Past, Present, and Future Tenses",
+        "targetSetId": "grammar-tenses"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "tenses-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for showing time with verbs."
+        }
+      ],
+      "conceptRules": [
+        "Verb tense tells whether an action happens in the past, present, or future."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I walked yesterday.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "I walk today.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "I will walk tomorrow.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking showing time with verbs?",
+          "answer": "Verb tense tells whether an action happens in the past, present, or future."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "past present and",
+          "definition": "A grammar skill for showing time with verbs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Past, Present, and Future Tenses",
+        "targetSetId": "grammar-tenses"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "tenses-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for showing time with verbs."
+        }
+      ],
+      "conceptRules": [
+        "Verb tense tells whether an action happens in the past, present, or future."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I walked yesterday.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "I walk today.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "I will walk tomorrow.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking showing time with verbs?",
+          "answer": "Verb tense tells whether an action happens in the past, present, or future."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "past present and",
+          "definition": "A grammar skill for showing time with verbs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Past, Present, and Future Tenses",
+        "targetSetId": "grammar-tenses"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "tenses-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final paragraph and transfer showing time with verbs into independent editing."
+        }
+      ],
+      "conceptRules": [
+        "Verb tense tells whether an action happens in the past, present, or future. Transfer the check into editing by explaining why the sentence works."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I walked yesterday.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "I walk today.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "I will walk tomorrow.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking showing time with verbs?",
+          "answer": "Verb tense tells whether an action happens in the past, present, or future."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess by sound alone; prove the grammar relationship in the sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "past present and",
+          "definition": "A grammar skill for showing time with verbs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Past, Present, and Future Tenses",
+        "targetSetId": "grammar-tenses"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-verb-forms",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-verb-tense-consistency",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the grammar foundation"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks near misses and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "tenses"
+    ],
+    "skillIds": [
+      "grammar.foundations"
+    ],
+    "standardIds": [
+      "L.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-tenses-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

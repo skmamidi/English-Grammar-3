@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "capitalization-names-of-places",
+  "domain": "capitalization",
+  "title": "Names of Places",
+  "version": 1,
+  "contentHash": "sha256:capitalization-names-of-places-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "names-of-places-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters for names of places."
+        }
+      ],
+      "conceptRules": [
+        "A special place name starts with capital letters."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Maple Street",
+          "explanation": "This example helps learners see capital letters for names of places."
+        },
+        {
+          "type": "near_miss",
+          "text": "Texas",
+          "explanation": "This example helps learners see capital letters for names of places."
+        },
+        {
+          "type": "transfer",
+          "text": "Grand Canyon",
+          "explanation": "This example helps learners see capital letters for names of places."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for names of places?",
+          "answer": "Capitalize the specific names of cities, states, countries, streets, and landmarks."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a common place word unless it is part of the full name."
+      ],
+      "vocabulary": [
+        {
+          "term": "place name",
+          "definition": "A special name for one place."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Names of Places",
+        "targetSetId": "capitalization-names-of-places"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "names-of-places-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters for names of places."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize the specific names of cities, states, countries, streets, and landmarks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Maple Street",
+          "explanation": "This example helps learners see capital letters for names of places."
+        },
+        {
+          "type": "near_miss",
+          "text": "Texas",
+          "explanation": "This example helps learners see capital letters for names of places."
+        },
+        {
+          "type": "transfer",
+          "text": "Grand Canyon",
+          "explanation": "This example helps learners see capital letters for names of places."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for names of places?",
+          "answer": "Capitalize the specific names of cities, states, countries, streets, and landmarks."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a common place word unless it is part of the full name."
+      ],
+      "vocabulary": [
+        {
+          "term": "place name",
+          "definition": "A special name for one place."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Names of Places",
+        "targetSetId": "capitalization-names-of-places"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "names-of-places-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters for names of places changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize the specific names of cities, states, countries, streets, and landmarks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Maple Street",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Texas",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "Grand Canyon",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for names of places?",
+          "answer": "Capitalize the specific names of cities, states, countries, streets, and landmarks."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a common place word unless it is part of the full name."
+      ],
+      "vocabulary": [
+        {
+          "term": "place name",
+          "definition": "A special name for one place."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Names of Places",
+        "targetSetId": "capitalization-names-of-places"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "names-of-places-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters for names of places changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize the specific names of cities, states, countries, streets, and landmarks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Maple Street",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Texas",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "Grand Canyon",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for names of places?",
+          "answer": "Capitalize the specific names of cities, states, countries, streets, and landmarks."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a common place word unless it is part of the full name."
+      ],
+      "vocabulary": [
+        {
+          "term": "place name",
+          "definition": "A special name for one place."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Names of Places",
+        "targetSetId": "capitalization-names-of-places"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "names-of-places-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using capital letters for names of places to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize the specific names of cities, states, countries, streets, and landmarks. In addresses and geography writing, separate proper names from common labels like city or river."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Maple Street",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "Texas",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "Grand Canyon",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for names of places?",
+          "answer": "Capitalize the specific names of cities, states, countries, streets, and landmarks."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize a common place word unless it is part of the full name. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "place name",
+          "definition": "A special name for one place."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Names of Places",
+        "targetSetId": "capitalization-names-of-places"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "capitalization-days-months-holidays",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-commas-addresses",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "names-of-places"
+    ],
+    "skillIds": [
+      "capitalization.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "capitalization-names-of-places-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

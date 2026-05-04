@@ -65,6 +65,7 @@ test('content discovery route resolution does not require generated chunks', () 
   assert.equal(results[0].setId, 'vocabulary-homophones');
   assert.equal(route.topicPath, 'topics/vocabulary/index.html');
   assert.equal(route.subtopicPath, 'topics/vocabulary/subtopics/homophones.html');
+  assert.equal(route.practicePath, 'topics/vocabulary/subtopics/homophones.html?practice=1');
   assert.equal(route.unavailableReason, '');
   assertNoQuestionPayload(results[0]);
 });

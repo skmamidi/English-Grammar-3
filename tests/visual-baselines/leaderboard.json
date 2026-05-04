@@ -1,0 +1,70 @@
+{
+  "name": "leaderboard",
+  "file": "leaderboard.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.15",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
+  "screenshotSha256": "6c7f9be63bcb1a13909896115589a8d596537afa1c80b80bd9e2720292dae668",
+  "screenshotBytes": 58097,
+  "summary": {
+    "title": "XP Leaderboard",
+    "semanticTextHash": "460591755",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery All practice Guardian dashboard",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": ".leaderboard-shell",
+        "text": "XP RANKINGS Weekly leaderboard Weekly leaderboard from materialized XP projections. Weekly Monthly All-time Your rank #2 Comma Captain · 140 XP Weekly leaderboard rankings RANK ALI",
+        "visible": true,
+        "rect": {
+          "x": 214,
+          "y": 95,
+          "width": 852,
+          "height": 686
+        }
+      },
+      {
+        "selector": ".leaderboard-table",
+        "text": "Weekly leaderboard rankings RANK ALIAS XP #1 Sky Reader 180 #2 Comma Captain 140 #3 Verb Voyager 90",
+        "visible": true,
+        "rect": {
+          "x": 215,
+          "y": 480,
+          "width": 850,
+          "height": 252
+        }
+      },
+      {
+        "selector": ".own-rank-card",
+        "text": "Your rank #2 Comma Captain · 140 XP",
+        "visible": true,
+        "rect": {
+          "x": 214,
+          "y": 320,
+          "width": 852,
+          "height": 141
+        }
+      }
+    ]
+  }
+}

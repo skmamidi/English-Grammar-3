@@ -33,3 +33,24 @@ test('learner progress transfer domain validates digest and forbidden fields', (
   assert.equal(transfer.validateProgressExport(corrupt).valid, false);
 });
 
+test('learner progress transfer domain preserves lesson progress metadata only', () => {
+  const envelope = transfer.createProgressExportEnvelope({
+    learner: { id: 'learner-1' },
+    data: {
+      lessonProgress: [{
+        setId: 'vocabulary-homophones',
+        grade: 4,
+        status: 'completed',
+        sourceRoute: '/topics/vocabulary/subtopics/homophones.html?learnerId=secret',
+        storyBeats: [{ narrative: 'Do not export lesson body' }],
+        examples: [{ text: 'Do not export examples' }]
+      }]
+    },
+    app: { exportedAt: '2030-04-29T12:00:00.000Z' }
+  });
+
+  assert.equal(envelope.data.lessonProgress.length, 1);
+  assert.equal(envelope.data.lessonProgress[0].sourceRoute, '/topics/vocabulary/subtopics/homophones.html');
+  assert.equal(JSON.stringify(envelope).includes('Do not export'), false);
+  assert.equal(transfer.validateProgressExport(envelope).valid, true);
+});

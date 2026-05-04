@@ -12,7 +12,11 @@ const { formatOfflineSmokeResourceErrors } = require('./helpers/offline-smoke-er
 const repoRoot = path.resolve(__dirname, '..');
 const requestedPort = Number(process.env.QA_OFFLINE_PORT) || 4193;
 const CACHED_SUBTOPIC = 'topics/grammar/subtopics/sentence-types.html';
+const CACHED_SUBTOPIC_PRACTICE = `${CACHED_SUBTOPIC}?practice=1`;
 const UNCACHED_SUBTOPIC = 'topics/grammar/subtopics/run-on-sentences.html';
+const UNCACHED_SUBTOPIC_PRACTICE = `${UNCACHED_SUBTOPIC}?practice=1`;
+const UNCACHED_STORY_LESSON = 'topics/grammar/subtopics/subject-predicate.html';
+const UNCACHED_STORY_LESSON_MISS = `${UNCACHED_STORY_LESSON}?offlineShell=1`;
 const FIREBASE_CONFIG_STUB = 'window.GQ_FIREBASE_CONFIG = { enabled: false, authProviders: {}, firestore: {} };';
 const AUTH_SERVICE_STUB = `
   window.GrammarQuestAuth = {
@@ -35,16 +39,55 @@ async function main() {
       const page = await newPage(context);
 
       await registerAndControlServiceWorker(page, server.baseURL);
-      await visitClean(page, server.baseURL, CACHED_SUBTOPIC);
-      await assertVisible(page, '#start-btn', CACHED_SUBTOPIC);
+      await visitClean(page, server.baseURL, CACHED_SUBTOPIC_PRACTICE);
+      await assertVisible(page, '#start-btn', CACHED_SUBTOPIC_PRACTICE);
 
       await context.setOffline(true);
-      await visitClean(page, server.baseURL, CACHED_SUBTOPIC);
-      await assertVisible(page, '#start-btn', `${CACHED_SUBTOPIC} offline`);
+      await visitClean(page, server.baseURL, CACHED_SUBTOPIC_PRACTICE);
+      await assertVisible(page, '#start-btn', `${CACHED_SUBTOPIC_PRACTICE} offline`);
       await page.click('#start-btn');
       await page.waitForSelector('.choice-btn', { state: 'visible' });
       const choices = await page.locator('.choice-btn').count();
       assert.ok(choices >= 2, 'cached offline quiz should render choices');
+
+      await context.close();
+    });
+
+    await runCase(failures, 'cached story lesson reloads while offline before quiz handoff', async () => {
+      const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+      const page = await newPage(context);
+
+      await registerAndControlServiceWorker(page, server.baseURL);
+      await visitClean(page, server.baseURL, CACHED_SUBTOPIC);
+      await assertVisible(page, '[data-story-lesson="grammar-sentence-types"]', `${CACHED_SUBTOPIC} story lesson`);
+
+      await context.setOffline(true);
+      await visitClean(page, server.baseURL, CACHED_SUBTOPIC);
+      await assertVisible(page, '[data-story-lesson="grammar-sentence-types"]', `${CACHED_SUBTOPIC} offline story lesson`);
+      await page.click('[data-guided-check-answer]');
+      const rootText = await page.locator('#quiz-root').innerText();
+      assert.match(rootText, /Guided Checks|Rules to Try/i);
+
+      await context.close();
+    });
+
+    await runCase(failures, 'uncached story lesson chunk shows explicit offline recovery before practice', async () => {
+      const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+      const page = await newPage(context);
+
+      await registerAndControlServiceWorker(page, server.baseURL);
+      await cacheStoryLessonShellWithChunkCacheBust(page, server.baseURL, UNCACHED_STORY_LESSON_MISS, 'grammar-subject-predicate');
+      await deleteCachedStoryLessonChunk(page, 'grammar-subject-predicate');
+      await page.route('**/assets/story-lesson-chunks/grammar/grammar-subject-predicate.js?offline-miss=1', route => route.abort('failed'));
+      await page.addInitScript(() => {
+        window.GRAMMAR_QUEST_OFFLINE_LESSON_MISSING = true;
+      });
+
+      await context.setOffline(true);
+      await visitClean(page, server.baseURL, UNCACHED_STORY_LESSON_MISS, { allowOfflineResourceErrors: true });
+      const message = await page.locator('#quiz-root').innerText();
+      assert.match(message, /lesson unavailable offline/i);
+      assert.match(message, /reconnect/i);
 
       await context.close();
     });
@@ -54,11 +97,12 @@ async function main() {
       const page = await newPage(context);
 
       await registerAndControlServiceWorker(page, server.baseURL);
-      await cacheStaticPageShell(page, UNCACHED_SUBTOPIC);
+      await cacheStaticPageShell(page, UNCACHED_SUBTOPIC_PRACTICE);
+      await cacheStoryLessonChunk(page, 'grammar-run-on-sentences');
       await deleteCachedQuestionChunk(page, 'grammar-run-on-sentences');
 
       await context.setOffline(true);
-      await visitClean(page, server.baseURL, UNCACHED_SUBTOPIC, { allowOfflineResourceErrors: true });
+      await visitClean(page, server.baseURL, UNCACHED_SUBTOPIC_PRACTICE, { allowOfflineResourceErrors: true });
       const message = await page.locator('#quiz-root').innerText();
       assert.match(message, /unavailable offline/i);
       assert.match(message, /loaded once/i);
@@ -74,11 +118,12 @@ async function main() {
       });
 
       await registerAndControlServiceWorker(page, server.baseURL);
-      await cacheStaticPageShell(page, UNCACHED_SUBTOPIC);
+      await cacheStaticPageShell(page, UNCACHED_SUBTOPIC_PRACTICE);
+      await cacheStoryLessonChunk(page, 'grammar-run-on-sentences');
       await deleteCachedQuestionChunk(page, 'grammar-run-on-sentences');
 
       await context.setOffline(true);
-      await visitClean(page, server.baseURL, UNCACHED_SUBTOPIC, { allowOfflineResourceErrors: true });
+      await visitClean(page, server.baseURL, UNCACHED_SUBTOPIC_PRACTICE, { allowOfflineResourceErrors: true });
       const message = await page.locator('#quiz-root').innerText();
       assert.match(message, /storage is full/i);
       assert.match(message, /reconnect/i);
@@ -171,6 +216,37 @@ async function cacheStaticPageShell(page, file) {
   }, { cacheName: cacheNames.static, url: file });
 }
 
+async function cacheStoryLessonShellWithChunkCacheBust(page, baseURL, file, setId) {
+  const sourceHash = manifest.artifact.sourceHash;
+  const cacheNames = serviceWorkerCore.buildCacheNames(sourceHash);
+  const entry = manifest.sets.find(set => set.id === setId);
+  assert.ok(entry, `${setId} should be in the question manifest`);
+  const chunkFile = `assets/story-lesson-chunks/${entry.domain}/${setId}.js`;
+  const response = await fetch(`${baseURL}/${file}`);
+  assert.equal(response.ok, true, `${file} should be available for offline shell caching`);
+  const html = (await response.text()).replace(
+    new RegExp(`(assets/story-lesson-chunks/${entry.domain}/${setId}\\.js)`),
+    '$1?offline-miss=1'
+  );
+  assert.match(html, /\?offline-miss=1/, `${file} cached shell should cache-bust the story lesson chunk`);
+  await page.evaluate(async ({ cacheName, file, html }) => {
+    const cache = await caches.open(cacheName);
+    const target = new URL(`/${file}`, window.location.origin).href;
+    const targetUrl = new URL(target);
+    const requests = await cache.keys();
+    await Promise.all(requests
+      .filter(request => {
+        const cachedUrl = new URL(request.url);
+        return cachedUrl.pathname === targetUrl.pathname;
+      })
+      .map(request => cache.delete(request)));
+    await cache.put(target, new Response(html, {
+      headers: { 'Content-Type': 'text/html; charset=utf-8' }
+    }));
+  }, { cacheName: cacheNames.static, file, html });
+  return chunkFile;
+}
+
 async function deleteCachedQuestionChunk(page, setId) {
   const sourceHash = manifest.artifact.sourceHash;
   const cacheNames = serviceWorkerCore.buildCacheNames(sourceHash);
@@ -181,6 +257,58 @@ async function deleteCachedQuestionChunk(page, setId) {
     const url = new URL(`/${chunkFile}`, window.location.origin).href;
     await cache.delete(url);
   }, { cacheName: cacheNames.chunks, chunkFile: entry.chunkFile });
+}
+
+async function cacheStoryLessonChunk(page, setId) {
+  const sourceHash = manifest.artifact.sourceHash;
+  const cacheNames = serviceWorkerCore.buildCacheNames(sourceHash);
+  const entry = manifest.sets.find(set => set.id === setId);
+  assert.ok(entry, `${setId} should be in the question manifest`);
+  const chunkFile = `assets/story-lesson-chunks/${entry.domain}/${setId}.js`;
+  await page.evaluate(async ({ cacheName, chunkFile }) => {
+    const cache = await caches.open(cacheName);
+    await cache.add(`/${chunkFile}`);
+  }, { cacheName: cacheNames.chunks, chunkFile });
+}
+
+async function deleteCachedStoryLessonChunk(page, setId) {
+  const entry = manifest.sets.find(set => set.id === setId);
+  assert.ok(entry, `${setId} should be in the question manifest`);
+  const chunkFile = `assets/story-lesson-chunks/${entry.domain}/${setId}.js`;
+  await page.evaluate(async ({ chunkFile }) => {
+    const urls = [
+      new URL(`/${chunkFile}`, window.location.origin).href,
+      new URL(`/${chunkFile}?offline-miss=1`, window.location.origin).href,
+      `/${chunkFile}`,
+      `/${chunkFile}?offline-miss=1`,
+      chunkFile
+    ];
+    let count = 0;
+    const keys = await caches.keys();
+    await Promise.all(keys
+      .filter(key => key.startsWith('grammarquest-'))
+      .map(async key => {
+        const cache = await caches.open(key);
+        for (const url of urls) {
+          if (await cache.delete(url)) count += 1;
+        }
+      }));
+  }, { chunkFile });
+  const cached = await page.evaluate(async ({ chunkFile }) => {
+    const urls = [
+      new URL(`/${chunkFile}`, window.location.origin).href,
+      new URL(`/${chunkFile}?offline-miss=1`, window.location.origin).href
+    ];
+    const keys = await caches.keys();
+    for (const key of keys.filter(key => key.startsWith('grammarquest-'))) {
+      const cache = await caches.open(key);
+      for (const url of urls) {
+        if (await cache.match(url)) return { key, url };
+      }
+    }
+    return null;
+  }, { chunkFile });
+  assert.equal(cached, null, `${chunkFile} should not remain in offline caches`);
 }
 
 async function visitClean(page, baseURL, file, options = {}) {
@@ -250,6 +378,7 @@ function startStaticServer(port) {
         }
         response.writeHead(200, {
           'Content-Type': getContentType(filePath),
+          'Cache-Control': 'no-store',
           'Content-Length': data.length
         });
         response.end(data);

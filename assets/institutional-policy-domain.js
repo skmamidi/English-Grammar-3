@@ -21,7 +21,8 @@
     OPTIONAL_PERSONALIZATION: 'optional_personalization',
     ASSIGNMENT_VISIBILITY: 'assignment_visibility',
     NOTIFICATION_DELIVERY: 'notification_delivery',
-    FUTURE_BILLING: 'future_billing'
+    FUTURE_BILLING: 'future_billing',
+    LEADERBOARD_PARTICIPATION: 'leaderboard_participation'
   });
 
   const POLICY_PRECEDENCE = Object.freeze([
@@ -41,7 +42,8 @@
     [FeatureIntents.OPTIONAL_PERSONALIZATION]: 'optionalPersonalization',
     [FeatureIntents.ASSIGNMENT_VISIBILITY]: 'assignmentVisibility',
     [FeatureIntents.NOTIFICATION_DELIVERY]: 'notificationDelivery',
-    [FeatureIntents.FUTURE_BILLING]: 'futureBilling'
+    [FeatureIntents.FUTURE_BILLING]: 'futureBilling',
+    [FeatureIntents.LEADERBOARD_PARTICIPATION]: 'leaderboardParticipation'
   });
 
   function resolveInstitutionalPolicy(input = {}) {
@@ -111,6 +113,7 @@
     if (featureIntent === FeatureIntents.OPTIONAL_PERSONALIZATION) return guardianConsent.optionalPersonalization === true || schoolPolicy.optionalPersonalization === true;
     if (featureIntent === FeatureIntents.NOTIFICATION_DELIVERY) return guardianConsent.notificationDelivery === true || schoolPolicy.notificationDelivery === true;
     if (featureIntent === FeatureIntents.FUTURE_BILLING) return guardianConsent.futureBilling === true || schoolPolicy.futureBilling === true;
+    if (featureIntent === FeatureIntents.LEADERBOARD_PARTICIPATION) return guardianConsent.leaderboardParticipation === true || schoolPolicy.leaderboardParticipation === true;
     return key ? guardianConsent[key] === true || schoolPolicy[key] === true : false;
   }
 

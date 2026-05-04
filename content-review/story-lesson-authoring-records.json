@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "story-draft-grammar-sentence-types-g4-fixture",
+      "lessonSetId": "grammar-sentence-types",
+      "gradeBand": "4",
+      "provider": "openai",
+      "modelFamily": "gpt-test-fixture",
+      "promptRecordId": "story-prompt-grammar-sentence-types-g4-fixture",
+      "draftRecordId": "story-draft-grammar-sentence-types-g4-fixture",
+      "sourceContextHash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "generatedDraftHash": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "qaStatus": "pending_review",
+      "reviewerId": "",
+      "reviewedAt": "",
+      "reviewStatus": "draft",
+      "tags": {
+        "conceptIds": [
+          "sentence-types"
+        ],
+        "skillIds": [
+          "grammar.foundations"
+        ],
+        "standardIds": [
+          "L.2-6.1"
+        ],
+        "pedagogyMoves": [
+          "model",
+          "guided_check",
+          "editing_transfer"
+        ],
+        "commonMistakeIds": [
+          "grammar-sentence-types-common-mistake"
+        ],
+        "exampleTypes": [
+          "direct",
+          "near_miss",
+          "transfer"
+        ],
+        "characterRoleIds": [
+          "guide"
+        ],
+        "relatedSubtopicIds": [
+          "grammar-subject-predicate"
+        ]
+      }
+    }
+  ],
+  "reservedForPr": 209,
+  "runtimeArtifactPolicy": "excluded_from_story_lesson_manifest_and_chunks"
+}

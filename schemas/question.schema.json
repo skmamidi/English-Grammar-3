@@ -69,7 +69,22 @@
           "description": "A process hint shown via the Strategy Clue button. Guides students HOW to think through the question without revealing the correct answer. Must not contain or strongly imply the correct choice text."
         },
         "link":          { "type": "string" },
-        "linkText":      { "type": "string" }
+        "linkText":      { "type": "string" },
+        "internalLinks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["targetSetId"],
+            "properties": {
+              "targetSetId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:[-_][a-z0-9]+)*$"
+              },
+              "reason": { "type": "string" },
+              "label": { "type": "string" }
+            }
+          }
+        }
       }
     },
     "metadata": {

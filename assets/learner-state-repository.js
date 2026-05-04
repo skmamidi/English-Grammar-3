@@ -26,6 +26,10 @@
     (typeof require === 'function' ? require('./privacy-preferences-domain') : null);
   const goalsDomain = root.GrammarQuestLearnerGoalsDomain ||
     (typeof require === 'function' ? require('./learner-goals-domain') : null);
+  const lessonProgressDomain = root.GrammarQuestLessonProgressDomain ||
+    (typeof require === 'function' ? require('./lesson-progress-domain') : null);
+  const xpOfflineQueueDomain = root.GrammarQuestXpOfflineQueue ||
+    (typeof require === 'function' ? require('./xp-offline-queue') : null);
 
   function createLearnerStateRepository(adapter, options = {}) {
     if (!adapter || typeof adapter.read !== 'function' || typeof adapter.write !== 'function') {
@@ -304,6 +308,29 @@
       }).reviewQueue;
     }
 
+    function listLessonProgress(filters = {}) {
+      const status = safeString(filters.status);
+      const setId = safeString(filters.setId);
+      return getProgress().lessonProgress
+        .filter(record => !status || record.status === status)
+        .filter(record => !setId || record.lessonRef.setId === setId);
+    }
+
+    function recordLessonProgressEvent(event) {
+      let updated = null;
+      updateProgress(progress => {
+        const existing = normalizeLessonProgress(progress.lessonProgress);
+        const input = event && typeof event === 'object' ? event : {};
+        const setId = safeString(input.setId || input.lessonRef && input.lessonRef.setId);
+        const grade = Math.round(Number(input.grade || input.lessonRef && input.lessonRef.grade) || 0);
+        const current = existing.find(record => record.lessonRef.setId === setId && (!grade || record.lessonRef.grade === grade)) || null;
+        updated = lessonProgressDomain.applyLessonProgressEvent(current, input, { now });
+        progress.lessonProgress = lessonProgressDomain.mergeLessonProgressRecords([updated].concat(existing));
+        return progress;
+      });
+      return updated;
+    }
+
     function markReviewItemSeen(questionId, seenAt) {
       return updateReviewQueue(queue => transitionReviewItem(queue, questionId, 'seen', seenAt));
     }
@@ -385,6 +412,7 @@
         assignments: data.assignments || [],
         reviewQueue: data.reviewQueue || null,
         reviewSchedules: data.reviewSchedules || [],
+        lessonProgress: data.lessonProgress || data.progress && data.progress.lessonProgress,
         learnerGoals: data.learnerGoals || data.goals || data.progress && data.progress.learnerGoals,
         activeQuiz: data.activeQuiz || null,
         deletionTombstones: getProgress().deletionTombstones,
@@ -406,6 +434,7 @@
       getPrivacyPreferences,
       getProgress,
       getLearnerDashboardSource,
+      listLessonProgress,
       getQuestionReport,
       getReviewSchedules,
       getReviewQueue,
@@ -417,6 +446,7 @@
       markAssignmentStarted,
       markReviewItemMastered,
       markReviewItemSeen,
+      recordLessonProgressEvent,
       requestLearnerDataDeletion,
       approveLearnerDataDeletion,
       deleteLearnerState,
@@ -604,6 +634,8 @@
       assignments: normalizeAssignments(input.assignments),
       reviewQueue: normalizeReviewQueue(input.reviewQueue),
       reviewSchedules: normalizeReviewSchedules(input.reviewSchedules),
+      lessonProgress: normalizeLessonProgress(input.lessonProgress),
+      xp: normalizeXpState(input.xp),
       mastery: normalizeMastery(input.mastery),
       entitlementProjection: normalizeEntitlementProjection(input.entitlementProjection),
       deletionRequests: normalizeDeletionRequests(input.deletionRequests),
@@ -716,6 +748,7 @@
       goals: normalized.learnerGoals,
       goalProgress: buildLearnerGoalProgress(normalized, new Date().toISOString()),
       questionReports,
+      lessonProgress: normalized.lessonProgress.map(sanitizeLessonProgressForDashboard),
       mastery: normalized.mastery
     };
   }
@@ -782,6 +815,40 @@
       scope: assignment.scope || {},
       dueAt: String(assignment.dueAt || '')
     };
+  }
+
+  function sanitizeLessonProgressForDashboard(record) {
+    const normalized = lessonProgressDomain.normalizeLessonProgressRecord(record);
+    if (!normalized) return null;
+    return {
+      setId: normalized.lessonRef.setId,
+      grade: normalized.lessonRef.grade,
+      status: normalized.status,
+      completedAt: normalized.completedAt,
+      updatedAt: normalized.updatedAt,
+      source: normalized.source
+    };
+  }
+
+  function normalizeLessonProgress(records) {
+    return lessonProgressDomain.mergeLessonProgressRecords(records);
+  }
+
+  function normalizeXpState(xp) {
+    const input = xp && typeof xp === 'object' ? xp : {};
+    return {
+      schemaVersion: 1,
+      projectionRef: safeProjectionRef(input.projectionRef),
+      projectionUpdatedAt: safeIso(input.projectionUpdatedAt) || '',
+      offlineQueue: xpOfflineQueueDomain && typeof xpOfflineQueueDomain.normalizeXpOfflineQueue === 'function'
+        ? xpOfflineQueueDomain.normalizeXpOfflineQueue(input.offlineQueue)
+        : []
+    };
+  }
+
+  function safeProjectionRef(value) {
+    const ref = safeString(value);
+    return /^xpProjections\/[A-Za-z0-9_-]+$/.test(ref) ? ref : '';
   }
 
   function normalizeAssignments(assignments) {

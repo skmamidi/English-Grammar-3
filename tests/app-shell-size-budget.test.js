@@ -13,7 +13,13 @@ test('app shell size budget excludes generated question payloads and passes curr
 
   assert.deepEqual(result.errors, []);
   assert.equal(result.files.some(file => /question-(chunks|manifest)/.test(file.path)), false);
+  assert.equal(result.files.some(file => /story-lesson-chunks/.test(file.path)), false);
+  assert.equal(result.files.some(file => /story-lesson-manifest\.json/.test(file.path)), false);
+  assert.equal(result.files.some(file => /spelling-(audio-manifest|word-list)/.test(file.path)), false);
   assert.ok(result.excludedFiles.some(file => /question-manifest/.test(file.path)));
+  assert.ok(result.excludedFiles.some(file => /story-lesson-chunks/.test(file.path)));
+  assert.ok(result.excludedFiles.some(file => /story-lesson-manifest\.json/.test(file.path)));
+  assert.ok(result.excludedFiles.some(file => /spelling-audio-manifest/.test(file.path)));
   assert.ok(result.totals.javascriptBytes > 0);
   assert.ok(result.totals.cssBytes > 0);
   assert.ok(result.totals.htmlBytes > 0);
@@ -48,12 +54,17 @@ test('app shell size budget reports missing required assets and ignores question
     path: 'assets/question-chunks/grammar/grammar-sentence-types.js',
     bytes: 500 * 1024,
     category: 'questionContent'
+  }, {
+    path: 'assets/story-lesson-chunks/grammar/grammar-sentence-types.js',
+    bytes: 500 * 1024,
+    category: 'storyLessonContent'
   }], config.DEFAULT_APP_SHELL_BUDGET_LIMITS, {
     requiredFiles: ['sw.js']
   });
 
   assert.equal(result.files.length, 0);
   assert.equal(result.excludedFiles[0].path, 'assets/question-chunks/grammar/grammar-sentence-types.js');
+  assert.equal(result.excludedFiles[1].path, 'assets/story-lesson-chunks/grammar/grammar-sentence-types.js');
   assert.ok(result.errors.some(error => /missing required app shell asset sw\.js/.test(error.message)));
 });
 

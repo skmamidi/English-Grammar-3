@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-commas-addresses",
+  "domain": "punctuation",
+  "title": "Commas in Addresses",
+  "version": 1,
+  "contentHash": "sha256:punctuation-commas-addresses-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "commas-addresses-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice commas in addresses and place names."
+        }
+      ],
+      "conceptRules": [
+        "Commas can split parts of a place address."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Austin, Texas",
+          "explanation": "This example helps learners see commas in addresses and place names."
+        },
+        {
+          "type": "near_miss",
+          "text": "12 Pine Road, Dayton, Ohio",
+          "explanation": "This example helps learners see commas in addresses and place names."
+        },
+        {
+          "type": "transfer",
+          "text": "We moved to Mesa, Arizona, last year.",
+          "explanation": "This example helps learners see commas in addresses and place names."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in addresses and place names?",
+          "answer": "Use commas to separate parts of an address or a city and state."
+        }
+      ],
+      "commonMistakes": [
+        "Do not forget the comma after the state when the sentence continues."
+      ],
+      "vocabulary": [
+        {
+          "term": "address",
+          "definition": "Words and numbers that tell where a place is."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Addresses",
+        "targetSetId": "punctuation-commas-addresses"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "commas-addresses-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice commas in addresses and place names."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate parts of an address or a city and state."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Austin, Texas",
+          "explanation": "This example helps learners see commas in addresses and place names."
+        },
+        {
+          "type": "near_miss",
+          "text": "12 Pine Road, Dayton, Ohio",
+          "explanation": "This example helps learners see commas in addresses and place names."
+        },
+        {
+          "type": "transfer",
+          "text": "We moved to Mesa, Arizona, last year.",
+          "explanation": "This example helps learners see commas in addresses and place names."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in addresses and place names?",
+          "answer": "Use commas to separate parts of an address or a city and state."
+        }
+      ],
+      "commonMistakes": [
+        "Do not forget the comma after the state when the sentence continues."
+      ],
+      "vocabulary": [
+        {
+          "term": "address",
+          "definition": "Words and numbers that tell where a place is."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Addresses",
+        "targetSetId": "punctuation-commas-addresses"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "commas-addresses-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how commas in addresses and place names changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate parts of an address or a city and state."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Austin, Texas",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "12 Pine Road, Dayton, Ohio",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "We moved to Mesa, Arizona, last year.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in addresses and place names?",
+          "answer": "Use commas to separate parts of an address or a city and state."
+        }
+      ],
+      "commonMistakes": [
+        "Do not forget the comma after the state when the sentence continues."
+      ],
+      "vocabulary": [
+        {
+          "term": "address",
+          "definition": "Words and numbers that tell where a place is."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Addresses",
+        "targetSetId": "punctuation-commas-addresses"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "commas-addresses-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how commas in addresses and place names changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate parts of an address or a city and state."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Austin, Texas",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "12 Pine Road, Dayton, Ohio",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "We moved to Mesa, Arizona, last year.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in addresses and place names?",
+          "answer": "Use commas to separate parts of an address or a city and state."
+        }
+      ],
+      "commonMistakes": [
+        "Do not forget the comma after the state when the sentence continues."
+      ],
+      "vocabulary": [
+        {
+          "term": "address",
+          "definition": "Words and numbers that tell where a place is."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Addresses",
+        "targetSetId": "punctuation-commas-addresses"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "commas-addresses-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using commas in addresses and place names to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate parts of an address or a city and state. In formal writing, check each address part as a separate unit."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Austin, Texas",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "12 Pine Road, Dayton, Ohio",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "We moved to Mesa, Arizona, last year.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in addresses and place names?",
+          "answer": "Use commas to separate parts of an address or a city and state."
+        }
+      ],
+      "commonMistakes": [
+        "Do not forget the comma after the state when the sentence continues. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "address",
+          "definition": "Words and numbers that tell where a place is."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Addresses",
+        "targetSetId": "punctuation-commas-addresses"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "capitalization-names-of-places",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-commas-dates",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "commas-addresses"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-commas-addresses-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-commas-dates",
+  "domain": "punctuation",
+  "title": "Commas in Dates",
+  "version": 1,
+  "contentHash": "sha256:punctuation-commas-dates-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "commas-dates-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice commas in dates."
+        }
+      ],
+      "conceptRules": [
+        "A full date often needs commas between its parts."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday, June 3",
+          "explanation": "This example helps learners see commas in dates."
+        },
+        {
+          "type": "near_miss",
+          "text": "June 3, 2026",
+          "explanation": "This example helps learners see commas in dates."
+        },
+        {
+          "type": "transfer",
+          "text": "On Monday, June 3, we meet.",
+          "explanation": "This example helps learners see commas in dates."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in dates?",
+          "answer": "Use commas to separate the day, date, and year in many full dates."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a comma between just a month and a year."
+      ],
+      "vocabulary": [
+        {
+          "term": "date",
+          "definition": "Words and numbers that name a day on a calendar."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Dates",
+        "targetSetId": "punctuation-commas-dates"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "commas-dates-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice commas in dates."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate the day, date, and year in many full dates."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday, June 3",
+          "explanation": "This example helps learners see commas in dates."
+        },
+        {
+          "type": "near_miss",
+          "text": "June 3, 2026",
+          "explanation": "This example helps learners see commas in dates."
+        },
+        {
+          "type": "transfer",
+          "text": "On Monday, June 3, we meet.",
+          "explanation": "This example helps learners see commas in dates."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in dates?",
+          "answer": "Use commas to separate the day, date, and year in many full dates."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a comma between just a month and a year."
+      ],
+      "vocabulary": [
+        {
+          "term": "date",
+          "definition": "Words and numbers that name a day on a calendar."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Dates",
+        "targetSetId": "punctuation-commas-dates"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "commas-dates-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how commas in dates changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate the day, date, and year in many full dates."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday, June 3",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "June 3, 2026",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "On Monday, June 3, we meet.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in dates?",
+          "answer": "Use commas to separate the day, date, and year in many full dates."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a comma between just a month and a year."
+      ],
+      "vocabulary": [
+        {
+          "term": "date",
+          "definition": "Words and numbers that name a day on a calendar."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Dates",
+        "targetSetId": "punctuation-commas-dates"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "commas-dates-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how commas in dates changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate the day, date, and year in many full dates."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday, June 3",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "June 3, 2026",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "On Monday, June 3, we meet.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in dates?",
+          "answer": "Use commas to separate the day, date, and year in many full dates."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a comma between just a month and a year."
+      ],
+      "vocabulary": [
+        {
+          "term": "date",
+          "definition": "Words and numbers that name a day on a calendar."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Dates",
+        "targetSetId": "punctuation-commas-dates"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "commas-dates-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using commas in dates to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate the day, date, and year in many full dates. When a full date interrupts a sentence, place a comma after the year too."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday, June 3",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "June 3, 2026",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "On Monday, June 3, we meet.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas in dates?",
+          "answer": "Use commas to separate the day, date, and year in many full dates."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a comma between just a month and a year. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "date",
+          "definition": "Words and numbers that name a day on a calendar."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas in Dates",
+        "targetSetId": "punctuation-commas-dates"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "capitalization-days-months-holidays",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-commas-addresses",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "commas-dates"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-commas-dates-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

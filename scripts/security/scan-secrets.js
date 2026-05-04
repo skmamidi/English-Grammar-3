@@ -10,6 +10,7 @@ const DEFAULT_SCAN_TARGETS = Object.freeze([
   'scripts',
   'tests',
   'docs',
+  'content-review',
   '.github/workflows',
   'assets/release-manifest.json',
   'assets/release-manifest.js'

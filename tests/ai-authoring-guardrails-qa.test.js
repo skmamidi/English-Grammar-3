@@ -103,3 +103,33 @@ test('AI authoring guardrails QA exposes a publication check with blocking error
   assert.equal(check.blocking, true);
   assert.equal(check.report.summary.aiAssistedCount, 1);
 });
+
+test('AI authoring guardrails allow reviewed story lesson drafts with provider evidence', () => {
+  const missingEvidence = runAiAuthoringGuardrailsQa({
+    records: [record({
+      sourceSet: 'grammar-sentence-types',
+      assistance: Object.assign({}, record().assistance, {
+        purpose: 'story_lesson_draft',
+        provider: '',
+        modelFamily: '',
+        promptRecordId: ''
+      })
+    })]
+  });
+  const allowed = runAiAuthoringGuardrailsQa({
+    records: [record({
+      sourceSet: 'grammar-sentence-types',
+      assistance: Object.assign({}, record().assistance, {
+        purpose: 'story_lesson_draft',
+        provider: 'openai',
+        modelFamily: 'gpt-test',
+        promptRecordId: 'story-prompt-1'
+      })
+    })]
+  });
+
+  assert.equal(missingEvidence.status, 'failed');
+  assert.ok(missingEvidence.errors.some(error => error.code === 'ai_story_lesson_provider_required'));
+  assert.ok(missingEvidence.errors.some(error => error.code === 'ai_story_lesson_prompt_evidence_required'));
+  assert.equal(allowed.status, 'passed');
+});

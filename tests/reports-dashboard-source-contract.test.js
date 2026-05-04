@@ -23,3 +23,14 @@ test('parent full-question modal keeps generated visual scene evidence for canon
 
   assert.match(detail, /item\.visualScene \|\| item\.generatedVisualScene/);
 });
+
+test('parent full-question modal renders internal lesson links from study-aid metadata', () => {
+  const source = fs.readFileSync(path.join(repoRoot, 'assets', 'reports-dashboard.js'), 'utf8');
+  const studyAidStart = source.indexOf('function renderStudyAidForReport(detail)');
+  const studyAidEnd = source.indexOf('function getSelectedExplanation', studyAidStart);
+  const studyAid = source.slice(studyAidStart, studyAidEnd);
+
+  assert.match(studyAid, /GrammarQuestStudyAidLinks/);
+  assert.match(studyAid, /normalizeStudyAidInternalLinks/);
+  assert.match(studyAid, /data-report-lesson-link/);
+});

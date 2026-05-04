@@ -12,7 +12,8 @@
     'draft',
     'explanation',
     'metadata',
-    'rewrite'
+    'rewrite',
+    'story_lesson_draft'
   ];
   const PURPOSES = new Set(ALLOWED_AI_AUTHORING_PURPOSES);
   const GUARDRAIL_FIELDS = [
@@ -45,6 +46,7 @@
       assistance: {
         used: assistance.used === true,
         purpose: safeString(assistance.purpose),
+        provider: safeString(assistance.provider),
         modelFamily: safeString(assistance.modelFamily),
         promptRecordId: safeString(assistance.promptRecordId),
         humanReviewed: assistance.humanReviewed === true,
@@ -64,7 +66,7 @@
     };
   }
 
-  function evaluateAuthoringGuardrails(record = {}) {
+  function evaluateAuthoringGuardrails(record = {}, options = {}) {
     const normalized = normalizeAuthoringRecord(record);
     const issues = [];
 
@@ -74,6 +76,14 @@
     if (!normalized.assistance.used) return resultFor(normalized, issues);
     if (!PURPOSES.has(normalized.assistance.purpose)) {
       issues.push(issue('ai_purpose_invalid', 'assistance.purpose', 'AI assistance purpose is not allowed for content authoring.', normalized));
+    }
+    if (normalized.assistance.purpose === 'story_lesson_draft') {
+      if (!normalized.assistance.provider || !['gemini', 'openai'].includes(normalized.assistance.provider)) {
+        issues.push(issue('ai_story_lesson_provider_required', 'assistance.provider', 'Story lesson drafts require a configured provider name: gemini or openai.', normalized));
+      }
+      if (!normalized.assistance.modelFamily || !normalized.assistance.promptRecordId) {
+        issues.push(issue('ai_story_lesson_prompt_evidence_required', 'assistance', 'Story lesson drafts require model family and prompt record evidence.', normalized));
+      }
     }
     if (!normalized.assistance.humanReviewed || !normalized.assistance.reviewerId || !normalized.assistance.reviewedAt) {
       issues.push(issue('ai_review_required', 'assistance', 'AI-assisted content requires human review with reviewer identity and timestamp.', normalized));

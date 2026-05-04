@@ -23,7 +23,9 @@ function runAiAuthoringGuardrailsQa(options = {}) {
     ? options.records
     : loadAiAuthoringRecords(options.recordsPath);
   const normalized = records.map(normalizeAuthoringRecord);
-  const evaluations = records.map(evaluateAuthoringGuardrails);
+  const evaluations = records.map(record => evaluateAuthoringGuardrails(record, {
+    allowStoryLessonDraftPurpose: options.allowStoryLessonDraftPurpose === true
+  }));
   const errors = evaluations.flatMap(evaluation => evaluation.issues);
   const aiAssistedCount = normalized.filter(record => record.assistance.used).length;
 

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-apostrophes-possessives",
+  "domain": "punctuation",
+  "title": "Apostrophes in Possessives",
+  "version": 1,
+  "contentHash": "sha256:punctuation-apostrophes-possessives-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "apostrophes-possessives-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice apostrophes in possessive nouns."
+        }
+      ],
+      "conceptRules": [
+        "An apostrophe can show something belongs to someone."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina's map",
+          "explanation": "This example helps learners see apostrophes in possessive nouns."
+        },
+        {
+          "type": "near_miss",
+          "text": "the class's project",
+          "explanation": "This example helps learners see apostrophes in possessive nouns."
+        },
+        {
+          "type": "transfer",
+          "text": "the students' notes",
+          "explanation": "This example helps learners see apostrophes in possessive nouns."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for apostrophes in possessive nouns?",
+          "answer": "Use an apostrophe to show that a noun owns or belongs with something."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use an apostrophe just because a word ends in s."
+      ],
+      "vocabulary": [
+        {
+          "term": "possessive noun",
+          "definition": "A noun that shows ownership or belonging."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Apostrophes in Possessives",
+        "targetSetId": "punctuation-apostrophes-possessives"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "apostrophes-possessives-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice apostrophes in possessive nouns."
+        }
+      ],
+      "conceptRules": [
+        "Use an apostrophe to show that a noun owns or belongs with something."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina's map",
+          "explanation": "This example helps learners see apostrophes in possessive nouns."
+        },
+        {
+          "type": "near_miss",
+          "text": "the class's project",
+          "explanation": "This example helps learners see apostrophes in possessive nouns."
+        },
+        {
+          "type": "transfer",
+          "text": "the students' notes",
+          "explanation": "This example helps learners see apostrophes in possessive nouns."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for apostrophes in possessive nouns?",
+          "answer": "Use an apostrophe to show that a noun owns or belongs with something."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use an apostrophe just because a word ends in s."
+      ],
+      "vocabulary": [
+        {
+          "term": "possessive noun",
+          "definition": "A noun that shows ownership or belonging."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Apostrophes in Possessives",
+        "targetSetId": "punctuation-apostrophes-possessives"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "apostrophes-possessives-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how apostrophes in possessive nouns changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use an apostrophe to show that a noun owns or belongs with something."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina's map",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "the class's project",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "the students' notes",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for apostrophes in possessive nouns?",
+          "answer": "Use an apostrophe to show that a noun owns or belongs with something."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use an apostrophe just because a word ends in s."
+      ],
+      "vocabulary": [
+        {
+          "term": "possessive noun",
+          "definition": "A noun that shows ownership or belonging."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Apostrophes in Possessives",
+        "targetSetId": "punctuation-apostrophes-possessives"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "apostrophes-possessives-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how apostrophes in possessive nouns changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use an apostrophe to show that a noun owns or belongs with something."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina's map",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "the class's project",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "the students' notes",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for apostrophes in possessive nouns?",
+          "answer": "Use an apostrophe to show that a noun owns or belongs with something."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use an apostrophe just because a word ends in s."
+      ],
+      "vocabulary": [
+        {
+          "term": "possessive noun",
+          "definition": "A noun that shows ownership or belonging."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Apostrophes in Possessives",
+        "targetSetId": "punctuation-apostrophes-possessives"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "apostrophes-possessives-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using apostrophes in possessive nouns to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Use an apostrophe to show that a noun owns or belongs with something. Check whether the owner is singular or plural before placing the apostrophe."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina's map",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "the class's project",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "the students' notes",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for apostrophes in possessive nouns?",
+          "answer": "Use an apostrophe to show that a noun owns or belongs with something."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use an apostrophe just because a word ends in s. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "possessive noun",
+          "definition": "A noun that shows ownership or belonging."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Apostrophes in Possessives",
+        "targetSetId": "punctuation-apostrophes-possessives"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-apostrophes-contractions",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-singular-plural-nouns",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "apostrophes-possessives"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-apostrophes-possessives-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

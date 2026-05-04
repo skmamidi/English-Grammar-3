@@ -2,10 +2,12 @@
   'use strict';
 
   const crypto = typeof require === 'function' ? require('node:crypto') : null;
-  const api = factory(crypto);
+  const lessonProgressDomain = root.GrammarQuestLessonProgressDomain ||
+    (typeof require === 'function' ? require('./lesson-progress-domain') : null);
+  const api = factory(crypto, lessonProgressDomain);
   if (typeof module === 'object' && module.exports) module.exports = api;
   root.GrammarQuestLearnerProgressTransferDomain = api;
-})(typeof window !== 'undefined' ? window : globalThis, function (crypto) {
+})(typeof window !== 'undefined' ? window : globalThis, function (crypto, lessonProgressDomain) {
   'use strict';
 
   const FORBIDDEN_KEYS = new Set(['authToken', 'sessionToken', 'privateKey', 'telemetry', 'question', 'choices', 'answer', 'correctAnswer', 'explanation', 'explanations', 'questionSnapshots']);
@@ -52,8 +54,14 @@
       questionReports: Array.isArray(input.questionReports) ? input.questionReports : [],
       assignments: Array.isArray(input.assignments) ? input.assignments : [],
       reviewQueue: input.reviewQueue || null,
-      reviewSchedules: Array.isArray(input.reviewSchedules) ? input.reviewSchedules : []
+      reviewSchedules: Array.isArray(input.reviewSchedules) ? input.reviewSchedules : [],
+      lessonProgress: normalizeLessonProgress(input.lessonProgress || input.progress && input.progress.lessonProgress)
     });
+  }
+
+  function normalizeLessonProgress(records) {
+    if (!lessonProgressDomain || typeof lessonProgressDomain.mergeLessonProgressRecords !== 'function') return [];
+    return lessonProgressDomain.mergeLessonProgressRecords(records);
   }
 
   function sanitize(value) {

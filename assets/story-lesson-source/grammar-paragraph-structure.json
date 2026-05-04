@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-paragraph-structure",
+  "domain": "grammar",
+  "title": "Paragraph Structure",
+  "version": 1,
+  "contentHash": "sha256:grammar-paragraph-structure-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "paragraph-structure-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan building a focused paragraph."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for building a focused paragraph."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Topic sentence first.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "A detail that wanders off topic.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise details so they support one point.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for building a focused paragraph?",
+          "answer": "A paragraph groups sentences around one main idea."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows building a focused paragraph?",
+          "answer": "Topic sentence first."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A detail that wanders off topic."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise details so they support one point."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "paragraph structure",
+          "definition": "A writing or language strategy for building a focused paragraph."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Paragraph Structure",
+        "targetSetId": "grammar-paragraph-structure"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "paragraph-structure-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks building a focused paragraph."
+        }
+      ],
+      "conceptRules": [
+        "A paragraph groups sentences around one main idea."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Topic sentence first.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "A detail that wanders off topic.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise details so they support one point.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for building a focused paragraph?",
+          "answer": "A paragraph groups sentences around one main idea."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows building a focused paragraph?",
+          "answer": "Topic sentence first."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A detail that wanders off topic."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise details so they support one point."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "paragraph structure",
+          "definition": "A writing or language strategy for building a focused paragraph."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Paragraph Structure",
+        "targetSetId": "grammar-paragraph-structure"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "paragraph-structure-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks building a focused paragraph."
+        }
+      ],
+      "conceptRules": [
+        "A paragraph groups sentences around one main idea."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Topic sentence first.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "A detail that wanders off topic.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise details so they support one point.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for building a focused paragraph?",
+          "answer": "A paragraph groups sentences around one main idea."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows building a focused paragraph?",
+          "answer": "Topic sentence first."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A detail that wanders off topic."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise details so they support one point."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "paragraph structure",
+          "definition": "A writing or language strategy for building a focused paragraph."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Paragraph Structure",
+        "targetSetId": "grammar-paragraph-structure"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "paragraph-structure-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks building a focused paragraph."
+        }
+      ],
+      "conceptRules": [
+        "A paragraph groups sentences around one main idea."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Topic sentence first.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "A detail that wanders off topic.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise details so they support one point.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for building a focused paragraph?",
+          "answer": "A paragraph groups sentences around one main idea."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows building a focused paragraph?",
+          "answer": "Topic sentence first."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A detail that wanders off topic."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise details so they support one point."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "paragraph structure",
+          "definition": "A writing or language strategy for building a focused paragraph."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Paragraph Structure",
+        "targetSetId": "grammar-paragraph-structure"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "paragraph-structure-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer building a focused paragraph to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "A paragraph groups sentences around one main idea. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Topic sentence first.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "A detail that wanders off topic.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise details so they support one point.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for building a focused paragraph?",
+          "answer": "A paragraph groups sentences around one main idea."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows building a focused paragraph?",
+          "answer": "Topic sentence first."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A detail that wanders off topic."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise details so they support one point."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "paragraph structure",
+          "definition": "A writing or language strategy for building a focused paragraph."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Paragraph Structure",
+        "targetSetId": "grammar-paragraph-structure"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-indentation-rules",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-informative-explanatory-writing",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "paragraph-structure"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-paragraph-structure-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-friendly-letter",
+  "domain": "grammar",
+  "title": "Parts of a Friendly Letter",
+  "version": 1,
+  "contentHash": "sha256:grammar-friendly-letter-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "friendly-letter-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan organizing a friendly letter."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for organizing a friendly letter."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dear Jo,",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Your friend, Mina",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Plan the body before writing the closing.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for organizing a friendly letter?",
+          "answer": "A friendly letter has parts such as date, greeting, body, closing, and signature."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows organizing a friendly letter?",
+          "answer": "Dear Jo,"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Your friend, Mina"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Plan the body before writing the closing."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of a",
+          "definition": "A writing or language strategy for organizing a friendly letter."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of a Friendly Letter",
+        "targetSetId": "grammar-friendly-letter"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "friendly-letter-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks organizing a friendly letter."
+        }
+      ],
+      "conceptRules": [
+        "A friendly letter has parts such as date, greeting, body, closing, and signature."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dear Jo,",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Your friend, Mina",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Plan the body before writing the closing.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for organizing a friendly letter?",
+          "answer": "A friendly letter has parts such as date, greeting, body, closing, and signature."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows organizing a friendly letter?",
+          "answer": "Dear Jo,"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Your friend, Mina"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Plan the body before writing the closing."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of a",
+          "definition": "A writing or language strategy for organizing a friendly letter."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of a Friendly Letter",
+        "targetSetId": "grammar-friendly-letter"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "friendly-letter-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks organizing a friendly letter."
+        }
+      ],
+      "conceptRules": [
+        "A friendly letter has parts such as date, greeting, body, closing, and signature."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dear Jo,",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Your friend, Mina",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Plan the body before writing the closing.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for organizing a friendly letter?",
+          "answer": "A friendly letter has parts such as date, greeting, body, closing, and signature."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows organizing a friendly letter?",
+          "answer": "Dear Jo,"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Your friend, Mina"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Plan the body before writing the closing."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of a",
+          "definition": "A writing or language strategy for organizing a friendly letter."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of a Friendly Letter",
+        "targetSetId": "grammar-friendly-letter"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "friendly-letter-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks organizing a friendly letter."
+        }
+      ],
+      "conceptRules": [
+        "A friendly letter has parts such as date, greeting, body, closing, and signature."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dear Jo,",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Your friend, Mina",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Plan the body before writing the closing.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for organizing a friendly letter?",
+          "answer": "A friendly letter has parts such as date, greeting, body, closing, and signature."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows organizing a friendly letter?",
+          "answer": "Dear Jo,"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Your friend, Mina"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Plan the body before writing the closing."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of a",
+          "definition": "A writing or language strategy for organizing a friendly letter."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of a Friendly Letter",
+        "targetSetId": "grammar-friendly-letter"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "friendly-letter-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer organizing a friendly letter to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "A friendly letter has parts such as date, greeting, body, closing, and signature. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dear Jo,",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Your friend, Mina",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Plan the body before writing the closing.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for organizing a friendly letter?",
+          "answer": "A friendly letter has parts such as date, greeting, body, closing, and signature."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows organizing a friendly letter?",
+          "answer": "Dear Jo,"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Your friend, Mina"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Plan the body before writing the closing."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of a",
+          "definition": "A writing or language strategy for organizing a friendly letter."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of a Friendly Letter",
+        "targetSetId": "grammar-friendly-letter"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-paragraph-structure",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "capitalization-days-months-holidays",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "friendly-letter"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-friendly-letter-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

@@ -17,7 +17,12 @@
     'long_task_detected',
     'page_performance_summary',
     'feature_flag_state',
-    'goal_card_interaction'
+    'goal_card_interaction',
+    'lesson_started',
+    'lesson_completed',
+    'lesson_skipped',
+    'lesson_resumed',
+    'lesson_opened_from_study_aid'
   ]);
 
   function normalizeAppTelemetryEvent(event, options = {}) {
@@ -36,6 +41,7 @@
       occurredAt: safeIso(input.occurredAt) || now().toISOString()
     };
     if (type === 'goal_card_interaction') payload.interaction = normalizeInteraction(input.interaction);
+    if (type.startsWith('lesson_')) payload.lesson = normalizeLessonTelemetry(input.lesson || input);
     const normalized = privacy.sanitizeAppTelemetryPayload(payload);
     privacy.assertAppTelemetryPrivacy(normalized);
     return normalized;
@@ -78,6 +84,19 @@
     return { band, cardId, kind, roleView };
   }
 
+  function normalizeLessonTelemetry(lesson) {
+    const input = lesson && typeof lesson === 'object' ? lesson : {};
+    return {
+      setId: safeString(input.setId || input.lessonSetId),
+      grade: normalizeGrade(input.grade),
+      status: normalizeEnum(input.status, ['in_progress', 'completed', 'skipped'], 'in_progress'),
+      version: Math.max(0, Math.round(Number(input.version || input.contentVersion) || 0)),
+      contentHash: safeString(input.contentHash),
+      source: normalizeEnum(input.source, ['direct', 'lesson_page', 'study_aid', 'recommendation'], 'direct'),
+      openedFromStudyAid: input.openedFromStudyAid === true
+    };
+  }
+
   function normalizeEnum(value, allowed, fallback) {
     const normalized = String(value || '').trim().toLowerCase().replace(/[^a-z0-9_-]+/g, '_');
     return allowed.includes(normalized) ? normalized : fallback;
@@ -87,6 +106,11 @@
     const severity = String(value || '').toLowerCase();
     if (severity === 'info' || severity === 'warn' || severity === 'error') return severity;
     return severity === 'critical' || severity === 'fatal' ? 'error' : 'warn';
+  }
+
+  function normalizeGrade(value) {
+    const grade = Math.round(Number(value) || 0);
+    return grade >= 2 && grade <= 6 ? grade : 0;
   }
 
   function normalizeTiming(timing) {

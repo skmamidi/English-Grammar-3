@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "capitalization-sentence-beginning",
+  "domain": "capitalization",
+  "title": "Capitalization at Sentence Beginning",
+  "version": 1,
+  "contentHash": "sha256:capitalization-sentence-beginning-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "sentence-beginning-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters at the start of sentences."
+        }
+      ],
+      "conceptRules": [
+        "A sentence starts with a big capital letter."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The map is on the table.",
+          "explanation": "This example helps learners see capital letters at the start of sentences."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where did Mina put the note?",
+          "explanation": "This example helps learners see capital letters at the start of sentences."
+        },
+        {
+          "type": "transfer",
+          "text": "Please close the gate.",
+          "explanation": "This example helps learners see capital letters at the start of sentences."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters at the start of sentences?",
+          "answer": "Begin every complete sentence with a capital letter."
+        }
+      ],
+      "commonMistakes": [
+        "Do not leave the first word lowercase after a period, question mark, or exclamation point."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence beginning",
+          "definition": "The first word in a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization at Sentence Beginning",
+        "targetSetId": "capitalization-sentence-beginning"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "sentence-beginning-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters at the start of sentences."
+        }
+      ],
+      "conceptRules": [
+        "Begin every complete sentence with a capital letter."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The map is on the table.",
+          "explanation": "This example helps learners see capital letters at the start of sentences."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where did Mina put the note?",
+          "explanation": "This example helps learners see capital letters at the start of sentences."
+        },
+        {
+          "type": "transfer",
+          "text": "Please close the gate.",
+          "explanation": "This example helps learners see capital letters at the start of sentences."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters at the start of sentences?",
+          "answer": "Begin every complete sentence with a capital letter."
+        }
+      ],
+      "commonMistakes": [
+        "Do not leave the first word lowercase after a period, question mark, or exclamation point."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence beginning",
+          "definition": "The first word in a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization at Sentence Beginning",
+        "targetSetId": "capitalization-sentence-beginning"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "sentence-beginning-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters at the start of sentences changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Begin every complete sentence with a capital letter."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The map is on the table.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where did Mina put the note?",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "Please close the gate.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters at the start of sentences?",
+          "answer": "Begin every complete sentence with a capital letter."
+        }
+      ],
+      "commonMistakes": [
+        "Do not leave the first word lowercase after a period, question mark, or exclamation point."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence beginning",
+          "definition": "The first word in a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization at Sentence Beginning",
+        "targetSetId": "capitalization-sentence-beginning"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "sentence-beginning-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters at the start of sentences changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Begin every complete sentence with a capital letter."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The map is on the table.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where did Mina put the note?",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "Please close the gate.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters at the start of sentences?",
+          "answer": "Begin every complete sentence with a capital letter."
+        }
+      ],
+      "commonMistakes": [
+        "Do not leave the first word lowercase after a period, question mark, or exclamation point."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence beginning",
+          "definition": "The first word in a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization at Sentence Beginning",
+        "targetSetId": "capitalization-sentence-beginning"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "sentence-beginning-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using capital letters at the start of sentences to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Begin every complete sentence with a capital letter. During editing, scan every sentence boundary after combining or moving sentences."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The map is on the table.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where did Mina put the note?",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "Please close the gate.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters at the start of sentences?",
+          "answer": "Begin every complete sentence with a capital letter."
+        }
+      ],
+      "commonMistakes": [
+        "Do not leave the first word lowercase after a period, question mark, or exclamation point. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence beginning",
+          "definition": "The first word in a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization at Sentence Beginning",
+        "targetSetId": "capitalization-sentence-beginning"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-end-sentence",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "capitalization-proper-names-titles",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "sentence-beginning"
+    ],
+    "skillIds": [
+      "capitalization.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "capitalization-sentence-beginning-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

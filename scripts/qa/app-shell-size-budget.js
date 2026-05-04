@@ -6,6 +6,12 @@ const { DEFAULT_APP_SHELL_BUDGET_LIMITS } = require('./app-shell-budget-config')
 
 const repoRoot = path.resolve(__dirname, '..', '..');
 const QUESTION_CONTENT_PATTERN = /(^|\/)assets\/question-(chunks|bank-source|banks|manifest)(\/|\.|$)/;
+const STORY_LESSON_CONTENT_PATTERN = /(^|\/)assets\/story-lesson-chunks(\/|$)/;
+const SPELLING_CONTENT_FILES = new Set([
+  'assets/story-lesson-manifest.json',
+  'assets/spelling-audio-manifest.js',
+  'assets/spelling-word-list.js'
+]);
 const SERVICE_WORKER_FILES = new Set([
   'sw.js',
   'assets/service-worker-core.js',
@@ -51,7 +57,8 @@ const NON_RUNTIME_CONTRACT_FILES = new Set([
   'assets/content-change-impact-analysis.js',
   'assets/curriculum-release-channel-policy.js',
   'assets/reviewer-workload-sla-report.js',
-  'assets/authoring-fixture-library.js'
+  'assets/authoring-fixture-library.js',
+  'assets/story-lesson-domain.js'
 ]);
 const ASSET_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.webp', '.gif', '.svg', '.ico', '.woff', '.woff2', '.ttf', '.otf']);
 
@@ -93,7 +100,11 @@ function categorizeAssetFile(fileName, fullPath) {
   const relativePath = path.relative(repoRoot, fullPath).split(path.sep).join('/');
   if (NON_RUNTIME_CONTRACT_FILES.has(relativePath)) return '';
   if (SERVICE_WORKER_FILES.has(relativePath)) return 'serviceWorker';
-  if (fileName === 'release-manifest.json' || relativePath === 'assets/build/frontend-manifest.json' || relativePath === 'assets/static-asset-manifest.json') return 'releaseMetadata';
+  if (fileName === 'release-manifest.json' ||
+    relativePath === 'assets/story-lesson-manifest.js' ||
+    relativePath === 'assets/story-lesson-manifest.json' ||
+    relativePath === 'assets/build/frontend-manifest.json' ||
+    relativePath === 'assets/static-asset-manifest.json') return 'releaseMetadata';
   const ext = path.extname(fileName).toLowerCase();
   if (ext === '.js') return 'javascript';
   if (ext === '.css') return 'css';
@@ -230,7 +241,11 @@ function getFileBudget(category, limits) {
 }
 
 function isQuestionContent(filePath, category) {
-  return category === 'questionContent' || QUESTION_CONTENT_PATTERN.test(filePath);
+  return category === 'questionContent' ||
+    category === 'storyLessonContent' ||
+    QUESTION_CONTENT_PATTERN.test(filePath) ||
+    STORY_LESSON_CONTENT_PATTERN.test(filePath) ||
+    SPELLING_CONTENT_FILES.has(filePath);
 }
 
 function normalizeStringArray(values) {

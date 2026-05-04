@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-prepositions-prepositional-phrases",
+  "domain": "grammar",
+  "title": "Prepositions & Prepositional Phrases",
+  "version": 1,
+  "contentHash": "sha256:grammar-prepositions-prepositional-phrases-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "prepositions-prepositional-phrases-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan using prepositions to show relationships."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for using prepositions to show relationships."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "under the desk",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "after lunch",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina searched behind the shelf.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for using prepositions to show relationships?",
+          "answer": "A prepositional phrase begins with a preposition and adds information about place time or direction."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows using prepositions to show relationships?",
+          "answer": "under the desk"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "after lunch"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina searched behind the shelf."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "prepositions  prepositional",
+          "definition": "A writing or language strategy for using prepositions to show relationships."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Prepositions & Prepositional Phrases",
+        "targetSetId": "grammar-prepositions-prepositional-phrases"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "prepositions-prepositional-phrases-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks using prepositions to show relationships."
+        }
+      ],
+      "conceptRules": [
+        "A prepositional phrase begins with a preposition and adds information about place time or direction."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "under the desk",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "after lunch",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina searched behind the shelf.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for using prepositions to show relationships?",
+          "answer": "A prepositional phrase begins with a preposition and adds information about place time or direction."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows using prepositions to show relationships?",
+          "answer": "under the desk"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "after lunch"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina searched behind the shelf."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "prepositions  prepositional",
+          "definition": "A writing or language strategy for using prepositions to show relationships."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Prepositions & Prepositional Phrases",
+        "targetSetId": "grammar-prepositions-prepositional-phrases"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "prepositions-prepositional-phrases-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks using prepositions to show relationships."
+        }
+      ],
+      "conceptRules": [
+        "A prepositional phrase begins with a preposition and adds information about place time or direction."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "under the desk",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "after lunch",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina searched behind the shelf.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for using prepositions to show relationships?",
+          "answer": "A prepositional phrase begins with a preposition and adds information about place time or direction."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows using prepositions to show relationships?",
+          "answer": "under the desk"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "after lunch"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina searched behind the shelf."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "prepositions  prepositional",
+          "definition": "A writing or language strategy for using prepositions to show relationships."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Prepositions & Prepositional Phrases",
+        "targetSetId": "grammar-prepositions-prepositional-phrases"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "prepositions-prepositional-phrases-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks using prepositions to show relationships."
+        }
+      ],
+      "conceptRules": [
+        "A prepositional phrase begins with a preposition and adds information about place time or direction."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "under the desk",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "after lunch",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina searched behind the shelf.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for using prepositions to show relationships?",
+          "answer": "A prepositional phrase begins with a preposition and adds information about place time or direction."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows using prepositions to show relationships?",
+          "answer": "under the desk"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "after lunch"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina searched behind the shelf."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "prepositions  prepositional",
+          "definition": "A writing or language strategy for using prepositions to show relationships."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Prepositions & Prepositional Phrases",
+        "targetSetId": "grammar-prepositions-prepositional-phrases"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "prepositions-prepositional-phrases-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer using prepositions to show relationships to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "A prepositional phrase begins with a preposition and adds information about place time or direction. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "under the desk",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "after lunch",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina searched behind the shelf.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for using prepositions to show relationships?",
+          "answer": "A prepositional phrase begins with a preposition and adds information about place time or direction."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows using prepositions to show relationships?",
+          "answer": "under the desk"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "after lunch"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina searched behind the shelf."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "prepositions  prepositional",
+          "definition": "A writing or language strategy for using prepositions to show relationships."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Prepositions & Prepositional Phrases",
+        "targetSetId": "grammar-prepositions-prepositional-phrases"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-parts-of-speech-nouns",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-variety",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "prepositions-prepositional-phrases"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-prepositions-prepositional-phrases-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

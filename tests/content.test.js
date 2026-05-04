@@ -32,6 +32,34 @@ test('content QA reports invalid correct indexes with actionable locations', () 
   assert.ok(issue.location);
 });
 
+test('content QA rejects broken study-aid internal lesson links', () => {
+  const question = makeQaQuestion(1, {
+    studyAid: {
+      definition: 'Study the sentence type.',
+      example: 'Where is the clue?',
+      internalLinks: [{ targetSetId: 'grammar-unknown', reason: 'missing' }]
+    }
+  });
+  const result = validateLoadedContent({
+    files: [{
+      file: path.join(repoRoot, 'assets/question-bank-source/fixture.json'),
+      relativeFile: 'assets/question-bank-source/fixture.json',
+      sourceType: 'json',
+      domain: 'grammar',
+      bank: {
+        'grammar-sentence-types': {
+          title: 'Sentence Types',
+          topic: 'Grammar',
+          questions: [question]
+        }
+      }
+    }],
+    bank: {}
+  });
+
+  assert.ok(result.errors.some(issue => issue.ruleId === 'broken-study-aid-internal-link'));
+});
+
 test('content QA can include source governance warnings without blocking current content', () => {
   const result = validateLoadedContent({
     files: [{

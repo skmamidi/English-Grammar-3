@@ -10,6 +10,9 @@
   const UNSAFE_KEYS = new Set([
     'learnerId', 'studentId', 'studentName', 'userId', 'uid', 'email',
     'question', 'choices', 'answer', 'answers', 'explanation', 'explanations',
+    'storyBeats', 'conceptRules', 'examples', 'guidedChecks', 'commonMistakes',
+    'lessonBody', 'rawLesson', 'narrative',
+    'leaderboardParticipantRef', 'participantRef', 'participantId', 'rawLeaderboardId', 'leaderboardEntryId',
     'authToken', 'token', 'sessionToken', 'privateKey', 'privateKeyRef',
     'stack', 'rawStack', 'rawError'
   ]);

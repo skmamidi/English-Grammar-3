@@ -1,0 +1,66 @@
+const assert = require('node:assert/strict');
+const test = require('node:test');
+
+const lesson = require('../assets/story-lesson-source/grammar-sentence-types.json');
+const {
+  buildStoryLessonViewModel,
+  renderStoryLessonHtml,
+  shouldShowLessonFirst
+} = require('../assets/story-lesson-viewer');
+
+const characterCatalog = {
+  getCharacterById(id) {
+    return {
+      'mina-mapwise': { id, name: 'Mina Mapwise', role: 'sentence sleuth' },
+      'jo-pocket': { id, name: 'Jo Pocket', role: 'detail collector' }
+    }[id] || null;
+  }
+};
+
+test('story lesson view model selects requested grade with deterministic fallback', () => {
+  const gradeFour = buildStoryLessonViewModel(lesson, {
+    routeGrade: '4',
+    storedGrade: '6',
+    characterCatalog
+  });
+  const fallback = buildStoryLessonViewModel(lesson, {
+    routeGrade: '9',
+    storedGrade: '5',
+    characterCatalog
+  });
+
+  assert.equal(gradeFour.grade, '4');
+  assert.equal(gradeFour.storyBeats[0].character.name, 'Jo Pocket');
+  assert.equal(fallback.grade, '5');
+  assert.equal(fallback.quizHandoff.label, 'Practice Sentence Types');
+});
+
+test('story lesson html renders beats examples guided checks related lessons and quiz handoff', () => {
+  const model = buildStoryLessonViewModel(lesson, { routeGrade: '3', characterCatalog });
+  const html = renderStoryLessonHtml(model);
+
+  assert.match(html, /data-story-lesson/);
+  assert.match(html, /Mina Mapwise/);
+  assert.match(html, /Please open the case file/);
+  assert.match(html, /What should you inspect when checking matching sentences to their jobs/);
+  assert.match(html, /Declarative, interrogative, imperative, and exclamatory sentences/);
+  assert.match(html, /grammar-subject-predicate/);
+  assert.match(html, /id="story-lesson-start-practice"/);
+});
+
+test('lesson first routing preserves explicit practice parent assignment and review flows', () => {
+  assert.equal(shouldShowLessonFirst({ search: '', hasLesson: true }), true);
+  assert.equal(shouldShowLessonFirst({ search: '?practice=1', hasLesson: true }), false);
+  assert.equal(shouldShowLessonFirst({ search: '?parentBrowse=1', hasLesson: true }), false);
+  assert.equal(shouldShowLessonFirst({ search: '', hasLesson: false }), false);
+  assert.equal(shouldShowLessonFirst({
+    search: '',
+    hasLesson: true,
+    storage: { grammarQuestActiveAssignmentRequest: '{"id":"assignment-1"}' }
+  }), false);
+  assert.equal(shouldShowLessonFirst({
+    search: '',
+    hasLesson: true,
+    storage: { grammarQuestActiveReviewRequest: '{"queueId":"review-1"}' }
+  }), false);
+});

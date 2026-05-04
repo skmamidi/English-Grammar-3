@@ -101,3 +101,38 @@ test('app telemetry domain accepts bounded goal-card interactions only', () => {
   assert.equal(JSON.stringify(event).includes('Raw prompt'), false);
   assert.equal(JSON.stringify(event).includes('rawCount'), false);
 });
+
+test('app telemetry domain accepts lesson lifecycle events as metadata-only payloads', () => {
+  const event = normalizeAppTelemetryEvent({
+    type: 'lesson_completed',
+    route: '/topics/vocabulary/subtopics/homophones.html?learnerId=secret',
+    category: 'Lesson completed',
+    severity: 'info',
+    lesson: {
+      setId: 'vocabulary-homophones',
+      grade: '4',
+      status: 'completed',
+      version: '1',
+      contentHash: 'sha256:lesson',
+      source: 'study_aid',
+      openedFromStudyAid: true,
+      storyBeats: [{ narrative: 'Raw lesson text' }],
+      question: 'Raw prompt'
+    }
+  }, {
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+
+  assert.equal(event.type, 'lesson_completed');
+  assert.equal(event.route, '/topics/vocabulary/subtopics/homophones.html');
+  assert.deepEqual(event.lesson, {
+    setId: 'vocabulary-homophones',
+    grade: 4,
+    status: 'completed',
+    version: 1,
+    contentHash: 'sha256:lesson',
+    source: 'study_aid',
+    openedFromStudyAid: true
+  });
+  assert.equal(JSON.stringify(event).includes('Raw'), false);
+});

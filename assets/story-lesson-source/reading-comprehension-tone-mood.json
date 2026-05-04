@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "setId": "reading-comprehension-tone-mood",
+  "domain": "reading-comprehension",
+  "title": "Tone & Mood",
+  "version": 1,
+  "contentHash": "sha256:reading-comprehension-tone-mood-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "tone-mood-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for noticing author attitude and reader feeling."
+        }
+      ],
+      "conceptRules": [
+        "Use one clue to explain noticing author attitude and reader feeling."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina hears words like gloomy and silent, so she expects a tense mood.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing author attitude and reader feeling?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "tone  mood",
+          "definition": "A reading strategy for noticing author attitude and reader feeling."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Tone & Mood",
+        "targetSetId": "reading-comprehension-tone-mood"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "tone-mood-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for noticing author attitude and reader feeling."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain noticing author attitude and reader feeling."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina hears words like gloomy and silent, so she expects a tense mood.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing author attitude and reader feeling?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "tone  mood",
+          "definition": "A reading strategy for noticing author attitude and reader feeling."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Tone & Mood",
+        "targetSetId": "reading-comprehension-tone-mood"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "tone-mood-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers noticing author attitude and reader feeling to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain noticing author attitude and reader feeling."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina hears words like gloomy and silent, so she expects a tense mood.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing author attitude and reader feeling?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "tone  mood",
+          "definition": "A reading strategy for noticing author attitude and reader feeling."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Tone & Mood",
+        "targetSetId": "reading-comprehension-tone-mood"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "tone-mood-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers noticing author attitude and reader feeling to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain noticing author attitude and reader feeling."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina hears words like gloomy and silent, so she expects a tense mood.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing author attitude and reader feeling?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "tone  mood",
+          "definition": "A reading strategy for noticing author attitude and reader feeling."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Tone & Mood",
+        "targetSetId": "reading-comprehension-tone-mood"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "tone-mood-g6",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers noticing author attitude and reader feeling to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use multiple pieces of evidence to explain noticing author attitude and reader feeling and consider another possible reading."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina hears words like gloomy and silent, so she expects a tense mood.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports noticing author attitude and reader feeling?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not stop at a likely answer; weigh competing clues before deciding."
+      ],
+      "vocabulary": [
+        {
+          "term": "tone  mood",
+          "definition": "A reading strategy for noticing author attitude and reader feeling."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Tone & Mood",
+        "targetSetId": "reading-comprehension-tone-mood"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "reading-comprehension-poetry-skills",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "reading-comprehension-authors-purpose",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models clue noticing"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches evidence explanation and transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "tone-mood"
+    ],
+    "skillIds": [
+      "reading.strategy"
+    ],
+    "standardIds": [
+      "RL.RI.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "evidence",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "reading-comprehension-tone-mood-unsupported-answer"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

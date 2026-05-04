@@ -197,6 +197,34 @@
     return errors;
   }
 
+  function validateXpAwardSummaryContract(summary) {
+    const errors = [];
+    if (!summary || typeof summary !== 'object') return ['xp_award_summary_must_be_object'];
+    if (summary.schemaVersion !== 1) errors.push('xp_award_summary_schema_version_required');
+    if (!['eligible', 'ineligible'].includes(summary.awardType)) errors.push('xp_award_summary_type_required');
+    [
+      'assignedGrade',
+      'quizGrade',
+      'stretchMultiplierBps',
+      'completionMultiplierBps',
+      'correctCount',
+      'totalQuestions',
+      'baseCorrectXp',
+      'rawAwardXp',
+      'awardedXp'
+    ].forEach(field => {
+      if (!Number.isFinite(Number(summary[field]))) errors.push(`xp_award_summary_${field}_required`);
+    });
+    if (!summary.eligibility || typeof summary.eligibility.eligible !== 'boolean') {
+      errors.push('xp_award_summary_eligibility_required');
+    }
+    if (Object.prototype.hasOwnProperty.call(summary, 'clientAwardedXp') || Object.prototype.hasOwnProperty.call(summary, 'submittedXp')) {
+      errors.push('xp_award_summary_must_not_accept_client_award');
+    }
+    if (hasUnsafePayload(summary)) errors.push('xp_award_summary_must_not_include_question_payload');
+    return errors;
+  }
+
   function hasUnsafePayload(value) {
     const unsafeKeys = new Set(['question', 'choices', 'answer', 'explanation', 'explanations', 'questionSnapshots', 'learnerAnswer', 'studentName', 'email', 'token', 'stack']);
     return scan(value);
@@ -282,6 +310,7 @@
     validateSelectionResponseContract,
     validateSelectionTelemetryEventContract,
     validateInternalLessonLinkContract,
-    validateStoryLessonSummaryContract
+    validateStoryLessonSummaryContract,
+    validateXpAwardSummaryContract
   };
 });

@@ -27,7 +27,8 @@ test('production SLO policy defines required critical objectives', () => {
     'billing_provider_api_error_rate',
     'billing_page_render_health',
     'billing_webhook_failure_rate',
-    'billing_refund_dispute_queue_age'
+    'billing_refund_dispute_queue_age',
+    'leaderboard_materialization_freshness'
   ]);
 });
 

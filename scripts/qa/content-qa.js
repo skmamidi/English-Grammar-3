@@ -27,6 +27,11 @@ const {
   findSuspiciousSplitWordsInText,
   buildSplitWordLexicon
 } = require('./split-word-spacing');
+const {
+  validateStudyAidInternalLinks
+} = require('../../assets/study-aid-link-domain');
+const questionManifest = require('../../assets/question-manifest.json');
+const lessonManifest = require('../../assets/story-lesson-manifest.json');
 
 function validateContent(options = {}) {
   const bankLoad = loadQuestionBanks(options);
@@ -565,6 +570,7 @@ function validateQuestion(record, issues, taxonomy) {
     addIssue(issues, 'error', record.file, record.setId, location, 'Question metadata is missing.');
     return;
   }
+  validateStudyAidLinksForQuestion(record, issues, location);
   if (question.metadata.gradeLevels && !Array.isArray(question.metadata.gradeLevels)) {
     addIssue(issues, 'error', record.file, record.setId, location, 'metadata.gradeLevels must be an array.');
   }
@@ -589,6 +595,21 @@ function validateQuestion(record, issues, taxonomy) {
   });
   taxonomyResult.errors.forEach(error => {
     addIssue(issues, 'error', record.file, record.setId, location, error, 'question-skill-taxonomy', getQuestionId(question));
+  });
+}
+
+function validateStudyAidLinksForQuestion(record, issues, location) {
+  const question = record.question || {};
+  const studyAid = question.studyAid || {};
+  if (!Array.isArray(studyAid.internalLinks) || !studyAid.internalLinks.length) return;
+  const result = validateStudyAidInternalLinks({
+    sourceSet: question.metadata && question.metadata.sourceSet || record.setId,
+    studyAid,
+    questionManifest,
+    lessonManifest
+  });
+  result.errors.forEach(error => {
+    addIssue(issues, 'error', record.file, record.setId, location, `Broken study-aid internal lesson link: ${error}.`, 'broken-study-aid-internal-link', getQuestionId(question));
   });
 }
 

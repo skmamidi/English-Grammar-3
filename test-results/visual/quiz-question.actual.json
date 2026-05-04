@@ -1,13 +1,13 @@
 {
   "name": "quiz-question",
-  "file": "topics/grammar/subtopics/sentence-types.html",
+  "file": "topics/grammar/subtopics/sentence-types.html?practice=1",
   "viewport": {
     "width": 1280,
     "height": 900
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.117",
+    "browserVersion": "147.0.7727.15",
     "platform": "darwin",
     "viewport": {
       "width": 1280,
@@ -15,11 +15,11 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "e3ce029406402300f127cd9a7a388420114cab145664a2ed201827035fb54754",
-  "screenshotBytes": 230794,
+  "screenshotSha256": "d91377de2fbe2380ad8e8ff49d013e212d2a221a85cdea311e42e6c2be908b35",
+  "screenshotBytes": 250510,
   "summary": {
     "title": "Sentence Types",
-    "bodyTextHash": "-1749641716",
+    "semanticTextHash": "-824365371",
     "elements": [
       {
         "selector": ".app-header",

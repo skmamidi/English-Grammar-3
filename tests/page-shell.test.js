@@ -85,6 +85,7 @@ test('route composition inventory classifies shells optional scripts and legacy 
   assert.equal(byPath.get('index.html').serviceWorkerParticipation, 'registers');
   assert.ok(byPath.get('guardian-dashboard.html').optionalScripts.includes('assets/app-telemetry.js'));
   assert.ok(byPath.get('topics/grammar/subtopics/sentence-types.html').legacyGlobals.includes('QUIZ_SET_ID'));
+  assert.ok(byPath.get('topics/grammar/subtopics/sentence-types.html').optionalScripts.includes('assets/story-lesson-viewer.js'));
   assert.deepEqual(inventory.legacyGlobals, ['QUIZ_SET_ID']);
 });
 

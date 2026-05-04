@@ -58,9 +58,11 @@
       };
     }
     const slug = SUBTOPIC_ALIASES[setId] || stripDomainPrefix(setId, domain);
+    const subtopicPath = slug ? `topics/${domain}/subtopics/${slug}.html` : '';
     return {
       topicPath: `topics/${domain}/index.html`,
-      subtopicPath: slug ? `topics/${domain}/subtopics/${slug}.html` : '',
+      subtopicPath,
+      practicePath: subtopicPath ? `${subtopicPath}?practice=1` : '',
       unavailableReason: slug ? '' : 'missing_subtopic_slug'
     };
   }

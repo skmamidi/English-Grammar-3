@@ -35,6 +35,11 @@
     "id": "reviewer-1",
     "role": "content_reviewer"
   },
+  "serverService": {
+    "id": "xp-adjudicator",
+    "role": "server_service",
+    "serverOwned": true
+  },
   "unknownRole": {
     "id": "unknown-1",
     "role": "principal"

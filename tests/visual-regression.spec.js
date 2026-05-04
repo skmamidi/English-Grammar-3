@@ -32,15 +32,16 @@ const CASES = [
   { name: 'home', file: 'index.html' },
   { name: 'capitalization-topic', file: 'topics/capitalization/index.html' },
   { name: 'grammar-topic', file: 'topics/grammar/index.html' },
-  { name: 'subtopic-start', file: 'topics/grammar/subtopics/sentence-types.html', waitFor: '#start-btn' },
-  { name: 'quiz-question', file: 'topics/grammar/subtopics/sentence-types.html', state: startQuiz, selectors: ['.app-header', '#quiz-root', '.question-box'] },
-  { name: 'quiz-feedback', file: 'topics/grammar/subtopics/sentence-types.html', state: answerQuestion, selectors: ['.app-header', '#quiz-root', '.question-box'] },
-  { name: 'quiz-results', file: 'topics/capitalization/subtopics/books-magazines-songs-plays.html', state: finishQuiz, selectors: ['.app-header', '#quiz-root', '.results-card', '.results-box'] },
+  { name: 'subtopic-start', file: 'topics/grammar/subtopics/sentence-types.html', visitFile: 'topics/grammar/subtopics/sentence-types.html?practice=1', waitFor: '#start-btn' },
+  { name: 'quiz-question', file: 'topics/grammar/subtopics/sentence-types.html', visitFile: 'topics/grammar/subtopics/sentence-types.html?practice=1', state: startQuiz, selectors: ['.app-header', '#quiz-root', '.question-box'] },
+  { name: 'quiz-feedback', file: 'topics/grammar/subtopics/sentence-types.html', visitFile: 'topics/grammar/subtopics/sentence-types.html?practice=1', state: answerQuestion, selectors: ['.app-header', '#quiz-root', '.question-box'] },
+  { name: 'quiz-results', file: 'topics/capitalization/subtopics/books-magazines-songs-plays.html', visitFile: 'topics/capitalization/subtopics/books-magazines-songs-plays.html?practice=1', state: finishQuiz, selectors: ['.app-header', '#quiz-root', '.results-card', '.results-box', '.xp-completion-summary'] },
   { name: 'reports', file: 'reports.html' },
   { name: 'guardian-goals', file: 'guardian-dashboard.html', beforeVisit: seedGoalDashboard, waitFor: '.goal-dashboard-card', selectors: ['.app-header', '.goal-dashboard-card', '.goal-dashboard-summary'] },
+  { name: 'leaderboard', file: 'leaderboard.html', beforeVisit: seedLeaderboardVisual, waitFor: '.leaderboard-shell', selectors: ['.app-header', '.leaderboard-shell', '.leaderboard-table', '.own-rank-card'] },
   { name: 'settings', file: 'settings.html', selectors: ['.app-header', '#privacy-settings', '.privacy-toggle-row'] },
   { name: 'parent-preview', file: 'topics/capitalization/subtopics/proper-names-titles.html?parentBrowse=1', waitFor: '#start-btn' },
-  { name: 'offline-unavailable', file: 'topics/grammar/subtopics/run-on-sentences.html', state: forceOfflineUnavailable }
+  { name: 'offline-unavailable', file: 'topics/grammar/subtopics/run-on-sentences.html', visitFile: 'topics/grammar/subtopics/run-on-sentences.html?practice=1', state: forceOfflineUnavailable }
 ];
 
 async function main() {
@@ -55,7 +56,7 @@ async function main() {
         const page = await newPage(browser);
         try {
           if (visualCase.beforeVisit) await visualCase.beforeVisit(page);
-          await visitClean(page, server.baseURL, visualCase.file);
+          await visitClean(page, server.baseURL, visualCase.visitFile || visualCase.file);
           if (visualCase.waitFor) await page.waitForSelector(visualCase.waitFor, { state: 'visible' });
           if (visualCase.state) await visualCase.state(page, server.baseURL);
           const capture = await toVisualSignature(page, visualCase);
@@ -210,6 +211,7 @@ async function finishQuiz(page) {
     if (await page.locator('#next-question-btn').count()) await page.click('#next-question-btn');
   }
   await page.waitForSelector('.results-box', { state: 'visible' });
+  await page.waitForSelector('.xp-completion-summary', { state: 'visible' });
 }
 
 async function forceOfflineUnavailable(page) {
@@ -223,6 +225,7 @@ async function forceOfflineUnavailable(page) {
 }
 
 async function seedGoalDashboard(page) {
+  await freezeDate(page, '2026-04-30T12:00:00.000Z');
   await page.addInitScript(() => {
     localStorage.setItem('grammarQuestProgress', JSON.stringify({
       learnerGoals: {
@@ -247,6 +250,46 @@ async function seedGoalDashboard(page) {
       }
     }));
   });
+}
+
+async function seedLeaderboardVisual(page) {
+  await freezeDate(page, '2030-04-29T12:00:00.000Z');
+  await page.addInitScript(() => {
+    const entries = [
+      { rank: 1, participantRef: 'leaderboardParticipants/sky-reader', displayAlias: 'Sky Reader', score: 180, lastAwardedAt: '2030-04-29T10:00:00.000Z', awardCount: 4 },
+      { rank: 2, participantRef: 'leaderboardParticipants/current', displayAlias: 'Comma Captain', score: 140, lastAwardedAt: '2030-04-29T09:00:00.000Z', awardCount: 3 },
+      { rank: 3, participantRef: 'leaderboardParticipants/verb-voyager', displayAlias: 'Verb Voyager', score: 90, lastAwardedAt: '2030-04-28T09:00:00.000Z', awardCount: 2 }
+    ];
+    localStorage.setItem('grammarQuestLeaderboardProfile', JSON.stringify({
+      optedIn: true,
+      participantRef: 'leaderboardParticipants/current',
+      displayAlias: 'Comma Captain'
+    }));
+    localStorage.setItem('grammarQuestLeaderboardProjections', JSON.stringify({
+      weekly: { schemaVersion: 1, periodId: 'weekly_2030_W18', periodType: 'weekly', generatedAt: '2030-04-29T12:00:00.000Z', entries },
+      monthly: { schemaVersion: 1, periodId: 'monthly_2030_04', periodType: 'monthly', generatedAt: '2030-04-29T12:00:00.000Z', entries },
+      allTime: { schemaVersion: 1, periodId: 'all_time', periodType: 'all_time', generatedAt: '2030-04-29T12:00:00.000Z', entries }
+    }));
+  });
+}
+
+async function freezeDate(page, isoTimestamp) {
+  await page.addInitScript(value => {
+    const fixed = new Date(value).getTime();
+    const NativeDate = Date;
+    class FixedDate extends NativeDate {
+      constructor(...args) {
+        super(...(args.length ? args : [fixed]));
+      }
+      static now() {
+        return fixed;
+      }
+    }
+    FixedDate.UTC = NativeDate.UTC;
+    FixedDate.parse = NativeDate.parse;
+    FixedDate.prototype = NativeDate.prototype;
+    window.Date = FixedDate;
+  }, isoTimestamp);
 }
 
 async function runCase(failures, name, fn) {

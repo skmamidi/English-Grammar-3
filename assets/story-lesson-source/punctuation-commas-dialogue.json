@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-commas-dialogue",
+  "domain": "punctuation",
+  "title": "Commas to Separate Dialogue",
+  "version": 1,
+  "contentHash": "sha256:punctuation-commas-dialogue-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "commas-dialogue-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice commas that separate dialogue from speaker tags."
+        }
+      ],
+      "conceptRules": [
+        "A comma can help show who is talking."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"Come here,\" Mina said.",
+          "explanation": "This example helps learners see commas that separate dialogue from speaker tags."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo asked, \"Ready?\"",
+          "explanation": "This example helps learners see commas that separate dialogue from speaker tags."
+        },
+        {
+          "type": "transfer",
+          "text": "\"Yes,\" said Mina, \"the clue fits.\"",
+          "explanation": "This example helps learners see commas that separate dialogue from speaker tags."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas that separate dialogue from speaker tags?",
+          "answer": "Use commas to separate quoted words from tags like said or asked."
+        }
+      ],
+      "commonMistakes": [
+        "Do not place the comma outside the closing quotation mark in standard dialogue."
+      ],
+      "vocabulary": [
+        {
+          "term": "speaker tag",
+          "definition": "Words that tell who is speaking."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas to Separate Dialogue",
+        "targetSetId": "punctuation-commas-dialogue"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "commas-dialogue-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice commas that separate dialogue from speaker tags."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate quoted words from tags like said or asked."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"Come here,\" Mina said.",
+          "explanation": "This example helps learners see commas that separate dialogue from speaker tags."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo asked, \"Ready?\"",
+          "explanation": "This example helps learners see commas that separate dialogue from speaker tags."
+        },
+        {
+          "type": "transfer",
+          "text": "\"Yes,\" said Mina, \"the clue fits.\"",
+          "explanation": "This example helps learners see commas that separate dialogue from speaker tags."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas that separate dialogue from speaker tags?",
+          "answer": "Use commas to separate quoted words from tags like said or asked."
+        }
+      ],
+      "commonMistakes": [
+        "Do not place the comma outside the closing quotation mark in standard dialogue."
+      ],
+      "vocabulary": [
+        {
+          "term": "speaker tag",
+          "definition": "Words that tell who is speaking."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas to Separate Dialogue",
+        "targetSetId": "punctuation-commas-dialogue"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "commas-dialogue-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how commas that separate dialogue from speaker tags changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate quoted words from tags like said or asked."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"Come here,\" Mina said.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo asked, \"Ready?\"",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "\"Yes,\" said Mina, \"the clue fits.\"",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas that separate dialogue from speaker tags?",
+          "answer": "Use commas to separate quoted words from tags like said or asked."
+        }
+      ],
+      "commonMistakes": [
+        "Do not place the comma outside the closing quotation mark in standard dialogue."
+      ],
+      "vocabulary": [
+        {
+          "term": "speaker tag",
+          "definition": "Words that tell who is speaking."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas to Separate Dialogue",
+        "targetSetId": "punctuation-commas-dialogue"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "commas-dialogue-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how commas that separate dialogue from speaker tags changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate quoted words from tags like said or asked."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"Come here,\" Mina said.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo asked, \"Ready?\"",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "\"Yes,\" said Mina, \"the clue fits.\"",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas that separate dialogue from speaker tags?",
+          "answer": "Use commas to separate quoted words from tags like said or asked."
+        }
+      ],
+      "commonMistakes": [
+        "Do not place the comma outside the closing quotation mark in standard dialogue."
+      ],
+      "vocabulary": [
+        {
+          "term": "speaker tag",
+          "definition": "Words that tell who is speaking."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas to Separate Dialogue",
+        "targetSetId": "punctuation-commas-dialogue"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "commas-dialogue-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using commas that separate dialogue from speaker tags to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Use commas to separate quoted words from tags like said or asked. Choose commas, question marks, or exclamation points based on the quoted sentence and tag position."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"Come here,\" Mina said.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo asked, \"Ready?\"",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "\"Yes,\" said Mina, \"the clue fits.\"",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for commas that separate dialogue from speaker tags?",
+          "answer": "Use commas to separate quoted words from tags like said or asked."
+        }
+      ],
+      "commonMistakes": [
+        "Do not place the comma outside the closing quotation mark in standard dialogue. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "speaker tag",
+          "definition": "Words that tell who is speaking."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Commas to Separate Dialogue",
+        "targetSetId": "punctuation-commas-dialogue"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-quotation-marks",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-dialogue-mechanics",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "commas-dialogue"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-commas-dialogue-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

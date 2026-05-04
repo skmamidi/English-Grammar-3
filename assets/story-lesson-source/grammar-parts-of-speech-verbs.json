@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-parts-of-speech-verbs",
+  "domain": "grammar",
+  "title": "Parts of Speech: Verbs",
+  "version": 1,
+  "contentHash": "sha256:grammar-parts-of-speech-verbs-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "parts-of-speech-verbs-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to finding action and being words."
+        }
+      ],
+      "conceptRules": [
+        "Look for finding action and being words in a short sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina runs.",
+          "explanation": "This shows finding action and being words clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "The box is heavy.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo has checked the lock.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking finding action and being words?",
+          "answer": "A verb tells what the subject does or is."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of speech",
+          "definition": "A grammar skill for finding action and being words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of Speech: Verbs",
+        "targetSetId": "grammar-parts-of-speech-verbs"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "parts-of-speech-verbs-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to finding action and being words."
+        }
+      ],
+      "conceptRules": [
+        "A verb tells what the subject does or is."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina runs.",
+          "explanation": "This shows finding action and being words clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "The box is heavy.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo has checked the lock.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking finding action and being words?",
+          "answer": "A verb tells what the subject does or is."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of speech",
+          "definition": "A grammar skill for finding action and being words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of Speech: Verbs",
+        "targetSetId": "grammar-parts-of-speech-verbs"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "parts-of-speech-verbs-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for finding action and being words."
+        }
+      ],
+      "conceptRules": [
+        "A verb tells what the subject does or is."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina runs.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "The box is heavy.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo has checked the lock.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking finding action and being words?",
+          "answer": "A verb tells what the subject does or is."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of speech",
+          "definition": "A grammar skill for finding action and being words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of Speech: Verbs",
+        "targetSetId": "grammar-parts-of-speech-verbs"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "parts-of-speech-verbs-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for finding action and being words."
+        }
+      ],
+      "conceptRules": [
+        "A verb tells what the subject does or is."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina runs.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "The box is heavy.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo has checked the lock.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking finding action and being words?",
+          "answer": "A verb tells what the subject does or is."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of speech",
+          "definition": "A grammar skill for finding action and being words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of Speech: Verbs",
+        "targetSetId": "grammar-parts-of-speech-verbs"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "parts-of-speech-verbs-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final paragraph and transfer finding action and being words into independent editing."
+        }
+      ],
+      "conceptRules": [
+        "A verb tells what the subject does or is. Transfer the check into editing by explaining why the sentence works."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina runs.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "The box is heavy.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo has checked the lock.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking finding action and being words?",
+          "answer": "A verb tells what the subject does or is."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess by sound alone; prove the grammar relationship in the sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "parts of speech",
+          "definition": "A grammar skill for finding action and being words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Parts of Speech: Verbs",
+        "targetSetId": "grammar-parts-of-speech-verbs"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-parts-of-speech-nouns",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-subject-predicate",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the grammar foundation"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks near misses and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "parts-of-speech-verbs"
+    ],
+    "skillIds": [
+      "grammar.foundations"
+    ],
+    "standardIds": [
+      "L.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-parts-of-speech-verbs-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

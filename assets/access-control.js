@@ -39,6 +39,8 @@
     manageOwnPrivacyPreferences: 'privacy-preferences:manage-own',
     viewLinkedLearnerPrivacyPreferences: 'privacy-preferences:view-linked',
     manageLinkedLearnerPrivacyPreferences: 'privacy-preferences:manage-linked',
+    manageLinkedLearnerLeaderboardOptIn: 'leaderboard:manage-linked-opt-in',
+    manageAssignedLearnerLeaderboardOptIn: 'leaderboard:manage-assigned-opt-in',
     requestLearnerDataDeletion: 'learner-data:request-delete',
     approveLearnerDataDeletion: 'learner-data:approve-delete',
     exportLearnerDataBackup: 'learner-data:export-backup',
@@ -81,7 +83,8 @@
     ADMIN_CONSOLE: 'adminConsole',
     AUDIT_LOG: 'auditLog',
     SYSTEM_SETTING: 'systemSetting',
-    PRIVACY_PREFERENCES: 'privacyPreferences'
+    PRIVACY_PREFERENCES: 'privacyPreferences',
+    LEADERBOARD_PARTICIPATION: 'leaderboardParticipation'
   });
 
   const roleCapabilities = Object.freeze({
@@ -106,6 +109,7 @@
       Capabilities.importLinkedLearnerProgress,
       Capabilities.viewLinkedLearnerPrivacyPreferences,
       Capabilities.manageLinkedLearnerPrivacyPreferences,
+      Capabilities.manageLinkedLearnerLeaderboardOptIn,
       Capabilities.requestLearnerDataDeletion,
       Capabilities.exportLearnerDataBackup
     ]),
@@ -121,7 +125,8 @@
       Capabilities.importAssignedLearnerProgress,
       Capabilities.requestLearnerDataDeletion,
       Capabilities.exportLearnerDataBackup,
-      Capabilities.manageAssignments
+      Capabilities.manageAssignments,
+      Capabilities.manageAssignedLearnerLeaderboardOptIn
     ]),
     [Roles.SYSTEM_ADMIN]: Object.freeze([
       Capabilities.manageAssignments,
@@ -165,7 +170,8 @@
       assignedClassIds: normalizeIdList(input.assignedClassIds),
       classroomProgressTransferEnabled: input.classroomProgressTransferEnabled === true,
       learnerDataDeletionEnabled: input.learnerDataDeletionEnabled === true,
-      privacyPreferenceManagementEnabled: input.privacyPreferenceManagementEnabled === true
+      privacyPreferenceManagementEnabled: input.privacyPreferenceManagementEnabled === true,
+      leaderboardManagementEnabled: input.leaderboardManagementEnabled === true
     };
   }
 
@@ -325,6 +331,11 @@
         actor.privacyPreferenceManagementEnabled === true &&
         actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
     }
+    if (action === Capabilities.manageLinkedLearnerLeaderboardOptIn) {
+      return resource.type === ResourceTypes.LEADERBOARD_PARTICIPATION &&
+        actor.leaderboardManagementEnabled === true &&
+        actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
+    }
     if (![Capabilities.viewLinkedLearnerReports, Capabilities.viewLinkedLearnerDashboard].includes(action)) return false;
     if (![
       ResourceTypes.LEARNER_PROGRESS,
@@ -362,6 +373,11 @@
     }
     if (action === Capabilities.manageAssignments) {
       return resource.type === ResourceTypes.ASSIGNMENT &&
+        (actor.assignedClassIds.includes(resource.classId) || actor.assignedLearnerIds.includes(resource.learnerId));
+    }
+    if (action === Capabilities.manageAssignedLearnerLeaderboardOptIn) {
+      return resource.type === ResourceTypes.LEADERBOARD_PARTICIPATION &&
+        actor.leaderboardManagementEnabled === true &&
         (actor.assignedClassIds.includes(resource.classId) || actor.assignedLearnerIds.includes(resource.learnerId));
     }
     return false;

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-colon-time",
+  "domain": "punctuation",
+  "title": "Colon in Time",
+  "version": 1,
+  "contentHash": "sha256:punctuation-colon-time-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "colon-time-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice colons in time."
+        }
+      ],
+      "conceptRules": [
+        "A colon can sit between hour and minute numbers."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "3:15",
+          "explanation": "This example helps learners see colons in time."
+        },
+        {
+          "type": "near_miss",
+          "text": "8:00 A.M.",
+          "explanation": "This example helps learners see colons in time."
+        },
+        {
+          "type": "transfer",
+          "text": "The bus leaves at 4:30.",
+          "explanation": "This example helps learners see colons in time."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for colons in time?",
+          "answer": "Use a colon between the hour and minutes in time."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a period or comma between the hour and the minutes."
+      ],
+      "vocabulary": [
+        {
+          "term": "colon",
+          "definition": "A punctuation mark with two dots used in time and other patterns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Colon in Time",
+        "targetSetId": "punctuation-colon-time"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "colon-time-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice colons in time."
+        }
+      ],
+      "conceptRules": [
+        "Use a colon between the hour and minutes in time."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "3:15",
+          "explanation": "This example helps learners see colons in time."
+        },
+        {
+          "type": "near_miss",
+          "text": "8:00 A.M.",
+          "explanation": "This example helps learners see colons in time."
+        },
+        {
+          "type": "transfer",
+          "text": "The bus leaves at 4:30.",
+          "explanation": "This example helps learners see colons in time."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for colons in time?",
+          "answer": "Use a colon between the hour and minutes in time."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a period or comma between the hour and the minutes."
+      ],
+      "vocabulary": [
+        {
+          "term": "colon",
+          "definition": "A punctuation mark with two dots used in time and other patterns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Colon in Time",
+        "targetSetId": "punctuation-colon-time"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "colon-time-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how colons in time changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use a colon between the hour and minutes in time."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "3:15",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "8:00 A.M.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "The bus leaves at 4:30.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for colons in time?",
+          "answer": "Use a colon between the hour and minutes in time."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a period or comma between the hour and the minutes."
+      ],
+      "vocabulary": [
+        {
+          "term": "colon",
+          "definition": "A punctuation mark with two dots used in time and other patterns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Colon in Time",
+        "targetSetId": "punctuation-colon-time"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "colon-time-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how colons in time changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use a colon between the hour and minutes in time."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "3:15",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "8:00 A.M.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "The bus leaves at 4:30.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for colons in time?",
+          "answer": "Use a colon between the hour and minutes in time."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a period or comma between the hour and the minutes."
+      ],
+      "vocabulary": [
+        {
+          "term": "colon",
+          "definition": "A punctuation mark with two dots used in time and other patterns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Colon in Time",
+        "targetSetId": "punctuation-colon-time"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "colon-time-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using colons in time to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Use a colon between the hour and minutes in time. Keep time notation consistent when writing schedules, captions, and timelines."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "3:15",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "8:00 A.M.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "The bus leaves at 4:30.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for colons in time?",
+          "answer": "Use a colon between the hour and minutes in time."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a period or comma between the hour and the minutes. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "colon",
+          "definition": "A punctuation mark with two dots used in time and other patterns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Colon in Time",
+        "targetSetId": "punctuation-colon-time"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-abbreviations-acronyms",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-periods-abbreviations",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "colon-time"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-colon-time-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

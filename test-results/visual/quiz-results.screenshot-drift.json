@@ -2,14 +2,14 @@
   "caseName": "quiz-results",
   "warning": "Screenshot encoding metadata changed while semantic visual summary matched.",
   "screenshotOnlyDrift": true,
-  "byteDelta": 5118,
+  "byteDelta": 90,
   "actual": {
-    "screenshotSha256": "35653de61c1c2580fa2a6077c89dc799fc1d973bcd7f179b2577376fd7029c3d",
-    "screenshotBytes": 86506
+    "screenshotSha256": "3b23536b612aca4bcd60c195ca299d38e3e8f3182632d6314e74d7586a92a815",
+    "screenshotBytes": 69162
   },
   "expected": {
-    "screenshotSha256": "4e4e659f9fcfe6a3240149e3a577f660f1be469110157123bef2f388fdf76a25",
-    "screenshotBytes": 81388
+    "screenshotSha256": "972d4d0d791cdfdf24e7fddfc45ec39718deb86a3d20fa469fa5b68555debf01",
+    "screenshotBytes": 69252
   },
   "runtime": {
     "browserName": "chromium",
@@ -23,7 +23,7 @@
   },
   "baselineRuntime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.138",
+    "browserVersion": "147.0.7727.15",
     "platform": "darwin",
     "viewport": {
       "width": 1280,

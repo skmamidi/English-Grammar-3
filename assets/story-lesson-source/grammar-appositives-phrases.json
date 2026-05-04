@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-appositives-phrases",
+  "domain": "grammar",
+  "title": "Appositives & Phrases",
+  "version": 1,
+  "contentHash": "sha256:grammar-appositives-phrases-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "appositives-phrases-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan adding extra noun information with appositives and phrases."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for adding extra noun information with appositives and phrases."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina, the team leader, opened the file.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo the helper found it.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Add commas when the appositive interrupts the sentence.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for adding extra noun information with appositives and phrases?",
+          "answer": "An appositive renames a noun, and phrases can add precise detail."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows adding extra noun information with appositives and phrases?",
+          "answer": "Mina, the team leader, opened the file."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Jo the helper found it."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Add commas when the appositive interrupts the sentence."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "appositives  phrases",
+          "definition": "A writing or language strategy for adding extra noun information with appositives and phrases."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Appositives & Phrases",
+        "targetSetId": "grammar-appositives-phrases"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "appositives-phrases-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks adding extra noun information with appositives and phrases."
+        }
+      ],
+      "conceptRules": [
+        "An appositive renames a noun, and phrases can add precise detail."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina, the team leader, opened the file.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo the helper found it.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Add commas when the appositive interrupts the sentence.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for adding extra noun information with appositives and phrases?",
+          "answer": "An appositive renames a noun, and phrases can add precise detail."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows adding extra noun information with appositives and phrases?",
+          "answer": "Mina, the team leader, opened the file."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Jo the helper found it."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Add commas when the appositive interrupts the sentence."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "appositives  phrases",
+          "definition": "A writing or language strategy for adding extra noun information with appositives and phrases."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Appositives & Phrases",
+        "targetSetId": "grammar-appositives-phrases"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "appositives-phrases-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks adding extra noun information with appositives and phrases."
+        }
+      ],
+      "conceptRules": [
+        "An appositive renames a noun, and phrases can add precise detail."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina, the team leader, opened the file.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo the helper found it.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Add commas when the appositive interrupts the sentence.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for adding extra noun information with appositives and phrases?",
+          "answer": "An appositive renames a noun, and phrases can add precise detail."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows adding extra noun information with appositives and phrases?",
+          "answer": "Mina, the team leader, opened the file."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Jo the helper found it."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Add commas when the appositive interrupts the sentence."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "appositives  phrases",
+          "definition": "A writing or language strategy for adding extra noun information with appositives and phrases."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Appositives & Phrases",
+        "targetSetId": "grammar-appositives-phrases"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "appositives-phrases-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks adding extra noun information with appositives and phrases."
+        }
+      ],
+      "conceptRules": [
+        "An appositive renames a noun, and phrases can add precise detail."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina, the team leader, opened the file.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo the helper found it.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Add commas when the appositive interrupts the sentence.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for adding extra noun information with appositives and phrases?",
+          "answer": "An appositive renames a noun, and phrases can add precise detail."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows adding extra noun information with appositives and phrases?",
+          "answer": "Mina, the team leader, opened the file."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Jo the helper found it."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Add commas when the appositive interrupts the sentence."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "appositives  phrases",
+          "definition": "A writing or language strategy for adding extra noun information with appositives and phrases."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Appositives & Phrases",
+        "targetSetId": "grammar-appositives-phrases"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "appositives-phrases-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer adding extra noun information with appositives and phrases to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "An appositive renames a noun, and phrases can add precise detail. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina, the team leader, opened the file.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo the helper found it.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Add commas when the appositive interrupts the sentence.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for adding extra noun information with appositives and phrases?",
+          "answer": "An appositive renames a noun, and phrases can add precise detail."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows adding extra noun information with appositives and phrases?",
+          "answer": "Mina, the team leader, opened the file."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Jo the helper found it."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Add commas when the appositive interrupts the sentence."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "appositives  phrases",
+          "definition": "A writing or language strategy for adding extra noun information with appositives and phrases."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Appositives & Phrases",
+        "targetSetId": "grammar-appositives-phrases"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-commas-series",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-variety",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "appositives-phrases"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-appositives-phrases-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

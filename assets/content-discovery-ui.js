@@ -156,7 +156,7 @@
       `  <p>${escapeHtml(result.topic || result.setId)}</p>`,
       `  <div class="discovery-meta">${tags.map(tag => `<span>${escapeHtml(tag)}</span>`).join('')}</div>`,
       '  <div class="discovery-actions">',
-      `    <a class="btn" href="${escapeHtml(route.subtopicPath)}">Start practice</a>`,
+      `    <a class="btn" href="${escapeHtml(route.practicePath || route.subtopicPath)}">Start practice</a>`,
       `    <button type="button" class="btn secondary" data-copy-route="${escapeHtml(route.subtopicPath)}">Copy route</button>`,
       options.teacher ? `    <button type="button" class="btn secondary" data-assignment-prefill="${escapeHtml(result.setId)}">Prefill assignment</button>` : '',
       '  </div>',

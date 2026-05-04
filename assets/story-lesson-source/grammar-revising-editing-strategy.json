@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-revising-editing-strategy",
+  "domain": "grammar",
+  "title": "Revising & Editing Strategy",
+  "version": 1,
+  "contentHash": "sha256:grammar-revising-editing-strategy-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "revising-editing-strategy-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan improving writing through revision and editing."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for improving writing through revision and editing."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Add a stronger detail.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Fix a verb agreement error.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Read the paragraph once for meaning and once for correctness.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for improving writing through revision and editing?",
+          "answer": "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows improving writing through revision and editing?",
+          "answer": "Add a stronger detail."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Fix a verb agreement error."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Read the paragraph once for meaning and once for correctness."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "revising  editing",
+          "definition": "A writing or language strategy for improving writing through revision and editing."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Revising & Editing Strategy",
+        "targetSetId": "grammar-revising-editing-strategy"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "revising-editing-strategy-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks improving writing through revision and editing."
+        }
+      ],
+      "conceptRules": [
+        "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Add a stronger detail.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Fix a verb agreement error.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Read the paragraph once for meaning and once for correctness.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for improving writing through revision and editing?",
+          "answer": "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows improving writing through revision and editing?",
+          "answer": "Add a stronger detail."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Fix a verb agreement error."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Read the paragraph once for meaning and once for correctness."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "revising  editing",
+          "definition": "A writing or language strategy for improving writing through revision and editing."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Revising & Editing Strategy",
+        "targetSetId": "grammar-revising-editing-strategy"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "revising-editing-strategy-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks improving writing through revision and editing."
+        }
+      ],
+      "conceptRules": [
+        "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Add a stronger detail.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Fix a verb agreement error.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Read the paragraph once for meaning and once for correctness.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for improving writing through revision and editing?",
+          "answer": "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows improving writing through revision and editing?",
+          "answer": "Add a stronger detail."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Fix a verb agreement error."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Read the paragraph once for meaning and once for correctness."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "revising  editing",
+          "definition": "A writing or language strategy for improving writing through revision and editing."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Revising & Editing Strategy",
+        "targetSetId": "grammar-revising-editing-strategy"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "revising-editing-strategy-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks improving writing through revision and editing."
+        }
+      ],
+      "conceptRules": [
+        "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Add a stronger detail.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Fix a verb agreement error.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Read the paragraph once for meaning and once for correctness.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for improving writing through revision and editing?",
+          "answer": "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows improving writing through revision and editing?",
+          "answer": "Add a stronger detail."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Fix a verb agreement error."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Read the paragraph once for meaning and once for correctness."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "revising  editing",
+          "definition": "A writing or language strategy for improving writing through revision and editing."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Revising & Editing Strategy",
+        "targetSetId": "grammar-revising-editing-strategy"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "revising-editing-strategy-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer improving writing through revision and editing to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Add a stronger detail.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Fix a verb agreement error.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Read the paragraph once for meaning and once for correctness.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for improving writing through revision and editing?",
+          "answer": "Revision improves ideas and organization; editing fixes grammar, usage, and mechanics."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows improving writing through revision and editing?",
+          "answer": "Add a stronger detail."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Fix a verb agreement error."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Read the paragraph once for meaning and once for correctness."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "revising  editing",
+          "definition": "A writing or language strategy for improving writing through revision and editing."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Revising & Editing Strategy",
+        "targetSetId": "grammar-revising-editing-strategy"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-sentence-correction",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-paragraph-structure",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "revising-editing-strategy"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-revising-editing-strategy-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

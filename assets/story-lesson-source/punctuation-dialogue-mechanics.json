@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-dialogue-mechanics",
+  "domain": "punctuation",
+  "title": "Dialogue Mechanics",
+  "version": 1,
+  "contentHash": "sha256:punctuation-dialogue-mechanics-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "dialogue-mechanics-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice dialogue punctuation and paragraphing."
+        }
+      ],
+      "conceptRules": [
+        "Dialogue marks help readers know who talks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"I found it,\" Mina said.",
+          "explanation": "This example helps learners see dialogue punctuation and paragraphing."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"Where?\" asked Jo.",
+          "explanation": "This example helps learners see dialogue punctuation and paragraphing."
+        },
+        {
+          "type": "transfer",
+          "text": "New speaker, new paragraph.",
+          "explanation": "This example helps learners see dialogue punctuation and paragraphing."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for dialogue punctuation and paragraphing?",
+          "answer": "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly."
+        }
+      ],
+      "commonMistakes": [
+        "Do not run two speakers together in one paragraph when the speaker changes."
+      ],
+      "vocabulary": [
+        {
+          "term": "dialogue",
+          "definition": "The exact words characters say."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Dialogue Mechanics",
+        "targetSetId": "punctuation-dialogue-mechanics"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "dialogue-mechanics-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice dialogue punctuation and paragraphing."
+        }
+      ],
+      "conceptRules": [
+        "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"I found it,\" Mina said.",
+          "explanation": "This example helps learners see dialogue punctuation and paragraphing."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"Where?\" asked Jo.",
+          "explanation": "This example helps learners see dialogue punctuation and paragraphing."
+        },
+        {
+          "type": "transfer",
+          "text": "New speaker, new paragraph.",
+          "explanation": "This example helps learners see dialogue punctuation and paragraphing."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for dialogue punctuation and paragraphing?",
+          "answer": "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly."
+        }
+      ],
+      "commonMistakes": [
+        "Do not run two speakers together in one paragraph when the speaker changes."
+      ],
+      "vocabulary": [
+        {
+          "term": "dialogue",
+          "definition": "The exact words characters say."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Dialogue Mechanics",
+        "targetSetId": "punctuation-dialogue-mechanics"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "dialogue-mechanics-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how dialogue punctuation and paragraphing changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"I found it,\" Mina said.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"Where?\" asked Jo.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "New speaker, new paragraph.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for dialogue punctuation and paragraphing?",
+          "answer": "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly."
+        }
+      ],
+      "commonMistakes": [
+        "Do not run two speakers together in one paragraph when the speaker changes."
+      ],
+      "vocabulary": [
+        {
+          "term": "dialogue",
+          "definition": "The exact words characters say."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Dialogue Mechanics",
+        "targetSetId": "punctuation-dialogue-mechanics"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "dialogue-mechanics-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how dialogue punctuation and paragraphing changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"I found it,\" Mina said.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"Where?\" asked Jo.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "New speaker, new paragraph.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for dialogue punctuation and paragraphing?",
+          "answer": "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly."
+        }
+      ],
+      "commonMistakes": [
+        "Do not run two speakers together in one paragraph when the speaker changes."
+      ],
+      "vocabulary": [
+        {
+          "term": "dialogue",
+          "definition": "The exact words characters say."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Dialogue Mechanics",
+        "targetSetId": "punctuation-dialogue-mechanics"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "dialogue-mechanics-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using dialogue punctuation and paragraphing to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly. Balance action beats, speaker tags, and quote punctuation so dialogue stays clear."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "\"I found it,\" Mina said.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"Where?\" asked Jo.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "New speaker, new paragraph.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for dialogue punctuation and paragraphing?",
+          "answer": "Dialogue uses quotation marks, commas, end marks, and paragraph breaks to show speakers clearly."
+        }
+      ],
+      "commonMistakes": [
+        "Do not run two speakers together in one paragraph when the speaker changes. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "dialogue",
+          "definition": "The exact words characters say."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Dialogue Mechanics",
+        "targetSetId": "punctuation-dialogue-mechanics"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-quotation-marks",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-commas-dialogue",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "dialogue-mechanics"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-dialogue-mechanics-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

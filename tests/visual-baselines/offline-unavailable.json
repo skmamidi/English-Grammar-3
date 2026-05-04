@@ -7,7 +7,7 @@
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.138",
+    "browserVersion": "147.0.7727.15",
     "platform": "darwin",
     "viewport": {
       "width": 1280,
@@ -15,8 +15,8 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "f891fbac89117d1bdabc6932b7c38a51498d16293646935b46d74311ff4c4755",
-  "screenshotBytes": 183704,
+  "screenshotSha256": "f79cb717af2c741c4f9b0c30ad71a613b0d603f44324906a37ec8df376528779",
+  "screenshotBytes": 228345,
   "summary": {
     "title": "Run-on Sentences",
     "semanticTextHash": "-1172466341",

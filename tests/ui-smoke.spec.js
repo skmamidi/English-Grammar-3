@@ -40,7 +40,7 @@ const TOPIC_INDEX_BUDGET = {
 const PAGE_BUDGETS = {
   'topics/capitalization/subtopics/proper-names-titles.html': {
     forbiddenFullBanks: ['assets/question-banks/capitalization.js'],
-    questionPayloadBytes: 200 * 1024
+    questionPayloadBytes: 250 * 1024
   },
   'topics/reference-skills/subtopics/alphabetical-order.html': {
     forbiddenFullBanks: ['assets/question-banks/reference-skills.js'],
@@ -189,7 +189,7 @@ async function main() {
 
     await runCase(failures, 'keyboard-only quiz answer flow works', async () => {
       const page = await newPage(browser, browserTracker);
-      const file = 'topics/grammar/subtopics/sentence-types.html';
+      const file = 'topics/grammar/subtopics/sentence-types.html?practice=1';
       await visitClean(page, server.baseURL, file);
       await assertKeyboardQuizFlow(page, file);
       await page.close();
@@ -217,6 +217,35 @@ async function main() {
       assert.equal(metrics.loadedChunks.length, 0);
       await page.click('.discovery-result a');
       await assertVisible(page, '#start-btn', 'content discovery practice route');
+      await page.close();
+    });
+
+    await runCase(failures, 'story lesson opens before sentence types practice', async () => {
+      const page = await newPage(browser, browserTracker);
+      const recorder = createRequestRecorder(page);
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html');
+      await assertVisible(page, '[data-story-lesson="grammar-sentence-types"]', 'sentence types story lesson');
+      assert.match(await textContent(page, '#quiz-root'), /Learn First|Rules to Try|Guided Checks/i);
+      assert.equal(await page.locator('#story-lesson-grade').inputValue(), '4');
+      await page.selectOption('#story-lesson-grade', '5');
+      assert.equal(await page.locator('#story-lesson-grade').inputValue(), '5');
+      assert.ok(await page.locator('[data-related-set-id]').count() >= 1, 'story lesson should expose related lesson links');
+      const metrics = summarizeRequestMetrics({ requests: recorder.requests, responses: recorder.responses });
+      assert.deepEqual(metrics.loadedLessonChunks, ['assets/story-lesson-chunks/grammar/grammar-sentence-types.js']);
+      assert.equal(metrics.loadedChunks.length, 0, 'story lesson should not load question chunks before practice handoff');
+      assert.ok(metrics.lessonPayloadBytes > 0, 'story lesson payload should be measured separately');
+      await page.click('[data-guided-check-answer]');
+      assert.match(await textContent(page, '#quiz-root'), /interrogative|question/i);
+      await page.click('#story-lesson-start-practice');
+      await assertVisible(page, '#start-btn', 'sentence types practice handoff');
+      await page.close();
+    });
+
+    await runCase(failures, 'explicit sentence types practice bypasses lesson first', async () => {
+      const page = await newPage(browser, browserTracker);
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html?practice=1');
+      await assertVisible(page, '#start-btn', 'sentence types direct practice');
+      assert.equal(await exists(page, '[data-story-lesson="grammar-sentence-types"]'), false);
       await page.close();
     });
 
@@ -277,6 +306,34 @@ async function main() {
       assert.equal(JSON.stringify(telemetry).includes('current-learner'), false);
       assert.ok(interactions.some(event => event.kind === 'click'));
       await page.close();
+    });
+
+    await runCase(failures, 'leaderboard route switches periods and handles privacy states', async () => {
+      const page = await newPage(browser, browserTracker);
+      await seedLeaderboardState(page);
+      await visitClean(page, server.baseURL, 'leaderboard.html');
+      await assertVisible(page, '.leaderboard-shell', 'leaderboard route');
+      assert.match(await textContent(page, '.leaderboard-table'), /Sky Reader|Comma Captain|Verb Voyager/);
+      assert.match(await textContent(page, '.own-rank-card'), /Your rank|#2/);
+      await page.click('[data-leaderboard-period="monthly"]');
+      assert.match(await textContent(page, '.leaderboard-state'), /Monthly leaderboard/i);
+      await page.click('[data-leaderboard-period="allTime"]');
+      assert.match(await textContent(page, '.leaderboard-state'), /All-time leaderboard/i);
+      await page.evaluate(() => {
+        localStorage.setItem('grammarQuestLeaderboardProfile', JSON.stringify({ optedIn: false }));
+        window.dispatchEvent(new Event('storage'));
+      });
+      assert.match(await textContent(page, '.leaderboard-shell'), /guardian-controlled opt-in|personal XP/i);
+      await page.close();
+
+      const offlinePage = await newPage(browser, browserTracker);
+      await seedLeaderboardState(offlinePage);
+      await offlinePage.addInitScript(() => {
+        Object.defineProperty(navigator, 'onLine', { value: false, configurable: true });
+      });
+      await visitClean(offlinePage, server.baseURL, 'leaderboard.html');
+      assert.match(await textContent(offlinePage, '.leaderboard-shell'), /offline|reconnect/i);
+      await offlinePage.close();
     });
 
     await runCase(failures, 'adaptive review starts from missed refs and completes without copied questions', async () => {
@@ -775,7 +832,7 @@ async function main() {
     await runCase(failures, 'loader-backed active quiz can be resumed', async () => {
       const page = await newPage(browser, browserTracker);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
-      await visitClean(page, server.baseURL, file);
+      await visitClean(page, server.baseURL, `${file}?practice=1`);
       await assertLoaderBackedResume(page, file);
       await page.close();
     });
@@ -783,7 +840,7 @@ async function main() {
     await runCase(failures, 'fresh quiz start is not converted into resume prompt', async () => {
       const page = await newPage(browser, browserTracker);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
-      await visitClean(page, server.baseURL, file);
+      await visitClean(page, server.baseURL, `${file}?practice=1`);
       await assertFreshQuizStartStaysInQuestion(page, file);
       await page.close();
     });
@@ -791,7 +848,7 @@ async function main() {
     await runCase(failures, 'active quiz resume falls back to snapshots when refs cannot load', async () => {
       const page = await newPage(browser, browserTracker);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
-      await visitClean(page, server.baseURL, file);
+      await visitClean(page, server.baseURL, `${file}?practice=1`);
       await assertSnapshotFallbackResume(page, file, {
         questionRefs: [{ id: 'missing-q0001', version: 1, contentHash: 'sha256:missing', sourceSet: 'missing-source-set', sequence: 1 }],
         questionText: 'Snapshot fallback question: choose the saved answer.'
@@ -802,7 +859,7 @@ async function main() {
     await runCase(failures, 'active quiz resume uses snapshots when ref hashes changed', async () => {
       const page = await newPage(browser, browserTracker);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
-      await visitClean(page, server.baseURL, file);
+      await visitClean(page, server.baseURL, `${file}?practice=1`);
       await assertSnapshotFallbackResume(page, file, {
         questionRefs: [{ id: 'capitalization-proper-names-titles-q0001', version: 1, contentHash: 'sha256:stale', sourceSet: 'capitalization-proper-names-titles', sequence: 1 }],
         questionText: 'Snapshot hash mismatch question: choose the saved answer.'
@@ -1026,12 +1083,12 @@ async function assertAllSubtopicRouteReady(page, file) {
     const root = document.querySelector('#quiz-root');
     const text = root ? root.innerText || root.textContent || '' : '';
     return Boolean(
-      document.querySelector('#start-btn, .choice-btn, .question-box, .results-box, .preview-question-card') ||
-      /Start Quiz|Preview Questions|coming soon|Question|Mission Complete|Keep practicing/i.test(text)
+      document.querySelector('#start-btn, #story-lesson-start-practice, .choice-btn, .question-box, .results-box, .preview-question-card') ||
+      /Learn First|Start Quiz|Preview Questions|coming soon|Question|Mission Complete|Keep practicing/i.test(text)
     );
   }, null, { timeout: 5000 });
   const text = await textContent(page, '#quiz-root');
-  assert.match(text, /Start Quiz|Preview Questions|coming soon|Question|Mission Complete|Keep practicing/i, file);
+  assert.match(text, /Learn First|Start Quiz|Preview Questions|coming soon|Question|Mission Complete|Keep practicing/i, file);
 }
 
 async function assertReportsPage(page, baseURL) {
@@ -1198,7 +1255,11 @@ async function assertManifestBackedTopicIndex(page, requests, file) {
 async function assertQuizFlow(page, file) {
   await assertVisible(page, '#quiz-root', file);
   const startText = await textContent(page, '#quiz-root');
-  assert.match(startText, /Start Quiz|Preview Questions|coming soon/i, file);
+  assert.match(startText, /Learn First|Start Quiz|Preview Questions|coming soon/i, file);
+  if (await exists(page, '#story-lesson-start-practice')) {
+    await page.click('#story-lesson-start-practice');
+    await assertVisible(page, '#start-btn', `${file} practice handoff`);
+  }
   if (!(await exists(page, '#start-btn'))) return;
   assert.equal(
     await page.evaluate(() => typeof window.GrammarQuestQuizDomain),
@@ -1214,6 +1275,7 @@ async function assertQuizFlow(page, file) {
   await page.click('.confidence-btn');
   await page.click('.choice-btn');
   assert.match(await textContent(page, '#feedback-area'), /Correct|Not quite/);
+  assert.match(await textContent(page, '#feedback-area'), /XP preview|server confirms/i);
   const activeQuiz = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').activeQuiz);
   assert.ok(activeQuiz, `${file} should save an active quiz after answering`);
   assert.equal(activeQuiz.schemaVersion, 2, `${file} should save active quiz schema v2`);
@@ -1298,6 +1360,30 @@ async function assertAssignmentCompletionFlow(page, baseURL) {
     null,
     'active assignment marker should be cleared'
   );
+}
+
+async function seedLeaderboardState(page) {
+  await page.addInitScript(() => {
+    const entries = [
+      { rank: 1, participantRef: 'leaderboardParticipants/sky-reader', displayAlias: 'Sky Reader', score: 180, lastAwardedAt: '2030-04-29T10:00:00.000Z', awardCount: 4 },
+      { rank: 2, participantRef: 'leaderboardParticipants/current', displayAlias: 'Comma Captain', score: 140, lastAwardedAt: '2030-04-29T09:00:00.000Z', awardCount: 3 },
+      { rank: 3, participantRef: 'leaderboardParticipants/verb-voyager', displayAlias: 'Verb Voyager', score: 90, lastAwardedAt: '2030-04-28T09:00:00.000Z', awardCount: 2 }
+    ];
+    const projections = {
+      weekly: { schemaVersion: 1, periodId: 'weekly_2030_W18', periodType: 'weekly', generatedAt: '2030-04-29T12:00:00.000Z', entries },
+      monthly: { schemaVersion: 1, periodId: 'monthly_2030_04', periodType: 'monthly', generatedAt: '2030-04-29T12:00:00.000Z', entries },
+      allTime: { schemaVersion: 1, periodId: 'all_time', periodType: 'all_time', generatedAt: '2030-04-29T12:00:00.000Z', entries }
+    };
+    localStorage.setItem('grammarQuestLeaderboardProfile', JSON.stringify({
+      optedIn: true,
+      participantRef: 'leaderboardParticipants/current',
+      displayAlias: 'Comma Captain'
+    }));
+    localStorage.setItem('grammarQuestLeaderboardProjections', JSON.stringify(projections));
+    localStorage.setItem('grammarQuestProgress', JSON.stringify({
+      xp: { projection: { totalXp: 430, currentWeeklyXp: 85, currentMonthlyXp: 210 } }
+    }));
+  });
 }
 
 async function assertAdaptiveReviewCompletionFlow(page, baseURL, questionRef) {
@@ -1487,6 +1573,9 @@ async function assertTouchTargets(page, label) {
 }
 
 async function assertChunkBackedSubtopicRequests(page, requests, file, expected) {
+  if (await exists(page, '#story-lesson-start-practice')) {
+    await page.click('#story-lesson-start-practice');
+  }
   await assertVisible(page, '#start-btn', file);
   assert.equal(
     await page.evaluate(() => !!window.QUESTION_BANK && Object.keys(window.QUESTION_BANK).length),

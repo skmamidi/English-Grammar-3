@@ -44,9 +44,10 @@ function validRecord(overrides = {}) {
 test('authoring guardrails normalize bounded AI assistance provenance', () => {
   const normalized = normalizeAuthoringRecord(validRecord({
     assistance: {
-      used: true,
-      purpose: ' rewrite ',
-      modelFamily: ' gpt-family ',
+        used: true,
+        purpose: ' rewrite ',
+        provider: ' openai ',
+        modelFamily: ' gpt-family ',
       promptRecordId: ' prompt-1 ',
       humanReviewed: true,
       reviewerId: ' reviewer-1 ',
@@ -59,10 +60,12 @@ test('authoring guardrails normalize bounded AI assistance provenance', () => {
     'draft',
     'explanation',
     'metadata',
-    'rewrite'
+    'rewrite',
+    'story_lesson_draft'
   ]);
   assert.equal(normalized.questionId, 'grammar-sentence-types-q0123');
   assert.equal(normalized.assistance.purpose, 'rewrite');
+  assert.equal(normalized.assistance.provider, 'openai');
   assert.equal(normalized.assistance.reviewerId, 'reviewer-1');
   assert.equal(normalized.sourceAttribution.sourceFile, 'grammar-quest-authored');
   assert.deepEqual(evaluateAuthoringGuardrails(normalized).issues, []);
@@ -147,4 +150,35 @@ test('AI authoring guardrails consume invalid assistance fixture descriptors', (
 
   assert.ok(result.issues.some(issue => issue.code === 'ai_purpose_invalid'));
   assert.ok(result.issues.some(issue => issue.code === 'ai_review_required'));
+});
+
+test('story lesson draft assistance requires provider model and prompt evidence', () => {
+  const missing = evaluateAuthoringGuardrails(validRecord({
+    assistance: {
+      used: true,
+      purpose: 'story_lesson_draft',
+      provider: '',
+      modelFamily: '',
+      promptRecordId: '',
+      humanReviewed: true,
+      reviewerId: 'reviewer-1',
+      reviewedAt: '2030-04-29T12:00:00.000Z'
+    }
+  }));
+  const valid = evaluateAuthoringGuardrails(validRecord({
+    assistance: {
+      used: true,
+      purpose: 'story_lesson_draft',
+      provider: 'gemini',
+      modelFamily: 'gemini-test',
+      promptRecordId: 'story-prompt-1',
+      humanReviewed: true,
+      reviewerId: 'reviewer-1',
+      reviewedAt: '2030-04-29T12:00:00.000Z'
+    }
+  }));
+
+  assert.ok(missing.issues.some(issue => issue.code === 'ai_story_lesson_provider_required'));
+  assert.ok(missing.issues.some(issue => issue.code === 'ai_story_lesson_prompt_evidence_required'));
+  assert.equal(valid.status, 'passed');
 });

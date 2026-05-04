@@ -21,7 +21,10 @@ function isExpectedOfflineResourceError(error, options = {}) {
   if (!options.allowOfflineResourceErrors) return false;
   const status = Number(error && error.status);
   const failure = String(error && error.failure || '');
-  return status === 503 || /ERR_INTERNET_DISCONNECTED/.test(failure);
+  const url = getErrorUrl(error);
+  return status === 503 ||
+    /ERR_INTERNET_DISCONNECTED/.test(failure) ||
+    (/ERR_ABORTED/.test(failure) && /\/assets\/story-lesson-chunks\//.test(url));
 }
 
 function formatOfflineSmokeResourceErrors(errors, options = {}) {

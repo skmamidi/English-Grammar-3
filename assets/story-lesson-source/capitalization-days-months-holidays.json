@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "capitalization-days-months-holidays",
+  "domain": "capitalization",
+  "title": "Capitalization of Days, Months, and Holidays",
+  "version": 1,
+  "contentHash": "sha256:capitalization-days-months-holidays-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "days-months-holidays-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters for days, months, and holidays."
+        }
+      ],
+      "conceptRules": [
+        "Days, months, and holidays get capital letters."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday",
+          "explanation": "This example helps learners see capital letters for days, months, and holidays."
+        },
+        {
+          "type": "near_miss",
+          "text": "October",
+          "explanation": "This example helps learners see capital letters for days, months, and holidays."
+        },
+        {
+          "type": "transfer",
+          "text": "Independence Day",
+          "explanation": "This example helps learners see capital letters for days, months, and holidays."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for days, months, and holidays?",
+          "answer": "Capitalize the names of days, months, and holidays because they are proper nouns."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize seasons like spring unless they are part of a special name."
+      ],
+      "vocabulary": [
+        {
+          "term": "proper noun",
+          "definition": "A special name for one person, place, day, month, or holiday."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Days, Months, and Holidays",
+        "targetSetId": "capitalization-days-months-holidays"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "days-months-holidays-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters for days, months, and holidays."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize the names of days, months, and holidays because they are proper nouns."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday",
+          "explanation": "This example helps learners see capital letters for days, months, and holidays."
+        },
+        {
+          "type": "near_miss",
+          "text": "October",
+          "explanation": "This example helps learners see capital letters for days, months, and holidays."
+        },
+        {
+          "type": "transfer",
+          "text": "Independence Day",
+          "explanation": "This example helps learners see capital letters for days, months, and holidays."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for days, months, and holidays?",
+          "answer": "Capitalize the names of days, months, and holidays because they are proper nouns."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize seasons like spring unless they are part of a special name."
+      ],
+      "vocabulary": [
+        {
+          "term": "proper noun",
+          "definition": "A special name for one person, place, day, month, or holiday."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Days, Months, and Holidays",
+        "targetSetId": "capitalization-days-months-holidays"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "days-months-holidays-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters for days, months, and holidays changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize the names of days, months, and holidays because they are proper nouns."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "October",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "Independence Day",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for days, months, and holidays?",
+          "answer": "Capitalize the names of days, months, and holidays because they are proper nouns."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize seasons like spring unless they are part of a special name."
+      ],
+      "vocabulary": [
+        {
+          "term": "proper noun",
+          "definition": "A special name for one person, place, day, month, or holiday."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Days, Months, and Holidays",
+        "targetSetId": "capitalization-days-months-holidays"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "days-months-holidays-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters for days, months, and holidays changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize the names of days, months, and holidays because they are proper nouns."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "October",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "Independence Day",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for days, months, and holidays?",
+          "answer": "Capitalize the names of days, months, and holidays because they are proper nouns."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize seasons like spring unless they are part of a special name."
+      ],
+      "vocabulary": [
+        {
+          "term": "proper noun",
+          "definition": "A special name for one person, place, day, month, or holiday."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Days, Months, and Holidays",
+        "targetSetId": "capitalization-days-months-holidays"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "days-months-holidays-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using capital letters for days, months, and holidays to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize the names of days, months, and holidays because they are proper nouns. In dates and schedules, capitalize the proper name but leave ordinary time words lowercase."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Monday",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "October",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "Independence Day",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters for days, months, and holidays?",
+          "answer": "Capitalize the names of days, months, and holidays because they are proper nouns."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize seasons like spring unless they are part of a special name. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "proper noun",
+          "definition": "A special name for one person, place, day, month, or holiday."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Days, Months, and Holidays",
+        "targetSetId": "capitalization-days-months-holidays"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "capitalization-names-of-places",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-commas-dates",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "days-months-holidays"
+    ],
+    "skillIds": [
+      "capitalization.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "capitalization-days-months-holidays-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-narrative-writing",
+  "domain": "grammar",
+  "title": "Narrative Writing",
+  "version": 1,
+  "contentHash": "sha256:grammar-narrative-writing-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "narrative-writing-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan telling events in a clear order."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for telling events in a clear order."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina heard a tap, then opened the door.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "A story with no order.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise by adding transition words.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for telling events in a clear order?",
+          "answer": "Narrative writing uses characters, setting, events, and sequence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows telling events in a clear order?",
+          "answer": "Mina heard a tap, then opened the door."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A story with no order."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise by adding transition words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "narrative writing",
+          "definition": "A writing or language strategy for telling events in a clear order."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Narrative Writing",
+        "targetSetId": "grammar-narrative-writing"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "narrative-writing-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks telling events in a clear order."
+        }
+      ],
+      "conceptRules": [
+        "Narrative writing uses characters, setting, events, and sequence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina heard a tap, then opened the door.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "A story with no order.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise by adding transition words.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for telling events in a clear order?",
+          "answer": "Narrative writing uses characters, setting, events, and sequence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows telling events in a clear order?",
+          "answer": "Mina heard a tap, then opened the door."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A story with no order."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise by adding transition words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "narrative writing",
+          "definition": "A writing or language strategy for telling events in a clear order."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Narrative Writing",
+        "targetSetId": "grammar-narrative-writing"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "narrative-writing-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks telling events in a clear order."
+        }
+      ],
+      "conceptRules": [
+        "Narrative writing uses characters, setting, events, and sequence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina heard a tap, then opened the door.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "A story with no order.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise by adding transition words.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for telling events in a clear order?",
+          "answer": "Narrative writing uses characters, setting, events, and sequence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows telling events in a clear order?",
+          "answer": "Mina heard a tap, then opened the door."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A story with no order."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise by adding transition words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "narrative writing",
+          "definition": "A writing or language strategy for telling events in a clear order."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Narrative Writing",
+        "targetSetId": "grammar-narrative-writing"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "narrative-writing-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks telling events in a clear order."
+        }
+      ],
+      "conceptRules": [
+        "Narrative writing uses characters, setting, events, and sequence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina heard a tap, then opened the door.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "A story with no order.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise by adding transition words.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for telling events in a clear order?",
+          "answer": "Narrative writing uses characters, setting, events, and sequence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows telling events in a clear order?",
+          "answer": "Mina heard a tap, then opened the door."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A story with no order."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise by adding transition words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "narrative writing",
+          "definition": "A writing or language strategy for telling events in a clear order."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Narrative Writing",
+        "targetSetId": "grammar-narrative-writing"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "narrative-writing-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer telling events in a clear order to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Narrative writing uses characters, setting, events, and sequence. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina heard a tap, then opened the door.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "A story with no order.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise by adding transition words.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for telling events in a clear order?",
+          "answer": "Narrative writing uses characters, setting, events, and sequence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows telling events in a clear order?",
+          "answer": "Mina heard a tap, then opened the door."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "A story with no order."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise by adding transition words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "narrative writing",
+          "definition": "A writing or language strategy for telling events in a clear order."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Narrative Writing",
+        "targetSetId": "grammar-narrative-writing"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "reading-comprehension-story-elements",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-point-of-view",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "narrative-writing"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-narrative-writing-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

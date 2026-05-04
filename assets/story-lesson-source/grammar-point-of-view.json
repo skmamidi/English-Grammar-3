@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-point-of-view",
+  "domain": "grammar",
+  "title": "1st, 2nd, and 3rd Person Point of View",
+  "version": 1,
+  "contentHash": "sha256:grammar-point-of-view-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "point-of-view-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan choosing first second or third person point of view."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for choosing first second or third person point of view."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I found the map.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "You should turn left.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina found the map.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing first second or third person point of view?",
+          "answer": "Point of view shows who is telling or addressing the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing first second or third person point of view?",
+          "answer": "I found the map."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "You should turn left."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina found the map."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "1st 2nd and",
+          "definition": "A writing or language strategy for choosing first second or third person point of view."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice 1st, 2nd, and 3rd Person Point of View",
+        "targetSetId": "grammar-point-of-view"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "point-of-view-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks choosing first second or third person point of view."
+        }
+      ],
+      "conceptRules": [
+        "Point of view shows who is telling or addressing the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I found the map.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "You should turn left.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina found the map.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing first second or third person point of view?",
+          "answer": "Point of view shows who is telling or addressing the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing first second or third person point of view?",
+          "answer": "I found the map."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "You should turn left."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina found the map."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "1st 2nd and",
+          "definition": "A writing or language strategy for choosing first second or third person point of view."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice 1st, 2nd, and 3rd Person Point of View",
+        "targetSetId": "grammar-point-of-view"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "point-of-view-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks choosing first second or third person point of view."
+        }
+      ],
+      "conceptRules": [
+        "Point of view shows who is telling or addressing the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I found the map.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "You should turn left.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina found the map.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing first second or third person point of view?",
+          "answer": "Point of view shows who is telling or addressing the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing first second or third person point of view?",
+          "answer": "I found the map."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "You should turn left."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina found the map."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "1st 2nd and",
+          "definition": "A writing or language strategy for choosing first second or third person point of view."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice 1st, 2nd, and 3rd Person Point of View",
+        "targetSetId": "grammar-point-of-view"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "point-of-view-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks choosing first second or third person point of view."
+        }
+      ],
+      "conceptRules": [
+        "Point of view shows who is telling or addressing the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I found the map.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "You should turn left.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina found the map.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing first second or third person point of view?",
+          "answer": "Point of view shows who is telling or addressing the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing first second or third person point of view?",
+          "answer": "I found the map."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "You should turn left."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina found the map."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "1st 2nd and",
+          "definition": "A writing or language strategy for choosing first second or third person point of view."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice 1st, 2nd, and 3rd Person Point of View",
+        "targetSetId": "grammar-point-of-view"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "point-of-view-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer choosing first second or third person point of view to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Point of view shows who is telling or addressing the reader. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "I found the map.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "You should turn left.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina found the map.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for choosing first second or third person point of view?",
+          "answer": "Point of view shows who is telling or addressing the reader."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows choosing first second or third person point of view?",
+          "answer": "I found the map."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "You should turn left."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Mina found the map."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "1st 2nd and",
+          "definition": "A writing or language strategy for choosing first second or third person point of view."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice 1st, 2nd, and 3rd Person Point of View",
+        "targetSetId": "grammar-point-of-view"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "reading-comprehension-point-of-view-literature",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-narrative-writing",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "point-of-view"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-point-of-view-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

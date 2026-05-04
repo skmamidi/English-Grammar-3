@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "capitalization-books-magazines-songs-plays",
+  "domain": "capitalization",
+  "title": "Capitalization of Books, Magazines, Songs, and Plays",
+  "version": 1,
+  "contentHash": "sha256:capitalization-books-magazines-songs-plays-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "books-magazines-songs-plays-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters in titles of books, magazines, songs, and plays."
+        }
+      ],
+      "conceptRules": [
+        "Titles start with capital letters for important words."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The Secret Garden",
+          "explanation": "This example helps learners see capital letters in titles of books, magazines, songs, and plays."
+        },
+        {
+          "type": "near_miss",
+          "text": "Stone Soup",
+          "explanation": "This example helps learners see capital letters in titles of books, magazines, songs, and plays."
+        },
+        {
+          "type": "transfer",
+          "text": "The Music Club News",
+          "explanation": "This example helps learners see capital letters in titles of books, magazines, songs, and plays."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters in titles of books, magazines, songs, and plays?",
+          "answer": "Capitalize important words in titles, including the first and last word."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize small joining words like and or the in the middle unless the title starts or ends with them."
+      ],
+      "vocabulary": [
+        {
+          "term": "title",
+          "definition": "The name of a book, magazine, song, play, or other work."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Books, Magazines, Songs, and Plays",
+        "targetSetId": "capitalization-books-magazines-songs-plays"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "books-magazines-songs-plays-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice capital letters in titles of books, magazines, songs, and plays."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize important words in titles, including the first and last word."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The Secret Garden",
+          "explanation": "This example helps learners see capital letters in titles of books, magazines, songs, and plays."
+        },
+        {
+          "type": "near_miss",
+          "text": "Stone Soup",
+          "explanation": "This example helps learners see capital letters in titles of books, magazines, songs, and plays."
+        },
+        {
+          "type": "transfer",
+          "text": "The Music Club News",
+          "explanation": "This example helps learners see capital letters in titles of books, magazines, songs, and plays."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters in titles of books, magazines, songs, and plays?",
+          "answer": "Capitalize important words in titles, including the first and last word."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize small joining words like and or the in the middle unless the title starts or ends with them."
+      ],
+      "vocabulary": [
+        {
+          "term": "title",
+          "definition": "The name of a book, magazine, song, play, or other work."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Books, Magazines, Songs, and Plays",
+        "targetSetId": "capitalization-books-magazines-songs-plays"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "books-magazines-songs-plays-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters in titles of books, magazines, songs, and plays changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize important words in titles, including the first and last word."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The Secret Garden",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Stone Soup",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "The Music Club News",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters in titles of books, magazines, songs, and plays?",
+          "answer": "Capitalize important words in titles, including the first and last word."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize small joining words like and or the in the middle unless the title starts or ends with them."
+      ],
+      "vocabulary": [
+        {
+          "term": "title",
+          "definition": "The name of a book, magazine, song, play, or other work."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Books, Magazines, Songs, and Plays",
+        "targetSetId": "capitalization-books-magazines-songs-plays"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "books-magazines-songs-plays-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how capital letters in titles of books, magazines, songs, and plays changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize important words in titles, including the first and last word."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The Secret Garden",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Stone Soup",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "The Music Club News",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters in titles of books, magazines, songs, and plays?",
+          "answer": "Capitalize important words in titles, including the first and last word."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize small joining words like and or the in the middle unless the title starts or ends with them."
+      ],
+      "vocabulary": [
+        {
+          "term": "title",
+          "definition": "The name of a book, magazine, song, play, or other work."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Books, Magazines, Songs, and Plays",
+        "targetSetId": "capitalization-books-magazines-songs-plays"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "books-magazines-songs-plays-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using capital letters in titles of books, magazines, songs, and plays to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Capitalize important words in titles, including the first and last word. When editing a title, check first words, last words, nouns, verbs, adjectives, and adverbs."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The Secret Garden",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "Stone Soup",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "The Music Club News",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for capital letters in titles of books, magazines, songs, and plays?",
+          "answer": "Capitalize important words in titles, including the first and last word."
+        }
+      ],
+      "commonMistakes": [
+        "Do not capitalize small joining words like and or the in the middle unless the title starts or ends with them. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "title",
+          "definition": "The name of a book, magazine, song, play, or other work."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Capitalization of Books, Magazines, Songs, and Plays",
+        "targetSetId": "capitalization-books-magazines-songs-plays"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "capitalization-proper-names-titles",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "reference-skills-italicize",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "books-magazines-songs-plays"
+    ],
+    "skillIds": [
+      "capitalization.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "capitalization-books-magazines-songs-plays-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

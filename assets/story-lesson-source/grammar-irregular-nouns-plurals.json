@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-irregular-nouns-plurals",
+  "domain": "grammar",
+  "title": "Irregular Nouns & Plurals",
+  "version": 1,
+  "contentHash": "sha256:grammar-irregular-nouns-plurals-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "irregular-nouns-plurals-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "conceptRules": [
+        "Look for plural nouns that do not follow the usual pattern in a short sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "child becomes children",
+          "explanation": "This shows plural nouns that do not follow the usual pattern clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "mouse becomes mice",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "leaf becomes leaves",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking plural nouns that do not follow the usual pattern?",
+          "answer": "Some plural nouns change spelling instead of only adding s or es."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "irregular nouns ",
+          "definition": "A grammar skill for plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Irregular Nouns & Plurals",
+        "targetSetId": "grammar-irregular-nouns-plurals"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "irregular-nouns-plurals-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "conceptRules": [
+        "Some plural nouns change spelling instead of only adding s or es."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "child becomes children",
+          "explanation": "This shows plural nouns that do not follow the usual pattern clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "mouse becomes mice",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "leaf becomes leaves",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking plural nouns that do not follow the usual pattern?",
+          "answer": "Some plural nouns change spelling instead of only adding s or es."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "irregular nouns ",
+          "definition": "A grammar skill for plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Irregular Nouns & Plurals",
+        "targetSetId": "grammar-irregular-nouns-plurals"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "irregular-nouns-plurals-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "conceptRules": [
+        "Some plural nouns change spelling instead of only adding s or es."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "child becomes children",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "mouse becomes mice",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "leaf becomes leaves",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking plural nouns that do not follow the usual pattern?",
+          "answer": "Some plural nouns change spelling instead of only adding s or es."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "irregular nouns ",
+          "definition": "A grammar skill for plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Irregular Nouns & Plurals",
+        "targetSetId": "grammar-irregular-nouns-plurals"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "irregular-nouns-plurals-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "conceptRules": [
+        "Some plural nouns change spelling instead of only adding s or es."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "child becomes children",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "mouse becomes mice",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "leaf becomes leaves",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking plural nouns that do not follow the usual pattern?",
+          "answer": "Some plural nouns change spelling instead of only adding s or es."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "irregular nouns ",
+          "definition": "A grammar skill for plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Irregular Nouns & Plurals",
+        "targetSetId": "grammar-irregular-nouns-plurals"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "irregular-nouns-plurals-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final paragraph and transfer plural nouns that do not follow the usual pattern into independent editing."
+        }
+      ],
+      "conceptRules": [
+        "Some plural nouns change spelling instead of only adding s or es. Transfer the check into editing by explaining why the sentence works."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "child becomes children",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "mouse becomes mice",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "leaf becomes leaves",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking plural nouns that do not follow the usual pattern?",
+          "answer": "Some plural nouns change spelling instead of only adding s or es."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess by sound alone; prove the grammar relationship in the sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "irregular nouns ",
+          "definition": "A grammar skill for plural nouns that do not follow the usual pattern."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Irregular Nouns & Plurals",
+        "targetSetId": "grammar-irregular-nouns-plurals"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-singular-plural-nouns",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-correction",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the grammar foundation"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks near misses and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "irregular-nouns-plurals"
+    ],
+    "skillIds": [
+      "grammar.foundations"
+    ],
+    "standardIds": [
+      "L.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-irregular-nouns-plurals-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

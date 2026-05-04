@@ -7,6 +7,9 @@ const {
   SESSION_SIGNED_OUT_EVENT,
   buildSignedOutState
 } = require('../assets/session-domain');
+const {
+  normalizeLeaderboardProfile
+} = require('../assets/leaderboard-opt-in-policy');
 
 const authSource = fs.readFileSync(path.join(__dirname, '..', 'assets', 'auth-service.js'), 'utf8');
 
@@ -37,4 +40,15 @@ test('auth service exposes telemetry opt-out contract without learner context', 
   assert.match(authSource, /telemetryConsent/);
   assert.match(authSource, /setTelemetryOptOut/);
   assert.doesNotMatch(authSource, /telemetryConsent:\s*\{[^}]*activeStudent/s);
+});
+
+test('auth profile helpers keep leaderboard participation disabled by default', () => {
+  const profile = normalizeLeaderboardProfile({
+    leaderboardAlias: 'student@example.test',
+    email: 'student@example.test'
+  });
+
+  assert.equal(profile.leaderboardOptIn, false);
+  assert.equal(profile.leaderboardAlias, '');
+  assert.equal(JSON.stringify(profile).includes('student@example.test'), false);
 });

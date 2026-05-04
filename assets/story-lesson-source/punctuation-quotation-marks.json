@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-quotation-marks",
+  "domain": "punctuation",
+  "title": "Quotation Marks",
+  "version": 1,
+  "contentHash": "sha256:punctuation-quotation-marks-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "quotation-marks-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice quotation marks around exact words."
+        }
+      ],
+      "conceptRules": [
+        "Quotation marks show the words someone says."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina said, \"Look here.\"",
+          "explanation": "This example helps learners see quotation marks around exact words."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"I found it,\" Jo whispered.",
+          "explanation": "This example helps learners see quotation marks around exact words."
+        },
+        {
+          "type": "transfer",
+          "text": "The sign says, \"Keep left.\"",
+          "explanation": "This example helps learners see quotation marks around exact words."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for quotation marks around exact words?",
+          "answer": "Put quotation marks around the exact words a speaker says or a source states."
+        }
+      ],
+      "commonMistakes": [
+        "Do not put quotation marks around words that only tell about what someone said."
+      ],
+      "vocabulary": [
+        {
+          "term": "quotation marks",
+          "definition": "Punctuation marks that show exact spoken or copied words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Quotation Marks",
+        "targetSetId": "punctuation-quotation-marks"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "quotation-marks-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice quotation marks around exact words."
+        }
+      ],
+      "conceptRules": [
+        "Put quotation marks around the exact words a speaker says or a source states."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina said, \"Look here.\"",
+          "explanation": "This example helps learners see quotation marks around exact words."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"I found it,\" Jo whispered.",
+          "explanation": "This example helps learners see quotation marks around exact words."
+        },
+        {
+          "type": "transfer",
+          "text": "The sign says, \"Keep left.\"",
+          "explanation": "This example helps learners see quotation marks around exact words."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for quotation marks around exact words?",
+          "answer": "Put quotation marks around the exact words a speaker says or a source states."
+        }
+      ],
+      "commonMistakes": [
+        "Do not put quotation marks around words that only tell about what someone said."
+      ],
+      "vocabulary": [
+        {
+          "term": "quotation marks",
+          "definition": "Punctuation marks that show exact spoken or copied words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Quotation Marks",
+        "targetSetId": "punctuation-quotation-marks"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "quotation-marks-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how quotation marks around exact words changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Put quotation marks around the exact words a speaker says or a source states."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina said, \"Look here.\"",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"I found it,\" Jo whispered.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "The sign says, \"Keep left.\"",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for quotation marks around exact words?",
+          "answer": "Put quotation marks around the exact words a speaker says or a source states."
+        }
+      ],
+      "commonMistakes": [
+        "Do not put quotation marks around words that only tell about what someone said."
+      ],
+      "vocabulary": [
+        {
+          "term": "quotation marks",
+          "definition": "Punctuation marks that show exact spoken or copied words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Quotation Marks",
+        "targetSetId": "punctuation-quotation-marks"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "quotation-marks-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how quotation marks around exact words changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Put quotation marks around the exact words a speaker says or a source states."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina said, \"Look here.\"",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"I found it,\" Jo whispered.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "The sign says, \"Keep left.\"",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for quotation marks around exact words?",
+          "answer": "Put quotation marks around the exact words a speaker says or a source states."
+        }
+      ],
+      "commonMistakes": [
+        "Do not put quotation marks around words that only tell about what someone said."
+      ],
+      "vocabulary": [
+        {
+          "term": "quotation marks",
+          "definition": "Punctuation marks that show exact spoken or copied words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Quotation Marks",
+        "targetSetId": "punctuation-quotation-marks"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "quotation-marks-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using quotation marks around exact words to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Put quotation marks around the exact words a speaker says or a source states. In dialogue and evidence, quote exact words and keep your own explanation outside the marks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina said, \"Look here.\"",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "\"I found it,\" Jo whispered.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "The sign says, \"Keep left.\"",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for quotation marks around exact words?",
+          "answer": "Put quotation marks around the exact words a speaker says or a source states."
+        }
+      ],
+      "commonMistakes": [
+        "Do not put quotation marks around words that only tell about what someone said. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "quotation marks",
+          "definition": "Punctuation marks that show exact spoken or copied words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Quotation Marks",
+        "targetSetId": "punctuation-quotation-marks"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-commas-dialogue",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-dialogue-mechanics",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "quotation-marks"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-quotation-marks-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

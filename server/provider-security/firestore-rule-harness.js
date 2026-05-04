@@ -11,6 +11,24 @@ const FIRESTORE_SECURITY_RULE_SCENARIOS = Object.freeze([
   scenario('deny-parent-preview', 'parentPreview', 'read', BACKEND_STORAGE_PATHS.learnerState('learner-a')),
   scenario('allow-student-own-state-write', 'student', 'write', BACKEND_STORAGE_PATHS.learnerState('learner-a'), { mastery: { nouns: 0.8 } }),
   scenario('deny-student-other-state-read', 'student', 'read', BACKEND_STORAGE_PATHS.learnerState('learner-b')),
+  scenario('allow-student-xp-attempt-create', 'student', 'create', BACKEND_STORAGE_PATHS.xpAttemptSubmission('learner-a', 'attempt-1'), {
+    attemptId: 'attempt-1',
+    questionRefs: [{ id: 'grammar-sentence-types-q0001', contentHash: 'sha256:abc' }],
+    selectedAnswers: [{ questionId: 'grammar-sentence-types-q0001', selectedIndex: 0 }]
+  }),
+  scenario('deny-student-xp-projection-write', 'student', 'write', BACKEND_STORAGE_PATHS.xpProjection('learner-a'), { totalXp: 99999 }),
+  scenario('allow-server-xp-award-create', 'serverService', 'create', BACKEND_STORAGE_PATHS.xpAwardEvent('learner-a', 'award-1'), {
+    awardEventId: 'award-1',
+    learnerId: 'learner-a',
+    awardedXp: 10
+  }),
+  scenario('deny-server-xp-award-update', 'serverService', 'update', BACKEND_STORAGE_PATHS.xpAwardEvent('learner-a', 'award-1'), { awardedXp: 20 }),
+  scenario('allow-server-xp-projection-write', 'serverService', 'write', BACKEND_STORAGE_PATHS.xpProjection('learner-a'), { totalXp: 10, currentWeeklyXp: 10, currentMonthlyXp: 10 }),
+  scenario('allow-server-leaderboard-write', 'serverService', 'write', BACKEND_STORAGE_PATHS.leaderboardEntry('weekly_2030_W18', 'participant-a'), {
+    participantRef: 'leaderboardParticipants/participant-a',
+    displayAlias: 'Amber Kite',
+    score: 10
+  }),
   scenario('allow-linked-guardian-read', 'guardianLinked', 'read', BACKEND_STORAGE_PATHS.savedSession('learner-a', 'session-1')),
   scenario('deny-unlinked-guardian-read', 'guardianUnrelated', 'read', BACKEND_STORAGE_PATHS.questionReport('learner-a', 'report-1')),
   scenario('allow-teacher-class-assignment-write', 'teacherAssigned', 'write', BACKEND_STORAGE_PATHS.assignmentForClass('class-a', 'assignment-1'), { dueAt: '2026-06-01' }),

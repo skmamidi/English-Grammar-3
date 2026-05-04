@@ -224,3 +224,59 @@ test('learning dashboard projection includes mixed quiz sessions in parent analy
     'grammar-mixed-q0001'
   ]);
 });
+
+test('learning dashboard projection includes privacy-safe guardian XP trends', () => {
+  const projection = dashboard.buildLearningDashboardProjection({
+    learner: { id: 'learner-xp', displayName: 'Hidden Learner' },
+    progress: {
+      xp: {
+        projection: {
+          totalXp: 430,
+          currentWeeklyXp: 85,
+          currentMonthlyXp: 210,
+          weeklyTrend: [
+            { periodId: 'weekly_2030_W17', xp: 40, awardedAt: '2030-04-22T12:00:00.000Z', learnerId: 'learner-xp' },
+            { periodId: 'weekly_2030_W18', xp: 85, answer: 'raw answer should stay hidden' }
+          ],
+          recentAwards: [
+            {
+              awardEventId: 'award-1',
+              awardedXp: 33,
+              awardedAt: '2030-04-29T10:00:00.000Z',
+              source: 'quiz_completion',
+              question: 'raw prompt should stay hidden',
+              correctAnswer: 'hidden key'
+            },
+            {
+              awardEventId: 'award-2',
+              awardedXp: 10,
+              awardedAt: '2030-04-27T10:00:00.000Z',
+              source: 'question_preview'
+            }
+          ]
+        },
+        offlineQueue: [
+          { status: 'provisional', provisionalXp: 20, queuedAt: '2030-04-29T11:00:00.000Z', attemptEvidence: { selectedAnswers: [{ questionId: 'q1', selectedIndex: 0 }] } },
+          { status: 'awarded', syncedXp: 12, syncedAt: '2030-04-29T11:05:00.000Z' }
+        ]
+      }
+    },
+    roleView: 'parent_guardian',
+    now
+  });
+
+  assert.equal(projection.summary.totalXp, 430);
+  assert.equal(projection.summary.weeklyXp, 85);
+  assert.equal(projection.xpSummary.trend.direction, 'up');
+  assert.equal(projection.xpSummary.trend.deltaXp, 45);
+  assert.deepEqual(projection.xpSummary.recentAwards.map(item => item.awardedXp), [33, 10]);
+  assert.equal(projection.xpSummary.reconciliation.pendingCount, 1);
+  assert.equal(projection.xpSummary.reconciliation.status, 'provisional');
+  assert.match(projection.xpSummary.guardianCopy, /trend/i);
+  const serialized = JSON.stringify(projection.xpSummary);
+  assert.equal(serialized.includes('raw prompt'), false);
+  assert.equal(serialized.includes('raw answer'), false);
+  assert.equal(serialized.includes('hidden key'), false);
+  assert.equal(serialized.includes('learner-xp'), false);
+  assert.equal(serialized.includes('q1'), false);
+});

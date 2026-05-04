@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "setId": "reading-comprehension-poetry-skills",
+  "domain": "reading-comprehension",
+  "title": "Poetry Skills",
+  "version": 1,
+  "contentHash": "sha256:reading-comprehension-poetry-skills-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "poetry-skills-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for reading rhythm images and line breaks."
+        }
+      ],
+      "conceptRules": [
+        "Use one clue to explain reading rhythm images and line breaks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo reads a short poem where moonlight is a silver path across the floor.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports reading rhythm images and line breaks?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "poetry skills",
+          "definition": "A reading strategy for reading rhythm images and line breaks."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Poetry Skills",
+        "targetSetId": "reading-comprehension-poetry-skills"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "poetry-skills-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for reading rhythm images and line breaks."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain reading rhythm images and line breaks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo reads a short poem where moonlight is a silver path across the floor.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports reading rhythm images and line breaks?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "poetry skills",
+          "definition": "A reading strategy for reading rhythm images and line breaks."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Poetry Skills",
+        "targetSetId": "reading-comprehension-poetry-skills"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "poetry-skills-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers reading rhythm images and line breaks to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain reading rhythm images and line breaks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo reads a short poem where moonlight is a silver path across the floor.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports reading rhythm images and line breaks?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "poetry skills",
+          "definition": "A reading strategy for reading rhythm images and line breaks."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Poetry Skills",
+        "targetSetId": "reading-comprehension-poetry-skills"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "poetry-skills-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers reading rhythm images and line breaks to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain reading rhythm images and line breaks."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo reads a short poem where moonlight is a silver path across the floor.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports reading rhythm images and line breaks?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "poetry skills",
+          "definition": "A reading strategy for reading rhythm images and line breaks."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Poetry Skills",
+        "targetSetId": "reading-comprehension-poetry-skills"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "poetry-skills-g6",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers reading rhythm images and line breaks to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use multiple pieces of evidence to explain reading rhythm images and line breaks and consider another possible reading."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo reads a short poem where moonlight is a silver path across the floor.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports reading rhythm images and line breaks?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not stop at a likely answer; weigh competing clues before deciding."
+      ],
+      "vocabulary": [
+        {
+          "term": "poetry skills",
+          "definition": "A reading strategy for reading rhythm images and line breaks."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Poetry Skills",
+        "targetSetId": "reading-comprehension-poetry-skills"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "reading-comprehension-tone-mood",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "reading-comprehension-theme-lesson-moral",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models clue noticing"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches evidence explanation and transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "poetry-skills"
+    ],
+    "skillIds": [
+      "reading.strategy"
+    ],
+    "standardIds": [
+      "RL.RI.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "evidence",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "reading-comprehension-poetry-skills-unsupported-answer"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

@@ -6,6 +6,7 @@ const assignment = require('../assets/assignment-domain');
 const telemetry = require('../assets/app-telemetry-domain');
 const selectionTelemetry = require('../assets/question-selection-telemetry');
 const contracts = require('../assets/domain-type-contracts');
+const xp = require('../assets/xp-domain');
 const {
   buildLessonRouteDescriptor,
   normalizeLessonSummary
@@ -184,4 +185,24 @@ test('typed domain contracts document provider-neutral billing records', () => {
     billingAccountId: 'billing-account-1',
     learnerId: 'learner-1'
   }).includes('billing_domain_record_must_not_include_learner_payload'));
+});
+
+test('typed domain contracts document XP award summaries without question payloads', () => {
+  const summary = xp.calculateXpAwardSummary({
+    assignedGrade: 4,
+    quizGrade: 5,
+    provisional: true,
+    questions: [
+      { id: 'grammar-sentence-types-q0001', difficulty: 'easy', correct: true },
+      { id: 'grammar-sentence-types-q0002', difficulty: 'medium', correct: false }
+    ]
+  });
+
+  assert.deepEqual(contracts.validateXpAwardSummaryContract(summary), []);
+  assert.ok(contracts.validateXpAwardSummaryContract(Object.assign({}, summary, {
+    question: 'raw prompt'
+  })).includes('xp_award_summary_must_not_include_question_payload'));
+  assert.ok(contracts.validateXpAwardSummaryContract(Object.assign({}, summary, {
+    clientAwardedXp: 5000
+  })).includes('xp_award_summary_must_not_accept_client_award'));
 });

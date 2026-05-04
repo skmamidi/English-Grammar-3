@@ -16,6 +16,7 @@ const { CHUNK_MIGRATION_ORDER } = require('../question-chunk-config');
 const VALID_GRADES = new Set([3, 4, 5, 6]);
 const VALID_DIFFICULTIES = new Set(['easy', 'medium', 'hard']);
 const HASH_PATTERN = /^sha256:[a-f0-9]{64}$/;
+const SAFE_STUDY_AID_TARGET = /^[a-z0-9]+(?:[-_][a-z0-9]+)*$/i;
 
 function validateQuestionSourceFiles(options = {}) {
   const root = options.repoRoot || repoRoot;
@@ -236,6 +237,21 @@ function validateQuestionShape({ question, metadata, questionLabel, errors }) {
   if (!Array.isArray(metadata.skills) || !metadata.skills.length || metadata.skills.some(skill => typeof skill !== 'string' || !skill.trim())) {
     errors.push(`${questionLabel}: metadata.skills must be a non-empty string array.`);
   }
+  validateStudyAidInternalLinks({ question, questionLabel, errors });
+}
+
+function validateStudyAidInternalLinks({ question, questionLabel, errors }) {
+  const links = question.studyAid && question.studyAid.internalLinks;
+  if (links === undefined) return;
+  if (!Array.isArray(links)) {
+    errors.push(`${questionLabel}: studyAid.internalLinks must be an array.`);
+    return;
+  }
+  links.forEach((link, index) => {
+    const targetSetId = String(link && (link.targetSetId || link.setId) || '').trim();
+    if (!targetSetId) errors.push(`${questionLabel}: studyAid.internalLinks[${index}] targetSetId is required.`);
+    else if (!SAFE_STUDY_AID_TARGET.test(targetSetId)) errors.push(`${questionLabel}: studyAid.internalLinks targetSetId is unsafe.`);
+  });
 }
 
 function validateQuestionTaxonomy({ question, setId, questionLabel, taxonomy, errors }) {

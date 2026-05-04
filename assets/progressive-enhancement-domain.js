@@ -62,6 +62,12 @@
       message: 'Account sign-in is unavailable, but local signed-out practice can continue.',
       recovery: 'Continue in local mode or try sign-in later.'
     },
+    'character-catalog': {
+      critical: false,
+      label: 'Character catalog',
+      message: 'Character art is unavailable, but lessons can continue with text labels.',
+      recovery: 'Continue normally.'
+    },
     'service-worker-registration': {
       critical: false,
       label: 'Offline support',
@@ -82,6 +88,7 @@
     { pattern: /\/assets\/question-preload-policy\.js(?:$|\?)/, feature: 'preloading' },
     { pattern: /\/assets\/question-preloader\.js(?:$|\?)/, feature: 'preloading' },
     { pattern: /\/assets\/auth-service\.js(?:$|\?)/, feature: 'auth-provider' },
+    { pattern: /\/assets\/character-catalog\.js(?:$|\?)/, feature: 'character-catalog' },
     { pattern: /\/assets\/learner-state-sync-adapter\.js(?:$|\?)/, feature: 'sync-adapter' },
     { pattern: /\/assets\/service-worker-registration\.js(?:$|\?)/, feature: 'service-worker-registration' }
   ];

@@ -32,7 +32,8 @@ test('sensitive optional features deny by default while core practice remains av
     FeatureIntents.ACCOUNT_SYNC,
     FeatureIntents.OPTIONAL_PERSONALIZATION,
     FeatureIntents.NOTIFICATION_DELIVERY,
-    FeatureIntents.FUTURE_BILLING
+    FeatureIntents.FUTURE_BILLING,
+    FeatureIntents.LEADERBOARD_PARTICIPATION
   ].forEach(featureIntent => {
     assert.equal(resolveInstitutionalPolicy({ actor: actors.student, learnerId: 'learner-a', featureIntent }).allowed, false);
     assert.equal(resolveInstitutionalPolicy({ actor: actors.student, learnerId: 'learner-a', featureIntent }).reason, 'explicit_consent_required');
@@ -162,6 +163,31 @@ test('experiment and personalization policies require learner preference and fea
     guardianConsent: { experiments: true },
     learnerPrivacyPreferences: { telemetryEnabled: true, experimentParticipationEnabled: true },
     featureFlags: { experiments: false }
+  }).reason, 'feature_flag_disabled');
+});
+
+test('leaderboard participation requires guardian or school consent and feature flag', () => {
+  assert.equal(resolveInstitutionalPolicy({
+    actor: actors.guardianLinked,
+    learnerId: 'learner-a',
+    featureIntent: FeatureIntents.LEADERBOARD_PARTICIPATION,
+    guardianConsent: { leaderboardParticipation: true },
+    featureFlags: { leaderboardParticipation: true }
+  }).allowed, true);
+  assert.equal(resolveInstitutionalPolicy({
+    actor: actors.teacherAssigned,
+    learnerId: 'learner-a',
+    classId: 'class-a',
+    featureIntent: FeatureIntents.LEADERBOARD_PARTICIPATION,
+    schoolPolicy: { leaderboardParticipation: true },
+    featureFlags: { leaderboardParticipation: true }
+  }).allowed, true);
+  assert.equal(resolveInstitutionalPolicy({
+    actor: actors.guardianLinked,
+    learnerId: 'learner-a',
+    featureIntent: FeatureIntents.LEADERBOARD_PARTICIPATION,
+    guardianConsent: { leaderboardParticipation: true },
+    featureFlags: { leaderboardParticipation: false }
   }).reason, 'feature_flag_disabled');
 });
 

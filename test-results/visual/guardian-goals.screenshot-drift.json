@@ -2,10 +2,10 @@
   "caseName": "guardian-goals",
   "warning": "Screenshot encoding metadata changed while semantic visual summary matched.",
   "screenshotOnlyDrift": true,
-  "byteDelta": 1739,
+  "byteDelta": 20958,
   "actual": {
-    "screenshotSha256": "6d65703ea8a4574dc8dbe9cb6bb400f6cbabd9c2f68be3bfa8bf2e818c99c5eb",
-    "screenshotBytes": 107480
+    "screenshotSha256": "8c7b76ba81b3efbe19e0fd33dec8567f6fcae14838576c255d9df8bc999ab776",
+    "screenshotBytes": 84783
   },
   "expected": {
     "screenshotSha256": "346efa79a17af96978116cba7e121138360c6808701f6efa8a20ceb7fc19ddd4",

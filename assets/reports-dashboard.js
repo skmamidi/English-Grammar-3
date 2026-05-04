@@ -1044,7 +1044,7 @@
           <h3>Explanation Shown</h3>
           ${selectedExplanation ? `<div class="report-note"><span>For the selected answer</span><p>${escapeHtml(selectedExplanation)}</p></div>` : '<p class="empty-report">No explanation was saved with this older record.</p>'}
           ${explanationRows}
-          ${renderStudyAidForReport(detail.studyAid)}
+          ${renderStudyAidForReport(detail)}
         </section>
       </div>
     `;
@@ -1327,12 +1327,33 @@
     `;
   }
 
-  function renderStudyAidForReport(studyAid) {
+  function renderStudyAidForReport(detail) {
+    const studyAid = detail && detail.studyAid;
     if (!studyAid) return '';
     return [
       studyAid.definition ? `<div class="report-note"><span>Study tip</span><p>${escapeHtml(studyAid.definition)}</p></div>` : '',
-      studyAid.example ? `<div class="report-note"><span>Example</span><p>${escapeHtml(studyAid.example)}</p></div>` : ''
+      studyAid.example ? `<div class="report-note"><span>Example</span><p>${escapeHtml(studyAid.example)}</p></div>` : '',
+      renderStudyAidInternalLinksForReport(detail)
     ].filter(Boolean).join('');
+  }
+
+  function renderStudyAidInternalLinksForReport(detail) {
+    const domain = window.GrammarQuestStudyAidLinks;
+    if (!domain || typeof domain.normalizeStudyAidInternalLinks !== 'function') return '';
+    const links = domain.normalizeStudyAidInternalLinks({
+      sourceSet: detail.sourceSet || detail.subtopicId || '',
+      studyAid: detail.studyAid || {},
+      questionManifest: window.QUESTION_MANIFEST || {},
+      lessonManifest: window.STORY_LESSON_MANIFEST || {}
+    });
+    if (!links.length) return '';
+    return `<div class="report-note"><span>Lessons</span>${links.map(link => `<p><a href="${escapeHtml(resolveReportLessonHref(link.route))}" data-report-lesson-link>${escapeHtml(link.label)}</a></p>`).join('')}</div>`;
+  }
+
+  function resolveReportLessonHref(route) {
+    const path = route && route.webPath || '';
+    if (!path || /^https?:/i.test(path)) return '#';
+    return path;
   }
 
   function getSelectedExplanation(detail) {

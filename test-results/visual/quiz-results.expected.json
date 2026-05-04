@@ -1,0 +1,59 @@
+{
+  "name": "quiz-results",
+  "file": "topics/capitalization/subtopics/books-magazines-songs-plays.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.138",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
+  "screenshotSha256": "4e4e659f9fcfe6a3240149e3a577f660f1be469110157123bef2f388fdf76a25",
+  "screenshotBytes": 81388,
+  "summary": {
+    "title": "Books, Magazines, Songs, and Plays",
+    "semanticTextHash": "1893704948",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← Back to Topic",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "MISSION COMPLETE 3 / 15 20% correct Keep practicing! Use the study aids to learn more, then try the quiz again. 12 questions marked for review 0 strategy clues opened Slow down con",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 87,
+          "width": 1032,
+          "height": 1031
+        }
+      },
+      {
+        "selector": ".results-box",
+        "text": "MISSION COMPLETE 3 / 15 20% correct Keep practicing! Use the study aids to learn more, then try the quiz again. 12 questions marked for review 0 strategy clues opened Slow down con",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 87,
+          "width": 1032,
+          "height": 1031
+        }
+      }
+    ]
+  }
+}

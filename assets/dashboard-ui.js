@@ -50,10 +50,12 @@
         ${kpi('Assignments', projection.summary.activeAssignmentCount)}
         ${kpi('Due review', projection.summary.dueReviewCount)}
         ${kpi('Goals met', typeof projection.summary.goalMetCount === 'number' ? projection.summary.goalMetCount : 0)}
+        ${kpi('XP', typeof projection.summary.totalXp === 'number' ? projection.summary.totalXp : 0)}
         ${kpi('Open reports', projection.summary.openQuestionReportCount)}
       </section>
       <section class="reports-board dashboard-grid" aria-label="Learning dashboard cards">
         ${goalProjectionCard(projection.goalProjection, projection.nextGoalAction)}
+        ${xpSummaryCard(projection.xpSummary)}
         ${card('Goals', projection.goalHighlights, item => `${escapeHtml(item.label)} <span>${escapeHtml(item.current)} / ${escapeHtml(item.target)}${item.met ? ' met' : ''} · ${escapeHtml(item.message)}</span>`)}
         ${card('Skill priorities', projection.skillHighlights, item => `${escapeHtml(item.label)} <span>${escapeHtml(item.message)}</span>`)}
         ${card('Assignments', projection.assignmentHighlights, item => `${escapeHtml(item.title)} <span>${escapeHtml(item.status)}</span>`)}
@@ -130,6 +132,26 @@
         <p class="goal-dashboard-summary">${escapeHtml(projection.summary)}</p>
         <ul class="goal-dashboard-list">${rows || '<li><span>Goals</span><strong>empty</strong><small>No goal activity yet.</small></li>'}</ul>
         <button class="secondary-action goal-dashboard-action" type="button" data-goal-card-id="${escapeHtml(next.type || 'summary')}" data-goal-band="${escapeHtml(projection.summaryBand)}">${escapeHtml(next.label || 'Keep going')}</button>
+      </article>`;
+  }
+
+  function xpSummaryCard(summary) {
+    if (!summary) {
+      return '<article class="student-report-card xp-dashboard-card"><h2>XP trends</h2><p class="empty-report">No XP summary is available yet.</p></article>';
+    }
+    const awards = summary.recentAwards && summary.recentAwards.length
+      ? summary.recentAwards.map(item => `<li><strong>+${escapeHtml(item.awardedXp)} XP</strong><span>${escapeHtml(item.source.replace(/_/g, ' '))}</span></li>`).join('')
+      : '<li><strong>0 XP</strong><span>No recent awards</span></li>';
+    return `
+      <article class="student-report-card xp-dashboard-card">
+        <h2>XP trends</h2>
+        <p class="goal-dashboard-summary">${escapeHtml(summary.guardianCopy)}</p>
+        <ul class="goal-dashboard-list">
+          <li><span>Total XP</span><strong>${escapeHtml(summary.totalXp)}</strong><small>${escapeHtml(summary.weeklyXp)} this week</small></li>
+          <li><span>Trend</span><strong>${escapeHtml(summary.trend.direction)}</strong><small>${escapeHtml(summary.trend.deltaXp)} XP change</small></li>
+          <li><span>Sync</span><strong>${escapeHtml(summary.reconciliation.status)}</strong><small>${escapeHtml(summary.reconciliation.copy)}</small></li>
+        </ul>
+        <ul class="dashboard-list xp-award-list">${awards}</ul>
       </article>`;
   }
 

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-singular-plural-nouns",
+  "domain": "grammar",
+  "title": "Singular and Plural Nouns",
+  "version": 1,
+  "contentHash": "sha256:grammar-singular-plural-nouns-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "singular-plural-nouns-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to naming one noun or more than one noun."
+        }
+      ],
+      "conceptRules": [
+        "Look for naming one noun or more than one noun in a short sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "one fox",
+          "explanation": "This shows naming one noun or more than one noun clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "three boxes",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "the children",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking naming one noun or more than one noun?",
+          "answer": "A singular noun names one, and a plural noun names more than one."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "singular and plural",
+          "definition": "A grammar skill for naming one noun or more than one noun."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Singular and Plural Nouns",
+        "targetSetId": "grammar-singular-plural-nouns"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "singular-plural-nouns-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to naming one noun or more than one noun."
+        }
+      ],
+      "conceptRules": [
+        "A singular noun names one, and a plural noun names more than one."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "one fox",
+          "explanation": "This shows naming one noun or more than one noun clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "three boxes",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "the children",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking naming one noun or more than one noun?",
+          "answer": "A singular noun names one, and a plural noun names more than one."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "singular and plural",
+          "definition": "A grammar skill for naming one noun or more than one noun."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Singular and Plural Nouns",
+        "targetSetId": "grammar-singular-plural-nouns"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "singular-plural-nouns-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for naming one noun or more than one noun."
+        }
+      ],
+      "conceptRules": [
+        "A singular noun names one, and a plural noun names more than one."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "one fox",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "three boxes",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "the children",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking naming one noun or more than one noun?",
+          "answer": "A singular noun names one, and a plural noun names more than one."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "singular and plural",
+          "definition": "A grammar skill for naming one noun or more than one noun."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Singular and Plural Nouns",
+        "targetSetId": "grammar-singular-plural-nouns"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "singular-plural-nouns-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for naming one noun or more than one noun."
+        }
+      ],
+      "conceptRules": [
+        "A singular noun names one, and a plural noun names more than one."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "one fox",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "three boxes",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "the children",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking naming one noun or more than one noun?",
+          "answer": "A singular noun names one, and a plural noun names more than one."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "singular and plural",
+          "definition": "A grammar skill for naming one noun or more than one noun."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Singular and Plural Nouns",
+        "targetSetId": "grammar-singular-plural-nouns"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "singular-plural-nouns-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final paragraph and transfer naming one noun or more than one noun into independent editing."
+        }
+      ],
+      "conceptRules": [
+        "A singular noun names one, and a plural noun names more than one. Transfer the check into editing by explaining why the sentence works."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "one fox",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "three boxes",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "the children",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking naming one noun or more than one noun?",
+          "answer": "A singular noun names one, and a plural noun names more than one."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess by sound alone; prove the grammar relationship in the sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "singular and plural",
+          "definition": "A grammar skill for naming one noun or more than one noun."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Singular and Plural Nouns",
+        "targetSetId": "grammar-singular-plural-nouns"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-irregular-nouns-plurals",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-apostrophes-possessives",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the grammar foundation"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks near misses and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "singular-plural-nouns"
+    ],
+    "skillIds": [
+      "grammar.foundations"
+    ],
+    "standardIds": [
+      "L.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-singular-plural-nouns-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

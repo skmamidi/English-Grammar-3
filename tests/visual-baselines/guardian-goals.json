@@ -7,7 +7,7 @@
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.138",
+    "browserVersion": "147.0.7727.15",
     "platform": "darwin",
     "viewport": {
       "width": 1280,
@@ -15,8 +15,8 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "346efa79a17af96978116cba7e121138360c6808701f6efa8a20ceb7fc19ddd4",
-  "screenshotBytes": 105741,
+  "screenshotSha256": "8c7b76ba81b3efbe19e0fd33dec8567f6fcae14838576c255d9df8bc999ab776",
+  "screenshotBytes": 84783,
   "summary": {
     "title": "Parent Learning Dashboard",
     "semanticTextHash": "-1189406803",

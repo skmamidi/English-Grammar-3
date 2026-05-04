@@ -244,6 +244,46 @@ test('learner state repository stores spaced repetition schedules as refs', () =
   assert.equal(repository.getReviewSchedules()[0].ref.id, 'grammar-sentence-types-q0001');
 });
 
+test('learner state repository stores lesson progress metadata and drops unsafe body fields', () => {
+  const repository = createRepository();
+
+  const started = repository.recordLessonProgressEvent({
+    type: 'lesson_started',
+    setId: 'vocabulary-homophones',
+    grade: 4,
+    version: 1,
+    contentHash: 'sha256:lesson',
+    sourceRoute: '/topics/vocabulary/subtopics/homophones.html?learnerId=secret',
+    storyBeats: [{ narrative: 'Do not store lesson body' }]
+  });
+  const completed = repository.recordLessonProgressEvent({
+    type: 'lesson_completed',
+    setId: 'vocabulary-homophones',
+    grade: 4,
+    completedAt: '2030-04-29T12:06:00.000Z',
+    examples: [{ text: 'Do not store examples' }]
+  });
+
+  assert.equal(started.status, 'in_progress');
+  assert.equal(completed.status, 'completed');
+  assert.equal(repository.listLessonProgress({ status: 'completed' }).length, 1);
+  assert.equal(repository.getProgress().lessonProgress[0].sourceRoute, '/topics/vocabulary/subtopics/homophones.html');
+  assert.equal(JSON.stringify(repository.getProgress().lessonProgress).includes('Do not store'), false);
+});
+
+test('learner state repository normalizes corrupt and duplicate lesson progress records', () => {
+  const normalized = normalizeLearnerState({
+    lessonProgress: [
+      { setId: '', grade: 4, status: 'completed' },
+      { setId: 'grammar-sentence-types', grade: 4, status: 'in_progress', updatedAt: '2030-04-29T12:01:00.000Z' },
+      { setId: 'grammar-sentence-types', grade: 4, status: 'completed', completedAt: '2030-04-29T12:02:00.000Z', updatedAt: '2030-04-29T12:02:00.000Z' }
+    ]
+  });
+
+  assert.equal(normalized.lessonProgress.length, 1);
+  assert.equal(normalized.lessonProgress[0].status, 'completed');
+});
+
 test('learner state repository drops corrupt spaced repetition schedule entries', () => {
   const normalized = normalizeLearnerState({
     reviewSchedules: [
@@ -477,11 +517,21 @@ test('learner state repository previews restore and blocks stale backups after t
 
   const restored = repository.restoreLearnerStateFromBackup({
     app: { exportedAt: '2030-05-02T12:00:00.000Z' },
-    data: { progress: { totalGems: 5 } }
+    data: {
+      progress: { totalGems: 5 },
+      lessonProgress: [{
+        setId: 'grammar-sentence-types',
+        grade: 4,
+        status: 'completed',
+        storyBeats: [{ narrative: 'Do not import body text' }]
+      }]
+    }
   }, { confirm: true });
 
   assert.equal(restored.allowed, true);
   assert.equal(repository.getProgress().totalGems, 5);
+  assert.equal(repository.getProgress().lessonProgress.length, 1);
+  assert.equal(JSON.stringify(repository.getProgress().lessonProgress).includes('Do not import'), false);
 });
 
 test('learner state repository quarantines corrupt remote sync records before local writes', async () => {

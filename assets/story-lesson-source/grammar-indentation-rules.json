@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-indentation-rules",
+  "domain": "grammar",
+  "title": "Indentation Rules",
+  "version": 1,
+  "contentHash": "sha256:grammar-indentation-rules-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "indentation-rules-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan starting paragraphs with clear indentation."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for starting paragraphs with clear indentation."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "    Mina began a new paragraph.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "No indent after a topic change.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise paragraph breaks before final copy.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for starting paragraphs with clear indentation?",
+          "answer": "Indentation can show where a new paragraph begins."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows starting paragraphs with clear indentation?",
+          "answer": "    Mina began a new paragraph."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "No indent after a topic change."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise paragraph breaks before final copy."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "indentation rules",
+          "definition": "A writing or language strategy for starting paragraphs with clear indentation."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Indentation Rules",
+        "targetSetId": "grammar-indentation-rules"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "indentation-rules-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks starting paragraphs with clear indentation."
+        }
+      ],
+      "conceptRules": [
+        "Indentation can show where a new paragraph begins."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "    Mina began a new paragraph.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "No indent after a topic change.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise paragraph breaks before final copy.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for starting paragraphs with clear indentation?",
+          "answer": "Indentation can show where a new paragraph begins."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows starting paragraphs with clear indentation?",
+          "answer": "    Mina began a new paragraph."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "No indent after a topic change."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise paragraph breaks before final copy."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "indentation rules",
+          "definition": "A writing or language strategy for starting paragraphs with clear indentation."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Indentation Rules",
+        "targetSetId": "grammar-indentation-rules"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "indentation-rules-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks starting paragraphs with clear indentation."
+        }
+      ],
+      "conceptRules": [
+        "Indentation can show where a new paragraph begins."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "    Mina began a new paragraph.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "No indent after a topic change.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise paragraph breaks before final copy.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for starting paragraphs with clear indentation?",
+          "answer": "Indentation can show where a new paragraph begins."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows starting paragraphs with clear indentation?",
+          "answer": "    Mina began a new paragraph."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "No indent after a topic change."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise paragraph breaks before final copy."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "indentation rules",
+          "definition": "A writing or language strategy for starting paragraphs with clear indentation."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Indentation Rules",
+        "targetSetId": "grammar-indentation-rules"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "indentation-rules-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks starting paragraphs with clear indentation."
+        }
+      ],
+      "conceptRules": [
+        "Indentation can show where a new paragraph begins."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "    Mina began a new paragraph.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "No indent after a topic change.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise paragraph breaks before final copy.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for starting paragraphs with clear indentation?",
+          "answer": "Indentation can show where a new paragraph begins."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows starting paragraphs with clear indentation?",
+          "answer": "    Mina began a new paragraph."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "No indent after a topic change."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise paragraph breaks before final copy."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "indentation rules",
+          "definition": "A writing or language strategy for starting paragraphs with clear indentation."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Indentation Rules",
+        "targetSetId": "grammar-indentation-rules"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "indentation-rules-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer starting paragraphs with clear indentation to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Indentation can show where a new paragraph begins. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "    Mina began a new paragraph.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "No indent after a topic change.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise paragraph breaks before final copy.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for starting paragraphs with clear indentation?",
+          "answer": "Indentation can show where a new paragraph begins."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows starting paragraphs with clear indentation?",
+          "answer": "    Mina began a new paragraph."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "No indent after a topic change."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise paragraph breaks before final copy."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "indentation rules",
+          "definition": "A writing or language strategy for starting paragraphs with clear indentation."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Indentation Rules",
+        "targetSetId": "grammar-indentation-rules"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-paragraph-structure",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-revising-editing-strategy",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "indentation-rules"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-indentation-rules-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

@@ -123,6 +123,19 @@ test('PR readiness monitor requires completed PR roadmap items to be checked off
   assert.match(result.issues.join('\n'), /completed but roadmap item 6\.10 is not checked off/);
 });
 
+test('PR readiness monitor fails implemented roadmap evidence left in ready status', () => {
+  const root = makeFixture();
+  const registry = validRegistry();
+  registry.prs[1].roadmapItems = ['12.7'];
+
+  const result = validateRegistry(registry, root, {
+    now: new Date('2026-04-30T12:38:00Z')
+  });
+
+  assert.equal(result.ok, false);
+  assert.match(result.issues.join('\n'), /PR 95 is ready but roadmap item 12\.7 is already checked off/);
+});
+
 test('PR readiness monitor fails stale suggested-order rows with completed evidence rows', () => {
   const root = makeFixture({ staleSuggestedRows: true });
   const result = validateRegistry(validRegistry(), root, {

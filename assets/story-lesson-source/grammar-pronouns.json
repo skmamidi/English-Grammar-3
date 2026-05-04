@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-pronouns",
+  "domain": "grammar",
+  "title": "Pronouns",
+  "version": 1,
+  "contentHash": "sha256:grammar-pronouns-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "pronouns-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to using pronouns in place of nouns."
+        }
+      ],
+      "conceptRules": [
+        "Look for using pronouns in place of nouns in a short sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina lost her map.",
+          "explanation": "This shows using pronouns in place of nouns clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo and I found it.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "The team packed their bags.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking using pronouns in place of nouns?",
+          "answer": "A pronoun can replace a noun when the reader knows who or what it means."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronouns",
+          "definition": "A grammar skill for using pronouns in place of nouns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronouns",
+        "targetSetId": "grammar-pronouns"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "pronouns-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to using pronouns in place of nouns."
+        }
+      ],
+      "conceptRules": [
+        "A pronoun can replace a noun when the reader knows who or what it means."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina lost her map.",
+          "explanation": "This shows using pronouns in place of nouns clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo and I found it.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "The team packed their bags.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking using pronouns in place of nouns?",
+          "answer": "A pronoun can replace a noun when the reader knows who or what it means."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronouns",
+          "definition": "A grammar skill for using pronouns in place of nouns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronouns",
+        "targetSetId": "grammar-pronouns"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "pronouns-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for using pronouns in place of nouns."
+        }
+      ],
+      "conceptRules": [
+        "A pronoun can replace a noun when the reader knows who or what it means."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina lost her map.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo and I found it.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "The team packed their bags.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking using pronouns in place of nouns?",
+          "answer": "A pronoun can replace a noun when the reader knows who or what it means."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronouns",
+          "definition": "A grammar skill for using pronouns in place of nouns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronouns",
+        "targetSetId": "grammar-pronouns"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "pronouns-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for using pronouns in place of nouns."
+        }
+      ],
+      "conceptRules": [
+        "A pronoun can replace a noun when the reader knows who or what it means."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina lost her map.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo and I found it.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "The team packed their bags.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking using pronouns in place of nouns?",
+          "answer": "A pronoun can replace a noun when the reader knows who or what it means."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronouns",
+          "definition": "A grammar skill for using pronouns in place of nouns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronouns",
+        "targetSetId": "grammar-pronouns"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "pronouns-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final paragraph and transfer using pronouns in place of nouns into independent editing."
+        }
+      ],
+      "conceptRules": [
+        "A pronoun can replace a noun when the reader knows who or what it means. Transfer the check into editing by explaining why the sentence works."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina lost her map.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo and I found it.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "The team packed their bags.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking using pronouns in place of nouns?",
+          "answer": "A pronoun can replace a noun when the reader knows who or what it means."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess by sound alone; prove the grammar relationship in the sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronouns",
+          "definition": "A grammar skill for using pronouns in place of nouns."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronouns",
+        "targetSetId": "grammar-pronouns"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-pronoun-agreement-case",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-subject-predicate",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the grammar foundation"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks near misses and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "pronouns"
+    ],
+    "skillIds": [
+      "grammar.foundations"
+    ],
+    "standardIds": [
+      "L.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-pronouns-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

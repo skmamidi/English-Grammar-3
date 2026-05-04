@@ -33,6 +33,7 @@ test('real canonical JSON sources pass schema validation', () => {
   ['unknown skill id', question => { question.metadata.skillIds = ['grammar.unknown-skill']; }, /unknown skillId "grammar\.unknown-skill"/],
   ['domain-incompatible skill id', question => { question.metadata.skillIds = ['vocabulary.word-study']; }, /does not belong to domain "grammar"/],
   ['unknown standard id', question => { question.metadata.standardIds = ['NOT.A.STANDARD']; }, /unknown standardId "NOT\.A\.STANDARD"/],
+  ['unsafe study aid internal link', question => { question.studyAid = { internalLinks: [{ targetSetId: 'https://evil.example/lesson', reason: 'external' }] }; }, /studyAid\.internalLinks targetSetId is unsafe/],
   ['domain mismatch', null, /domain is "vocabulary"; expected "grammar"/, source => { source.domain = 'vocabulary'; }]
 ].forEach(([name, mutateQuestion, expected, mutateSource]) => {
   test(`schema validation fails for ${name}`, () => {

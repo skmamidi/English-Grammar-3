@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-periods-abbreviations",
+  "domain": "punctuation",
+  "title": "Periods in Abbreviations",
+  "version": 1,
+  "contentHash": "sha256:punctuation-periods-abbreviations-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "periods-abbreviations-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice periods in abbreviations."
+        }
+      ],
+      "conceptRules": [
+        "Some shortened words use a period."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Patel",
+          "explanation": "This example helps learners see periods in abbreviations."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jan.",
+          "explanation": "This example helps learners see periods in abbreviations."
+        },
+        {
+          "type": "transfer",
+          "text": "A.M.",
+          "explanation": "This example helps learners see periods in abbreviations."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for periods in abbreviations?",
+          "answer": "Use periods in many abbreviations for titles, initials, and shortened words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not remove the abbreviation period just because the sentence keeps going."
+      ],
+      "vocabulary": [
+        {
+          "term": "abbreviation",
+          "definition": "A shortened form of a word or phrase."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Periods in Abbreviations",
+        "targetSetId": "punctuation-periods-abbreviations"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "periods-abbreviations-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice periods in abbreviations."
+        }
+      ],
+      "conceptRules": [
+        "Use periods in many abbreviations for titles, initials, and shortened words."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Patel",
+          "explanation": "This example helps learners see periods in abbreviations."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jan.",
+          "explanation": "This example helps learners see periods in abbreviations."
+        },
+        {
+          "type": "transfer",
+          "text": "A.M.",
+          "explanation": "This example helps learners see periods in abbreviations."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for periods in abbreviations?",
+          "answer": "Use periods in many abbreviations for titles, initials, and shortened words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not remove the abbreviation period just because the sentence keeps going."
+      ],
+      "vocabulary": [
+        {
+          "term": "abbreviation",
+          "definition": "A shortened form of a word or phrase."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Periods in Abbreviations",
+        "targetSetId": "punctuation-periods-abbreviations"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "periods-abbreviations-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how periods in abbreviations changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use periods in many abbreviations for titles, initials, and shortened words."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Patel",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jan.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "A.M.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for periods in abbreviations?",
+          "answer": "Use periods in many abbreviations for titles, initials, and shortened words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not remove the abbreviation period just because the sentence keeps going."
+      ],
+      "vocabulary": [
+        {
+          "term": "abbreviation",
+          "definition": "A shortened form of a word or phrase."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Periods in Abbreviations",
+        "targetSetId": "punctuation-periods-abbreviations"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "periods-abbreviations-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how periods in abbreviations changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use periods in many abbreviations for titles, initials, and shortened words."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Patel",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jan.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "A.M.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for periods in abbreviations?",
+          "answer": "Use periods in many abbreviations for titles, initials, and shortened words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not remove the abbreviation period just because the sentence keeps going."
+      ],
+      "vocabulary": [
+        {
+          "term": "abbreviation",
+          "definition": "A shortened form of a word or phrase."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Periods in Abbreviations",
+        "targetSetId": "punctuation-periods-abbreviations"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "periods-abbreviations-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using periods in abbreviations to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Use periods in many abbreviations for titles, initials, and shortened words. Follow the style used by the abbreviation, especially for initials, time labels, and formal titles."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr. Patel",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jan.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "A.M.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for periods in abbreviations?",
+          "answer": "Use periods in many abbreviations for titles, initials, and shortened words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not remove the abbreviation period just because the sentence keeps going. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "abbreviation",
+          "definition": "A shortened form of a word or phrase."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Periods in Abbreviations",
+        "targetSetId": "punctuation-periods-abbreviations"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-abbreviations-acronyms",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "capitalization-proper-names-titles",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "periods-abbreviations"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-periods-abbreviations-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

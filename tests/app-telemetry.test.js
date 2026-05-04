@@ -143,6 +143,41 @@ test('app telemetry sink gates goal-card interaction telemetry by consent and pr
   assert.deepEqual(previewSent, []);
 });
 
+test('app telemetry sink gates lesson lifecycle telemetry by preferences and strips lesson content', () => {
+  const sent = [];
+  const sink = createAppTelemetrySink({
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: { telemetryEnabled: true },
+    route: '/topics/vocabulary/subtopics/homophones.html?learnerId=secret',
+    transport: event => sent.push(event),
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+
+  assert.equal(sink.capture({
+    type: 'lesson_completed',
+    lesson: {
+      setId: 'vocabulary-homophones',
+      grade: 4,
+      status: 'completed',
+      storyBeats: [{ narrative: 'Raw lesson body' }]
+    }
+  }).status, 'sent');
+  assert.equal(sent.length, 1);
+  assert.equal(sent[0].route, '/topics/vocabulary/subtopics/homophones.html');
+  assert.equal(JSON.stringify(sent[0]).includes('Raw lesson body'), false);
+
+  const optedOut = [];
+  const optOutSink = createAppTelemetrySink({
+    enabled: true,
+    consent: { telemetry: true },
+    privacyPreferences: { telemetryEnabled: false },
+    transport: event => optedOut.push(event)
+  });
+  assert.equal(optOutSink.capture({ type: 'lesson_started', lesson: { setId: 'grammar-sentence-types' } }).status, 'disabled');
+  assert.deepEqual(optedOut, []);
+});
+
 function createFakeTarget() {
   const listeners = {};
   return {

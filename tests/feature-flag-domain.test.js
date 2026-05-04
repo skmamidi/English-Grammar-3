@@ -41,3 +41,28 @@ test('invalid feature flag config fails closed for risky features', () => {
   assert.equal(flags.preloadingEnabled, false);
   assert.deepEqual(DEFAULT_FEATURE_FLAGS.serverSelectionPilotDomains, []);
 });
+
+test('XP rollout flags fail closed and can be controlled independently', () => {
+  const defaults = normalizeFeatureFlags({});
+  assert.equal(defaults.coreLocalPracticeEnabled, true);
+  assert.equal(defaults.xpLocalPreviewEnabled, false);
+  assert.equal(defaults.xpServerAwardingEnabled, false);
+  assert.equal(defaults.leaderboardMaterializationEnabled, false);
+  assert.equal(defaults.leaderboardDisplayEnabled, false);
+  assert.equal(defaults.xpTelemetryEnabled, false);
+
+  const flags = normalizeFeatureFlags({
+    xpLocalPreviewEnabled: true,
+    xpServerAwardingEnabled: false,
+    leaderboardMaterializationEnabled: true,
+    leaderboardDisplayEnabled: false,
+    xpTelemetryEnabled: true
+  });
+
+  assert.equal(isFeatureEnabled(flags, 'xpLocalPreviewEnabled'), true);
+  assert.equal(isFeatureEnabled(flags, 'xpServerAwardingEnabled'), false);
+  assert.equal(isFeatureEnabled(flags, 'leaderboardMaterializationEnabled'), true);
+  assert.equal(isFeatureEnabled(flags, 'leaderboardDisplayEnabled'), false);
+  assert.equal(isFeatureEnabled(flags, 'xpTelemetryEnabled'), true);
+  assert.equal(flags.coreLocalPracticeEnabled, true);
+});

@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-sentence-combinations",
+  "domain": "grammar",
+  "title": "Sentence Combinations",
+  "version": 1,
+  "contentHash": "sha256:grammar-sentence-combinations-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "sentence-combinations-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan combining short sentences clearly."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for combining short sentences clearly."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina found a key, and Jo opened the box.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina found a key Jo opened the box.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Because the lock clicked, the team cheered.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for combining short sentences clearly?",
+          "answer": "Combine sentences when ideas belong together and the meaning stays clear."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows combining short sentences clearly?",
+          "answer": "Mina found a key, and Jo opened the box."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina found a key Jo opened the box."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Because the lock clicked, the team cheered."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence combinations",
+          "definition": "A writing or language strategy for combining short sentences clearly."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Combinations",
+        "targetSetId": "grammar-sentence-combinations"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "sentence-combinations-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks combining short sentences clearly."
+        }
+      ],
+      "conceptRules": [
+        "Combine sentences when ideas belong together and the meaning stays clear."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina found a key, and Jo opened the box.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina found a key Jo opened the box.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Because the lock clicked, the team cheered.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for combining short sentences clearly?",
+          "answer": "Combine sentences when ideas belong together and the meaning stays clear."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows combining short sentences clearly?",
+          "answer": "Mina found a key, and Jo opened the box."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina found a key Jo opened the box."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Because the lock clicked, the team cheered."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence combinations",
+          "definition": "A writing or language strategy for combining short sentences clearly."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Combinations",
+        "targetSetId": "grammar-sentence-combinations"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "sentence-combinations-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks combining short sentences clearly."
+        }
+      ],
+      "conceptRules": [
+        "Combine sentences when ideas belong together and the meaning stays clear."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina found a key, and Jo opened the box.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina found a key Jo opened the box.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Because the lock clicked, the team cheered.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for combining short sentences clearly?",
+          "answer": "Combine sentences when ideas belong together and the meaning stays clear."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows combining short sentences clearly?",
+          "answer": "Mina found a key, and Jo opened the box."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina found a key Jo opened the box."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Because the lock clicked, the team cheered."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence combinations",
+          "definition": "A writing or language strategy for combining short sentences clearly."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Combinations",
+        "targetSetId": "grammar-sentence-combinations"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "sentence-combinations-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks combining short sentences clearly."
+        }
+      ],
+      "conceptRules": [
+        "Combine sentences when ideas belong together and the meaning stays clear."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina found a key, and Jo opened the box.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina found a key Jo opened the box.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Because the lock clicked, the team cheered.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for combining short sentences clearly?",
+          "answer": "Combine sentences when ideas belong together and the meaning stays clear."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows combining short sentences clearly?",
+          "answer": "Mina found a key, and Jo opened the box."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina found a key Jo opened the box."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Because the lock clicked, the team cheered."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence combinations",
+          "definition": "A writing or language strategy for combining short sentences clearly."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Combinations",
+        "targetSetId": "grammar-sentence-combinations"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "sentence-combinations-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer combining short sentences clearly to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Combine sentences when ideas belong together and the meaning stays clear. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina found a key, and Jo opened the box.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina found a key Jo opened the box.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Because the lock clicked, the team cheered.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for combining short sentences clearly?",
+          "answer": "Combine sentences when ideas belong together and the meaning stays clear."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows combining short sentences clearly?",
+          "answer": "Mina found a key, and Jo opened the box."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Mina found a key Jo opened the box."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Because the lock clicked, the team cheered."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence combinations",
+          "definition": "A writing or language strategy for combining short sentences clearly."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Combinations",
+        "targetSetId": "grammar-sentence-combinations"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-conjunctions",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-variety",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "sentence-combinations"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-sentence-combinations-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

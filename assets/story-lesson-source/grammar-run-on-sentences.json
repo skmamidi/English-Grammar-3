@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-run-on-sentences",
+  "domain": "grammar",
+  "title": "Run-on Sentences",
+  "version": 1,
+  "contentHash": "sha256:grammar-run-on-sentences-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "run-on-sentences-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to fixing sentences that join too many ideas."
+        }
+      ],
+      "conceptRules": [
+        "Look for fixing sentences that join too many ideas in a short sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina ran home. Jo followed.",
+          "explanation": "This shows fixing sentences that join too many ideas clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina ran home Jo followed.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina ran home, and Jo followed.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking fixing sentences that join too many ideas?",
+          "answer": "A run-on sentence joins complete thoughts without correct punctuation or connecting words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "runon sentences",
+          "definition": "A grammar skill for fixing sentences that join too many ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Run-on Sentences",
+        "targetSetId": "grammar-run-on-sentences"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "run-on-sentences-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to fixing sentences that join too many ideas."
+        }
+      ],
+      "conceptRules": [
+        "A run-on sentence joins complete thoughts without correct punctuation or connecting words."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina ran home. Jo followed.",
+          "explanation": "This shows fixing sentences that join too many ideas clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina ran home Jo followed.",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina ran home, and Jo followed.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking fixing sentences that join too many ideas?",
+          "answer": "A run-on sentence joins complete thoughts without correct punctuation or connecting words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "runon sentences",
+          "definition": "A grammar skill for fixing sentences that join too many ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Run-on Sentences",
+        "targetSetId": "grammar-run-on-sentences"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "run-on-sentences-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for fixing sentences that join too many ideas."
+        }
+      ],
+      "conceptRules": [
+        "A run-on sentence joins complete thoughts without correct punctuation or connecting words."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina ran home. Jo followed.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina ran home Jo followed.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina ran home, and Jo followed.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking fixing sentences that join too many ideas?",
+          "answer": "A run-on sentence joins complete thoughts without correct punctuation or connecting words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "runon sentences",
+          "definition": "A grammar skill for fixing sentences that join too many ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Run-on Sentences",
+        "targetSetId": "grammar-run-on-sentences"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "run-on-sentences-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for fixing sentences that join too many ideas."
+        }
+      ],
+      "conceptRules": [
+        "A run-on sentence joins complete thoughts without correct punctuation or connecting words."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina ran home. Jo followed.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina ran home Jo followed.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina ran home, and Jo followed.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking fixing sentences that join too many ideas?",
+          "answer": "A run-on sentence joins complete thoughts without correct punctuation or connecting words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "runon sentences",
+          "definition": "A grammar skill for fixing sentences that join too many ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Run-on Sentences",
+        "targetSetId": "grammar-run-on-sentences"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "run-on-sentences-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final paragraph and transfer fixing sentences that join too many ideas into independent editing."
+        }
+      ],
+      "conceptRules": [
+        "A run-on sentence joins complete thoughts without correct punctuation or connecting words. Transfer the check into editing by explaining why the sentence works."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina ran home. Jo followed.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina ran home Jo followed.",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina ran home, and Jo followed.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking fixing sentences that join too many ideas?",
+          "answer": "A run-on sentence joins complete thoughts without correct punctuation or connecting words."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess by sound alone; prove the grammar relationship in the sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "runon sentences",
+          "definition": "A grammar skill for fixing sentences that join too many ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Run-on Sentences",
+        "targetSetId": "grammar-run-on-sentences"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-sentence-correction",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-types",
+      "relationship": "next_step"
+    },
+    {
+      "setId": "grammar-subject-predicate",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the grammar foundation"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks near misses and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "run-on-sentences"
+    ],
+    "skillIds": [
+      "grammar.foundations"
+    ],
+    "standardIds": [
+      "L.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-run-on-sentences-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

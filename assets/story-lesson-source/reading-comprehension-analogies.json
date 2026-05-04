@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "setId": "reading-comprehension-analogies",
+  "domain": "reading-comprehension",
+  "title": "Analogies",
+  "version": 1,
+  "contentHash": "sha256:reading-comprehension-analogies-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "analogies-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for relationships between pairs of ideas."
+        }
+      ],
+      "conceptRules": [
+        "Use one clue to explain relationships between pairs of ideas."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Bridge: Mina is to map as Jo is to compass because each one guides the team.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports relationships between pairs of ideas?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "analogies",
+          "definition": "A reading strategy for relationships between pairs of ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Analogies",
+        "targetSetId": "reading-comprehension-analogies"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "analogies-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for relationships between pairs of ideas."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain relationships between pairs of ideas."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Bridge: Mina is to map as Jo is to compass because each one guides the team.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports relationships between pairs of ideas?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "analogies",
+          "definition": "A reading strategy for relationships between pairs of ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Analogies",
+        "targetSetId": "reading-comprehension-analogies"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "analogies-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers relationships between pairs of ideas to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain relationships between pairs of ideas."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Bridge: Mina is to map as Jo is to compass because each one guides the team.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports relationships between pairs of ideas?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "analogies",
+          "definition": "A reading strategy for relationships between pairs of ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Analogies",
+        "targetSetId": "reading-comprehension-analogies"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "analogies-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers relationships between pairs of ideas to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain relationships between pairs of ideas."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Bridge: Mina is to map as Jo is to compass because each one guides the team.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports relationships between pairs of ideas?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "analogies",
+          "definition": "A reading strategy for relationships between pairs of ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Analogies",
+        "targetSetId": "reading-comprehension-analogies"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "analogies-g6",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers relationships between pairs of ideas to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use multiple pieces of evidence to explain relationships between pairs of ideas and consider another possible reading."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Bridge: Mina is to map as Jo is to compass because each one guides the team.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports relationships between pairs of ideas?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not stop at a likely answer; weigh competing clues before deciding."
+      ],
+      "vocabulary": [
+        {
+          "term": "analogies",
+          "definition": "A reading strategy for relationships between pairs of ideas."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Analogies",
+        "targetSetId": "reading-comprehension-analogies"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "reading-comprehension-compare-contrast",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "reading-comprehension-inference",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models clue noticing"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches evidence explanation and transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "analogies"
+    ],
+    "skillIds": [
+      "reading.strategy"
+    ],
+    "standardIds": [
+      "RL.RI.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "evidence",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "reading-comprehension-analogies-unsupported-answer"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

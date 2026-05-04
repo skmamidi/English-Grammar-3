@@ -1,0 +1,48 @@
+{
+  "name": "offline-unavailable",
+  "file": "topics/grammar/subtopics/run-on-sentences.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.15",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
+  "screenshotSha256": "def47098674bdcb534f5839d65550a70343fdf00e2264ef5212644afcfebb84d",
+  "screenshotBytes": 77928,
+  "summary": {
+    "title": "Run-on Sentences",
+    "semanticTextHash": "1168534871",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← Back to Topic",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "LEARN FIRST Run-on Sentences Grade 2 3 4 5 6 jo-pocket Jo compares a clean example with a near miss for fixing sentences that join too many ideas. Rules to Try A run-on sentence jo",
+        "visible": true,
+        "rect": {
+          "x": 214,
+          "y": 155,
+          "width": 852,
+          "height": 1266
+        }
+      }
+    ]
+  }
+}

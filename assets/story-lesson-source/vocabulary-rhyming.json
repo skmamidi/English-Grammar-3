@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "vocabulary-rhyming",
+  "domain": "vocabulary",
+  "title": "Rhyming Words",
+  "version": 1,
+  "contentHash": "sha256:vocabulary-rhyming-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "rhyming-g2",
+          "characterRoleId": "guide",
+          "narrative": "Jo sorts word cards and models breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "conceptRules": [
+        "Look at word parts and sentence clues to find meaning."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina breaks playful into play and ful to unlock the word meaning.",
+          "explanation": "This shows how word parts and context support meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo guesses a word without checking the sentence clue.",
+          "explanation": "This near miss guesses before checking word clues."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses the root, word part, and context clue in a new sentence.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Word step: Which word part, meaning clue, or context clue helps?",
+          "answer": "Use the word part and sentence context before choosing meaning."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess a word meaning without checking parts or context."
+      ],
+      "vocabulary": [
+        {
+          "term": "rhyming words",
+          "definition": "A word-analysis strategy for breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Rhyming Words",
+        "targetSetId": "vocabulary-rhyming"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "rhyming-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo sorts word cards and models breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "conceptRules": [
+        "Use word parts, spelling patterns, and context clues to solve word meaning."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina breaks playful into play and ful to unlock the word meaning.",
+          "explanation": "This shows how word parts and context support meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo guesses a word without checking the sentence clue.",
+          "explanation": "This near miss guesses before checking word clues."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses the root, word part, and context clue in a new sentence.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Word step: Which word part, meaning clue, or context clue helps?",
+          "answer": "Use the word part and sentence context before choosing meaning."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess a word meaning without checking parts or context."
+      ],
+      "vocabulary": [
+        {
+          "term": "rhyming words",
+          "definition": "A word-analysis strategy for breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Rhyming Words",
+        "targetSetId": "vocabulary-rhyming"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "rhyming-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo sorts word cards and models breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "conceptRules": [
+        "Use word parts, spelling patterns, and context clues to solve word meaning."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina breaks playful into play and ful to unlock the word meaning.",
+          "explanation": "This shows how word parts and context support meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo guesses a word without checking the sentence clue.",
+          "explanation": "This near miss guesses before checking word clues."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses the root, word part, and context clue in a new sentence.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Word step: Which word part, meaning clue, or context clue helps?",
+          "answer": "Use the word part and sentence context before choosing meaning."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess a word meaning without checking parts or context."
+      ],
+      "vocabulary": [
+        {
+          "term": "rhyming words",
+          "definition": "A word-analysis strategy for breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Rhyming Words",
+        "targetSetId": "vocabulary-rhyming"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "rhyming-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo sorts word cards and models breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "conceptRules": [
+        "Use word parts, spelling patterns, and context clues to solve word meaning."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina breaks playful into play and ful to unlock the word meaning.",
+          "explanation": "This shows how word parts and context support meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo guesses a word without checking the sentence clue.",
+          "explanation": "This near miss guesses before checking word clues."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses the root, word part, and context clue in a new sentence.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Word step: Which word part, meaning clue, or context clue helps?",
+          "answer": "Use the word part and sentence context before choosing meaning."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess a word meaning without checking parts or context."
+      ],
+      "vocabulary": [
+        {
+          "term": "rhyming words",
+          "definition": "A word-analysis strategy for breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Rhyming Words",
+        "targetSetId": "vocabulary-rhyming"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "rhyming-g6",
+          "characterRoleId": "coach",
+          "narrative": "Jo sorts word cards and models breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "conceptRules": [
+        "Analyze word parts, context, shade, and origin before choosing the most precise meaning."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina breaks playful into play and ful to unlock the word meaning.",
+          "explanation": "This shows how word parts and context support meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo guesses a word without checking the sentence clue.",
+          "explanation": "This near miss guesses before checking word clues."
+        },
+        {
+          "type": "transfer",
+          "text": "Mina uses the root, word part, and context clue in a new sentence.",
+          "explanation": "This transfers the strategy to a fresh task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Word step: Which word part, meaning clue, or context clue helps?",
+          "answer": "Use the word part and sentence context before choosing meaning."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess a word meaning without checking parts or context."
+      ],
+      "vocabulary": [
+        {
+          "term": "rhyming words",
+          "definition": "A word-analysis strategy for breaking apart words and using context to find rhyming words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Rhyming Words",
+        "targetSetId": "vocabulary-rhyming"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "vocabulary-word-meaning-context",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "vocabulary-base-words",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models discovery and tool choice"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks word clues and transfer tasks"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "rhyming"
+    ],
+    "skillIds": [
+      "vocabulary.word-analysis"
+    ],
+    "standardIds": [
+      "L.RI.2-6.4"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "vocabulary-rhyming-unsupported-guess"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

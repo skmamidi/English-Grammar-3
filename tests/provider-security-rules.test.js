@@ -24,6 +24,12 @@ test('firestore rule scenarios cover provider-neutral backend policy boundaries'
   assert.ok(ids.includes('deny-unauthenticated-learner-read'));
   assert.ok(ids.includes('deny-parent-preview'));
   assert.ok(ids.includes('allow-linked-guardian-read'));
+  assert.ok(ids.includes('allow-student-xp-attempt-create'));
+  assert.ok(ids.includes('deny-student-xp-projection-write'));
+  assert.ok(ids.includes('allow-server-xp-award-create'));
+  assert.ok(ids.includes('deny-server-xp-award-update'));
+  assert.ok(ids.includes('allow-server-xp-projection-write'));
+  assert.ok(ids.includes('allow-server-leaderboard-write'));
   assert.ok(ids.includes('deny-unlinked-guardian-read'));
   assert.ok(ids.includes('allow-teacher-class-assignment-write'));
   assert.ok(ids.includes('deny-unassigned-teacher-class-read'));

@@ -68,6 +68,60 @@ test('learner state migration preserves normalized progress and keeps localStora
   assert.equal(migrated.reports.questionReports[0].id, 'report-1');
 });
 
+test('learner state migration normalizes optional XP metadata without client-owned totals', async () => {
+  const storage = createMemoryStorage();
+  const source = createLocalStorageLearnerStateAdapter(storage, { storageKey: 'grammarQuestProgress:student-xp' });
+  const target = createIndexedDbLearnerStateAdapter({
+    indexedDB: createFakeIndexedDB(),
+    storageKey: 'grammarQuestProgress:student-xp'
+  });
+  await source.write({
+    totalGems: 12,
+    totalXp: 99999,
+    xpProjection: {
+      totalXp: 99999,
+      currentWeeklyXp: 99999,
+      question: 'Do not copy'
+    },
+    xp: {
+      projectionRef: 'xpProjections/learner-a',
+      projectionUpdatedAt: '2030-04-29T12:00:00.000Z',
+      offlineQueue: [{
+        attemptId: 'attempt-1',
+        idempotencyKey: 'idem-1',
+        status: 'rejected',
+        provisionalXp: 15,
+        rejectionReason: 'stale_content',
+        localPracticeRef: { sessionId: 'session-1' },
+        attemptEvidence: {
+          questionRefs: [{ id: 'grammar-sentence-types-q0001', contentHash: 'sha256:abc' }],
+          selectedAnswers: [{ questionId: 'grammar-sentence-types-q0001', selectedIndex: 0 }],
+          question: 'Do not store prompt',
+          answerKey: [0]
+        }
+      }]
+    }
+  });
+
+  await migrateLocalStorageToIndexedDb({
+    localStorageAdapter: source,
+    indexedDbAdapter: target,
+    markerStorage: storage,
+    markerKey: 'grammarQuestProgress:student-xp.indexeddbMigrated'
+  });
+
+  const migrated = normalizeLearnerState(await target.read());
+  assert.equal(migrated.totalGems, 12);
+  assert.equal(migrated.xp.projectionRef, 'xpProjections/learner-a');
+  assert.equal(migrated.xp.projectionUpdatedAt, '2030-04-29T12:00:00.000Z');
+  assert.equal(migrated.xp.offlineQueue[0].status, 'rejected');
+  assert.equal(migrated.xp.offlineQueue[0].localPracticeRef.sessionId, 'session-1');
+  assert.equal(Object.hasOwn(migrated, 'totalXp'), false);
+  assert.equal(Object.hasOwn(migrated, 'xpProjection'), false);
+  assert.equal(JSON.stringify(migrated.xp).includes('Do not store'), false);
+  assert.equal(JSON.stringify(migrated.xp).includes('answerKey'), false);
+});
+
 test('learner state migration is idempotent once the marker is set', async () => {
   const storage = createMemoryStorage();
   storage.setItem('grammarQuestProgress.indexeddbMigrated', 'true');

@@ -2,14 +2,14 @@
   "caseName": "home",
   "warning": "Screenshot encoding metadata changed while semantic visual summary matched.",
   "screenshotOnlyDrift": true,
-  "byteDelta": 7008,
+  "byteDelta": 224,
   "actual": {
-    "screenshotSha256": "e2a708489245173cd8597a588024f47cadeba691142ab99812f1c50ddd578f77",
-    "screenshotBytes": 134459
+    "screenshotSha256": "fd3b8b80a85ccfbcf9096382b1c9fcaa5c1d5eda7d2e992bba570980ab7388d9",
+    "screenshotBytes": 134683
   },
   "expected": {
-    "screenshotSha256": "a1f57c25188e1ad4fd6893884e1e39d47fab8e82ffef70bf83cc0ec110420065",
-    "screenshotBytes": 127451
+    "screenshotSha256": "e2a708489245173cd8597a588024f47cadeba691142ab99812f1c50ddd578f77",
+    "screenshotBytes": 134459
   },
   "runtime": {
     "browserName": "chromium",
@@ -23,7 +23,7 @@
   },
   "baselineRuntime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.138",
+    "browserVersion": "147.0.7727.15",
     "platform": "darwin",
     "viewport": {
       "width": 1280,

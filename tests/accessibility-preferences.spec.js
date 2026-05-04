@@ -26,7 +26,7 @@ async function main() {
   try {
     await runCase(failures, 'reduced-motion quiz reaches feedback and next question without animation dependency', async () => {
       const page = await newPreferencePage(browser, browserTracker, { reducedMotion: 'reduce' });
-      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html');
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html?practice=1');
       await answerQuestion(page);
       await page.waitForSelector('.feedback-box', { state: 'visible' });
       const motion = await page.evaluate(() => {
@@ -41,6 +41,7 @@ async function main() {
       assert.equal(motion.choiceTransition, '0s');
       assert.equal(motion.feedbackAnimation, 'none');
       assert.equal(motion.feedbackTransition, '0s');
+      assert.match(await textContent(page, '#feedback-area'), /XP preview|server confirms/i);
       await page.click('#next-question-btn');
       assert.match(await textContent(page, '#quiz-root'), /Question|Results|Score|Review/i);
       await page.close();
@@ -57,20 +58,25 @@ async function main() {
 
     await runCase(failures, 'forced-colors quiz feedback keeps symbolic and text cues', async () => {
       const page = await newPreferencePage(browser, browserTracker, { forcedColors: 'active' });
-      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html');
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html?practice=1');
       await answerQuestion(page);
       const feedback = await page.evaluate(() => {
         const title = document.querySelector('.feedback-title');
         const correct = document.querySelector('.choice-btn.correct');
         const incorrect = document.querySelector('.choice-btn.incorrect');
+        const xp = document.querySelector('.xp-preview');
         return {
           text: title ? title.textContent.trim() : '',
           marker: title ? window.getComputedStyle(title, '::before').content : '',
           correctBorderStyle: correct ? window.getComputedStyle(correct).borderTopStyle : '',
-          incorrectBorderStyle: incorrect ? window.getComputedStyle(incorrect).borderTopStyle : ''
+          incorrectBorderStyle: incorrect ? window.getComputedStyle(incorrect).borderTopStyle : '',
+          xpText: xp ? xp.textContent.trim() : '',
+          xpBorderStyle: xp ? window.getComputedStyle(xp).borderTopStyle : ''
         };
       });
       assert.match(feedback.text, /Correct|Not quite/);
+      assert.match(feedback.xpText, /XP preview|server confirms/i);
+      assert.equal(feedback.xpBorderStyle, 'solid');
       assert.notEqual(feedback.marker, 'none');
       assert.equal(feedback.correctBorderStyle, 'solid');
       if (feedback.incorrectBorderStyle) assert.equal(feedback.incorrectBorderStyle, 'dashed');
@@ -88,13 +94,34 @@ async function main() {
       await page.close();
     }, { timeoutMs: 20000 });
 
+    await runCase(failures, 'reduced-motion story lesson reveals guided feedback without animation dependency', async () => {
+      const page = await newPreferencePage(browser, browserTracker, { reducedMotion: 'reduce' });
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html');
+      await page.waitForSelector('[data-story-lesson="grammar-sentence-types"]', { state: 'visible' });
+      await page.click('[data-guided-check-answer]');
+      const state = await page.evaluate(() => {
+        const answer = document.querySelector('#story-check-answer-0');
+        const lesson = document.querySelector('.story-lesson');
+        const style = lesson ? window.getComputedStyle(lesson) : null;
+        return {
+          revealed: !!answer && answer.hidden === false,
+          animation: style ? style.animationName : '',
+          transition: style ? style.transitionDuration : ''
+        };
+      });
+      assert.equal(state.revealed, true);
+      assert.equal(state.animation, 'none');
+      assert.equal(state.transition, '0s');
+      await page.close();
+    }, { timeoutMs: 20000 });
+
     await runCase(failures, 'reduced-motion offline unavailable state is visible immediately', async () => {
       const page = await newPreferencePage(browser, browserTracker, { reducedMotion: 'reduce' });
       await page.addInitScript(() => {
         window.GRAMMAR_QUEST_OFFLINE_CHUNK_MISSING = true;
       });
       await page.route('**/assets/question-chunks/grammar/grammar-run-on-sentences.js', route => route.abort('failed'));
-      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/run-on-sentences.html');
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/run-on-sentences.html?practice=1');
       await page.waitForSelector('.card .page-subtitle', { state: 'visible' });
       const rootText = await textContent(page, '#quiz-root');
       assert.match(rootText, /unavailable offline|loaded once|reconnect/i);

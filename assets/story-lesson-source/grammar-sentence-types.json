@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-sentence-types",
+  "domain": "grammar",
+  "title": "Sentence Types",
+  "version": 1,
+  "contentHash": "sha256:grammar-sentence-types-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "sentence-types-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to matching sentences to their jobs."
+        }
+      ],
+      "conceptRules": [
+        "Look for matching sentences to their jobs in a short sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is on the table.",
+          "explanation": "This shows matching sentences to their jobs clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Please open the case file.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking matching sentences to their jobs?",
+          "answer": "Declarative, interrogative, imperative, and exclamatory sentences have different purposes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence types",
+          "definition": "A grammar skill for matching sentences to their jobs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "sentence-types-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina sorts sentence cards and points to matching sentences to their jobs."
+        }
+      ],
+      "conceptRules": [
+        "Declarative, interrogative, imperative, and exclamatory sentences have different purposes."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is on the table.",
+          "explanation": "This shows matching sentences to their jobs clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This near miss helps learners spot what to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Please open the case file.",
+          "explanation": "This helps learners try the idea in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking matching sentences to their jobs?",
+          "answer": "Declarative, interrogative, imperative, and exclamatory sentences have different purposes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence types",
+          "definition": "A grammar skill for matching sentences to their jobs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "sentence-types-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for matching sentences to their jobs."
+        }
+      ],
+      "conceptRules": [
+        "Declarative, interrogative, imperative, and exclamatory sentences have different purposes."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is on the table.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Please open the case file.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking matching sentences to their jobs?",
+          "answer": "Declarative, interrogative, imperative, and exclamatory sentences have different purposes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence types",
+          "definition": "A grammar skill for matching sentences to their jobs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "sentence-types-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares a clean example with a near miss for matching sentences to their jobs."
+        }
+      ],
+      "conceptRules": [
+        "Declarative, interrogative, imperative, and exclamatory sentences have different purposes."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is on the table.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Please open the case file.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking matching sentences to their jobs?",
+          "answer": "Declarative, interrogative, imperative, and exclamatory sentences have different purposes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not choose by sound alone; check the sentence meaning."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence types",
+          "definition": "A grammar skill for matching sentences to their jobs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "sentence-types-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final paragraph and transfer matching sentences to their jobs into independent editing."
+        }
+      ],
+      "conceptRules": [
+        "Declarative, interrogative, imperative, and exclamatory sentences have different purposes. Transfer the check into editing by explaining why the sentence works."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is on the table.",
+          "explanation": "This direct example models the rule in a sentence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This near miss shows the exact grammar choice to revise."
+        },
+        {
+          "type": "transfer",
+          "text": "Please open the case file.",
+          "explanation": "This transfers the rule into editing or sentence building."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you inspect when checking matching sentences to their jobs?",
+          "answer": "Declarative, interrogative, imperative, and exclamatory sentences have different purposes."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess by sound alone; prove the grammar relationship in the sentence."
+      ],
+      "vocabulary": [
+        {
+          "term": "sentence types",
+          "definition": "A grammar skill for matching sentences to their jobs."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Sentence Types",
+        "targetSetId": "grammar-sentence-types"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-subject-predicate",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-correction",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the grammar foundation"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks near misses and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "sentence-types"
+    ],
+    "skillIds": [
+      "grammar.foundations"
+    ],
+    "standardIds": [
+      "L.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-sentence-types-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

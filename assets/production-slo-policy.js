@@ -176,6 +176,17 @@
         telemetrySignals: ['billing_refund_dispute_within_target', 'billing_refund_dispute_overdue'],
         runbook: 'docs/operations/billing-observability.md',
         rollback: 'Escalate support queue and pause checkout expansion.'
+      }),
+      objective({
+        id: 'leaderboard_materialization_freshness',
+        label: 'Leaderboard materialization freshness',
+        owner: 'data-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['leaderboard_materialized', 'leaderboard_materialization_late', 'leaderboard_archive_completed'],
+        runbook: 'docs/xp-leaderboards.md',
+        rollback: 'Pause leaderboard display and continue storing personal XP projections.'
       })
     ])
   });

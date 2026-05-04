@@ -95,6 +95,26 @@ test('guardian can manage linked learner privacy preferences only when policy al
   }), false);
 });
 
+test('guardian can manage linked learner leaderboard opt-in only when policy allows', () => {
+  const guardian = access.createGuardianActor('guardian-1', links);
+  const policyEnabledGuardian = access.normalizeActor(Object.assign({}, guardian, {
+    leaderboardManagementEnabled: true
+  }));
+
+  assert.equal(access.canAccess(policyEnabledGuardian, access.Capabilities.manageLinkedLearnerLeaderboardOptIn, {
+    type: access.ResourceTypes.LEADERBOARD_PARTICIPATION,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(policyEnabledGuardian, access.Capabilities.manageLinkedLearnerLeaderboardOptIn, {
+    type: access.ResourceTypes.LEADERBOARD_PARTICIPATION,
+    learnerId: 'learner-2'
+  }), false);
+  assert.equal(access.canAccess(guardian, access.Capabilities.manageLinkedLearnerLeaderboardOptIn, {
+    type: access.ResourceTypes.LEADERBOARD_PARTICIPATION,
+    learnerId: 'learner-1'
+  }), false);
+});
+
 test('report dashboard helper returns linked learner data and hides unrelated data', () => {
   const guardian = access.createGuardianActor('guardian-1', links);
   const records = [

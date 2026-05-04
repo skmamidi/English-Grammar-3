@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "setId": "reading-comprehension-text-evidence",
+  "domain": "reading-comprehension",
+  "title": "Text Evidence",
+  "version": 1,
+  "contentHash": "sha256:reading-comprehension-text-evidence-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "text-evidence-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for using exact clues from text."
+        }
+      ],
+      "conceptRules": [
+        "Use one clue to explain using exact clues from text."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo points to the sentence The lantern flickered out because it proves the room became dark.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports using exact clues from text?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "text evidence",
+          "definition": "A reading strategy for using exact clues from text."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Evidence",
+        "targetSetId": "reading-comprehension-text-evidence"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "text-evidence-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina reads a tiny scene and circles one clue for using exact clues from text."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain using exact clues from text."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo points to the sentence The lantern flickered out because it proves the room became dark.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports using exact clues from text?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "text evidence",
+          "definition": "A reading strategy for using exact clues from text."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Evidence",
+        "targetSetId": "reading-comprehension-text-evidence"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "text-evidence-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers using exact clues from text to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain using exact clues from text."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo points to the sentence The lantern flickered out because it proves the room became dark.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports using exact clues from text?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "text evidence",
+          "definition": "A reading strategy for using exact clues from text."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Evidence",
+        "targetSetId": "reading-comprehension-text-evidence"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "text-evidence-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers using exact clues from text to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use text clues and your own thinking to explain using exact clues from text."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo points to the sentence The lantern flickered out because it proves the room became dark.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports using exact clues from text?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not guess without a clue from the text."
+      ],
+      "vocabulary": [
+        {
+          "term": "text evidence",
+          "definition": "A reading strategy for using exact clues from text."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Evidence",
+        "targetSetId": "reading-comprehension-text-evidence"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "text-evidence-g6",
+          "characterRoleId": "coach",
+          "narrative": "Jo compares clues, explains because, and transfers using exact clues from text to a new passage."
+        }
+      ],
+      "conceptRules": [
+        "Use multiple pieces of evidence to explain using exact clues from text and consider another possible reading."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Jo points to the sentence The lantern flickered out because it proves the room became dark.",
+          "explanation": "This original mini-scenario gives a clue readers can point to as evidence."
+        },
+        {
+          "type": "near_miss",
+          "text": "Mina guesses without pointing to a sentence clue.",
+          "explanation": "This near miss is weak because the answer needs evidence from the text."
+        },
+        {
+          "type": "transfer",
+          "text": "Jo tries the same evidence check in a new paragraph about a missing lunchbox.",
+          "explanation": "This transfers the strategy to a fresh passage without revealing quiz answers."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Find evidence: Which clue in the mini-scenario supports using exact clues from text?",
+          "answer": "Use the clue because it is stated in the scenario."
+        },
+        {
+          "prompt": "Explain because: How does the clue support your thinking?",
+          "answer": "Connect the clue to the answer with because."
+        }
+      ],
+      "commonMistakes": [
+        "Do not stop at a likely answer; weigh competing clues before deciding."
+      ],
+      "vocabulary": [
+        {
+          "term": "text evidence",
+          "definition": "A reading strategy for using exact clues from text."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Text Evidence",
+        "targetSetId": "reading-comprehension-text-evidence"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "reading-comprehension-inference",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "reading-comprehension-main-idea-supporting-details",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models clue noticing"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches evidence explanation and transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "text-evidence"
+    ],
+    "skillIds": [
+      "reading.strategy"
+    ],
+    "standardIds": [
+      "RL.RI.2-6.1"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "evidence",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "reading-comprehension-text-evidence-unsupported-answer"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

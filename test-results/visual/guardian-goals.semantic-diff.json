@@ -1,0 +1,33 @@
+{
+  "changedSelectors": [
+    {
+      "selector": ".goal-dashboard-card",
+      "expected": {
+        "selector": ".goal-dashboard-card",
+        "text": "Goal focus A review set is ready when there is time. Today Behind Target A short practice session can move today's target forward. This week Near Target One practice round can help",
+        "visible": true,
+        "rect": {
+          "x": 24,
+          "y": 461,
+          "width": 340,
+          "height": 598
+        }
+      },
+      "actual": {
+        "selector": ".goal-dashboard-card",
+        "text": "Goal focus A review set is ready when there is time. Today Behind Target A short practice session can move today's target forward. This week Behind Target One practice round can he",
+        "visible": true,
+        "rect": {
+          "x": 24,
+          "y": 461,
+          "width": 340,
+          "height": 598
+        }
+      }
+    }
+  ],
+  "hashDelta": {
+    "expected": "-1189406803",
+    "actual": "1257886103"
+  }
+}

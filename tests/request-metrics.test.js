@@ -11,6 +11,7 @@ test('request metrics categorize manifest, full banks, and chunks', () => {
     'http://127.0.0.1:4173/assets/question-manifest.js',
     'http://127.0.0.1:4173/assets/question-banks/grammar.js',
     'http://127.0.0.1:4173/assets/question-chunks/capitalization/capitalization-proper-names-titles.js',
+    'http://127.0.0.1:4173/assets/story-lesson-chunks/grammar/grammar-sentence-types.js',
     'http://127.0.0.1:4173/assets/styles.css',
     'http://127.0.0.1:4173/assets/build/app-entry.js',
     'http://127.0.0.1:4173/sw.js',
@@ -20,10 +21,11 @@ test('request metrics categorize manifest, full banks, and chunks', () => {
     { url: requests[0], status: 200, bytes: 40 },
     { url: requests[1], status: 200, bytes: 900 },
     { url: requests[2], status: 200, bytes: 100 },
-    { url: requests[3], status: 200, bytes: 300 },
-    { url: requests[4], status: 200, bytes: 200 },
-    { url: requests[5], status: 200, bytes: 90 },
-    { url: requests[6], status: 200, bytes: 30 }
+    { url: requests[3], status: 200, bytes: 80 },
+    { url: requests[4], status: 200, bytes: 300 },
+    { url: requests[5], status: 200, bytes: 200 },
+    { url: requests[6], status: 200, bytes: 90 },
+    { url: requests[7], status: 200, bytes: 30 }
   ];
 
   const metrics = summarizeRequestMetrics({ requests, responses });
@@ -31,7 +33,9 @@ test('request metrics categorize manifest, full banks, and chunks', () => {
   assert.equal(metrics.manifestBytes, 40);
   assert.equal(metrics.questionBankBytes, 900);
   assert.equal(metrics.questionChunkBytes, 100);
+  assert.equal(metrics.storyLessonChunkBytes, 80);
   assert.equal(metrics.questionPayloadBytes, 1040);
+  assert.equal(metrics.lessonPayloadBytes, 80);
   assert.equal(metrics.appShellCssBytes, 300);
   assert.equal(metrics.appShellJsBytes, 200);
   assert.equal(metrics.serviceWorkerBytes, 90);
@@ -39,6 +43,7 @@ test('request metrics categorize manifest, full banks, and chunks', () => {
   assert.equal(metrics.appShellBytes, 620);
   assert.deepEqual(metrics.loadedFullBanks, ['assets/question-banks/grammar.js']);
   assert.deepEqual(metrics.loadedChunks, ['assets/question-chunks/capitalization/capitalization-proper-names-titles.js']);
+  assert.deepEqual(metrics.loadedLessonChunks, ['assets/story-lesson-chunks/grammar/grammar-sentence-types.js']);
   assert.deepEqual(metrics.appShellAssets, [
     'assets/build/app-entry.js',
     'assets/build/frontend-manifest.json',
@@ -82,6 +87,26 @@ test('request metrics separate preload chunks from required chunk payload', () =
   assert.equal(metrics.evictedChunkCount, 0);
   assert.equal(metrics.staleCacheCleanupCount, 0);
   assert.equal(metrics.questionPayloadBytes, metrics.manifestBytes + metrics.questionBankBytes + metrics.questionChunkBytes);
+});
+
+test('request metrics keep generated lesson artifacts separate from shell and question payloads', () => {
+  const lessonManifest = 'http://127.0.0.1:4173/assets/story-lesson-manifest.js';
+  const lessonChunk = 'http://127.0.0.1:4173/assets/story-lesson-chunks/vocabulary/vocabulary-homophones.js';
+  const questionChunk = 'http://127.0.0.1:4173/assets/question-chunks/vocabulary/vocabulary-homophones.js';
+  const metrics = summarizeRequestMetrics({
+    requests: [lessonManifest, lessonChunk, questionChunk],
+    responses: [
+      { url: lessonManifest, status: 200, bytes: 54000 },
+      { url: lessonChunk, status: 200, bytes: 6200 },
+      { url: questionChunk, status: 200, bytes: 58000 }
+    ]
+  });
+
+  assert.equal(metrics.lessonPayloadBytes, 60200);
+  assert.equal(metrics.questionPayloadBytes, 58000);
+  assert.equal(metrics.appShellBytes, 0);
+  assert.deepEqual(metrics.loadedLessonChunks, ['assets/story-lesson-chunks/vocabulary/vocabulary-homophones.js']);
+  assert.deepEqual(metrics.lessonManifestRequests, ['assets/story-lesson-manifest.js']);
 });
 
 test('request metrics include offline cache policy telemetry counters', () => {

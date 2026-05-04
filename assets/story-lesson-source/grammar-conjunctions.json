@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-conjunctions",
+  "domain": "grammar",
+  "title": "Conjunctions: Coordinating, Subordinating, Correlative",
+  "version": 1,
+  "contentHash": "sha256:grammar-conjunctions-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "conjunctions-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan joining words phrases and clauses."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for joining words phrases and clauses."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "and joins",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "because explains why",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Either Mina or Jo will read it.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for joining words phrases and clauses?",
+          "answer": "Use conjunctions to show how ideas connect."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows joining words phrases and clauses?",
+          "answer": "and joins"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "because explains why"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Either Mina or Jo will read it."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "conjunctions coordinating subordinating",
+          "definition": "A writing or language strategy for joining words phrases and clauses."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Conjunctions: Coordinating, Subordinating, Correlative",
+        "targetSetId": "grammar-conjunctions"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "conjunctions-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks joining words phrases and clauses."
+        }
+      ],
+      "conceptRules": [
+        "Use conjunctions to show how ideas connect."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "and joins",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "because explains why",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Either Mina or Jo will read it.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for joining words phrases and clauses?",
+          "answer": "Use conjunctions to show how ideas connect."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows joining words phrases and clauses?",
+          "answer": "and joins"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "because explains why"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Either Mina or Jo will read it."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "conjunctions coordinating subordinating",
+          "definition": "A writing or language strategy for joining words phrases and clauses."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Conjunctions: Coordinating, Subordinating, Correlative",
+        "targetSetId": "grammar-conjunctions"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "conjunctions-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks joining words phrases and clauses."
+        }
+      ],
+      "conceptRules": [
+        "Use conjunctions to show how ideas connect."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "and joins",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "because explains why",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Either Mina or Jo will read it.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for joining words phrases and clauses?",
+          "answer": "Use conjunctions to show how ideas connect."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows joining words phrases and clauses?",
+          "answer": "and joins"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "because explains why"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Either Mina or Jo will read it."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "conjunctions coordinating subordinating",
+          "definition": "A writing or language strategy for joining words phrases and clauses."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Conjunctions: Coordinating, Subordinating, Correlative",
+        "targetSetId": "grammar-conjunctions"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "conjunctions-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks joining words phrases and clauses."
+        }
+      ],
+      "conceptRules": [
+        "Use conjunctions to show how ideas connect."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "and joins",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "because explains why",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Either Mina or Jo will read it.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for joining words phrases and clauses?",
+          "answer": "Use conjunctions to show how ideas connect."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows joining words phrases and clauses?",
+          "answer": "and joins"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "because explains why"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Either Mina or Jo will read it."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "conjunctions coordinating subordinating",
+          "definition": "A writing or language strategy for joining words phrases and clauses."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Conjunctions: Coordinating, Subordinating, Correlative",
+        "targetSetId": "grammar-conjunctions"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "conjunctions-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer joining words phrases and clauses to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Use conjunctions to show how ideas connect. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "and joins",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "because explains why",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Either Mina or Jo will read it.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for joining words phrases and clauses?",
+          "answer": "Use conjunctions to show how ideas connect."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows joining words phrases and clauses?",
+          "answer": "and joins"
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "because explains why"
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Either Mina or Jo will read it."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "conjunctions coordinating subordinating",
+          "definition": "A writing or language strategy for joining words phrases and clauses."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Conjunctions: Coordinating, Subordinating, Correlative",
+        "targetSetId": "grammar-conjunctions"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-sentence-combinations",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-clauses-complex-sentences",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "conjunctions"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-conjunctions-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

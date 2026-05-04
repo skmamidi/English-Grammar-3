@@ -17,16 +17,20 @@
     '/assets/styles.css',
     '/assets/theme.js',
     '/assets/question-manifest.js',
+    '/assets/story-lesson-manifest.js',
     '/assets/static-asset-manifest.json',
     '/assets/question-selection-integrity.js',
     '/assets/question-preload-policy.js',
     '/assets/question-preloader.js',
     '/assets/question-loader.js',
+    '/assets/story-lesson-viewer.js',
+    '/assets/study-aid-link-domain.js',
     '/assets/quiz-selection-core.js',
     '/assets/quiz-domain.js',
     '/assets/quiz-engine.js',
     '/assets/session-domain.js',
     '/assets/learner-state-repository.js',
+    '/assets/lesson-progress-domain.js',
     '/assets/learner-state-migration.js',
     '/assets/progress-store.js',
     '/assets/auth-service.js',
@@ -57,7 +61,15 @@
   }
 
   function isChunkRequest(url) {
+    return isQuestionChunkRequest(url) || isStoryLessonChunkRequest(url);
+  }
+
+  function isQuestionChunkRequest(url) {
     return /\/assets\/question-chunks\/[^/]+\/[^/]+\.js$/.test(url.pathname);
+  }
+
+  function isStoryLessonChunkRequest(url) {
+    return /\/assets\/story-lesson-chunks\/[^/]+\/[^/]+\.js$/.test(url.pathname);
   }
 
   function isStaticAssetRequest(url) {
@@ -106,6 +118,8 @@
     getOfflineCachePolicy,
     isQuotaExceededError,
     isChunkRequest,
+    isQuestionChunkRequest,
+    isStoryLessonChunkRequest,
     isRetiredFullBankRequest,
     isStaticAssetRequest
   };

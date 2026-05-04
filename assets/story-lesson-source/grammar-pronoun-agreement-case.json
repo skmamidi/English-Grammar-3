@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "setId": "grammar-pronoun-agreement-case",
+  "domain": "grammar",
+  "title": "Pronoun Agreement & Case",
+  "version": 1,
+  "contentHash": "sha256:grammar-pronoun-agreement-case-story-lesson-v1",
+  "estimatedMinutes": 7,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "pronoun-agreement-case-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina uses story cards to plan matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "conceptRules": [
+        "Plan one clear move for matching pronouns to nouns and sentence roles."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina and I solved it.",
+          "explanation": "This direct example shows the strategy clearly."
+        },
+        {
+          "type": "near_miss",
+          "text": "Each student has their notebook.",
+          "explanation": "This near miss gives learners something to fix."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise the pronoun so its noun is clear.",
+          "explanation": "This example helps learners try the move in a new sentence."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for matching pronouns to nouns and sentence roles?",
+          "answer": "Pronouns must agree with their antecedents and fit their role in the sentence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows matching pronouns to nouns and sentence roles?",
+          "answer": "Mina and I solved it."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Each student has their notebook."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise the pronoun so its noun is clear."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronoun agreement ",
+          "definition": "A writing or language strategy for matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronoun Agreement & Case",
+        "targetSetId": "grammar-pronoun-agreement-case"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "pronoun-agreement-case-g3",
+          "characterRoleId": "guide",
+          "narrative": "Jo tries a draft move, revises it, and checks matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "conceptRules": [
+        "Pronouns must agree with their antecedents and fit their role in the sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina and I solved it.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Each student has their notebook.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise the pronoun so its noun is clear.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for matching pronouns to nouns and sentence roles?",
+          "answer": "Pronouns must agree with their antecedents and fit their role in the sentence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows matching pronouns to nouns and sentence roles?",
+          "answer": "Mina and I solved it."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Each student has their notebook."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise the pronoun so its noun is clear."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronoun agreement ",
+          "definition": "A writing or language strategy for matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronoun Agreement & Case",
+        "targetSetId": "grammar-pronoun-agreement-case"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "pronoun-agreement-case-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "conceptRules": [
+        "Pronouns must agree with their antecedents and fit their role in the sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina and I solved it.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Each student has their notebook.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise the pronoun so its noun is clear.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for matching pronouns to nouns and sentence roles?",
+          "answer": "Pronouns must agree with their antecedents and fit their role in the sentence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows matching pronouns to nouns and sentence roles?",
+          "answer": "Mina and I solved it."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Each student has their notebook."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise the pronoun so its noun is clear."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronoun agreement ",
+          "definition": "A writing or language strategy for matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronoun Agreement & Case",
+        "targetSetId": "grammar-pronoun-agreement-case"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "pronoun-agreement-case-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo tries a draft move, revises it, and checks matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "conceptRules": [
+        "Pronouns must agree with their antecedents and fit their role in the sentence."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina and I solved it.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Each student has their notebook.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise the pronoun so its noun is clear.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for matching pronouns to nouns and sentence roles?",
+          "answer": "Pronouns must agree with their antecedents and fit their role in the sentence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows matching pronouns to nouns and sentence roles?",
+          "answer": "Mina and I solved it."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Each student has their notebook."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise the pronoun so its noun is clear."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add a writing move unless it helps the reader understand."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronoun agreement ",
+          "definition": "A writing or language strategy for matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronoun Agreement & Case",
+        "targetSetId": "grammar-pronoun-agreement-case"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "pronoun-agreement-case-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final draft and transfer matching pronouns to nouns and sentence roles to a new audience."
+        }
+      ],
+      "conceptRules": [
+        "Pronouns must agree with their antecedents and fit their role in the sentence. Transfer the strategy by naming the effect on the reader."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina and I solved it.",
+          "explanation": "This direct example models the writing move."
+        },
+        {
+          "type": "near_miss",
+          "text": "Each student has their notebook.",
+          "explanation": "This near miss shows why revision is needed."
+        },
+        {
+          "type": "transfer",
+          "text": "Revise the pronoun so its noun is clear.",
+          "explanation": "This transfers the strategy to a larger writing task."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "Plan: What is the purpose for matching pronouns to nouns and sentence roles?",
+          "answer": "Pronouns must agree with their antecedents and fit their role in the sentence."
+        },
+        {
+          "prompt": "Try: Which sentence or paragraph shows matching pronouns to nouns and sentence roles?",
+          "answer": "Mina and I solved it."
+        },
+        {
+          "prompt": "Revise: What near miss should you improve?",
+          "answer": "Each student has their notebook."
+        },
+        {
+          "prompt": "Transfer: Where can you use this strategy next?",
+          "answer": "Revise the pronoun so its noun is clear."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a strategy because it sounds fancy; choose it for meaning, clarity, audience, or flow."
+      ],
+      "vocabulary": [
+        {
+          "term": "pronoun agreement ",
+          "definition": "A writing or language strategy for matching pronouns to nouns and sentence roles."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Pronoun Agreement & Case",
+        "targetSetId": "grammar-pronoun-agreement-case"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "grammar-pronouns",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-correction",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "models planning and first tries"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "coaches revision and strategy transfer"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "pronoun-agreement-case"
+    ],
+    "skillIds": [
+      "grammar.composition"
+    ],
+    "standardIds": [
+      "L.2-6.1",
+      "W.2-6.5"
+    ],
+    "pedagogyMoves": [
+      "plan",
+      "try",
+      "revise",
+      "transfer"
+    ],
+    "commonMistakeIds": [
+      "grammar-pronoun-agreement-case-strategy-misuse"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

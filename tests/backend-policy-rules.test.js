@@ -35,8 +35,25 @@ test('student can read and write only their own learner state and active quiz', 
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'read', path: 'learners/learner-a/state' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: 'learners/learner-a/state' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: 'learners/learner-a/activeQuiz' }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: 'learners/learner-a/xpAttempts/attempt-1' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'read', path: 'learners/learner-b/state' }).allow, false);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: 'learners/learner-b/state' }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: 'learners/learner-b/xpAttempts/attempt-1' }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: 'xpProjections/learner-a' }).allow, false);
+});
+
+test('XP award storage and projections are server owned while attempt submissions stay learner scoped', () => {
+  const serviceActor = { id: 'xp-adjudicator', role: 'server_service', serverOwned: true };
+
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: BACKEND_STORAGE_PATHS.xpAttemptSubmission('learner-a', 'attempt-1') }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: BACKEND_STORAGE_PATHS.xpAwardEvent('learner-a', 'award-1') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: BACKEND_STORAGE_PATHS.xpProjection('learner-a') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: BACKEND_STORAGE_PATHS.leaderboardEntry('weekly_2030_W18', 'participant-a') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: actors.systemAdmin, operation: 'write', path: BACKEND_STORAGE_PATHS.xpProjection('learner-a') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'create', path: BACKEND_STORAGE_PATHS.xpAwardEvent('learner-a', 'award-1') }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'update', path: BACKEND_STORAGE_PATHS.xpAwardEvent('learner-a', 'award-1') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'write', path: BACKEND_STORAGE_PATHS.xpProjection('learner-a') }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'write', path: BACKEND_STORAGE_PATHS.leaderboardEntry('weekly_2030_W18', 'participant-a') }).allow, true);
 });
 
 test('guardian can read linked learner summaries but cannot write unrelated learner data', () => {
@@ -112,4 +129,22 @@ test('backend storage policy denies writes that would expose secret fields', () 
   assert.equal(safeFlag.allow, true);
   assert.equal(unsafeFlag.allow, false);
   assert.equal(unsafeFlag.reason, 'backend_document_secret_field');
+});
+
+test('backend storage policy rejects client-owned XP totals inside learner state', () => {
+  const decision = evaluateBackendStoragePolicy({
+    actor: actors.student,
+    operation: 'write',
+    path: BACKEND_STORAGE_PATHS.learnerState('learner-a'),
+    document: {
+      totalGems: 3,
+      totalXp: 99999,
+      xpProjection: {
+        currentWeeklyXp: 99999
+      }
+    }
+  });
+
+  assert.equal(decision.allow, false);
+  assert.equal(decision.reason, 'backend_document_client_xp_projection_denied');
 });

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-end-sentence",
+  "domain": "punctuation",
+  "title": "Punctuation at End of Sentence",
+  "version": 1,
+  "contentHash": "sha256:punctuation-end-sentence-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "end-sentence-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice end marks for telling, asking, and feeling sentences."
+        }
+      ],
+      "conceptRules": [
+        "Every sentence needs an end mark."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is here.",
+          "explanation": "This example helps learners see end marks for telling, asking, and feeling sentences."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This example helps learners see end marks for telling, asking, and feeling sentences."
+        },
+        {
+          "type": "transfer",
+          "text": "What a loud bell!",
+          "explanation": "This example helps learners see end marks for telling, asking, and feeling sentences."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for end marks for telling, asking, and feeling sentences?",
+          "answer": "Use a period, question mark, or exclamation point to show how a sentence ends."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a question mark unless the sentence asks something."
+      ],
+      "vocabulary": [
+        {
+          "term": "end mark",
+          "definition": "A punctuation mark that closes a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Punctuation at End of Sentence",
+        "targetSetId": "punctuation-end-sentence"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "end-sentence-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice end marks for telling, asking, and feeling sentences."
+        }
+      ],
+      "conceptRules": [
+        "Use a period, question mark, or exclamation point to show how a sentence ends."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is here.",
+          "explanation": "This example helps learners see end marks for telling, asking, and feeling sentences."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This example helps learners see end marks for telling, asking, and feeling sentences."
+        },
+        {
+          "type": "transfer",
+          "text": "What a loud bell!",
+          "explanation": "This example helps learners see end marks for telling, asking, and feeling sentences."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for end marks for telling, asking, and feeling sentences?",
+          "answer": "Use a period, question mark, or exclamation point to show how a sentence ends."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a question mark unless the sentence asks something."
+      ],
+      "vocabulary": [
+        {
+          "term": "end mark",
+          "definition": "A punctuation mark that closes a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Punctuation at End of Sentence",
+        "targetSetId": "punctuation-end-sentence"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "end-sentence-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how end marks for telling, asking, and feeling sentences changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use a period, question mark, or exclamation point to show how a sentence ends."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is here.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "What a loud bell!",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for end marks for telling, asking, and feeling sentences?",
+          "answer": "Use a period, question mark, or exclamation point to show how a sentence ends."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a question mark unless the sentence asks something."
+      ],
+      "vocabulary": [
+        {
+          "term": "end mark",
+          "definition": "A punctuation mark that closes a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Punctuation at End of Sentence",
+        "targetSetId": "punctuation-end-sentence"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "end-sentence-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how end marks for telling, asking, and feeling sentences changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Use a period, question mark, or exclamation point to show how a sentence ends."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is here.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "What a loud bell!",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for end marks for telling, asking, and feeling sentences?",
+          "answer": "Use a period, question mark, or exclamation point to show how a sentence ends."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a question mark unless the sentence asks something."
+      ],
+      "vocabulary": [
+        {
+          "term": "end mark",
+          "definition": "A punctuation mark that closes a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Punctuation at End of Sentence",
+        "targetSetId": "punctuation-end-sentence"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "end-sentence-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using end marks for telling, asking, and feeling sentences to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Use a period, question mark, or exclamation point to show how a sentence ends. Match end punctuation to purpose and tone, not just to the final word."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "The clue is here.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "Where is the clue?",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "What a loud bell!",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for end marks for telling, asking, and feeling sentences?",
+          "answer": "Use a period, question mark, or exclamation point to show how a sentence ends."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use a question mark unless the sentence asks something. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "end mark",
+          "definition": "A punctuation mark that closes a sentence."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Punctuation at End of Sentence",
+        "targetSetId": "punctuation-end-sentence"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "capitalization-sentence-beginning",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-types",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "end-sentence"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-end-sentence-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

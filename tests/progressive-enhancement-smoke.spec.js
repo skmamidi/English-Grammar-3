@@ -35,10 +35,19 @@ async function main() {
     await runCase(failures, 'blocked auth service leaves local signed-out quiz mode usable', async () => {
       const page = await newPage(browser);
       await blockAsset(page, '/assets/auth-service.js');
-      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html', { allowOptionalFeatureFailures: true });
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html?practice=1', { allowOptionalFeatureFailures: true });
       await assertVisible(page, '#start-btn', 'subtopic local mode without auth');
       await page.click('#start-btn');
       await assertVisible(page, '.question-box', 'quiz question without auth');
+      await page.close();
+    });
+
+    await runCase(failures, 'blocked character catalog keeps story lesson readable with fallback role labels', async () => {
+      const page = await newPage(browser);
+      await blockAsset(page, '/assets/character-catalog.js');
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html', { allowOptionalFeatureFailures: true });
+      await assertVisible(page, '[data-story-lesson="grammar-sentence-types"]', 'story lesson without character catalog');
+      assert.match(await page.locator('#quiz-root').innerText(), /Learn First|Rules to Try/i);
       await page.close();
     });
 
@@ -65,7 +74,7 @@ async function main() {
     await runCase(failures, 'blocked required question chunk renders explicit recovery state', async () => {
       const page = await newPage(browser);
       await blockAsset(page, '/assets/question-chunks/grammar/grammar-sentence-types.js');
-      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html', { allowRequiredQuestionChunkFailure: true });
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html?practice=1', { allowRequiredQuestionChunkFailure: true });
       const message = await page.locator('#quiz-root').innerText();
       assert.match(message, /required question file/i);
       assert.match(message, /Refresh/i);

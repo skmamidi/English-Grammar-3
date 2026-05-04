@@ -1,0 +1,70 @@
+{
+  "name": "quiz-results",
+  "file": "topics/capitalization/subtopics/books-magazines-songs-plays.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.15",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
+  "screenshotSha256": "972d4d0d791cdfdf24e7fddfc45ec39718deb86a3d20fa469fa5b68555debf01",
+  "screenshotBytes": 69252,
+  "summary": {
+    "title": "Books, Magazines, Songs, and Plays",
+    "semanticTextHash": "450458602",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← Back to Topic",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "MISSION COMPLETE 3 / 15 20% correct Keep practicing! Use the study aids to learn more, then try the quiz again. 12 questions marked for review 0 strategy clues opened Slow down con",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 87,
+          "width": 1032,
+          "height": 1292
+        }
+      },
+      {
+        "selector": ".results-box",
+        "text": "MISSION COMPLETE 3 / 15 20% correct Keep practicing! Use the study aids to learn more, then try the quiz again. 12 questions marked for review 0 strategy clues opened Slow down con",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 87,
+          "width": 1032,
+          "height": 1292
+        }
+      },
+      {
+        "selector": ".xp-completion-summary",
+        "text": "60 BASE XP 1x accuracy boost COMPLETION BOOST 60 PROVISIONAL XP Syncing XP Syncing XP now. Keep practicing while the server checks the final total. Review missed items, then try ag",
+        "visible": true,
+        "rect": {
+          "x": 300,
+          "y": 757,
+          "width": 680,
+          "height": 241
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-advanced-punctuation",
+  "domain": "punctuation",
+  "title": "Advanced Punctuation",
+  "version": 1,
+  "contentHash": "sha256:punctuation-advanced-punctuation-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "advanced-punctuation-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice advanced marks such as semicolons, colons, and dashes."
+        }
+      ],
+      "conceptRules": [
+        "Some marks do special jobs when sentences get longer."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina had one goal: find the code.",
+          "explanation": "This example helps learners see advanced marks such as semicolons, colons, and dashes."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo packed slowly; the box was heavy.",
+          "explanation": "This example helps learners see advanced marks such as semicolons, colons, and dashes."
+        },
+        {
+          "type": "transfer",
+          "text": "The answer - finally - appeared.",
+          "explanation": "This example helps learners see advanced marks such as semicolons, colons, and dashes."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for advanced marks such as semicolons, colons, and dashes?",
+          "answer": "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use advanced marks as decoration when a period or comma is clearer."
+      ],
+      "vocabulary": [
+        {
+          "term": "advanced punctuation",
+          "definition": "Marks beyond basic periods, commas, question marks, and exclamation points."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Advanced Punctuation",
+        "targetSetId": "punctuation-advanced-punctuation"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "advanced-punctuation-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice advanced marks such as semicolons, colons, and dashes."
+        }
+      ],
+      "conceptRules": [
+        "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina had one goal: find the code.",
+          "explanation": "This example helps learners see advanced marks such as semicolons, colons, and dashes."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo packed slowly; the box was heavy.",
+          "explanation": "This example helps learners see advanced marks such as semicolons, colons, and dashes."
+        },
+        {
+          "type": "transfer",
+          "text": "The answer - finally - appeared.",
+          "explanation": "This example helps learners see advanced marks such as semicolons, colons, and dashes."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for advanced marks such as semicolons, colons, and dashes?",
+          "answer": "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use advanced marks as decoration when a period or comma is clearer."
+      ],
+      "vocabulary": [
+        {
+          "term": "advanced punctuation",
+          "definition": "Marks beyond basic periods, commas, question marks, and exclamation points."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Advanced Punctuation",
+        "targetSetId": "punctuation-advanced-punctuation"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "advanced-punctuation-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how advanced marks such as semicolons, colons, and dashes changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina had one goal: find the code.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo packed slowly; the box was heavy.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "The answer - finally - appeared.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for advanced marks such as semicolons, colons, and dashes?",
+          "answer": "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use advanced marks as decoration when a period or comma is clearer."
+      ],
+      "vocabulary": [
+        {
+          "term": "advanced punctuation",
+          "definition": "Marks beyond basic periods, commas, question marks, and exclamation points."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Advanced Punctuation",
+        "targetSetId": "punctuation-advanced-punctuation"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "advanced-punctuation-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how advanced marks such as semicolons, colons, and dashes changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina had one goal: find the code.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo packed slowly; the box was heavy.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "The answer - finally - appeared.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for advanced marks such as semicolons, colons, and dashes?",
+          "answer": "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use advanced marks as decoration when a period or comma is clearer."
+      ],
+      "vocabulary": [
+        {
+          "term": "advanced punctuation",
+          "definition": "Marks beyond basic periods, commas, question marks, and exclamation points."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Advanced Punctuation",
+        "targetSetId": "punctuation-advanced-punctuation"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "advanced-punctuation-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using advanced marks such as semicolons, colons, and dashes to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways. Choose an advanced mark only when its relationship matches the ideas around it."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Mina had one goal: find the code.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "Jo packed slowly; the box was heavy.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "The answer - finally - appeared.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for advanced marks such as semicolons, colons, and dashes?",
+          "answer": "Advanced punctuation connects, introduces, or emphasizes ideas in specific ways."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use advanced marks as decoration when a period or comma is clearer. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "advanced punctuation",
+          "definition": "Marks beyond basic periods, commas, question marks, and exclamation points."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Advanced Punctuation",
+        "targetSetId": "punctuation-advanced-punctuation"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-commas-series",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "grammar-sentence-combinations",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "advanced-punctuation"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-advanced-punctuation-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

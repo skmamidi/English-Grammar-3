@@ -71,9 +71,16 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['qa:content'], /npm run qa:ai-authoring/);
   assert.match(pkg.scripts['test:fast'], /npm run qa:static-assets/);
   assert.equal(pkg.scripts['qa:pr-readiness'], 'node scripts/qa/pr-readiness-monitor.js');
+  assert.equal(pkg.scripts['qa:lessons'], 'node scripts/qa/story-lesson-qa.js');
+  assert.ok(fs.existsSync(path.join(repoRoot, 'content-review', 'story-lesson-review-records.json')));
+  assert.ok(fs.existsSync(path.join(repoRoot, 'docs', 'story-lesson-review-rubric.md')));
   assert.match(pkg.scripts['test:unit'], /tests\/access-control\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/frontend-build-contract\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/domain-type-contract\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/story-lesson-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/lesson-progress-domain\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/story-lesson-generation\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/story-lesson-qa\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/shared-domain-portability\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/cross-platform-session-storage-policy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/native-learner-sync-acceptance\.test\.js/);
@@ -347,6 +354,18 @@ test('production pages load learner state repository before progress store', () 
     if (progressIndex < 0) return false;
     const repositoryIndex = html.indexOf('assets/learner-state-repository.js');
     return repositoryIndex < 0 || repositoryIndex > progressIndex;
+  }).map(file => path.relative(repoRoot, file).split(path.sep).join('/'));
+
+  assert.deepEqual(offenders, []);
+});
+
+test('production pages load lesson progress domain before learner state repository', () => {
+  const offenders = findHtmlFiles(repoRoot).filter(file => {
+    const html = fs.readFileSync(file, 'utf8');
+    const repositoryIndex = html.indexOf('assets/learner-state-repository.js');
+    if (repositoryIndex < 0) return false;
+    const lessonProgressIndex = html.indexOf('assets/lesson-progress-domain.js');
+    return lessonProgressIndex < 0 || lessonProgressIndex > repositoryIndex;
   }).map(file => path.relative(repoRoot, file).split(path.sep).join('/'));
 
   assert.deepEqual(offenders, []);

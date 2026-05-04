@@ -4,6 +4,10 @@ const BACKEND_STORAGE_PATHS = Object.freeze({
   learnerState: learnerId => `learners/${learnerId}/state`,
   activeQuiz: learnerId => `learners/${learnerId}/activeQuiz`,
   savedSession: (learnerId, sessionId) => `learners/${learnerId}/sessions/${sessionId}`,
+  xpAttemptSubmission: (learnerId, attemptId) => `learners/${learnerId}/xpAttempts/${attemptId}`,
+  xpAwardEvent: (learnerId, awardEventId) => `learners/${learnerId}/xpAwards/${awardEventId}`,
+  xpProjection: learnerId => `xpProjections/${learnerId}`,
+  leaderboardEntry: (periodId, entryId) => `leaderboards/${periodId}/entries/${entryId}`,
   assignmentForLearner: (learnerId, assignmentId) => `learners/${learnerId}/assignments/${assignmentId}`,
   assignmentForClass: (classId, assignmentId) => `classes/${classId}/assignments/${assignmentId}`,
   questionReport: (learnerId, reportId) => `learners/${learnerId}/questionReports/${reportId}`,
@@ -17,6 +21,8 @@ const BACKEND_STORAGE_PATHS = Object.freeze({
 });
 
 const SECRET_FIELD_PATTERN = /(^|_|\b)(privateKey|privateKeyRef|authToken|sessionToken|accessToken|refreshToken|serviceAccount|client_email|clientEmail|secret|token)(\b|_|$)/i;
+const XP_PROJECTION_FIELD_PATTERN = /(^|_|\b)(totalXp|currentWeeklyXp|currentMonthlyXp|xpProjection)(\b|_|$)/i;
+const SENSITIVE_LEARNER_PAYLOAD_PATTERN = /(^|_|\b)(answerKey|correctAnswer|correctAnswers|question|questions|prompt|choices|explanation|selectedAnswers)(\b|_|$)/i;
 const SECRET_PATH_PREFIXES = [
   'privateSigningKeys/',
   'serviceAccounts/',
@@ -26,6 +32,7 @@ const SECRET_PATH_PREFIXES = [
 
 function evaluateBackendPolicy(input = {}) {
   const actor = access.normalizeActor(input.actor);
+  const serverOwnedActor = isServerOwnedActor(input.actor);
   const operation = normalizeOperation(input.operation);
   const path = normalizePath(input.path);
   const resource = resolveBackendResource(path);
@@ -34,13 +41,13 @@ function evaluateBackendPolicy(input = {}) {
     return deny(resource, 'backend_path_denied');
   }
   if (operation === 'read') {
-    return decision(resource, canRead(actor, resource), 'read_denied');
+    return decision(resource, canRead(actor, resource, serverOwnedActor), 'read_denied');
   }
   if (operation === 'create') {
-    return decision(resource, canCreate(actor, resource), 'create_denied');
+    return decision(resource, canCreate(actor, resource, serverOwnedActor), 'create_denied');
   }
   if (operation === 'write' || operation === 'update') {
-    return decision(resource, canWrite(actor, resource, operation), 'write_denied');
+    return decision(resource, canWrite(actor, resource, operation, serverOwnedActor), 'write_denied');
   }
   if (operation === 'delete') {
     return decision(resource, canDelete(actor, resource), 'delete_denied');
@@ -67,7 +74,8 @@ function evaluateBackendStoragePolicy(input = {}) {
   return baseDecision;
 }
 
-function canRead(actor, resource) {
+function canRead(actor, resource, serverOwnedActor) {
+  if (serverOwnedActor && ['xpAwardEvent', 'xpProjection'].includes(resource.type)) return true;
   if (resource.type === access.ResourceTypes.AUDIT_LOG) {
     return access.canAccess(actor, access.Capabilities.viewAuditLogs, resource);
   }
@@ -110,6 +118,14 @@ function canRead(actor, resource) {
       access.canAccess(actor, access.Capabilities.viewLinkedLearnerReports, resource) ||
       access.canAccess(actor, access.Capabilities.viewAssignedLearnerReports, resource);
   }
+  if (resource.type === 'xpAttemptSubmission') {
+    return access.canAccess(actor, access.Capabilities.viewOwnProgress, toLearnerProgress(resource));
+  }
+  if (resource.type === 'xpProjection') {
+    return access.canAccess(actor, access.Capabilities.viewOwnProgress, toLearnerProgress(resource)) ||
+      access.canAccess(actor, access.Capabilities.viewLinkedLearnerReports, resource) ||
+      access.canAccess(actor, access.Capabilities.viewAssignedLearnerReports, resource);
+  }
   if (resource.type === access.ResourceTypes.QUESTION_REPORT) {
     return access.canAccess(actor, access.Capabilities.viewOwnQuestionReportStatus, resource) ||
       access.canAccess(actor, access.Capabilities.viewLinkedLearnerReports, resource) ||
@@ -119,14 +135,18 @@ function canRead(actor, resource) {
   return false;
 }
 
-function canCreate(actor, resource) {
+function canCreate(actor, resource, serverOwnedActor) {
+  if (resource.type === 'xpAwardEvent') return serverOwnedActor;
   if (resource.type === access.ResourceTypes.AUDIT_LOG) {
     return actor.role === access.Roles.SYSTEM_ADMIN;
   }
-  return canWrite(actor, resource, 'create');
+  return canWrite(actor, resource, 'create', serverOwnedActor);
 }
 
-function canWrite(actor, resource, operation) {
+function canWrite(actor, resource, operation, serverOwnedActor) {
+  if (resource.type === 'xpAwardEvent') return false;
+  if (resource.type === 'xpProjection') return serverOwnedActor && (operation === 'write' || operation === 'update');
+  if (resource.type === 'leaderboardEntry') return serverOwnedActor && (operation === 'write' || operation === 'update');
   if (resource.type === access.ResourceTypes.AUDIT_LOG) return false;
   if (resource.type === access.ResourceTypes.FEATURE_FLAG) {
     return access.canAccess(actor, access.Capabilities.manageFeatureFlags, resource);
@@ -157,6 +177,12 @@ function canWrite(actor, resource, operation) {
       ownerLearnerId: resource.learnerId
     });
   }
+  if (resource.type === 'xpAttemptSubmission') {
+    return operation === 'create' && actor.learnerId === resource.learnerId && access.canAccess(actor, access.Capabilities.takeQuiz, {
+      type: access.ResourceTypes.ACTIVE_QUIZ,
+      ownerLearnerId: resource.learnerId
+    });
+  }
   if (resource.type === access.ResourceTypes.LEARNER_PROGRESS) {
     return access.canAccess(actor, access.Capabilities.importOwnLearnerProgress, resource);
   }
@@ -178,6 +204,14 @@ function resolveBackendResource(path) {
   if (match) return resource(access.ResourceTypes.ACTIVE_QUIZ, 'activeQuiz', match[1], '');
   match = normalized.match(/^learners\/([^/]+)\/sessions\/([^/]+)$/);
   if (match) return resource(access.ResourceTypes.SAVED_SESSION, match[2], match[1], '');
+  match = normalized.match(/^learners\/([^/]+)\/xpAttempts\/([^/]+)$/);
+  if (match) return resource('xpAttemptSubmission', match[2], match[1], '');
+  match = normalized.match(/^learners\/([^/]+)\/xpAwards\/([^/]+)$/);
+  if (match) return resource('xpAwardEvent', match[2], match[1], '');
+  match = normalized.match(/^xpProjections\/([^/]+)$/);
+  if (match) return resource('xpProjection', match[1], match[1], '');
+  match = normalized.match(/^leaderboards\/([^/]+)\/entries\/([^/]+)$/);
+  if (match) return resource('leaderboardEntry', match[2], '', '');
   match = normalized.match(/^learners\/([^/]+)\/assignments\/([^/]+)$/);
   if (match) return resource(access.ResourceTypes.ASSIGNMENT, match[2], match[1], '');
   match = normalized.match(/^learners\/([^/]+)\/questionReports\/([^/]+)$/);
@@ -208,6 +242,12 @@ function assertBackendReadableDocumentSafe(path, document) {
   }
   const secretPath = findSecretField(document);
   if (secretPath) throw new Error(`backend_readable_secret_field:${secretPath}`);
+  if (resource.type === access.ResourceTypes.LEARNER_PROGRESS && findClientOwnedXpProjectionField(document)) {
+    throw new Error('backend_document_client_xp_projection_denied');
+  }
+  if (['xpAwardEvent', 'xpProjection', 'leaderboardEntry'].includes(resource.type) && findSensitiveLearnerPayloadField(document)) {
+    throw new Error('backend_document_sensitive_learner_payload');
+  }
   return true;
 }
 
@@ -219,6 +259,22 @@ function findSecretField(value, trail = []) {
 
 function toLearnerProgress(resourceValue) {
   return Object.assign({}, resourceValue, { type: access.ResourceTypes.LEARNER_PROGRESS });
+}
+
+function isServerOwnedActor(actor) {
+  return actor && typeof actor === 'object' && (actor.serverOwned === true || actor.role === 'server_service');
+}
+
+function findClientOwnedXpProjectionField(value) {
+  if (!value || typeof value !== 'object') return '';
+  return Object.keys(value).find(key => XP_PROJECTION_FIELD_PATTERN.test(key)) ||
+    Object.keys(value).map(key => findClientOwnedXpProjectionField(value[key])).find(Boolean) || '';
+}
+
+function findSensitiveLearnerPayloadField(value) {
+  if (!value || typeof value !== 'object') return '';
+  return Object.keys(value).find(key => SENSITIVE_LEARNER_PAYLOAD_PATTERN.test(key)) ||
+    Object.keys(value).map(key => findSensitiveLearnerPayloadField(value[key])).find(Boolean) || '';
 }
 
 function resource(type, id, learnerId, classId) {

@@ -7,7 +7,7 @@
   },
   "runtime": {
     "browserName": "chromium",
-    "browserVersion": "147.0.7727.138",
+    "browserVersion": "147.0.7727.15",
     "platform": "darwin",
     "viewport": {
       "width": 1280,
@@ -15,11 +15,11 @@
     },
     "deviceScaleFactor": 1
   },
-  "screenshotSha256": "4e4e659f9fcfe6a3240149e3a577f660f1be469110157123bef2f388fdf76a25",
-  "screenshotBytes": 81388,
+  "screenshotSha256": "3b23536b612aca4bcd60c195ca299d38e3e8f3182632d6314e74d7586a92a815",
+  "screenshotBytes": 69162,
   "summary": {
     "title": "Books, Magazines, Songs, and Plays",
-    "semanticTextHash": "1893704948",
+    "semanticTextHash": "450458602",
     "elements": [
       {
         "selector": ".app-header",
@@ -40,7 +40,7 @@
           "x": 124,
           "y": 87,
           "width": 1032,
-          "height": 1031
+          "height": 1292
         }
       },
       {
@@ -51,7 +51,18 @@
           "x": 124,
           "y": 87,
           "width": 1032,
-          "height": 1031
+          "height": 1292
+        }
+      },
+      {
+        "selector": ".xp-completion-summary",
+        "text": "60 BASE XP 1x accuracy boost COMPLETION BOOST 60 PROVISIONAL XP Syncing XP Syncing XP now. Keep practicing while the server checks the final total. Review missed items, then try ag",
+        "visible": true,
+        "rect": {
+          "x": 300,
+          "y": 757,
+          "width": 680,
+          "height": 241
         }
       }
     ]

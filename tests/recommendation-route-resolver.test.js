@@ -36,3 +36,35 @@ test('recommendation route resolver prefers review then assignment then manifest
   }).type, 'subtopic');
 });
 
+test('recommendation route resolver can target story lessons from weak skills without question payloads', () => {
+  const target = resolver.resolveRecommendationTarget({
+    skillId: 'grammar.sentence-analysis',
+    evidence: { missedRecentlyCount: 2 }
+  }, {
+    assignments: [],
+    manifest: {
+      sets: [{
+        id: 'grammar-sentence-types',
+        domain: 'grammar',
+        title: 'Sentence Types',
+        skillCoverage: [{ skillId: 'grammar.sentence-analysis' }]
+      }]
+    },
+    storyLessonManifest: {
+      lessons: [{
+        setId: 'grammar-sentence-types',
+        title: 'Sentence Types',
+        route: { webPath: 'topics/grammar/subtopics/sentence-types.html?learn=1' },
+        storyBeats: [{ narrative: 'Do not copy story body' }]
+      }]
+    }
+  });
+
+  assert.equal(target.type, 'lesson');
+  assert.deepEqual(target.lessonRef, {
+    setId: 'grammar-sentence-types',
+    title: 'Sentence Types',
+    route: 'topics/grammar/subtopics/sentence-types.html?learn=1'
+  });
+  assert.equal(JSON.stringify(target).includes('Do not copy'), false);
+});

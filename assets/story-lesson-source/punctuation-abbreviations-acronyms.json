@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "setId": "punctuation-abbreviations-acronyms",
+  "domain": "punctuation",
+  "title": "Abbreviations & Acronyms",
+  "version": 1,
+  "contentHash": "sha256:punctuation-abbreviations-acronyms-story-lesson-v1",
+  "estimatedMinutes": 6,
+  "gradeVariants": {
+    "2": {
+      "readingLevel": "grade-2",
+      "storyBeats": [
+        {
+          "id": "abbreviations-acronyms-g2",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice punctuation and capitalization in abbreviations and acronyms."
+        }
+      ],
+      "conceptRules": [
+        "Short names can use capital letters or periods."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr.",
+          "explanation": "This example helps learners see punctuation and capitalization in abbreviations and acronyms."
+        },
+        {
+          "type": "near_miss",
+          "text": "U.S.A.",
+          "explanation": "This example helps learners see punctuation and capitalization in abbreviations and acronyms."
+        },
+        {
+          "type": "transfer",
+          "text": "NASA",
+          "explanation": "This example helps learners see punctuation and capitalization in abbreviations and acronyms."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for punctuation and capitalization in abbreviations and acronyms?",
+          "answer": "Abbreviations may use periods, while acronyms often use capital letters without periods."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add periods to every acronym if the accepted form does not use them."
+      ],
+      "vocabulary": [
+        {
+          "term": "acronym",
+          "definition": "A word or name made from the first letters of other words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Abbreviations & Acronyms",
+        "targetSetId": "punctuation-abbreviations-acronyms"
+      }
+    },
+    "3": {
+      "readingLevel": "grade-3",
+      "storyBeats": [
+        {
+          "id": "abbreviations-acronyms-g3",
+          "characterRoleId": "guide",
+          "narrative": "Mina opens a clue card and asks learners to notice punctuation and capitalization in abbreviations and acronyms."
+        }
+      ],
+      "conceptRules": [
+        "Abbreviations may use periods, while acronyms often use capital letters without periods."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr.",
+          "explanation": "This example helps learners see punctuation and capitalization in abbreviations and acronyms."
+        },
+        {
+          "type": "near_miss",
+          "text": "U.S.A.",
+          "explanation": "This example helps learners see punctuation and capitalization in abbreviations and acronyms."
+        },
+        {
+          "type": "transfer",
+          "text": "NASA",
+          "explanation": "This example helps learners see punctuation and capitalization in abbreviations and acronyms."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for punctuation and capitalization in abbreviations and acronyms?",
+          "answer": "Abbreviations may use periods, while acronyms often use capital letters without periods."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add periods to every acronym if the accepted form does not use them."
+      ],
+      "vocabulary": [
+        {
+          "term": "acronym",
+          "definition": "A word or name made from the first letters of other words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Abbreviations & Acronyms",
+        "targetSetId": "punctuation-abbreviations-acronyms"
+      }
+    },
+    "4": {
+      "readingLevel": "grade-4",
+      "storyBeats": [
+        {
+          "id": "abbreviations-acronyms-g4",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how punctuation and capitalization in abbreviations and acronyms changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Abbreviations may use periods, while acronyms often use capital letters without periods."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "U.S.A.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "NASA",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for punctuation and capitalization in abbreviations and acronyms?",
+          "answer": "Abbreviations may use periods, while acronyms often use capital letters without periods."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add periods to every acronym if the accepted form does not use them."
+      ],
+      "vocabulary": [
+        {
+          "term": "acronym",
+          "definition": "A word or name made from the first letters of other words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Abbreviations & Acronyms",
+        "targetSetId": "punctuation-abbreviations-acronyms"
+      }
+    },
+    "5": {
+      "readingLevel": "grade-5",
+      "storyBeats": [
+        {
+          "id": "abbreviations-acronyms-g5",
+          "characterRoleId": "coach",
+          "narrative": "Jo marks a draft and tests how punctuation and capitalization in abbreviations and acronyms changes the reader's path."
+        }
+      ],
+      "conceptRules": [
+        "Abbreviations may use periods, while acronyms often use capital letters without periods."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "near_miss",
+          "text": "U.S.A.",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        },
+        {
+          "type": "transfer",
+          "text": "NASA",
+          "explanation": "This example shows how the mark or capital choice supports meaning."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for punctuation and capitalization in abbreviations and acronyms?",
+          "answer": "Abbreviations may use periods, while acronyms often use capital letters without periods."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add periods to every acronym if the accepted form does not use them."
+      ],
+      "vocabulary": [
+        {
+          "term": "acronym",
+          "definition": "A word or name made from the first letters of other words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Abbreviations & Acronyms",
+        "targetSetId": "punctuation-abbreviations-acronyms"
+      }
+    },
+    "6": {
+      "readingLevel": "grade-6",
+      "storyBeats": [
+        {
+          "id": "abbreviations-acronyms-g6",
+          "characterRoleId": "coach",
+          "narrative": "Mina and Jo revise a final case note, using punctuation and capitalization in abbreviations and acronyms to transfer the skill into editing."
+        }
+      ],
+      "conceptRules": [
+        "Abbreviations may use periods, while acronyms often use capital letters without periods. Use the accepted form for each abbreviation or acronym, and keep it consistent."
+      ],
+      "examples": [
+        {
+          "type": "direct",
+          "text": "Dr.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "near_miss",
+          "text": "U.S.A.",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        },
+        {
+          "type": "transfer",
+          "text": "NASA",
+          "explanation": "This example transfers the rule into editing a real sentence or note."
+        }
+      ],
+      "guidedChecks": [
+        {
+          "prompt": "What should you check for punctuation and capitalization in abbreviations and acronyms?",
+          "answer": "Abbreviations may use periods, while acronyms often use capital letters without periods."
+        }
+      ],
+      "commonMistakes": [
+        "Do not add periods to every acronym if the accepted form does not use them. Also check exceptions before final editing."
+      ],
+      "vocabulary": [
+        {
+          "term": "acronym",
+          "definition": "A word or name made from the first letters of other words."
+        }
+      ],
+      "quizHandoff": {
+        "label": "Practice Abbreviations & Acronyms",
+        "targetSetId": "punctuation-abbreviations-acronyms"
+      }
+    }
+  },
+  "relatedSubtopics": [
+    {
+      "setId": "punctuation-periods-abbreviations",
+      "relationship": "foundation"
+    },
+    {
+      "setId": "punctuation-colon-time",
+      "relationship": "next_step"
+    }
+  ],
+  "characterRoles": [
+    {
+      "roleId": "guide",
+      "characterId": "mina-mapwise",
+      "purpose": "introduces the mechanics story"
+    },
+    {
+      "roleId": "coach",
+      "characterId": "jo-pocket",
+      "purpose": "checks examples and transfer edits"
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "abbreviations-acronyms"
+    ],
+    "skillIds": [
+      "punctuation.mechanics"
+    ],
+    "standardIds": [
+      "L.2-6.2"
+    ],
+    "pedagogyMoves": [
+      "model",
+      "guided_check",
+      "editing_transfer"
+    ],
+    "commonMistakeIds": [
+      "punctuation-abbreviations-acronyms-common-mistake"
+    ],
+    "exampleTypes": [
+      "direct",
+      "near_miss",
+      "transfer"
+    ],
+    "reviewStatus": "draft"
+  },
+  "authoring": {
+    "assistance": {
+      "used": false,
+      "provider": "",
+      "modelFamily": "",
+      "promptRecordId": "",
+      "draftRecordId": ""
+    }
+  }
+}

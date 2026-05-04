@@ -10,6 +10,16 @@ const {
 const {
   buildCurriculumReviewQueueProjection
 } = require('../assets/curriculum-review-queue-dashboard');
+const {
+  buildContentChangeImpactAnalysis
+} = require('../assets/content-change-impact-analysis');
+const {
+  buildCurriculumReleaseChannelFromPublication,
+  validateCurriculumReleaseChannelVersion
+} = require('../assets/curriculum-release-channel-policy');
+const {
+  buildReviewerWorkloadSlaReport
+} = require('../assets/reviewer-workload-sla-report');
 
 test('content publication domain normalizes statuses, hashes, QA, and approvals', () => {
   const publication = createPublication({
@@ -99,4 +109,83 @@ test('content publication blockers project into the curriculum review queue', ()
   assert.equal(projection.rows[0].issueType, 'publication_blocker');
   assert.equal(projection.rows[0].publicationBlockingReason, 'publication_qa_blocking');
   assert.equal(projection.rows[0].ageDays, 5);
+});
+
+test('content publication plans can carry impact analysis rollback evidence', () => {
+  const analysis = buildContentChangeImpactAnalysis({
+    releaseId: 'publication-impact-1',
+    changes: [{
+      questionId: 'grammar-q0001',
+      changeType: 'changed',
+      domain: 'grammar',
+      setId: 'grammar-set',
+      chunkFile: 'assets/question-chunks/grammar/grammar-set.js',
+      manifestEntryId: 'grammar-set:q0001',
+      rollbackRef: 'release:previous'
+    }]
+  });
+
+  assert.equal(analysis.releaseId, 'publication-impact-1');
+  assert.deepEqual(analysis.summary.rollbackRefs, ['release:previous']);
+});
+
+test('approved content publications create review-channel release evidence', () => {
+  const publication = approvePublication(createPublication({
+    id: 'pub-channel-1',
+    sourceHash: 'sha256:source',
+    artifactHash: 'sha256:artifact',
+    changedFiles: ['assets/question-bank-source/grammar.json'],
+    qaResults: [{ id: 'content', status: 'passed' }]
+  }), {
+    actorId: 'reviewer-1',
+    role: 'content_reviewer',
+    approvedAt: '2030-04-29T12:00:00.000Z'
+  });
+  const impact = buildContentChangeImpactAnalysis({
+    releaseId: 'impact-channel-1',
+    changes: [{
+      questionId: 'grammar-q0001',
+      changeType: 'changed',
+      domain: 'grammar',
+      setId: 'grammar-set',
+      chunkFile: 'assets/question-chunks/grammar/grammar-set.js',
+      manifestEntryId: 'grammar-set:q0001',
+      rollbackRef: 'release:previous',
+      reviewStatus: 'approved'
+    }]
+  });
+
+  const channel = buildCurriculumReleaseChannelFromPublication({
+    publication,
+    impactAnalysis: impact,
+    versionId: 'curriculum-pub-channel-1',
+    channel: 'review',
+    questionManifestHash: 'sha256:question-manifest',
+    chunkManifestHash: 'sha256:chunk-manifest',
+    deploymentAttestationHash: 'sha256:deployment'
+  });
+
+  assert.equal(channel.provenance.publicationId, 'pub-channel-1');
+  assert.deepEqual(channel.provenance.reviewApprovalIds, ['reviewer-1:2030-04-29T12:00:00.000Z']);
+  assert.equal(channel.provenance.contentImpactAnalysisId, 'impact-channel-1');
+  assert.deepEqual(validateCurriculumReleaseChannelVersion(channel).errors, []);
+});
+
+test('content publication blockers roll into reviewer workload SLA reports', () => {
+  const report = buildReviewerWorkloadSlaReport({
+    now: '2030-05-10T00:00:00.000Z',
+    issues: [{
+      issueId: 'pub-blocker-1',
+      issueType: 'publication_blocker',
+      owner: 'content_reviewer',
+      severity: 'critical',
+      status: 'blocked',
+      createdAt: '2030-05-08T00:00:00.000Z',
+      publicationBlockingReason: 'publication_qa_blocking'
+    }]
+  });
+
+  assert.equal(report.summary.byIssueType.publication_blocker, 1);
+  assert.equal(report.summary.byPublicationBlocking.blocking, 1);
+  assert.equal(report.rows[0].slaBucket, 'overdue');
 });

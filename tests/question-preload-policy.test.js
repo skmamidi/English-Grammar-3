@@ -4,6 +4,9 @@ const test = require('node:test');
 const {
   buildQuestionPreloadCandidates
 } = require('../assets/question-preload-policy');
+const {
+  buildContentChangeImpactAnalysis
+} = require('../assets/content-change-impact-analysis');
 
 test('preload policy selects only the first visible topic-index subtopic within budget', () => {
   const candidates = buildQuestionPreloadCandidates({
@@ -74,6 +77,22 @@ test('preload policy enforces byte and count budgets', () => {
 
   assert.deepEqual(candidates.map(candidate => candidate.setId), ['grammar-sentence-types', 'grammar-run-on-sentences']);
   assert.ok(candidates.reduce((sum, candidate) => sum + candidate.estimatedBytes, 0) <= 130 * 1024);
+});
+
+test('content impact analysis lists affected chunk files for preload review', () => {
+  const analysis = buildContentChangeImpactAnalysis({
+    changes: [{
+      questionId: 'grammar-sentence-types-q0001',
+      changeType: 'changed',
+      domain: 'grammar',
+      setId: 'grammar-sentence-types',
+      chunkFile: 'assets/question-chunks/grammar/grammar-sentence-types.js',
+      manifestEntryId: 'grammar-sentence-types:q0001',
+      rollbackRef: 'release:previous'
+    }]
+  });
+
+  assert.deepEqual(analysis.summary.chunks, ['assets/question-chunks/grammar/grammar-sentence-types.js']);
 });
 
 function createManifest() {

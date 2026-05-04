@@ -82,7 +82,7 @@
       .concat(normalizeRows(source.weakExplanations, 'weak_explanation', now))
       .concat(normalizeRows(source.sourceFindings, 'source_finding', now))
       .concat(normalizeRows(source.standardsGaps, 'standards_gap', now))
-      .sort((a, b) => severityRank(a.severity) - severityRank(b.severity) || b.ageDays - a.ageDays || a.issueId.localeCompare(b.issueId));
+      .sort((a, b) => severityRank(a.severity) - severityRank(b.severity) || issueTypeRank(a.issueType) - issueTypeRank(b.issueType) || b.ageDays - a.ageDays || a.issueId.localeCompare(b.issueId));
 
     return Object.freeze({
       schemaVersion: 1,
@@ -221,6 +221,11 @@
 
   function severityRank(severity) {
     return { critical: 0, high: 1, medium: 2, low: 3 }[severity] || 4;
+  }
+
+  function issueTypeRank(issueType) {
+    const index = REQUIRED_CURRICULUM_REVIEW_ISSUE_TYPES.indexOf(issueType);
+    return index === -1 ? REQUIRED_CURRICULUM_REVIEW_ISSUE_TYPES.length : index;
   }
 
   function ageDays(createdAt, now) {

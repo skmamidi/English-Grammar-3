@@ -176,6 +176,9 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/source-attribution\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/source-license-qa\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/curriculum-review-queue-dashboard\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/content-change-impact-analysis\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/curriculum-release-channel-policy\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/reviewer-workload-sla-report\.test\.js/);
   assert.equal(pkg.scripts['qa:source-license'], 'node scripts/qa/source-license-qa.js');
   assert.match(pkg.scripts['test:unit'], /tests\/chunk-size-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);

@@ -10,6 +10,9 @@ const {
   filterCurriculumReviewQueueRows,
   validateCurriculumReviewQueueProjection
 } = require('../assets/curriculum-review-queue-dashboard');
+const {
+  buildReviewerWorkloadSlaReport
+} = require('../assets/reviewer-workload-sla-report');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -138,6 +141,19 @@ test('curriculum review queue docs and CI wiring are present', () => {
   assert.match(roadmap, /curriculum-review-queue-dashboard\.js/);
   assert.match(ciContract, /tests\\\/curriculum-review-queue-dashboard\\\.test\\\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/curriculum-review-queue-dashboard\.test\.js/);
+});
+
+test('curriculum review queue rows feed workload SLA reports without expanding content payloads', () => {
+  const projection = buildCurriculumReviewQueueProjection(DEFAULT_CURRICULUM_REVIEW_QUEUE_FIXTURES);
+  const report = buildReviewerWorkloadSlaReport({
+    now: '2030-05-10T00:00:00.000Z',
+    reviewQueue: projection
+  });
+
+  assert.equal(report.summary.total, projection.rows.length);
+  assert.equal(report.summary.byOwner.content_reviewer, 2);
+  assert.equal(Object.hasOwn(report.rows[0], 'questionText'), false);
+  assert.equal(Object.hasOwn(report.rows[0], 'answerKey'), false);
 });
 
 function escapeRegex(value) {

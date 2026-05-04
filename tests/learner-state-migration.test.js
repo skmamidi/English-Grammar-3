@@ -9,6 +9,9 @@ const {
 const {
   migrateLocalStorageToIndexedDb
 } = require('../assets/learner-state-migration');
+const {
+  buildContentChangeImpactAnalysis
+} = require('../assets/content-change-impact-analysis');
 const { createFakeIndexedDB } = require('./helpers/fake-indexeddb');
 
 test('learner state migration preserves normalized progress and keeps localStorage intact', async () => {
@@ -93,6 +96,26 @@ test('learner state migration does not mark complete when IndexedDB write fails'
 
   assert.equal(storage.getItem('grammarQuestProgress.indexeddbMigrated'), null);
   assert.ok(storage.getItem('grammarQuestProgress'), 'localStorage copy remains after failed migration');
+});
+
+test('content impact analysis reports learner-state compatibility risk without mutating progress', () => {
+  const analysis = buildContentChangeImpactAnalysis({
+    changes: [{
+      questionId: 'grammar-q0001',
+      changeType: 'removed',
+      domain: 'grammar',
+      setId: 'grammar-set',
+      chunkFile: 'assets/question-chunks/grammar/grammar-set.js',
+      manifestEntryId: 'grammar-set:q0001',
+      rollbackRef: 'release:previous',
+      learnerStateCompatibilityRisk: 'high',
+      activeLearnerRefs: 12
+    }]
+  });
+
+  assert.equal(analysis.summary.learnerStateCompatibilityRisk, 'high');
+  assert.equal(Object.hasOwn(analysis, 'learnerState'), false);
+  assert.doesNotMatch(JSON.stringify(analysis), /activeLearnerRefs/);
 });
 
 function createMemoryStorage(overrides = {}) {

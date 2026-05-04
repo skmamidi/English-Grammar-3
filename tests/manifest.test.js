@@ -13,6 +13,12 @@ const {
   loadManifest,
   validateManifest
 } = require('../scripts/generate-question-manifest');
+const {
+  buildContentChangeImpactAnalysis
+} = require('../assets/content-change-impact-analysis');
+const {
+  buildCurriculumReleaseChannelVersion
+} = require('../assets/curriculum-release-channel-policy');
 
 test('generated manifest matches loaded question banks', () => {
   const banks = validateContent();
@@ -58,6 +64,50 @@ test('manifest exposes compact lookup metadata without learner-facing prompts', 
   assert.equal(Object.hasOwn(set.questions[0], 'question'), false);
   assert.equal(Object.hasOwn(set.questions[0], 'choices'), false);
   assert.equal(Object.hasOwn(set.questions[0], 'explanation'), false);
+});
+
+test('content impact analysis carries manifest entry ids for changed content', () => {
+  const analysis = buildContentChangeImpactAnalysis({
+    changes: [{
+      questionId: 'grammar-q0001',
+      changeType: 'changed',
+      domain: 'grammar',
+      setId: 'grammar-set',
+      chunkFile: 'assets/question-chunks/grammar/grammar-set.js',
+      manifestEntryId: 'grammar-set:q0001',
+      rollbackRef: 'release:previous'
+    }]
+  });
+
+  assert.deepEqual(analysis.summary.manifestEntries, ['grammar-set:q0001']);
+});
+
+test('curriculum release channel provenance carries manifest hashes without prompts', () => {
+  const version = buildCurriculumReleaseChannelVersion({
+    versionId: 'curriculum-manifest-1',
+    channel: 'review',
+    provenance: {
+      publicationId: 'pub-manifest-1',
+      sourceHash: 'sha256:source',
+      questionManifestHash: 'sha256:question-manifest',
+      chunkManifestHash: 'sha256:chunk-manifest',
+      reviewApprovalIds: ['approval-1'],
+      sourceRemediationRecordIds: ['source-remediation:1'],
+      deploymentAttestationHash: 'sha256:deployment',
+      contentImpactAnalysisId: 'impact-1'
+    },
+    rollback: {
+      previousVersionId: 'curriculum-previous',
+      rollbackRef: 'release:previous'
+    }
+  });
+
+  assert.equal(version.provenance.questionManifestHash, 'sha256:question-manifest');
+  assert.equal(version.provenance.chunkManifestHash, 'sha256:chunk-manifest');
+  assert.equal(Object.hasOwn(version.provenance, 'prompt'), false);
+  assert.equal(Object.hasOwn(version.provenance, 'question'), false);
+  assert.equal(Object.hasOwn(version.provenance, 'choices'), false);
+  assert.equal(Object.hasOwn(version.provenance, 'explanation'), false);
 });
 
 test('all manifest entries point to checked-in chunk files', () => {

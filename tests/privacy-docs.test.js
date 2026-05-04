@@ -56,10 +56,13 @@ test('subprocessor documentation separates current and future providers', () => 
 
 test('processing docs are privacy-safe and linked from release checklist', () => {
   const doc = readProcessingDoc();
+  const workloadDocs = fs.readFileSync(path.join(repoRoot, 'docs', 'reviewer-workload-sla-reports.md'), 'utf8');
   const checklist = fs.readFileSync(path.join(repoRoot, 'docs', 'release-checklist.md'), 'utf8');
   const pkg = JSON.parse(fs.readFileSync(path.join(repoRoot, 'package.json'), 'utf8'));
 
   assert.doesNotMatch(doc, /learnerId\s*=|studentId\s*=|token\s*=|secret\s*=|password\s*=|customer_[A-Za-z0-9]+|subscription_[A-Za-z0-9]+|@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/i);
+  assert.doesNotMatch(workloadDocs, /learnerId\s*=|studentId\s*=|answerKey|correctAnswer|rawAiDraft|staff ranking|performance score/i);
+  assert.match(workloadDocs, /separate reviewer workload from learner analytics/i);
   assert.match(doc, /does not provide legal advice/i);
   assert.match(doc, /data-inventory\.md/);
   assert.match(doc, /data-access-requests\.md/);

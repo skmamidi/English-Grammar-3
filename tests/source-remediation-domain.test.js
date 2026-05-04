@@ -10,6 +10,12 @@ const {
 const {
   buildCurriculumReviewQueueProjection
 } = require('../assets/curriculum-review-queue-dashboard');
+const {
+  buildCurriculumReleaseChannelFromPublication
+} = require('../assets/curriculum-release-channel-policy');
+const {
+  buildReviewerWorkloadSlaReport
+} = require('../assets/reviewer-workload-sla-report');
 
 test('source remediation findings normalize deterministic identifiers', () => {
   const finding = buildSourceFinding({
@@ -123,4 +129,71 @@ test('source remediation findings project into review queue without source detai
   assert.equal(projection.rows[0].issueType, 'source_finding');
   assert.equal(projection.rows[0].publicationBlockingReason, 'source_finding:missing-source-file');
   assert.doesNotMatch(JSON.stringify(projection), /copyrighted source paragraph/);
+});
+
+test('source remediation records become release-channel provenance without source excerpts', () => {
+  const finding = buildSourceFinding({
+    ruleId: 'missing-source-file',
+    domain: 'grammar',
+    setId: 'grammar-set',
+    questionId: 'q-fixed',
+    sourceFile: 'source.pdf',
+    sourceHash: 'sha256:new'
+  });
+  const result = evaluateSourceRemediation({
+    findings: [finding],
+    records: [{
+      findingId: finding.findingId,
+      status: 'fixed',
+      owner: 'reviewer-1',
+      rationale: 'Reviewed source catalog entry.',
+      sourceHash: 'sha256:new',
+      sourceExcerpt: 'do not expose source paragraph'
+    }]
+  });
+  const channel = buildCurriculumReleaseChannelFromPublication({
+    publication: {
+      id: 'pub-source-1',
+      sourceHash: 'sha256:source',
+      artifactHash: 'sha256:artifact',
+      approvals: [{ actorId: 'reviewer-1', approvedAt: '2030-04-29T12:00:00.000Z' }]
+    },
+    impactAnalysis: {
+      releaseId: 'impact-source-1',
+      summary: {
+        sourceRemediationRecords: result.records.map(record => record.findingId),
+        rollbackRefs: ['release:previous']
+      }
+    },
+    versionId: 'curriculum-source-1',
+    channel: 'review',
+    questionManifestHash: 'sha256:question',
+    chunkManifestHash: 'sha256:chunk',
+    deploymentAttestationHash: 'sha256:deployment'
+  });
+
+  assert.deepEqual(channel.provenance.sourceRemediationRecordIds, [finding.findingId]);
+  assert.doesNotMatch(JSON.stringify(channel), /source paragraph/);
+});
+
+test('source remediation findings roll into reviewer workload SLA reports', () => {
+  const finding = buildSourceFinding({
+    ruleId: 'missing-source-file',
+    domain: 'grammar',
+    setId: 'grammar-set',
+    questionId: 'q-open',
+    sourceFile: 'source.pdf',
+    sourceHash: 'sha256:new'
+  });
+  const report = buildReviewerWorkloadSlaReport({
+    now: '2030-05-10T00:00:00.000Z',
+    sourceRemediation: evaluateSourceRemediation({
+      findings: [finding],
+      records: []
+    })
+  });
+
+  assert.equal(report.summary.byIssueType.source_finding, 1);
+  assert.equal(report.rows[0].publicationBlockingState, 'blocking');
+  assert.doesNotMatch(JSON.stringify(report), /source excerpt|answerKey|learner-/i);
 });

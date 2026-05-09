@@ -100,3 +100,27 @@ test('lesson progress telemetry event is metadata-only and route-query safe', ()
   });
   assert.equal(JSON.stringify(event).includes('Raw'), false);
 });
+
+test('lesson progress records can support mission readiness without lesson bodies', () => {
+  const merged = mergeLessonProgressRecords([
+    {
+      setId: 'grammar-sentence-types',
+      grade: 5,
+      status: 'in_progress',
+      updatedAt: '2030-04-29T11:00:00.000Z',
+      storyBeats: [{ text: 'Raw lesson body' }]
+    },
+    {
+      setId: 'grammar-sentence-types',
+      grade: 5,
+      status: 'completed',
+      completedAt: '2030-04-29T11:05:00.000Z',
+      updatedAt: '2030-04-29T11:05:00.000Z'
+    }
+  ]);
+
+  assert.equal(merged[0].lessonRef.setId, 'grammar-sentence-types');
+  assert.equal(merged[0].status, 'completed');
+  assert.equal(merged[0].completedAt, '2030-04-29T11:05:00.000Z');
+  assert.equal(JSON.stringify(merged).includes('Raw lesson body'), false);
+});

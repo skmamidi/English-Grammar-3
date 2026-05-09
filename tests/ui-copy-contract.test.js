@@ -33,6 +33,8 @@ test('copy catalog is localization-ready and keyed by owned surfaces', () => {
     assert.ok(entry.text);
   });
   assert.doesNotMatch(JSON.stringify(catalog), /stack trace|TypeError|ReferenceError|learnerId|studentId|token|private key/i);
+  assert.ok(catalog.entries.some(entry => entry.key === 'mission.reminder.duesoon'));
+  assert.ok(catalog.entries.some(entry => entry.key === 'mission.dashboard.completed'));
 });
 
 test('copy validation rejects unsafe technical and overlong learner-facing copy', () => {
@@ -75,7 +77,8 @@ test('UI copy documentation defines ownership and localization readiness', () =>
     'learner_error',
     'guardian_dashboard',
     'teacher_dashboard',
-    'operator_status'
+    'operator_status',
+    'mission.reminder.duesoon'
   ].forEach(category => {
     assert.match(docs, new RegExp('`' + category + '`'), `docs should include ${category}`);
   });

@@ -46,3 +46,16 @@ test('classroom membership changes are timestamped and ref-only', () => {
   assert.equal(updated.updatedAt, '2030-04-29T12:00:00.000Z');
   assert.equal(JSON.stringify(updated).includes('raw prompt'), false);
 });
+
+test('classroom mission assignment scope rejects cross-class learner refs', () => {
+  const record = classroom.normalizeClassroom({
+    classId: 'class-a',
+    teacherIds: ['teacher-1'],
+    learnerIds: ['learner-1', 'learner-2'],
+    status: 'active'
+  });
+
+  assert.deepEqual(classroom.validateClassroomLearnerScope(record, ['learner-1', 'learner-2']), []);
+  assert.ok(classroom.validateClassroomLearnerScope(record, ['learner-1', 'learner-3'])
+    .some(error => /cross-class learner/.test(error)));
+});

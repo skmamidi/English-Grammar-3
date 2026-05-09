@@ -45,3 +45,33 @@ test('weak skill recommendation engine does not overclaim sparse evidence', () =
   assert.deepEqual(result.recommendations, []);
 });
 
+test('weak skill recommendation output is safe mission-composition evidence', () => {
+  const result = recommendations.generateWeakSkillRecommendations({
+    recentSessions: [{
+      attempts: [
+        { questionId: 'grammar-q0001', correct: false, skillIds: ['grammar.sentence-analysis'], difficulty: 'medium', question: 'raw prompt' },
+        { questionId: 'grammar-q0002', correct: false, skillIds: ['grammar.sentence-analysis'], difficulty: 'medium', answer: 'raw answer' },
+        { questionId: 'grammar-q0003', correct: true, skillIds: ['grammar.sentence-analysis'], difficulty: 'medium' }
+      ]
+    }],
+    taxonomy: {
+      skills: {
+        'grammar.sentence-analysis': { label: 'Sentence analysis', standards: ['L.3-6.1'] }
+      }
+    },
+    manifest: {
+      sets: [{
+        id: 'grammar-sentence-types',
+        domain: 'grammar',
+        skillCoverage: [{ skillId: 'grammar.sentence-analysis' }]
+      }]
+    },
+    now: '2030-04-29T12:00:00.000Z'
+  });
+
+  assert.equal(result.recommendations[0].skillId, 'grammar.sentence-analysis');
+  assert.equal(result.recommendations[0].target.type, 'subtopic');
+  assert.deepEqual(result.recommendations[0].target.setIds, ['grammar-sentence-types']);
+  assert.equal(JSON.stringify(result).includes('raw prompt'), false);
+  assert.equal(JSON.stringify(result).includes('raw answer'), false);
+});

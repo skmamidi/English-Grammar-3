@@ -35,10 +35,10 @@
     supportVisibility: 'billing_summary_only',
     purchaseChannels: Object.freeze({
       web_checkout: channel('web', 'web_provider_receipt_ref', 'server_webhook_only', 'verified_billing_ledger', 'ready_for_web_billing_contracts'),
-      ios_iap: channel('ios_ipados', 'app_store_receipt_ref', 'server_only', 'server_verified_receipt_ledger', 'deferred_until_native_implementation'),
+      ios_iap: channel('ios_ipados', 'app_store_receipt_ref', 'server_only', 'server_verified_receipt_ledger', 'ready_for_server_receipt_validation'),
       ios_external_link: channel('ios_ipados', 'external_billing_eligibility_ref', 'server_policy_review_only', 'server_verified_ledger_or_receipt', 'deferred_until_policy_review'),
       support_adjustment: channel('server', 'support_case_ref', 'server_only', 'server_only', 'requires_expiring_audit_evidence'),
-      app_store_refund: channel('ios_ipados', 'app_store_refund_ref', 'server_only', 'server_verified_receipt_ledger', 'deferred_until_native_implementation'),
+      app_store_refund: channel('ios_ipados', 'app_store_refund_ref', 'server_only', 'server_verified_receipt_ledger', 'ready_for_server_receipt_validation'),
       provider_outage_grace: channel('server', 'billing_operations_ref', 'server_only', 'server_only', 'ready_for_operations_contracts')
     })
   });

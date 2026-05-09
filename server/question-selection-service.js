@@ -1,5 +1,6 @@
 const selectionCore = require('../assets/quiz-selection-core');
 const selectionIntegrity = require('../assets/question-selection-integrity');
+const dynamicQuizAssembly = require('./dynamic-quiz-assembly-policy');
 
 const DEFAULT_SELECTION_POLICY_VERSION = 1;
 const DEFAULT_MAX_SELECTED_QUESTIONS = 60;
@@ -46,6 +47,26 @@ async function selectQuestionRefs(request, context) {
     const loaded = await ctx.loadSetById(setId);
     return Object.assign({}, loaded, { id: setId });
   }));
+  if (ctx.dynamicQuizAssembly && ctx.dynamicQuizAssembly.enabled) {
+    const candidatePool = dynamicQuizAssembly.buildCandidatePool(sets.flatMap(set => {
+      const questions = Array.isArray(set.questions) ? set.questions : [];
+      return questions.map(question => normalizeAssemblyCandidate(question, set, normalized));
+    }));
+    const assemblyPlan = dynamicQuizAssembly.assembleDynamicQuizPlan({
+      request: Object.assign({}, normalized, {
+        seed: ctx.dynamicQuizAssembly.seed || buildAssemblySeed(normalized),
+        assignment: ctx.dynamicQuizAssembly.assignment,
+        policy: ctx.dynamicQuizAssembly.policy
+      }),
+      candidatePool,
+      featureSnapshot: ctx.dynamicQuizAssembly.featureSnapshot
+    });
+    return {
+      request: normalized,
+      questionRefs: assemblyPlan.questionRefs,
+      assemblyPlan
+    };
+  }
   const selectedQuestions = normalized.mode === 'subtopic'
     ? selectionCore.selectQuestionsForLevel(sets[0] && sets[0].questions || [], normalized.grade, normalized.difficulty, {
       targetQuestionCount: normalized.count,
@@ -92,6 +113,7 @@ async function buildSelectionResponse(selection, request, context) {
     signatureVersion: ctx.signing ? ctx.signing.signatureVersion : 'none',
     expiresAt: new Date(ctx.now().getTime() + ctx.responseTtlSeconds * 1000).toISOString()
   };
+  if (selection && selection.assemblyPlan) response.assemblyPlan = selection.assemblyPlan;
   if (ctx.signing) response.kid = ctx.signing.kid;
   response.requestHash = await selectionIntegrity.buildSelectionRequestHash(normalized, ctx.manifest.artifact || {});
   response.responseDigest = await selectionIntegrity.buildSelectionResponseDigest(response, ctx.manifest.artifact || {});
@@ -145,7 +167,19 @@ function normalizeContext(context) {
     selectionPolicyVersion: Number(ctx.selectionPolicyVersion) || DEFAULT_SELECTION_POLICY_VERSION,
     responseTtlSeconds: normalizeResponseTtlSeconds(ctx.responseTtlSeconds),
     shuffle: typeof ctx.shuffle === 'function' ? ctx.shuffle : undefined,
+    dynamicQuizAssembly: normalizeDynamicQuizAssembly(ctx.dynamicQuizAssembly),
     signing: normalizeSigning(ctx.signing)
+  };
+}
+
+function normalizeDynamicQuizAssembly(config) {
+  if (!config || config.enabled !== true) return null;
+  return {
+    enabled: true,
+    seed: config.seed || '',
+    featureSnapshot: config.featureSnapshot || null,
+    assignment: config.assignment || null,
+    policy: config.policy || null
   };
 }
 
@@ -191,6 +225,36 @@ function buildSelectionId(refs, request, context) {
     hash = ((hash << 5) - hash + source.charCodeAt(index)) | 0;
   }
   return `sel_${Math.abs(hash).toString(36)}`;
+}
+
+function normalizeAssemblyCandidate(question, set, request) {
+  const metadata = question && question.metadata || {};
+  const manifestSet = getManifestSet(request && request.manifest || {}, set && set.id) || {};
+  return {
+    id: question && question.id,
+    questionId: question && question.id,
+    sourceSet: metadata.sourceSet || set && set.id,
+    domain: request && request.domain || set && set.domain || manifestSet.domain || '',
+    version: question && question.version,
+    contentHash: question && question.contentHash,
+    sequence: metadata.sequence,
+    skillIds: metadata.skillIds || metadata.skills,
+    standardIds: metadata.standardIds || metadata.standards,
+    gradeLevels: metadata.gradeLevels,
+    difficultyByGrade: metadata.difficultyByGrade,
+    difficulty: metadata.primaryDifficulty || metadata.intrinsicDifficulty
+  };
+}
+
+function buildAssemblySeed(request) {
+  return [
+    request.domain,
+    request.setIds.join(','),
+    request.grade,
+    request.difficulty,
+    request.count,
+    request.selectionPolicyVersion
+  ].join(':');
 }
 
 module.exports = {

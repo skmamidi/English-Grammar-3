@@ -55,7 +55,7 @@ test('purchase channel matrix records App Store and external billing decisions b
   assert.equal(iosIap.receiptSource, 'app_store_receipt_ref');
   assert.equal(iosIap.receiptValidation, 'server_only');
   assert.equal(iosIap.entitlementMutation, 'server_verified_receipt_ledger');
-  assert.equal(iosIap.decisionStatus, 'deferred_until_native_implementation');
+  assert.equal(iosIap.decisionStatus, 'ready_for_server_receipt_validation');
   assert.equal(webCheckout.receiptValidation, 'server_webhook_only');
   assert.equal(webCheckout.entitlementMutation, 'verified_billing_ledger');
   assert.ok(matrix.decisionQuestions.includes('external_billing_link_allowed'));

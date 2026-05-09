@@ -58,3 +58,66 @@ test('XP fairness reports are aggregate-only and omit learner identifiers', () =
   assert.equal(report.cadenceBuckets.fast, 1);
   assert.equal(JSON.stringify(report).includes('learner-'), false);
 });
+
+test('XP abuse policy reviews duplicate and suspicious mission reward events', () => {
+  const decision = abuse.evaluateMissionRewardAbuse({
+    missionId: 'mission-sentence-detectives',
+    priorMissionAwardIds: ['mission-sentence-detectives'],
+    completedAt: '2030-05-01T12:00:00.000Z',
+    previousCompletedAt: '2030-05-01T11:59:30.000Z',
+    awardedXp: 500,
+    leaderboardEligible: true,
+    clientAwardedXp: 999999
+  });
+
+  assert.equal(decision.decision, 'review');
+  assert.equal(decision.practiceAllowed, true);
+  assert.equal(decision.awardEligible, false);
+  assert.equal(decision.leaderboardEligible, false);
+  assert.deepEqual(decision.reasonCodes.sort(), [
+    'client_mission_bonus_submitted',
+    'duplicate_mission_completion',
+    'mission_leaderboard_bonus_blocked',
+    'rapid_mission_repeat',
+    'unusual_mission_award_spike'
+  ]);
+});
+
+test('mission engagement abuse flags grinding, impossible cadence, spam, and reminder fatigue', () => {
+  const decision = abuse.evaluateMissionEngagementAbuse({
+    missionCompletionCount: 12,
+    distinctMissionCount: 2,
+    stepsCompleted: 8,
+    durationSeconds: 80,
+    assignmentCreatesIn24h: 9,
+    reminderAttemptsIn24h: 6,
+    reminderDismissalsIn7d: 4
+  });
+
+  assert.equal(decision.decision, 'review');
+  assert.equal(decision.practiceAllowed, true);
+  assert.equal(decision.assignmentEligible, false);
+  assert.equal(decision.reminderEligible, false);
+  assert.deepEqual(decision.reasonCodes.sort(), [
+    'assignment_spam',
+    'impossible_mission_cadence',
+    'mission_grinding',
+    'reminder_fatigue'
+  ]);
+});
+
+test('mission fairness reports grade skew from aggregate-only mission observations', () => {
+  const report = abuse.buildAggregateMissionFairnessReport([
+    { learnerId: 'learner-a', grade: 3, missionStarts: 9, completions: 8 },
+    { learnerId: 'learner-b', grade: 3, missionStarts: 7, completions: 7 },
+    { learnerId: 'learner-c', grade: 5, missionStarts: 1, completions: 0 }
+  ]);
+
+  assert.equal(report.totalObservations, 3);
+  assert.deepEqual(report.gradeBuckets, {
+    grade_3: { observations: 2, missionStarts: 16, completions: 15 },
+    grade_5: { observations: 1, missionStarts: 1, completions: 0 }
+  });
+  assert.deepEqual(report.riskSignals, ['grade_skew']);
+  assert.equal(JSON.stringify(report).includes('learner-'), false);
+});

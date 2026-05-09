@@ -31,14 +31,71 @@ test('backend policy maps canonical storage paths to access-control resources', 
   assert.equal(resolveBackendResource('unknown/path').type, 'unknown');
 });
 
+test('backend policy maps tenant partition paths and denies cross-tenant access', () => {
+  assert.deepEqual(resolveBackendResource(BACKEND_STORAGE_PATHS.tenantLearnerState('school-a', 'learner-a')), {
+    type: 'learnerProgress',
+    id: 'learner-a',
+    learnerId: 'learner-a',
+    ownerLearnerId: 'learner-a',
+    classId: '',
+    tenantId: 'school-a',
+    tenantType: 'school',
+    partitionKey: {
+      schemaVersion: 1,
+      tenantId: 'school-a',
+      tenantType: 'school',
+      resourceType: 'learner_state',
+      ownerType: 'learner',
+      ownerId: 'learner-a',
+      learnerId: 'learner-a',
+      classId: '',
+      accessBoundary: 'institution'
+    }
+  });
+
+  const sameTenant = evaluateBackendPolicy({
+    actor: Object.assign({}, actors.teacherAssigned, {
+      tenantMemberships: [{ tenantId: 'school-a', tenantType: 'school', role: 'teacher', status: 'active', learnerIds: ['learner-a'], classIds: ['class-a'] }]
+    }),
+    operation: 'read',
+    path: BACKEND_STORAGE_PATHS.tenantLearnerState('school-a', 'learner-a')
+  });
+  const crossTenant = evaluateBackendPolicy({
+    actor: Object.assign({}, actors.teacherAssigned, {
+      tenantMemberships: [{ tenantId: 'school-b', tenantType: 'school', role: 'teacher', status: 'active', learnerIds: ['learner-a'], classIds: ['class-a'] }]
+    }),
+    operation: 'read',
+    path: BACKEND_STORAGE_PATHS.tenantLearnerState('school-a', 'learner-a')
+  });
+  const serverTenant = evaluateBackendPolicy({
+    actor: Object.assign({}, actors.serverService, { serviceTenantIds: ['school-a'] }),
+    operation: 'create',
+    path: BACKEND_STORAGE_PATHS.tenantVerifiedLearningAttempt('school-a', 'learner-a', 'event-1')
+  });
+  const serverCrossTenant = evaluateBackendPolicy({
+    actor: Object.assign({}, actors.serverService, { serviceTenantIds: ['school-b'] }),
+    operation: 'create',
+    path: BACKEND_STORAGE_PATHS.tenantVerifiedLearningAttempt('school-a', 'learner-a', 'event-1')
+  });
+
+  assert.equal(sameTenant.allow, true);
+  assert.equal(crossTenant.allow, false);
+  assert.equal(crossTenant.reason, 'tenant_membership_required');
+  assert.equal(serverTenant.allow, true);
+  assert.equal(serverCrossTenant.allow, false);
+  assert.equal(serverCrossTenant.reason, 'tenant_membership_required');
+});
+
 test('student can read and write only their own learner state and active quiz', () => {
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'read', path: 'learners/learner-a/state' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: 'learners/learner-a/state' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: 'learners/learner-a/activeQuiz' }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: 'learners/learner-a/xpAttempts/attempt-1' }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: BACKEND_STORAGE_PATHS.learningAttemptSubmission('learner-a', 'attempt-1') }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'read', path: 'learners/learner-b/state' }).allow, false);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: 'learners/learner-b/state' }).allow, false);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: 'learners/learner-b/xpAttempts/attempt-1' }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: BACKEND_STORAGE_PATHS.learningAttemptSubmission('learner-b', 'attempt-1') }).allow, false);
   assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: 'xpProjections/learner-a' }).allow, false);
 });
 
@@ -54,6 +111,19 @@ test('XP award storage and projections are server owned while attempt submission
   assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'update', path: BACKEND_STORAGE_PATHS.xpAwardEvent('learner-a', 'award-1') }).allow, false);
   assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'write', path: BACKEND_STORAGE_PATHS.xpProjection('learner-a') }).allow, true);
   assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'write', path: BACKEND_STORAGE_PATHS.leaderboardEntry('weekly_2030_W18', 'participant-a') }).allow, true);
+});
+
+test('verified learning attempts and projections are server owned while submissions stay learner scoped', () => {
+  const serviceActor = { id: 'learning-adjudicator', role: 'server_service', serverOwned: true };
+
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: BACKEND_STORAGE_PATHS.learningAttemptSubmission('learner-a', 'attempt-1') }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'create', path: BACKEND_STORAGE_PATHS.verifiedLearningAttempt('learner-a', 'event-1') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: actors.student, operation: 'write', path: BACKEND_STORAGE_PATHS.learningProjection('learner-a') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: actors.teacherAssigned, operation: 'write', path: BACKEND_STORAGE_PATHS.institutionalLearningReport('class-a') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'create', path: BACKEND_STORAGE_PATHS.verifiedLearningAttempt('learner-a', 'event-1') }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'update', path: BACKEND_STORAGE_PATHS.verifiedLearningAttempt('learner-a', 'event-1') }).allow, false);
+  assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'write', path: BACKEND_STORAGE_PATHS.learningProjection('learner-a') }).allow, true);
+  assert.equal(evaluateBackendPolicy({ actor: serviceActor, operation: 'write', path: BACKEND_STORAGE_PATHS.institutionalLearningReport('class-a') }).allow, true);
 });
 
 test('guardian can read linked learner summaries but cannot write unrelated learner data', () => {

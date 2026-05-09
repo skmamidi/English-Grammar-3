@@ -44,6 +44,8 @@
       entry('quiz.start', 'learner_control', 'quiz', 'learner', 'Start practice', 'learning-experience', 28),
       entry('quiz.empty', 'learner_empty_state', 'quiz', 'learner', 'Practice is not ready yet. Choose another topic or try again in a moment.', 'learning-experience', 120),
       entry('quiz.offline', 'learner_error', 'quiz', 'learner', 'This quiz needs a connection before it can load. Reconnect, then try again.', 'platform', 140),
+      entry('mission.dashboard.completed', 'learner_empty_state', 'mission-dashboard', 'learner', 'Mission complete. Choose another mission when you are ready.', 'learning-experience', 120),
+      entry('mission.reminder.duesoon', 'guardian_dashboard', 'mission-reminders', 'guardian', 'A guided mission is coming due soon. Reminders stay optional and quiet-hour aware.', 'family-experience', 140),
       entry('guardian.summary.empty', 'guardian_dashboard', 'guardian-dashboard', 'guardian', 'No saved progress in this area yet.', 'family-experience', 140),
       entry('teacher.assignment.empty', 'teacher_dashboard', 'assignments', 'teacher', 'No assignments are ready for this class yet.', 'classroom-experience', 140),
       entry('operations.cache.warning', 'operator_status', 'admin-operations', 'operator', 'Service worker cache metadata needs review before release.', 'platform', 160),

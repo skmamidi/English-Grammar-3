@@ -42,6 +42,21 @@
     leaderboardMaterializationEnabled: false,
     leaderboardDisplayEnabled: false,
     xpTelemetryEnabled: false,
+    missionCatalogEnabled: false,
+    missionLearnerRouteEnabled: false,
+    missionRecommendationsEnabled: false,
+    missionAssignmentWorkflowsEnabled: false,
+    missionRemindersEnabled: false,
+    missionRewardsEnabled: false,
+    missionTelemetryEnabled: false,
+    sparseQuestionDeliveryPilot: false,
+    granularOfflineQuestionStore: false,
+    serverAdjudicatedLearningPilot: false,
+    personalizationFeatureStorePilot: false,
+    dynamicQuizAssemblyPilot: false,
+    learningExperimentPilot: false,
+    personalizationDisplayEnabled: false,
+    personalizationTelemetryEnabled: false,
     optionalPersonalizationEnabled: false,
     notificationDeliveryEnabled: false,
     nativeContentBundleEnabled: false,
@@ -67,6 +82,21 @@
     flags.leaderboardMaterializationEnabled = input.leaderboardMaterializationEnabled === true;
     flags.leaderboardDisplayEnabled = input.leaderboardDisplayEnabled === true;
     flags.xpTelemetryEnabled = input.xpTelemetryEnabled === true;
+    flags.missionCatalogEnabled = input.missionCatalogEnabled === true;
+    flags.missionLearnerRouteEnabled = input.missionLearnerRouteEnabled === true;
+    flags.missionRecommendationsEnabled = input.missionRecommendationsEnabled === true;
+    flags.missionAssignmentWorkflowsEnabled = input.missionAssignmentWorkflowsEnabled === true;
+    flags.missionRemindersEnabled = input.missionRemindersEnabled === true;
+    flags.missionRewardsEnabled = input.missionRewardsEnabled === true;
+    flags.missionTelemetryEnabled = input.missionTelemetryEnabled === true;
+    flags.sparseQuestionDeliveryPilot = input.sparseQuestionDeliveryPilot === true;
+    flags.granularOfflineQuestionStore = input.granularOfflineQuestionStore === true;
+    flags.serverAdjudicatedLearningPilot = input.serverAdjudicatedLearningPilot === true;
+    flags.personalizationFeatureStorePilot = input.personalizationFeatureStorePilot === true;
+    flags.dynamicQuizAssemblyPilot = input.dynamicQuizAssemblyPilot === true;
+    flags.learningExperimentPilot = input.learningExperimentPilot === true;
+    flags.personalizationDisplayEnabled = input.personalizationDisplayEnabled === true;
+    flags.personalizationTelemetryEnabled = input.personalizationTelemetryEnabled === true;
     flags.optionalPersonalizationEnabled = input.optionalPersonalizationEnabled === true;
     flags.notificationDeliveryEnabled = input.notificationDeliveryEnabled === true || input.notificationsEnabled === true;
     flags.nativeContentBundleEnabled = input.nativeContentBundleEnabled === true;

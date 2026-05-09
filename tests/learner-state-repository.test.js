@@ -89,6 +89,23 @@ test('learner state repository stores assignment refs and status transitions', (
   assert.equal(repository.archiveAssignment('assignment-1').status, 'archived');
 });
 
+test('learner state repository stores mission progress evidence as refs', () => {
+  const repository = createRepository();
+  const evidence = repository.recordMissionStepEvidence({
+    missionId: 'mission-sentence-detectives',
+    stepId: 'lesson-sentence-types',
+    stepType: 'lesson',
+    status: 'completed',
+    evidenceRef: { type: 'lesson_progress', setId: 'grammar-sentence-types' },
+    storyBeats: [{ text: 'Raw lesson body' }],
+    question: 'Raw prompt'
+  });
+
+  assert.equal(evidence.missionId, 'mission-sentence-detectives');
+  assert.equal(repository.getMissionProgress('mission-sentence-detectives').completedStepIds[0], 'lesson-sentence-types');
+  assert.equal(JSON.stringify(repository.getProgress().missionProgress).includes('Raw'), false);
+});
+
 test('learner state repository saves and clears privacy preferences in learner state', () => {
   const repository = createRepository();
 

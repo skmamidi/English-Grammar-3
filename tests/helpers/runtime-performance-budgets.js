@@ -7,7 +7,10 @@ const DEFAULT_RUNTIME_PERFORMANCE_BUDGETS = Object.freeze({
   longestTaskMs: Object.freeze({ warn: 250, fail: 1200 }),
   totalLongTaskMs: Object.freeze({ warn: 1200, fail: 5000 }),
   domNodeCount: Object.freeze({ warn: 2200, fail: 5000 }),
-  requiredChunkBytes: Object.freeze({ warn: 512 * 1024, fail: 1024 * 1024 })
+  requiredChunkBytes: Object.freeze({ warn: 512 * 1024, fail: 1024 * 1024 }),
+  sparseQuestionJsonBytes: Object.freeze({ warn: 128 * 1024, fail: 256 * 1024 }),
+  jsonParseMs: Object.freeze({ warn: 80, fail: 250 }),
+  storedQuestionBytes: Object.freeze({ warn: 4 * 1024 * 1024, fail: 12 * 1024 * 1024 })
 });
 
 const STRICT_RUNTIME_PERFORMANCE_BUDGETS = Object.freeze({
@@ -16,7 +19,10 @@ const STRICT_RUNTIME_PERFORMANCE_BUDGETS = Object.freeze({
   longestTaskMs: Object.freeze({ warn: 150, fail: 600 }),
   totalLongTaskMs: Object.freeze({ warn: 800, fail: 2500 }),
   domNodeCount: Object.freeze({ warn: 1800, fail: 3500 }),
-  requiredChunkBytes: Object.freeze({ warn: 384 * 1024, fail: 768 * 1024 })
+  requiredChunkBytes: Object.freeze({ warn: 384 * 1024, fail: 768 * 1024 }),
+  sparseQuestionJsonBytes: Object.freeze({ warn: 96 * 1024, fail: 192 * 1024 }),
+  jsonParseMs: Object.freeze({ warn: 50, fail: 160 }),
+  storedQuestionBytes: Object.freeze({ warn: 3 * 1024 * 1024, fail: 10 * 1024 * 1024 })
 });
 
 function getRuntimePerformanceBudgets(options = {}) {
@@ -33,6 +39,9 @@ function evaluateRuntimePerformanceBudget(metrics, budgets = DEFAULT_RUNTIME_PER
   checkMetric('totalLongTaskMs', input.totalLongTaskMs, budgets.totalLongTaskMs, warnings, errors);
   checkMetric('domNodeCount', input.domNodeCount, budgets.domNodeCount, warnings, errors);
   checkMetric('requiredChunkBytes', input.requiredChunkBytes, budgets.requiredChunkBytes, warnings, errors);
+  checkMetric('sparseQuestionJsonBytes', input.sparseQuestionJsonBytes, budgets.sparseQuestionJsonBytes, warnings, errors);
+  checkMetric('jsonParseMs', input.jsonParseMs, budgets.jsonParseMs, warnings, errors);
+  checkMetric('storedQuestionBytes', input.storedQuestionBytes, budgets.storedQuestionBytes, warnings, errors);
   if (Number.isFinite(input.heapUsedBytes) && input.heapUsedBytes > 0) {
     warnings.push({
       metric: 'heapUsedBytes',
@@ -90,6 +99,9 @@ function normalizeMetrics(metrics = {}) {
     totalLongTaskMs: nonNegative(metrics.totalLongTaskMs),
     domNodeCount: nonNegative(metrics.domNodeCount),
     requiredChunkBytes: nonNegative(metrics.requiredChunkBytes),
+    sparseQuestionJsonBytes: nonNegative(metrics.sparseQuestionJsonBytes),
+    jsonParseMs: nonNegative(metrics.jsonParseMs),
+    storedQuestionBytes: nonNegative(metrics.storedQuestionBytes),
     loadedChunkCount: nonNegative(metrics.loadedChunkCount),
     heapUsedBytes: Number.isFinite(Number(metrics.heapUsedBytes)) ? Math.max(0, Math.round(Number(metrics.heapUsedBytes))) : 0,
     longTaskSupported: metrics.longTaskSupported !== false

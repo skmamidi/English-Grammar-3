@@ -93,6 +93,10 @@ test('offline cache request classification honors preload intent and current chu
     classifyOfflineCacheRequest({ url: 'https://grammar.test/assets/styles.css' }).priorityGroup,
     'appShell'
   );
+  const sparse = classifyOfflineCacheRequest({ url: 'https://grammar.test/api/questions/sparse?refs=q1' });
+  assert.equal(sparse.priorityGroup, 'questionObjectData');
+  assert.equal(sparse.storageTarget, 'indexedDB');
+  assert.equal(sparse.cacheApiDurable, false);
 });
 
 test('quota errors are classified without depending on browser quota behavior', () => {

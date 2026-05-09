@@ -39,8 +39,10 @@
     manageOwnPrivacyPreferences: 'privacy-preferences:manage-own',
     viewLinkedLearnerPrivacyPreferences: 'privacy-preferences:view-linked',
     manageLinkedLearnerPrivacyPreferences: 'privacy-preferences:manage-linked',
+    manageLinkedLearnerMissionReminders: 'mission-reminders:manage-linked',
     manageLinkedLearnerLeaderboardOptIn: 'leaderboard:manage-linked-opt-in',
     manageAssignedLearnerLeaderboardOptIn: 'leaderboard:manage-assigned-opt-in',
+    assignGuidedMission: 'guided-mission:assign',
     requestLearnerDataDeletion: 'learner-data:request-delete',
     approveLearnerDataDeletion: 'learner-data:approve-delete',
     exportLearnerDataBackup: 'learner-data:export-backup',
@@ -84,6 +86,7 @@
     AUDIT_LOG: 'auditLog',
     SYSTEM_SETTING: 'systemSetting',
     PRIVACY_PREFERENCES: 'privacyPreferences',
+    MISSION_REMINDER_PREFERENCES: 'missionReminderPreferences',
     LEADERBOARD_PARTICIPATION: 'leaderboardParticipation'
   });
 
@@ -109,7 +112,9 @@
       Capabilities.importLinkedLearnerProgress,
       Capabilities.viewLinkedLearnerPrivacyPreferences,
       Capabilities.manageLinkedLearnerPrivacyPreferences,
+      Capabilities.manageLinkedLearnerMissionReminders,
       Capabilities.manageLinkedLearnerLeaderboardOptIn,
+      Capabilities.assignGuidedMission,
       Capabilities.requestLearnerDataDeletion,
       Capabilities.exportLearnerDataBackup
     ]),
@@ -126,6 +131,7 @@
       Capabilities.requestLearnerDataDeletion,
       Capabilities.exportLearnerDataBackup,
       Capabilities.manageAssignments,
+      Capabilities.assignGuidedMission,
       Capabilities.manageAssignedLearnerLeaderboardOptIn
     ]),
     [Roles.SYSTEM_ADMIN]: Object.freeze([
@@ -168,10 +174,14 @@
       linkedLearnerIds: normalizeIdList(input.linkedLearnerIds),
       assignedLearnerIds: normalizeIdList(input.assignedLearnerIds),
       assignedClassIds: normalizeIdList(input.assignedClassIds),
+      tenantMemberships: normalizeTenantMemberships(input.tenantMemberships),
+      serviceTenantIds: normalizeIdList(input.serviceTenantIds),
       classroomProgressTransferEnabled: input.classroomProgressTransferEnabled === true,
       learnerDataDeletionEnabled: input.learnerDataDeletionEnabled === true,
       privacyPreferenceManagementEnabled: input.privacyPreferenceManagementEnabled === true,
-      leaderboardManagementEnabled: input.leaderboardManagementEnabled === true
+      missionReminderManagementEnabled: input.missionReminderManagementEnabled === true,
+      leaderboardManagementEnabled: input.leaderboardManagementEnabled === true,
+      missionAssignmentManagementEnabled: input.missionAssignmentManagementEnabled === true
     };
   }
 
@@ -182,7 +192,10 @@
       id: safeString(input.id || input.resourceId),
       learnerId: safeString(input.learnerId || input.ownerLearnerId),
       ownerLearnerId: safeString(input.ownerLearnerId || input.learnerId),
-      classId: safeString(input.classId)
+      classId: safeString(input.classId),
+      tenantId: safeString(input.tenantId || input.partitionKey && input.partitionKey.tenantId),
+      tenantType: safeString(input.tenantType || input.partitionKey && input.partitionKey.tenantType),
+      partitionKey: normalizePartitionKey(input.partitionKey)
     };
   }
 
@@ -191,6 +204,7 @@
     const capability = safeString(action);
     const resource = normalizeResource(rawResource);
     if (!getRoleCapabilities(actor.role).includes(capability)) return false;
+    if (!hasTenantAccess(actor, resource)) return false;
 
     if (actor.role === Roles.STUDENT) {
       return canStudentAccess(actor, capability, resource);
@@ -259,6 +273,10 @@
     const normalized = normalizeActor(actor);
     const resource = { type: ResourceTypes.ASSIGNMENT, learnerId };
     return canAccess(normalized, Capabilities.viewAssignments, resource);
+  }
+
+  function canAssignGuidedMission(actor, resource) {
+    return canAccess(actor, Capabilities.assignGuidedMission, Object.assign({ type: ResourceTypes.ASSIGNMENT }, resource || {}));
   }
 
   function canViewLearnerDashboard(actor, learnerId) {
@@ -336,6 +354,17 @@
         actor.leaderboardManagementEnabled === true &&
         actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
     }
+    if (action === Capabilities.manageLinkedLearnerMissionReminders) {
+      return resource.type === ResourceTypes.MISSION_REMINDER_PREFERENCES &&
+        actor.missionReminderManagementEnabled === true &&
+        actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
+    }
+    if (action === Capabilities.assignGuidedMission) {
+      return resource.type === ResourceTypes.ASSIGNMENT &&
+        actor.missionAssignmentManagementEnabled === true &&
+        !resource.classId &&
+        actor.linkedLearnerIds.includes(resource.learnerId || resource.ownerLearnerId);
+    }
     if (![Capabilities.viewLinkedLearnerReports, Capabilities.viewLinkedLearnerDashboard].includes(action)) return false;
     if (![
       ResourceTypes.LEARNER_PROGRESS,
@@ -372,6 +401,10 @@
         actor.assignedLearnerIds.includes(resource.learnerId);
     }
     if (action === Capabilities.manageAssignments) {
+      return resource.type === ResourceTypes.ASSIGNMENT &&
+        (actor.assignedClassIds.includes(resource.classId) || actor.assignedLearnerIds.includes(resource.learnerId));
+    }
+    if (action === Capabilities.assignGuidedMission) {
       return resource.type === ResourceTypes.ASSIGNMENT &&
         (actor.assignedClassIds.includes(resource.classId) || actor.assignedLearnerIds.includes(resource.learnerId));
     }
@@ -412,6 +445,44 @@
       .filter(Boolean)));
   }
 
+  function normalizeTenantMemberships(value) {
+    return (Array.isArray(value) ? value : []).map(item => {
+      const input = item && typeof item === 'object' ? item : {};
+      return {
+        tenantId: safeString(input.tenantId),
+        tenantType: safeString(input.tenantType),
+        role: safeString(input.role),
+        status: safeString(input.status || 'pending'),
+        learnerIds: normalizeIdList(input.learnerIds || input.linkedLearnerIds || input.assignedLearnerIds),
+        classIds: normalizeIdList(input.classIds || input.assignedClassIds)
+      };
+    }).filter(item => item.tenantId && item.tenantType);
+  }
+
+  function normalizePartitionKey(value) {
+    const input = value && typeof value === 'object' ? value : {};
+    if (!input.tenantId && !input.tenantType) return null;
+    return {
+      tenantId: safeString(input.tenantId),
+      tenantType: safeString(input.tenantType),
+      resourceType: safeString(input.resourceType),
+      ownerType: safeString(input.ownerType),
+      ownerId: safeString(input.ownerId),
+      learnerId: safeString(input.learnerId),
+      classId: safeString(input.classId),
+      accessBoundary: safeString(input.accessBoundary)
+    };
+  }
+
+  function hasTenantAccess(actor, resource) {
+    if (!resource.tenantId) return true;
+    return actor.tenantMemberships.some(membership =>
+      membership.status === 'active' &&
+      membership.tenantId === resource.tenantId &&
+      membership.tenantType === resource.tenantType
+    );
+  }
+
   function safeString(value) {
     return String(value || '').trim();
   }
@@ -430,6 +501,7 @@
     canViewLearnerReports,
     canViewQuestionReports,
     canViewAssignments,
+    canAssignGuidedMission,
     canViewLearnerDashboard,
     createGuardianActor,
     filterGuardianVisibleReports,

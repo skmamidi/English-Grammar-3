@@ -5,6 +5,7 @@ const {
   OFFLINE_XP_STATES,
   applyXpAdjudicationResult,
   createLocalOnlyXpQueueEntry,
+  createProvisionalMissionRewardQueueEntry,
   createProvisionalXpQueueEntry,
   markXpQueueEntrySubmitted,
   normalizeXpOfflineQueue
@@ -117,4 +118,39 @@ test('offline XP queue preserves local-only practice when synced XP is ineligibl
   assert.equal(queue[0].status, OFFLINE_XP_STATES.LOCAL_ONLY);
   assert.equal(queue[1].status, OFFLINE_XP_STATES.REJECTED);
   assert.equal(queue[1].localPracticeRef.sessionId, 'session-1');
+});
+
+test('offline XP queue keeps mission rewards provisional and metadata-only', () => {
+  const entry = createProvisionalMissionRewardQueueEntry({
+    missionReward: {
+      missionId: 'mission-sentence-detectives',
+      sourceHash: 'sha256:mission-catalog',
+      completionBonusXp: 35,
+      completedStepIds: ['lesson-sentence-types', 'practice-sentence-types'],
+      stepEvidence: [
+        { stepId: 'practice-sentence-types', type: 'saved_session', ref: { sessionId: 'session-1', question: 'Raw prompt', answerKey: 2 } }
+      ],
+      learnerDisplayName: 'A Learner',
+      clientAwardedXp: 999999
+    },
+    queuedAt: '2030-05-01T12:00:00.000Z'
+  });
+  const awarded = applyXpAdjudicationResult(entry, {
+    status: 'awarded',
+    awardEventId: 'mission-award-1',
+    awardedXp: 35,
+    syncedAt: '2030-05-01T12:01:00.000Z'
+  });
+
+  assert.equal(entry.status, OFFLINE_XP_STATES.PROVISIONAL);
+  assert.equal(entry.provisionalXp, 35);
+  assert.equal(entry.syncedXp, 0);
+  assert.equal(entry.missionRewardRef.missionId, 'mission-sentence-detectives');
+  assert.equal(entry.provisionalAwardSummary.leaderboardEligible, false);
+  assert.equal(awarded.status, OFFLINE_XP_STATES.AWARDED);
+  assert.equal(awarded.missionRewardRef.missionId, 'mission-sentence-detectives');
+  assert.equal(JSON.stringify(entry).includes('999999'), false);
+  assert.equal(JSON.stringify(entry).includes('Raw prompt'), false);
+  assert.equal(JSON.stringify(entry).includes('answerKey'), false);
+  assert.equal(JSON.stringify(entry).includes('A Learner'), false);
 });

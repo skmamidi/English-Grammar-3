@@ -10,8 +10,13 @@
   const UNSAFE_KEYS = new Set([
     'learnerId', 'studentId', 'studentName', 'userId', 'uid', 'email',
     'question', 'choices', 'answer', 'answers', 'explanation', 'explanations',
+    'questionText', 'answerKey',
     'storyBeats', 'conceptRules', 'examples', 'guidedChecks', 'commonMistakes',
     'lessonBody', 'rawLesson', 'narrative',
+    'rawMission', 'missionProgressSnapshot', 'providerPayload', 'rawProviderPayload',
+    'personalizationFeatureSnapshot', 'featureStoreProviderPayload',
+    'learningExperimentAuditRecord', 'experimentProviderPayload', 'rawExperimentOutcome',
+    'personalizationRolloutRawEvent', 'personalizationProviderDiagnostics',
     'leaderboardParticipantRef', 'participantRef', 'participantId', 'rawLeaderboardId', 'leaderboardEntryId',
     'authToken', 'token', 'sessionToken', 'privateKey', 'privateKeyRef',
     'stack', 'rawStack', 'rawError'

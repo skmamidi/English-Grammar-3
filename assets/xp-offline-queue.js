@@ -16,7 +16,26 @@
     LOCAL_ONLY: 'local-only'
   });
   const VALID_STATES = new Set(Object.keys(OFFLINE_XP_STATES).map(key => OFFLINE_XP_STATES[key]));
-  const PAYLOAD_KEYS = new Set(['question', 'prompt', 'choices', 'correct', 'correctAnswer', 'answerKey', 'answers', 'explanation', 'questions']);
+  const PAYLOAD_KEYS = new Set([
+    'answer',
+    'answerKey',
+    'answers',
+    'choices',
+    'clientAwardedXp',
+    'clientMissionBonusXp',
+    'correct',
+    'correctAnswer',
+    'email',
+    'explanation',
+    'learnerDisplayName',
+    'learnerName',
+    'missionBonusXp',
+    'prompt',
+    'providerPayload',
+    'question',
+    'questions',
+    'submittedMissionBonusXp'
+  ]);
 
   function createProvisionalXpQueueEntry(input = {}) {
     const evidence = normalizeAttemptEvidence(input.attemptEvidence);
@@ -42,6 +61,26 @@
       rejectionReason: safeString(input.reason || 'local_only'),
       attemptEvidence: evidence,
       localPracticeRef: normalizeLocalPracticeRef(input.localPracticeRef)
+    });
+  }
+
+  function createProvisionalMissionRewardQueueEntry(input = {}) {
+    const missionRewardRef = normalizeMissionRewardRef(input.missionReward || input);
+    return normalizeXpQueueEntry({
+      attemptId: missionRewardRef.idempotencyKey,
+      idempotencyKey: missionRewardRef.idempotencyKey,
+      status: OFFLINE_XP_STATES.PROVISIONAL,
+      provisionalXp: missionRewardRef.provisionalXp,
+      queuedAt: safeIso(input.queuedAt) || currentIso(),
+      missionRewardRef,
+      provisionalAwardSummary: {
+        awardType: 'mission_completion_bonus',
+        provisional: true,
+        serverAuthoritative: false,
+        leaderboardEligible: false,
+        awardedXp: 0,
+        provisionalXp: missionRewardRef.provisionalXp
+      }
     });
   }
 
@@ -112,7 +151,8 @@
       syncRequestId: safeString(input.syncRequestId),
       attemptEvidence: evidence,
       provisionalAwardSummary: sanitizeAwardSummary(input.provisionalAwardSummary),
-      localPracticeRef: normalizeLocalPracticeRef(input.localPracticeRef)
+      localPracticeRef: normalizeLocalPracticeRef(input.localPracticeRef),
+      missionRewardRef: normalizeMissionRewardRef(input.missionRewardRef)
     };
   }
 
@@ -164,6 +204,28 @@
     };
   }
 
+  function normalizeMissionRewardRef(ref) {
+    const input = ref && typeof ref === 'object' ? stripPayloadKeys(ref) : {};
+    const missionId = safeString(input.missionId || input.id);
+    const sourceHash = safeString(input.sourceHash || input.catalogHash);
+    const completedStepIds = normalizeStringArray(input.completedStepIds);
+    const idempotencyKey = safeString(input.idempotencyKey || (missionId ? `mission-reward:${missionId}:${sourceHash || 'local'}` : ''));
+    return {
+      missionId,
+      sourceHash,
+      idempotencyKey,
+      completedStepIds,
+      evidenceTypes: normalizeEvidenceTypes(input.stepEvidence),
+      provisionalXp: Math.max(0, Math.round(Number(input.completionBonusXp || input.provisionalXp) || 0))
+    };
+  }
+
+  function normalizeEvidenceTypes(stepEvidence) {
+    return Array.from(new Set((Array.isArray(stepEvidence) ? stepEvidence : [])
+      .map(record => safeString(record && record.type))
+      .filter(Boolean))).sort();
+  }
+
   function sanitizeAwardSummary(summary) {
     const input = stripPayloadKeys(summary && typeof summary === 'object' ? summary : {});
     return Object.keys(input).sort().reduce((result, key) => {
@@ -211,6 +273,7 @@
     OFFLINE_XP_STATES,
     applyXpAdjudicationResult,
     createLocalOnlyXpQueueEntry,
+    createProvisionalMissionRewardQueueEntry,
     createProvisionalXpQueueEntry,
     markXpQueueEntrySubmitted,
     normalizeAttemptEvidence,

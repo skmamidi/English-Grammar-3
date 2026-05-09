@@ -241,6 +241,31 @@ async function main() {
       await page.close();
     });
 
+    await runCase(failures, 'guided mission route renders current step and safe handoffs', async () => {
+      const page = await newPage(browser, browserTracker);
+      const recorder = createRequestRecorder(page);
+      await visitClean(page, server.baseURL, 'mission.html?missionId=mission-sentence-detectives');
+      await assertVisible(page, '.mission-shell', 'guided mission route');
+      await assertVisible(page, '[data-mission-step="lesson-sentence-types"]', 'guided mission lesson step');
+      await assertVisible(page, '[data-mission-step="practice-sentence-types"]', 'guided mission practice step');
+      assert.match(await textContent(page, '.mission-current-step'), /Learn the sentence clue|Follow the current step/i);
+      const hrefs = await page.$$eval('.mission-step a', links => links.map(link => link.getAttribute('href')));
+      assert.ok(hrefs.includes('topics/grammar/subtopics/sentence-types.html?learn=1'));
+      assert.ok(hrefs.includes('topics/grammar/subtopics/sentence-types.html?practice=1'));
+      assert.ok(hrefs.includes('index.html?review=1&setId=grammar-sentence-types'));
+      const metrics = summarizeRequestMetrics({ requests: recorder.requests, responses: recorder.responses });
+      assert.equal(metrics.loadedChunks.length, 0, 'mission route should not load question chunks before handoff');
+      assert.equal(metrics.loadedLessonChunks.length, 0, 'mission route should not load lesson chunks before handoff');
+      await page.setViewportSize({ width: 390, height: 780 });
+      const missionBox = await page.locator('.mission-shell').boundingBox();
+      assert.ok(missionBox && missionBox.width <= 390, 'mission route should fit mobile viewport');
+      await page.keyboard.press('Tab');
+      await page.keyboard.press('Tab');
+      const focusedHref = await page.evaluate(() => document.activeElement && document.activeElement.getAttribute('href') || '');
+      assert.ok(/index\.html|discovery\.html|sentence-types\.html/.test(focusedHref), 'mission keyboard order should expose route links');
+      await page.close();
+    });
+
     await runCase(failures, 'explicit sentence types practice bypasses lesson first', async () => {
       const page = await newPage(browser, browserTracker);
       await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html?practice=1');

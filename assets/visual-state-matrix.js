@@ -11,6 +11,7 @@
     'quiz',
     'discovery',
     'story-lesson',
+    'mission',
     'reports',
     'dashboard',
     'subscription',
@@ -95,6 +96,21 @@
         state: 'reduced-motion',
         route: 'topics/grammar/subtopics/sentence-types.html',
         nonVisualReason: 'Accessibility preferences coverage verifies reduced-motion story lesson interactions and handoff timing without adding high-churn visual baselines.'
+      }),
+      entry({
+        id: 'mission-guided-flow',
+        flow: 'mission',
+        state: 'guided-flow',
+        route: 'mission.html?missionId=mission-sentence-detectives',
+        visualCase: 'guided-mission',
+        selectors: ['.app-header', '.mission-shell', '.mission-current-step', '.mission-step-list']
+      }),
+      entry({
+        id: 'mission-offline',
+        flow: 'mission',
+        state: 'offline',
+        route: 'mission.html?missionId=mission-sentence-detectives',
+        nonVisualReason: 'Offline smoke verifies cached mission route recovery and catalog-only loading without a separate high-churn visual baseline.'
       }),
       entry({
         id: 'reports-empty',

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "scaleFixture": {
+    "recordCount": 100000,
+    "domains": ["grammar", "capitalization"],
+    "grades": [3, 4, 5, 6],
+    "difficulties": ["easy", "medium", "hard"]
+  },
+  "queries": [
+    {
+      "name": "grade-skill-standard",
+      "query": {
+        "domain": "grammar",
+        "grade": 4,
+        "difficulty": "easy",
+        "skillIds": ["grammar.usage"],
+        "standardIds": ["L.3-6.1"]
+      }
+    },
+    {
+      "name": "mastery-repair",
+      "query": {
+        "domain": "grammar",
+        "mastery": {
+          "weakSkillIds": ["grammar.usage"],
+          "avoidQuestionIds": ["grammar-correct-article-q0001"]
+        },
+        "limit": 6
+      }
+    },
+    {
+      "name": "difficulty-band",
+      "query": {
+        "domain": "capitalization",
+        "grade": 4,
+        "difficulty": "medium",
+        "limit": 8
+      }
+    }
+  ]
+}

@@ -28,6 +28,8 @@
     (typeof require === 'function' ? require('./learner-goals-domain') : null);
   const lessonProgressDomain = root.GrammarQuestLessonProgressDomain ||
     (typeof require === 'function' ? require('./lesson-progress-domain') : null);
+  const missionProgressDomain = root.GrammarQuestMissionProgressDomain ||
+    (typeof require === 'function' ? require('./mission-progress-domain') : null);
   const xpOfflineQueueDomain = root.GrammarQuestXpOfflineQueue ||
     (typeof require === 'function' ? require('./xp-offline-queue') : null);
 
@@ -316,6 +318,24 @@
         .filter(record => !setId || record.lessonRef.setId === setId);
     }
 
+    function getMissionProgress(missionId) {
+      const id = safeString(missionId);
+      return getProgress().missionProgress.find(record => record.missionId === id) || null;
+    }
+
+    function recordMissionStepEvidence(event) {
+      let updated = null;
+      updateProgress(progress => {
+        const records = normalizeMissionProgress(progress.missionProgress);
+        const missionId = safeString(event && event.missionId);
+        const existing = records.find(record => record.missionId === missionId) || null;
+        updated = missionProgressDomain.recordMissionStepEvidence(existing, event, { now });
+        progress.missionProgress = missionProgressDomain.mergeMissionProgressList([updated], records);
+        return progress;
+      });
+      return updated;
+    }
+
     function recordLessonProgressEvent(event) {
       let updated = null;
       updateProgress(progress => {
@@ -413,6 +433,7 @@
         reviewQueue: data.reviewQueue || null,
         reviewSchedules: data.reviewSchedules || [],
         lessonProgress: data.lessonProgress || data.progress && data.progress.lessonProgress,
+        missionProgress: data.missionProgress || data.progress && data.progress.missionProgress,
         learnerGoals: data.learnerGoals || data.goals || data.progress && data.progress.learnerGoals,
         activeQuiz: data.activeQuiz || null,
         deletionTombstones: getProgress().deletionTombstones,
@@ -434,6 +455,7 @@
       getPrivacyPreferences,
       getProgress,
       getLearnerDashboardSource,
+      getMissionProgress,
       listLessonProgress,
       getQuestionReport,
       getReviewSchedules,
@@ -446,6 +468,7 @@
       markAssignmentStarted,
       markReviewItemMastered,
       markReviewItemSeen,
+      recordMissionStepEvidence,
       recordLessonProgressEvent,
       requestLearnerDataDeletion,
       approveLearnerDataDeletion,
@@ -635,6 +658,7 @@
       reviewQueue: normalizeReviewQueue(input.reviewQueue),
       reviewSchedules: normalizeReviewSchedules(input.reviewSchedules),
       lessonProgress: normalizeLessonProgress(input.lessonProgress),
+      missionProgress: normalizeMissionProgress(input.missionProgress),
       xp: normalizeXpState(input.xp),
       mastery: normalizeMastery(input.mastery),
       entitlementProjection: normalizeEntitlementProjection(input.entitlementProjection),
@@ -749,6 +773,7 @@
       goalProgress: buildLearnerGoalProgress(normalized, new Date().toISOString()),
       questionReports,
       lessonProgress: normalized.lessonProgress.map(sanitizeLessonProgressForDashboard),
+      missionProgress: normalized.missionProgress,
       mastery: normalized.mastery
     };
   }
@@ -832,6 +857,12 @@
 
   function normalizeLessonProgress(records) {
     return lessonProgressDomain.mergeLessonProgressRecords(records);
+  }
+
+  function normalizeMissionProgress(records) {
+    return missionProgressDomain && typeof missionProgressDomain.normalizeMissionProgressList === 'function'
+      ? missionProgressDomain.normalizeMissionProgressList(records)
+      : [];
   }
 
   function normalizeXpState(xp) {

@@ -10,3 +10,8 @@ test('quiz resume derives position from saved attempts instead of trusting stale
   assert.match(source, /attemptRecords = normalizeSavedAttemptRecords\(savedQuiz\.attempts\)/);
   assert.match(source, /position: currentIndex \+ 1/);
 });
+
+test('mission progress does not replace active quiz resume ownership', () => {
+  assert.match(source, /getActiveQuiz\(\)/);
+  assert.doesNotMatch(source, /missionProgress\.activeQuiz|activeMissionQuiz/);
+});

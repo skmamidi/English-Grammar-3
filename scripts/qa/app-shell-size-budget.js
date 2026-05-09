@@ -7,6 +7,7 @@ const { DEFAULT_APP_SHELL_BUDGET_LIMITS } = require('./app-shell-budget-config')
 const repoRoot = path.resolve(__dirname, '..', '..');
 const QUESTION_CONTENT_PATTERN = /(^|\/)assets\/question-(chunks|bank-source|banks|manifest)(\/|\.|$)/;
 const STORY_LESSON_CONTENT_PATTERN = /(^|\/)assets\/story-lesson-chunks(\/|$)/;
+const GUIDED_MISSION_CONTENT_PATTERN = /(^|\/)assets\/guided-mission-(source|catalog)(\/|\.|$)/;
 const SPELLING_CONTENT_FILES = new Set([
   'assets/story-lesson-manifest.json',
   'assets/spelling-audio-manifest.js',
@@ -100,6 +101,7 @@ function categorizeAssetFile(fileName, fullPath) {
   const relativePath = path.relative(repoRoot, fullPath).split(path.sep).join('/');
   if (NON_RUNTIME_CONTRACT_FILES.has(relativePath)) return '';
   if (SERVICE_WORKER_FILES.has(relativePath)) return 'serviceWorker';
+  if (GUIDED_MISSION_CONTENT_PATTERN.test(relativePath)) return 'guidedMissionContent';
   if (fileName === 'release-manifest.json' ||
     relativePath === 'assets/story-lesson-manifest.js' ||
     relativePath === 'assets/story-lesson-manifest.json' ||
@@ -243,8 +245,10 @@ function getFileBudget(category, limits) {
 function isQuestionContent(filePath, category) {
   return category === 'questionContent' ||
     category === 'storyLessonContent' ||
+    category === 'guidedMissionContent' ||
     QUESTION_CONTENT_PATTERN.test(filePath) ||
     STORY_LESSON_CONTENT_PATTERN.test(filePath) ||
+    GUIDED_MISSION_CONTENT_PATTERN.test(filePath) ||
     SPELLING_CONTENT_FILES.has(filePath);
 }
 

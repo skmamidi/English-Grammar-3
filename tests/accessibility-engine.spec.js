@@ -34,6 +34,7 @@ const APP_PAGES = [
   { label: 'Assignments', file: 'assignments.html', waitFor: '#assignment-list' },
   { label: 'Guardian dashboard', file: 'guardian-dashboard.html', waitFor: '#learning-dashboard-root' },
   { label: 'Teacher dashboard', file: 'teacher-dashboard.html', waitFor: '#learning-dashboard-root' },
+  { label: 'Guided mission', file: 'mission.html?missionId=mission-sentence-detectives', waitFor: '.mission-shell' },
   { label: 'Leaderboard', file: 'leaderboard.html', waitFor: '.leaderboard-shell' },
   { label: 'Admin operations', file: 'admin-operations.html' },
   { label: 'Parent preview', file: 'topics/capitalization/subtopics/proper-names-titles.html?parentBrowse=1', waitFor: '#start-btn' },

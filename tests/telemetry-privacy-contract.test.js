@@ -59,6 +59,23 @@ test('selection telemetry privacy guard rejects unsafe learner, question, and ra
   });
 });
 
+test('selection telemetry rejects raw personalization evaluation diagnostics', () => {
+  [
+    { personalizationEvaluationRawOutcomes: [{ learnerId: 'learner-1' }] },
+    { fairnessProviderPayload: { vector: [1, 2, 3] } },
+    { promptSamples: ['raw prompt'] },
+    { answerKeySamples: ['A'] }
+  ].forEach(payload => {
+    assert.throws(
+      () => assertSelectionTelemetryPrivacy(Object.assign({
+        eventName: 'selection.api_used',
+        eventVersion: 1
+      }, payload)),
+      /unsafe telemetry field/
+    );
+  });
+});
+
 test('telemetry contract documents bounded recommendation and aggregate analytics fields', () => {
   const fs = require('node:fs');
   const path = require('node:path');

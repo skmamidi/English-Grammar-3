@@ -56,7 +56,13 @@
     'email',
     'error',
     'stack',
-    'localStorage'
+    'localStorage',
+    'personalizationEvaluationRawOutcomes',
+    'fairnessProviderPayload',
+    'promptSamples',
+    'answerKeySamples',
+    'providerPayload',
+    'vector'
   ];
 
   const privacyDomain = root.GrammarQuestPrivacyPreferencesDomain ||

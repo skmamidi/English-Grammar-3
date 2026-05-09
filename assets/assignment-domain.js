@@ -8,13 +8,26 @@
   'use strict';
 
   const STATUSES = new Set(['active', 'in_progress', 'completed', 'archived']);
-  const PAYLOAD_KEYS = new Set(['question', 'choices', 'explanation', 'questionSnapshots', 'questions']);
+  const PAYLOAD_KEYS = new Set([
+    'question',
+    'choices',
+    'answer',
+    'answerKey',
+    'explanation',
+    'questionSnapshots',
+    'questions',
+    'storyBeats',
+    'examples',
+    'guidedChecks',
+    'commonMistakes'
+  ]);
 
   function normalizeAssignment(raw) {
     const input = raw && typeof raw === 'object' ? raw : {};
     return {
       id: safeString(input.id),
       title: safeString(input.title || 'Practice Plan'),
+      assignmentType: normalizeAssignmentType(input.assignmentType, input.scope),
       assignedBy: normalizeAssignedBy(input.assignedBy),
       assignedTo: normalizeAssignedTo(input.assignedTo),
       scope: normalizeScope(input.scope),
@@ -29,7 +42,7 @@
     };
   }
 
-  function validateAssignment(raw) {
+  function validateAssignment(raw, options = {}) {
     const errors = [];
     const input = raw && typeof raw === 'object' ? raw : {};
     const assignment = normalizeAssignment(input);
@@ -42,6 +55,15 @@
     if (containsQuestionPayload(input)) errors.push('assignment must not store copied question payloads.');
     if (!STATUSES.has(assignment.status)) errors.push(`status "${assignment.status}" is invalid.`);
     if (assignment.quizOptions.count < 1) errors.push('quizOptions.count must be positive.');
+    if (isMissionAssignment(assignment)) {
+      if (!assignment.scope.missionRefs.length) errors.push('guided mission assignments require missionRefs.');
+      const dueAt = Date.parse(assignment.dueAt || '');
+      const now = Date.parse(options.now || new Date().toISOString());
+      if (!Number.isFinite(dueAt)) errors.push('dueAt must be a valid ISO date for guided mission assignments.');
+      if (Number.isFinite(dueAt) && Number.isFinite(now) && dueAt <= now) {
+        errors.push('dueAt must be in the future for guided mission assignments.');
+      }
+    }
     return errors;
   }
 
@@ -96,7 +118,17 @@
       setIds: normalizeStringArray(input.setIds),
       skillIds: normalizeStringArray(input.skillIds),
       standardIds: normalizeStringArray(input.standardIds),
+      missionRefs: (Array.isArray(input.missionRefs) ? input.missionRefs : []).map(normalizeMissionRef).filter(ref => ref.missionId),
       questionRefs: (Array.isArray(input.questionRefs) ? input.questionRefs : []).map(normalizeQuestionRef).filter(ref => ref.id || ref.sourceSet)
+    };
+  }
+
+  function normalizeMissionRef(ref) {
+    const input = ref && typeof ref === 'object' ? ref : {};
+    return {
+      missionId: safeString(input.missionId || input.id),
+      route: safeInternalRoute(input.route || input.webPath),
+      expectedStepIds: normalizeStringArray(input.expectedStepIds || input.stepIds)
     };
   }
 
@@ -122,7 +154,26 @@
   }
 
   function hasScope(scope) {
-    return ['domainIds', 'setIds', 'skillIds', 'standardIds', 'questionRefs'].some(key => Array.isArray(scope[key]) && scope[key].length);
+    return ['domainIds', 'setIds', 'skillIds', 'standardIds', 'missionRefs', 'questionRefs'].some(key => Array.isArray(scope[key]) && scope[key].length);
+  }
+
+  function isMissionAssignment(assignment) {
+    return assignment.assignmentType === 'guided_mission' ||
+      assignment.scope && Array.isArray(assignment.scope.missionRefs) && assignment.scope.missionRefs.length > 0;
+  }
+
+  function normalizeAssignmentType(value, scope) {
+    const type = safeString(value);
+    if (type === 'guided_mission') return 'guided_mission';
+    const input = scope && typeof scope === 'object' ? scope : {};
+    return Array.isArray(input.missionRefs) && input.missionRefs.length ? 'guided_mission' : 'practice';
+  }
+
+  function safeInternalRoute(value) {
+    const route = safeString(value);
+    if (!route) return '';
+    if (/^[a-z]+:/i.test(route) || route.includes('..')) return '';
+    return route.replace(/^\/+/, '');
   }
 
   function containsQuestionPayload(value) {
@@ -147,9 +198,11 @@
 
   return {
     archiveAssignment,
+    isMissionAssignment,
     markAssignmentCompleted,
     markAssignmentStarted,
     normalizeAssignment,
+    normalizeMissionRef,
     normalizeQuestionRef,
     validateAssignment
   };

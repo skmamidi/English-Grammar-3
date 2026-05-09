@@ -37,6 +37,18 @@
     return normalized.status === 'active' && normalized.teacherIds.includes(teacherId);
   }
 
+  function validateClassroomLearnerScope(classroom, learnerIds) {
+    const normalized = normalizeClassroom(classroom);
+    const scopedLearners = normalizeStringArray(learnerIds);
+    const errors = [];
+    scopedLearners.forEach(learnerId => {
+      if (!normalized.learnerIds.includes(learnerId)) {
+        errors.push(`cross-class learner ref is not allowed: ${learnerId}`);
+      }
+    });
+    return errors;
+  }
+
   function updateClassroomMembership(classroom, change = {}, options = {}) {
     const normalized = normalizeClassroom(classroom);
     const remove = new Set(normalizeStringArray(change.removeLearnerIds));
@@ -60,6 +72,7 @@
     canTeacherManageClass,
     normalizeClassroom,
     updateClassroomMembership,
+    validateClassroomLearnerScope,
     validateClassroom
   };
 });

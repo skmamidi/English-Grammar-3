@@ -1,6 +1,7 @@
 const QUESTION_BANK_PATTERN = /\/assets\/question-banks\/[^/]+\.js(?:[?#].*)?$/;
 const QUESTION_CHUNK_PATTERN = /\/assets\/question-chunks\/[^/]+\/[^/]+\.js(?:[?#].*)?$/;
 const QUESTION_MANIFEST_PATTERN = /\/assets\/question-manifest\.js(?:[?#].*)?$/;
+const SPARSE_QUESTION_JSON_PATTERN = /\/(?:api\/questions\/sparse|assets\/offline-question-records\/[^/]+\.json)(?:[?#].*)?$/;
 const STORY_LESSON_CHUNK_PATTERN = /\/assets\/story-lesson-chunks\/[^/]+\/[^/]+\.js(?:[?#].*)?$/;
 const STORY_LESSON_MANIFEST_PATTERN = /\/assets\/story-lesson-manifest\.js(?:[?#].*)?$/;
 const APP_SHELL_JS_PATTERN = /\/assets\/(?!(?:question-(?:chunks|banks|manifest)|story-lesson-(?:chunks|manifest)))(?:.+\/)?[^/]+\.js(?:[?#].*)?$/;
@@ -50,9 +51,11 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
   const loadedChunks = uniqueAssetPaths(requests.filter(isQuestionChunkUrl))
     .filter(assetPath => !preloadSet.has(assetPath));
   const manifestRequests = uniqueAssetPaths(requests.filter(isQuestionManifestUrl));
+  const sparseQuestionJsonRequests = uniqueAssetPaths(requests.filter(isSparseQuestionJsonUrl));
   const loadedLessonChunks = uniqueAssetPaths(requests.filter(isStoryLessonChunkUrl));
   const lessonManifestRequests = uniqueAssetPaths(requests.filter(isStoryLessonManifestUrl));
   const manifestBytes = sumBytes(manifestRequests, responseBytes);
+  const sparseQuestionJsonBytes = sumBytes(sparseQuestionJsonRequests, responseBytes);
   const questionBankBytes = sumBytes(loadedFullBanks, responseBytes);
   const questionChunkBytes = sumBytes(loadedChunks, responseBytes);
   const storyLessonChunkBytes = sumBytes(loadedLessonChunks, responseBytes);
@@ -76,6 +79,7 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
 
   return {
     manifestBytes,
+    sparseQuestionJsonBytes,
     questionBankBytes,
     questionChunkBytes,
     storyLessonChunkBytes,
@@ -84,6 +88,8 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
     preloadChunkBytes,
     requiredCachedBytes: cacheMetrics.requiredCachedBytes || questionChunkBytes,
     preloadCachedBytes: cacheMetrics.preloadCachedBytes || preloadChunkBytes,
+    storedQuestionBytes: cacheMetrics.storedQuestionBytes,
+    storedMediaBytes: cacheMetrics.storedMediaBytes,
     evictedChunkCount: cacheMetrics.evictedChunkCount,
     staleCacheCleanupCount: cacheMetrics.staleCacheCleanupCount,
     questionPayloadBytes: manifestBytes + questionBankBytes + questionChunkBytes,
@@ -102,6 +108,7 @@ function summarizeRequestMetrics({ requests = [], preloadRequests = [], response
     loadedLessonChunks,
     preloadedChunks,
     manifestRequests,
+    sparseQuestionJsonRequests,
     lessonManifestRequests,
     staticAssets: Array.from(new Set(imageAssets.concat(iconAssets, fontAssets))).sort(),
     appShellAssets: Array.from(new Set(appShellJs.concat(appShellCss, serviceWorkers, releaseMetadata, imageAssets, iconAssets, fontAssets))).sort()
@@ -115,12 +122,16 @@ function summarizeCacheEvents(cacheEvents) {
     summary.preloadCachedBytes += Number(detail.preloadCachedBytes) || 0;
     summary.evictedChunkCount += Number(detail.evictedChunkCount) || 0;
     summary.staleCacheCleanupCount += Number(detail.staleCacheCleanupCount) || 0;
+    summary.storedQuestionBytes += Number(detail.storedQuestionBytes) || 0;
+    summary.storedMediaBytes += Number(detail.storedMediaBytes) || 0;
     return summary;
   }, {
     requiredCachedBytes: 0,
     preloadCachedBytes: 0,
     evictedChunkCount: 0,
-    staleCacheCleanupCount: 0
+    staleCacheCleanupCount: 0,
+    storedQuestionBytes: 0,
+    storedMediaBytes: 0
   });
 }
 
@@ -194,6 +205,10 @@ function isQuestionChunkUrl(url) {
 
 function isQuestionManifestUrl(url) {
   return QUESTION_MANIFEST_PATTERN.test(url);
+}
+
+function isSparseQuestionJsonUrl(url) {
+  return SPARSE_QUESTION_JSON_PATTERN.test(url);
 }
 
 function isStoryLessonChunkUrl(url) {

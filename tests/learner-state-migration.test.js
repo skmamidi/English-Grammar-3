@@ -122,6 +122,41 @@ test('learner state migration normalizes optional XP metadata without client-own
   assert.equal(JSON.stringify(migrated.xp).includes('answerKey'), false);
 });
 
+test('learner state migration preserves mission progress evidence without payloads', async () => {
+  const storage = createMemoryStorage();
+  const source = createLocalStorageLearnerStateAdapter(storage, { storageKey: 'grammarQuestProgress:mission' });
+  const target = createIndexedDbLearnerStateAdapter({
+    indexedDB: createFakeIndexedDB(),
+    storageKey: 'grammarQuestProgress:mission'
+  });
+  await source.write({
+    missionProgress: [{
+      missionId: 'mission-sentence-detectives',
+      stepEvidence: [{
+        stepId: 'lesson-sentence-types',
+        stepType: 'lesson',
+        status: 'completed',
+        completedAt: '2030-04-29T12:00:00.000Z',
+        evidenceRef: { type: 'lesson_progress', setId: 'grammar-sentence-types' },
+        storyBeats: [{ text: 'Raw lesson body' }],
+        question: 'Raw prompt'
+      }]
+    }]
+  });
+
+  await migrateLocalStorageToIndexedDb({
+    localStorageAdapter: source,
+    indexedDbAdapter: target,
+    markerStorage: storage,
+    markerKey: 'grammarQuestProgress:mission.indexeddbMigrated'
+  });
+
+  const migrated = normalizeLearnerState(await target.read());
+  assert.equal(migrated.missionProgress[0].missionId, 'mission-sentence-detectives');
+  assert.deepEqual(migrated.missionProgress[0].completedStepIds, ['lesson-sentence-types']);
+  assert.equal(JSON.stringify(migrated.missionProgress).includes('Raw'), false);
+});
+
 test('learner state migration is idempotent once the marker is set', async () => {
   const storage = createMemoryStorage();
   storage.setItem('grammarQuestProgress.indexeddbMigrated', 'true');

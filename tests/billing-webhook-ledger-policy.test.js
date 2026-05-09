@@ -12,6 +12,10 @@ const {
   validateBillingWebhookLedgerPolicy,
   verifyProviderWebhookEnvelope
 } = require('../server/billing-webhook-ledger-policy');
+const {
+  buildStripeWebhookEnvelope,
+  buildStripeWebhookSignatureHeader
+} = require('../server/provider-adapters/stripe-payment-provider-adapter');
 const { validateBillingRecord } = require('../assets/billing-domain-contracts');
 
 const repoRoot = path.resolve(__dirname, '..');
@@ -134,6 +138,39 @@ test('verified webhook envelopes create idempotent ordered ledger events and bil
 
   assert.equal(stale.outcome, 'stale_webhook_rejected');
   assert.equal(stale.ledgerEvent, null);
+});
+
+test('stripe signature adapter feeds verified billing webhook ledger envelopes', () => {
+  const payload = JSON.stringify({
+    id: 'evt-redacted-invoice-paid',
+    type: 'invoice.payment_succeeded',
+    created: 1903996800,
+    data: {
+      object: {
+        metadata: { billingAccountId: 'billing-account-1', planId: 'premium_monthly' },
+        amount_paid: 999,
+        currency: 'usd',
+        period_start: 1903809600,
+        period_end: 1906488000
+      }
+    }
+  });
+  const signatureHeader = buildStripeWebhookSignatureHeader({
+    payload,
+    webhookSecret: 'whsec_redacted_test_secret',
+    timestamp: 1903996800
+  });
+  const envelope = buildStripeWebhookEnvelope({
+    payload,
+    signatureHeader,
+    webhookSecret: 'whsec_redacted_test_secret',
+    receivedAt: '2030-05-03T00:00:00.000Z'
+  });
+  const result = applyBillingLedgerEvent({ envelope, existingEvents: [] });
+
+  assert.equal(result.outcome, 'ledger_event_recorded');
+  assert.equal(result.ledgerEvent.eventType, 'renewal_succeeded');
+  assert.equal(result.ledgerEvent.status, 'verified');
 });
 
 test('ledger normalizes subscription lifecycle payments refunds disputes and outages', () => {

@@ -153,6 +153,61 @@
     return errors;
   }
 
+  function validateGuidedMissionSummaryContract(summary) {
+    const errors = [];
+    if (!summary || typeof summary !== 'object') return ['guided_mission_summary_must_be_object'];
+    if (summary.schemaVersion !== 1) errors.push('guided_mission_summary_schema_version_required');
+    if (!safeString(summary.missionId)) errors.push('guided_mission_summary_id_required');
+    if (!safeString(summary.title)) errors.push('guided_mission_summary_title_required');
+    if (!safeString(summary.domain)) errors.push('guided_mission_summary_domain_required');
+    if (!summary.gradeBand || !Number.isFinite(Number(summary.gradeBand.min)) || !Number.isFinite(Number(summary.gradeBand.max))) {
+      errors.push('guided_mission_summary_grade_band_required');
+    }
+    if (!summary.route || summary.route.type !== 'guided_mission') {
+      errors.push('guided_mission_summary_route_required');
+    } else if (!isInternalRoute(summary.route.webPath)) {
+      errors.push('guided_mission_summary_route_must_be_internal');
+    }
+    if (!Array.isArray(summary.stepSummaries)) errors.push('guided_mission_summary_steps_required');
+    if (Array.isArray(summary.stepSummaries)) {
+      summary.stepSummaries.forEach((step, index) => {
+        if (!safeString(step && step.stepId)) errors.push(`guided_mission_summary_step_${index}_id_required`);
+        if (!['lesson', 'practice', 'review', 'reflection'].includes(step && step.type)) {
+          errors.push(`guided_mission_summary_step_${index}_type_required`);
+        }
+        if (step && step.route && !isInternalRoute(step.route.webPath)) {
+          errors.push(`guided_mission_summary_step_${index}_route_must_be_internal`);
+        }
+      });
+    }
+    if (hasMissionContentPayload(summary) || hasLessonBodyPayload(summary) || hasUnsafePayload(summary)) {
+      errors.push('guided_mission_summary_must_not_include_content_payload');
+    }
+    return errors;
+  }
+
+  function isInternalRoute(webPath) {
+    const value = safeString(webPath);
+    return !!value && !/^[a-z][a-z0-9+.-]*:/i.test(value) && !value.startsWith('//') && !/\\|\.\.|%2e/i.test(value);
+  }
+
+  function hasMissionContentPayload(value) {
+    const missionPayloadKeys = new Set([
+      'lessonRef',
+      'practiceRef',
+      'reviewRef',
+      'questionPayload',
+      'providerPayload',
+      'rawProvider'
+    ]);
+    return scan(value);
+
+    function scan(input) {
+      if (!input || typeof input !== 'object') return false;
+      return Object.keys(input).some(key => missionPayloadKeys.has(key) || scan(input[key]));
+    }
+  }
+
   function validateInternalLessonLinkContract(link) {
     const errors = [];
     if (!link || typeof link !== 'object') return ['internal_lesson_link_must_be_object'];
@@ -223,6 +278,29 @@
     }
     if (hasUnsafePayload(summary)) errors.push('xp_award_summary_must_not_include_question_payload');
     return errors;
+  }
+
+  function validatePersonalizationFeatureSnapshotContract(snapshot) {
+    const errors = [];
+    if (!snapshot || typeof snapshot !== 'object') return ['personalization_feature_snapshot_must_be_object'];
+    if (snapshot.schemaVersion !== 1) errors.push('personalization_feature_snapshot_schema_version_required');
+    if (!safeString(snapshot.featureVersion)) errors.push('personalization_feature_snapshot_feature_version_required');
+    if (!safeString(snapshot.snapshotRef)) errors.push('personalization_feature_snapshot_ref_required');
+    if (!safeString(snapshot.learnerScopeRef)) errors.push('personalization_feature_snapshot_scope_required');
+    if (!safeIso(snapshot.generatedAt)) errors.push('personalization_feature_snapshot_generated_at_required');
+    if (!snapshot.freshness || typeof snapshot.freshness !== 'object') errors.push('personalization_feature_snapshot_freshness_required');
+    if (!Array.isArray(snapshot.learnerSkillSignals)) errors.push('personalization_feature_snapshot_skill_signals_required');
+    if (!Array.isArray(snapshot.contentCandidateSignals)) errors.push('personalization_feature_snapshot_candidate_signals_required');
+    if (!Array.isArray(snapshot.evidenceRefs)) errors.push('personalization_feature_snapshot_evidence_refs_required');
+    if (hasPersonalizationUnsafePayload(snapshot) || hasUnsafePayload(snapshot) || hasProviderPayload(snapshot)) {
+      errors.push('personalization_feature_snapshot_must_not_include_payload');
+    }
+    return errors;
+  }
+
+  function hasPersonalizationUnsafePayload(value) {
+    if (!value || typeof value !== 'object') return false;
+    return Object.keys(value).some(key => /learnerId|studentId|studentName|learnerEmail|questionText|question|prompt|choices|answer|answerKey|explanation|provider|vector|warehouse|payment|billing/i.test(key) || hasPersonalizationUnsafePayload(value[key]));
   }
 
   function hasUnsafePayload(value) {
@@ -301,9 +379,11 @@
     validateBillingDomainRecordContract,
     validateCommerceCatalogContract,
     validateEntitlementProjectionContract,
+    validateGuidedMissionSummaryContract,
     validateLearnerStateContract,
     validateQuestionReportContract,
     validateQuestionRefContract,
+    validatePersonalizationFeatureSnapshotContract,
     validateReleaseManifestContract,
     validateReviewItemContract,
     validateSavedSessionContract,

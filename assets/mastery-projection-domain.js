@@ -37,6 +37,43 @@
     return Object.keys(bySkill).sort().map(skillId => finalizeSkill(bySkill[skillId], policy));
   }
 
+  function summarizeMasteryProjectionForInstitution(projections, options = {}) {
+    const minCohortSize = positiveInt(options.minCohortSize, 5);
+    const bySkill = {};
+    (Array.isArray(projections) ? projections : []).forEach(item => {
+      const skillId = safeString(item && item.skillId);
+      if (!skillId) return;
+      if (!bySkill[skillId]) {
+        bySkill[skillId] = {
+          skillId,
+          learnerRefs: new Set(),
+          secureCount: 0,
+          developingCount: 0,
+          needsPracticeCount: 0
+        };
+      }
+      const current = bySkill[skillId];
+      const learnerRef = safeString(item && item.learnerId);
+      if (learnerRef) current.learnerRefs.add(learnerRef);
+      const band = safeString(item && item.masteryBand);
+      if (band === 'secure') current.secureCount += 1;
+      else if (band === 'developing') current.developingCount += 1;
+      else current.needsPracticeCount += 1;
+    });
+    return Object.keys(bySkill).sort().map(skillId => {
+      const item = bySkill[skillId];
+      const learnerCount = item.learnerRefs.size;
+      return {
+        skillId,
+        learnerCountBucket: learnerCount < minCohortSize ? 'suppressed' : bucketCount(learnerCount),
+        secureCount: learnerCount < minCohortSize ? 0 : item.secureCount,
+        developingCount: learnerCount < minCohortSize ? 0 : item.developingCount,
+        needsPracticeCount: learnerCount < minCohortSize ? 0 : item.needsPracticeCount,
+        suppressed: learnerCount < minCohortSize
+      };
+    }).filter(item => !item.suppressed);
+  }
+
   function recordAttempt(skill, attempt, completedAt, now, policy) {
     const score = policyApi.scoreAttempt(attempt, policy);
     skill.attempts += 1;
@@ -143,6 +180,13 @@
     return Number.isFinite(number) && number > 0 ? number : fallback;
   }
 
+  function bucketCount(count) {
+    const value = Number(count) || 0;
+    if (value < 5) return '2-4';
+    if (value < 10) return '5-9';
+    return '10+';
+  }
+
   function round(value) {
     return Math.round(value * 100) / 100;
   }
@@ -156,6 +200,7 @@
   }
 
   return {
-    projectMasteryBySkill
+    projectMasteryBySkill,
+    summarizeMasteryProjectionForInstitution
   };
 });

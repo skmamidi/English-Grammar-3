@@ -80,6 +80,38 @@ test('sync merge applies timestamp-aware assignment queue and schedule conflict 
   assert.equal(merged.reviewSchedules[0].intervalDays, 7);
 });
 
+test('sync merge preserves newest mission progress evidence without payloads', () => {
+  const merged = mergeLearnerStates({
+    missionProgress: [{
+      missionId: 'mission-sentence-detectives',
+      stepEvidence: [{
+        stepId: 'practice-sentence-types',
+        stepType: 'practice',
+        status: 'completed',
+        completedAt: '2030-04-29T12:00:00.000Z',
+        evidenceRef: { type: 'saved_session', sessionId: 'local-session' },
+        question: 'Raw prompt'
+      }]
+    }]
+  }, {
+    missionProgress: [{
+      missionId: 'mission-sentence-detectives',
+      stepEvidence: [{
+        stepId: 'review-sentence-types',
+        stepType: 'review',
+        status: 'completed',
+        completedAt: '2030-04-30T12:00:00.000Z',
+        evidenceRef: { type: 'review_item', queueId: 'review-1' },
+        answer: 'Raw answer'
+      }]
+    }]
+  });
+
+  assert.equal(merged.missionProgress.length, 1);
+  assert.deepEqual(merged.missionProgress[0].completedStepIds, ['practice-sentence-types', 'review-sentence-types']);
+  assert.equal(JSON.stringify(merged.missionProgress).includes('Raw'), false);
+});
+
 test('sync merge preserves newest learner goal preferences by timestamp', () => {
   const merged = mergeLearnerStates({
     learnerGoals: {

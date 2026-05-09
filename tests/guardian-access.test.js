@@ -34,6 +34,7 @@ test('parent preview remains unauthenticated local read-only browsing', () => {
   assert.equal(access.canOpenParentPreview('parentBrowse'), true);
 
   const previewActor = access.normalizeActor({ role: 'parent_preview' });
+  assert.equal(access.canAssignGuidedMission(previewActor, { learnerId: 'learner-1' }), false);
   assert.equal(access.canViewLearnerProgress(previewActor, 'learner-1'), false);
   assert.equal(access.canViewLearnerReports(previewActor, 'learner-1'), false);
   assert.equal(
@@ -43,6 +44,17 @@ test('parent preview remains unauthenticated local read-only browsing', () => {
     }),
     false
   );
+});
+
+test('guardian can assign guided missions only to linked learners when enabled', () => {
+  const guardian = access.createGuardianActor('guardian-1', links);
+  const enabledGuardian = access.normalizeActor(Object.assign({}, guardian, {
+    missionAssignmentManagementEnabled: true
+  }));
+
+  assert.equal(access.canAssignGuidedMission(enabledGuardian, { learnerId: 'learner-1' }), true);
+  assert.equal(access.canAssignGuidedMission(enabledGuardian, { learnerId: 'learner-2' }), false);
+  assert.equal(access.canAssignGuidedMission(guardian, { learnerId: 'learner-1' }), false);
 });
 
 test('guardian cannot mutate progress or use admin capabilities', () => {
@@ -91,6 +103,31 @@ test('guardian can manage linked learner privacy preferences only when policy al
   }), false);
   assert.equal(access.canAccess(guardian, access.Capabilities.manageLinkedLearnerPrivacyPreferences, {
     type: access.ResourceTypes.PRIVACY_PREFERENCES,
+    learnerId: 'learner-1'
+  }), false);
+});
+
+test('guardian can manage linked learner mission reminders only when policy allows', () => {
+  const guardian = access.createGuardianActor('guardian-1', links);
+  const policyEnabledGuardian = access.normalizeActor(Object.assign({}, guardian, {
+    missionReminderManagementEnabled: true
+  }));
+  const previewActor = access.normalizeActor({ role: 'parent_preview' });
+
+  assert.equal(access.canAccess(policyEnabledGuardian, access.Capabilities.manageLinkedLearnerMissionReminders, {
+    type: access.ResourceTypes.MISSION_REMINDER_PREFERENCES,
+    learnerId: 'learner-1'
+  }), true);
+  assert.equal(access.canAccess(policyEnabledGuardian, access.Capabilities.manageLinkedLearnerMissionReminders, {
+    type: access.ResourceTypes.MISSION_REMINDER_PREFERENCES,
+    learnerId: 'learner-2'
+  }), false);
+  assert.equal(access.canAccess(guardian, access.Capabilities.manageLinkedLearnerMissionReminders, {
+    type: access.ResourceTypes.MISSION_REMINDER_PREFERENCES,
+    learnerId: 'learner-1'
+  }), false);
+  assert.equal(access.canAccess(previewActor, access.Capabilities.manageLinkedLearnerMissionReminders, {
+    type: access.ResourceTypes.MISSION_REMINDER_PREFERENCES,
     learnerId: 'learner-1'
   }), false);
 });

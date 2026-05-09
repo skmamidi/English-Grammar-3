@@ -28,8 +28,65 @@ test('production SLO policy defines required critical objectives', () => {
     'billing_page_render_health',
     'billing_webhook_failure_rate',
     'billing_refund_dispute_queue_age',
-    'leaderboard_materialization_freshness'
+    'leaderboard_materialization_freshness',
+    'mission_route_success',
+    'mission_completion_projection_freshness',
+    'mission_reminder_delivery_safety',
+    'personalization_assembly_health',
+    'personalization_fallback_safety',
+    'personalization_fairness_gate_health',
+    'institutional_login_success',
+    'roster_sync_freshness',
+    'assignment_provisioning_success',
+    'verified_report_projection_freshness',
+    'institutional_export_request_success',
+    'institutional_rollback_rehearsal_success'
   ]);
+});
+
+test('production SLO policy includes institutional provisioning objectives', () => {
+  const result = validateProductionSloPolicy(DEFAULT_PRODUCTION_SLO_POLICY);
+  const objectives = new Map(result.policy.objectives.map(objective => [objective.id, objective]));
+
+  assert.deepEqual(objectives.get('institutional_login_success').telemetrySignals.sort(), [
+    'institutional_login_failed',
+    'institutional_login_succeeded'
+  ]);
+  assert.match(objectives.get('institutional_login_success').rollback, /institutionalSsoLoginEnabled/);
+  assert.match(objectives.get('roster_sync_freshness').rollback, /institutionalRosterActivationEnabled/);
+  assert.match(objectives.get('institutional_export_request_success').rollback, /institutionalExportsEnabled/);
+  assert.match(objectives.get('institutional_rollback_rehearsal_success').rollback, /institutionalTenantProvisioningEnabled/);
+});
+
+test('production SLO policy includes mission rollout observability objectives', () => {
+  const result = validateProductionSloPolicy(DEFAULT_PRODUCTION_SLO_POLICY);
+  const objectives = new Map(result.policy.objectives.map(objective => [objective.id, objective]));
+
+  assert.deepEqual(objectives.get('mission_route_success').telemetrySignals.sort(), [
+    'mission_start',
+    'mission_step_completed',
+    'route_load_failed'
+  ]);
+  assert.match(objectives.get('mission_route_success').rollback, /missionLearnerRouteEnabled/);
+  assert.deepEqual(objectives.get('mission_completion_projection_freshness').telemetrySignals.sort(), [
+    'mission_completion_outcome',
+    'mission_reward_reconciled',
+    'mission_sync_failed'
+  ]);
+  assert.match(objectives.get('mission_reminder_delivery_safety').rollback, /missionRemindersEnabled/);
+});
+
+test('production SLO policy includes personalization observability objectives', () => {
+  const result = validateProductionSloPolicy(DEFAULT_PRODUCTION_SLO_POLICY);
+  const objectives = new Map(result.policy.objectives.map(objective => [objective.id, objective]));
+
+  assert.deepEqual(objectives.get('personalization_assembly_health').telemetrySignals.sort(), [
+    'personalization_assembly_completed',
+    'personalization_feature_store_read'
+  ]);
+  assert.match(objectives.get('personalization_assembly_health').rollback, /dynamicQuizAssemblyPilot/);
+  assert.match(objectives.get('personalization_fallback_safety').rollback, /personalizationDisplayEnabled/);
+  assert.match(objectives.get('personalization_fairness_gate_health').rollback, /learningExperimentPilot/);
 });
 
 test('production SLO policy requires owners windows thresholds budgets and runbooks', () => {

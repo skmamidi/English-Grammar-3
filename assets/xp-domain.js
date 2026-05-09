@@ -74,7 +74,10 @@
   function calculateXpAwardSummary(options = {}) {
     if (Object.prototype.hasOwnProperty.call(options, 'clientAwardedXp') ||
       Object.prototype.hasOwnProperty.call(options, 'submittedXp') ||
-      Object.prototype.hasOwnProperty.call(options, 'awardedXp')) {
+      Object.prototype.hasOwnProperty.call(options, 'awardedXp') ||
+      Object.prototype.hasOwnProperty.call(options, 'missionBonusXp') ||
+      Object.prototype.hasOwnProperty.call(options, 'clientMissionBonusXp') ||
+      Object.prototype.hasOwnProperty.call(options, 'submittedMissionBonusXp')) {
       throw new Error('xp_client_award_not_accepted');
     }
     const questions = Array.isArray(options.questions) ? options.questions : [];

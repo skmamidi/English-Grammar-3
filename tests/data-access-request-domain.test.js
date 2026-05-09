@@ -12,6 +12,7 @@ const {
   transitionDataAccessRequest,
   validateDataAccessRequest
 } = require('../assets/data-access-request-domain');
+const exportPolicy = require('../assets/institutional-data-export-policy');
 
 const actors = require('./fixtures/backend-security/actors.json');
 const repoRoot = path.resolve(__dirname, '..');
@@ -107,6 +108,37 @@ test('retention and audit review requests are operational and never include lear
   assert.deepEqual(validateDataAccessRequest(audit), []);
 });
 
+test('institutional exports use the tenant export policy instead of learner data access requests', () => {
+  assert.throws(() => createDataAccessRequest({
+    type: 'export',
+    requester: actors.systemAdmin,
+    categories: ['institutional_report_projection']
+  }), /data_access_request_denied/);
+
+  const request = exportPolicy.normalizeInstitutionalExportRequest({
+    id: 'school-export-1',
+    tenantId: 'school-a',
+    tenantType: 'school',
+    requester: {
+      id: 'school-admin-a',
+      role: 'system_admin',
+      tenantMemberships: [{
+        tenantId: 'school-a',
+        tenantType: 'school',
+        role: 'school_admin',
+        status: 'active'
+      }]
+    },
+    purpose: exportPolicy.ExportPurposes.COMPLIANCE_REVIEW,
+    scope: { categories: ['institutional_report_projection'] },
+    redactionProfile: exportPolicy.RedactionProfiles.AGGREGATE_REPORT,
+    expiresAt: '2030-05-06T12:00:00.000Z',
+    createdAt: '2030-05-05T12:00:00.000Z'
+  });
+
+  assert.deepEqual(exportPolicy.validateInstitutionalExportRequest(request).errors, []);
+});
+
 test('workflow transitions require evidence and reject invalid order', () => {
   const submitted = createDataAccessRequest({
     type: 'deletion',
@@ -175,7 +207,8 @@ test('data access request docs link lifecycle retention backup and audit workflo
     'backup-restore.md',
     'learner-data-retention-policy',
     'audit-log-domain.test.js',
-    'data-inventory.md'
+    'data-inventory.md',
+    'institutional-data-export-and-audit.md'
   ].forEach(required => assert.match(doc, new RegExp(escapeRegex(required), 'i')));
 });
 

@@ -71,6 +71,23 @@ async function main() {
       await context.close();
     });
 
+    await runCase(failures, 'cached guided mission route reloads offline without question chunks', async () => {
+      const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+      const page = await newPage(context);
+
+      await registerAndControlServiceWorker(page, server.baseURL);
+      await visitClean(page, server.baseURL, 'mission.html?missionId=mission-sentence-detectives');
+      await assertVisible(page, '.mission-shell', 'guided mission online');
+
+      await context.setOffline(true);
+      await visitClean(page, server.baseURL, 'mission.html?missionId=mission-sentence-detectives');
+      await assertVisible(page, '.mission-shell', 'guided mission offline');
+      const text = await page.locator('.mission-shell').innerText();
+      assert.match(text, /Guided Mission|Offline mission|Sentence Detectives/i);
+
+      await context.close();
+    });
+
     await runCase(failures, 'uncached story lesson chunk shows explicit offline recovery before practice', async () => {
       const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
       const page = await newPage(context);

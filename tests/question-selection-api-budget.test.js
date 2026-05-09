@@ -158,6 +158,41 @@ test('selection API budget guard rejects full question body leakage and over-sel
   assert.throws(() => assertSelectionApiBudget('too many refs', Object.assign({}, base, { questionRefs: [base.questionRefs[0], base.questionRefs[0]] }), request, { maxRefs: 1, maxResponseBytes: 4096 }), /2 refs/);
 });
 
+test('dynamic assembly plan budgets remain ref-only and bounded', () => {
+  const request = mixedRequest('grammar', grammarSetIds().slice(0, 2), 6, 4);
+  const response = {
+    selectionId: 'sel_dynamic_budget',
+    selectionPolicyVersion: 1,
+    requestHash: `sha256:${'0'.repeat(64)}`,
+    responseDigest: `sha256:${'1'.repeat(64)}`,
+    signature: null,
+    signatureVersion: 'none',
+    expiresAt: '2030-04-29T12:05:00.000Z',
+    questionRefs: [],
+    questionSnapshots: [],
+    assemblyPlan: {
+      schemaVersion: 1,
+      policyVersion: 'dynamic-quiz-assembly/v1',
+      mode: 'personalized',
+      questionRefs: Array.from({ length: 6 }, (_, index) => ({
+        id: `grammar-sentence-types-q${String(index + 1).padStart(4, '0')}`,
+        sourceSet: 'grammar-sentence-types',
+        version: 1,
+        contentHash: `sha256:${String(index).padStart(64, '0')}`,
+        sequence: index + 1
+      })),
+      questionSnapshots: [],
+      explanations: [{ questionRef: 'grammar-sentence-types-q0001', reasonCodes: ['weak_skill_review_due'] }]
+    }
+  };
+
+  const metrics = assertSelectionApiBudget('dynamic assembly budget', response, request, {
+    maxRefs: 6,
+    maxResponseBytes: 12 * 1024
+  });
+  assert.ok(metrics.responseBytes < 12 * 1024);
+});
+
 test('selection API deterministic work budget rejects oversized fixture scans', async () => {
   const request = mixedRequest('grammar', grammarSetIds().slice(0, 2), 3, 4);
   const response = await apiResponse(request, 'work-budget');

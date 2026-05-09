@@ -41,11 +41,11 @@ Use this file to track which topic sets have been updated with Gemini-generated 
 
 ## Capitalization
 
-- [ ] `capitalization-sentence-beginning` - Capitalization at Sentence Beginning (45)
-- [ ] `capitalization-days-months-holidays` - Capitalization of Days, Months, and Holidays (30)
-- [ ] `capitalization-books-magazines-songs-plays` - Capitalization of Books, Magazines, Songs, and Plays (21)
-- [ ] `capitalization-proper-names-titles` - Proper Names and Titles of People (67)
-- [ ] `capitalization-names-of-places` - Names of Places (44)
+- [x] `capitalization-sentence-beginning` - Capitalization at Sentence Beginning (45)
+- [x] `capitalization-days-months-holidays` - Capitalization of Days, Months, and Holidays (30)
+- [x] `capitalization-books-magazines-songs-plays` - Capitalization of Books, Magazines, Songs, and Plays (21)
+- [x] `capitalization-proper-names-titles` - Proper Names and Titles of People (67)
+- [x] `capitalization-names-of-places` - Names of Places (44)
 
 ## Punctuation
 
@@ -65,25 +65,25 @@ Use this file to track which topic sets have been updated with Gemini-generated 
 
 ## Reading Comprehension
 
-- [ ] `reading-comprehension-analogies` - Analogies (52)
-- [ ] `reading-comprehension-categorizing` - Categorizing (31)
-- [ ] `reading-comprehension-cause-effect` - Cause and Effect (26)
-- [ ] `reading-comprehension-fact-fantasy` - Fact or Fantasy (19)
-- [ ] `reading-comprehension-fact-opinion` - Fact and Opinion (45)
-- [ ] `reading-comprehension-inference` - Inference (72)
-- [ ] `reading-comprehension-main-idea-supporting-details` - Main Idea & Supporting Details (199)
-- [ ] `reading-comprehension-summarizing` - Summarizing (278)
-- [ ] `reading-comprehension-text-evidence` - Text Evidence (223)
-- [ ] `reading-comprehension-story-elements` - Story Elements (182)
-- [ ] `reading-comprehension-theme-lesson-moral` - Theme / Lesson / Moral (182)
-- [ ] `reading-comprehension-authors-purpose` - Author's Purpose (209)
-- [ ] `reading-comprehension-text-structure` - Text Structure (180)
-- [ ] `reading-comprehension-compare-contrast` - Compare & Contrast (191)
-- [ ] `reading-comprehension-poetry-skills` - Poetry Skills (189)
-- [ ] `reading-comprehension-book-genres` - Book Genres (187)
-- [ ] `reading-comprehension-point-of-view-literature` - Point of View in Literature (180)
-- [ ] `reading-comprehension-tone-mood` - Tone & Mood (182)
-- [ ] `reading-comprehension-test-taking-reading-skills` - Test-Taking Reading Skills (189)
+- [x] `reading-comprehension-analogies` - Analogies (52)
+- [x] `reading-comprehension-categorizing` - Categorizing (31)
+- [x] `reading-comprehension-cause-effect` - Cause and Effect (26)
+- [x] `reading-comprehension-fact-fantasy` - Fact or Fantasy (19)
+- [x] `reading-comprehension-fact-opinion` - Fact and Opinion (45)
+- [x] `reading-comprehension-inference` - Inference (72)
+- [x] `reading-comprehension-main-idea-supporting-details` - Main Idea & Supporting Details (199)
+- [x] `reading-comprehension-summarizing` - Summarizing (278)
+- [x] `reading-comprehension-text-evidence` - Text Evidence (223)
+- [x] `reading-comprehension-story-elements` - Story Elements (182)
+- [x] `reading-comprehension-theme-lesson-moral` - Theme / Lesson / Moral (182)
+- [x] `reading-comprehension-authors-purpose` - Author's Purpose (209)
+- [x] `reading-comprehension-text-structure` - Text Structure (180)
+- [x] `reading-comprehension-compare-contrast` - Compare & Contrast (191)
+- [x] `reading-comprehension-poetry-skills` - Poetry Skills (189)
+- [x] `reading-comprehension-book-genres` - Book Genres (187)
+- [x] `reading-comprehension-point-of-view-literature` - Point of View in Literature (180)
+- [x] `reading-comprehension-tone-mood` - Tone & Mood (182)
+- [x] `reading-comprehension-test-taking-reading-skills` - Test-Taking Reading Skills (189)
 
 ## Reference Skills
 

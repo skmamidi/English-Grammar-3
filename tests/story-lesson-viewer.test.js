@@ -9,11 +9,25 @@ const {
 } = require('../assets/story-lesson-viewer');
 
 const characterCatalog = {
+  expressionPresets: {
+    curious: {},
+    coaching: {},
+    puzzled: {},
+    confident: {},
+    celebrate: {}
+  },
   getCharacterById(id) {
-    return {
-      'mina-mapwise': { id, name: 'Mina Mapwise', role: 'sentence sleuth' },
-      'jo-pocket': { id, name: 'Jo Pocket', role: 'detail collector' }
-    }[id] || null;
+    const character = {
+      'mina-mapwise': { id, name: 'Mina Mapwise', role: 'sentence sleuth', pet: { id: 'pickle', name: 'Pickle' } },
+      'jo-pocket': { id, name: 'Jo Pocket', role: 'detail collector', pet: { id: 'button', name: 'Button' } }
+    }[id];
+    return character ? { set: { id: 'clue-crew', name: 'The Clue Crew' }, character } : null;
+  },
+  renderCharacter(character, set, expression) {
+    return `<svg class="character-svg" data-character-id="${character.id}" data-set-id="${set.id}" data-expression="${expression}"></svg>`;
+  },
+  renderPet(pet, expression) {
+    return `<svg class="pet-svg" data-pet-id="${pet.id}" data-expression="${expression}"></svg>`;
   }
 };
 
@@ -40,6 +54,10 @@ test('story lesson html renders beats examples guided checks related lessons and
   const html = renderStoryLessonHtml(model);
 
   assert.match(html, /data-story-lesson/);
+  assert.match(html, /class="story-character-visual"/);
+  assert.match(html, /data-character-id="mina-mapwise"/);
+  assert.match(html, /data-expression="coaching"/);
+  assert.match(html, /data-pet-id="pickle"/);
   assert.match(html, /Mina Mapwise/);
   assert.match(html, /Please open the case file/);
   assert.match(html, /What should you inspect when checking matching sentences to their jobs/);

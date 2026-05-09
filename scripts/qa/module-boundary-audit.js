@@ -27,8 +27,11 @@ const MODULE_BOUNDARY_POLICY = {
     '@firebase/',
     '@google-cloud/',
     '@paypal/',
+    '@pinecone-database/',
+    '@qdrant/',
     '@sentry/',
     '@stripe/',
+    'chromadb',
     'aws-sdk',
     'braintree',
     'firebase',
@@ -37,7 +40,8 @@ const MODULE_BOUNDARY_POLICY = {
     'paypal-checkout',
     'stripe',
     'supabase',
-    '@supabase/'
+    '@supabase/',
+    'weaviate-client'
   ],
   ownedProductionGlobals: [
     'GRAMMAR_QUEST_CACHE_QUOTA_EXCEEDED',
@@ -51,6 +55,7 @@ const MODULE_BOUNDARY_POLICY = {
     'assets/learner-goals-domain.js',
     'assets/learner-state-sync-domain.js',
     'assets/mastery-projection-domain.js',
+    'assets/personalization-feature-store-domain.js',
     'assets/privacy-preferences-domain.js',
     'assets/quiz-selection-core.js',
     'assets/selection-telemetry-domain.js',

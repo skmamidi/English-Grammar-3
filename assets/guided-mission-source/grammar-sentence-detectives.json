@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "missionId": "mission-sentence-detectives",
+  "title": "Sentence Detectives",
+  "description": "Learn sentence types, practice with canonical questions, then review missed clues.",
+  "domain": "grammar",
+  "gradeBand": {
+    "min": 3,
+    "max": 5
+  },
+  "estimatedMinutes": 18,
+  "subtopicRefs": [
+    {
+      "setId": "grammar-sentence-types",
+      "relationship": "primary"
+    },
+    {
+      "setId": "grammar-subject-predicate",
+      "relationship": "prerequisite"
+    }
+  ],
+  "skillRefs": [
+    {
+      "skillId": "grammar.sentence-analysis",
+      "relationship": "primary"
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "lesson_completed",
+      "setId": "grammar-subject-predicate",
+      "optional": true
+    }
+  ],
+  "completionPolicy": {
+    "type": "all_required_steps",
+    "requiredStepIds": [
+      "lesson-sentence-types",
+      "practice-sentence-types",
+      "review-sentence-types"
+    ],
+    "minimumAccuracy": 0.75
+  },
+  "xpPolicyRef": {
+    "policyId": "xp-standard-practice",
+    "awardMode": "verified_attempts_only"
+  },
+  "steps": [
+    {
+      "stepId": "lesson-sentence-types",
+      "type": "lesson",
+      "title": "Learn the sentence clue",
+      "required": true,
+      "lessonRef": {
+        "setId": "grammar-sentence-types",
+        "grade": 4
+      }
+    },
+    {
+      "stepId": "practice-sentence-types",
+      "type": "practice",
+      "title": "Practice with sentence questions",
+      "required": true,
+      "practiceRef": {
+        "setId": "grammar-sentence-types",
+        "mode": "subtopic",
+        "questionCount": 6,
+        "grade": 4,
+        "difficulty": "medium"
+      }
+    },
+    {
+      "stepId": "review-sentence-types",
+      "type": "review",
+      "title": "Review missed sentence clues",
+      "required": true,
+      "reviewRef": {
+        "source": "missed_questions",
+        "setIds": [
+          "grammar-sentence-types"
+        ],
+        "questionCount": 3
+      }
+    },
+    {
+      "stepId": "reflect-sentence-types",
+      "type": "reflection",
+      "title": "Choose the next mission",
+      "required": false,
+      "reflectionRef": {
+        "promptId": "sentence-types-next-step"
+      }
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "sentence-types"
+    ],
+    "standardIds": [
+      "L.3-6.1"
+    ],
+    "pedagogyMoves": [
+      "teach-practice-review"
+    ],
+    "reviewStatus": "accepted"
+  }
+}

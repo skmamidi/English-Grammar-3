@@ -1,0 +1,70 @@
+{
+  "name": "guided-mission",
+  "file": "mission.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.15",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
+  "screenshotSha256": "55e0f13271429c60be0b9cff6949231e7db411ac355c63514796e2296e9bb190",
+  "screenshotBytes": 80470,
+  "summary": {
+    "title": "Guided Mission",
+    "semanticTextHash": "-1508394245",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery All practice Find practice",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": ".mission-shell",
+        "text": "GUIDED MISSION Sentence Detectives Learn sentence types, practice with canonical questions, then review missed clues. grammar Grades 3-5 18 min CURRENT STEP Learn the sentence clue",
+        "visible": true,
+        "rect": {
+          "x": 214,
+          "y": 95,
+          "width": 852,
+          "height": 576
+        }
+      },
+      {
+        "selector": ".mission-current-step",
+        "text": "CURRENT STEP Learn the sentence clue Follow the current step, then return here to continue the mission. Open lesson",
+        "visible": true,
+        "rect": {
+          "x": 214,
+          "y": 223,
+          "width": 852,
+          "height": 139
+        }
+      },
+      {
+        "selector": ".mission-step-list",
+        "text": "Learn the sentence clue lesson · current Open lesson Practice with sentence questions practice · upcoming Start practice Review missed sentence clues review · upcoming Open review ",
+        "visible": true,
+        "rect": {
+          "x": 214,
+          "y": 363,
+          "width": 852,
+          "height": 309
+        }
+      }
+    ]
+  }
+}

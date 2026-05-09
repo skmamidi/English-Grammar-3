@@ -7,12 +7,14 @@ const {
   CACHE_PREFIX,
   buildCacheNames,
   buildPrecacheUrls,
+  buildRuntimeStaticUrls,
   classifyServiceWorkerCacheRequest,
   createServiceWorkerCacheRecord,
   evaluateServiceWorkerCacheCleanup,
   getSourceHashCacheKey,
   isQuotaExceededError,
   isChunkRequest,
+  isImmutableMediaRequest,
   isRetiredFullBankRequest
 } = require('../assets/service-worker-core');
 
@@ -39,6 +41,18 @@ test('service worker precache avoids retired full-bank artifacts', () => {
   assert.equal(urls.some(url => /\/assets\/question-banks\//.test(url)), false);
 });
 
+test('service worker runtime cache includes guided mission route assets without precaching the catalog', () => {
+  const precache = buildPrecacheUrls();
+  const runtime = buildRuntimeStaticUrls();
+
+  assert.equal(precache.includes('/assets/guided-mission-catalog.js'), false);
+  assert.ok(runtime.includes('/mission.html'));
+  assert.ok(runtime.includes('/assets/page-shell.js'));
+  assert.ok(runtime.includes('/assets/guided-mission-catalog.js'));
+  assert.ok(runtime.includes('/assets/guided-mission-domain.js'));
+  assert.ok(runtime.includes('/assets/guided-mission-ui.js'));
+});
+
 test('service worker routes generated chunks but never retired full banks', () => {
   assert.equal(isChunkRequest(new URL('https://example.test/assets/question-chunks/grammar/grammar-sentence-types.js')), true);
   assert.equal(isChunkRequest(new URL('https://example.test/assets/question-manifest.js')), false);
@@ -49,6 +63,22 @@ test('service worker cache names include isolated metadata cache', () => {
   const names = buildCacheNames('sha256:abc123');
 
   assert.equal(names.metadata, `${CACHE_PREFIX}-metadata-sha256-abc123`);
+});
+
+test('service worker classifies sparse question JSON for IndexedDB instead of durable Cache API', () => {
+  const sparse = classifyServiceWorkerCacheRequest({
+    url: new URL('https://example.test/api/questions/sparse?refs=q1,q2')
+  });
+  const media = classifyServiceWorkerCacheRequest({
+    url: new URL('https://example.test/assets/audio/spelling/immediately.wav')
+  });
+
+  assert.equal(sparse.priorityGroup, 'questionObjectData');
+  assert.equal(sparse.storageTarget, 'indexedDB');
+  assert.equal(sparse.cacheApiDurable, false);
+  assert.equal(media.priorityGroup, 'immutableMedia');
+  assert.equal(media.storageTarget, 'cacheAPI');
+  assert.equal(isImmutableMediaRequest(new URL('https://example.test/assets/audio/spelling/immediately.wav')), true);
 });
 
 test('service worker classifies preload chunk intent separately from required chunks', () => {

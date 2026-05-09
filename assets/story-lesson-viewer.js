@@ -60,8 +60,16 @@
     const characterCatalog = options.characterCatalog || {};
     const storyBeats = (Array.isArray(variant.storyBeats) ? variant.storyBeats : []).map(beat => {
       const role = roles.get(beat.characterRoleId) || {};
-      const character = resolveCharacter(role.characterId, characterCatalog);
-      return Object.assign({}, beat, { role, character });
+      const resolved = resolveCharacter(role.characterId, characterCatalog);
+      const expression = chooseStoryBeatExpression(beat, role, characterCatalog);
+      return Object.assign({}, beat, {
+        role,
+        character: resolved.character,
+        characterSet: resolved.set,
+        expression,
+        characterVisual: renderCharacterVisual(resolved, expression, characterCatalog),
+        petVisual: renderPetVisual(resolved.character && resolved.character.pet, expression, characterCatalog)
+      });
     });
     return {
       setId: lesson.setId,
@@ -165,7 +173,20 @@
 
   function renderStoryBeat(beat) {
     const characterName = beat.character && beat.character.name || beat.role && beat.role.characterId || 'Guide';
-    return `<article class="story-beat"><div class="story-character">${escapeHtml(characterName)}</div><p>${escapeHtml(beat.narrative)}</p></article>`;
+    const roleLabel = beat.character && beat.character.role || beat.role && beat.role.purpose || 'lesson guide';
+    const visual = beat.characterVisual
+      ? `<div class="story-character-visual" aria-hidden="true">${beat.characterVisual}${beat.petVisual ? `<span class="story-pet-visual">${beat.petVisual}</span>` : ''}</div>`
+      : '';
+    return `
+      <article class="story-beat story-beat-illustrated">
+        ${visual}
+        <div class="story-beat-copy">
+          <div class="story-character">${escapeHtml(characterName)}</div>
+          <div class="story-character-role">${escapeHtml(roleLabel)}</div>
+          <p>${escapeHtml(beat.narrative)}</p>
+        </div>
+      </article>
+    `;
   }
 
   function renderExample(example) {
@@ -178,8 +199,53 @@
   }
 
   function resolveCharacter(characterId, catalog) {
-    if (catalog && typeof catalog.getCharacterById === 'function') return catalog.getCharacterById(characterId) || { id: characterId, name: characterId };
-    return { id: characterId, name: characterId };
+    const fallback = {
+      set: null,
+      character: { id: characterId, name: characterId }
+    };
+    if (!catalog || typeof catalog.getCharacterById !== 'function') return fallback;
+    const result = catalog.getCharacterById(characterId);
+    if (!result) return fallback;
+    if (result.character) return {
+      set: result.set || null,
+      character: result.character
+    };
+    return {
+      set: result.set || null,
+      character: result
+    };
+  }
+
+  function chooseStoryBeatExpression(beat, role, catalog) {
+    const presets = catalog && catalog.expressionPresets || {};
+    const source = [
+      beat && beat.expression,
+      role && role.roleId,
+      role && role.purpose,
+      beat && beat.narrative
+    ].filter(Boolean).join(' ').toLowerCase();
+    const preferred = [
+      [/celebrate|victory|solved|complete|finish/, 'celebrate'],
+      [/near miss|mistake|almost|confus|tricky|check/, 'puzzled'],
+      [/coach|hint|explain|teach|guide|point|model|introduc/, 'coaching'],
+      [/revise|transfer|edit|independent|final/, 'confident'],
+      [/sort|compare|match|inspect|look|ask/, 'curious']
+    ];
+    const match = preferred.find(([pattern, expression]) => pattern.test(source) && (!presets || presets[expression]));
+    if (match) return match[1];
+    return presets.thinking ? 'thinking' : 'curious';
+  }
+
+  function renderCharacterVisual(resolved, expression, catalog) {
+    if (!resolved || !resolved.character || !resolved.set) return '';
+    if (!catalog || typeof catalog.renderCharacter !== 'function') return '';
+    return catalog.renderCharacter(resolved.character, resolved.set, expression || 'curious');
+  }
+
+  function renderPetVisual(pet, expression, catalog) {
+    if (!pet || !catalog || typeof catalog.renderPet !== 'function') return '';
+    const petMood = expression === 'celebrate' ? 'excited' : expression || 'curious';
+    return catalog.renderPet(pet, petMood);
   }
 
   function chooseGrade(routeGrade, storedGrade, variants) {

@@ -66,6 +66,19 @@ test('preload policy disables on save-data and slow network', () => {
   }), []);
 });
 
+test('sparse mode suppresses chunk preloads when granular offline question store is enabled', () => {
+  const candidates = buildQuestionPreloadCandidates({
+    currentRoute: 'subtopic',
+    currentSetId: 'grammar-sentence-types',
+    visibleSubtopicIds: ['grammar-sentence-types', 'grammar-run-on-sentences'],
+    manifest: createManifest(),
+    sparseQuestionDelivery: true,
+    granularOfflineQuestionStore: true
+  });
+
+  assert.deepEqual(candidates, []);
+});
+
 test('preload policy enforces byte and count budgets', () => {
   const candidates = buildQuestionPreloadCandidates({
     currentRoute: 'mixed-selection',

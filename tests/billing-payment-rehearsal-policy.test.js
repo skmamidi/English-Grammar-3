@@ -26,6 +26,8 @@ test('billing payment rehearsal policy defines every sandbox and staging scenari
     'refund',
     'dispute',
     'subscription_renewal',
+    'duplicate_webhook',
+    'stale_webhook',
     'cancel_at_period_end',
     'reactivation',
     'provider_outage'

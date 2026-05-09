@@ -14,6 +14,7 @@
     PERFORMANCE: 'performance',
     EXPERIMENT: 'experiment'
   });
+  const MISSION_REMINDER_CHANNELS = new Set(['in_app', 'guardian_email']);
 
   function normalizePrivacyPreferences(raw) {
     const input = raw && typeof raw === 'object' ? raw : {};
@@ -24,6 +25,8 @@
       errorTelemetryEnabled: telemetryEnabled && input.errorTelemetryEnabled === true,
       performanceTelemetryEnabled: telemetryEnabled && input.performanceTelemetryEnabled === true,
       experimentParticipationEnabled: telemetryEnabled && input.experimentParticipationEnabled === true,
+      optionalPersonalizationEnabled: telemetryEnabled && input.optionalPersonalizationEnabled === true && input.optOut !== true,
+      missionReminderPreferences: normalizeMissionReminderPreferences(input.optOut === true ? {} : input.missionReminderPreferences),
       updatedAt: safeIso(input.updatedAt),
       updatedBy: safeString(input.updatedBy || input.actorId || input.userId),
       policyVersion: safePositiveInt(input.policyVersion, DEFAULT_POLICY_VERSION)
@@ -38,6 +41,8 @@
       errorTelemetryEnabled: hasOwn(input, 'errorTelemetryEnabled') ? input.errorTelemetryEnabled : previous.errorTelemetryEnabled,
       performanceTelemetryEnabled: hasOwn(input, 'performanceTelemetryEnabled') ? input.performanceTelemetryEnabled : previous.performanceTelemetryEnabled,
       experimentParticipationEnabled: hasOwn(input, 'experimentParticipationEnabled') ? input.experimentParticipationEnabled : previous.experimentParticipationEnabled,
+      optionalPersonalizationEnabled: hasOwn(input, 'optionalPersonalizationEnabled') ? input.optionalPersonalizationEnabled : previous.optionalPersonalizationEnabled,
+      missionReminderPreferences: hasOwn(input, 'missionReminderPreferences') ? input.missionReminderPreferences : previous.missionReminderPreferences,
       updatedAt: typeof options.now === 'function' ? options.now() : input.updatedAt || previous.updatedAt,
       updatedBy: options.actorId || input.updatedBy || previous.updatedBy,
       policyVersion: options.policyVersion || input.policyVersion || previous.policyVersion
@@ -75,6 +80,35 @@
     return TELEMETRY_TYPES.SELECTION;
   }
 
+  function normalizeMissionReminderPreferences(raw) {
+    const input = raw && typeof raw === 'object' ? raw : {};
+    const quietHours = input.quietHours && typeof input.quietHours === 'object' ? input.quietHours : {};
+    const frequencyCap = input.frequencyCap && typeof input.frequencyCap === 'object' ? input.frequencyCap : {};
+    return {
+      enabled: input.enabled === true,
+      channels: Array.from(new Set((Array.isArray(input.channels) ? input.channels : [])
+        .map(safeString)
+        .filter(channel => MISSION_REMINDER_CHANNELS.has(channel)))),
+      quietHours: {
+        enabled: quietHours.enabled !== false,
+        start: normalizeClock(quietHours.start, '20:00'),
+        end: normalizeClock(quietHours.end, '07:00')
+      },
+      frequencyCap: {
+        count: safeBoundedInt(frequencyCap.count, 0, 0, 6),
+        windowHours: safeBoundedInt(frequencyCap.windowHours, 24, 1, 168)
+      }
+    };
+  }
+
+  function normalizeClock(value, fallback) {
+    const text = safeString(value);
+    if (!/^\d{2}:\d{2}$/.test(text)) return fallback;
+    const parts = text.split(':').map(Number);
+    if (parts[0] < 0 || parts[0] > 23 || parts[1] < 0 || parts[1] > 59) return fallback;
+    return text;
+  }
+
   function safeString(value) {
     return String(value || '').trim().slice(0, 120);
   }
@@ -90,6 +124,12 @@
     return Number.isFinite(number) && number > 0 ? Math.floor(number) : fallback;
   }
 
+  function safeBoundedInt(value, fallback, min, max) {
+    const number = Number(value);
+    if (!Number.isInteger(number) || number < min || number > max) return fallback;
+    return number;
+  }
+
   function hasOwn(object, key) {
     return Object.prototype.hasOwnProperty.call(object, key);
   }
@@ -100,6 +140,7 @@
     canSendTelemetry,
     hasTelemetryConsent,
     isParentPreview,
+    normalizeMissionReminderPreferences,
     normalizePrivacyPreferences,
     normalizeTelemetryType
   };

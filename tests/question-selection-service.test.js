@@ -63,6 +63,53 @@ test('selection service returns digest-bound refs for valid grammar mixed reques
   await selectionIntegrity.validateSelectionResponseIntegrity(response, request, manifest.artifact);
 });
 
+test('selection service can run dynamic assembly diagnostics behind explicit pilot context', async () => {
+  const request = validateSelectionRequest({
+    mode: 'mixed',
+    domain: 'grammar',
+    setIds: ['grammar-sentence-types', 'grammar-subject-predicate'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 6,
+    countMode: 'per-subtopic',
+    questionsPerSubtopic: 4,
+    selectionPolicyVersion: 1
+  }, manifest);
+  const selection = await selectQuestionRefs(request, context({
+    dynamicQuizAssembly: {
+      enabled: true,
+      seed: 'service-dynamic-assembly',
+      featureSnapshot: {
+        schemaVersion: 1,
+        featureVersion: 'personalization-feature-store/v1',
+        snapshotRef: 'feature-snapshot:service',
+        learnerScopeRef: 'scope:service',
+        generatedAt: '2030-04-29T12:00:00.000Z',
+        freshness: { fresh: true, fallbackReasons: [] },
+        learnerSkillSignals: [{
+          skillId: 'sentence-types',
+          masteryBand: 'needs_practice',
+          accuracy: 0.5,
+          evidenceWeight: 6,
+          dueReviewCount: 1,
+          reasonCodes: ['needs_practice']
+        }],
+        contentCandidateSignals: [],
+        evidenceRefs: ['verified-attempt-projection:service']
+      }
+    }
+  }));
+  const response = await buildSelectionResponse(selection, request, context());
+
+  assert.equal(selection.assemblyPlan.mode, 'personalized');
+  assert.equal(selection.assemblyPlan.questionSnapshots.length, 0);
+  assert.equal(response.assemblyPlan.mode, 'personalized');
+  assert.equal(response.questionRefs.length, 6);
+  assert.deepEqual(response.questionSnapshots, []);
+  assert.equal(JSON.stringify(response).includes('"choices"'), false);
+  assert.equal(JSON.stringify(response).includes('"correct"'), false);
+});
+
 test('selection service applies default and explicit response TTLs', async () => {
   const request = validateSelectionRequest({
     mode: 'mixed',

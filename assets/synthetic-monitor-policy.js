@@ -117,6 +117,60 @@
         sloObjectiveId: 'billing_webhook_failure_rate',
         runbook: 'docs/operations/runbook-billing-operations.md',
         nextStep: 'Check signed webhook health, latency, and idempotent ledger readiness.'
+      }),
+      monitor({
+        id: 'institutional_login_smoke',
+        label: 'Institutional login smoke',
+        targetPath: '/api/institutional/synthetic/login',
+        assertions: ['status:200'],
+        sloObjectiveId: 'institutional_login_success',
+        runbook: 'docs/operations/runbook-institutional-provisioning.md',
+        nextStep: 'Check synthetic SSO policy, tenant login readiness, and institutionalSsoLoginEnabled rollback.'
+      }),
+      monitor({
+        id: 'institutional_roster_sync_health',
+        label: 'Institutional roster sync health',
+        targetPath: '/api/institutional/synthetic/roster-sync',
+        assertions: ['status:200'],
+        sloObjectiveId: 'roster_sync_freshness',
+        runbook: 'docs/operations/runbook-institutional-provisioning.md',
+        nextStep: 'Check staged roster drift, duplicate student matches, guardian conflicts, and roster activation rollback.'
+      }),
+      monitor({
+        id: 'institutional_assignment_smoke',
+        label: 'Institutional assignment smoke',
+        targetPath: '/api/institutional/synthetic/assignment',
+        assertions: ['status:200'],
+        sloObjectiveId: 'assignment_provisioning_success',
+        runbook: 'docs/operations/runbook-institutional-provisioning.md',
+        nextStep: 'Check synthetic assignment provisioning without creating live learner work.'
+      }),
+      monitor({
+        id: 'institutional_verified_report_health',
+        label: 'Institutional verified report health',
+        targetPath: '/api/institutional/synthetic/verified-report',
+        assertions: ['status:200'],
+        sloObjectiveId: 'verified_report_projection_freshness',
+        runbook: 'docs/operations/runbook-institutional-provisioning.md',
+        nextStep: 'Check verified report projection freshness, small-cohort suppression, and report rollback.'
+      }),
+      monitor({
+        id: 'institutional_export_request_policy',
+        label: 'Institutional export request policy',
+        targetPath: '/api/institutional/synthetic/export-request',
+        assertions: ['status:200'],
+        sloObjectiveId: 'institutional_export_request_success',
+        runbook: 'docs/operations/runbook-institutional-provisioning.md',
+        nextStep: 'Check export request authorization, manifest retention, redaction profile, and export rollback.'
+      }),
+      monitor({
+        id: 'institutional_rollback_rehearsal',
+        label: 'Institutional rollback rehearsal',
+        targetPath: '/api/institutional/synthetic/rollback-rehearsal',
+        assertions: ['status:200'],
+        sloObjectiveId: 'institutional_rollback_rehearsal_success',
+        runbook: 'docs/operations/runbook-institutional-provisioning.md',
+        nextStep: 'Check tenant provisioning rollback evidence while preserving practice, verified evidence, and audit history.'
       })
     ])
   });

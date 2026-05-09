@@ -13,6 +13,8 @@
     (typeof require === 'function' ? require('./learner-goals-domain') : null);
   const goalProjectionDomain = root.GrammarQuestLearnerGoalProjectionDomain ||
     (typeof require === 'function' ? require('./learner-goal-projection-domain') : null);
+  const missionDashboardDomain = root.GrammarQuestMissionDashboardDomain ||
+    (typeof require === 'function' ? require('./mission-dashboard-domain') : null);
 
   function buildLearningDashboardProjection(input = {}) {
     const learner = input.learner && typeof input.learner === 'object' ? input.learner : {};
@@ -26,6 +28,8 @@
     const goalProgress = buildGoalProgress(input, now);
     const goalProjection = buildGoalProjection(input, now);
     const xpSummary = buildXpSummary(input);
+    const missionDashboard = buildMissionDashboard(input, now);
+    const institutionalReportSummary = buildInstitutionalReportSummary(input.institutionalReportProjection);
     const summary = {
       recentPracticeCount: sessions.filter(session => isRecent(session.completedAt, now)).length,
       accuracy: calculateAccuracy(sessions),
@@ -40,6 +44,12 @@
       summary.totalXp = xpSummary.totalXp;
       summary.weeklyXp = xpSummary.weeklyXp;
       summary.monthlyXp = xpSummary.monthlyXp;
+    }
+    if (missionDashboard) {
+      summary.activeMissionCount = missionDashboard.summary.activeMissionCount;
+      summary.overdueMissionCount = missionDashboard.summary.overdueCount;
+      summary.dueSoonMissionCount = missionDashboard.summary.dueSoonCount;
+      summary.completedMissionCount = missionDashboard.summary.completedCount;
     }
 
     return {
@@ -71,7 +81,17 @@
           status: report.status,
           category: report.category
         })),
-      recommendationHighlights: normalizeRecommendations(input.recommendations).slice(0, 3)
+      recommendationHighlights: normalizeRecommendations(input.recommendations).slice(0, 3),
+      institutionalReportSummary,
+      missionDashboard,
+      missionHighlights: missionDashboard ? missionDashboard.cards.slice(0, 3).map(card => ({
+        missionId: card.missionId,
+        title: card.title,
+        state: card.state,
+        progressPercent: card.progressPercent,
+        dueAt: card.dueAt,
+        nextAction: card.nextAction
+      })) : []
     };
   }
 
@@ -98,6 +118,33 @@
         ? 'XP trend is quieter this period; gentle review can help.'
         : 'XP trend is steady across recent practice.'
     };
+  }
+
+  function buildInstitutionalReportSummary(report) {
+    if (!report || typeof report !== 'object') return null;
+    const evidence = report.evidence && typeof report.evidence === 'object' ? report.evidence : {};
+    return {
+      reportId: safeString(report.reportId),
+      tenantId: safeString(report.tenantId),
+      classId: safeString(report.classId),
+      verifiedAttemptCount: Math.max(0, Math.round(Number(evidence.verifiedAttemptCount) || 0)),
+      learnerCountBucket: safeString(evidence.learnerCountBucket || 'suppressed'),
+      skillSummaryCount: Array.isArray(report.classroomSkillSummaries) ? report.classroomSkillSummaries.length : 0,
+      interventionCount: Array.isArray(report.interventionQueue) ? report.interventionQueue.length : 0
+    };
+  }
+
+  function buildMissionDashboard(input, now) {
+    if (!missionDashboardDomain || typeof missionDashboardDomain.buildMissionDashboardProjection !== 'function') return null;
+    const missions = input.missions || input.missionCatalog || input.guidedMissions;
+    if (!Array.isArray(missions) || !missions.length) return null;
+    return missionDashboardDomain.buildMissionDashboardProjection({
+      now: new Date(now).toISOString(),
+      missions,
+      missionProgress: input.missionProgress || input.progress && input.progress.missionProgress,
+      assignments: input.assignments,
+      recommendations: input.missionRecommendations || input.recommendations
+    });
   }
 
   function readXpSource(input) {

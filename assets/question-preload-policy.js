@@ -14,6 +14,7 @@
 
   function buildQuestionPreloadCandidates(input = {}) {
     const options = normalizeOptions(input);
+    if (options.sparseQuestionDelivery && options.granularOfflineQuestionStore) return [];
     if (shouldDisableForNetwork(options.networkInfo, options)) return [];
 
     const candidateIds = getCandidateIds(options);
@@ -57,6 +58,8 @@
       maxPreloadBytes: Math.max(0, Number(input.maxPreloadBytes) || DEFAULT_MAX_PRELOAD_BYTES),
       maxPreloadChunks: Math.max(0, Number(input.maxPreloadChunks) || DEFAULT_MAX_PRELOAD_CHUNKS),
       disableWhenSaveData: input.disableWhenSaveData !== false,
+      sparseQuestionDelivery: input.sparseQuestionDelivery === true,
+      granularOfflineQuestionStore: input.granularOfflineQuestionStore === true,
       disableOnEffectiveType: Array.isArray(input.disableOnEffectiveType)
         ? input.disableOnEffectiveType
         : DEFAULT_DISABLED_EFFECTIVE_TYPES

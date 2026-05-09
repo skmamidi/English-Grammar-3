@@ -49,6 +49,9 @@ async function collectRuntimePerformanceMetrics(page, options = {}) {
     flow,
     hydrationMs: options.hydrationMs || pageMetrics.navigationDuration || pageMetrics.now,
     requiredChunkBytes: requestSummary.questionChunkBytes || 0,
+    sparseQuestionJsonBytes: requestSummary.sparseQuestionJsonBytes || 0,
+    storedQuestionBytes: requestSummary.storedQuestionBytes || 0,
+    jsonParseMs: options.jsonParseMs || 0,
     loadedChunkCount: Array.isArray(requestSummary.loadedChunks) ? requestSummary.loadedChunks.length : 0
   }));
 }
@@ -70,6 +73,9 @@ function normalizeRuntimePerformanceMetrics(input = {}) {
     domNodeCount: nonNegative(input.domNodeCount),
     heapUsedBytes: nonNegative(input.heapUsedBytes),
     requiredChunkBytes: nonNegative(input.requiredChunkBytes),
+    sparseQuestionJsonBytes: nonNegative(input.sparseQuestionJsonBytes),
+    jsonParseMs: nonNegative(input.jsonParseMs),
+    storedQuestionBytes: nonNegative(input.storedQuestionBytes),
     loadedChunkCount: nonNegative(input.loadedChunkCount),
     longTaskSupported: input.longTaskSupported !== false
   };

@@ -27,8 +27,35 @@ test('synthetic monitor policy defines the critical public and operational flows
     'billing_operations_health',
     'billing_page_render_health',
     'billing_checkout_start_test_mode',
-    'billing_webhook_health_test_mode'
+    'billing_webhook_health_test_mode',
+    'institutional_login_smoke',
+    'institutional_roster_sync_health',
+    'institutional_assignment_smoke',
+    'institutional_verified_report_health',
+    'institutional_export_request_policy',
+    'institutional_rollback_rehearsal'
   ]);
+});
+
+test('synthetic monitor policy covers provider-neutral institutional rehearsal scenarios', () => {
+  const result = validateSyntheticMonitorPolicy(DEFAULT_SYNTHETIC_MONITOR_POLICY);
+  const monitors = new Map(result.policy.monitors.map(monitor => [monitor.id, monitor]));
+
+  [
+    ['institutional_login_smoke', 'institutional_login_success'],
+    ['institutional_roster_sync_health', 'roster_sync_freshness'],
+    ['institutional_assignment_smoke', 'assignment_provisioning_success'],
+    ['institutional_verified_report_health', 'verified_report_projection_freshness'],
+    ['institutional_export_request_policy', 'institutional_export_request_success'],
+    ['institutional_rollback_rehearsal', 'institutional_rollback_rehearsal_success']
+  ].forEach(([id, sloObjectiveId]) => {
+    const monitor = monitors.get(id);
+    assert.equal(monitor.sloObjectiveId, sloObjectiveId);
+    assert.equal(monitor.mutatesState, false);
+    assert.equal(monitor.capturesPayload, false);
+    assert.equal(monitor.requiresCredentials, false);
+    assert.match(monitor.targetPath, /^\/api\/institutional\/synthetic\//);
+  });
 });
 
 test('synthetic monitors are payload-light non-mutating and credentials-free', () => {

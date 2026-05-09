@@ -22,7 +22,10 @@ test('data inventory defines required provider-neutral classifications', () => {
     'learner_progress',
     'learner_answer_attempt',
     'guardian_relationship',
+    'organization_tenant_metadata',
     'classroom_assignment',
+    'institutional_report_projection',
+    'institutional_export_manifest',
     'privacy_preference',
     'telemetry_event',
     'audit_event',
@@ -72,7 +75,10 @@ test('classification access roles stay aligned to the access-control domain', ()
 
   assert.ok(buildDataInventoryMap(DATA_INVENTORY).learner_progress.accessRoles.includes(access.Roles.STUDENT));
   assert.ok(buildDataInventoryMap(DATA_INVENTORY).guardian_relationship.accessRoles.includes(access.Roles.PARENT_GUARDIAN));
+  assert.ok(buildDataInventoryMap(DATA_INVENTORY).organization_tenant_metadata.accessRoles.includes(access.Roles.TEACHER));
   assert.ok(buildDataInventoryMap(DATA_INVENTORY).classroom_assignment.accessRoles.includes(access.Roles.TEACHER));
+  assert.ok(buildDataInventoryMap(DATA_INVENTORY).institutional_report_projection.accessRoles.includes(access.Roles.TEACHER));
+  assert.ok(buildDataInventoryMap(DATA_INVENTORY).institutional_export_manifest.accessRoles.includes(access.Roles.SYSTEM_ADMIN));
   assert.ok(buildDataInventoryMap(DATA_INVENTORY).audit_event.accessRoles.includes(access.Roles.SYSTEM_ADMIN));
 });
 
@@ -106,7 +112,10 @@ test('inventory document is privacy-safe and linked to governance controls', () 
     'learner_progress',
     'learner_answer_attempt',
     'guardian_relationship',
+    'organization_tenant_metadata',
     'classroom_assignment',
+    'institutional_report_projection',
+    'institutional_export_manifest',
     'privacy_preference',
     'telemetry_event',
     'audit_event',

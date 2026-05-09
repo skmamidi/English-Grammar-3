@@ -1,0 +1,61 @@
+[
+  {
+    "eventId": "evt-1",
+    "tenantId": "school-a",
+    "classId": "class-a",
+    "learnerId": "learner-a",
+    "status": "verified",
+    "submittedAt": "2026-05-04T12:00:00.000Z",
+    "score": { "correctCount": 1, "totalQuestions": 2 },
+    "questionResults": [
+      { "correct": true, "skillIds": ["grammar.usage"], "standardIds": ["L.3-6.1"], "question": "raw prompt" },
+      { "correct": false, "skillIds": ["grammar.usage"], "standardIds": ["L.3-6.1"], "answerKey": "unsafe" }
+    ]
+  },
+  {
+    "eventId": "evt-2",
+    "tenantId": "school-a",
+    "classId": "class-a",
+    "learnerId": "learner-b",
+    "status": "verified",
+    "submittedAt": "2026-05-05T12:00:00.000Z",
+    "score": { "correctCount": 2, "totalQuestions": 2 },
+    "questionResults": [
+      { "correct": true, "skillIds": ["grammar.usage"], "standardIds": ["L.3-6.1"] },
+      { "correct": true, "skillIds": ["grammar.sentence-analysis"], "standardIds": ["L.3-6.2"] }
+    ]
+  },
+  {
+    "eventId": "evt-3",
+    "tenantId": "school-a",
+    "classId": "class-a",
+    "learnerId": "learner-b",
+    "status": "verified",
+    "assignmentId": "assignment-1",
+    "submittedAt": "2026-05-06T12:00:00.000Z",
+    "score": { "correctCount": 1, "totalQuestions": 2 },
+    "questionResults": [
+      { "correct": false, "skillIds": ["grammar.sentence-analysis"], "standardIds": ["L.3-6.2"] },
+      { "correct": true, "skillIds": ["grammar.usage"], "standardIds": ["L.3-6.1"] }
+    ]
+  },
+  {
+    "eventId": "evt-4",
+    "tenantId": "school-a",
+    "classId": "class-small",
+    "learnerId": "learner-small",
+    "status": "verified",
+    "submittedAt": "2026-05-07T12:00:00.000Z",
+    "score": { "correctCount": 1, "totalQuestions": 1 },
+    "questionResults": [{ "correct": true, "skillIds": ["grammar.usage"], "standardIds": ["L.3-6.1"] }]
+  },
+  {
+    "eventId": "evt-local",
+    "tenantId": "school-a",
+    "classId": "class-a",
+    "learnerId": "learner-a",
+    "status": "provisional_local",
+    "submittedAt": "2026-05-04T12:00:00.000Z",
+    "score": { "correctCount": 999, "totalQuestions": 999 }
+  }
+]

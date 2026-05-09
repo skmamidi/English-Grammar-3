@@ -80,6 +80,33 @@ test('learning dashboard projection includes class assignment aggregates without
   assert.equal(JSON.stringify(projection).includes('Hidden Name'), false);
 });
 
+test('learning dashboard projection can carry institutional report summaries without drilldown', () => {
+  const projection = dashboard.buildLearningDashboardProjection({
+    learner: { id: 'class-a' },
+    roleView: 'teacher',
+    institutionalReportProjection: {
+      reportId: 'report-school-a-class-a',
+      tenantId: 'school-a',
+      classId: 'class-a',
+      evidence: { verifiedAttemptCount: 3, learnerCountBucket: '2-4' },
+      classroomSkillSummaries: [{ skillId: 'grammar.usage', accuracy: 0.75 }],
+      interventionQueue: [{ skillId: 'grammar.sentence-analysis', learnerIds: ['hidden'] }]
+    },
+    now
+  });
+
+  assert.deepEqual(projection.institutionalReportSummary, {
+    reportId: 'report-school-a-class-a',
+    tenantId: 'school-a',
+    classId: 'class-a',
+    verifiedAttemptCount: 3,
+    learnerCountBucket: '2-4',
+    skillSummaryCount: 1,
+    interventionCount: 1
+  });
+  assert.equal(JSON.stringify(projection.institutionalReportSummary).includes('hidden'), false);
+});
+
 test('learning dashboard projection can include safe weak-skill recommendation cards', () => {
   const projection = dashboard.buildLearningDashboardProjection({
     learner: { id: 'learner-3' },
@@ -279,4 +306,41 @@ test('learning dashboard projection includes privacy-safe guardian XP trends', (
   assert.equal(serialized.includes('hidden key'), false);
   assert.equal(serialized.includes('learner-xp'), false);
   assert.equal(serialized.includes('q1'), false);
+});
+
+test('learning dashboard projection includes mission dashboard summaries', () => {
+  const projection = dashboard.buildLearningDashboardProjection({
+    learner: { id: 'learner-mission', displayName: 'Hidden Learner' },
+    roleView: 'parent_guardian',
+    now,
+    missions: [{
+      missionId: 'mission-sentence-detectives',
+      title: 'Sentence Detectives',
+      completionPolicy: { requiredStepIds: ['lesson-step', 'practice-step'] },
+      stepSummaries: [
+        { stepId: 'lesson-step', type: 'lesson', title: 'Lesson', required: true },
+        { stepId: 'practice-step', type: 'practice', title: 'Practice', required: true }
+      ]
+    }],
+    missionProgress: [{
+      missionId: 'mission-sentence-detectives',
+      completedStepIds: ['lesson-step'],
+      question: 'raw prompt'
+    }],
+    assignments: [{
+      id: 'mission-assignment-1',
+      assignmentType: 'guided_mission',
+      status: 'active',
+      dueAt: '2030-04-28T12:00:00.000Z',
+      scope: { missionRefs: [{ missionId: 'mission-sentence-detectives' }] },
+      learnerName: 'Hidden Learner'
+    }]
+  });
+
+  assert.equal(projection.summary.activeMissionCount, 1);
+  assert.equal(projection.summary.overdueMissionCount, 1);
+  assert.equal(projection.missionDashboard.cards[0].state, 'overdue');
+  assert.equal(projection.missionHighlights[0].missionId, 'mission-sentence-detectives');
+  assert.equal(JSON.stringify(projection.missionDashboard).includes('Hidden Learner'), false);
+  assert.equal(JSON.stringify(projection.missionDashboard).includes('raw prompt'), false);
 });

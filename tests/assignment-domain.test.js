@@ -72,3 +72,56 @@ test('assignment status transitions are stable and timestamped', () => {
   assert.equal(completed.status, 'completed');
   assert.equal(completed.completedSessionId, 'session-1');
 });
+
+test('assignment domain normalizes guided mission refs and expected steps without lesson or question payloads', () => {
+  const normalized = assignment.normalizeAssignment({
+    id: 'mission-assignment-1',
+    title: 'Sentence Detectives Mission',
+    assignmentType: 'guided_mission',
+    assignedBy: { actorId: 'guardian-1', role: 'parent_guardian' },
+    assignedTo: { learnerIds: ['learner-1'] },
+    scope: {
+      missionRefs: [{
+        missionId: 'mission-sentence-detectives',
+        route: 'mission.html?missionId=mission-sentence-detectives',
+        expectedStepIds: ['lesson-sentence-types', 'practice-sentence-types', 'review-sentence-types'],
+        storyBeats: [{ text: 'Raw lesson body' }],
+        questions: [{ question: 'Raw prompt', answer: 'Raw answer' }]
+      }]
+    },
+    dueAt: '2030-05-01T00:00:00.000Z',
+    status: 'active'
+  });
+
+  assert.equal(normalized.assignmentType, 'guided_mission');
+  assert.deepEqual(normalized.scope.missionRefs, [{
+    missionId: 'mission-sentence-detectives',
+    route: 'mission.html?missionId=mission-sentence-detectives',
+    expectedStepIds: ['lesson-sentence-types', 'practice-sentence-types', 'review-sentence-types']
+  }]);
+  assert.deepEqual(assignment.validateAssignment(normalized, { now: '2030-04-29T12:00:00.000Z' }), []);
+  assert.equal(JSON.stringify(normalized).includes('Raw'), false);
+});
+
+test('assignment validation rejects unsafe mission assignments', () => {
+  assert.ok(assignment.validateAssignment({
+    id: 'mission-assignment-2',
+    title: 'Invalid Mission',
+    assignmentType: 'guided_mission',
+    assignedBy: { actorId: 'teacher-1', role: 'teacher' },
+    assignedTo: { learnerIds: ['learner-1'] },
+    scope: { missionRefs: [{ missionId: 'mission-sentence-detectives' }] },
+    dueAt: 'not-a-date',
+    storyBeats: [{ text: 'No lesson bodies' }]
+  }, { now: '2030-04-29T12:00:00.000Z' }).some(error => /dueAt|lesson payload/.test(error)));
+
+  assert.ok(assignment.validateAssignment({
+    id: 'mission-assignment-3',
+    title: 'Past Mission',
+    assignmentType: 'guided_mission',
+    assignedBy: { actorId: 'teacher-1', role: 'teacher' },
+    assignedTo: { learnerIds: ['learner-1'] },
+    scope: { missionRefs: [{ missionId: 'mission-sentence-detectives' }] },
+    dueAt: '2030-04-28T00:00:00.000Z'
+  }, { now: '2030-04-29T12:00:00.000Z' }).some(error => /dueAt must be in the future/.test(error)));
+});

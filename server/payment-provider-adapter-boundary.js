@@ -7,6 +7,9 @@ const SERVER_ONLY_PAYMENT_PROVIDER_FIELDS = Object.freeze([
   'providerPaymentIntentId',
   'providerOrderId',
   'providerPaymentMethodId',
+  'webhookSignatureHeader',
+  'receiptValidationSecretRef',
+  'nativeReceiptValidationSecretRef',
   'rawProviderPayload',
   'reconciliationCursor'
 ]);

@@ -136,6 +136,30 @@ test('request metrics include offline cache policy telemetry counters', () => {
   assert.equal(metrics.staleCacheCleanupCount, 1);
 });
 
+test('request metrics separate sparse JSON and stored offline question/media bytes', () => {
+  const metrics = summarizeRequestMetrics({
+    requests: [
+      'http://127.0.0.1:4173/api/questions/sparse?refs=q1,q2',
+      'http://127.0.0.1:4173/assets/audio/spelling/immediately.wav'
+    ],
+    responses: [
+      { url: 'http://127.0.0.1:4173/api/questions/sparse?refs=q1,q2', status: 200, bytes: 4096 },
+      { url: 'http://127.0.0.1:4173/assets/audio/spelling/immediately.wav', status: 200, bytes: 2048 }
+    ],
+    cacheEvents: [{
+      detail: {
+        storedQuestionBytes: 4096,
+        storedMediaBytes: 2048
+      }
+    }]
+  });
+
+  assert.equal(metrics.sparseQuestionJsonBytes, 4096);
+  assert.equal(metrics.storedQuestionBytes, 4096);
+  assert.equal(metrics.storedMediaBytes, 2048);
+  assert.equal(metrics.questionChunkBytes, 0);
+});
+
 test('normalizeAssetPath removes origins and query strings', () => {
   assert.equal(
     normalizeAssetPath('http://grammar.test/assets/question-manifest.js?v=1'),

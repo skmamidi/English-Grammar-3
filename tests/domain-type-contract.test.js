@@ -11,8 +11,12 @@ const {
   buildLessonRouteDescriptor,
   normalizeLessonSummary
 } = require('../assets/story-lesson-domain');
+const {
+  normalizeMissionSummary
+} = require('../assets/guided-mission-domain');
 const manifest = require('../assets/question-manifest.json');
 const validLesson = require('./fixtures/story-lessons/valid-sentence-types.json');
+const validMission = require('./fixtures/guided-missions/valid-sentence-mission.json');
 
 test('typed domain contracts document learner state and question ref shapes', () => {
   const state = normalizeLearnerState({
@@ -162,6 +166,22 @@ test('typed domain contracts document story lesson summaries and internal lesson
   }).includes('internal_lesson_link_must_not_use_external_url'));
 });
 
+test('typed domain contracts document guided mission summaries without copied content', () => {
+  const summary = normalizeMissionSummary(validMission, { manifest });
+
+  assert.deepEqual(contracts.validateGuidedMissionSummaryContract(summary), []);
+  assert.ok(contracts.validateGuidedMissionSummaryContract(Object.assign({}, summary, {
+    lessonRef: { storyBeats: [{ narrative: 'Full lesson body should not travel in mission summaries.' }] }
+  })).includes('guided_mission_summary_must_not_include_content_payload'));
+  assert.ok(contracts.validateGuidedMissionSummaryContract(Object.assign({}, summary, {
+    route: {
+      type: 'guided_mission',
+      webPath: 'https://evil.example/missions.html?missionId=mission-sentence-detectives',
+      params: { missionId: 'mission-sentence-detectives' }
+    }
+  })).includes('guided_mission_summary_route_must_be_internal'));
+});
+
 test('typed domain contracts document provider-neutral billing records', () => {
   assert.deepEqual(contracts.validateBillingDomainRecordContract({
     schemaVersion: 1,
@@ -205,4 +225,29 @@ test('typed domain contracts document XP award summaries without question payloa
   assert.ok(contracts.validateXpAwardSummaryContract(Object.assign({}, summary, {
     clientAwardedXp: 5000
   })).includes('xp_award_summary_must_not_accept_client_award'));
+});
+
+test('typed domain contracts document personalization feature snapshots', () => {
+  assert.deepEqual(contracts.validatePersonalizationFeatureSnapshotContract({
+    schemaVersion: 1,
+    featureVersion: 'personalization-feature-store/v1',
+    snapshotRef: 'feature-snapshot:abc',
+    learnerScopeRef: 'scope:abc',
+    generatedAt: '2030-05-04T12:00:00.000Z',
+    freshness: { fresh: true, fallbackReasons: [] },
+    learnerSkillSignals: [{ skillId: 'grammar.fragments', masteryBand: 'needs_practice', evidenceWeight: 8 }],
+    contentCandidateSignals: [{ contentRef: 'question-set:grammar-fragments', skillIds: ['grammar.fragments'] }],
+    evidenceRefs: ['verified-attempt-projection:abc']
+  }), []);
+  assert.ok(contracts.validatePersonalizationFeatureSnapshotContract({
+    schemaVersion: 1,
+    featureVersion: 'personalization-feature-store/v1',
+    snapshotRef: 'feature-snapshot:abc',
+    learnerScopeRef: 'learner-unsafe',
+    generatedAt: '2030-05-04T12:00:00.000Z',
+    freshness: { fresh: true, fallbackReasons: [] },
+    learnerSkillSignals: [{ skillId: 'grammar.fragments', questionText: 'raw prompt', answerKey: 'choice-a' }],
+    contentCandidateSignals: [{ contentRef: 'question-set:grammar-fragments', providerVectorId: 'vector-1' }],
+    evidenceRefs: []
+  }).includes('personalization_feature_snapshot_must_not_include_payload'));
 });

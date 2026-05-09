@@ -103,12 +103,19 @@ test('release readiness blocks unsafe metrics experiments and institutional poli
         startsAt: '2030-04-01T00:00:00.000Z'
       }
     ],
+    personalizationEvaluation: {
+      gate: {
+        status: 'blocked',
+        blockers: ['grade_skew']
+      }
+    },
     institutionPolicy: { disabledFeatures: ['telemetry'] }
   });
 
   assert.equal(result.ready, false);
   assert.ok(result.errors.includes('metric student_answer_payload: id contains unsafe analytics field'));
   assert.ok(result.errors.includes('experiment unsafe-experiment: unsafe_metric_field'));
+  assert.ok(result.errors.includes('personalization evaluation gate blocked: grade_skew'));
   assert.ok(result.errors.includes('institution policy disables telemetry'));
 });
 
@@ -140,6 +147,12 @@ test('safe analytics release definitions pass vendor-neutral readiness', () => {
         endsAt: '2030-05-01T00:00:00.000Z'
       }
     ],
+    personalizationEvaluation: {
+      gate: {
+        status: 'passed',
+        blockers: []
+      }
+    },
     institutionPolicy: { disabledFeatures: [] }
   });
 

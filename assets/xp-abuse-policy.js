@@ -62,6 +62,94 @@
     return report;
   }
 
+  function evaluateMissionRewardAbuse(input = {}) {
+    const reasonCodes = [];
+    const missionId = safeString(input.missionId || input.id);
+    const priorMissionAwardIds = new Set(normalizeStringArray(input.priorMissionAwardIds || input.previousMissionAwardIds));
+    const awardedXp = normalizeCount(input.awardedXp || input.xpAwarded);
+    const completedAt = Date.parse(input.completedAt || '');
+    const previousCompletedAt = Date.parse(input.previousCompletedAt || '');
+
+    if (missionId && priorMissionAwardIds.has(missionId)) reasonCodes.push('duplicate_mission_completion');
+    if (Number.isFinite(completedAt) && Number.isFinite(previousCompletedAt) && completedAt >= previousCompletedAt) {
+      const elapsedSeconds = Math.floor((completedAt - previousCompletedAt) / 1000);
+      if (elapsedSeconds < 300) reasonCodes.push('rapid_mission_repeat');
+    }
+    if (awardedXp > 120) reasonCodes.push('unusual_mission_award_spike');
+    if (input.leaderboardEligible === true) reasonCodes.push('mission_leaderboard_bonus_blocked');
+    if (hasClientMissionBonus(input)) reasonCodes.push('client_mission_bonus_submitted');
+
+    const uniqueReasons = Array.from(new Set(reasonCodes)).sort();
+    const review = uniqueReasons.length > 0;
+    return {
+      decision: review ? 'review' : 'allow',
+      practiceAllowed: true,
+      awardEligible: !review,
+      leaderboardEligible: false,
+      reasonCodes: uniqueReasons
+    };
+  }
+
+  function evaluateMissionEngagementAbuse(input = {}) {
+    const reasonCodes = [];
+    const missionCompletionCount = normalizeCount(input.missionCompletionCount || input.completions);
+    const distinctMissionCount = normalizeCount(input.distinctMissionCount || input.distinctMissions);
+    const stepsCompleted = normalizeCount(input.stepsCompleted);
+    const durationSeconds = normalizeCount(input.durationSeconds);
+    const assignmentCreatesIn24h = normalizeCount(input.assignmentCreatesIn24h || input.assignmentCount24h);
+    const reminderAttemptsIn24h = normalizeCount(input.reminderAttemptsIn24h || input.reminderCount24h);
+    const reminderDismissalsIn7d = normalizeCount(input.reminderDismissalsIn7d || input.reminderDismissals);
+
+    if (missionCompletionCount >= 8 && distinctMissionCount > 0 && missionCompletionCount / distinctMissionCount >= 4) {
+      reasonCodes.push('mission_grinding');
+    }
+    if (stepsCompleted > 0 && durationSeconds > 0 && durationSeconds / stepsCompleted < 15) {
+      reasonCodes.push('impossible_mission_cadence');
+    }
+    if (assignmentCreatesIn24h >= 8) reasonCodes.push('assignment_spam');
+    if (reminderAttemptsIn24h >= 5 || reminderDismissalsIn7d >= 4) reasonCodes.push('reminder_fatigue');
+
+    const uniqueReasons = Array.from(new Set(reasonCodes)).sort();
+    const review = uniqueReasons.length > 0;
+    return {
+      decision: review ? 'review' : 'allow',
+      practiceAllowed: true,
+      assignmentEligible: !uniqueReasons.includes('assignment_spam'),
+      reminderEligible: !uniqueReasons.includes('reminder_fatigue'),
+      reasonCodes: uniqueReasons
+    };
+  }
+
+  function buildAggregateMissionFairnessReport(observations = []) {
+    const report = {
+      schemaVersion: 1,
+      totalObservations: 0,
+      gradeBuckets: {},
+      riskSignals: []
+    };
+
+    (Array.isArray(observations) ? observations : []).forEach(observation => {
+      const grade = normalizeCount(observation.grade);
+      if (grade <= 0) return;
+      const key = `grade_${grade}`;
+      if (!report.gradeBuckets[key]) report.gradeBuckets[key] = { observations: 0, missionStarts: 0, completions: 0 };
+      report.totalObservations += 1;
+      report.gradeBuckets[key].observations += 1;
+      report.gradeBuckets[key].missionStarts += normalizeCount(observation.missionStarts || observation.starts);
+      report.gradeBuckets[key].completions += normalizeCount(observation.completions || observation.missionCompletions);
+    });
+
+    if (hasGradeSkew(report.gradeBuckets)) report.riskSignals.push('grade_skew');
+    return report;
+  }
+
+  function hasClientMissionBonus(input) {
+    return Object.prototype.hasOwnProperty.call(input, 'clientAwardedXp') ||
+      Object.prototype.hasOwnProperty.call(input, 'clientMissionBonusXp') ||
+      Object.prototype.hasOwnProperty.call(input, 'missionBonusXp') ||
+      Object.prototype.hasOwnProperty.call(input, 'submittedMissionBonusXp');
+  }
+
   function resolveDurationSeconds(input) {
     if (Number.isFinite(Number(input.durationSeconds))) return normalizeCount(input.durationSeconds);
     const start = Date.parse(input.startedAt || '');
@@ -101,8 +189,18 @@
     return String(value || '').trim();
   }
 
+  function hasGradeSkew(gradeBuckets) {
+    const buckets = Object.values(gradeBuckets);
+    if (buckets.length < 2) return false;
+    const rates = buckets.map(bucket => bucket.missionStarts > 0 ? bucket.completions / bucket.missionStarts : 0);
+    return Math.max(...rates) - Math.min(...rates) > 0.5;
+  }
+
   return {
+    buildAggregateMissionFairnessReport,
     buildAggregateXpFairnessReport,
+    evaluateMissionEngagementAbuse,
+    evaluateMissionRewardAbuse,
     evaluateXpAttemptAbuse
   };
 });

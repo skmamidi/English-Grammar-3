@@ -15,10 +15,15 @@ test('app shell size budget excludes generated question payloads and passes curr
   assert.equal(result.files.some(file => /question-(chunks|manifest)/.test(file.path)), false);
   assert.equal(result.files.some(file => /story-lesson-chunks/.test(file.path)), false);
   assert.equal(result.files.some(file => /story-lesson-manifest\.json/.test(file.path)), false);
+  assert.equal(result.files.some(file => /guided-mission-source/.test(file.path)), false);
+  assert.equal(result.files.some(file => /guided-mission-catalog\.json/.test(file.path)), false);
   assert.equal(result.files.some(file => /spelling-(audio-manifest|word-list)/.test(file.path)), false);
   assert.ok(result.excludedFiles.some(file => /question-manifest/.test(file.path)));
   assert.ok(result.excludedFiles.some(file => /story-lesson-chunks/.test(file.path)));
   assert.ok(result.excludedFiles.some(file => /story-lesson-manifest\.json/.test(file.path)));
+  assert.ok(result.excludedFiles.some(file => /guided-mission-catalog\.json/.test(file.path)));
+  assert.ok(result.files.some(file => file.path === 'mission.html'));
+  assert.ok(result.files.some(file => file.path === 'assets/guided-mission-ui.js'));
   assert.ok(result.excludedFiles.some(file => /spelling-audio-manifest/.test(file.path)));
   assert.ok(result.totals.javascriptBytes > 0);
   assert.ok(result.totals.cssBytes > 0);
@@ -58,13 +63,19 @@ test('app shell size budget reports missing required assets and ignores question
     path: 'assets/story-lesson-chunks/grammar/grammar-sentence-types.js',
     bytes: 500 * 1024,
     category: 'storyLessonContent'
+  }, {
+    path: 'assets/guided-mission-catalog.json',
+    bytes: 25 * 1024,
+    category: 'guidedMissionContent'
   }], config.DEFAULT_APP_SHELL_BUDGET_LIMITS, {
     requiredFiles: ['sw.js']
   });
 
   assert.equal(result.files.length, 0);
-  assert.equal(result.excludedFiles[0].path, 'assets/question-chunks/grammar/grammar-sentence-types.js');
-  assert.equal(result.excludedFiles[1].path, 'assets/story-lesson-chunks/grammar/grammar-sentence-types.js');
+  const excludedPaths = new Set(result.excludedFiles.map(file => file.path));
+  assert.equal(excludedPaths.has('assets/question-chunks/grammar/grammar-sentence-types.js'), true);
+  assert.equal(excludedPaths.has('assets/story-lesson-chunks/grammar/grammar-sentence-types.js'), true);
+  assert.equal(excludedPaths.has('assets/guided-mission-catalog.json'), true);
   assert.ok(result.errors.some(error => /missing required app shell asset sw\.js/.test(error.message)));
 });
 

@@ -119,6 +119,7 @@ function classifyRoute(file) {
   if (file === 'settings.html') return 'settings';
   if (file === 'subscription.html') return 'subscription';
   if (file === 'leaderboard.html') return 'leaderboard';
+  if (file === 'mission.html') return 'guided-mission';
   if (file === 'reports.html' || file === 'question-reports.html') return 'reports';
   if (file === 'assignments.html') return 'assignments';
   if (file === 'character-library.html') return 'character-library';
@@ -134,12 +135,15 @@ function isOptionalScript(script) {
     'assets/app-telemetry-privacy.js',
     'assets/question-preloader.js',
     'assets/story-lesson-viewer.js',
+    'assets/guided-mission-catalog.js',
     'assets/service-worker-registration.js'
   ].includes(script);
 }
 
 function isGeneratedQuestionPayload(script) {
-  return /^assets\/question-(?:chunks|banks)\//.test(script) || /^assets\/story-lesson-chunks\//.test(script);
+  return /^assets\/question-(?:chunks|banks)\//.test(script) ||
+    /^assets\/story-lesson-chunks\//.test(script) ||
+    script === 'assets/guided-mission-catalog.js';
 }
 
 function normalizeAssetRef(value) {

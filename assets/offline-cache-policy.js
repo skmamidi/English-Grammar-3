@@ -13,6 +13,8 @@
     currentRequiredChunk: 'currentRequiredChunk',
     recentRequiredChunk: 'recentRequiredChunk',
     preloadChunk: 'preloadChunk',
+    questionObjectData: 'questionObjectData',
+    immutableMedia: 'immutableMedia',
     staleVersion: 'staleVersion'
   };
   const DEFAULT_OFFLINE_CACHE_POLICY = {
@@ -24,6 +26,8 @@
       appShell: 500,
       currentRequiredChunk: 400,
       recentRequiredChunk: 300,
+      immutableMedia: 250,
+      questionObjectData: 200,
       preloadChunk: 100,
       staleVersion: 0
     }
@@ -48,13 +52,27 @@
     const required = pathSet(input.requiredChunkUrls);
     const recent = pathSet(input.recentChunkUrls);
     const pathKey = normalizePath(pathname);
-    if (/^\/assets\/(?:question|story-lesson)-chunks\/[^/]+\/[^/]+\.js$/.test(pathname)) {
-      if (preload) return { priorityGroup: PRIORITY_GROUPS.preloadChunk };
-      if (required.has(pathKey)) return { priorityGroup: PRIORITY_GROUPS.currentRequiredChunk };
-      if (recent.has(pathKey)) return { priorityGroup: PRIORITY_GROUPS.recentRequiredChunk };
-      return { priorityGroup: PRIORITY_GROUPS.currentRequiredChunk };
+    if (isSparseQuestionDataPath(pathname)) {
+      return {
+        priorityGroup: PRIORITY_GROUPS.questionObjectData,
+        storageTarget: 'indexedDB',
+        cacheApiDurable: false
+      };
     }
-    return { priorityGroup: PRIORITY_GROUPS.appShell };
+    if (isImmutableMediaPath(pathname)) {
+      return {
+        priorityGroup: PRIORITY_GROUPS.immutableMedia,
+        storageTarget: 'cacheAPI',
+        cacheApiDurable: true
+      };
+    }
+    if (/^\/assets\/(?:question|story-lesson)-chunks\/[^/]+\/[^/]+\.js$/.test(pathname)) {
+      if (preload) return { priorityGroup: PRIORITY_GROUPS.preloadChunk, storageTarget: 'cacheAPI', cacheApiDurable: true };
+      if (required.has(pathKey)) return { priorityGroup: PRIORITY_GROUPS.currentRequiredChunk, storageTarget: 'cacheAPI', cacheApiDurable: true };
+      if (recent.has(pathKey)) return { priorityGroup: PRIORITY_GROUPS.recentRequiredChunk, storageTarget: 'cacheAPI', cacheApiDurable: true };
+      return { priorityGroup: PRIORITY_GROUPS.currentRequiredChunk, storageTarget: 'cacheAPI', cacheApiDurable: true };
+    }
+    return { priorityGroup: PRIORITY_GROUPS.appShell, storageTarget: 'cacheAPI', cacheApiDurable: true };
   }
 
   function createCacheMetadataRecord(input = {}) {
@@ -148,6 +166,8 @@
     return {
       requiredCachedBytes: sumBytes(retained.filter(record => record.priorityGroup === PRIORITY_GROUPS.currentRequiredChunk || record.priorityGroup === PRIORITY_GROUPS.recentRequiredChunk)),
       preloadCachedBytes: sumBytes(retained.filter(record => record.priorityGroup === PRIORITY_GROUPS.preloadChunk)),
+      storedQuestionBytes: sumBytes(retained.filter(record => record.priorityGroup === PRIORITY_GROUPS.questionObjectData)),
+      storedMediaBytes: sumBytes(retained.filter(record => record.priorityGroup === PRIORITY_GROUPS.immutableMedia)),
       evictedChunkCount: evictions.filter(isQuizChunk).length,
       staleCacheCleanupCount: evictions.filter(record => record.priorityGroup === PRIORITY_GROUPS.staleVersion).length,
       corruptMetadataCount
@@ -189,6 +209,14 @@
 
   function isQuizChunk(record) {
     return /\/assets\/(?:question|story-lesson)-chunks\/[^/]+\/[^/]+\.js$/.test(String(record.url || ''));
+  }
+
+  function isSparseQuestionDataPath(pathname) {
+    return /^\/api\/questions\/sparse(?:\/|$)/.test(pathname) || /^\/assets\/offline-question-records\/[^/]+\.json$/.test(pathname);
+  }
+
+  function isImmutableMediaPath(pathname) {
+    return /^\/assets\/(?:audio|images)\/[^?#]+\.(?:wav|mp3|ogg|m4a|png|jpe?g|webp|svg)$/.test(pathname);
   }
 
   function isRetainedRequiredChunk(record) {

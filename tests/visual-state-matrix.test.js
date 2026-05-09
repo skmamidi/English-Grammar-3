@@ -56,6 +56,7 @@ test('visual state matrix rejects missing coverage and high-churn placeholders',
     'quiz-loading selectors are required for visual baseline coverage',
     'flow discovery is missing',
     'flow story-lesson is missing',
+    'flow mission is missing',
     'flow reports is missing',
     'flow dashboard is missing',
     'flow subscription is missing',
@@ -82,7 +83,7 @@ test('visual state matrix docs explain baseline and non-visual coverage rules', 
   assert.match(docs, /visual state matrix/i);
   assert.match(docs, /baseline or a non-visual coverage reason/i);
   assert.match(docs, /loading, empty, error, offline, disabled, lesson-loaded, guided-check-feedback, reduced-motion, parent preview, teacher view, guardian view, and admin view/i);
-  assert.match(docs, /quiz, discovery, story-lesson, reports, dashboards, offline, settings, and operations flows/i);
+  assert.match(docs, /quiz, discovery, story-lesson, mission, reports, dashboards, offline, settings, and operations flows/i);
 });
 
 function listBaselineNames() {

@@ -1,6 +1,7 @@
 'use strict';
 
 const crypto = require('node:crypto');
+const missionRewards = require('../assets/mission-reward-policy');
 const xp = require('../assets/xp-domain');
 
 const DEFAULT_MIN_SECONDS_PER_QUESTION = 2;
@@ -90,6 +91,68 @@ function adjudicateXpAttempt(submission = {}, options = {}) {
   return decision;
 }
 
+function adjudicateMissionReward(submission = {}, options = {}) {
+  const store = options.store || createMemoryXpAwardStore();
+  const learnerId = safeString(submission.learnerId);
+  const idempotencyKey = safeString(submission.idempotencyKey || submission.awardRequestId);
+  if (!learnerId || !idempotencyKey) return reject('invalid_submission');
+
+  const storeKey = buildStoreKey(learnerId, idempotencyKey);
+  const originalDecision = store.get(storeKey);
+  if (originalDecision) {
+    return {
+      status: 'duplicate',
+      reason: 'duplicate_idempotency_key',
+      decisionId: originalDecision.decisionId,
+      originalDecision
+    };
+  }
+
+  const actorLearnerId = safeString(options.actor && options.actor.learnerId);
+  if (actorLearnerId && actorLearnerId !== learnerId) {
+    return saveRejected(store, storeKey, reject('unauthorized_learner'));
+  }
+  if (hasClientMissionAwardTotal(submission)) {
+    return saveRejected(store, storeKey, reject('client_mission_bonus_not_accepted'));
+  }
+
+  let eligibility;
+  try {
+    eligibility = missionRewards.evaluateMissionRewardEligibility({
+      learnerId,
+      idempotencyKey,
+      mission: submission.mission,
+      missionProgress: submission.missionProgress,
+      priorAwardEvents: collectMissionAwardEvents(store),
+      now: safeIso((options.now || (() => new Date()))())
+    });
+  } catch (error) {
+    if (/mission_reward_client_total_not_accepted/.test(error.message)) {
+      return saveRejected(store, storeKey, reject('client_mission_bonus_not_accepted'));
+    }
+    return saveRejected(store, storeKey, reject('invalid_mission_reward_submission'));
+  }
+
+  if (eligibility.status !== 'eligible') {
+    return saveRejected(store, storeKey, reject(eligibility.reasonCodes[0] || 'mission_reward_ineligible'));
+  }
+
+  const award = missionRewards.createMissionRewardAwardEvent(eligibility, {
+    idempotencyKey,
+    now: safeIso((options.now || (() => new Date()))())
+  });
+  const decision = {
+    status: 'awarded',
+    decisionId: hashStable({ learnerId, idempotencyKey, status: 'mission_awarded' }),
+    awardId: award.awardEventId,
+    outcome: 'server_authoritative',
+    award,
+    receivedAt: safeIso((options.now || (() => new Date()))())
+  };
+  store.set(storeKey, decision);
+  return decision;
+}
+
 function createMemoryXpAwardStore(initial = {}) {
   const records = new Map(Object.entries(initial));
   return {
@@ -164,6 +227,22 @@ function buildStoreKey(learnerId, idempotencyKey) {
   return `${safeString(learnerId)}:${safeString(idempotencyKey)}`;
 }
 
+function collectMissionAwardEvents(store) {
+  if (!store || typeof store.entries !== 'function') return [];
+  return store.entries().map(entry => {
+    const decision = Array.isArray(entry) ? entry[1] : null;
+    return decision && decision.award ? decision.award : null;
+  }).filter(Boolean);
+}
+
+function hasClientMissionAwardTotal(submission) {
+  return Object.prototype.hasOwnProperty.call(submission, 'awardedXp') ||
+    Object.prototype.hasOwnProperty.call(submission, 'clientAwardedXp') ||
+    Object.prototype.hasOwnProperty.call(submission, 'clientMissionBonusXp') ||
+    Object.prototype.hasOwnProperty.call(submission, 'missionBonusXp') ||
+    Object.prototype.hasOwnProperty.call(submission, 'submittedMissionBonusXp');
+}
+
 function hashStable(value) {
   return `sha256:${crypto.createHash('sha256').update(stableStringify(value)).digest('hex')}`;
 }
@@ -185,6 +264,7 @@ function safeString(value) {
 
 module.exports = {
   DEFAULT_MIN_SECONDS_PER_QUESTION,
+  adjudicateMissionReward,
   adjudicateXpAttempt,
   createMemoryXpAwardStore
 };

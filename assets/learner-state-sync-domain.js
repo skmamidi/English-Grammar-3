@@ -8,10 +8,14 @@
   'use strict';
 
   const CURRENT_SYNC_SCHEMA_VERSION = 1;
-  const PAYLOAD_KEYS = new Set(['question', 'choices', 'correct', 'answer', 'answers', 'explanation', 'questions']);
+  const PAYLOAD_KEYS = new Set(['question', 'choices', 'correct', 'answer', 'answers', 'answerKey', 'explanation', 'questions', 'questionSnapshots', 'storyBeats', 'examples', 'guidedChecks', 'providerPayload', 'learnerName', 'email']);
   function getRepositoryApi() {
     return root.GrammarQuestLearnerStateRepository ||
       (typeof require === 'function' ? require('./learner-state-repository') : null);
+  }
+  function getMissionProgressApi() {
+    return root.GrammarQuestMissionProgressDomain ||
+      (typeof require === 'function' ? require('./mission-progress-domain') : null);
   }
 
   function mergeLearnerStates(localState, remoteState, options = {}) {
@@ -28,6 +32,7 @@
       assignments: mergeById(local.assignments, remote.assignments, assignmentTimestamp),
       reviewQueue: mergeReviewQueues(local.reviewQueue, remote.reviewQueue),
       reviewSchedules: mergeSchedules(local.reviewSchedules, remote.reviewSchedules),
+      missionProgress: mergeMissionProgress(local.missionProgress, remote.missionProgress, options),
       mastery: mergeMastery(local.mastery, remote.mastery),
       learnerGoals: chooseNewestLearnerGoals(local.learnerGoals, remote.learnerGoals),
       lastUpdatedAt: maxIso(local.lastUpdatedAt, remote.lastUpdatedAt, options.now)
@@ -147,6 +152,9 @@
     (normalized.reviewSchedules || []).forEach(schedule => {
       if (schedule && !scheduleId(schedule)) throw new Error('learner_state_sync_record_corrupt:schedule_missing_ref');
     });
+    (normalized.missionProgress || []).forEach(record => {
+      if (record && !record.missionId) throw new Error('learner_state_sync_record_corrupt:mission_progress_missing_id');
+    });
     return normalized;
   }
 
@@ -156,6 +164,7 @@
     collectOverlappingIds('question_report', local.reports.questionReports, remote.reports.questionReports, conflicts);
     collectOverlappingIds('assignment', local.assignments, remote.assignments, conflicts);
     collectOverlappingIds('review_schedule', local.reviewSchedules, remote.reviewSchedules, conflicts, scheduleId);
+    collectOverlappingIds('mission_progress', local.missionProgress, remote.missionProgress, conflicts, item => item && item.missionId);
     if (local.activeQuiz && remote.activeQuiz && activeQuizTimestamp(local.activeQuiz) !== activeQuizTimestamp(remote.activeQuiz)) {
       conflicts.push({ type: 'active_quiz', resolution: 'newest_updatedAt' });
     }
@@ -217,6 +226,14 @@
     return mergeById(localSchedules, remoteSchedules, scheduleTimestamp, scheduleId);
   }
 
+  function mergeMissionProgress(localRecords, remoteRecords, options = {}) {
+    const api = getMissionProgressApi();
+    if (api && typeof api.mergeMissionProgressList === 'function') {
+      return api.mergeMissionProgressList(localRecords, remoteRecords, options);
+    }
+    return mergeById(localRecords, remoteRecords, missionProgressTimestamp, item => item && item.missionId);
+  }
+
   function chooseNewestLearnerGoals(localGoals, remoteGoals) {
     if (!localGoals) return remoteGoals || null;
     if (!remoteGoals) return localGoals || null;
@@ -275,6 +292,10 @@
 
   function scheduleTimestamp(schedule) {
     return safeIso(schedule && (schedule.lastReviewedAt || schedule.dueAt)) || '';
+  }
+
+  function missionProgressTimestamp(record) {
+    return safeIso(record && (record.updatedAt || record.completedAt || record.startedAt)) || '';
   }
 
   function goalTimestamp(goals) {

@@ -19,6 +19,8 @@
     'refund',
     'dispute',
     'subscription_renewal',
+    'duplicate_webhook',
+    'stale_webhook',
     'cancel_at_period_end',
     'reactivation',
     'provider_outage'
@@ -44,6 +46,8 @@
       scenario('refund', 'Refund lifecycle', 'major_cards', 'paid_access', 'refund', 'billing_policy_owner'),
       scenario('dispute', 'Dispute lifecycle', 'major_cards', 'paid_access', 'dispute', 'billing_policy_owner'),
       scenario('subscription_renewal', 'Subscription renewal', 'major_cards', 'recurring_subscription', 'renewal', 'billing_platform'),
+      scenario('duplicate_webhook', 'Duplicate webhook replay', 'provider_webhook', 'all_supported_plans', 'duplicate_webhook', 'billing_platform'),
+      scenario('stale_webhook', 'Stale webhook rejection', 'provider_webhook', 'all_supported_plans', 'stale_webhook', 'billing_platform'),
       scenario('cancel_at_period_end', 'Cancel at period end', 'major_cards', 'recurring_subscription', 'management_action', 'billing_policy_owner'),
       scenario('reactivation', 'Subscription reactivation', 'major_cards', 'recurring_subscription', 'management_action', 'billing_policy_owner'),
       scenario('provider_outage', 'Provider outage fallback', 'provider_outage', 'all_supported_plans', 'degraded_provider', 'operations_owner')

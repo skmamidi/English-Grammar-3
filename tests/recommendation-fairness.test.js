@@ -2,6 +2,8 @@ const assert = require('node:assert/strict');
 const test = require('node:test');
 
 const recommendations = require('../assets/weak-skill-recommendation-domain');
+const { assembleDynamicQuizPlan, buildCandidatePool } = require('../server/dynamic-quiz-assembly-policy');
+const { evaluatePersonalizationRun } = require('../assets/personalization-evaluation-policy');
 
 const now = '2030-04-29T12:00:00.000Z';
 
@@ -91,6 +93,103 @@ test('fairness smoke lets lower-volume domains appear when the cap is raised', (
     'reading.inference',
     'vocabulary.context'
   ]);
+});
+
+test('dynamic assembly fairness does not trap learners in only weak skills', () => {
+  const plan = assembleDynamicQuizPlan({
+    request: {
+      domain: 'grammar',
+      setIds: ['fairness-fragments', 'fairness-usage'],
+      grade: 4,
+      difficulty: 'medium',
+      count: 6,
+      seed: 'fairness-cap',
+      policy: { maxWeakSkillShare: 0.5, maxPerSourceSet: 4 }
+    },
+    featureSnapshot: {
+      schemaVersion: 1,
+      featureVersion: 'personalization-feature-store/v1',
+      snapshotRef: 'feature-snapshot:fairness',
+      learnerScopeRef: 'scope:fairness',
+      generatedAt: now,
+      freshness: { fresh: true, fallbackReasons: [] },
+      learnerSkillSignals: [{
+        skillId: 'grammar.fragments',
+        masteryBand: 'needs_practice',
+        accuracy: 0.2,
+        evidenceWeight: 20,
+        dueReviewCount: 6,
+        reasonCodes: ['needs_practice', 'overdue_review']
+      }],
+      contentCandidateSignals: [],
+      evidenceRefs: ['verified-attempt-projection:fairness']
+    },
+    candidatePool: buildCandidatePool(Array.from({ length: 8 }, (_, index) => ({
+      questionId: `fairness-fragments-q${index + 1}`,
+      sourceSet: 'fairness-fragments',
+      domain: 'grammar',
+      version: 1,
+      contentHash: `sha256:${String(index).padStart(64, '0')}`,
+      sequence: index + 1,
+      skillIds: ['grammar.fragments'],
+      standardIds: ['L.4.1'],
+      gradeLevels: [4],
+      difficulty: 'medium',
+      difficultyByGrade: { 4: 'medium' },
+      content: { question: 'hidden', choices: ['A'], correct: 0 }
+    })).concat(Array.from({ length: 4 }, (_, index) => ({
+      questionId: `fairness-usage-q${index + 1}`,
+      sourceSet: 'fairness-usage',
+      domain: 'grammar',
+      version: 1,
+      contentHash: `sha256:${String(index + 20).padStart(64, '0')}`,
+      sequence: index + 1,
+      skillIds: ['grammar.usage'],
+      standardIds: ['L.4.1'],
+      gradeLevels: [4],
+      difficulty: 'medium',
+      difficultyByGrade: { 4: 'medium' },
+      content: { question: 'hidden', choices: ['A'], correct: 0 }
+    }))))
+  });
+
+  const weakSelections = plan.questionRefs.filter(ref => ref.skillIds.includes('grammar.fragments'));
+  assert.ok(weakSelections.length <= 3);
+  assert.ok(plan.questionRefs.some(ref => ref.skillIds.includes('grammar.usage')));
+  assert.ok(plan.diagnostics.capsApplied.includes('weak_skill_concentration_capped'));
+});
+
+test('personalization evaluation blocks launch when assembled plans starve lower-volume skills', () => {
+  const report = evaluatePersonalizationRun({
+    runId: 'personalization-eval:starvation',
+    owner: 'learning-platform',
+    reviewedAt: now,
+    rollbackCriteria: ['disable dynamicQuizAssemblyPilot'],
+    expected: {
+      grades: ['4'],
+      domains: ['grammar'],
+      skills: ['grammar.fragments', 'grammar.usage'],
+      standards: ['L.4.1']
+    },
+    outcomes: [{
+      planRef: 'assembly:starved',
+      grade: '4',
+      domain: 'grammar',
+      selectedRefs: Array.from({ length: 6 }, (_, index) => ({
+        id: `fragments-${index}`,
+        sourceSet: 'grammar-fragments',
+        gradeLevel: 4,
+        difficultyBand: 'medium',
+        skillIds: ['grammar.fragments'],
+        standardIds: ['L.4.1'],
+        reasonCodes: ['weak_skill_review_due']
+      }))
+    }]
+  });
+
+  assert.equal(report.gate.status, 'blocked');
+  assert.ok(report.gate.blockers.includes('skill_starvation'));
+  assert.ok(report.gate.blockers.includes('over_remediation'));
 });
 
 function buildGradeScenario(gradeLevel) {

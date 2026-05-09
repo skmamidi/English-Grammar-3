@@ -166,6 +166,49 @@ test('experiment and personalization policies require learner preference and fea
   }).reason, 'feature_flag_disabled');
 });
 
+test('learning experiments require both experiment and personalization institutional eligibility', () => {
+  const learningExperiments = require('../assets/learning-experiment-policy');
+  const definition = {
+    id: 'adaptive-assembly-balance-v1',
+    status: 'active',
+    owner: 'learning-platform',
+    featureFlag: 'dynamicQuizAssemblyPilot',
+    startsAt: '2030-05-01T00:00:00.000Z',
+    endsAt: '2030-06-01T00:00:00.000Z',
+    killSwitch: { enabled: false },
+    assignmentPolicy: { saltRef: 'salt', trafficPercent: 100, variants: [{ id: 'adaptive', weight: 100 }] },
+    eligibilityRules: { requiredFeatureFlags: ['dynamicQuizAssemblyPilot'], requiredConsent: ['experiments', 'optionalPersonalization'] },
+    outcomeMetrics: [{ id: 'verified_mastery_delta', source: 'verified_learning_projection', aggregationLevel: 'cohort', minCohortSize: 10 }],
+    rollbackCriteria: [{ metric: 'fallback_rate', operator: '>=', threshold: 0.25 }]
+  };
+
+  assert.equal(learningExperiments.evaluateLearningExperimentEligibility({
+    definition,
+    context: {
+      now: '2030-05-04T12:00:00.000Z',
+      featureFlags: { dynamicQuizAssemblyPilot: true, experiments: true, optionalPersonalization: true },
+      privacyPreferences: { telemetryEnabled: true, experimentParticipationEnabled: true, optionalPersonalizationEnabled: false },
+      guardianConsent: { experiments: true, optionalPersonalization: true },
+      institutionPolicy: { experiments: true, optionalPersonalization: true },
+      actor: actors.student,
+      learnerId: 'learner-a'
+    }
+  }).reason, 'optional_personalization_preference_denied');
+
+  assert.equal(learningExperiments.evaluateLearningExperimentEligibility({
+    definition,
+    context: {
+      now: '2030-05-04T12:00:00.000Z',
+      featureFlags: { dynamicQuizAssemblyPilot: true, experiments: true, optionalPersonalization: true },
+      privacyPreferences: { telemetryEnabled: true, experimentParticipationEnabled: true, optionalPersonalizationEnabled: true },
+      guardianConsent: { experiments: true, optionalPersonalization: true },
+      institutionPolicy: { experiments: false, optionalPersonalization: true },
+      actor: actors.student,
+      learnerId: 'learner-a'
+    }
+  }).reason, 'institution_policy_denied');
+});
+
 test('leaderboard participation requires guardian or school consent and feature flag', () => {
   assert.equal(resolveInstitutionalPolicy({
     actor: actors.guardianLinked,

@@ -5,10 +5,12 @@
     (typeof require === 'function' ? require('./assignment-domain') : null);
   const classroomDomain = root.GrammarQuestClassroomDomain ||
     (typeof require === 'function' ? require('./classroom-domain') : null);
-  const api = factory(assignmentDomain, classroomDomain);
+  const accessControl = root.GrammarQuestAccessControl ||
+    (typeof require === 'function' ? require('./access-control') : null);
+  const api = factory(assignmentDomain, classroomDomain, accessControl);
   if (typeof module === 'object' && module.exports) module.exports = api;
   root.GrammarQuestAssignmentRepository = api;
-})(typeof window !== 'undefined' ? window : globalThis, function (assignmentDomain, classroomDomain) {
+})(typeof window !== 'undefined' ? window : globalThis, function (assignmentDomain, classroomDomain, accessControl) {
   'use strict';
 
   function createAssignmentRepository(adapter, options = {}) {
@@ -29,6 +31,9 @@
     async function createAssignment(input) {
       const assignment = normalizeServerAssignment(input, now());
       await assertTeacherOwnsAssignedClasses(assignment);
+      if (assignmentDomain.isMissionAssignment(assignment)) {
+        await assertMissionAssignmentAccess(input, assignment);
+      }
       const errors = assignmentDomain.validateAssignment(assignment);
       if (errors.length) throw new Error(`assignment_invalid:${errors.join(',')}`);
       await adapter.writeAssignment(assignment);
@@ -80,6 +85,29 @@
         const classroom = await adapter.getClassroom(classId);
         if (!classroom || !classroomDomain.canTeacherManageClass({ id: actorId }, classroom)) {
           throw new Error('assignment_class_access_denied');
+        }
+      }
+    }
+
+    async function assertMissionAssignmentAccess(input, assignment) {
+      const actor = accessControl.normalizeActor(input.assignedBy || assignment.assignedBy);
+      if (accessControl.canOpenParentPreview(actor.role)) throw new Error('assignment_mission_access_denied');
+      if (actor.role === accessControl.Roles.PARENT_GUARDIAN && assignment.assignedTo.classIds.length) {
+        throw new Error('assignment_mission_access_denied');
+      }
+      for (const classId of assignment.assignedTo.classIds) {
+        if (!accessControl.canAssignGuidedMission(actor, { classId })) {
+          throw new Error('assignment_mission_access_denied');
+        }
+        const classroom = await adapter.getClassroom(classId);
+        const scopeErrors = classroomDomain.validateClassroomLearnerScope(classroom, assignment.assignedTo.learnerIds);
+        if (scopeErrors.length) throw new Error('assignment_class_learner_scope_denied');
+      }
+      if (!assignment.assignedTo.classIds.length) {
+        for (const learnerId of assignment.assignedTo.learnerIds) {
+          if (!accessControl.canAssignGuidedMission(actor, { learnerId })) {
+            throw new Error('assignment_mission_access_denied');
+          }
         }
       }
     }

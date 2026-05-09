@@ -1,4 +1,5 @@
 const access = require('../assets/access-control');
+const tenantDomain = require('../assets/organization-tenant-domain');
 
 const BACKEND_STORAGE_PATHS = Object.freeze({
   learnerState: learnerId => `learners/${learnerId}/state`,
@@ -7,9 +8,20 @@ const BACKEND_STORAGE_PATHS = Object.freeze({
   xpAttemptSubmission: (learnerId, attemptId) => `learners/${learnerId}/xpAttempts/${attemptId}`,
   xpAwardEvent: (learnerId, awardEventId) => `learners/${learnerId}/xpAwards/${awardEventId}`,
   xpProjection: learnerId => `xpProjections/${learnerId}`,
+  learningAttemptSubmission: (learnerId, attemptId) => `learners/${learnerId}/learningAttempts/${attemptId}`,
+  verifiedLearningAttempt: (learnerId, eventId) => `verifiedLearningAttempts/${learnerId}/events/${eventId}`,
+  learningProjection: learnerId => `learningProjections/${learnerId}`,
+  institutionalLearningReport: classId => `institutionalLearningReports/classes/${classId}`,
   leaderboardEntry: (periodId, entryId) => `leaderboards/${periodId}/entries/${entryId}`,
   assignmentForLearner: (learnerId, assignmentId) => `learners/${learnerId}/assignments/${assignmentId}`,
   assignmentForClass: (classId, assignmentId) => `classes/${classId}/assignments/${assignmentId}`,
+  tenantLearnerState: (tenantId, learnerId) => `tenants/${tenantId}/learners/${learnerId}/state`,
+  tenantVerifiedLearningAttempt: (tenantId, learnerId, eventId) => `tenants/${tenantId}/verifiedLearningAttempts/${learnerId}/events/${eventId}`,
+  tenantLearningProjection: (tenantId, learnerId) => `tenants/${tenantId}/learningProjections/${learnerId}`,
+  tenantInstitutionalLearningReport: (tenantId, classId) => `tenants/${tenantId}/institutionalLearningReports/classes/${classId}`,
+  tenantAssignmentForClass: (tenantId, classId, assignmentId) => `tenants/${tenantId}/classes/${classId}/assignments/${assignmentId}`,
+  tenantBillingSummary: (tenantId, summaryId) => `tenants/${tenantId}/billingSummaries/${summaryId}`,
+  tenantAuditEvent: (tenantId, eventId) => `tenants/${tenantId}/auditEvents/${eventId}`,
   questionReport: (learnerId, reportId) => `learners/${learnerId}/questionReports/${reportId}`,
   learnerDashboard: learnerId => `dashboards/learners/${learnerId}`,
   classDashboard: classId => `dashboards/classes/${classId}`,
@@ -36,9 +48,13 @@ function evaluateBackendPolicy(input = {}) {
   const operation = normalizeOperation(input.operation);
   const path = normalizePath(input.path);
   const resource = resolveBackendResource(path);
+  const tenantDecision = evaluateTenantBoundary(input.actor, operation, resource);
 
   if (resource.type === 'secret' || resource.type === 'unknown') {
     return deny(resource, 'backend_path_denied');
+  }
+  if (!tenantDecision.allow) {
+    return deny(resource, tenantDecision.reason);
   }
   if (operation === 'read') {
     return decision(resource, canRead(actor, resource, serverOwnedActor), 'read_denied');
@@ -75,7 +91,7 @@ function evaluateBackendStoragePolicy(input = {}) {
 }
 
 function canRead(actor, resource, serverOwnedActor) {
-  if (serverOwnedActor && ['xpAwardEvent', 'xpProjection'].includes(resource.type)) return true;
+  if (serverOwnedActor && ['xpAwardEvent', 'xpProjection', 'verifiedLearningAttempt', 'learningProjection', 'institutionalLearningReport'].includes(resource.type)) return true;
   if (resource.type === access.ResourceTypes.AUDIT_LOG) {
     return access.canAccess(actor, access.Capabilities.viewAuditLogs, resource);
   }
@@ -121,6 +137,9 @@ function canRead(actor, resource, serverOwnedActor) {
   if (resource.type === 'xpAttemptSubmission') {
     return access.canAccess(actor, access.Capabilities.viewOwnProgress, toLearnerProgress(resource));
   }
+  if (resource.type === 'learningAttemptSubmission') {
+    return access.canAccess(actor, access.Capabilities.viewOwnProgress, toLearnerProgress(resource));
+  }
   if (resource.type === 'xpProjection') {
     return access.canAccess(actor, access.Capabilities.viewOwnProgress, toLearnerProgress(resource)) ||
       access.canAccess(actor, access.Capabilities.viewLinkedLearnerReports, resource) ||
@@ -132,11 +151,24 @@ function canRead(actor, resource, serverOwnedActor) {
       access.canAccess(actor, access.Capabilities.viewAssignedLearnerReports, resource) ||
       access.canAccess(actor, access.Capabilities.triageQuestionReport, resource);
   }
+  if (resource.type === 'learningProjection') {
+    return access.canAccess(actor, access.Capabilities.viewOwnProgress, toLearnerProgress(resource)) ||
+      access.canAccess(actor, access.Capabilities.viewLinkedLearnerReports, resource) ||
+      access.canAccess(actor, access.Capabilities.viewAssignedLearnerReports, resource);
+  }
+  if (resource.type === 'institutionalLearningReport') {
+    return access.canAccess(actor, access.Capabilities.viewClassDashboardSummary, {
+      type: access.ResourceTypes.CLASS_SUMMARY,
+      id: resource.id,
+      classId: resource.classId
+    });
+  }
   return false;
 }
 
 function canCreate(actor, resource, serverOwnedActor) {
   if (resource.type === 'xpAwardEvent') return serverOwnedActor;
+  if (resource.type === 'verifiedLearningAttempt') return serverOwnedActor;
   if (resource.type === access.ResourceTypes.AUDIT_LOG) {
     return actor.role === access.Roles.SYSTEM_ADMIN;
   }
@@ -146,6 +178,9 @@ function canCreate(actor, resource, serverOwnedActor) {
 function canWrite(actor, resource, operation, serverOwnedActor) {
   if (resource.type === 'xpAwardEvent') return false;
   if (resource.type === 'xpProjection') return serverOwnedActor && (operation === 'write' || operation === 'update');
+  if (resource.type === 'verifiedLearningAttempt') return false;
+  if (resource.type === 'learningProjection') return serverOwnedActor && (operation === 'write' || operation === 'update');
+  if (resource.type === 'institutionalLearningReport') return serverOwnedActor && (operation === 'write' || operation === 'update');
   if (resource.type === 'leaderboardEntry') return serverOwnedActor && (operation === 'write' || operation === 'update');
   if (resource.type === access.ResourceTypes.AUDIT_LOG) return false;
   if (resource.type === access.ResourceTypes.FEATURE_FLAG) {
@@ -183,6 +218,12 @@ function canWrite(actor, resource, operation, serverOwnedActor) {
       ownerLearnerId: resource.learnerId
     });
   }
+  if (resource.type === 'learningAttemptSubmission') {
+    return operation === 'create' && actor.learnerId === resource.learnerId && access.canAccess(actor, access.Capabilities.takeQuiz, {
+      type: access.ResourceTypes.ACTIVE_QUIZ,
+      ownerLearnerId: resource.learnerId
+    });
+  }
   if (resource.type === access.ResourceTypes.LEARNER_PROGRESS) {
     return access.canAccess(actor, access.Capabilities.importOwnLearnerProgress, resource);
   }
@@ -206,10 +247,18 @@ function resolveBackendResource(path) {
   if (match) return resource(access.ResourceTypes.SAVED_SESSION, match[2], match[1], '');
   match = normalized.match(/^learners\/([^/]+)\/xpAttempts\/([^/]+)$/);
   if (match) return resource('xpAttemptSubmission', match[2], match[1], '');
+  match = normalized.match(/^learners\/([^/]+)\/learningAttempts\/([^/]+)$/);
+  if (match) return resource('learningAttemptSubmission', match[2], match[1], '');
   match = normalized.match(/^learners\/([^/]+)\/xpAwards\/([^/]+)$/);
   if (match) return resource('xpAwardEvent', match[2], match[1], '');
   match = normalized.match(/^xpProjections\/([^/]+)$/);
   if (match) return resource('xpProjection', match[1], match[1], '');
+  match = normalized.match(/^verifiedLearningAttempts\/([^/]+)\/events\/([^/]+)$/);
+  if (match) return resource('verifiedLearningAttempt', match[2], match[1], '');
+  match = normalized.match(/^learningProjections\/([^/]+)$/);
+  if (match) return resource('learningProjection', match[1], match[1], '');
+  match = normalized.match(/^institutionalLearningReports\/classes\/([^/]+)$/);
+  if (match) return resource('institutionalLearningReport', match[1], '', match[1]);
   match = normalized.match(/^leaderboards\/([^/]+)\/entries\/([^/]+)$/);
   if (match) return resource('leaderboardEntry', match[2], '', '');
   match = normalized.match(/^learners\/([^/]+)\/assignments\/([^/]+)$/);
@@ -218,6 +267,20 @@ function resolveBackendResource(path) {
   if (match) return resource(access.ResourceTypes.QUESTION_REPORT, match[2], match[1], '');
   match = normalized.match(/^classes\/([^/]+)\/assignments\/([^/]+)$/);
   if (match) return resource(access.ResourceTypes.ASSIGNMENT, match[2], '', match[1]);
+  match = normalized.match(/^tenants\/([^/]+)\/learners\/([^/]+)\/state$/);
+  if (match) return resource(access.ResourceTypes.LEARNER_PROGRESS, match[2], match[2], '', tenantMeta(match[1], tenantDomain.PartitionResourceTypes.LEARNER_STATE, tenantDomain.PartitionOwnerTypes.LEARNER, match[2], match[2], ''));
+  match = normalized.match(/^tenants\/([^/]+)\/verifiedLearningAttempts\/([^/]+)\/events\/([^/]+)$/);
+  if (match) return resource('verifiedLearningAttempt', match[3], match[2], '', tenantMeta(match[1], tenantDomain.PartitionResourceTypes.VERIFIED_ATTEMPT, tenantDomain.PartitionOwnerTypes.LEARNER, match[2], match[2], ''));
+  match = normalized.match(/^tenants\/([^/]+)\/learningProjections\/([^/]+)$/);
+  if (match) return resource('learningProjection', match[2], match[2], '', tenantMeta(match[1], tenantDomain.PartitionResourceTypes.REPORT, tenantDomain.PartitionOwnerTypes.LEARNER, match[2], match[2], ''));
+  match = normalized.match(/^tenants\/([^/]+)\/institutionalLearningReports\/classes\/([^/]+)$/);
+  if (match) return resource('institutionalLearningReport', match[2], '', match[2], tenantMeta(match[1], tenantDomain.PartitionResourceTypes.REPORT, tenantDomain.PartitionOwnerTypes.CLASS, match[2], '', match[2]));
+  match = normalized.match(/^tenants\/([^/]+)\/classes\/([^/]+)\/assignments\/([^/]+)$/);
+  if (match) return resource(access.ResourceTypes.ASSIGNMENT, match[3], '', match[2], tenantMeta(match[1], tenantDomain.PartitionResourceTypes.ASSIGNMENT, tenantDomain.PartitionOwnerTypes.CLASS, match[2], '', match[2]));
+  match = normalized.match(/^tenants\/([^/]+)\/billingSummaries\/([^/]+)$/);
+  if (match) return resource('billingSummary', match[2], '', '', tenantMeta(match[1], tenantDomain.PartitionResourceTypes.BILLING_SUMMARY, tenantDomain.PartitionOwnerTypes.TENANT, match[1], '', ''));
+  match = normalized.match(/^tenants\/([^/]+)\/auditEvents\/([^/]+)$/);
+  if (match) return resource(access.ResourceTypes.AUDIT_LOG, match[2], '', '', tenantMeta(match[1], tenantDomain.PartitionResourceTypes.AUDIT_RECORD, tenantDomain.PartitionOwnerTypes.AUDIT_SCOPE, match[2], '', ''));
   match = normalized.match(/^dashboards\/learners\/([^/]+)$/);
   if (match) return resource(access.ResourceTypes.LEARNER_PROGRESS, match[1], match[1], '');
   match = normalized.match(/^dashboards\/classes\/([^/]+)$/);
@@ -245,7 +308,7 @@ function assertBackendReadableDocumentSafe(path, document) {
   if (resource.type === access.ResourceTypes.LEARNER_PROGRESS && findClientOwnedXpProjectionField(document)) {
     throw new Error('backend_document_client_xp_projection_denied');
   }
-  if (['xpAwardEvent', 'xpProjection', 'leaderboardEntry'].includes(resource.type) && findSensitiveLearnerPayloadField(document)) {
+  if (['xpAwardEvent', 'xpProjection', 'leaderboardEntry', 'verifiedLearningAttempt', 'learningProjection', 'institutionalLearningReport'].includes(resource.type) && findSensitiveLearnerPayloadField(document)) {
     throw new Error('backend_document_sensitive_learner_payload');
   }
   return true;
@@ -277,14 +340,40 @@ function findSensitiveLearnerPayloadField(value) {
     Object.keys(value).map(key => findSensitiveLearnerPayloadField(value[key])).find(Boolean) || '';
 }
 
-function resource(type, id, learnerId, classId) {
+function tenantMeta(tenantId, resourceType, ownerType, ownerId, learnerId, classId) {
   return {
+    tenantId: String(tenantId || ''),
+    tenantType: tenantDomain.TenantTypes.SCHOOL,
+    partitionKey: tenantDomain.buildDataPartitionKey({
+      tenantId,
+      tenantType: tenantDomain.TenantTypes.SCHOOL,
+      resourceType,
+      ownerType,
+      ownerId,
+      learnerId,
+      classId,
+      accessBoundary: tenantDomain.AccessBoundaries.INSTITUTION
+    })
+  };
+}
+
+function evaluateTenantBoundary(actor, operation, resourceValue) {
+  if (!resourceValue || !resourceValue.partitionKey) return { allow: true, reason: 'allowed' };
+  return tenantDomain.evaluateTenantPartitionAccess({
+    actor,
+    operation,
+    partitionKey: resourceValue.partitionKey
+  });
+}
+
+function resource(type, id, learnerId, classId, extra) {
+  return Object.assign({
     type,
     id: String(id || ''),
     learnerId: String(learnerId || ''),
     ownerLearnerId: String(learnerId || ''),
     classId: String(classId || '')
-  };
+  }, extra || {});
 }
 
 function decision(resourceValue, allow, deniedReason) {

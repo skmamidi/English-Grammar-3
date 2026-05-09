@@ -16,7 +16,13 @@ const FIRESTORE_SECURITY_RULE_SCENARIOS = Object.freeze([
     questionRefs: [{ id: 'grammar-sentence-types-q0001', contentHash: 'sha256:abc' }],
     selectedAnswers: [{ questionId: 'grammar-sentence-types-q0001', selectedIndex: 0 }]
   }),
+  scenario('allow-student-learning-attempt-create', 'student', 'create', BACKEND_STORAGE_PATHS.learningAttemptSubmission('learner-a', 'attempt-1'), {
+    attemptId: 'attempt-1',
+    questionRefs: [{ id: 'grammar-sentence-types-q0001', contentHash: 'sha256:abc' }],
+    selectedAnswerIds: [{ questionId: 'grammar-sentence-types-q0001', selectedIndex: 0 }]
+  }),
   scenario('deny-student-xp-projection-write', 'student', 'write', BACKEND_STORAGE_PATHS.xpProjection('learner-a'), { totalXp: 99999 }),
+  scenario('deny-student-learning-projection-write', 'student', 'write', BACKEND_STORAGE_PATHS.learningProjection('learner-a'), { accuracy: 1 }),
   scenario('allow-server-xp-award-create', 'serverService', 'create', BACKEND_STORAGE_PATHS.xpAwardEvent('learner-a', 'award-1'), {
     awardEventId: 'award-1',
     learnerId: 'learner-a',
@@ -24,6 +30,34 @@ const FIRESTORE_SECURITY_RULE_SCENARIOS = Object.freeze([
   }),
   scenario('deny-server-xp-award-update', 'serverService', 'update', BACKEND_STORAGE_PATHS.xpAwardEvent('learner-a', 'award-1'), { awardedXp: 20 }),
   scenario('allow-server-xp-projection-write', 'serverService', 'write', BACKEND_STORAGE_PATHS.xpProjection('learner-a'), { totalXp: 10, currentWeeklyXp: 10, currentMonthlyXp: 10 }),
+  scenario('allow-server-verified-learning-attempt-create', 'serverService', 'create', BACKEND_STORAGE_PATHS.verifiedLearningAttempt('learner-a', 'event-1'), {
+    eventId: 'event-1',
+    learnerId: 'learner-a',
+    score: { correctCount: 1, totalQuestions: 2 }
+  }),
+  scenario('deny-server-verified-learning-attempt-update', 'serverService', 'update', BACKEND_STORAGE_PATHS.verifiedLearningAttempt('learner-a', 'event-1'), {
+    score: { correctCount: 2, totalQuestions: 2 }
+  }),
+  scenario('allow-server-learning-projection-write', 'serverService', 'write', BACKEND_STORAGE_PATHS.learningProjection('learner-a'), {
+    source: 'verified_attempt_ledger',
+    summary: { totalAttempts: 1, accuracy: 0.5 }
+  }),
+  scenario('allow-server-institutional-learning-report-write', 'serverService', 'write', BACKEND_STORAGE_PATHS.institutionalLearningReport('class-a'), {
+    source: 'verified_attempt_ledger',
+    totalVerifiedAttempts: 1
+  }),
+  scenario('allow-tenant-teacher-learner-read', 'tenantTeacherAssigned', 'read', BACKEND_STORAGE_PATHS.tenantLearnerState('school-a', 'learner-a')),
+  scenario('deny-cross-tenant-teacher-learner-read', 'tenantTeacherCross', 'read', BACKEND_STORAGE_PATHS.tenantLearnerState('school-a', 'learner-a')),
+  scenario('allow-tenant-server-verified-learning-attempt-create', 'tenantServerService', 'create', BACKEND_STORAGE_PATHS.tenantVerifiedLearningAttempt('school-a', 'learner-a', 'event-1'), {
+    eventId: 'event-1',
+    learnerId: 'learner-a',
+    score: { correctCount: 1, totalQuestions: 2 }
+  }),
+  scenario('deny-cross-tenant-server-verified-learning-attempt-create', 'tenantServerCross', 'create', BACKEND_STORAGE_PATHS.tenantVerifiedLearningAttempt('school-a', 'learner-a', 'event-1'), {
+    eventId: 'event-1',
+    learnerId: 'learner-a',
+    score: { correctCount: 1, totalQuestions: 2 }
+  }),
   scenario('allow-server-leaderboard-write', 'serverService', 'write', BACKEND_STORAGE_PATHS.leaderboardEntry('weekly_2030_W18', 'participant-a'), {
     participantRef: 'leaderboardParticipants/participant-a',
     displayAlias: 'Amber Kite',

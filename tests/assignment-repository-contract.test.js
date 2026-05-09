@@ -62,3 +62,61 @@ test('server assignment repository enforces teacher class ownership', async () =
     scope: { skillIds: ['grammar.subject-verb'] }
   }), /assignment_class_access_denied/);
 });
+
+test('server assignment repository creates scoped guardian mission assignments', async () => {
+  const repository = createAssignmentRepository(createFakeAssignmentServerAdapter(), {
+    now: () => '2030-04-29T12:00:00.000Z'
+  });
+
+  const created = await repository.createAssignment({
+    id: 'mission-assignment-1',
+    title: 'Sentence Detectives Mission',
+    assignmentType: 'guided_mission',
+    assignedBy: {
+      actorId: 'guardian-1',
+      role: 'parent_guardian',
+      linkedLearnerIds: ['learner-1'],
+      missionAssignmentManagementEnabled: true
+    },
+    assignedTo: { learnerIds: ['learner-1'] },
+    scope: {
+      missionRefs: [{
+        missionId: 'mission-sentence-detectives',
+        route: 'mission.html?missionId=mission-sentence-detectives',
+        expectedStepIds: ['lesson-sentence-types', 'practice-sentence-types', 'review-sentence-types']
+      }]
+    },
+    dueAt: '2030-05-01T00:00:00.000Z',
+    questions: [{ question: 'Raw prompt', answer: 'Raw answer' }]
+  });
+
+  assert.equal(created.assignmentType, 'guided_mission');
+  assert.equal(created.serverRecord, true);
+  assert.equal((await repository.listAssignmentsForLearner('learner-1'))[0].id, 'mission-assignment-1');
+  assert.equal(JSON.stringify(created).includes('Raw prompt'), false);
+});
+
+test('server assignment repository rejects unauthorized and cross-class mission assignments', async () => {
+  const repository = createAssignmentRepository(createFakeAssignmentServerAdapter(), {
+    now: () => '2030-04-29T12:00:00.000Z'
+  });
+  await repository.createClassroom({ classId: 'class-a', teacherIds: ['teacher-1'], learnerIds: ['learner-1'] });
+
+  await assert.rejects(() => repository.createAssignment({
+    id: 'mission-assignment-2',
+    assignmentType: 'guided_mission',
+    assignedBy: { actorId: 'guardian-1', role: 'parent_guardian', linkedLearnerIds: ['learner-2'], missionAssignmentManagementEnabled: true },
+    assignedTo: { learnerIds: ['learner-1'] },
+    scope: { missionRefs: [{ missionId: 'mission-sentence-detectives' }] },
+    dueAt: '2030-05-01T00:00:00.000Z'
+  }), /assignment_mission_access_denied/);
+
+  await assert.rejects(() => repository.createAssignment({
+    id: 'mission-assignment-3',
+    assignmentType: 'guided_mission',
+    assignedBy: { actorId: 'teacher-1', role: 'teacher', assignedClassIds: ['class-a'] },
+    assignedTo: { classIds: ['class-a'], learnerIds: ['learner-2'] },
+    scope: { missionRefs: [{ missionId: 'mission-sentence-detectives' }] },
+    dueAt: '2030-05-01T00:00:00.000Z'
+  }), /assignment_class_learner_scope_denied/);
+});

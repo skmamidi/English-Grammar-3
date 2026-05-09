@@ -38,6 +38,7 @@ const CASES = [
   { name: 'quiz-results', file: 'topics/capitalization/subtopics/books-magazines-songs-plays.html', visitFile: 'topics/capitalization/subtopics/books-magazines-songs-plays.html?practice=1', state: finishQuiz, selectors: ['.app-header', '#quiz-root', '.results-card', '.results-box', '.xp-completion-summary'] },
   { name: 'reports', file: 'reports.html' },
   { name: 'guardian-goals', file: 'guardian-dashboard.html', beforeVisit: seedGoalDashboard, waitFor: '.goal-dashboard-card', selectors: ['.app-header', '.goal-dashboard-card', '.goal-dashboard-summary'] },
+  { name: 'guided-mission', file: 'mission.html', visitFile: 'mission.html?missionId=mission-sentence-detectives', waitFor: '.mission-shell', selectors: ['.app-header', '.mission-shell', '.mission-current-step', '.mission-step-list'] },
   { name: 'leaderboard', file: 'leaderboard.html', beforeVisit: seedLeaderboardVisual, waitFor: '.leaderboard-shell', selectors: ['.app-header', '.leaderboard-shell', '.leaderboard-table', '.own-rank-card'] },
   { name: 'settings', file: 'settings.html', selectors: ['.app-header', '#privacy-settings', '.privacy-toggle-row'] },
   { name: 'parent-preview', file: 'topics/capitalization/subtopics/proper-names-titles.html?parentBrowse=1', waitFor: '#start-btn' },

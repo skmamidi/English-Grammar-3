@@ -187,6 +187,138 @@
         telemetrySignals: ['leaderboard_materialized', 'leaderboard_materialization_late', 'leaderboard_archive_completed'],
         runbook: 'docs/xp-leaderboards.md',
         rollback: 'Pause leaderboard display and continue storing personal XP projections.'
+      }),
+      objective({
+        id: 'mission_route_success',
+        label: 'Guided mission route success',
+        owner: 'platform',
+        measurementWindow: '7d',
+        target: 0.995,
+        errorBudget: 0.02,
+        telemetrySignals: ['mission_start', 'mission_step_completed', 'route_load_failed'],
+        runbook: 'docs/guided-missions.md',
+        rollback: 'Disable missionLearnerRouteEnabled and keep direct lesson, quiz, assignment, and review routes available.'
+      }),
+      objective({
+        id: 'mission_completion_projection_freshness',
+        label: 'Guided mission completion projection freshness',
+        owner: 'learning-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['mission_completion_outcome', 'mission_reward_reconciled', 'mission_sync_failed'],
+        runbook: 'docs/guided-missions.md',
+        rollback: 'Disable missionRewardsEnabled and keep local mission progress projections visible without authoritative XP awards.'
+      }),
+      objective({
+        id: 'mission_reminder_delivery_safety',
+        label: 'Guided mission reminder delivery safety',
+        owner: 'learning-platform',
+        measurementWindow: '14d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['mission_reminder_action', 'mission_reminder_suppressed', 'mission_reminder_fatigue_detected'],
+        runbook: 'docs/guided-missions.md',
+        rollback: 'Disable missionRemindersEnabled and preserve dashboard mission states.'
+      }),
+      objective({
+        id: 'personalization_assembly_health',
+        label: 'Personalization assembly health',
+        owner: 'learning-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['personalization_feature_store_read', 'personalization_assembly_completed'],
+        runbook: 'docs/personalization-observability.md',
+        rollback: 'Disable dynamicQuizAssemblyPilot and keep deterministic non-personalized selection active.'
+      }),
+      objective({
+        id: 'personalization_fallback_safety',
+        label: 'Personalization fallback safety',
+        owner: 'learning-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['personalization_fallback_triggered', 'personalization_assembly_completed'],
+        runbook: 'docs/personalization-observability.md',
+        rollback: 'Disable personalizationDisplayEnabled and preserve verified learning evidence.'
+      }),
+      objective({
+        id: 'personalization_fairness_gate_health',
+        label: 'Personalization fairness gate health',
+        owner: 'learning-platform',
+        measurementWindow: '14d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['personalization_evaluation_blocked', 'personalization_experiment_assigned'],
+        runbook: 'docs/personalization-observability.md',
+        rollback: 'Disable learningExperimentPilot and dynamicQuizAssemblyPilot until fairness review passes.'
+      }),
+      objective({
+        id: 'institutional_login_success',
+        label: 'Institutional login success',
+        owner: 'identity-platform',
+        measurementWindow: '7d',
+        target: 0.995,
+        errorBudget: 0.02,
+        telemetrySignals: ['institutional_login_succeeded', 'institutional_login_failed'],
+        runbook: 'docs/institutional-rollout-and-provisioning.md',
+        rollback: 'Disable institutionalSsoLoginEnabled and keep local learner practice available.'
+      }),
+      objective({
+        id: 'roster_sync_freshness',
+        label: 'Roster sync freshness',
+        owner: 'school-data-platform',
+        measurementWindow: '7d',
+        target: 0.98,
+        errorBudget: 0.05,
+        telemetrySignals: ['roster_sync_completed', 'roster_sync_stale', 'roster_drift_blocked'],
+        runbook: 'docs/institutional-rollout-and-provisioning.md',
+        rollback: 'Disable institutionalRosterActivationEnabled and keep the last approved roster snapshot.'
+      }),
+      objective({
+        id: 'assignment_provisioning_success',
+        label: 'Assignment provisioning success',
+        owner: 'learning-platform',
+        measurementWindow: '7d',
+        target: 0.99,
+        errorBudget: 0.04,
+        telemetrySignals: ['institutional_assignment_created', 'institutional_assignment_failed'],
+        runbook: 'docs/institutional-rollout-and-provisioning.md',
+        rollback: 'Pause institutional assignment provisioning and keep direct practice routes available.'
+      }),
+      objective({
+        id: 'verified_report_projection_freshness',
+        label: 'Verified report projection freshness',
+        owner: 'school-data-platform',
+        measurementWindow: '14d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['institutional_report_projected', 'institutional_report_projection_late'],
+        runbook: 'docs/institutional-rollout-and-provisioning.md',
+        rollback: 'Disable institutionalReportsEnabled and preserve verified learning evidence.'
+      }),
+      objective({
+        id: 'institutional_export_request_success',
+        label: 'Institutional export request success',
+        owner: 'security-owner',
+        measurementWindow: '14d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['institutional_export_request_accepted', 'institutional_export_request_rejected'],
+        runbook: 'docs/institutional-rollout-and-provisioning.md',
+        rollback: 'Disable institutionalExportsEnabled and retain export manifest audit history.'
+      }),
+      objective({
+        id: 'institutional_rollback_rehearsal_success',
+        label: 'Institutional rollback rehearsal success',
+        owner: 'operations-owner',
+        measurementWindow: '30d',
+        target: 0.99,
+        errorBudget: 0.03,
+        telemetrySignals: ['institutional_rollback_rehearsed', 'institutional_rollback_failed'],
+        runbook: 'docs/institutional-rollout-and-provisioning.md',
+        rollback: 'Disable institutionalTenantProvisioningEnabled until rollback rehearsal evidence passes.'
       })
     ])
   });

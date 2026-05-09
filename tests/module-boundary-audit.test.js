@@ -33,6 +33,8 @@ test('module boundary policy exposes explicit layers and forbidden rules', () =>
   assert.equal(classifyLayer('assets/quiz-selection-core.js'), 'portable_domain');
   assert.equal(classifyLayer('assets/question-chunks/grammar/sentence-types.js'), 'generated_content');
   assert.equal(classifyLayer('server/question-selection-runtime.js'), 'server_runtime');
+  assert.equal(classifyLayer('server/roster-adapter-boundary.js'), 'server_runtime');
+  assert.equal(classifyLayer('server/sso-adapter-boundary.js'), 'server_runtime');
   assert.equal(classifyLayer('scripts/qa/content-qa.js'), 'qa_scripts');
   assert.equal(classifyLayer('tests/module-boundary-audit.test.js'), 'tests');
   assert.equal(classifyLayer('docs/adr/README.md'), 'docs');
@@ -44,7 +46,7 @@ test('module boundary audit rejects forbidden UI server generated shell and prov
     'index.html': '<script src="assets/page-shell.js"></script><script>window.NEW_ROUTE_GLOBAL = true;</script>',
     'assets/dashboard-ui.js': "const runtime = require('../server/question-selection-runtime');",
     'assets/page-shell.js': "import chunks from './question-chunks/grammar/sentence-types.js';",
-    'assets/quiz-selection-core.js': "const firebase = require('firebase/app'); localStorage.getItem('x');",
+    'assets/quiz-selection-core.js': "const firebase = require('@pinecone-database/pinecone'); localStorage.getItem('x');",
     'assets/question-selection-telemetry.js': "module.exports = { send() { fetch('/telemetry'); } };",
     'server/question-selection-runtime.js': 'module.exports = {};',
     'assets/question-chunks/grammar/sentence-types.js': 'window.QUESTION_BANK = {};',
@@ -89,6 +91,9 @@ test('current repository passes module boundary audit', () => {
   assert.ok(report.summary.dependencies > 0);
   assert.ok(report.summary.ownedProductionGlobals.includes('QUIZ_SET_ID'));
   assert.ok(report.summary.portableDomainModules >= 10);
+  assert.ok(MODULE_BOUNDARY_POLICY.providerSdkPrefixes.includes('@pinecone-database/'));
+  assert.ok(MODULE_BOUNDARY_POLICY.portableDomainModules.includes('assets/personalization-feature-store-domain.js'));
+  assert.equal(report.dependencies.some(dependency => /roster-adapter-boundary|sso-adapter-boundary/.test(dependency.from) && dependency.type === 'bare' && /firebase|clever|classlink|googleapis|saml|openid/i.test(dependency.to)), false);
 });
 
 test('module boundary docs and package script are wired', () => {

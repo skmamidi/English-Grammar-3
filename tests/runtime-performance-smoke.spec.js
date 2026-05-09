@@ -36,6 +36,7 @@ const FLOWS = [
   { flow: 'reading-comprehension-subtopic', route: 'topics/reading-comprehension/subtopics/main-idea-supporting-details.html' },
   { flow: 'adaptive-review-queue', route: 'index.html', seed: seedReviewState },
   { flow: 'parent-dashboard-projection', route: 'guardian-dashboard.html', seed: seedDashboardState },
+  { flow: 'guided-mission-route', route: 'mission.html?missionId=mission-sentence-detectives' },
   { flow: 'assignment-launch', route: 'assignments.html', seed: seedAssignmentState }
 ];
 

@@ -115,6 +115,29 @@ async function main() {
       await page.close();
     }, { timeoutMs: 20000 });
 
+    await runCase(failures, 'mission route respects reduced motion and forced-colors focus cues', async () => {
+      const page = await newPreferencePage(browser, browserTracker, {
+        reducedMotion: 'reduce',
+        forcedColors: 'active'
+      });
+      await visitClean(page, server.baseURL, 'mission.html?missionId=mission-sentence-detectives');
+      await page.waitForSelector('.mission-shell', { state: 'visible' });
+      await focusByKeyboard(page, '.mission-current-step a');
+      const focus = await focusedOutline(page);
+      const motion = await page.evaluate(() => {
+        const shell = document.querySelector('.mission-shell');
+        const style = shell ? window.getComputedStyle(shell) : null;
+        return {
+          transition: style ? style.transitionDuration : '',
+          animation: style ? style.animationName : ''
+        };
+      });
+      assert.equal(focus.visible, true, focus.reason);
+      assert.equal(motion.transition, '0s');
+      assert.equal(motion.animation, 'none');
+      await page.close();
+    }, { timeoutMs: 20000 });
+
     await runCase(failures, 'reduced-motion offline unavailable state is visible immediately', async () => {
       const page = await newPreferencePage(browser, browserTracker, { reducedMotion: 'reduce' });
       await page.addInitScript(() => {

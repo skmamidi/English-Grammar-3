@@ -243,6 +243,32 @@ test('billing entitlement projection can feed cross-platform access without purc
   assert.equal(Object.hasOwn(nativeView, 'sourceLedgerEventId'), false);
 });
 
+test('native receipt ledger events project entitlement without exposing receipt internals', () => {
+  const projection = deriveBillingEntitlementProjection({
+    billingAccountId: 'billing-account-1',
+    ledgerEvents: [ledgerEvent({
+      ledgerEventId: 'native-receipt-apple-transaction',
+      eventType: 'one_time_payment_succeeded',
+      sourceProviderEventRef: 'apple-transaction-redacted',
+      records: [{
+        recordType: 'one_time_purchase',
+        billingAccountId: 'billing-account-1',
+        planId: 'premium_one_time_30',
+        accessStartsAt: '2030-05-03T00:00:00.000Z',
+        accessEndsAt: '2030-06-02T00:00:00.000Z',
+        status: 'active',
+        sourceLedgerEventId: 'native-receipt-apple-transaction'
+      }]
+    })],
+    now: '2030-05-20T00:00:00.000Z'
+  });
+
+  assert.equal(projection.accessState, 'premium');
+  assert.equal(projection.sourceLedgerEventId, 'native-receipt-apple-transaction');
+  assert.equal(JSON.stringify(projection).includes('apple-transaction-redacted'), false);
+  assert.deepEqual(validateBillingEntitlementProjection(projection).errors, []);
+});
+
 test('projection validation rejects learner identity provider payloads credentials and ledger details', () => {
   const unsafe = sanitizeEntitlementProjection({
     schemaVersion: 1,

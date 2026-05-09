@@ -8,7 +8,7 @@
   'use strict';
 
   const REDACTED = '[REDACTED]';
-  const sensitiveKeyPattern = /(private.*key|secret|token|password|credential|backupEnvelope|learneranswer|selectedchoice|correctchoice|question|choices|explanation|snapshot|prompt|reviewerNotes)/i;
+  const sensitiveKeyPattern = /(private.*key|secret|token|password|credential|backupEnvelope|exportManifest|providerPayload|rawLearnerIds|learneranswer|selectedchoice|correctchoice|question|choices|explanation|snapshot|prompt|reviewerNotes)/i;
 
   function buildAuditEvent(actor, action, resource, metadata = {}, options = {}) {
     const normalizedActor = normalizeActor(actor);

@@ -74,6 +74,11 @@
       const result = experiments.validateExperimentDefinition(definition);
       result.errors.forEach(error => errors.push(`experiment ${safeString(definition.id || 'unknown')}: ${error}`));
     });
+    const personalizationGate = input.personalizationEvaluation && input.personalizationEvaluation.gate || input.personalizationEvaluationGate;
+    if (personalizationGate && personalizationGate.status === 'blocked') {
+      const blockers = Array.isArray(personalizationGate.blockers) ? personalizationGate.blockers : ['unknown'];
+      errors.push(`personalization evaluation gate blocked: ${blockers.map(safeString).filter(Boolean).join(',') || 'unknown'}`);
+    }
     const institution = input.institutionPolicy && typeof input.institutionPolicy === 'object' ? input.institutionPolicy : {};
     if (Array.isArray(institution.disabledFeatures) && institution.disabledFeatures.includes('telemetry')) {
       errors.push('institution policy disables telemetry');

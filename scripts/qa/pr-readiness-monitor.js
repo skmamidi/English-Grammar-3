@@ -216,8 +216,9 @@ function validateRegistry(registry, rootDir, options = {}) {
 
   const incompleteRoadmapCount = Array.from(roadmap.values()).filter((item) => item.status === '⬜').length;
   const requiredReadyCount = Math.min(readyMinimum, incompleteRoadmapCount);
-  if (readyPrs.length < requiredReadyCount) {
-    issues.push(`Only ${readyPrs.length} ready PR(s) are queued; ${requiredReadyCount} required while roadmap work remains.`);
+  const activeQueueCount = readyPrs.length + recentCompleted.length;
+  if (activeQueueCount < requiredReadyCount) {
+    issues.push(`Only ${activeQueueCount} active PR(s) are queued or recently completed; ${requiredReadyCount} required while roadmap work remains.`);
   }
 
   return buildResult({
@@ -230,6 +231,7 @@ function validateRegistry(registry, rootDir, options = {}) {
     prs: registry.prs,
     recentCompleted,
     readyPrs,
+    activeQueueCount,
     requiredReadyCount
   });
 }
@@ -257,6 +259,7 @@ function buildResult({
   prs,
   recentCompleted = [],
   readyPrs = [],
+  activeQueueCount = readyPrs.length,
   requiredReadyCount = 0
 }) {
   const incompleteRoadmapItems = Array.from(roadmap.entries())
@@ -269,6 +272,7 @@ function buildResult({
     lookbackMinutes,
     readyMinimum,
     requiredReadyCount,
+    activeQueueCount,
     recentCompleted: recentCompleted.map((pr) => ({
       number: pr.number,
       title: pr.title,
@@ -303,6 +307,7 @@ function formatResult(result) {
   for (const pr of result.readyPrs) {
     lines.push(`  PR ${pr.number}: ${pr.title} -> ${pr.roadmapItems.join(', ')}`);
   }
+  lines.push(`Active ready/recent queue: ${result.activeQueueCount}/${result.requiredReadyCount}`);
   lines.push(`Incomplete roadmap items: ${result.incompleteRoadmapCount}`);
 
   if (result.warnings.length) {

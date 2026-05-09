@@ -160,6 +160,110 @@ test('teacher access is assigned learner scoped and not system admin access', ()
   );
 });
 
+test('tenant-scoped resources require an active same-tenant membership before role checks', () => {
+  const tenantPartition = {
+    schemaVersion: 1,
+    tenantId: 'school-a',
+    tenantType: 'school',
+    resourceType: 'learner_state',
+    ownerType: 'learner',
+    ownerId: 'learner-2',
+    learnerId: 'learner-2',
+    accessBoundary: 'institution'
+  };
+  const teacher = access.normalizeActor({
+    id: 'teacher-1',
+    role: access.Roles.TEACHER,
+    assignedLearnerIds: ['learner-2'],
+    tenantMemberships: [{
+      tenantId: 'school-a',
+      tenantType: 'school',
+      role: 'teacher',
+      status: 'active',
+      learnerIds: ['learner-2']
+    }]
+  });
+  const crossTenantTeacher = access.normalizeActor({
+    id: 'teacher-2',
+    role: access.Roles.TEACHER,
+    assignedLearnerIds: ['learner-2'],
+    tenantMemberships: [{
+      tenantId: 'school-b',
+      tenantType: 'school',
+      role: 'teacher',
+      status: 'active',
+      learnerIds: ['learner-2']
+    }]
+  });
+
+  assert.equal(
+    access.canAccess(teacher, access.Capabilities.viewAssignedLearnerReports, {
+      type: access.ResourceTypes.LEARNER_PROGRESS,
+      learnerId: 'learner-2',
+      partitionKey: tenantPartition
+    }),
+    true
+  );
+  assert.equal(
+    access.canAccess(crossTenantTeacher, access.Capabilities.viewAssignedLearnerReports, {
+      type: access.ResourceTypes.LEARNER_PROGRESS,
+      learnerId: 'learner-2',
+      partitionKey: tenantPartition
+    }),
+    false
+  );
+});
+
+test('SSO-shaped actors still need tenant memberships before learner access', () => {
+  const assertionOnlyTeacher = access.normalizeActor({
+    id: 'teacher-sso',
+    role: access.Roles.TEACHER,
+    assignedLearnerIds: ['learner-2'],
+    ssoAuthenticated: true
+  });
+
+  assert.equal(
+    access.canAccess(assertionOnlyTeacher, access.Capabilities.viewAssignedLearnerReports, {
+      type: access.ResourceTypes.LEARNER_PROGRESS,
+      learnerId: 'learner-2',
+      partitionKey: {
+        tenantId: 'school-a',
+        tenantType: 'school',
+        resourceType: 'learner_state',
+        ownerType: 'learner',
+        ownerId: 'learner-2',
+        learnerId: 'learner-2',
+        accessBoundary: 'institution'
+      }
+    }),
+    false
+  );
+});
+
+test('institutional report access remains class and tenant scoped', () => {
+  const teacher = access.normalizeActor({
+    role: access.Roles.TEACHER,
+    assignedClassIds: ['class-a'],
+    tenantMemberships: [{ tenantId: 'school-a', tenantType: 'school', role: 'teacher', status: 'active', classIds: ['class-a'] }]
+  });
+  const guardian = access.normalizeActor({
+    role: access.Roles.PARENT_GUARDIAN,
+    linkedLearnerIds: ['learner-a'],
+    tenantMemberships: [{ tenantId: 'family-a', tenantType: 'family', role: 'guardian', status: 'active', learnerIds: ['learner-a'] }]
+  });
+
+  assert.equal(access.canAccess(teacher, access.Capabilities.viewClassDashboardSummary, {
+    type: access.ResourceTypes.CLASS_SUMMARY,
+    classId: 'class-a',
+    partitionKey: { tenantId: 'school-a', tenantType: 'school' }
+  }), true);
+  assert.equal(access.canAccess(guardian, access.Capabilities.viewClassDashboardSummary, {
+    type: access.ResourceTypes.CLASS_SUMMARY,
+    classId: 'class-a',
+    partitionKey: { tenantId: 'school-a', tenantType: 'school' }
+  }), false);
+});
+
 test('system admin operational capabilities do not imply learner data access', () => {
   const admin = access.normalizeActor({
     id: 'admin-1',

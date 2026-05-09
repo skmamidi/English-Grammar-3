@@ -81,3 +81,18 @@ test('XP summaries reject copied question payloads and client-awarded totals', (
     questions: [{ id: 'q1', difficulty: 'easy', correct: true, question: 'Raw prompt' }]
   }), /xp_question_payload_forbidden/);
 });
+
+test('XP summaries reject client-submitted mission bonus totals', () => {
+  assert.throws(() => xp.calculateXpAwardSummary({
+    assignedGrade: 4,
+    quizGrade: 4,
+    missionBonusXp: 999999,
+    questions: [{ id: 'q1', difficulty: 'easy', correct: true }]
+  }), /xp_client_award_not_accepted/);
+  assert.throws(() => xp.calculateXpAwardSummary({
+    assignedGrade: 4,
+    quizGrade: 4,
+    submittedMissionBonusXp: 999999,
+    questions: [{ id: 'q1', difficulty: 'easy', correct: true }]
+  }), /xp_client_award_not_accepted/);
+});

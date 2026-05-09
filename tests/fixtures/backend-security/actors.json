@@ -40,6 +40,50 @@
     "role": "server_service",
     "serverOwned": true
   },
+  "tenantTeacherAssigned": {
+    "id": "teacher-assigned",
+    "role": "teacher",
+    "assignedLearnerIds": ["learner-a"],
+    "assignedClassIds": ["class-a"],
+    "tenantMemberships": [
+      {
+        "tenantId": "school-a",
+        "tenantType": "school",
+        "role": "teacher",
+        "status": "active",
+        "learnerIds": ["learner-a"],
+        "classIds": ["class-a"]
+      }
+    ]
+  },
+  "tenantTeacherCross": {
+    "id": "teacher-cross",
+    "role": "teacher",
+    "assignedLearnerIds": ["learner-a"],
+    "assignedClassIds": ["class-a"],
+    "tenantMemberships": [
+      {
+        "tenantId": "school-b",
+        "tenantType": "school",
+        "role": "teacher",
+        "status": "active",
+        "learnerIds": ["learner-a"],
+        "classIds": ["class-a"]
+      }
+    ]
+  },
+  "tenantServerService": {
+    "id": "tenant-learning-adjudicator",
+    "role": "server_service",
+    "serverOwned": true,
+    "serviceTenantIds": ["school-a"]
+  },
+  "tenantServerCross": {
+    "id": "tenant-learning-adjudicator-cross",
+    "role": "server_service",
+    "serverOwned": true,
+    "serviceTenantIds": ["school-b"]
+  },
   "unknownRole": {
     "id": "unknown-1",
     "role": "principal"

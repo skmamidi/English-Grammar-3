@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "missionId": "mission-capitalization-starter-trail",
+  "title": "Capitalization Starter Trail",
+  "description": "Use a quick lesson and focused practice to strengthen sentence-start capitalization.",
+  "domain": "capitalization",
+  "gradeBand": {
+    "min": 3,
+    "max": 4
+  },
+  "estimatedMinutes": 14,
+  "subtopicRefs": [
+    {
+      "setId": "capitalization-sentence-beginning",
+      "relationship": "primary"
+    }
+  ],
+  "skillRefs": [
+    {
+      "skillId": "capitalization.capitalization",
+      "relationship": "primary"
+    }
+  ],
+  "prerequisites": [],
+  "completionPolicy": {
+    "type": "all_required_steps",
+    "requiredStepIds": [
+      "lesson-capitalization-start",
+      "practice-capitalization-start",
+      "review-capitalization-start"
+    ],
+    "minimumAccuracy": 0.7
+  },
+  "xpPolicyRef": {
+    "policyId": "xp-standard-practice",
+    "awardMode": "verified_attempts_only"
+  },
+  "steps": [
+    {
+      "stepId": "lesson-capitalization-start",
+      "type": "lesson",
+      "title": "Learn the capital-start clue",
+      "required": true,
+      "lessonRef": {
+        "setId": "capitalization-sentence-beginning",
+        "grade": 3
+      }
+    },
+    {
+      "stepId": "practice-capitalization-start",
+      "type": "practice",
+      "title": "Practice capitalizing sentence beginnings",
+      "required": true,
+      "practiceRef": {
+        "setId": "capitalization-sentence-beginning",
+        "mode": "subtopic",
+        "questionCount": 5,
+        "grade": 3,
+        "difficulty": "easy"
+      }
+    },
+    {
+      "stepId": "review-capitalization-start",
+      "type": "review",
+      "title": "Review missed capitalization starts",
+      "required": true,
+      "reviewRef": {
+        "source": "missed_questions",
+        "setIds": [
+          "capitalization-sentence-beginning"
+        ],
+        "questionCount": 2
+      }
+    }
+  ],
+  "tags": {
+    "conceptIds": [
+      "sentence-beginning-capitalization"
+    ],
+    "standardIds": [
+      "L.3-6.2"
+    ],
+    "pedagogyMoves": [
+      "teach-practice-review"
+    ],
+    "reviewStatus": "accepted"
+  }
+}

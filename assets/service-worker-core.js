@@ -39,6 +39,13 @@
     '/assets/character-catalog.js',
     '/assets/visual-question-scenes.js'
   ];
+  const RUNTIME_STATIC_URLS = [
+    '/mission.html',
+    '/assets/page-shell.js',
+    '/assets/guided-mission-catalog.js',
+    '/assets/guided-mission-domain.js',
+    '/assets/guided-mission-ui.js'
+  ];
 
   function getSourceHashCacheKey(sourceHash) {
     return String(sourceHash || DEFAULT_SOURCE_HASH)
@@ -53,11 +60,17 @@
       static: `${CACHE_PREFIX}-static-${key}`,
       chunks: `${CACHE_PREFIX}-chunks-${key}`,
       metadata: `${CACHE_PREFIX}-metadata-${key}`
+      ,
+      questionObjects: `grammarquest-question-objects-${key}`
     };
   }
 
   function buildPrecacheUrls() {
     return PRECACHE_URLS.slice();
+  }
+
+  function buildRuntimeStaticUrls() {
+    return Array.from(new Set(PRECACHE_URLS.concat(RUNTIME_STATIC_URLS)));
   }
 
   function isChunkRequest(url) {
@@ -73,7 +86,15 @@
   }
 
   function isStaticAssetRequest(url) {
-    return buildPrecacheUrls().includes(url.pathname);
+    return buildRuntimeStaticUrls().includes(url.pathname);
+  }
+
+  function isSparseQuestionDataRequest(url) {
+    return /^\/api\/questions\/sparse(?:\/|$)/.test(url.pathname) || /^\/assets\/offline-question-records\/[^/]+\.json$/.test(url.pathname);
+  }
+
+  function isImmutableMediaRequest(url) {
+    return /^\/assets\/(?:audio|images)\/[^?#]+\.(?:wav|mp3|ogg|m4a|png|jpe?g|webp|svg)$/.test(url.pathname);
   }
 
   function isRetiredFullBankRequest(url) {
@@ -111,6 +132,7 @@
     CACHE_PREFIX,
     buildCacheNames,
     buildPrecacheUrls,
+    buildRuntimeStaticUrls,
     classifyServiceWorkerCacheRequest,
     createServiceWorkerCacheRecord,
     evaluateServiceWorkerCacheCleanup,
@@ -119,8 +141,10 @@
     isQuotaExceededError,
     isChunkRequest,
     isQuestionChunkRequest,
+    isImmutableMediaRequest,
     isStoryLessonChunkRequest,
     isRetiredFullBankRequest,
+    isSparseQuestionDataRequest,
     isStaticAssetRequest
   };
 });

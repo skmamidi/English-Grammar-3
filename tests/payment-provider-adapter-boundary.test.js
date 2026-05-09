@@ -28,6 +28,9 @@ test('payment provider adapter boundary names server-only responsibilities and b
     'providerPaymentIntentId',
     'providerOrderId',
     'providerPaymentMethodId',
+    'webhookSignatureHeader',
+    'receiptValidationSecretRef',
+    'nativeReceiptValidationSecretRef',
     'rawProviderPayload',
     'reconciliationCursor'
   ]);
@@ -56,18 +59,22 @@ test('browser billing contracts expose only publishable config checkout urls cli
     apiKey: 'secret-placeholder',
     providerCustomerId: 'provider-customer-placeholder',
     providerSubscriptionId: 'provider-subscription-placeholder',
+    webhookSignatureHeader: 't=timestamp,v1=signature',
     rawProviderPayload: { type: 'checkout.session.created' }
   });
 
   assert.ok(result.errors.includes('browser billing contract includes server-only field: apiKey'));
   assert.ok(result.errors.includes('browser billing contract includes server-only field: providerCustomerId'));
   assert.ok(result.errors.includes('browser billing contract includes server-only field: providerSubscriptionId'));
+  assert.ok(result.errors.includes('browser billing contract includes server-only field: webhookSignatureHeader'));
   assert.ok(result.errors.includes('browser billing contract includes server-only field: rawProviderPayload'));
 });
 
 test('payment provider modules are restricted to server or provider-adapter layers', () => {
   assert.deepEqual(validatePaymentProviderModulePlacement('server/billing/payment-provider-adapter.js').errors, []);
   assert.deepEqual(validatePaymentProviderModulePlacement('providers/payment/fake-provider-adapter.js').errors, []);
+  assert.deepEqual(validatePaymentProviderModulePlacement('server/provider-adapters/stripe-payment-provider-adapter.js').errors, []);
+  assert.deepEqual(validatePaymentProviderModulePlacement('server/provider-adapters/native-receipt-validation-adapter.js').errors, []);
 
   assert.ok(validatePaymentProviderModulePlacement('assets/billing-provider-adapter.js').errors.includes('payment provider adapter must be server-only'));
   assert.ok(validatePaymentProviderModulePlacement('assets/subscription-ui.js').errors.includes('payment provider adapter must be server-only'));

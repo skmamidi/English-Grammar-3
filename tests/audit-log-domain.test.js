@@ -26,6 +26,10 @@ test('audit metadata redacts secrets private keys tokens and learner answers', (
     privateKey: 'PRIVATE KEY MATERIAL',
     authToken: 'token-123',
     learnerAnswer: 'A',
+    exportManifest: { learnerId: 'learner-a' },
+    providerPayload: { token: 'provider-token' },
+    paymentCredential: 'pm_secret',
+    rawLearnerIds: ['learner-a'],
     question: 'Full question body',
     nested: {
       signingSecret: 'secret',
@@ -39,6 +43,10 @@ test('audit metadata redacts secrets private keys tokens and learner answers', (
   assert.equal(sanitized.privateKey, '[REDACTED]');
   assert.equal(sanitized.authToken, '[REDACTED]');
   assert.equal(sanitized.learnerAnswer, '[REDACTED]');
+  assert.equal(sanitized.exportManifest, '[REDACTED]');
+  assert.equal(sanitized.providerPayload, '[REDACTED]');
+  assert.equal(sanitized.paymentCredential, '[REDACTED]');
+  assert.equal(sanitized.rawLearnerIds, '[REDACTED]');
   assert.equal(sanitized.question, '[REDACTED]');
   assert.equal(sanitized.nested.signingSecret, '[REDACTED]');
   assert.equal(sanitized.nested.responseDigest, 'sha256:abc');

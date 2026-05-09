@@ -62,3 +62,41 @@ test('mastery projection marks recent recovery as secure enough to avoid weak la
   assert.equal(projection[0].recentAccuracy, 1);
   assert.equal(projection[0].masteryBand, 'secure');
 });
+
+test('mastery projection keeps grade and difficulty as bounded mission ranking signals', () => {
+  const projection = mastery.projectMasteryBySkill({
+    now: '2030-04-29T12:00:00.000Z',
+    sessions: [{
+      completedAt: '2030-04-29T11:00:00.000Z',
+      attempts: [
+        { questionId: 'cap-q1', correct: false, skillIds: ['capitalization.capitalization'], difficulty: 'hard', gradeLevel: 3 },
+        { questionId: 'cap-q2', correct: false, skillIds: ['capitalization.capitalization'], difficulty: 'hard', gradeLevel: 3 },
+        { questionId: 'cap-q3', correct: true, skillIds: ['capitalization.capitalization'], difficulty: 'easy', gradeLevel: 3 }
+      ]
+    }]
+  });
+
+  assert.equal(projection[0].skillId, 'capitalization.capitalization');
+  assert.deepEqual(projection[0].gradeLevels, [3]);
+  assert.deepEqual(projection[0].difficultyExposure, { easy: 1, medium: 0, hard: 2 });
+  assert.equal(projection[0].masteryBand, 'needs_practice');
+  assert.equal(JSON.stringify(projection).includes('cap-q1'), false);
+});
+
+test('mastery projection can be summarized for institutional reporting without learner drilldown', () => {
+  const summary = mastery.summarizeMasteryProjectionForInstitution([
+    { learnerId: 'learner-a', skillId: 'grammar.usage', masteryBand: 'secure' },
+    { learnerId: 'learner-b', skillId: 'grammar.usage', masteryBand: 'needs_practice' },
+    { learnerId: 'learner-b', skillId: 'grammar.fragments', masteryBand: 'needs_practice' }
+  ], { minCohortSize: 2 });
+
+  assert.deepEqual(summary, [{
+    skillId: 'grammar.usage',
+    learnerCountBucket: '2-4',
+    secureCount: 1,
+    developingCount: 0,
+    needsPracticeCount: 1,
+    suppressed: false
+  }]);
+  assert.equal(JSON.stringify(summary).includes('learner-a'), false);
+});

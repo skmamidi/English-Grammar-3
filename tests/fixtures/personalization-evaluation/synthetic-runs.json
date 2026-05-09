@@ -1,0 +1,76 @@
+{
+  "passingRun": {
+    "schemaVersion": 1,
+    "runId": "personalization-eval:passing",
+    "generatedAt": "2030-05-04T12:00:00.000Z",
+    "owner": "learning-platform",
+    "reviewedAt": "2030-05-04T13:00:00.000Z",
+    "rollbackCriteria": [
+      "disable dynamicQuizAssemblyPilot if any fairness gate fails"
+    ],
+    "expected": {
+      "grades": ["3", "4"],
+      "domains": ["grammar", "vocabulary"],
+      "skills": ["grammar.fragments", "grammar.usage", "vocabulary.context"],
+      "standards": ["L.3.1", "L.4.1", "L.4.4"]
+    },
+    "outcomes": [
+      {
+        "planRef": "assembly:g3-grammar",
+        "grade": "3",
+        "difficulty": "medium",
+        "domain": "grammar",
+        "assignmentStatus": "assigned",
+        "reviewUrgency": "due",
+        "accessibilityMode": "standard",
+        "offlineEligible": true,
+        "selectedRefs": [
+          { "id": "g3-fragments-1", "sourceSet": "grammar-fragments", "gradeLevel": 3, "difficultyBand": "medium", "skillIds": ["grammar.fragments"], "standardIds": ["L.3.1"], "reasonCodes": ["weak_skill_review_due"] },
+          { "id": "g3-usage-1", "sourceSet": "grammar-usage", "gradeLevel": 3, "difficultyBand": "medium", "skillIds": ["grammar.usage"], "standardIds": ["L.3.1"], "reasonCodes": ["balanced_coverage"] }
+        ]
+      },
+      {
+        "planRef": "assembly:g4-vocab",
+        "grade": "4",
+        "difficulty": "medium",
+        "domain": "vocabulary",
+        "assignmentStatus": "optional",
+        "reviewUrgency": "none",
+        "accessibilityMode": "reduced_motion",
+        "offlineEligible": true,
+        "selectedRefs": [
+          { "id": "g4-context-1", "sourceSet": "vocabulary-context", "gradeLevel": 4, "difficultyBand": "medium", "skillIds": ["vocabulary.context"], "standardIds": ["L.4.4"], "reasonCodes": ["balanced_coverage"] },
+          { "id": "g4-context-2", "sourceSet": "vocabulary-context", "gradeLevel": 4, "difficultyBand": "easy", "skillIds": ["vocabulary.context"], "standardIds": ["L.4.4"], "reasonCodes": ["spiral_review"] }
+        ]
+      },
+      {
+        "planRef": "assembly:g4-grammar",
+        "grade": "4",
+        "difficulty": "easy",
+        "domain": "grammar",
+        "assignmentStatus": "assigned",
+        "reviewUrgency": "overdue",
+        "accessibilityMode": "high_contrast",
+        "offlineEligible": false,
+        "selectedRefs": [
+          { "id": "g4-fragments-1", "sourceSet": "grammar-fragments", "gradeLevel": 4, "difficultyBand": "easy", "skillIds": ["grammar.fragments"], "standardIds": ["L.4.1"], "reasonCodes": ["weak_skill_review_due"] },
+          { "id": "g4-usage-1", "sourceSet": "grammar-usage", "gradeLevel": 4, "difficultyBand": "medium", "skillIds": ["grammar.usage"], "standardIds": ["L.4.1"], "reasonCodes": ["assignment_constraint"] }
+        ]
+      },
+      {
+        "planRef": "assembly:g3-vocab",
+        "grade": "3",
+        "difficulty": "easy",
+        "domain": "vocabulary",
+        "assignmentStatus": "optional",
+        "reviewUrgency": "none",
+        "accessibilityMode": "standard",
+        "offlineEligible": true,
+        "selectedRefs": [
+          { "id": "g3-context-1", "sourceSet": "vocabulary-context", "gradeLevel": 3, "difficultyBand": "easy", "skillIds": ["vocabulary.context"], "standardIds": ["L.4.4"], "reasonCodes": ["balanced_coverage"] },
+          { "id": "g3-usage-2", "sourceSet": "grammar-usage", "gradeLevel": 3, "difficultyBand": "easy", "skillIds": ["grammar.usage"], "standardIds": ["L.3.1"], "reasonCodes": ["balanced_coverage"] }
+        ]
+      }
+    ]
+  }
+}

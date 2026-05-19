@@ -100,14 +100,14 @@ test('PR readiness monitor fails completed PRs without passing review records', 
 test('PR readiness monitor fails when fewer than five ready PRs are queued', () => {
   const root = makeFixture();
   const registry = validRegistry();
-  registry.prs = registry.prs.filter((pr) => pr.number !== 99);
+  registry.prs = registry.prs.filter((pr) => pr.number !== 98 && pr.number !== 99);
 
   const result = validateRegistry(registry, root, {
     now: new Date('2026-04-30T12:38:00Z')
   });
 
   assert.equal(result.ok, false);
-  assert.match(result.issues.join('\n'), /Only 4 ready PR\(s\) are queued/);
+  assert.match(result.issues.join('\n'), /Only 4 active PR\(s\) are queued/);
 });
 
 test('PR readiness monitor requires completed PR roadmap items to be checked off', () => {

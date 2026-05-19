@@ -1356,13 +1356,13 @@
         {
           "id": "reference-skills-sub-heading-q0020",
           "version": 3,
-          "contentHash": "sha256:9cb679d6b2066d4e393045b033614bd1cdc65a664de85e2aa9b9e18d33a64b10",
+          "contentHash": "sha256:9a8d00407d407144de1e44d16d57946aeaa2ecdff00d043ff85e0a7c7031e3fd",
           "question": "Choose the best main topic for the words listed below. hiking, animal tracks, flowers, logs",
           "choices": [
             "My Backpack",
             "My Scrapbook",
             "My Pet Animal",
-            "My N ature Walk"
+            "My Nature Walk"
           ],
           "correct": 3,
           "explanation": {
@@ -4081,10 +4081,10 @@
         {
           "id": "reference-skills-italicize-q0021",
           "version": 3,
-          "contentHash": "sha256:13b423aac94da51240ea9dc7f3b7bb78e5b30ba6a4d0280454aaca07bce75008",
+          "contentHash": "sha256:b1cf47fd788c3fd6ce7a0d21e9b9e9057581fd5b044c68f2f8b3955374c09279",
           "question": "Which sentence is punctuated correctly?",
           "choices": [
-            "is a popular magazi ne.",
+            "is a popular magazine.",
             "Sports Illustrated is a popular magazine.",
             "Sport s Illustrated is a popular magazine.",
             "“Sports Illustrated” is a popular magazine."
@@ -4157,12 +4157,12 @@
         {
           "id": "reference-skills-italicize-q0022",
           "version": 3,
-          "contentHash": "sha256:531d48cee1e0228441df04bc83e93d14d550a9783a895939b96394b247dce36e",
+          "contentHash": "sha256:b411b32c246fd1e23e2a9063627554881e296dfb12143ab8f8918c8e07f0d471",
           "question": "Which sentence punctuates the title Great Expectations correctly?",
           "choices": [
             "Have you read Dickens’, Great Expectations? Great Expectations",
             "Have you read Dickens’ “ Great Expectations ”?",
-            "Have you read Dickens’? Great Exp ectations",
+            "Have you read Dickens’? Great Expectations",
             "Have you read Dickens’? car"
           ],
           "correct": 3,
@@ -4180,7 +4180,7 @@
                 "reason": "You should not put spaces between the quotation marks and the title itself. Keep the text snug inside the marks like this: \"Great Expectations\"."
               },
               {
-                "choice": "Have you read Dickens’? Great Exp ectations",
+                "choice": "Have you read Dickens’? Great Expectations",
                 "category": "spelling and apostrophe",
                 "reason": "The apostrophe should not be after 'Dickens' in this sentence, and the title 'Great Expectations' is spelled incorrectly with a space in the middle."
               },
@@ -22442,10 +22442,10 @@
         {
           "id": "reference-skills-research-skills-q0183",
           "version": 3,
-          "contentHash": "sha256:62c83bb1d04b99c46b6ed39c1b18eac71bd1d11261923c8d2ae008f4b4ceff3a",
+          "contentHash": "sha256:b34986897618ff0f5db0a0199babc025e9188d913ef23f374e0abeeb59d4ebaf",
           "question": "Which of the following does a research paper require?",
           "choices": [
-            "h umor",
+            "humor",
             "a story",
             "a listof references",
             "examples from personal experience"
@@ -22455,7 +22455,7 @@
             "correct": "Answer: a list of references. A research paper is an academic document that requires evidence to support its claims, which must be documented in a list of references or a bibliography.",
             "incorrect": [
               {
-                "choice": "h umor",
+                "choice": "humor",
                 "category": "informal tone",
                 "reason": "While some writing can be funny, a research paper requires a serious, academic tone. Including humor is generally not appropriate for formal research."
               },
@@ -46538,12 +46538,12 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0184",
           "version": 2,
-          "contentHash": "sha256:b42822969ae3f8b8b0ee82d7acd2fb9abc5b345ee13220c51884110ecf844183",
-          "question": "Read the paragraph. You don’t need to sho p around. Furniture Village ha s the best -priced leat her furniture in town. They deliver seven days a week and there are no financ e charges. What information is missing from this paragraph tha t you would need to determine its accuracy?",
+          "contentHash": "sha256:ea28a60ca26e193383d54ac44e7e8dedf18f569f84d4960026deadc72d725b20",
+          "question": "Read the paragraph. You don’t need to sho p around. Furniture Village ha s the best -priced leat her furniture in town. They deliver seven days a week and there are no finance charges. What information is missing from this paragraph tha t you would need to determine its accuracy?",
           "choices": [
             "where the store is located",
             "the brand of furniture",
-            "the colors and styles of the f urniture",
+            "the colors and styles of the furniture",
             "the prices from other furniture stores"
           ],
           "correct": 3,
@@ -46561,7 +46561,7 @@
                 "reason": "While brands are helpful for quality, they do not provide the necessary data points to verify the specific claim regarding price comparisons."
               },
               {
-                "choice": "the colors and styles of the f urniture",
+                "choice": "the colors and styles of the furniture",
                 "category": "aesthetic preference",
                 "reason": "Colors and styles help you choose furniture you like, but they do not provide any evidence to support or debunk the advertisement's claim about price."
               },
@@ -46612,8 +46612,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0185",
           "version": 2,
-          "contentHash": "sha256:3f08647973b4b4b0fc3768df33b04f4c60680b253db278c78ad72044cb51e7b1",
-          "question": "Read the following paragraph. The most important advance of this century has not been in medicine or technology. It’s been in society’s willingness to open prac tically all professions to women. Women can excel in careers now that were not even available to them 50 years ago. Which of the following people would most likely agree with this paragraph’s opinion?",
+          "contentHash": "sha256:f2bd84541825a37143efc2bbbfec46df5fcb7621bcf537d49de88090f38dac39",
+          "question": "Read the following paragraph. The most important advance of this century has not been in medicine or technology. It’s been in society’s willingness to open practically all professions to women. Women can excel in careers now that were not even available to them 50 years ago. Which of the following people would most likely agree with this paragraph’s opinion?",
           "choices": [
             "women astronauts",
             "grandparents",
@@ -46908,21 +46908,21 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0189",
           "version": 2,
-          "contentHash": "sha256:0a22e158a115bfb7da3f3b15a66b7c3353f9baa03d313eb754f33b9fe027f349",
-          "question": "Read the paragraph. Southeastern Idaho is covered with snow for four or five months each year. Even when it’s not snowing, the wind blows almost every day and the temperatures often fall below freezing. People in Idaho have learned many ways to enjoy life despite the crazy weat her. Just about everyone has warm mittens or gloves, a heavy coat, and toasty boots. We have many opportunities to ski, skate, or go sledding up in the foothills. Lots of homes have fireplaces and our closets are filled with warm blankets. All in all, we make the most of it. This paragraph best explains:",
+          "contentHash": "sha256:d9e7dd95a92a40f3413fe922071a0f6f5c524449f36c5260b515048f44806658",
+          "question": "Read the paragraph. Southeastern Idaho is covered with snow for four or five months each year. Even when it’s not snowing, the wind blows almost every day and the temperatures often fall below freezing. People in Idaho have learned many ways to enjoy life despite the crazy weather. Just about everyone has warm mittens or gloves, a heavy coat, and toasty boots. We have many opportunities to ski, skate, or go sledding up in the foothills. Lots of homes have fireplaces and our closets are filled with warm blankets. All in all, we make the most of it. This paragraph best explains:",
           "choices": [
-            "why people need to have warm b oots",
+            "why people need to have warm boots",
             "why skiing, skating, and sledding are so popular",
             "the importance of fireplaces and warm blankets",
-            "how people in Idaho have adapted their lives to the weat her"
+            "how people in Idaho have adapted their lives to the weather"
           ],
           "correct": 3,
           "explanation": {
             "correct": "Answer: how people in Idaho have adapted their lives to the weather. The paragraph provides multiple examples of how residents adjust their clothing, activities, and home life to manage the cold, summarizing the overall theme of adaptation.",
             "incorrect": [
               {
-                "choice": "why people need to have warm b oots",
-                "reason": "\"why people need to have warm b oots\" names a different reference feature or study skill than the one described in the prompt."
+                "choice": "why people need to have warm boots",
+                "reason": "\"why people need to have warm boots\" names a different reference feature or study skill than the one described in the prompt."
               },
               {
                 "choice": "why skiing, skating, and sledding are so popular",
@@ -47055,12 +47055,12 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0191",
           "version": 2,
-          "contentHash": "sha256:ac4a9a9449d98bd1be3836f7498159a8218fb39db07aa99689843b9d0ce946c5",
+          "contentHash": "sha256:e35e6e6e34aba1a5d1c6b455d54d6d3210ca7b5a623fe3636c4a3ad1ebf96a8f",
           "question": "Look at the index example below. If Jorge was looking for information on stratocumulus clouds, he would look under:",
           "choices": [
             "the topic, stratocumulus",
             "the category, clouds",
-            "the topic, weat her",
+            "the topic, weather",
             "the category, climate"
           ],
           "correct": 1,
@@ -47074,7 +47074,7 @@
               },
               "",
               {
-                "choice": "the topic, weat her",
+                "choice": "the topic, weather",
                 "category": "too broad",
                 "reason": "While 'weather' is related, it is too general. An index entry for weather would be massive; you should look for the more specific category that directly classifies cloud types."
               },
@@ -47499,12 +47499,12 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0197",
           "version": 2,
-          "contentHash": "sha256:1b4c5049b7fc4b41adde4f5db9432c76cfc99d1ca11c4215d758df10b03df35f",
-          "question": "Read the paragraph. Througho ut history, people have s truggled for their f reedom — freedom to w orship in their own w ay, to work for a fair wage, to vote for their leaders, to get a good educatio n, to name but a few. But rights and freedoms have always come with certain Source “Historical Documents” The Struggle for Freedom, Page 86 5. (Teacher Author: Weston). restrictions and responsibilities. Th e challenge for every nation is to find a balan ce between the two. According to the paragraph, which is true?",
+          "contentHash": "sha256:bef76aca3efe9572361df784c6fca6e4709c55c279f6bcdb4e0dbe002490afd5",
+          "question": "Read the paragraph. Throughout history, people have s truggled for their freedom — freedom to worship in their own w ay, to work for a fair wage, to vote for their leaders, to get a good education, to name but a few. But rights and freedoms have always come with certain Source “Historical Documents” The Struggle for Freedom, Page 86 5. (Teacher Author: Weston). restrictions and responsibilities. Th e challenge for every nation is to find a balan ce between the two. According to the paragraph, which is true?",
           "choices": [
-            "It is a challenge for nations to treat their citizens kin dly.",
+            "It is a challenge for nations to treat their citizens kindly.",
             "America was the first nation to fight for freedom.",
-            "Earning basic rights and freedoms has been obtain ed through strug gle and balance.",
+            "Earning basic rights and freedoms has been obtain ed through struggle and balance.",
             "People were allowed to vote in 1850."
           ],
           "correct": 2,
@@ -47512,8 +47512,8 @@
             "correct": "Answer: Earning basic rights and freedoms has been obtained through struggle and balance. The text explicitly states that people have 'struggled for their freedom' and that nations must 'find a balance' between rights and responsibilities.",
             "incorrect": [
               {
-                "choice": "It is a challenge for nations to treat their citizens kin dly.",
-                "reason": "\"It is a challenge for nations to treat their citizens kin dly.\" names a different reference feature or study skill than the one described in the prompt."
+                "choice": "It is a challenge for nations to treat their citizens kindly.",
+                "reason": "\"It is a challenge for nations to treat their citizens kindly.\" names a different reference feature or study skill than the one described in the prompt."
               },
               {
                 "choice": "America was the first nation to fight for freedom.",
@@ -47646,8 +47646,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0199",
           "version": 2,
-          "contentHash": "sha256:978ee8d53fdc55dbf05a7d39eed20d3d7e9121cf1d861b8a414f0aabed8eddc6",
-          "question": "Read the paragraph. Our after s choo l programs are wonderful! As students, we have the option to s ign up for numerous different classes and activities. One of my favorites was “Splatter Paint” art. We taped huge pieces of paper to the wall, dren ched sponges in bright paint, and threw the sponges at the paper. I looked like a rainbow by the time I got home. I also loved the snowflake – cutting workshop. We made intric ate snowflakes using only scissors and white paper. The tin y scraps littered the carpets like r eal sno w. We stay as late as we can and have a wild time! Which of the following people would most likely disagree with the ideas in the paragraph.",
+          "contentHash": "sha256:07656b804677f79619306f2d99996df80837d67c0b95b6498e96e0efd1afb4d5",
+          "question": "Read the paragraph. Our after s choo l programs are wonderful! As students, we have the option to sign up for numerous different classes and activities. One of my favorites was “Splatter Paint” art. We taped huge pieces of paper to the wall, drenched sponges in bright paint, and threw the sponges at the paper. I looked like a rainbow by the time I got home. I also loved the snowflake – cutting workshop. We made intricate snowflakes using only scissors and white paper. The tin y scraps littered the carpets like real snow. We stay as late as we can and have a wild time! Which of the following people would most likely disagree with the ideas in the paragraph.",
           "choices": [
             "teachers",
             "students",
@@ -47720,8 +47720,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0200",
           "version": 2,
-          "contentHash": "sha256:c1284fe02b337db9ea3e16a05c819f7f726cf79349bd9b6f28860b1ece0628b5",
-          "question": "Read the paragraph. “It is fear, Mr. Holmes. It is terror.” She raised her veil as she spoke, and we c ould see that she was indeed in a pitiable state of agitation, her face all drawn and gray, with restless, frightened eyes, like those of some hunted animal. Her features and fig u r e were those of a woman of thirty, buther hair was shot with premature gray, and her expression was weary and haggard. Sherlock Holmes r an her over with one o f his quick, all-comp r ehensive glances. In this paragraph, what does the w ord agitation mean?",
+          "contentHash": "sha256:b5390be864492b6268fc1ff95e0fc62f2f71a7aa8e831332a7332f122a24c29d",
+          "question": "Read the paragraph. “It is fear, Mr. Holmes. It is terror.” She raised her veil as she spoke, and we could see that she was indeed in a pitiable state of agitation, her face all drawn and gray, with restless, frightened eyes, like those of some hunted animal. Her features and fig u r e were those of a woman of thirty, buther hair was shot with premature gray, and her expression was weary and haggard. Sherlock Holmes r an her over with one o f his quick, all-comp r ehensive glances. In this paragraph, what does the word agitation mean?",
           "choices": [
             "mixed up",
             "confused",
@@ -47794,8 +47794,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0201",
           "version": 2,
-          "contentHash": "sha256:3ed0b50ef038213c9e08b1022cd04506dc30ea7448376c8b1c8bdea547e1ff21",
-          "question": "Read the paragraph. Dogs are the be s t pets. They wag their tails when you come home. Dogs like to snuggle when you are watching television. They never get mad or talk back to you if you scold them. Dogs sometimes like to chase a ball, but they might also chase cats. What is the autho r trying to persuade you to do or think?",
+          "contentHash": "sha256:c36d4ab65221c26d2dfce16caec3d7d4c3c8424822c5841b6e801ff9e11badea",
+          "question": "Read the paragraph. Dogs are the be s t pets. They wag their tails when you come home. Dogs like to snuggle when you are watching television. They never get mad or talk back to you if you scold them. Dogs sometimes like to chase a ball, but they might also chase cats. What is the author trying to persuade you to do or think?",
           "choices": [
             "watch more television",
             "you should get a dog for a pet",
@@ -47868,21 +47868,21 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0202",
           "version": 2,
-          "contentHash": "sha256:87a8ca9474c02505c209d42cf52ac5a1e7c3775e1ee24fb3333147b97adb7201",
-          "question": "Read the passage. Believing that personal experience is a writer’s riche st resource, Theodo re Taylor has held an amazing variety of jobs. He has been a merc hant sailor and a naval officer, the manager of a prize fighter, a reporter and magazine writer, a movie pub licist, a “The Cay”. producer, a screenwriter, and a docu mentary filmmaker. These careers have taken him allover the world. Who w rote the above paragraph?",
+          "contentHash": "sha256:87cc59f1fe96aaaa86dd9ead3f14f88fa305252cd288d14fe0310be7b213e52d",
+          "question": "Read the passage. Believing that personal experience is a writer’s richest resource, Theodore Taylor has held an amazing variety of jobs. He has been a merchant sailor and a naval officer, the manager of a prize fighter, a reporter and magazine writer, a movie publicist, a “The Cay”. producer, a screenwriter, and a documentary filmmaker. These careers have taken him allover the world. Who w rote the above paragraph?",
           "choices": [
-            "Theodore Taylo r",
+            "Theodore Taylor",
             "Taylor’s mother",
             "A blo gger",
-            "A b iographer"
+            "A biographer"
           ],
           "correct": 3,
           "explanation": {
             "correct": "Answer: A biographer. This paragraph is written in the third person about Theodore Taylor’s life and career history, which is typical of a biography written by an author who is not the subject himself.",
             "incorrect": [
               {
-                "choice": "Theodore Taylo r",
-                "reason": "\"Theodore Taylo r\" names a different reference feature or study skill than the one described in the prompt."
+                "choice": "Theodore Taylor",
+                "reason": "\"Theodore Taylor\" names a different reference feature or study skill than the one described in the prompt."
               },
               {
                 "choice": "Taylor’s mother",
@@ -47940,12 +47940,12 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0203",
           "version": 2,
-          "contentHash": "sha256:88ad7c760b6fe777955dbaa3d136a9204993fa3cc174d2c9240cabc2829e993d",
-          "question": "Read the story. Bambara’s writing drew on the voices of her childhood: street-corner speechmakers, barbershop storytellers, and performers at Harlem’s legendary Apollo Theater. She said her stories came from her imagination, though: “It does no good to write autobiographical fiction, cause the minute the book hits the stand here comes your mama screaming how could you.... And it’s no use using bits and snatches even of real events and real people, even if you do cover, guise, switch -around, and change- up, cause next th ing you know your best friend’s laundry cart is squeaking past but your bell ain’t ringing so you trot down the block after her and there’s this drafty cold pressure front the weat herman surely did not predict and your friend says in this chilly way that it’s really something when your ow n friend stabs you in the back with a Bambara, Toni Cade. “Meet the Wrier”, Elements of Literature: Second C ourse. Holt, Rinehart pen.... So, I deal in straight-up fiction myself, cause I value my family and friends, and Winston 199 7. and mostly cause I lie a lot anyway.” Source: How does the auth or find ideas for her writing?",
+          "contentHash": "sha256:35049bafb41c0bb79c0f583dabb0c9a6c7a73ab41dd6f42bc5fb752e495b1a06",
+          "question": "Read the story. Bambara’s writing drew on the voices of her childhood: street-corner speechmakers, barbershop storytellers, and performers at Harlem’s legendary Apollo Theater. She said her stories came from her imagination, though: “It does no good to write autobiographical fiction, cause the minute the book hits the stand here comes your mama screaming how could you.... And it’s no use using bits and snatches even of real events and real people, even if you do cover, guise, switch -around, and change- up, cause next th ing you know your best friend’s laundry cart is squeaking past but your bell ain’t ringing so you trot down the block after her and there’s this drafty cold pressure front the weatherman surely did not predict and your friend says in this chilly way that it’s really something when your ow n friend stabs you in the back with a Bambara, Toni Cade. “Meet the Wrier”, Elements of Literature: Second Course. Holt, Rinehart pen.... So, I deal in straight-up fiction myself, cause I value my family and friends, and Winston 199 7. and mostly cause I lie a lot anyway.” Source: How does the author find ideas for her writing?",
           "choices": [
             "She interviews people.",
             "She draws on the voices of her child hood",
-            "She travels to collec t ideas for her writing.",
+            "She travels to collect ideas for her writing.",
             "Sh e makes them all up."
           ],
           "correct": 1,
@@ -47959,8 +47959,8 @@
               },
               "",
               {
-                "choice": "She travels to collec t ideas for her writing.",
-                "reason": "\"She travels to collec t ideas for her writing.\" names a different reference feature or study skill than the one described in the prompt."
+                "choice": "She travels to collect ideas for her writing.",
+                "reason": "\"She travels to collect ideas for her writing.\" names a different reference feature or study skill than the one described in the prompt."
               },
               {
                 "choice": "Sh e makes them all up.",
@@ -48012,12 +48012,12 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0204",
           "version": 4,
-          "contentHash": "sha256:9041cb5976641221c85e9dafe3131a0008eecd102d1968c70bf0caa4c18df908",
-          "question": "Read the passage. I was once a strawberry in a Hansel and Gretel pageant w hen I was in nursery school and didn’t have no better sense than to dance on ti ptoe with my arms in a circle over my head doing um brella steps and being a perfect fool just so my mother and fat her could come dressed up and clap. You’d think they’d know better than to encourage that kind of non sense. I am not a strawberry. I do not dance on my toes. I run. That is “Raymond’s Run”, E lements of Li terature: Second Course. Holt, Rinehart what I am all abo ut. So I always come late to the May D ay program, ju st in time to get and Winston 199 7. my number pin ned on and lay in the gras s till they ann ounce the fifty -yard dash. What makes the paragraph interesting?",
+          "contentHash": "sha256:19af89f65db8fc51ad4ae4892e165469b123bd8c36e33dab4fa2638780318dd9",
+          "question": "Read the passage. I was once a strawberry in a Hansel and Gretel pageant w hen I was in nursery school and didn’t have no better sense than to dance on tiptoe with my arms in a circle over my head doing umbrella steps and being a perfect fool just so my mother and fat her could come dressed up and clap. You’d think they’d know better than to encourage that kind of non sense. I am not a strawberry. I do not dance on my toes. I run. That is “Raymond’s Run”, Elements of Literature: Second Course. Holt, Rinehart what I am all abo ut. So I always come late to the May D ay program, ju st in time to get and Winston 199 7. my number pin ned on and lay in the gras s till they ann ounce the fifty -yard dash. What makes the paragraph interesting?",
           "choices": [
             "the author’s use of foreshadowing",
             "poetry",
-            "using words that rhym e",
+            "using words that rhyme",
             "the author’s use of humor"
           ],
           "correct": 3,
@@ -48035,7 +48035,7 @@
                 "reason": "The passage is a prose narrative written in paragraphs, not a poem. It does not use line breaks or structured rhythmic stanzas typical of poetry."
               },
               {
-                "choice": "using words that rhym e",
+                "choice": "using words that rhyme",
                 "category": "incorrect stylistic analysis",
                 "reason": "While the passage is descriptive, it does not rely on end-rhymes or poetic rhythm to convey its message; it uses conversational prose to tell a story."
               },
@@ -48086,8 +48086,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0205",
           "version": 2,
-          "contentHash": "sha256:69e3e40588abc4a8f2532674a69da371aceaa0f4454720e5453d99bbd2e5751e",
-          "question": "Look at the index example belo w. In the index example, what is the main topic?",
+          "contentHash": "sha256:8620efb23a8553efece0c67f043c57d7c3f8ac21347163b5572981c1f849735b",
+          "question": "Look at the index example below. In the index example, what is the main topic?",
           "choices": [
             "Sentence",
             "Predicate",
@@ -48308,8 +48308,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0208",
           "version": 2,
-          "contentHash": "sha256:5c4cb3c08d27a540fd7b23dbb5c15f9ba7c9099b4bb55be627741538cdf8e963",
-          "question": "Read the passage. It had a green and yellow tint of color with just a hint of red at the base. The tulip was just beginning to sprout and had three tiny green leaves surrounding its bloo m. The soil was built up in a mo und as if to protect the delicate blossom. What type of writing is this?",
+          "contentHash": "sha256:6985aa2e3e4f53c17b9a5261ded9f65a10378c4e2c7e4e68423abef4a644d512",
+          "question": "Read the passage. It had a green and yellow tint of color with just a hint of red at the base. The tulip was just beginning to sprout and had three tiny green leaves surrounding its bloom. The soil was built up in a mo und as if to protect the delicate blossom. What type of writing is this?",
           "choices": [
             "poetry",
             "descriptive writing",
@@ -48382,8 +48382,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0209",
           "version": 4,
-          "contentHash": "sha256:4f7f3037fa9b5fccfe5b78de58743d311c8a4ef07b78a9b1980c66b3bacc6692",
-          "question": "Read the following paragraph. My worst campin g trip was to Yellowstone Park. While we were hiking, a bear came into our camp, knocked over our tent, and ate most of our food. When we arrived back in cam p, we gat hered up what we could find and headed back to the car, only to find that we had a flat tire. Worst of all, we had locked our keys in the car, and it started to rain. The next time we w ent to Yellowstone, we rented a room at the lodge. Which fact supports the con clusion that the author did not camp in Yellowstone again?",
+          "contentHash": "sha256:4f4ea2f07960a8a6d9c67daaad6291902bd88dc56ed65b342a8ce5341162e72f",
+          "question": "Read the following paragraph. My worst camping trip was to Yellowstone Park. While we were hiking, a bear came into our camp, knocked over our tent, and ate most of our food. When we arrived back in cam p, we gat hered up what we could find and headed back to the car, only to find that we had a flat tire. Worst of all, we had locked our keys in the car, and it started to rain. The next time we w ent to Yellowstone, we rented a room at the lodge. Which fact supports the conclusion that the author did not camp in Yellowstone again?",
           "choices": [
             "Next time, we rented a room at a lodge.",
             "A bear came into our camp.",
@@ -48456,8 +48456,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0210",
           "version": 3,
-          "contentHash": "sha256:983f7c5be8938d876d2bf509e074d0743b83e27014fe3008e408dfcac1bcc815",
-          "question": "Read the paragraph. My parents have been married for 15 years. Last sum mer we threw them a big surprise party with a cake, presents, and abo ut 20 guests. We had games like volleyball and croquet. The best game of all was darts, though. I beat everyone – even my dad! We told them the party would be twice as big on their 20th anniversary. What sentence is not a fact but an opin ion?",
+          "contentHash": "sha256:fb2afe235b897a26ec9bb6a7324c54a143e395ead57fec2e7bc3e540679e6706",
+          "question": "Read the paragraph. My parents have been married for 15 years. Last sum mer we threw them a big surprise party with a cake, presents, and abo ut 20 guests. We had games like volleyball and croquet. The best game of all was darts, though. I beat everyone – even my dad! We told them the party would be twice as big on their 20th anniversary. What sentence is not a fact but an opinion?",
           "choices": [
             "My parents have been married for 15 years.",
             "Last summer we threw them a big surprise party.",
@@ -48530,8 +48530,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0211",
           "version": 2,
-          "contentHash": "sha256:acaf93ec70e4d05cb136183c970f95c1430d86d5f9e6d6a334ca5bd9b95cc4e4",
-          "question": "Read the passage. “The biographer of Davy Crockett is immediately confronted with a problem: Which Davy Crockett shall he write about? For if there ever was a man of multiple identities, that man was Davy Crockett. First of all there was — or at least there exists some fairly reliable evidence to that effect — the flesh- and-blood Crockett, the frontiersman and hunter of early Tennessee. There was the historical Crockett, with his heroic exploits at the Alamo duly recorded in history. There was the polit ical Crockett, a figure alternately built up and deflated by the Jacksonites and anti-Jacksonites... And then there was the mythical Crockett, the Crockett of legend and folksa y, of all the tall ta les and fireside yearns and almanac stories — the veritable yaller blossom o f the forest, half horse, half alligator, with a little touc h of s napping turtle, the ring -tailed roarer who could b ring a coon out of a tree, ride a streak of lightning, wade the Missis sippi, and come down off the Peak o’ Day with a piece of sunrise in his po cket. It was to this last Croc kett, in the g rand American tradition of Paul Bunyan, John “Meet the W riter” Focus. McGraw Hill 1985 Henry, Old Stormalong, and Pecos Bill, that I turned as being obviously the most credible, authentic, s ignificant, and true.” Which of these describes the mythical Davy Crockett?",
+          "contentHash": "sha256:148b1e3d840393cb8bb751f991d1a5841e974973b80321192ea2399aab2cc0e1",
+          "question": "Read the passage. “The biographer of Davy Crockett is immediately confronted with a problem: Which Davy Crockett shall he write about? For if there ever was a man of multiple identities, that man was Davy Crockett. First of all there was — or at least there exists some fairly reliable evidence to that effect — the flesh- and-blood Crockett, the frontiersman and hunter of early Tennessee. There was the historical Crockett, with his heroic exploits at the Alamo duly recorded in history. There was the political Crockett, a figure alternately built up and deflated by the Jacksonites and anti-Jacksonites... And then there was the mythical Crockett, the Crockett of legend and folksa y, of all the tall ta les and fireside yearns and almanac stories — the veritable yaller blossom o f the forest, half horse, half alligator, with a little touch of s napping turtle, the ring -tailed roarer who could b ring a coon out of a tree, ride a streak of lightning, wade the Mississippi, and come down off the Peak o’ Day with a piece of sunrise in his pocket. It was to this last Croc kett, in the g rand American tradition of Paul Bunyan, John “Meet the W riter” Focus. McGraw Hill 1985 Henry, Old Stormalong, and Pecos Bill, that I turned as being obviously the most credible, authentic, significant, and true.” Which of these describes the mythical Davy Crockett?",
           "choices": [
             "He was a hero at the Alamo.",
             "He could ride a streak of lightning.",
@@ -48603,12 +48603,12 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0212",
           "version": 2,
-          "contentHash": "sha256:00504a60519ac8c26bf41a5e28a5c93f7cfa59be2ddad3b7b8cce3fd827b9d25",
-          "question": "Look over the biblio graphy. “The New Y ork Public Library’ s R ecommended Reading List.” Amazing Space. New York: New York Public Library & St ones ong, 1997: 182. Information in a bibliography is org anized:",
+          "contentHash": "sha256:2c902a0f5faf71bdd1c6ac4b6bffc25be82f9b753371306c72132e65af00e573",
+          "question": "Look over the bibliography. “The New York Public Library’ s Recommended Reading List.” Amazing Space. New York: New York Public Library & St ones ong, 1997: 182. Information in a bibliography is organized:",
           "choices": [
             "alphabetically by the author’s last name",
             "alphabetically by chapter title",
-            "num er ically by copyright date",
+            "num erically by copyright date",
             "alphabetically by publish ing company"
           ],
           "correct": 0,
@@ -48621,8 +48621,8 @@
                 "reason": "\"alphabetically by chapter title\" names a different reference feature or study skill than the one described in the prompt."
               },
               {
-                "choice": "num er ically by copyright date",
-                "reason": "\"num er ically by copyright date\" names a different reference feature or study skill than the one described in the prompt."
+                "choice": "num erically by copyright date",
+                "reason": "\"num erically by copyright date\" names a different reference feature or study skill than the one described in the prompt."
               },
               {
                 "choice": "alphabetically by publish ing company",
@@ -48748,10 +48748,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0214",
           "version": 2,
-          "contentHash": "sha256:6790bd23e87696909170f3bec9d838c07f93e3e52805048bf5a37012f524170c",
+          "contentHash": "sha256:82744396d2f525a013beb4c95e10cd50ea626e37c9f91e76e63f0ad5c2017453",
           "question": "If you were given a book on outer space, where would you look for cannibal galaxies in the glossary?",
           "choices": [
-            "u nder the “C” section",
+            "under the “C” section",
             "under the “G” section",
             "under the “B” section",
             "under the space section"
@@ -48761,7 +48761,7 @@
             "correct": "Answer: under the “G” section. A glossary is an alphabetical list of terms, so you look for a word based on the first letter of that word.",
             "incorrect": [
               {
-                "choice": "u nder the “C” section",
+                "choice": "under the “C” section",
                 "category": "alphabetical order error",
                 "reason": "Even though 'cannibal' starts with 'C', the question asks to find the term 'cannibal galaxies'. In a glossary, you look for the first letter of the term you are researching, which is 'C', but the choice provided is misspelled and formatted incorrectly compared to standard alphabetical organization."
               },
@@ -48896,13 +48896,13 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0216",
           "version": 2,
-          "contentHash": "sha256:4b17e17eabbb43af30277ca9cffbb3f04efaa9808a537aaabb75a3d4bcf5d206",
+          "contentHash": "sha256:d295318dd216f72ca0f7b555c92dbef1607f30ca407dfc6460fc7f1e8d5dd2bc",
           "question": "Your teacher gives you the assignment to read a selection on environmental issues and then answer a specific vocabulary question. After reading the selection, whatwould be the best procedure to find the answer?",
           "choices": [
             "reread the entire selection",
             "choose the answer that makes sense",
             "use prior knowledge from your history class",
-            "look in the selec tion for the vocabulary word(s) mentioned in the question"
+            "look in the selection for the vocabulary word(s) mentioned in the question"
           ],
           "correct": 3,
           "explanation": {
@@ -49192,13 +49192,13 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0220",
           "version": 2,
-          "contentHash": "sha256:4db606ed503c49d39be2205cefe4d2a2f1843d0c629cc6abf45d3aa53a350fec",
+          "contentHash": "sha256:65be6739385a7d99beb42124fdb006698e000286d860ca02bce96f49fc3baea3",
           "question": "Read the passages.",
           "choices": [
             "In Mrs. Weston’s class, the students were engaged in discussion about designing a rubric. Students were brainstorming and asking questions. In the end, they had a scoring rubric designed by them.",
-            "In Mrs. Wilcox’s class, the teacher handed the students a rubric. The rubric was explained and some student s asked questions. In the end, students had a scoring guide. Which of the following is true of statements A and B? A. both classes were engaged in the desig ning process B. both classes received a rubric from the teacher",
+            "In Mrs. Wilcox’s class, the teacher handed the students a rubric. The rubric was explained and some student s asked questions. In the end, students had a scoring guide. Which of the following is true of statements A and B? A. both classes were engaged in the designing process B. both classes received a rubric from the teacher",
             "both classes had a rubric",
-            "b oth classes brainstormed"
+            "both classes brainstormed"
           ],
           "correct": 2,
           "explanation": {
@@ -49210,13 +49210,13 @@
                 "reason": "This is simply one of the original text passages, not a statement comparing both classes."
               },
               {
-                "choice": "In Mrs. Wilcox’s class, the teacher handed the students a rubric. The rubric was explained and some student s asked questions. In the end, students had a scoring guide. Which of the following is true of statements A and B? A. both classes were engaged in the desig ning process B. both classes received a rubric from the teacher",
+                "choice": "In Mrs. Wilcox’s class, the teacher handed the students a rubric. The rubric was explained and some student s asked questions. In the end, students had a scoring guide. Which of the following is true of statements A and B? A. both classes were engaged in the designing process B. both classes received a rubric from the teacher",
                 "category": "not a comparison statement",
                 "reason": "This choice contains the second passage and the question itself, rather than a factual summary statement about the two classes."
               },
               "",
               {
-                "choice": "b oth classes brainstormed",
+                "choice": "both classes brainstormed",
                 "category": "insufficient text evidence",
                 "reason": "While Mrs. Weston's class brainstormed, the text for Mrs. Wilcox's class does not mention brainstorming, so this cannot be true for both."
               }
@@ -49414,8 +49414,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0223",
           "version": 3,
-          "contentHash": "sha256:8e406123ccc38312cce555324496a48e96d1f538ceb8e27de8e9d2022b8a8ef0",
-          "question": "Read the advertisement and answer the question. Do you enjoy kites? If you order right away, we will give you directions f or making kites out of all kinds of ma terials sticks, straws, socks, and more. All of this for only – $10.95. Hurry! Time is limited. Wha is this ad trying to get the reader to do? t",
+          "contentHash": "sha256:b7c71c6c20e88ede57470b548ab4c69c1eb15b71bb32bce0cc03aabb98f5c770",
+          "question": "Read the advertisement and answer the question. Do you enjoy kites? If you order right away, we will give you directions f or making kites out of all kinds of materials sticks, straws, socks, and more. All of this for only – $10.95. Hurry! Time is limited. Wha is this ad trying to get the reader to do? t",
           "choices": [
             "Buy a ready- -fly kite. to",
             "Buy information about sock puppets.",
@@ -49636,8 +49636,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0226",
           "version": 4,
-          "contentHash": "sha256:02ab6320b1b556df5020bbcc84b45061e3325d9627e46e395cfef5739aabef0f",
-          "question": "Read the paragraph from a guide to winter snowmobiling Experience the opportunity of touring Yellowstone National Park on a snowmobile. We will ride from West Yellowstone and make stops at Old Fait hful, Mammoth, and the upper and lower falls. Plan a minimum of 5 hours for this guided tour. Cost is $50.00 per person. Riders can rent or bring his/her own snowmobile. Tickets are a vailable at Basin Motor Sports. We’ll see you on December 1st for a sceni c -filled day. Which of the following best restatesthese directi ons?",
+          "contentHash": "sha256:b81edc1a5328cf15e47ff658eb10887ead8250b06a1d6461822c145abb6e229f",
+          "question": "Read the paragraph from a guide to winter snowmobiling Experience the opportunity of touring Yellowstone National Park on a snowmobile. We will ride from West Yellowstone and make stops at Old Faithful, Mammoth, and the upper and lower falls. Plan a minimum of 5 hours for this guided tour. Cost is $50.00 per person. Riders can rent or bring his/her own snowmobile. Tickets are a vailable at Basin Motor Sports. We’ll see you on December 1st for a scenic -filled day. Which of the following best restatesthese directions?",
           "choices": [
             "The tour takes place on December 1 st, rentals are available, and costs $5 0.00 per person.",
             "The tour is self-guided, costs $50.00 per snowmobile, and lasts about 5 hours.",
@@ -49928,10 +49928,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0230",
           "version": 2,
-          "contentHash": "sha256:b5be13c18ae3100b4cd63bfa5ab21857961b8a72412e4141d041bdc9be082e83",
+          "contentHash": "sha256:8fc67615122000952e6ef1307685cda4739c8fcb71587331daf2373aa4528c24",
           "question": "Read the schedule and answer the question. What show is right after Lizards?",
           "choices": [
-            "Lu nch Break",
+            "Lunch Break",
             "Birds",
             "Snakes",
             "Mammals"
@@ -49941,7 +49941,7 @@
             "correct": "Answer: Birds. In the schedule, the event listed immediately following 'Lizards' is 'Birds'.",
             "incorrect": [
               {
-                "choice": "Lu nch Break",
+                "choice": "Lunch Break",
                 "category": "Incorrect order",
                 "reason": "The lunch break occurs at a different time on the schedule, not directly after the Lizards show."
               },
@@ -50076,8 +50076,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0232",
           "version": 2,
-          "contentHash": "sha256:45cc866d31400a3262f75b19f9806dee52fb7fce5b14baa44e8419db5e26446b",
-          "question": "Read the paragraph. Cells make up all liv ing thing s. There are millions of different types of cells in the human b ody. Scientists believe that f urther study of the make -up of cells can lead to a cure for cancer. Scientists continue their research in laboratoriesevery da y. Which sentence best describes an assumption in this paragraph?",
+          "contentHash": "sha256:b9b046250c6f2ff9d5c5b22a3eba63d24f586b324eb360068018f5a1f84d7ceb",
+          "question": "Read the paragraph. Cells make up all liv ing thing s. There are millions of different types of cells in the human b ody. Scientists believe that further study of the make -up of cells can lead to a cure for cancer. Scientists continue their research in laboratoriesevery da y. Which sentence best describes an assumption in this paragraph?",
           "choices": [
             "Cells make up all living thing s.",
             "Scientists believe that further study of the make-up of cells can lead to a cure for cancer.",
@@ -50519,10 +50519,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0238",
           "version": 2,
-          "contentHash": "sha256:d10e740c404c93dff932fe11942dda4e11c44512e51c5e7e78e202c913dead2d",
+          "contentHash": "sha256:acc8d52d31768f313be234d4569b4513a4a28d83c0af0ac8bb17bd0737d3566c",
           "question": "Look at the chapter summaries. What information is found in Section 3:",
           "choices": [
-            "d efinition of life science",
+            "definition of life science",
             "how to form a hypothesis",
             "definition of temperature",
             "the scientific method"
@@ -50532,7 +50532,7 @@
             "correct": "Answer: definition of temperature. By scanning the chapter summaries for 'Section 3', we can directly match the content listed under that specific heading to the provided choice.",
             "incorrect": [
               {
-                "choice": "d efinition of life science",
+                "choice": "definition of life science",
                 "category": "incorrect section content",
                 "reason": "This topic is not listed under Section 3 in the summaries. Double-check the heading labels to ensure you are pulling information from the correct part of the text."
               },
@@ -50593,8 +50593,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0239",
           "version": 2,
-          "contentHash": "sha256:b12b09daeb35f2d902874d18e7ef9caa697cfb7181e7a144fa6adbca332910fe",
-          "question": "Read the passage. Golf is a great sport. The goal is to hit a ball into eighteen small h oles with the least amount of shots as possible. Talented golfers can usually complete eac h shot with three to five hits, but amateurs like me take nine or ten shots per hole. It’s best to play on a warm, sunny day, but many golfers go out as soon as the snow melts in the spring. It’s unsafe to play golf during a rainstorm because there have been instances where lightning has struck a golfer’s club. Which of the following is a provable fact based on the preceding paragraph?",
+          "contentHash": "sha256:c72e73f68f2d50a4a0fe53e404b5d3aa2d681fd06438f73ddb684ce4689cf8f1",
+          "question": "Read the passage. Golf is a great sport. The goal is to hit a ball into eighteen small h oles with the least amount of shots as possible. Talented golfers can usually complete each shot with three to five hits, but amateurs like me take nine or ten shots per hole. It’s best to play on a warm, sunny day, but many golfers go out as soon as the snow melts in the spring. It’s unsafe to play golf during a rainstorm because there have been instances where lightning has struck a golfer’s club. Which of the following is a provable fact based on the preceding paragraph?",
           "choices": [
             "Goo d golfers never hit more thanthree shots per hole.",
             "There are eighteen holes in a game of golf.",
@@ -51037,8 +51037,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0245",
           "version": 2,
-          "contentHash": "sha256:c2c37c4f09827d007139d070d8622df62a06be4334679269f0f6c881e86ab78a",
-          "question": "Read the paragraph. Scientificand medical research has improved ove r the years. Our use of monkeys, rats, mice, rabbits, and other animals has helped us make numerous adva nces in medicine. We need to continue those practices to find cures and treatme nts for more illnesses. Which person would be most likely to disagree with this paragraph?",
+          "contentHash": "sha256:4ebf6f57277a46744aaaab619befbf2dc3c812a2a6de144e8eb05f9e7ccf9cbb",
+          "question": "Read the paragraph. Scientificand medical research has improved ove r the years. Our use of monkeys, rats, mice, rabbits, and other animals has helped us make numerous advances in medicine. We need to continue those practices to find cures and treatments for more illnesses. Which person would be most likely to disagree with this paragraph?",
           "choices": [
             "a scientific researcher",
             "a forest ranger",
@@ -51259,8 +51259,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0248",
           "version": 2,
-          "contentHash": "sha256:76332570735a2a6e186e779ae0222236441d89a8e3b1b68f63d5ea5e54522da8",
-          "question": "Read the recipe. (Phillips, Felts, Blackman). If you choose to bake this recipe, what alterna tive cooking method is recommended?",
+          "contentHash": "sha256:a459ccfa4aedfce8d5640176d8a140242639513e44e3f0273eb13c1fbdf89b73",
+          "question": "Read the recipe. (Phillips, Felts, Blackman). If you choose to bake this recipe, what alternative cooking method is recommended?",
           "choices": [
             "D utch oven cooking",
             "microwave cooking",
@@ -51554,10 +51554,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0252",
           "version": 2,
-          "contentHash": "sha256:7cb190bb1fc90e143f6591a258f0b74cc05dc746ff9f410d34c04b5523770209",
+          "contentHash": "sha256:ff440b331d2076b834a6b6ccfacaad8a262ef7e8bd615dcefc55d93a060d98e5",
           "question": "Review the Table of Contents. What is Chapter 8 about, and on what page does it begin?",
           "choices": [
-            "Hered ity, Evolution and Classification, Page 102",
+            "Heredity, Evolution and Classification, Page 102",
             "The History of Life on Earth, Page 174",
             "The Study of Living Things, Page",
             "The Evolution of Living Things, Page 148"
@@ -51567,7 +51567,7 @@
             "correct": "Answer: The History of Life on Earth, Page 174. By scanning the list for 'Chapter 8', you can find the specific title and the corresponding page number listed directly next to it.",
             "incorrect": [
               {
-                "choice": "Hered ity, Evolution and Classification, Page 102",
+                "choice": "Heredity, Evolution and Classification, Page 102",
                 "category": "incorrect chapter selection",
                 "reason": "This title refers to a different chapter in the book. Always double-check that the chapter number you find matches the one requested in the question."
               },
@@ -51702,10 +51702,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0254",
           "version": 2,
-          "contentHash": "sha256:434a4f4bd01b43e177ea913a0d1d4f4a508ad05afac25054c4c8f60edd2477e1",
+          "contentHash": "sha256:6eaa43b0c83c2b0432b797d6b0238df43faa6101c7332ec7574c1499223c9639",
           "question": "After reading a story in your language textbook, you need to find the definitions for several vocabulary words in the story. Where would be the best place to look?",
           "choices": [
-            "d ictionary",
+            "dictionary",
             "glossary",
             "thesaurus",
             "encyclopedia"
@@ -51715,7 +51715,7 @@
             "correct": "Answer: glossary. A glossary is a small list at the back of a textbook that defines specific words found within that book.",
             "incorrect": [
               {
-                "choice": "d ictionary",
+                "choice": "dictionary",
                 "category": "broad reference tool",
                 "reason": "While a dictionary defines words, a textbook glossary is specifically curated for the words in your current book, making it the most direct source."
               },
@@ -51850,10 +51850,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0256",
           "version": 2,
-          "contentHash": "sha256:63f6f471c30238385fb120495c6aed85b161995498cbc3e62962b0c02ac570d8",
+          "contentHash": "sha256:38b7ae36e2126f52391298126de71f88cbbbe08ff78c15c5c9ece82eafe63ff4",
           "question": "Read the sentences. • Earthquakes can cause massive destruction. • Earthquakes have killed people. • Earthquakes are unpredictable. • Earthquakes have caused train wrecks and car accidents. Which opinion can be formed based on these facts?",
           "choices": [
-            "Ear thquakes are frightening.",
+            "Earthquakes are frightening.",
             "Earthquakes are scheduled.",
             "Earthquakes are fun.",
             "Earthquakes are measured on a scientific scale."
@@ -52738,8 +52738,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0268",
           "version": 2,
-          "contentHash": "sha256:40f352aa8e1696f7fc7a590c622ea4d9147fc0b2b79c7e415a6d929defb745e8",
-          "question": "Read the following directions and answer the question. What should you do after you read each question caref ully?",
+          "contentHash": "sha256:60f30ce310968f27561ae2a2b0dff687053c809d2caf19e88e81e4765e9c414d",
+          "question": "Read the following directions and answer the question. What should you do after you read each question carefully?",
           "choices": [
             "Hand in your test to your teacher.",
             "Read each question carefully.",
@@ -53255,8 +53255,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0275",
           "version": 2,
-          "contentHash": "sha256:36b2ad3ca978784a618c29eecbc13a6962039056755400b5478809f5d4ef30f0",
-          "question": "Read the label. What do you do before heating contents in the mic rowave?",
+          "contentHash": "sha256:9a348084d1416779566842d0a618130b6f7bc6b1255bdc5125fd2404679309e3",
+          "question": "Read the label. What do you do before heating contents in the microwave?",
           "choices": [
             "cover the dish",
             "rinse the dish",
@@ -53551,10 +53551,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0279",
           "version": 2,
-          "contentHash": "sha256:a22af06ad20da72b3e7fd27cfc11ad116cfd9c8cead11183694f00293fbb9e16",
+          "contentHash": "sha256:86552c14d3b7b402ff0ff19d45b305510ac98c104a509d422293bd90f649ccf2",
           "question": "Read the paragraph. Some people don’t like to use computers. They think that it is too hard and they break down too often. Don’t they realize that computers save us time and effort? Surely these anti-computer people are confused. What assumption is underlying this paragraph?",
           "choices": [
-            "Everyon e should use and appreciate computers.",
+            "Everyone should use and appreciate computers.",
             "Most computers don’t break down.",
             "People are breaking computers.",
             "Computers can help educate students."
@@ -53699,8 +53699,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0281",
           "version": 3,
-          "contentHash": "sha256:d1dde17ee8edccc70e2c38e2a4255574a54c1deb17f568387805e8a297be4db4",
-          "question": "Read the passage. At the very time of the humiliation at Fort Duquesne when George Washington, — Daniel Boone, and General Edward Braddock were defeated by French and Indian foes —a Mohawk Indian was readying himself for a warriors’ dance. The Mohawk — name Warraghiyagey (war--- YAH-gay) painted bright designs on his naked rag ee — chest, stepped into a deerskin kilt adorned with porcupine quills, and do nned a cap topped with a single eagle feather. Tied to his wrists and ankles were dried deer’s hoofs that rattled as he moved. He ate of ceremonial dog meat and threw a red-painted hatchet onto a war post. Soon he would lead the strenuous danc e. From Colonies to Country: 1710 -1791. Book 3, Second Edition. Oxford University Press, 1999. In the last three sentences, to whom does “he” r efer?",
+          "contentHash": "sha256:c3c331595cd055724ba7b9848ca88c61c0a43ae4dfc7b7bcc439780d7cd2654a",
+          "question": "Read the passage. At the very time of the humiliation at Fort Duquesne when George Washington, — Daniel Boone, and General Edward Braddock were defeated by French and Indian foes —a Mohawk Indian was readying himself for a warriors’ dance. The Mohawk — name Warraghiyagey (war--- YAH-gay) painted bright designs on his naked rag ee — chest, stepped into a deerskin kilt adorned with porcupine quills, and donned a cap topped with a single eagle feather. Tied to his wrists and ankles were dried deer’s hoofs that rattled as he moved. He ate of ceremonial dog meat and threw a red-painted hatchet onto a war post. Soon he would lead the strenuous dance. From Colonies to Country: 1710 -1791. Book 3, Second Edition. Oxford University Press, 1999. In the last three sentences, to whom does “he” refer?",
           "choices": [
             "Fort Duquesne",
             "Daniel Boone",
@@ -53773,10 +53773,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0282",
           "version": 2,
-          "contentHash": "sha256:036a13555096768cb7c3b6dc8744c9e5503fff74b45b4c01ff8611f69be91cd7",
+          "contentHash": "sha256:94710dda26da44d096f98b2ad03985c6f92cb4f844d8dfedd4c8876a400a82fe",
           "question": "Read the following paragraph. The spring air was fresh and clean, and the sun was warming the hillside. Flowers were beginning to bloom, forming a rainbow of colors throughout the meadows. All the animals were coming out from their homes to welcome the new morning, and I knew this was going to be a wonderful day as I peeked out of my tent. What canyou generalize about the author’s opinion?",
           "choices": [
-            "The author lives in Calif ornia.",
+            "The author lives in California.",
             "The author is a man.",
             "The author is camping.",
             "The author is tired."
@@ -53786,8 +53786,8 @@
             "correct": "Answer: The author is camping. The mention of the author peeking out of a 'tent' provides direct evidence that they are spending the night in a portable shelter outdoors, which is the definition of camping.",
             "incorrect": [
               {
-                "choice": "The author lives in Calif ornia.",
-                "reason": "\"The author lives in Calif ornia.\" names a different reference feature or study skill than the one described in the prompt."
+                "choice": "The author lives in California.",
+                "reason": "\"The author lives in California.\" names a different reference feature or study skill than the one described in the prompt."
               },
               {
                 "choice": "The author is a man.",
@@ -54660,8 +54660,8 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0294",
           "version": 4,
-          "contentHash": "sha256:dbb493aa27b9dc8d89a3bff8e23ac70d59b44e59d01b981dca7f4b062787a59a",
-          "question": "Read the ragraph. pa School was cancelled during an unexpected snowstorm last May. A) We woke up expecting spring flowers only to find the gardens c overed in a foot of snow. B) The front door was blocked shut by a massive drift that had blown agains t it. C) We re-started the heater, made a batch of hot chocolate, and settled in for the day. D) Last year there was a little snow, but we still had drou ght conditions through the summer. Which sentence does not belong?",
+          "contentHash": "sha256:74c7da6a7f1c8e5af763f49baf4b21af68af848bbc8eac2afb40494aa690a087",
+          "question": "Read the ragraph. pa School was cancelled during an unexpected snowstorm last May. A) We woke up expecting spring flowers only to find the gardens c overed in a foot of snow. B) The front door was blocked shut by a massive drift that had blown agains t it. C) We re-started the heater, made a batch of hot chocolate, and settled in for the day. D) Last year there was a little snow, but we still had drought conditions through the summer. Which sentence does not belong?",
           "choices": [
             "sentence A",
             "sentence B",
@@ -54734,10 +54734,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0295",
           "version": 2,
-          "contentHash": "sha256:f998288566ddbed76ef8392809dff80720e2b20619b3927f3a3256ea969df35c",
+          "contentHash": "sha256:7a3b13c45d8f5bd53dca8ad25a712cc48b24d722fc49739030a8212f3620b74e",
           "question": "Read the paragraph. Schools need to prepare students to be successful, productive citizens in our society. In order for teachers to help students learnthe curriculum and apply it to the real world, they must have the support of parents. Parents are the single mos t important factor in the daily lives of students, and without their help and support of schools, students will not thrive. What does the author want in the paragraph?",
           "choices": [
-            "St udents to work harder.",
+            "Students to work harder.",
             "Parents to get involved.",
             "Teachers to teach better lessons.",
             "Parents to give more money to the schools."
@@ -54747,7 +54747,7 @@
             "correct": "Answer: Parents to get involved. The author explicitly states that teachers must have the support of parents and mentions that without the help and support of parents, students will not thrive.",
             "incorrect": [
               {
-                "choice": "St udents to work harder.",
+                "choice": "Students to work harder.",
                 "category": "misinterpreted main idea",
                 "reason": "The passage focuses on the role of parents in a student's success, rather than blaming the students for needing to work harder."
               },
@@ -54808,10 +54808,10 @@
         {
           "id": "reference-skills-nonfiction-text-features-q0296",
           "version": 2,
-          "contentHash": "sha256:be4c68fb032b52196a1e4555fdcb92d519192671650e2aa3ee641eec222fcecd",
+          "contentHash": "sha256:a701102ba251ee2c73b4e0f54e06ca85e82a40622205d087489e9d73d1f8c0a7",
           "question": "Read the poem and answer the question. I wish for a rainbow to color the sky, My friends would notice as it catches my eye. The colors would be vivid and bright for all to see, I’d walk through the village with it following me. Tall trees may stretch to amazing heights, But keep my rainbow in perfect sight. My rainbow would bring all who can see a moment of pleasure, Which everyone would be lucky to have such a treasure. My rainbow, yousee, is a wonderful treat, My wish, my hope is for something special to meet. The lines of this poem are an example of:",
           "choices": [
-            "p ersonification",
+            "personification",
             "simile",
             "rhyme",
             "metaphor"
@@ -54821,7 +54821,7 @@
             "correct": "Answer: rhyme. This poem uses rhyme because the ending words of the lines, such as 'sky/eye', 'see/me', 'heights/sight', and 'treat/meet', share the same final vowel and consonant sounds.",
             "incorrect": [
               {
-                "choice": "p ersonification",
+                "choice": "personification",
                 "category": "incorrect literary device",
                 "reason": "Personification is when you give human qualities to non-human objects. This poem focuses on the sounds at the ends of lines rather than giving the rainbow human traits."
               },

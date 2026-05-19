@@ -133,6 +133,20 @@ test('learner state repository saves and clears privacy preferences in learner s
     errorTelemetryEnabled: false,
     performanceTelemetryEnabled: false,
     experimentParticipationEnabled: false,
+    optionalPersonalizationEnabled: false,
+    missionReminderPreferences: {
+      enabled: false,
+      channels: [],
+      quietHours: {
+        enabled: true,
+        start: '20:00',
+        end: '07:00'
+      },
+      frequencyCap: {
+        count: 0,
+        windowHours: 24
+      }
+    },
     updatedAt: '',
     updatedBy: '',
     policyVersion: 1

@@ -3460,10 +3460,10 @@
         {
           "id": "reading-comprehension-analogies-q0073",
           "version": 3,
-          "contentHash": "sha256:c831a622d64c3737ce93cd6804b38a70bdaa664dadc066c623e1197c5a257a9c",
+          "contentHash": "sha256:bf2b40ad476fea4a5b117304b6d8c7f8b1268101ab6ce3f0e92628c4d72a4c55",
           "question": "Book is to teacher as bus is to _____________.",
           "choices": [
-            "d octor",
+            "doctor",
             "dentist",
             "driver",
             "pilot"
@@ -3473,7 +3473,7 @@
             "correct": "Answer: driver. Analogies describe relationships between pairs of words. A book is a tool used by a teacher to perform their job; similarly, a bus is the tool or vehicle used by a driver to perform their job.",
             "incorrect": [
               {
-                "choice": "d octor",
+                "choice": "doctor",
                 "category": "mismatched role",
                 "reason": "While a doctor is a professional, they do not primarily operate or use a bus as part of their daily work in the same way a teacher uses a book."
               },
@@ -5496,10 +5496,10 @@
         {
           "id": "reading-comprehension-categorizing-q0147",
           "version": 3,
-          "contentHash": "sha256:f57bf5846112c480facd89d91132391d30d988f9e1b71104eb473a156345331b",
+          "contentHash": "sha256:095a57f1eba7a53d7d0bf18f0b0ec7c1a50e74ebf87b8fbfbd8ca54cc01cc5ea",
           "question": "Read the list of words and answer the question. Which category title best fits the list of words in G roup A?",
           "choices": [
-            "Fu rniture",
+            "Furniture",
             "Communication devices",
             "Writing Supplies",
             "Buildings"
@@ -5509,7 +5509,7 @@
             "correct": "Answer: Writing Supplies. A pencil, eraser, and highlighter are all tools used specifically for writing or editing documents, which makes 'Writing Supplies' the most accurate category.",
             "incorrect": [
               {
-                "choice": "Fu rniture",
+                "choice": "Furniture",
                 "category": "category classification error",
                 "reason": "Furniture includes items like chairs, tables, and beds. While you might use a pencil at a desk, a pencil itself is a tool, not a piece of furniture."
               },
@@ -5570,10 +5570,10 @@
         {
           "id": "reading-comprehension-categorizing-q0199",
           "version": 3,
-          "contentHash": "sha256:1aa6c52047490eb930bb8215d70c9df4711b21d087d17bd9fbae526c6f5ad601",
+          "contentHash": "sha256:9de2dd86cc99bd73268f2aba5a975cd002d299cd26805890c679c16b9c66a322",
           "question": "Read the list of words and answer the question. Which category title best fits the list of words in G roup B?",
           "choices": [
-            "Fu rniture",
+            "Furniture",
             "Communication devices",
             "Writing Supplies",
             "Buildings"
@@ -6847,8 +6847,8 @@
         {
           "id": "reading-comprehension-cause-effect-q0160",
           "version": 3,
-          "contentHash": "sha256:e4d8543b57bbbf39478cad28874812c6c542d3a837b91318445862fcb789582b",
-          "question": "Read the story and answer the question. The golden lion tamarin lives in a small area of Brazil. These small mo nkeys are in danger of becoming extinct. The forest where they live is shrinking fast. As m ore people move into this area, trees are cut down to make room for cities and farms. The golden lion tam arin is also disappearing because they have been captured by people. People think they are cute and wan t them as pets. What is causing the golden lion tamaris to become endangered?",
+          "contentHash": "sha256:23da48c3f459d1a8bbb7db1cb48fd78fb02e2d27c4a5de50cf43a489a9249ede",
+          "question": "Read the story and answer the question. The golden lion tamarin lives in a small area of Brazil. These small monkeys are in danger of becoming extinct. The forest where they live is shrinking fast. As m ore people move into this area, trees are cut down to make room for cities and farms. The golden lion tamarin is also disappearing because they have been captured by people. People think they are cute and wan t them as pets. What is causing the golden lion tamaris to become endangered?",
           "choices": [
             "They eat the leaves on the trees that are being cut down.",
             "They ate too many bananas.",
@@ -7213,10 +7213,10 @@
         {
           "id": "reading-comprehension-cause-effect-q0100",
           "version": 3,
-          "contentHash": "sha256:d746453eb088b02c36b93faed5b90aa55d1fcadd070262c19fce7f00270c0a34",
-          "question": "Look at the illustratio n below. The girls are excited because:",
+          "contentHash": "sha256:816b93a2dd447a2311315786ce1f578654202e92a43a3b7e395c907c2e5ed503",
+          "question": "Look at the illustration below. The girls are excited because:",
           "choices": [
-            "Educ ation opens doors.",
+            "Education opens doors.",
             "They don’t have homework.",
             "They like their gr aduatio n gowns.",
             "Their families are proud."
@@ -7286,8 +7286,8 @@
         {
           "id": "reading-comprehension-cause-effect-q0154",
           "version": 3,
-          "contentHash": "sha256:0124e8046604f3d06652cc6acd49a731e58bb07e9408139e120b5ef0aa024769",
-          "question": "Read the passage and answer the question. The football game started earlier last Saturday. The games us ually start at 7:00 p.m. Now that it is getting closer to winter, it is nice that the games are earlier in the day, so we don’t have to wear our heavy coats. Why are football games starting earlier?",
+          "contentHash": "sha256:2b84421db130363babcceece6d34a80d758da82b66c44e98f0bc8abdf48f159d",
+          "question": "Read the passage and answer the question. The football game started earlier last Saturday. The games usually start at 7:00 p.m. Now that it is getting closer to winter, it is nice that the games are earlier in the day, so we don’t have to wear our heavy coats. Why are football games starting earlier?",
           "choices": [
             "It is getting warmer.",
             "The players are ontime.",
@@ -11304,8 +11304,8 @@
         {
           "id": "reading-comprehension-fact-opinion-q0121",
           "version": 3,
-          "contentHash": "sha256:7854cf3e57b9c6c0eb1554f697d8c6862efb9dfb333f3a09d50e8e8535c5210a",
-          "question": "Read the following sentences. Mrs. Smith, who has taught j unior high school ma th for the past 30 years, received a certificate of appreciation h onoring her for her years of serv ice. Which sentence is the most objective, fair, clear, and accurate?",
+          "contentHash": "sha256:e5dfd709e059eb8c75cb971e8ba716234ed4d0dfc80a6b48fc261944df8807cc",
+          "question": "Read the following sentences. Mrs. Smith, who has taught junior high school ma th for the past 30 years, received a certificate of appreciation honoring her for her years of service. Which sentence is the most objective, fair, clear, and accurate?",
           "choices": [
             "She is the best teacher in junior high school.",
             "Math is a difficult subject to teach.",
@@ -11525,13 +11525,13 @@
         {
           "id": "reading-comprehension-fact-opinion-q0139",
           "version": 5,
-          "contentHash": "sha256:b64a85ab981f12f6049804895c1e785f3875e97c4779bf7dbf96b633ed9fe195",
-          "question": "Read the passage. Two minutes later, a harsh light was playing from the bu lbs that ran the length of the roof upon the grand chaos the children’s visits had made, and on the fading treasures of the factory. Satisfied, the crooks dashed forward to the partition. There were f ive of them. Fernand and G aby had no difficulty in picking out Pepe and Ugly in their leat her jackets, and a little behind them, as though rat her unsure of himself, the tall shape of Roublot. The other two wore heavy over coats, the collars turned up so tha t their faces could not be seen prop erly. How did Fernand and Gaby identify the two crooks to which they could not put names?",
+          "contentHash": "sha256:0957f76ba1bcb304d3034f1ecfa96578ae6df5c76cfa12170e72a29193f7ca4f",
+          "question": "Read the passage. Two minutes later, a harsh light was playing from the bulbs that ran the length of the roof upon the grand chaos the children’s visits had made, and on the fading treasures of the factory. Satisfied, the crooks dashed forward to the partition. There were f ive of them. Fernand and G aby had no difficulty in picking out Pepe and Ugly in their leat her jackets, and a little behind them, as though rat her unsure of himself, the tall shape of Roublot. The other two wore heavy over coats, the collars turned up so tha t their faces could not be seen prop erly. How did Fernand and Gaby identify the two crooks to which they could not put names?",
           "choices": [
             "by their bulky coats and hide faces",
-            "by the extreme diff erence in their heights",
+            "by the extreme difference in their heights",
             "by the harsh light playing from the bulbs",
-            "the children poin ted them out"
+            "the children pointed them out"
           ],
           "correct": 0,
           "explanation": {
@@ -11539,7 +11539,7 @@
             "incorrect": [
               "",
               {
-                "choice": "by the extreme diff erence in their heights",
+                "choice": "by the extreme difference in their heights",
                 "category": "unsupported detail",
                 "reason": "The text does not mention the heights of the crooks; looking for this detail leads to an incorrect inference not present in the reading passage."
               },
@@ -11549,7 +11549,7 @@
                 "reason": "While the light was present in the room, it provided the visibility for the entire scene rather than being the specific tool used to distinguish these two unidentified crooks."
               },
               {
-                "choice": "the children poin ted them out",
+                "choice": "the children pointed them out",
                 "category": "contradictory information",
                 "reason": "The passage mentions the 'children's visits' in the past tense regarding the state of the factory, but it does not say the children were present to point anyone out."
               }
@@ -11747,10 +11747,10 @@
         {
           "id": "reading-comprehension-fact-opinion-q0101",
           "version": 3,
-          "contentHash": "sha256:ecef567d56f9eaa888f695c4d854de4b93fcc81bb79fd26a5e950a51da8faccf",
+          "contentHash": "sha256:c70680d92ca7f467c8848be7c569403d306d28675103e46898c402fe18a5c03d",
           "question": "Read the passage. One is more likely to be killed by another hunter than a bear. You should have fear when out in the wilderness. That is the wildlife’s home, and they did not invite you, that is the risk you take for being out there. I have nothing against hunters; I used to be one myself. But, I am against unnecessary slaughter of wildlife. To me it is the true act of a coward. In the author’s opinion, people should:",
           "choices": [
-            "r esp ect the wilderness as the wildli fe’s home",
+            "respect the wilderness as the wildlife’s home",
             "fear bears more than other hunters",
             "dress warmly while hunting",
             "promote unnecessary slaughter of wildlife"
@@ -11895,10 +11895,10 @@
         {
           "id": "reading-comprehension-fact-opinion-q0142",
           "version": 3,
-          "contentHash": "sha256:d60097adac60643f6d48cbd7308e09d652ae5f251cf689060379aecefc7a6b9d",
-          "question": "Read the passage. “In Idaho Falls live two awesome ladies. Several years ago, it was the good fortune of May and Phyllis to come into some unexpected money. Not only theirs but also many others lives have beentouched by that good fortune.”-The Idaho News mailbox P.O. Box 1800, Idah o Falls, Idah o83403. Which word shows opinion in this passage?",
+          "contentHash": "sha256:015526ae38a88ff0b5dbc349abb7a5f4154ab8f7a6366f806ea913050e4aad4e",
+          "question": "Read the passage. “In Idaho Falls live two awesome ladies. Several years ago, it was the good fortune of May and Phyllis to come into some unexpected money. Not only theirs but also many others lives have beentouched by that good fortune.”-The Idaho News mailbox P.O. Box 1800, Idaho Falls, Idaho83403. Which word shows opinion in this passage?",
           "choices": [
-            "f ortune",
+            "fortune",
             "money",
             "awesome",
             "unexpected"
@@ -11908,7 +11908,7 @@
             "correct": "Answer: awesome. An opinion is a belief, feeling, or judgment that cannot be proven true or false. Describing someone as 'awesome' reflects the writer's personal positive view rather than a factual statement.",
             "incorrect": [
               {
-                "choice": "f ortune",
+                "choice": "fortune",
                 "category": "factual noun",
                 "reason": "The word 'fortune' refers to wealth or luck, which is a noun in the passage. It describes what the people received, not an opinion about it."
               },
@@ -15179,8 +15179,8 @@
         {
           "id": "reading-comprehension-inference-q0058",
           "version": 3,
-          "contentHash": "sha256:1ecea87fd338b2050ab07e821fb1251cea008e5e56b35ac3056df1be64058d2d",
-          "question": "Identify the correct suffix. h appy, h app ier, h app i___",
+          "contentHash": "sha256:8026a3c7af546654dc06388faafcd7aaa6f36cc8c38bedb79c420d93e917c072",
+          "question": "Identify the correct suffix. happy, h app ier, h app i___",
           "choices": [
             "ly",
             "er",
@@ -15475,8 +15475,8 @@
         {
           "id": "reading-comprehension-inference-q0124",
           "version": 3,
-          "contentHash": "sha256:ebd82f9de191f854175519cc7a7f7da05f3399d27e8951a09018e8f299bd1700",
-          "question": "Read the passage. In 186 2, David Glasgow Farragut was the commander of a fleet of 17 ships sent to blockade the mouth of the Mississippi River. He set out to capture New Orleans, the South’s largest city and busiest port. To get to the city Admiral Farragut had to pass two heavily armed Confederate forts. In addition, a chain of hulks (old ships) was laid across the Mississippi to keep Yankee ships out. “Nothing afloat could pass the forts,” said a citizen of New Orleans. Farragut’s fleetheaded up the river. The Confederates opened fire. One ship was hit 42 times. Farragut’s flagship was set ablaze. “The passing of the forts…was one of the most awful sights and events I ever saw… [it] “Ruler of the P resident’s Navy”, Oxford University Press, O xford, New York, 19 99. seemed as if all the artillery of heaven w were playing upon the earth,” said Farragut. That didn’t stop him. His sailors put out the fires and got the ships moving. What was laid across the Mississippi to keep the Yankee ships out?",
+          "contentHash": "sha256:17928ee23dc28f33517e4d163fb3a63016b7e4d727f0d2a9d6fd261827637151",
+          "question": "Read the passage. In 186 2, David Glasgow Farragut was the commander of a fleet of 17 ships sent to blockade the mouth of the Mississippi River. He set out to capture New Orleans, the South’s largest city and busiest port. To get to the city Admiral Farragut had to pass two heavily armed Confederate forts. In addition, a chain of hulks (old ships) was laid across the Mississippi to keep Yankee ships out. “Nothing afloat could pass the forts,” said a citizen of New Orleans. Farragut’s fleetheaded up the river. The Confederates opened fire. One ship was hit 42 times. Farragut’s flagship was set ablaze. “The passing of the forts…was one of the most awful sights and events I ever saw… [it] “Ruler of the P resident’s Navy”, Oxford University Press, Oxford, New York, 19 99. seemed as if all the artillery of heaven w were playing upon the earth,” said Farragut. That didn’t stop him. His sailors put out the fires and got the ships moving. What was laid across the Mississippi to keep the Yankee ships out?",
           "choices": [
             "a chain of cannon balls",
             "a chain of old ships",
@@ -15549,11 +15549,11 @@
         {
           "id": "reading-comprehension-inference-q0129",
           "version": 3,
-          "contentHash": "sha256:4d26706d44ee4141cd7f9d4d39a89decd19117d12dee70a0b010cae22b4797f8",
+          "contentHash": "sha256:b9dce7688a04d9b437290fa3f0b77be8569ffa5e0fbc8c5ec1d33f5ac95fed2d",
           "question": "Read the following definitions. Ivy – a climbing vine with a woody stem and green leaves. Spruce – an evergreen tree with slender needles. Crocus – a spring blooming plant of the iris family with grass-like leaves and yellow, purple, or white flowers. Gladiolus – an iris -like plant with sword-like leaves and tall spikes of funnel- shaped flowers. Moss – a very small green plant that grows in velvety clusters on rocks and moist ground. Which plants are most logically grouped together?",
           "choices": [
             "gladiolus, crocus",
-            "ivy, g ladiolus",
+            "ivy, gladiolus",
             "spruce, moss",
             "ivy, moss"
           ],
@@ -15563,7 +15563,7 @@
             "incorrect": [
               "",
               {
-                "choice": "ivy, g ladiolus",
+                "choice": "ivy, gladiolus",
                 "category": "mismatched plant types",
                 "reason": "An ivy is a woody climbing vine, while a gladiolus is a flowering plant with sword-like leaves. They have very different growth habits and structures."
               },
@@ -15623,8 +15623,8 @@
         {
           "id": "reading-comprehension-inference-q0130",
           "version": 3,
-          "contentHash": "sha256:6a91401d31a77196a87918a7e8b6b05471df05ff19b143b1fae95b42e399ac00",
-          "question": "Look at the definitions. Dormitory – a room or building with many r ooms for sleeping and living in. Synagogue – a building or plac e for religious study. Igloo – a hut, usually dome-shaped and mad e from blocks of packed sno w. Apartment – a group of rooms to live in, especially one of a numb er in an apartment house. Campe r – a motor vehicle or trailwerequipped for ca mping out. Which defined places are most logically grouped to gether?",
+          "contentHash": "sha256:8218a14225b4d20037b380ff0fb6dfa6ef0ee4d7497ada1582c565b310796866",
+          "question": "Look at the definitions. Dormitory – a room or building with many rooms for sleeping and living in. Synagogue – a building or place for religious study. Igloo – a hut, usually dome-shaped and mad e from blocks of packed snow. Apartment – a group of rooms to live in, especially one of a numb er in an apartment house. Campe r – a motor vehicle or trailwerequipped for camping out. Which defined places are most logically grouped to gether?",
           "choices": [
             "apartment, camper",
             "synagogue, dormitory",
@@ -15989,8 +15989,8 @@
         {
           "id": "reading-comprehension-inference-q0156",
           "version": 3,
-          "contentHash": "sha256:2ec52c3dc3b9882fe0e13d91309d5f99884dee1c1695a29c5be1c5c3a0ffc3ca",
-          "question": "Read the story below. Robbie and his best friend, John, like to solve mysteries. One day, they went to the library to get some books to read. In the library, the re was a marble statue of a lady. On her left hand, there was a large, beautiful diamon d ring. Everyone thought the r ing was cool. On their way back out of the library, they noticed the ring was missing. Which title best fits the story?",
+          "contentHash": "sha256:49bcb21bbbc5f066d19617ffc2cc14400c08cc20c10fce4acb68018c051f2bad",
+          "question": "Read the story below. Robbie and his best friend, John, like to solve mysteries. One day, they went to the library to get some books to read. In the library, the re was a marble statue of a lady. On her left hand, there was a large, beautiful diamond ring. Everyone thought the r ing was cool. On their way back out of the library, they noticed the ring was missing. Which title best fits the story?",
           "choices": [
             "Polly’s Great Escape",
             "The Case of the Missing Diamond Ring",
@@ -16063,8 +16063,8 @@
         {
           "id": "reading-comprehension-inference-q0161",
           "version": 4,
-          "contentHash": "sha256:493bb160c696fee3426859a4195a8d33251f06ad22deefcfa52550ec084343ff",
-          "question": "Read the list. Raccoo n Antelope Moose Deer Which of the following animals does not belong in the above group?",
+          "contentHash": "sha256:d05785be463bca03953525cad22200c6b7e40c7817e6ac2e7aee0bbc1dc4a8ec",
+          "question": "Read the list. Raccoon Antelope Moose Deer Which of the following animals does not belong in the above group?",
           "choices": [
             "raccoon",
             "deer",
@@ -16211,8 +16211,8 @@
         {
           "id": "reading-comprehension-inference-q0167",
           "version": 3,
-          "contentHash": "sha256:10454d9a227acdc1c907d91224df165b6875a4b135ec1c54c010a3f44c59eb20",
-          "question": "Read the following birthd ay announcements: 1. Wednesday – Birthday Party – 600 pm 2. Wednesday: Birthday Party: 6,00 p.m. 3. Wednesday, Birthday Party, 6:00 p.m. 4. Wednesday, Birthday, Party, 6:00 p.m. Which announcement is written in the correct format?",
+          "contentHash": "sha256:8ea5b7ac85d566ea6be660e1bf6ffd52a2fa36257d8de09841d9ddd1fcf190bd",
+          "question": "Read the following birthday announcements: 1. Wednesday – Birthday Party – 600 pm 2. Wednesday: Birthday Party: 6,00 p.m. 3. Wednesday, Birthday Party, 6:00 p.m. 4. Wednesday, Birthday, Party, 6:00 p.m. Which announcement is written in the correct format?",
           "choices": [
             "1",
             "2",
@@ -16433,8 +16433,8 @@
         {
           "id": "reading-comprehension-inference-q0177",
           "version": 5,
-          "contentHash": "sha256:ab28d1aa7b4e947f10b069a66065c5adc2de89b887ccefaec4cb7da6d75a320a",
-          "question": "Identify two words that are synonyms in the following paragr aph. On Saturday, we went to the racetrack to see the horses. When the race began, the horses started to gallop. By the end of the race, the y were making a dash for the finish line.",
+          "contentHash": "sha256:7939340a67fad6116273cf32b433012f6fe8f244edebdbaa4a1ad8616975e255",
+          "question": "Identify two words that are synonyms in the following paragraph. On Saturday, we went to the racetrack to see the horses. When the race began, the horses started to gallop. By the end of the race, the y were making a dash for the finish line.",
           "choices": [
             "gallop/dash",
             "horses/race",
@@ -16507,12 +16507,12 @@
         {
           "id": "reading-comprehension-inference-q0181",
           "version": 3,
-          "contentHash": "sha256:e1a1ed3223cf9a67916a5cdae8503f5b1c80582e81ac983abd41b12f5a12a50b",
-          "question": "Read the following sentences. As we were walking through the forest we saw many beautiful wildflowers. We decided to pick some of them to take home so our p leasure would continue. What is the meaning of pleasure?",
+          "contentHash": "sha256:099e72cf5f2747439d40bba737df5459cb647a50b4889588bcc04b55d9b6c1b1",
+          "question": "Read the following sentences. As we were walking through the forest we saw many beautiful wildflowers. We decided to pick some of them to take home so our pleasure would continue. What is the meaning of pleasure?",
           "choices": [
             "frustration",
             "depression",
-            "blo ssom",
+            "blossom",
             "enjoyment"
           ],
           "correct": 3,
@@ -16530,7 +16530,7 @@
                 "reason": "Depression is a state of deep sadness. Because the characters chose to pick flowers to continue their experience, they are feeling happiness, not sadness."
               },
               {
-                "choice": "blo ssom",
+                "choice": "blossom",
                 "category": "confusing related terms",
                 "reason": "A blossom is a flower, which is an object in the sentence, but it is not an emotion or a state of being like 'pleasure'."
               },
@@ -17022,8 +17022,8 @@
         {
           "id": "reading-comprehension-inference-q0248",
           "version": 3,
-          "contentHash": "sha256:0bf7eef0e9c4722b9bcea747d93285796f8af4788cc5760d649d9d8cfec6d131",
-          "question": "Read the passage. Scientists are still not able to predict ear thquakes, but they are continuing to discover various indicators of possible earthquakes. Scientist using a Richter Scale, which gives a numerical indication of the severity of the earthquake, typically measure earthquakes. This passage is most likely from a:",
+          "contentHash": "sha256:36efa87283aaad1ba58aba2b8f42019bdd81efd3e3ea3891a0e875b9312c2e2c",
+          "question": "Read the passage. Scientists are still not able to predict earthquakes, but they are continuing to discover various indicators of possible earthquakes. Scientist using a Richter Scale, which gives a numerical indication of the severity of the earthquake, typically measure earthquakes. This passage is most likely from a:",
           "choices": [
             "jo urnal",
             "novel",
@@ -29588,13 +29588,13 @@
         {
           "id": "reading-comprehension-main-idea-supporting-details-q0185",
           "version": 3,
-          "contentHash": "sha256:02e8dde0494ff73106c6940a4fc02505517d1cd2e83e29a13ddd76e888b56d48",
+          "contentHash": "sha256:9dffb4aee44bf2f8716ebb1c9a8374b67d6cccba91a514ac4fda8958254f5e38",
           "question": "Read the magazine article and answer the question. The Importance of Reading Students in many of the local schools have discovered a new program to help them become better readers. This program is called Accelerated Reader, and it has shown to improve the reading score of students in all grades. Recent studies have shown that many students are not reading at grade level, and teachers were looking for a way to help them catch up and improve. Accelerated Reader helps students by encouraging one thing – practice, practice, practice! By reading more and practicing their skills, students are able to become better readers. What is the main idea of this magazine article?",
           "choices": [
             "Students need to improve their reading ability by practicing reading.",
             "Students can learn to read in high school if they have the right books.",
             "Reading is a popular pastime for many people.",
-            "Readin g is usually taught in first grade."
+            "Reading is usually taught in first grade."
           ],
           "correct": 0,
           "explanation": {
@@ -29612,7 +29612,7 @@
                 "reason": "While reading is popular, the article is specifically about a school program designed to help students improve their reading levels through practice."
               },
               {
-                "choice": "Readin g is usually taught in first grade.",
+                "choice": "Reading is usually taught in first grade.",
                 "category": "irrelevant information",
                 "reason": "The text focuses on a program for multiple grades, not on when reading is typically first introduced in school."
               }
@@ -29662,12 +29662,12 @@
         {
           "id": "reading-comprehension-main-idea-supporting-details-q0186",
           "version": 3,
-          "contentHash": "sha256:cdcb02da97e0e5a451fd59090315127cfe4ffffef9ff76c03bf97702727c88f6",
+          "contentHash": "sha256:392fce53fcfd5b659e6a0cc108a5610c0ef7992bd8bc521fc73ce994fe63a3e2",
           "question": "Read the passage. Thursday, I went Trick-or-Treating. I love to get a whole sack full of candy. It’s fun to see all of the different costumes. Halloween is my favorite holiday. It is so much fun to dress up and then meet my friends. What is the main idea of this passage?",
           "choices": [
             "Halloween is my favorite holiday.",
             "I love to get a whole sack full of candy.",
-            "It’s fun to see the different c ostumes.",
+            "It’s fun to see the different costumes.",
             "Dressing up and meeting my friends is fun."
           ],
           "correct": 0,
@@ -29681,7 +29681,7 @@
                 "reason": "This is a specific detail about candy. While it describes a part of the experience, it does not explain the overall theme of the passage."
               },
               {
-                "choice": "It’s fun to see the different c ostumes.",
+                "choice": "It’s fun to see the different costumes.",
                 "category": "supporting detail",
                 "reason": "This sentence provides an example of what makes the holiday enjoyable, but it is just one small piece of information rather than the big picture."
               },
@@ -29736,8 +29736,8 @@
         {
           "id": "reading-comprehension-main-idea-supporting-details-q0187",
           "version": 3,
-          "contentHash": "sha256:fc70c9384d9af5ada4c078852104200164f84c991294a6677c193daefaa3ab61",
-          "question": "Read the story and answer the question. Lynn was a very determined girl, and she loved the idea of growing her own herb garden. She bought the seeds and supplies to start an herb garden in small pots, and then she planned to plant them in the ground after they got bigger. Her mother helped her set out all of the supplies and read the directions to get started. First, Lynn put pottin g soil in each of the six planting pots. Next, s he planted the seeds in each of the pots and w atered them. After one week of se tting the pots in the kitchen window to get sunlight and watering them, Lynn c ould start to see s ome of the herbs growing out of the soil. She couldn’t wait to tell her friends about her new h erb garden. She ran to the phone to call her best friend, Sally, and tell her all about it. Suddenly, Lynn heard a loud crash, and her little brother came running out of the kitchen with soil allover his head! What most likely happen ed?",
+          "contentHash": "sha256:3e1866e1bc9386b9724a64b94685d15ca9e9c27be4d4c7100f8b1b05a0fc8552",
+          "question": "Read the story and answer the question. Lynn was a very determined girl, and she loved the idea of growing her own herb garden. She bought the seeds and supplies to start an herb garden in small pots, and then she planned to plant them in the ground after they got bigger. Her mother helped her set out all of the supplies and read the directions to get started. First, Lynn put potting soil in each of the six planting pots. Next, s he planted the seeds in each of the pots and watered them. After one week of setting the pots in the kitchen window to get sunlight and watering them, Lynn could start to see some of the herbs growing out of the soil. She couldn’t wait to tell her friends about her new herb garden. She ran to the phone to call her best friend, Sally, and tell her all about it. Suddenly, Lynn heard a loud crash, and her little brother came running out of the kitchen with soil allover his head! What most likely happen ed?",
           "choices": [
             "Lynn’s brother came in from playing outside.",
             "Lynn heard a noise from across the street.",
@@ -43264,8 +43264,8 @@
         {
           "id": "reading-comprehension-summarizing-q0190",
           "version": 3,
-          "contentHash": "sha256:84e96ccb2bb7eb82fb44785e573d4bcda7029ca9e46dee4c52150bda69fd7ec7",
-          "question": "Read the story and answer the question. On Sunday morning, Mark went fishing at Henry’s Lake. His grandfat her and dad went with him. They took the boat to go fishing. Mark and Grandpa unloaded the boat and hooked it to the dock nearthe western shore. Mark’s dad parked the car. When Mark’s dad arrived at the dock after parking, they all jumped into the boat and headed off to catch some fish. Mark caught the first fish. An hour later Mark’s grandpa hooked a fish. When he was reeling the fish in, he suddenly lost his balance and fell into the lake. Mark jumped in and rescued his grandpa. When did Grandpa fall into the water?",
+          "contentHash": "sha256:26995a35a271d5aebcbc2dbcdd9280a713d995c4fe39fddaeca101e4a29f0748",
+          "question": "Read the story and answer the question. On Sunday morning, Mark went fishing at Henry’s Lake. His grandfather and dad went with him. They took the boat to go fishing. Mark and Grandpa unloaded the boat and hooked it to the dock nearthe western shore. Mark’s dad parked the car. When Mark’s dad arrived at the dock after parking, they all jumped into the boat and headed off to catch some fish. Mark caught the first fish. An hour later Mark’s grandpa hooked a fish. When he was reeling the fish in, he suddenly lost his balance and fell into the lake. Mark jumped in and rescued his grandpa. When did Grandpa fall into the water?",
           "choices": [
             "He fell in when he was standing on the shore.",
             "He fell in as he was jumping into the boat.",
@@ -43560,12 +43560,12 @@
         {
           "id": "reading-comprehension-summarizing-q0194",
           "version": 3,
-          "contentHash": "sha256:815f6eec3788992de544ecac18c68d37e911fd152a08aa9aa6c950546bf4f8fb",
-          "question": "Read the passage. After Joel finished his run, he went and recorded his time in his log. It was his best time he had recorded sinc e his last run in October. Since then, he wondered if he was not in as good of shape becau se his times seemed to be longer. After today, he would have to pay close attention to whathe was doing differently to make sure he was running as fast as he could. How would youparaphrase Joel’s events?",
+          "contentHash": "sha256:481349c0196e0cf2f00a21471fe481cc828376e4a8fb6c000586bc29d1a65278",
+          "question": "Read the passage. After Joel finished his run, he went and recorded his time in his log. It was his best time he had recorded since his last run in October. Since then, he wondered if he was not in as good of shape because his times seemed to be longer. After today, he would have to pay close attention to whathe was doing differently to make sure he was running as fast as he could. How would youparaphrase Joel’s events?",
           "choices": [
             "Joel has not improved his times since October.",
             "Today’s run was as f ast as October.",
-            "Joel’s runnin g times have not changed.",
+            "Joel’s running times have not changed.",
             "Joel has no idea ho w to get a better time."
           ],
           "correct": 1,
@@ -43579,7 +43579,7 @@
               },
               "",
               {
-                "choice": "Joel’s runnin g times have not changed.",
+                "choice": "Joel’s running times have not changed.",
                 "category": "factually inaccurate",
                 "reason": "The passage states that his times 'seemed to be longer,' which contradicts the claim that they have not changed."
               },
@@ -43634,8 +43634,8 @@
         {
           "id": "reading-comprehension-summarizing-q0195",
           "version": 3,
-          "contentHash": "sha256:5239d294062e69d4ff674c6a3420835f4b97744ae8db5536d2bda534a0cf108c",
-          "question": "Read the sentences. 1. Finally, I like to go school shopping. 2. Although there are 12 months in a year, August is my favorite. 3. August is clearly my favorite month. 4. To begin, the weat her is usually sunny and warm. 5. It is also a great time to enjoy outdoor activities. What sequence would represent the correct order of the above sentences?",
+          "contentHash": "sha256:1417f24c7cb63cf650ceb14632f7609426d7fed5540758fc5281e6600eb8c3e3",
+          "question": "Read the sentences. 1. Finally, I like to go school shopping. 2. Although there are 12 months in a year, August is my favorite. 3. August is clearly my favorite month. 4. To begin, the weather is usually sunny and warm. 5. It is also a great time to enjoy outdoor activities. What sequence would represent the correct order of the above sentences?",
           "choices": [
             "4, 5, 3, 2, 1",
             "2, 4, 5, 1, 3",
@@ -43708,8 +43708,8 @@
         {
           "id": "reading-comprehension-summarizing-q0196",
           "version": 3,
-          "contentHash": "sha256:6924fbd05a02a1ee2dbdc4b610a4746d9e27689ce6646944c4131408b8f7c160",
-          "question": "Read the passage. The view was outstanding! As we stood on the deck of our ship, we looked at the red and purple landscape. Truly, this planet was something to see. Then I remembered about an hour ago we had heard a strange rattling in the back of the storage area. My mind raced as I tried to thin k what could have made that scampering noise. I looked back out the doorway, and then asked my assistant if he was ready to collect some specimens from this colorful world. I ignored the prompting to check the cabin as we prepared to set foot outside of our ship. Li ttle did we know what would lie ahead. What was the captain do ing when he remembered the strange s ound in the storage area?",
+          "contentHash": "sha256:bca9ae00452cbe4a1f6eb7816f2ba8539eb15bb6b5589a02144dc46728d2ee59",
+          "question": "Read the passage. The view was outstanding! As we stood on the deck of our ship, we looked at the red and purple landscape. Truly, this planet was something to see. Then I remembered about an hour ago we had heard a strange rattling in the back of the storage area. My mind raced as I tried to thin k what could have made that scampering noise. I looked back out the doorway, and then asked my assistant if he was ready to collect some specimens from this colorful world. I ignored the prompting to check the cabin as we prepared to set foot outside of our ship. Little did we know what would lie ahead. What was the captain do ing when he remembered the strange sound in the storage area?",
           "choices": [
             "collecting specimens",
             "enjoying the scenery",
@@ -43782,11 +43782,11 @@
         {
           "id": "reading-comprehension-summarizing-q0197",
           "version": 3,
-          "contentHash": "sha256:d55b1e8670752fd6babf2214105aea64161b3bdfa5ca49e93deaae3437e2d883",
-          "question": "Read the passage. Your Counterattac k in Tennis: First, find out what type of volleyer you’re up against. There’s a tendency to over hit when your opponent is at the net. He attacks you, you get excited and make a mistake, and he wins the po int without doing anything. Make him prove he can hit a winnin g volley. Try to hit the ball below his waist level, especially on the return serve. Do your best to get it in play and low. Which of the following statement provides the best summ ar y?",
+          "contentHash": "sha256:44d5f034face221c48e51907521f7ffbe804365bca0370626079d4b17de822a5",
+          "question": "Read the passage. Your Counterattack in Tennis: First, find out what type of volleyer you’re up against. There’s a tendency to over hit when your opponent is at the net. He attacks you, you get excited and make a mistake, and he wins the point without doing anything. Make him prove he can hit a winning volley. Try to hit the ball below his waist level, especially on the return serve. Do your best to get it in play and low. Which of the following statement provides the best summ ar y?",
           "choices": [
-            "Immediately return the ball quic k ly and high.",
-            "Making mistakes can cost you the matc h.",
+            "Immediately return the ball quick ly and high.",
+            "Making mistakes can cost you the match.",
             "Be patient and return the ball lo w and keep it in pla y.",
             "Only practice makes perfect."
           ],
@@ -43795,12 +43795,12 @@
             "correct": "Answer: Be patient and return the ball low and keep it in play. This summary captures the main advice in the text: staying patient despite the opponent's net presence and using a specific strategy of hitting the ball low to force errors.",
             "incorrect": [
               {
-                "choice": "Immediately return the ball quic k ly and high.",
-                "reason": "\"Immediately return the ball quic k ly and high.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
+                "choice": "Immediately return the ball quick ly and high.",
+                "reason": "\"Immediately return the ball quick ly and high.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
               },
               {
-                "choice": "Making mistakes can cost you the matc h.",
-                "reason": "\"Making mistakes can cost you the matc h.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
+                "choice": "Making mistakes can cost you the match.",
+                "reason": "\"Making mistakes can cost you the match.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
               },
               "",
               {
@@ -43854,8 +43854,8 @@
         {
           "id": "reading-comprehension-summarizing-q0198",
           "version": 3,
-          "contentHash": "sha256:650b92c1e5dc0937f3fcde2035d0d945010b9af67591b54937713fc42f704286",
-          "question": "Read the passage. Big, tall John, as he was known in the west, was the kindest, gentlest man to ever set foot in the town of Shuckleford. He was 16 feet tall and had feet as big as tires. He was strong as an ox, but gentle as a dove. One day, when he was walking down the street, he noticed a group of men looking up into the sky. “W hat’s the problem?” asked John. “A twister is coming our directio n!” The y all shouted, and everyone ran for cover. John knew that the twister was big enough to destroy the beautiful tow n of Shuckleford, so he had to make a plan fast! He j umped right into the heart of the twister and wrestled it to the ground. Then, he tied i t up with a nearby railroad track and kicked it off into space. From that day on, the folks of Shuckleford called him Jump ing John and a twister never dared to visit the town of Shuckleford again. What type of writing is this?",
+          "contentHash": "sha256:17ea7ce008df3f16321915a9b56e8ff3574b4ecef422fd49792e87ab1c0fdbd7",
+          "question": "Read the passage. Big, tall John, as he was known in the west, was the kindest, gentlest man to ever set foot in the town of Shuckleford. He was 16 feet tall and had feet as big as tires. He was strong as an ox, but gentle as a dove. One day, when he was walking down the street, he noticed a group of men looking up into the sky. “W hat’s the problem?” asked John. “A twister is coming our direction!” The y all shouted, and everyone ran for cover. John knew that the twister was big enough to destroy the beautiful tow n of Shuckleford, so he had to make a plan fast! He j umped right into the heart of the twister and wrestled it to the ground. Then, he tied i t up with a nearby railroad track and kicked it off into space. From that day on, the folks of Shuckleford called him Jump ing John and a twister never dared to visit the town of Shuckleford again. What type of writing is this?",
           "choices": [
             "folk tale",
             "non-fiction",
@@ -44002,8 +44002,8 @@
         {
           "id": "reading-comprehension-summarizing-q0200",
           "version": 3,
-          "contentHash": "sha256:e5ca7b41364e2ad090d2840b99d07c6ffae2d366525912e3e8551c22a6c8b706",
-          "question": "Read the passage and answer the question. Tara and Tanish a were planning a surprise party for Kr ystal. They invited a few of Krystal’s friends. They begandecorating the house. Tan is ha hung streamers along the ceiling while Tara blew up balloons. Next, they both decided to serve punch and cake. Tara went to the store for punch while T anisha bak ed the cake. At last, they were ready for the party. What did they do to prepare for the party?",
+          "contentHash": "sha256:e29fda3995fc37784ff46c474595412e0013430154aea20c0c70d8ad6698491a",
+          "question": "Read the passage and answer the question. Tara and Tanish a were planning a surprise party for Kr ystal. They invited a few of Krystal’s friends. They begandecorating the house. Tan is ha hung streamers along the ceiling while Tara blew up balloons. Next, they both decided to serve punch and cake. Tara went to the store for punch while T anisha baked the cake. At last, they were ready for the party. What did they do to prepare for the party?",
           "choices": [
             "made a cake and bought pop",
             "hung streamers and posters",
@@ -44076,12 +44076,12 @@
         {
           "id": "reading-comprehension-summarizing-q0201",
           "version": 3,
-          "contentHash": "sha256:f485823afba8a0c8f4efd170162ba91c9646d4df846de8aad55cd574bf93b60e",
-          "question": "Read the passage. Patty and her mother woke up early in the morning to plant the first flowers of the summer. They had b een planning to plant new roses and various other flowers in the front garden for weeks. Today, it was finally nice eno ugh outside to plan t, and it would be fun to work together in the yard. When they were finished, the fron t of the garden was filled with beautiful colors and frag rant o dors to please everyone who passes. What can you infer from this passage?",
+          "contentHash": "sha256:b3489f37b06de554ea45af96a909f896f8edea180aa379553e66f108d8825ee7",
+          "question": "Read the passage. Patty and her mother woke up early in the morning to plant the first flowers of the summer. They had b een planning to plant new roses and various other flowers in the front garden for weeks. Today, it was finally nice enough outside to plan t, and it would be fun to work together in the yard. When they were finished, the front of the garden was filled with beautiful colors and frag rant o dors to please everyone who passes. What can you infer from this passage?",
           "choices": [
             "Patty and her mother don’t like to wo r k very hard.",
             "Spring is the best time to plant new flow er s.",
-            "Patty and her mother love g ardening.",
+            "Patty and her mother love gardening.",
             "Roses are the prettiest flowers to plant."
           ],
           "correct": 2,
@@ -44148,12 +44148,12 @@
         {
           "id": "reading-comprehension-summarizing-q0202",
           "version": 3,
-          "contentHash": "sha256:e818ff8c880d1d49a09d881bd66049ab41b5c447899f7c63a14e9ef9d3a7b74b",
-          "question": "Read the passage. On that first day, I r andown the hill and into the road (few cars ever came along it) and had the good sense to stop running before I reached the store. I was liked, and what a difference it made. I was respected, not as Mrs. Henderson’s grandchild or Bailey’s sister, but for just being Marguerite Johnson. Childh ood’s logic never asks to be proved (all conclusions are absolute). I didn’t question why Mrs. Flowers had singled me out for attention, nor did it occur to me that Momma might have asked her to give me a little talking-to. All I cared about was that she had made tea cookies “Mrs. Flow ers.” E lements of Litera ture: Second Course. Holt, Rinehart and for me and read to me from her favorite book. It was enough to prove that she liked Winston 1997. me. Who can you infer about Marguerite?",
+          "contentHash": "sha256:5db33c7e15ff3a5decda1f3448721699d8aec41d1abcbc9d926032139d0025f2",
+          "question": "Read the passage. On that first day, I r andown the hill and into the road (few cars ever came along it) and had the good sense to stop running before I reached the store. I was liked, and what a difference it made. I was respected, not as Mrs. Henderson’s grandchild or Bailey’s sister, but for just being Marguerite Johnson. Childhood’s logic never asks to be proved (all conclusions are absolute). I didn’t question why Mrs. Flowers had singled me out for attention, nor did it occur to me that Momma might have asked her to give me a little talking-to. All I cared about was that she had made tea cookies “Mrs. Flow ers.” Elements of Literature: Second Course. Holt, Rinehart and for me and read to me from her favorite book. It was enough to prove that she liked Winston 1997. me. Who can you infer about Marguerite?",
           "choices": [
             "She liked to run.",
-            "Marguerite needs s omeone to love and respecther for herself.",
-            "She and Bai ley like to make cookies.",
+            "Marguerite needs someone to love and respecther for herself.",
+            "She and Bailey like to make cookies.",
             "There was a lot of traffic in her town."
           ],
           "correct": 1,
@@ -44167,8 +44167,8 @@
               },
               "",
               {
-                "choice": "She and Bai ley like to make cookies.",
-                "reason": "\"She and Bai ley like to make cookies.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
+                "choice": "She and Bailey like to make cookies.",
+                "reason": "\"She and Bailey like to make cookies.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
               },
               {
                 "choice": "There was a lot of traffic in her town.",
@@ -44221,8 +44221,8 @@
         {
           "id": "reading-comprehension-summarizing-q0203",
           "version": 3,
-          "contentHash": "sha256:511e0d131b22c6a01f365ac620e9a5f6e54b6270685597b8b920c73ee4abf780",
-          "question": "Read the poem. Outside, A few cars hissing past, Fog hanging like old Coats between the trees. I took my girl’s hand In mine for two b locks, Then release it to let Her unwrap the chocolate. I peeled my orange That was so bright against Soto, Gar y. “Oranges”. Elements of Literature: Second Course. Holt, Rinehart, Winston The gray of December That, from some distan ce, I was making a fire in my hands. The underlined sentence is an example of a(n) __________________ __.",
+          "contentHash": "sha256:8aa1a74d951d053f412b9817054db0c2b293ef674a3f488e8ada5b5bab311348",
+          "question": "Read the poem. Outside, A few cars hissing past, Fog hanging like old Coats between the trees. I took my girl’s hand In mine for two b locks, Then release it to let Her unwrap the chocolate. I peeled my orange That was so bright against Soto, Gar y. “Oranges”. Elements of Literature: Second Course. Holt, Rinehart, Winston The gray of December That, from some distance, I was making a fire in my hands. The underlined sentence is an example of a(n) __________________ __.",
           "choices": [
             "metaphor",
             "exclamation",
@@ -44295,8 +44295,8 @@
         {
           "id": "reading-comprehension-summarizing-q0204",
           "version": 3,
-          "contentHash": "sha256:a5de0d580db2208d6b46c3eaf59ce12c368aa7e07b6964cd724e8a0fa224c930",
-          "question": "Read the passage and answer the question. Janet looked out her bedroom window and saw the beautiful, new, white snow covering the ground outside. She quickly got dressed and ran out the front door to make the first snowman of the season. “Don’t forget your gloves! Your fingers will freeze!” called her mother as the door slammed. “Don’t need them! No time!” yelled Janet as she jumped into the sno w. After about 5 minutes of working in the ice -cold snow with her bare hands to make the snowman, Janet realized that her fingers were so cold they were starting to hurt. What will Janet mo s t likely do next?",
+          "contentHash": "sha256:da95556e615ac352002d94e8e653fff5ded684faf400f9d538ead46231f3d8a4",
+          "question": "Read the passage and answer the question. Janet looked out her bedroom window and saw the beautiful, new, white snow covering the ground outside. She quickly got dressed and ran out the front door to make the first snowman of the season. “Don’t forget your gloves! Your fingers will freeze!” called her mother as the door slammed. “Don’t need them! No time!” yelled Janet as she jumped into the snow. After about 5 minutes of working in the ice -cold snow with her bare hands to make the snowman, Janet realized that her fingers were so cold they were starting to hurt. What will Janet mo s t likely do next?",
           "choices": [
             "Go back in the house for her coat.",
             "Take off her coat and boots.",
@@ -44367,12 +44367,12 @@
         {
           "id": "reading-comprehension-summarizing-q0205",
           "version": 4,
-          "contentHash": "sha256:803fd95141d96ff151e92ed917ac9ce3547efd7a98522790deacaad58a99c479",
-          "question": "Read the poem. The Runaw ay Once, when the snow of the year was beginning to fall, We stopped by a mountain pasture to say, ‘Whose colt?’ A little Morgan had one forefoot on the wall, The other curled at his breast. He dipped his head And snorted at us. And then he had to bolt. We heard the miniature thund er where he fled, And we saw him, o r thought we saw him, dim and grey, Like a shadow against the curtain o f falling f lakes. ‘I think the little fellow’s afraid of the snow. He isn’t winter-broken. It isn’t play With the little fellow at all. He’s running away. I doubt if even his mother could tell him, “Sakes, It’s only weat her.” He’d think she didn’t k now! Where is his mother? He can’t be out alone.’ And now he comes again with a c latter of stone And mounts the wall again with whited eyes And all his tail that isn't hair up straight. He shudders his coat as if to throw off flies. ‘Whoever it is that leaves him out so late, “The Runaway.” Elements of Literature. Holt, R inehart, Winston 1997. When other creatures have gone to stall and bin, Ought to be told to c o me and take him in.’ Why is the colt afraid?",
+          "contentHash": "sha256:b5a07837968e5e5cdcf2fa401ed394632e19e907889fbda732f2f8c46240eb1b",
+          "question": "Read the poem. The Runaway Once, when the snow of the year was beginning to fall, We stopped by a mountain pasture to say, ‘Whose colt?’ A little Morgan had one forefoot on the wall, The other curled at his breast. He dipped his head And snorted at us. And then he had to bolt. We heard the miniature thunder where he fled, And we saw him, o r thought we saw him, dim and grey, Like a shadow against the curtain o f falling f lakes. ‘I think the little fellow’s afraid of the snow. He isn’t winter-broken. It isn’t play With the little fellow at all. He’s running away. I doubt if even his mother could tell him, “Sakes, It’s only weather.” He’d think she didn’t k now! Where is his mother? He can’t be out alone.’ And now he comes again with a c latter of stone And mounts the wall again with whited eyes And all his tail that isn't hair up straight. He shudders his coat as if to throw off flies. ‘Whoever it is that leaves him out so late, “The Runaway.” Elements of Literature. Holt, R inehart, Winston 1997. When other creatures have gone to stall and bin, Ought to be told to c o me and take him in.’ Why is the colt afraid?",
           "choices": [
             "He is hungry",
-            "The people are watc hing him.",
-            "He is afraid of the weat her.",
+            "The people are watching him.",
+            "He is afraid of the weather.",
             "Another colt is chasing him."
           ],
           "correct": 2,
@@ -44385,8 +44385,8 @@
                 "reason": "While the poem mentions the colt might be waiting for someone to put him in his 'stall and bin,' the text never states or suggests that hunger is the reason for his fear."
               },
               {
-                "choice": "The people are watc hing him.",
-                "reason": "\"The people are watc hing him.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
+                "choice": "The people are watching him.",
+                "reason": "\"The people are watching him.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
               },
               "",
               {
@@ -44440,8 +44440,8 @@
         {
           "id": "reading-comprehension-summarizing-q0206",
           "version": 3,
-          "contentHash": "sha256:1c5639acd2931ab810d0364e2c363559ccc76fa800879e30d4805624789bfbcb",
-          "question": "Read the passage. It was her first day at her new school, and Jenny was terrified. She didn’t know anyone there, and this was a much bigger school than she was used to. Jenny wasn’t even sure she could find her locker, let alone her classes! She walked slowly down the hall with her chin tucked to her chest so as not to make eye contac t with anyone. She rubbed the old p enny in her pocket with her left hand and remembered the nighther grandmother had given it to her, saying that it was a penn y she loved as a child and Jenny should alw ays keep it with her to remind herself that she was always loved too. As she finally found her locker and pu t all her books away, Jenny rubb ed the penny again and thought to herself, I cando this, and she walked with her head up to find her first class for the day. What does the penny symbolize to J enny?",
+          "contentHash": "sha256:d7bd468eec5db46f9c03653c3db5703e5d49ae4f9c5582a62fb660e9d79048cc",
+          "question": "Read the passage. It was her first day at her new school, and Jenny was terrified. She didn’t know anyone there, and this was a much bigger school than she was used to. Jenny wasn’t even sure she could find her locker, let alone her classes! She walked slowly down the hall with her chin tucked to her chest so as not to make eye contact with anyone. She rubbed the old penny in her pocket with her left hand and remembered the nighther grandmother had given it to her, saying that it was a penny she loved as a child and Jenny should always keep it with her to remind herself that she was always loved too. As she finally found her locker and pu t all her books away, Jenny rubbed the penny again and thought to herself, I cando this, and she walked with her head up to find her first class for the day. What does the penny symbolize to Jenny?",
           "choices": [
             "peace",
             "love",
@@ -44953,8 +44953,8 @@
         {
           "id": "reading-comprehension-summarizing-q0213",
           "version": 3,
-          "contentHash": "sha256:54c22249db802bd44173dff6ea8ec099a73d10926a4e57d200038507a99aed6a",
-          "question": "Read the passage. True! nervous very, very dread fully nervous I had been and am; but why will you — say that I am mad? The disease had sharpened my senses not destroyed not dulled — them. Above all was the sense of hearing acute. I heard all th ings in the heaven and in the earth. I heard many things in hell. How, then, am I m ad? Hearken! And observe how health ily how calmly I can tell you the w hole story. — Elements of Lit erature. Holt, Rinehart and Winston. 1 997 What inference canyou m ake about the narrator?",
+          "contentHash": "sha256:b47aadf3d27baff83f5baf5ec25e097f75f322592c606b6daa96d1051ab8705f",
+          "question": "Read the passage. True! nervous very, very dread fully nervous I had been and am; but why will you — say that I am mad? The disease had sharpened my senses not destroyed not dulled — them. Above all was the sense of hearing acute. I heard all th ings in the heaven and in the earth. I heard many things in hell. How, then, am I m ad? Hearken! And observe how health ily how calmly I can tell you the w hole story. — Elements of Literature. Holt, Rinehart and Winston. 1 997 What inference canyou m ake about the narrator?",
           "choices": [
             "The narrator is unabashedly happy.",
             "The narrator is quite mad.",
@@ -45175,8 +45175,8 @@
         {
           "id": "reading-comprehension-summarizing-q0216",
           "version": 3,
-          "contentHash": "sha256:896207608012ff50e431bd1867df9ce77c862607f19d8ba51c5c6ad3ae6b3127",
-          "question": "Read the passage. She was alone and still, gazing out to sea; and when she felt his presence and the worship of hiseyes her eyes turned to him in quiet sufferance of his gaze, without shame or wantonness. Long, long she suffered his gaze and then quietly withdrew her eyes from his and bent them towards the stream, gently stirring the water with her foot hither and thither. The first faint noise of gently moving water broke the silence, low and faint and whispering, faint as the bells of sleep; hither and thither, hither and thither: and a faint flame trembled on her cheek. A Portrait of the Artist as a Young Man. B edford Books, 199 3. What can be determined from this passage?",
+          "contentHash": "sha256:97a5141d6029ebb2bab99583f6eab99188b198eda51c4f345b372bde5339dd5f",
+          "question": "Read the passage. She was alone and still, gazing out to sea; and when she felt his presence and the worship of hiseyes her eyes turned to him in quiet sufferance of his gaze, without shame or wantonness. Long, long she suffered his gaze and then quietly withdrew her eyes from his and bent them towards the stream, gently stirring the water with her foot hither and thither. The first faint noise of gently moving water broke the silence, low and faint and whispering, faint as the bells of sleep; hither and thither, hither and thither: and a faint flame trembled on her cheek. A Portrait of the Artist as a Young Man. Bedford Books, 199 3. What can be determined from this passage?",
           "choices": [
             "they are best friends",
             "they are strangers to each other",
@@ -45249,8 +45249,8 @@
         {
           "id": "reading-comprehension-summarizing-q0217",
           "version": 4,
-          "contentHash": "sha256:a6ec9cc27985fe7bc00b925594765d48fdd8f66f75e1d74420b6523bbb3c2adb",
-          "question": "Read the passage. His mother clipped coupons from magazines and newspapers, kept a vegetable garden in the summer, and shopped at JC Penney and Walmart. Their family ate a lot of frijoles, which was okay because nothing else tasted so good, though one time Alfonso had Chinese pot stickers and thought they were the next best food in the world. He didn’t ask his mother for braces again, even when she was in a better mood. Elements o f Literature. Holt, R inehart and Win ston. 1997 How does Alfonso support his assumptionthat his mother will not pay for braces?",
+          "contentHash": "sha256:1e5214f17da925f8eec53ab1eff5db8379a13f7ae8bf57abd24012e059a44423",
+          "question": "Read the passage. His mother clipped coupons from magazines and newspapers, kept a vegetable garden in the summer, and shopped at JC Penney and Walmart. Their family ate a lot of frijoles, which was okay because nothing else tasted so good, though one time Alfonso had Chinese pot stickers and thought they were the next best food in the world. He didn’t ask his mother for braces again, even when she was in a better mood. Elements o f Literature. Holt, R inehart and Winston. 1997 How does Alfonso support his assumptionthat his mother will not pay for braces?",
           "choices": [
             "He t ells how she likes to go shopping.",
             "He likes pot stickers almost as much as frijoles.",
@@ -45693,8 +45693,8 @@
         {
           "id": "reading-comprehension-summarizing-q0223",
           "version": 3,
-          "contentHash": "sha256:9edf361dce5afb0583a32c1884aeba644e35531d5c0a4a463dd72d1e869b958a",
-          "question": "Read the story and answer the question. Chris couldn’t wait to get started. “Get the flour, sugar, butter, milk, and eggs,” said Mom. “Can I really break the eggs this time?” asked Chris. “Yes, but be careful,” said Mom. Chris broke the eggs and stirred in the flour, sugar, butter and milk. After mixing the dough, Chris put balls of dough on a sheet, and Mom put the s heet in the oven. What is Chris doing in the story?",
+          "contentHash": "sha256:f1b1fa48fe9a43591e5acf54fe5f3dd8068f53324b9d3bd597c3a5c7eb033481",
+          "question": "Read the story and answer the question. Chris couldn’t wait to get started. “Get the flour, sugar, butter, milk, and eggs,” said Mom. “Can I really break the eggs this time?” asked Chris. “Yes, but be careful,” said Mom. Chris broke the eggs and stirred in the flour, sugar, butter and milk. After mixing the dough, Chris put balls of dough on a sheet, and Mom put the sheet in the oven. What is Chris doing in the story?",
           "choices": [
             "making cookies",
             "doing the wash",
@@ -45915,8 +45915,8 @@
         {
           "id": "reading-comprehension-summarizing-q0226",
           "version": 3,
-          "contentHash": "sha256:eefafb27628bcf718e7deb073bbf787e57f2a32d46846dd5c25f4d3a3b488448",
-          "question": "Read the story and answer the question. John was getting ready to go to school. First, he ate his breakfast. Next, he washed his face. Then, he brushed his teeth. Last, he got dres sed. Before he went out the door, he grabbed his book bag. What did John do first?",
+          "contentHash": "sha256:df38a028e1935c19eb322475533cd2e269ea4ae92c0178d77df07dd9c573a374",
+          "question": "Read the story and answer the question. John was getting ready to go to school. First, he ate his breakfast. Next, he washed his face. Then, he brushed his teeth. Last, he got dressed. Before he went out the door, he grabbed his book bag. What did John do first?",
           "choices": [
             "He grab bed his book bag.",
             "He ate his breakfast.",
@@ -46211,10 +46211,10 @@
         {
           "id": "reading-comprehension-summarizing-q0230",
           "version": 3,
-          "contentHash": "sha256:368ddc8989ff53a7141fc4471f13d7c862e18ae187a8768d698e5abf4ef22b38",
+          "contentHash": "sha256:a508deda3137ab7076dbbecfd68965380f370d9eb7c9b071ac1ef361b187debc",
           "question": "Read the story and answer the question. Jack set the plates on the table. He put a napkin next to each plate. Then, he placed a knife, fork and a spoonon the napkin. Next, he put a glass by each plate. The story is about __________________?",
           "choices": [
-            "f orks",
+            "forks",
             "washing the dishes",
             "spoon s",
             "setting the table"
@@ -46224,7 +46224,7 @@
             "correct": "Answer: setting the table. This phrase describes the entire process of placing items like plates, napkins, and silverware on the table to get it ready for a meal.",
             "incorrect": [
               {
-                "choice": "f orks",
+                "choice": "forks",
                 "category": "too narrow focus",
                 "reason": "This is only one item mentioned in the story. A summary should describe the overall activity, not just one single utensil."
               },
@@ -46581,8 +46581,8 @@
         {
           "id": "reading-comprehension-summarizing-q0235",
           "version": 3,
-          "contentHash": "sha256:ab35549ddb4edb2b74731b626e194777a411f613c1a960d2e1666c2dbf54da75",
-          "question": "Read the passage. It looked like the end of Jason s journey, and Amy was intears as she climbed out of the plane. The principal of the Institute and his wife, Mr. and Mrs. Shaw, brought Amy into their house and gave her some clean clothes; she had a bath and a meal, and then they went, carrying huge umbrellas, out into the rainy night, to look at Jason. They had to cross the field which was like a sea of mud: mud which had probably saved the plane from an even worse crash by slowing it down a bit. “Amy Johnson, Queen of the Ai r.” Adventu re Stories. New York: Kingfisher Books. 221 What did Amy and the Shaws do after Amy’s bath and meal?",
+          "contentHash": "sha256:178a18ec383f08d271a4b239c8cd2427424afbcbcc97a0b1640e6a81d9565e3b",
+          "question": "Read the passage. It looked like the end of Jason s journey, and Amy was intears as she climbed out of the plane. The principal of the Institute and his wife, Mr. and Mrs. Shaw, brought Amy into their house and gave her some clean clothes; she had a bath and a meal, and then they went, carrying huge umbrellas, out into the rainy night, to look at Jason. They had to cross the field which was like a sea of mud: mud which had probably saved the plane from an even worse crash by slowing it down a bit. “Amy Johnson, Queen of the Ai r.” Adventure Stories. New York: Kingfisher Books. 221 What did Amy and the Shaws do after Amy’s bath and meal?",
           "choices": [
             "They went out to look at Jason.",
             "They comforted Amy as she cried.",
@@ -46655,8 +46655,8 @@
         {
           "id": "reading-comprehension-summarizing-q0236",
           "version": 3,
-          "contentHash": "sha256:b85155c62d7f42bea257722070fb0b683bfbb95f94d5840cd1905d034409cd98",
-          "question": "Read the passage and answer the question. Mary and her mother wanted to bake a cake. They mixed eggs, flour, suga r, and baking powder in a bowl. Mary helped pour the c ake mix into the pan. The y preheated the oven. What will Mary and her mother do next?",
+          "contentHash": "sha256:068874a90594d933af1811605c9d28ef01c8984cc8f72aeadee8baa30bc7c4ef",
+          "question": "Read the passage and answer the question. Mary and her mother wanted to bake a cake. They mixed eggs, flour, sugar, and baking powder in a bowl. Mary helped pour the c ake mix into the pan. The y preheated the oven. What will Mary and her mother do next?",
           "choices": [
             "eat the cake",
             "put the cake in the oven",
@@ -46729,8 +46729,8 @@
         {
           "id": "reading-comprehension-summarizing-q0237",
           "version": 3,
-          "contentHash": "sha256:3f2fae9d49fe12567132958e0ce4877ab4a4b07810ae6ece68cc2320769e8974",
-          "question": "Read the statement. “I’m so glad the 1 st grade students remembered to clean up their art project before they went home!” Who would most likely agree with this s tatement?",
+          "contentHash": "sha256:c976034df1c46bc751615b79599bc234783ff8305e1196115e7e60c1ff01a653",
+          "question": "Read the statement. “I’m so glad the 1 st grade students remembered to clean up their art project before they went home!” Who would most likely agree with this statement?",
           "choices": [
             "a mother",
             "a student",
@@ -47025,8 +47025,8 @@
         {
           "id": "reading-comprehension-summarizing-q0241",
           "version": 3,
-          "contentHash": "sha256:9438a015fc60afa1253a9f01242f55149e001afb03dcef8f8d771c158f065feb",
-          "question": "Read the passage. Leaves often change color before they fall. As autumn approaches, chlor ophyll, the green pigment used in photosynthesis, breaks down. As chlorophyll is lost from leaves, other yellow and orange pigments are rev ealed. These pigments were always present in the leaves but were hidden by the gree n chlorophyll. Some leaves also have red pigments, which also become visible when chlorophyll is broken down. 31 1. Holt Science and T echnology. Holt, Rein hart, a n d Winston: 2001. What causes green leaves to change color in the fall?",
+          "contentHash": "sha256:06ceed30e35198687b8a772fa1128b0c3fa1b0fe7f5869ab35c04f887dfabf3e",
+          "question": "Read the passage. Leaves often change color before they fall. As autumn approaches, chlorophyll, the green pigment used in photosynthesis, breaks down. As chlorophyll is lost from leaves, other yellow and orange pigments are revealed. These pigments were always present in the leaves but were hidden by the gree n chlorophyll. Some leaves also have red pigments, which also become visible when chlorophyll is broken down. 31 1. Holt Science and Technology. Holt, Rein hart, a n d Winston: 2001. What causes green leaves to change color in the fall?",
           "choices": [
             "the amount of orange pigment increases",
             "the amount of yellow pigment stays the same",
@@ -47247,10 +47247,10 @@
         {
           "id": "reading-comprehension-summarizing-q0244",
           "version": 3,
-          "contentHash": "sha256:505f6695b1cded63a2936816b3bcb1558f5dc0fbf89b44e880b37a2d706023bc",
+          "contentHash": "sha256:1282d7ba989d51e297b330611ee1ac2260a59fed969e7f4366a0bc31f0fefa4d",
           "question": "Choose the direction the passage is describing. We planted the sunflower seeds so they would get full sun in the morning. By doing this, the sunflowers would get larger because the area was shady in the afternoon. What direction were the sunflowers in the morning.",
           "choices": [
-            "N orth",
+            "North",
             "South",
             "East",
             "West"
@@ -47260,7 +47260,7 @@
             "correct": "Answer: East. Since the sun rises in the east, the sunflowers must be facing east to receive the full sun during the morning hours.",
             "incorrect": [
               {
-                "choice": "N orth",
+                "choice": "North",
                 "category": "cardinal direction error",
                 "reason": "Plants facing north receive less direct sunlight throughout the day in the Northern Hemisphere compared to those facing east or south. This does not align with the passage's mention of morning sun."
               },
@@ -47469,8 +47469,8 @@
         {
           "id": "reading-comprehension-summarizing-q0247",
           "version": 3,
-          "contentHash": "sha256:2f8c8f133f762f5d7bcc97e7578087711849a41920140d4626f2b90104a26c96",
-          "question": "Read the story and answer the question. The Smith family all loaded up early Saturday morning to take their family vacation to the beach. They started off at 6:00 in the morning, since they had a l ong, ten -h our drive ahead of them. They sang songs and played games together to pass the time before lunch. At lunchtime, they stopped at a nic e park by the highway to eat their picnic lunches. It was nice to take a break from riding in the car. After lu nch, they all got back in the car to finish the long drive to the beach. Once they got a few miles from the park, they suddenly heard a loud noise and the car started to wobble back and for th. What probably happened next?",
+          "contentHash": "sha256:c766d5f552a41d2d176e6c9e19145014a2528342307656e832aeab3ef57964f8",
+          "question": "Read the story and answer the question. The Smith family all loaded up early Saturday morning to take their family vacation to the beach. They started off at 6:00 in the morning, since they had a l ong, ten -h our drive ahead of them. They sang songs and played games together to pass the time before lunch. At lunchtime, they stopped at a nic e park by the highway to eat their picnic lunches. It was nice to take a break from riding in the car. After lunch, they all got back in the car to finish the long drive to the beach. Once they got a few miles from the park, they suddenly heard a loud noise and the car started to wobble back and for th. What probably happened next?",
           "choices": [
             "They pulled off to the side of the road to check the tires.",
             "They kept driving, hoping everything was all right.",
@@ -47543,8 +47543,8 @@
         {
           "id": "reading-comprehension-summarizing-q0248",
           "version": 4,
-          "contentHash": "sha256:57056bf8c3a08124898fed4b032c2f585d4c6ffe86858369401c3ccf77a0c7a6",
-          "question": "Read the list. 1. He reeled in the huge fish. 2. He baited his hoo k. 3. He cast out his line. 4. He sat pat iently for a bite. What is the correct order for theseevents?",
+          "contentHash": "sha256:d58cbf43709e23078840dfdf58da0c0330602ea07e2c450dd067f1873e2fe52c",
+          "question": "Read the list. 1. He reeled in the huge fish. 2. He baited his hook. 3. He cast out his line. 4. He sat pat iently for a bite. What is the correct order for theseevents?",
           "choices": [
             "3, 4, 2, 1",
             "1, 2, 3,",
@@ -47617,13 +47617,13 @@
         {
           "id": "reading-comprehension-summarizing-q0249",
           "version": 4,
-          "contentHash": "sha256:68965d6753ca2908fa9eb8a07c47f5f926b0e0cc2a865dbf4386e20b8536a760",
-          "question": "Read the story. The dark sky, filled with angry, swirling clo uds, reflected G reg Ridley’s mood as he sat on the stoop of his building. His f ather’s voice came to him again, first r eading the letter the principal had sent to the house, then lecturing endlessly about his poor efforts in math. Holt, Rinehart and Wins ton 199 7. The mo od or fee ling of this story is:",
+          "contentHash": "sha256:0b5663c28563e8d072d20a493ce3a9697c7955524466c6c4e64bd4fb2fa92fc3",
+          "question": "Read the story. The dark sky, filled with angry, swirling clouds, reflected G reg Ridley’s mood as he sat on the stoop of his building. His f ather’s voice came to him again, first reading the letter the principal had sent to the house, then lecturing endlessly about his poor efforts in math. Holt, Rinehart and Wins ton 199 7. The mo od or fee ling of this story is:",
           "choices": [
             "joyful",
-            "ang er",
-            "amu sing",
-            "m ystery"
+            "anger",
+            "amusing",
+            "mystery"
           ],
           "correct": 1,
           "explanation": {
@@ -47636,12 +47636,12 @@
               },
               "",
               {
-                "choice": "amu sing",
+                "choice": "amusing",
                 "category": "mismatched emotional tone",
                 "reason": "An amusing story would be funny or entertaining. Being lectured about schoolwork while sitting in the dark is a serious and unpleasant situation, not a funny one."
               },
               {
-                "choice": "m ystery",
+                "choice": "mystery",
                 "category": "incorrect literary element",
                 "reason": "A mystery involves a puzzle or a crime to solve. While the story is serious, there is no secret to uncover or puzzle to figure out here."
               }
@@ -47691,17 +47691,17 @@
         {
           "id": "reading-comprehension-summarizing-q0250",
           "version": 3,
-          "contentHash": "sha256:d64b47e58ab2e7cc3bb6ece6810dcc2cf136815826769ec7718680231d412de9",
+          "contentHash": "sha256:a94957f548af5b2afb410d41a45ca2e971b88b647836a2cb18a0e65c0a900bfc",
           "question": "Read the sentences.",
           "choices": [
             "The guard dribbled the ball, m ade a lay-up and tied the end of the game.",
             "The people in the stands stood for the half time show.",
             "The crowd cheered in the 3 rd quarter as the center made a 3-pt. shot.",
-            "The hom e team was walking to the basketball court for the start of the game. Which event happened last? A. D B. C C. B D. A 2 Read the following story and answer question s 3- 5. Climbing out of the car, my heart raced, as I wasexcited to begin our family hiking trip. I skipped up the trail happily. The sun shone brightly, and I was having a terrific time. Thenthe hill became steeper, but I still bounded up the trail. My parents were calling for me to slow down because we still had a long way to go. Sure enough, my legs began to burn, and my breathing was deeper. I had been hiking too q uickly. I slowed dow n my pace, and started to feel more stable. We f inished the hike, and I was glad I had listened to my parents because if I had kept up the fast pace, I wo uld have never made it."
+            "The home team was walking to the basketball court for the start of the game. Which event happened last? A. D B. C C. B D. A 2 Read the following story and answer question s 3- 5. Climbing out of the car, my heart raced, as I wasexcited to begin our family hiking trip. I skipped up the trail happily. The sun shone brightly, and I was having a terrific time. Thenthe hill became steeper, but I still bounded up the trail. My parents were calling for me to slow down because we still had a long way to go. Sure enough, my legs began to burn, and my breathing was deeper. I had been hiking too quickly. I slowed dow n my pace, and started to feel more stable. We finished the hike, and I was glad I had listened to my parents because if I had kept up the fast pace, I would have never made it."
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: The hom e team was walking to the basketball court for the start of the game. This describes the opening action, which logically occurs before the game events, halftime, or scoring events take place.",
+            "correct": "Answer: The home team was walking to the basketball court for the start of the game. This describes the opening action, which logically occurs before the game events, halftime, or scoring events take place.",
             "incorrect": [
               {
                 "choice": "The guard dribbled the ball, m ade a lay-up and tied the end of the game.",
@@ -47765,13 +47765,13 @@
         {
           "id": "reading-comprehension-summarizing-q0251",
           "version": 3,
-          "contentHash": "sha256:59618a028e943f6b314b59644ebbe0ad098588e68e306b7cad2f6d003534f377",
+          "contentHash": "sha256:ec90d197f23a6407578be65054bef5636df18965ec0e29036fd34ddfbe1c0f84",
           "question": "Which event occ urred first and last?",
           "choices": [
             "sun shone brightly, hill became more steep",
             "climbed out of the car; listened to my parents",
             "skipping up the trail; legs be ganto burn",
-            "slo wed dow n my pace; listened to my parents"
+            "slowed dow n my pace; listened to my parents"
           ],
           "correct": 1,
           "explanation": {
@@ -47789,7 +47789,7 @@
                 "reason": "These actions occur during the middle of the hike, rather than marking the beginning and the end of the events described."
               },
               {
-                "choice": "slo wed dow n my pace; listened to my parents",
+                "choice": "slowed dow n my pace; listened to my parents",
                 "category": "incorrect start",
                 "reason": "While listening to your parents is the last event, slowing down your pace happens later in the hike, not at the very beginning of the sequence."
               }
@@ -47987,8 +47987,8 @@
         {
           "id": "reading-comprehension-summarizing-q0254",
           "version": 3,
-          "contentHash": "sha256:7f727e306e459645f5878fa13fdff3101e5f03afa4c13e69d54a0cc975da460a",
-          "question": "Read the announcement. Girls and boys, ages 10 through 14, cantrainto become conflict counselors intwo-week sessions beg inning May 12. In the first week, sessions will start at 8:0 0a.m. and end at 4:00p.m. on Monday, Tuesday, and Wednesd ay. In the second week, sessions will run from 9:00 a.m. to 3:00p.m. on Monday, Tuesday, and Wednesday. A maximum of 10 students will be selected to participate. How long will the training session last on Monday of the second w eek?",
+          "contentHash": "sha256:c97a7e0979b9ca739abf923716aedd047aab21ecd55151ea028936cb60f1e4e1",
+          "question": "Read the announcement. Girls and boys, ages 10 through 14, cantrainto become conflict counselors intwo-week sessions beg inning May 12. In the first week, sessions will start at 8:0 0a.m. and end at 4:00p.m. on Monday, Tuesday, and Wednesday. In the second week, sessions will run from 9:00 a.m. to 3:00p.m. on Monday, Tuesday, and Wednesday. A maximum of 10 students will be selected to participate. How long will the training session last on Monday of the second week?",
           "choices": [
             "8 hours",
             "6 hours",
@@ -48061,10 +48061,10 @@
         {
           "id": "reading-comprehension-summarizing-q0255",
           "version": 3,
-          "contentHash": "sha256:0a62734148331e8cc0f38f0fd745d7bce17ddec6038f54409384399761e62e75",
+          "contentHash": "sha256:89e629e44106e2d594789bdb83ae27077e73bbcdaf4e818685136332c0affe2d",
           "question": "Read the sentence and answer the question. Michelle went straight home after school and finished her chores, did all of her homework, and made sure the house was clean for her mom. How do you think Michelle’s mother will feel when she gets home?",
           "choices": [
-            "h appy that Michelle cooked her dinner",
+            "happy that Michelle cooked her dinner",
             "sad because she wanted to cleanthe house",
             "angry at Michelle for not doing her homework",
             "proud of Michelle for doing so much"
@@ -48074,7 +48074,7 @@
             "correct": "Answer: proud of Michelle for doing so much. The sentence describes Michelle being helpful and responsible by finishing her chores, completing her homework, and cleaning the house, which are actions that would make a parent feel proud.",
             "incorrect": [
               {
-                "choice": "h appy that Michelle cooked her dinner",
+                "choice": "happy that Michelle cooked her dinner",
                 "category": "unsupported detail",
                 "reason": "The text mentions Michelle cleaned the house and did her homework, but it does not say she cooked dinner for her mother."
               },
@@ -48653,8 +48653,8 @@
         {
           "id": "reading-comprehension-summarizing-q0263",
           "version": 3,
-          "contentHash": "sha256:0b5a695e55b28f5687cd04c4141da7d6c2c7075edc26d4c79ea8e6354b110c87",
-          "question": "Read the passage. On a warm, summer day, the tall green giant of the hills looked down upon the village below and cried. He wanted more than anything to become friends with them, buthe knew from past experiences that they were too afraid of him because of his horrible appearance. The people of the village were small in stature and plain looking. The giant was a horrible sight, with orange warts covering his face, yello w eyes, blue hair and standing almost 50 feet tall and weigh several tons. The earth seemed to shake ed when he walked, and he knew that the people of the village thoughthe was a monster. They had run him out of the village years ago with fi re torches, chanting and waiving him out forever. His thoughts were interrupted by the sobbing sounds coming from nearby. He went to investigate and found a small child, lost in the hills. She was blind and could not find her way back home. The giant spoke to her in a soft voice, and because she couldn’t see his appearance, she was not afraid. He invited her into his house for cookies and milk, and then he led her back to the gates of the village. They both promised to keep intouch and be great friends. The little girl skipped away happily and the giant s heart felt lighter. What is the purpose of this passage?",
+          "contentHash": "sha256:9873c394aac6c39a76c446351508d624666010c075023240e7cd4df7c547c10a",
+          "question": "Read the passage. On a warm, summer day, the tall green giant of the hills looked down upon the village below and cried. He wanted more than anything to become friends with them, buthe knew from past experiences that they were too afraid of him because of his horrible appearance. The people of the village were small in stature and plain looking. The giant was a horrible sight, with orange warts covering his face, yellow eyes, blue hair and standing almost 50 feet tall and weigh several tons. The earth seemed to shake ed when he walked, and he knew that the people of the village thoughthe was a monster. They had run him out of the village years ago with fi re torches, chanting and waiving him out forever. His thoughts were interrupted by the sobbing sounds coming from nearby. He went to investigate and found a small child, lost in the hills. She was blind and could not find her way back home. The giant spoke to her in a soft voice, and because she couldn’t see his appearance, she was not afraid. He invited her into his house for cookies and milk, and then he led her back to the gates of the village. They both promised to keep intouch and be great friends. The little girl skipped away happily and the giant s heart felt lighter. What is the purpose of this passage?",
           "choices": [
             "to show that you can’t always judge people based on their appearance",
             "to warn people away from giants",
@@ -48801,10 +48801,10 @@
         {
           "id": "reading-comprehension-summarizing-q0265",
           "version": 3,
-          "contentHash": "sha256:877903a181e063cbd7ff4d56511818af37581a8097d0d1c7d4d7d901e8a7765f",
+          "contentHash": "sha256:05196345c1a2324521c5408dc8e8f61debbd8d0ca872762faa4c00a2720efd30",
           "question": "Read the passage. Tommy and his family had just moved into a new house. The green paint was fresh and the carpet was all brand new. After school, Tommy came straight home to finish unpacking the boxes in his room and put away all of his clothes. He was so excited to finally have his own room, after having to share a room with his younger brother for four years. The only real problem was that every time he went into the bathroom, he would hit his head on the doorway trim. He was definitely going to have to learnto duck when he went in there from now on. What canyou infer from this passage?",
           "choices": [
-            "To mmy does not like the house.",
+            "Tommy does not like the house.",
             "Tommy is very tall compared to the house.",
             "The boxes are very full.",
             "There are other people in the house."
@@ -48814,8 +48814,8 @@
             "correct": "Answer: Tommy is very tall compared to the house. The text mentions Tommy repeatedly hits his head on the doorway trim, which is a classic physical clue that a person is taller than the standard doorframe height.",
             "incorrect": [
               {
-                "choice": "To mmy does not like the house.",
-                "reason": "\"To mmy does not like the house.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
+                "choice": "Tommy does not like the house.",
+                "reason": "\"Tommy does not like the house.\" is too narrow, adds an opinion, or leaves out the main point of the passage."
               },
               "",
               {
@@ -48874,8 +48874,8 @@
         {
           "id": "reading-comprehension-summarizing-q0266",
           "version": 3,
-          "contentHash": "sha256:24ab3dea03023814c6fe78513cb1484c2f63317ac1ce16671854da2bf304367d",
-          "question": "Read the passage. Where the Red Fern Grows is a book of adventure, compassion and maturity. The main character, Billy, is a young boy who must grow up fast as he learns to care for and traintwo hunting hounds. Billy is faced with many adverse situa tions, where he must overcome the obstacles of life and endure the consequences of nature. This wonderful book provides both laughs and tears as you are takenon the a dventure of a lifetime. What type of writing is this?",
+          "contentHash": "sha256:268ae0b9242285cd64db442e164f326a71d5ea6571c41a79707239524fabeeae",
+          "question": "Read the passage. Where the Red Fern Grows is a book of adventure, compassion and maturity. The main character, Billy, is a young boy who must grow up fast as he learns to care for and traintwo hunting hounds. Billy is faced with many adverse situations, where he must overcome the obstacles of life and endure the consequences of nature. This wonderful book provides both laughs and tears as you are takenon the adventure of a lifetime. What type of writing is this?",
           "choices": [
             "essay",
             "newspaper article",
@@ -48947,11 +48947,11 @@
         {
           "id": "reading-comprehension-summarizing-q0267",
           "version": 3,
-          "contentHash": "sha256:7202e2e5e5026507394f164903daa54dc4eff1bfa4ee0c817b9782dc7fb41b78",
-          "question": "Read the passage and answer the question. Tyler was up early. He had to help his dad with an important job. They wer e going to paint Grandpa Peterson’s fence. After breakfast, Tyler and his father gathered up all the necessary supplies. They carried brushes, drop clothes and buckets of paint to their truck. Then, off they drove to Grandpa Pete rson’s house. Driving as close to the fence as possible, they hopped out and removed the supplies from the back of the truck. Tyler helped his father spread the drop cloths over the bushes that decorated the bottom of the fence. Then, they opened the cans of paint and began work ing. They worked for several hours. Finally, the job was done. The dull gray wood was now a shiny, clean white. Swiftly, they walked to Grandpa Peterson’s door toring the bell. When Grandpa emerged, he was surprised at the site of the masterpi ece. What does the author mean by the use of the word “master pie ce”?",
+          "contentHash": "sha256:ecd3ccf1006349684faa73cc2fda784a64e906c4a105ffb5b0646fa12845d8f7",
+          "question": "Read the passage and answer the question. Tyler was up early. He had to help his dad with an important job. They wer e going to paint Grandpa Peterson’s fence. After breakfast, Tyler and his father gathered up all the necessary supplies. They carried brushes, drop clothes and buckets of paint to their truck. Then, off they drove to Grandpa Pete rson’s house. Driving as close to the fence as possible, they hopped out and removed the supplies from the back of the truck. Tyler helped his father spread the drop cloths over the bushes that decorated the bottom of the fence. Then, they opened the cans of paint and began work ing. They worked for several hours. Finally, the job was done. The dull gray wood was now a shiny, clean white. Swiftly, they walked to Grandpa Peterson’s door toring the bell. When Grandpa emerged, he was surprised at the site of the masterpiece. What does the author mean by the use of the word “master pie ce”?",
           "choices": [
             "When someone paints a fence, it is always called a masterpiece.",
-            "Painted works of art are sometimes called masterpieces, when someone c onsiders the piece a great model.",
+            "Painted works of art are sometimes called masterpieces, when someone considers the piece a great model.",
             "Masterpieces are usually artistic paintings found on fences.",
             "The author used the word masterpieces incorrectly, because masterpieces are only found in art museums."
           ],
@@ -49687,8 +49687,8 @@
         {
           "id": "reading-comprehension-summarizing-q0286",
           "version": 3,
-          "contentHash": "sha256:67061139589684f3b64be9758e2491fc3f0680e9d72a3cc6dee67e401cc6e2cd",
-          "question": "Read the passage. I got up and walked to the curb to see what the commotion was. About a block away I saw a crowd of little kids yelling, with the d ogs yipping and growling around someone who was walking down the middle of the street. I watched the group as it slowly came closer and saw that in the center of the strange procession was a man we aring a tall black hat. He paused now and thento peer at something in his hand and then at the houses on either side of the street. I felt cold and hot at the same time as I recognized the man. “Oh no!” I whispered. “It’s Grandpa!” Eleme nts of Literatu re. Holt, Rin ehart, Win ston 1997. Who is the narrator?",
+          "contentHash": "sha256:c6d2093dc8d9f05f45d14439e7ee531d67578fc08d1d8d9691decf12b65aed72",
+          "question": "Read the passage. I got up and walked to the curb to see what the commotion was. About a block away I saw a crowd of little kids yelling, with the d ogs yipping and growling around someone who was walking down the middle of the street. I watched the group as it slowly came closer and saw that in the center of the strange procession was a man we aring a tall black hat. He paused now and thento peer at something in his hand and then at the houses on either side of the street. I felt cold and hot at the same time as I recognized the man. “Oh no!” I whispered. “It’s Grandpa!” Elements of Literature. Holt, Rin ehart, Winston 1997. Who is the narrator?",
           "choices": [
             "the grandchild",
             "the grandpa",
@@ -49761,8 +49761,8 @@
         {
           "id": "reading-comprehension-summarizing-q0287",
           "version": 3,
-          "contentHash": "sha256:74e51c2b0d8122f0627a846e26f6e36b58c8753ffafd66099283ed4083846d4f",
-          "question": "Read the story. I don’t have much work to do around the house like some girls. My mother does that. And I don’t have to earn my pocket money by hustling; George runs errands for the big boys and sells Christmas cards. And anything else that’s got to get done, my father does. All I have to do in life is mind my brother Raymond, which isenough. Sometimes I slip and say my little brother Raymond. But as any fool can see he’s much bigger and he’s older too. But a lot of people call him my little brother cause he needs looking after cause he’s not quite right. And a lot of smart mouths got lots to say about that too, especially when George was minding him. But now, if anybody has anything to say to Raymond, anything to say about his big head, they have to come by me. And I don’ t play the dozens or believe in standing around with somebody in my face doing a lot of talking. I much rather just knock you down and take my chanceseven if I am a little girl with skinny arms and a squeaky voice, which is how I go the name Squeaky. And if things get toorough, I run. And as anybody can tell you, I’m the fastest thing ontwo feet. “Ray mond’s Run. Elements o f Literature: The Course. Holt, Rinehart, Winston 1997. Which of these is not true of the main character in this passage?",
+          "contentHash": "sha256:48f1173396bef496a65bab53a17133de97546d4ed3a3c02e846a90f6bd0cc7e2",
+          "question": "Read the story. I don’t have much work to do around the house like some girls. My mother does that. And I don’t have to earn my pocket money by hustling; George runs errands for the big boys and sells Christmas cards. And anything else that’s got to get done, my father does. All I have to do in life is mind my brother Raymond, which isenough. Sometimes I slip and say my little brother Raymond. But as any fool can see he’s much bigger and he’s older too. But a lot of people call him my little brother cause he needs looking after cause he’s not quite right. And a lot of smart mouths got lots to say about that too, especially when George was minding him. But now, if anybody has anything to say to Raymond, anything to say about his big head, they have to come by me. And I don’ t play the dozens or believe in standing around with somebody in my face doing a lot of talking. I much rather just knock you down and take my chanceseven if I am a little girl with skinny arms and a squeaky voice, which is how I go the name Squeaky. And if things get toorough, I run. And as anybody can tell you, I’m the fastest thing ontwo feet. “Raymond’s Run. Elements o f Literature: The Course. Holt, Rinehart, Winston 1997. Which of these is not true of the main character in this passage?",
           "choices": [
             "She minds her brother, Raymond.",
             "She is the fastest thing ontwo feet.",
@@ -61735,8 +61735,8 @@
         {
           "id": "reading-comprehension-text-evidence-q0181",
           "version": 3,
-          "contentHash": "sha256:1e0472bfb3800587a9b8f56d5f8bf46fcbaf801b08df5a6c3ff13a3bd34c7b13",
-          "question": "Read the statement. Mary wrote, “Everyone should drink milk instead of coffee. My grandfat her drank milk at every meal. He lived to be 89. People could live longer by drinking milk.” What is faulty with Mary’s reasoning?",
+          "contentHash": "sha256:8af315f8c5eb839e92b602acbb9c427d30c404491f254365794ec792a46e3579",
+          "question": "Read the statement. Mary wrote, “Everyone should drink milk instead of coffee. My grandfather drank milk at every meal. He lived to be 89. People could live longer by drinking milk.” What is faulty with Mary’s reasoning?",
           "choices": [
             "Not enough evidence to decide what is good for everyone",
             "Other factors may have been a reason for his long life",
@@ -61956,12 +61956,12 @@
         {
           "id": "reading-comprehension-text-evidence-q0184",
           "version": 3,
-          "contentHash": "sha256:60c901e2e6558774e2acd8b4df27777195b6e12f89dfee98453e3f80c7ba693f",
-          "question": "Read the following logical argument. Some people are creative, some people are ambitious, and all people are curious. If these statements are facts, which one of the following sentences is defin itely true?",
+          "contentHash": "sha256:c24b1306269569b2f9461c746e80747852a32984cc66b0875135642828afc767",
+          "question": "Read the following logical argument. Some people are creative, some people are ambitious, and all people are curious. If these statements are facts, which one of the following sentences is definitely true?",
           "choices": [
             "all people are ambitious",
             "some curious people are creative",
-            "curious people are never amb itious",
+            "curious people are never ambitious",
             "ambitious people are always creative"
           ],
           "correct": 1,
@@ -61975,8 +61975,8 @@
               },
               "",
               {
-                "choice": "curious people are never amb itious",
-                "reason": "\"curious people are never amb itious\" does not give the clearest proof for the idea the question asks about."
+                "choice": "curious people are never ambitious",
+                "reason": "\"curious people are never ambitious\" does not give the clearest proof for the idea the question asks about."
               },
               {
                 "choice": "ambitious people are always creative",
@@ -62029,8 +62029,8 @@
         {
           "id": "reading-comprehension-text-evidence-q0185",
           "version": 3,
-          "contentHash": "sha256:f675f703cda83e8b661d4dc3a152959ac4cce6595d7f1b80d7f9ac48b0f1135d",
-          "question": "Read the passage and answer the question. The sun was shining in the bright, blue sky. It was beautiful weather for this time of year. Beads of sweat formed on Robert’s face as he pedaled up the s treet. “I can’t wait to swim when we get there!” he called to Sara, who was riding ahead of him. “Yes, it will feel wonderful!” What are Robert and Sara going to do?",
+          "contentHash": "sha256:b124aa0e2c99bb49d47aaa6440d2880f3e105cbf3fc6b2b3edc28535f9891bf5",
+          "question": "Read the passage and answer the question. The sun was shining in the bright, blue sky. It was beautiful weather for this time of year. Beads of sweat formed on Robert’s face as he pedaled up the street. “I can’t wait to swim when we get there!” he called to Sara, who was riding ahead of him. “Yes, it will feel wonderful!” What are Robert and Sara going to do?",
           "choices": [
             "go shopping",
             "go to school",
@@ -62177,12 +62177,12 @@
         {
           "id": "reading-comprehension-text-evidence-q0187",
           "version": 3,
-          "contentHash": "sha256:e53632816e3e532749a2c2771fbd3f439482084d6bb05bfbbae32b2f2231f070",
+          "contentHash": "sha256:4a6a34395e3607c9ce04cd820d5959df249f46dc895847f98c0ce80e63512ddd",
           "question": "Read the announcement. Which of the following times canyou attend the fair?",
           "choices": [
             "Friday at 2:00 p.m.",
             "Saturday at 12:00 p.m.",
-            "Sat urday at 8:00 a.m.",
+            "Saturday at 8:00 a.m.",
             "Friday at 6:00 p.m."
           ],
           "correct": 1,
@@ -62196,7 +62196,7 @@
               },
               "",
               {
-                "choice": "Sat urday at 8:00 a.m.",
+                "choice": "Saturday at 8:00 a.m.",
                 "category": "Typographical or timing error",
                 "reason": "This choice contains a spelling error and lists a time that does not appear in the official fair announcement."
               },
@@ -62546,8 +62546,8 @@
         {
           "id": "reading-comprehension-text-evidence-q0192",
           "version": 3,
-          "contentHash": "sha256:68a4627a89986ab91284b5aa43cf0619cca5cae710b294b9ab0b03a463c444b7",
-          "question": "Read the passage. Plants need nutrients to make their food and get energy. Some plants that grow in poor soil get the nutrients they need by “eating” a nimals. A sweet -smelling liquid attracts insects to a pitcher plant. Once an i nsect enters the tube-shaped l eaf of the plant, hairs that point downward stop it from leaving. The insect falls into the pool of liquid inside the leaf. The liquid dissolves the insect, and the plant uses the nutrients. Why do plants eat animals or insects?",
+          "contentHash": "sha256:572b46be0e6c362cef57fcf5b62c86d9d268ff0c90237f3c13e899a2ab0a8032",
+          "question": "Read the passage. Plants need nutrients to make their food and get energy. Some plants that grow in poor soil get the nutrients they need by “eating” animals. A sweet -smelling liquid attracts insects to a pitcher plant. Once an insect enters the tube-shaped leaf of the plant, hairs that point downward stop it from leaving. The insect falls into the pool of liquid inside the leaf. The liquid dissolves the insect, and the plant uses the nutrients. Why do plants eat animals or insects?",
           "choices": [
             "they are natural predators",
             "they do not eat animals or insects",
@@ -63286,10 +63286,10 @@
         {
           "id": "reading-comprehension-text-evidence-q0202",
           "version": 3,
-          "contentHash": "sha256:8e697ecdc41ccc7c53a21b3cf427b51cfbbacb46b9ed8fc7f82cd94769486811",
+          "contentHash": "sha256:19191b25b6f049cd05da8e46f3ded32e2d145bda4f0f0e5823228a47a2a5c486",
           "question": "The word “hilarious” belongs with which group?",
           "choices": [
-            "lit tle, small",
+            "little, small",
             "big, large",
             "funny, humorous",
             "high, tall"
@@ -63299,7 +63299,7 @@
             "correct": "Answer: funny, humorous. Words that share a similar meaning are called synonyms. 'Hilarious' means very funny, so 'funny' and 'humorous' are the correct synonyms.",
             "incorrect": [
               {
-                "choice": "lit tle, small",
+                "choice": "little, small",
                 "category": "incorrect synonym group",
                 "reason": "These words describe size, not humor. 'Little' and 'small' are synonyms for each other, but they do not share the same meaning as 'hilarious'."
               },
@@ -63508,10 +63508,10 @@
         {
           "id": "reading-comprehension-text-evidence-q0205",
           "version": 3,
-          "contentHash": "sha256:28cc173ba027cc1a730bd3ac3fd05f3f5b1542a19e4bb5c582613c039a02edca",
-          "question": "Read story and complete the sentence below. Patty’s grandma lives far away. She lives in New Y ork. When she comes to visit, she always brings Patty presents. She takes her to the park. She helps Patty clean her bedroom. She helps her bake cookies. She eventeaches Patty how to quilt. The story tells that __________________.",
+          "contentHash": "sha256:bdf04b48e6440707902e123440bb62722cd35e9a87f204ad1afa1bf16e063596",
+          "question": "Read story and complete the sentence below. Patty’s grandma lives far away. She lives in New York. When she comes to visit, she always brings Patty presents. She takes her to the park. She helps Patty clean her bedroom. She helps her bake cookies. She eventeaches Patty how to quilt. The story tells that __________________.",
           "choices": [
-            "Pa tty’s grandma never visits Patty.",
+            "Patty’s grandma never visits Patty.",
             "Patty’s grandma was not very helpful.",
             "Patty’s grandma is helpful and fun when she comes to visit.",
             "Patty didn’t like to do things with her grandma."
@@ -63521,7 +63521,7 @@
             "correct": "Answer: Patty’s grandma is helpful and fun when she comes to visit. The story describes the grandma bringing gifts, taking Patty to the park, cleaning, baking, and teaching her to quilt, which are all helpful and fun activities.",
             "incorrect": [
               {
-                "choice": "Pa tty’s grandma never visits Patty.",
+                "choice": "Patty’s grandma never visits Patty.",
                 "category": "Contradicts story facts",
                 "reason": "The story explicitly states that the grandma comes to visit and lists several activities they do together, so it is incorrect to say she never visits."
               },
@@ -63582,8 +63582,8 @@
         {
           "id": "reading-comprehension-text-evidence-q0206",
           "version": 3,
-          "contentHash": "sha256:7c3e780d76af601f07fafbd90793bb021b56825308da069d6b3ef4f401bf8bae",
-          "question": "Read the story and answer the question. Pupas hatch from eggs. The pupa eats and becomes a caterpillar. Caterpill ars form a chrysalis. A butterfly emerges from the chrysalis. What do all these sentences describe?",
+          "contentHash": "sha256:da7d13efd10726c1ee0ed75b2525edb0a32e161797b56ef4701407e738ac8f28",
+          "question": "Read the story and answer the question. Pupas hatch from eggs. The pupa eats and becomes a caterpillar. Caterpillars form a chrysalis. A butterfly emerges from the chrysalis. What do all these sentences describe?",
           "choices": [
             "The lifecycle of an egg.",
             "The lifecycle of a caterpillar.",
@@ -63730,8 +63730,8 @@
         {
           "id": "reading-comprehension-text-evidence-q0208",
           "version": 3,
-          "contentHash": "sha256:a7d11ecf8023d52b9b1c594cf64e085f73e45bf63940d0f958a265e54de94486",
-          "question": "Read the passage and answer the question. Jan Brett, an author of many children’s books, uses many of the stories tol d to her by her Swedish grandmother. She illustrates her book s with the cheerful colors and patterns often used in Northern European countries. Based onthis message, which statement best desc ribes Jan Brett?",
+          "contentHash": "sha256:b56eed81397c7a4bb8cb13fccd9937aa157034091963845f8b41ca3f3e5b4438",
+          "question": "Read the passage and answer the question. Jan Brett, an author of many children’s books, uses many of the stories tol d to her by her Swedish grandmother. She illustrates her book s with the cheerful colors and patterns often used in Northern European countries. Based onthis message, which statement best describes Jan Brett?",
           "choices": [
             "She plans to move to Sweden.",
             "She believes children should read.",
@@ -63878,8 +63878,8 @@
         {
           "id": "reading-comprehension-text-evidence-q0210",
           "version": 3,
-          "contentHash": "sha256:8f06e4589d60e5b732cbe74f9d9aa96a8b032e08b910fa320cb71ac9cc5c5f14",
-          "question": "Students must have exceptional qualities in able to join the student counci l. Which of the reasons below is the least valued reason for being invited to join the st udent council?",
+          "contentHash": "sha256:196b9694177c2a0ce29c5bb7a9b7bd9ee7c1c03061e790318fe4b48acbf94393",
+          "question": "Students must have exceptional qualities in able to join the student council. Which of the reasons below is the least valued reason for being invited to join the student council?",
           "choices": [
             "h igh grades",
             "good citizenship",
@@ -64321,8 +64321,8 @@
         {
           "id": "reading-comprehension-text-evidence-q0216",
           "version": 3,
-          "contentHash": "sha256:b4c21ec128609e674cd4c3d70a0b395fefcabe3de1a05a62a30b0ff759baefa4",
-          "question": "Which event took plac e in the middle of the story?",
+          "contentHash": "sha256:4e8267070208c3e6a149038c48411996c29fe999c5b8230e873a407ac2758f02",
+          "question": "Which event took place in the middle of the story?",
           "choices": [
             "I was glad I listened to my parents.",
             "Climbing out of the car, my heart raced.",
@@ -64469,8 +64469,8 @@
         {
           "id": "reading-comprehension-text-evidence-q0218",
           "version": 3,
-          "contentHash": "sha256:416d0be0550994f6791a032c9fac02ecf387c02110407982f86e29032c5da2b0",
-          "question": "Read the passage. “The alarm clock rang. Lali opened her eyes, stretched out her arm, and pushed in the small knob that shut off the noise. She lay back staring at the ceiling. Off in a corner the paint was peeling and a large crack made that section buckle. Every day she cleaned the small chips of paint that fell on the dresser top and floor.” Stories of Newco mers, “Lali from In Nueva York”, P age 183. (Teacher authors: Phillips, Blackman, Felts). What canyou determine about the house that Lali lives in?",
+          "contentHash": "sha256:6f51f09c3bd8803d62d14e6902e775451fa905d8eee1e2c8d9f9d2c71ef01458",
+          "question": "Read the passage. “The alarm clock rang. Lali opened her eyes, stretched out her arm, and pushed in the small knob that shut off the noise. She lay back staring at the ceiling. Off in a corner the paint was peeling and a large crack made that section buckle. Every day she cleaned the small chips of paint that fell on the dresser top and floor.” Stories of Newcomers, “Lali from In Nueva York”, P age 183. (Teacher authors: Phillips, Blackman, Felts). What canyou determine about the house that Lali lives in?",
           "choices": [
             "Lali lives in a poor, rundown house.",
             "The house is in a wealthy neighborhood.",
@@ -77063,13 +77063,13 @@
         {
           "id": "reading-comprehension-story-elements-q0182",
           "version": 5,
-          "contentHash": "sha256:b2a37862d0f990949693011c0e6ae94ce0d610ca041a983c7b746e223b9d9cc2",
+          "contentHash": "sha256:36d8b603cfbd881158de666dbc6ada5e2d58fe183a7331f97d4653fe54445e7f",
           "question": "What is the purpose of using dialogue in a story?",
           "choices": [
             "to make a story longer",
             "to add vivid details and descriptions",
             "to demonstrate how to properly punctuate dialogue",
-            "to bring characters to life and communicate emo tions"
+            "to bring characters to life and communicate emotions"
           ],
           "correct": 3,
           "explanation": {
@@ -89287,10 +89287,10 @@
         {
           "id": "reading-comprehension-theme-lesson-moral-q0289",
           "version": 3,
-          "contentHash": "sha256:d157313cc843350283d24a7793135ddde02e98c08f4bfbbd2b0dafd49f44a7bb",
+          "contentHash": "sha256:b20018925132cd12b10864a04522eae9d4886efa929be8b8eb51d0d424fd16d7",
           "question": "Read the passage. We couldn’t wait for summer vacation to start! It was the last day of school, and we were so excited to get out and start the games and fun of summer. My personal favorite thing about summer is getting to sleep in late and stay the night at my friends’ houses for parties and sleepovers. I love school, but I always look forward to summer! The theme of this story is ___________________.",
           "choices": [
-            "Schoo l is boring.",
+            "School is boring.",
             "I always look forward to summer.",
             "Summer is coming soon.",
             "Parties are fun."
@@ -89300,7 +89300,7 @@
             "correct": "Answer: I always look forward to summer. The main idea of a passage is the central point the author is trying to make. The text repeatedly emphasizes how much the narrator enjoys summer compared to other things.",
             "incorrect": [
               {
-                "choice": "Schoo l is boring.",
+                "choice": "School is boring.",
                 "category": "misinterpreted main idea",
                 "reason": "While the narrator mentions school, they specifically say, 'I love school.' This choice contradicts the passage rather than summarizing its theme."
               },
@@ -102240,8 +102240,8 @@
         {
           "id": "reading-comprehension-authors-purpose-q0194",
           "version": 3,
-          "contentHash": "sha256:d2fdbe69fafa9679d63b19bfd5fd98d4ebfa6ac8d8c0e18d0886e8e0f1b2beb1",
-          "question": "Read the advertisement. NIE Program Ad vertisement. Jeanet te Edmister 542 -6777. Where should donated books be taken?",
+          "contentHash": "sha256:dfdb8a3d55a24027511b05a0c5fbd016e545fb1f54ae17a78de7075a1732bd29",
+          "question": "Read the advertisement. NIE Program Advertisement. Jeanette Edmister 542 -6777. Where should donated books be taken?",
           "choices": [
             "to the NIE office",
             "to Jeanette Edmister",
@@ -102314,8 +102314,8 @@
         {
           "id": "reading-comprehension-authors-purpose-q0195",
           "version": 3,
-          "contentHash": "sha256:24b41e97f4a853a4676e88e447495d461ec17b333ed58ddde03b44726ef6671a",
-          "question": "Read the passage. Abraham Lincoln wasn’t the sort of man who could lose himself in a crowd. After all, he stood six feet four inches tall, and to top it off, he wore a high silk hat. His height was mostly in his long, bony legs. When he sat in a chair, he seemed no taller than anyone else. It was only when he stood up that he towered above other men. At first glance most people thoughthe was homely. Lincolnthought so too, referring once to his, “poor, lean, lank face.” As a young man he was sensitive about his ga wky looks, but intime, he learned to laugh at himself. When a rival called h-im “two faced” during a political debate, Lincoln replied: “I leave it to m y audience. If I had another face, do you think I’d wear this one?” According to those who knew him, Lincol n was a man of many faces. In repose he often seemed sad and gloomy. But w hen he began to speak, hisexpression changed. “The Mysteriou s Mr. Lincoln, Elements of Literature, Introductory Cou rse. Holt, Rinehart and Winston, 1997. Select the appropriate genre for this passage.",
+          "contentHash": "sha256:753f84fce0a0d58a2ad059208ecc6182f265e5e617406645230e11c14e56ec5d",
+          "question": "Read the passage. Abraham Lincoln wasn’t the sort of man who could lose himself in a crowd. After all, he stood six feet four inches tall, and to top it off, he wore a high silk hat. His height was mostly in his long, bony legs. When he sat in a chair, he seemed no taller than anyone else. It was only when he stood up that he towered above other men. At first glance most people thoughthe was homely. Lincolnthought so too, referring once to his, “poor, lean, lank face.” As a young man he was sensitive about his gawky looks, but intime, he learned to laugh at himself. When a rival called h-im “two faced” during a political debate, Lincoln replied: “I leave it to m y audience. If I had another face, do you think I’d wear this one?” According to those who knew him, Lincoln was a man of many faces. In repose he often seemed sad and gloomy. But w hen he began to speak, hisexpression changed. “The Mysterious Mr. Lincoln, Elements of Literature, Introductory Course. Holt, Rinehart and Winston, 1997. Select the appropriate genre for this passage.",
           "choices": [
             "non fiction",
             "fiction",
@@ -103275,8 +103275,8 @@
         {
           "id": "reading-comprehension-authors-purpose-q0246",
           "version": 3,
-          "contentHash": "sha256:fb92510bf13045f023e2d51ecfdef2d9cae2e49aa8d21fb42b17440b3ebabdff",
-          "question": "Read the advertisement. What will this company send if you order the Mul tiplication Memorizer?",
+          "contentHash": "sha256:d62c10d9b40cefcd06016848f67e43986a254d3278cf0a2d4c8fff563e7c297b",
+          "question": "Read the advertisement. What will this company send if you order the Multiplication Memorizer?",
           "choices": [
             "colorful pictures and a study guide",
             "study guides and flashcards",
@@ -127265,10 +127265,10 @@
         {
           "id": "reading-comprehension-compare-contrast-q0195",
           "version": 3,
-          "contentHash": "sha256:5075c484013519f7728eae7ef067c77f759cfeb9233881028b74e165742ce4ef",
+          "contentHash": "sha256:4c7e8b68281d70cb891be55e4d84bf9bba417ca2ae52131bbb6aab95e2aaefa9",
           "question": "Which group of words m eans the same as the word lost?",
           "choices": [
-            "missing, misplaced, returned, witho ut",
+            "missing, misplaced, returned, without",
             "absent, forfeited, misplaced, weak",
             "missing, misplac ed, absent, vanished",
             "leave, disabled, sickly, hidden"
@@ -127278,7 +127278,7 @@
             "correct": "Answer: missing, misplac ed, absent, vanished. All of these words describe something that cannot be found or is no longer in its proper place, which is the definition of being 'lost'.",
             "incorrect": [
               {
-                "choice": "missing, misplaced, returned, witho ut",
+                "choice": "missing, misplaced, returned, without",
                 "category": "Antonym included",
                 "reason": "The word 'returned' means to come back or be brought back, which is the opposite of being lost."
               },
@@ -127338,8 +127338,8 @@
         {
           "id": "reading-comprehension-compare-contrast-q0185",
           "version": 3,
-          "contentHash": "sha256:717f67dd9df650a5433830dab68eefeb133de3dc4158eafaedbf7d8d0ab2f1af",
-          "question": "Review the passage. Now, the Star-Belly Sneetches Had bellies with stars The Plain-Belly Sneetches Had non uponthars. Those stars weren’t so big. They were really so small You might think such a thing wouldn’t matter at all. But because they had stars, all the Star- Belly Sneetches. Would brag. “We’re the best kind of Sneetch on the beaches.” With their snoots in the air, they would sniff and they’d snort. “We’ll have nothing to do with the Plain sort!” -Belly And whenever they met some, whenthey were out walking, They’d hike right on past them without eventalking. Whenthe Star-Belly children went out to play ball, Could a Plain Belly get in the game? Not at all. You o nly could play if your bellies had stars And the Plain-Belly children had none uponthars. Seuss). “The Sneetches. Elements of Lit erature, Introductory Course. Holt, Rinehart and Winston, Harcourt Brace and Company, 1997. What is the problem and possible resolution for this passage?",
+          "contentHash": "sha256:c887d780b8dba43cd3d650a9e7a0c9ce7bfd7659aed30d639e3336ab3ac16463",
+          "question": "Review the passage. Now, the Star-Belly Sneetches Had bellies with stars The Plain-Belly Sneetches Had non uponthars. Those stars weren’t so big. They were really so small You might think such a thing wouldn’t matter at all. But because they had stars, all the Star- Belly Sneetches. Would brag. “We’re the best kind of Sneetch on the beaches.” With their snoots in the air, they would sniff and they’d snort. “We’ll have nothing to do with the Plain sort!” -Belly And whenever they met some, whenthey were out walking, They’d hike right on past them without eventalking. Whenthe Star-Belly children went out to play ball, Could a Plain Belly get in the game? Not at all. You only could play if your bellies had stars And the Plain-Belly children had none uponthars. Seuss). “The Sneetches. Elements of Literature, Introductory Course. Holt, Rinehart and Winston, Harcourt Brace and Company, 1997. What is the problem and possible resolution for this passage?",
           "choices": [
             "The Star- Belly Sneetches don’t like the Plain Belly Sneetches because they are shorter, and they should move to another part of the country.",
             "The Plain Belly Sneetches don’t like the Star -Belly Sneetches because they act funny, and they should tell them to leave them alone.",
@@ -127412,10 +127412,10 @@
         {
           "id": "reading-comprehension-compare-contrast-q0186",
           "version": 3,
-          "contentHash": "sha256:3e75f36da95016330ca486a009c4dcd9cbb9e608654e02b60727f5358b29eab6",
+          "contentHash": "sha256:3668ccbcfb27af39c4dc0b146ea5f1cfffa23064fa2addd1297a3f9919c985fb",
           "question": "Read the passage. A substance made up of one type of atom is called an element. Whentwo or more atoms jointogether, they form what is called a molecule. How do molecules and elements differ?",
           "choices": [
-            "M olecules containtwo or more atoms, and elem ents containone atom.",
+            "Molecules containtwo or more atoms, and elements containone atom.",
             "They have the same number of atoms.",
             "Elements do not have atoms.",
             "Molecules are made up of elements."
@@ -139900,17 +139900,17 @@
         {
           "id": "reading-comprehension-poetry-skills-q0183",
           "version": 3,
-          "contentHash": "sha256:f0f9012a6bea5f98a389d3fe0cc2832436f2eb5169c5312227722dee7a1e8607",
-          "question": "Review the poem. Fame is a bee. It has a song--- It has a sting--- Ah, too, it has a wing. Elements o f Literature Intro ductory Course. Holt, Rinehart and Wins ton,, Harcourt Brace and Company, 1997. This is an example of:",
+          "contentHash": "sha256:229d2535a76f06c7e51f6ed6f34ee1add349181370ca5e71fd0425fea9ff4be9",
+          "question": "Review the poem. Fame is a bee. It has a song--- It has a sting--- Ah, too, it has a wing. Elements o f Literature Introductory Course. Holt, Rinehart and Wins ton,, Harcourt Brace and Company, 1997. This is an example of:",
           "choices": [
             "mood",
             "simile",
-            "met aphor",
+            "metaphor",
             "irony"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: met aphor. A metaphor is a figure of speech that directly describes something by saying it is something else, such as stating 'Fame is a bee' to highlight its dual nature.",
+            "correct": "Answer: metaphor. A metaphor is a figure of speech that directly describes something by saying it is something else, such as stating 'Fame is a bee' to highlight its dual nature.",
             "incorrect": [
               {
                 "choice": "mood",
@@ -140122,20 +140122,20 @@
         {
           "id": "reading-comprehension-poetry-skills-q0186",
           "version": 3,
-          "contentHash": "sha256:bdd255a46570e919534177ac4eb19a134821e3ad5025f376fcac8e0a4ac7763d",
+          "contentHash": "sha256:9e839a961e2975053b03b452e074d51c72e3b630e34ddcbe6b4dad371d6a6aa5",
           "question": "Read the poem. The flicker of light It burns in the shadows. How wondrous it is The miracle of nature. How can such a simple thing Be such a wonder? A bug? With lightening? How canthis be? What a wondrous sight! What is the author referring to in this poem?",
           "choices": [
-            "ligh tening",
-            "ligh tening bugs",
+            "lightening",
+            "lightening bugs",
             "storms",
             "nature"
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: ligh tening bugs. The poem describes a bug that produces a flicker of light, which refers to the firefly or lightning bug.",
+            "correct": "Answer: lightening bugs. The poem describes a bug that produces a flicker of light, which refers to the firefly or lightning bug.",
             "incorrect": [
               {
-                "choice": "ligh tening",
+                "choice": "lightening",
                 "category": "Incomplete noun phrase",
                 "reason": "This is only an action or a weather event, not the creature being described as a 'bug' in the poem."
               },
@@ -140270,8 +140270,8 @@
         {
           "id": "reading-comprehension-poetry-skills-q0284",
           "version": 3,
-          "contentHash": "sha256:d38ca27b3ed32a2a7d94733c67544aa2f101ac4a4612c06a1a04bb64aad59e2e",
-          "question": "Read the passage. Today, while cooking oatmeal she is Madame Butterfly until she sighs and points the wooden spoon at me. I could’ve been somebody, you know? Esperanza, you go to school and study hard. That Madame Butterfly was a fool. She stirs the oatmeal. Look at my compadres. She means Izaura whose husband left and Yolanda whose husband is dead. Got to take care your own, she says shaking her head. of “A Smart Cookie”. E lements of Lit erature. Holt, Rinehart, Winston 1997. The underlined sentence is a:",
+          "contentHash": "sha256:098a3f1bbf6f356e5f571ea4e725511c9bd1bda691f80813df0dcf0d6f75ac25",
+          "question": "Read the passage. Today, while cooking oatmeal she is Madame Butterfly until she sighs and points the wooden spoon at me. I could’ve been somebody, you know? Esperanza, you go to school and study hard. That Madame Butterfly was a fool. She stirs the oatmeal. Look at my compadres. She means Izaura whose husband left and Yolanda whose husband is dead. Got to take care your own, she says shaking her head. of “A Smart Cookie”. Elements of Literature. Holt, Rinehart, Winston 1997. The underlined sentence is a:",
           "choices": [
             "simile",
             "metaphor",
@@ -140344,10 +140344,10 @@
         {
           "id": "reading-comprehension-poetry-skills-q0290",
           "version": 4,
-          "contentHash": "sha256:cfd5454a1b84a0b7615ef6b53b9819896891800d4d7ad0db2d1a935a73356d20",
+          "contentHash": "sha256:a459b3f3df258fc043aa3976918924652f4bcc1ae62147f06dc737fbf668f6b3",
           "question": "Read the poem. She came out pulling ather gloves, face bright with rouge. I smiled. What is the mood or feeling of the poem?",
           "choices": [
-            "jo yful",
+            "joyful",
             "sad",
             "funny",
             "frightening"
@@ -152138,8 +152138,8 @@
         {
           "id": "reading-comprehension-book-genres-q0181",
           "version": 3,
-          "contentHash": "sha256:caba392f3f526698fc6a0d3dd2a9e150dc95a6f13432b0b7647f70afc898c502",
-          "question": "Read the passage. Learning to read is important for everyone. Reading is imp ortant if you want to learn how to put something together. Some people read f or fun. But everyone needs to read if they want to be successful in getting a job. This passage is an example of what kind of writing?",
+          "contentHash": "sha256:0395ca4e3e968c4c24c568f186603e94ff7a2865f97062796b54df092489592b",
+          "question": "Read the passage. Learning to read is important for everyone. Reading is important if you want to learn how to put something together. Some people read f or fun. But everyone needs to read if they want to be successful in getting a job. This passage is an example of what kind of writing?",
           "choices": [
             "fiction",
             "fantasy",
@@ -152430,12 +152430,12 @@
         {
           "id": "reading-comprehension-book-genres-q0267",
           "version": 3,
-          "contentHash": "sha256:b2282998c826e519f3cb722c5fa6ec0c07d424d616ff3d3dc3a5c51b91a2ec9c",
+          "contentHash": "sha256:dd4dca4ca5e7c8d1a803e9593c2474b0d821699169ac081f2f058dfe364b8df3",
           "question": "Read the passage. Bats are nocturnal animals. Bats come in many sizes and shapes. Bats hunt for food at night. Bats usually live in caves. What kind of writing is this?",
           "choices": [
             "poetry",
             "fairy tale",
-            "non-fict ion",
+            "non-fiction",
             "fiction"
           ],
           "correct": 2,
@@ -176265,12 +176265,12 @@
         {
           "id": "reading-comprehension-tone-mood-q0189",
           "version": 4,
-          "contentHash": "sha256:9bc935da776da15e4a9a096b4461ce733c29032e0887e253c9149266977a88f1",
+          "contentHash": "sha256:c2e4a66213517837519fc891e8d8cb7f74a15d4d4af6727c4cc8cb12476a0382",
           "question": "An ad for hand cream claim s the cream moistu rizes and evens s kin tone. What does tone mean?",
           "choices": [
             "musical sound",
             "elegant style",
-            "interval on a mu sical scale",
+            "interval on a musical scale",
             "quality of color"
           ],
           "correct": 3,
@@ -176288,8 +176288,8 @@
                 "reason": "This definition of 'tone' is usually used for behavior or fashion, not for the physical condition or color of skin."
               },
               {
-                "choice": "interval on a mu sical scale",
-                "reason": "\"interval on a mu sical scale\" creates a different tone or mood from the one asked for."
+                "choice": "interval on a musical scale",
+                "reason": "\"interval on a musical scale\" creates a different tone or mood from the one asked for."
               },
               ""
             ]
@@ -188451,10 +188451,10 @@
         {
           "id": "reading-comprehension-test-taking-reading-skills-q0183",
           "version": 3,
-          "contentHash": "sha256:2b3bb8f81de5b113036d484bc67d2bf7638b78ec82f88db1ec1b1fd0a5cbeecb",
+          "contentHash": "sha256:88e1868200f1c31d954e1e5ca647dd0fb5522a53af2dec311130b225a80585d7",
           "question": "Read the story and answer the question. Some monkeys are the size of house cats. These monkeys are called vervet monkeys. They live in East Africa. These groups of monkeys fight often. Usually the strongest group of monkeys wins. When these monkeys fight they stand on their hind legs, bite, and bark an alarm call. When one group cries out an alarm call, the other group of monkeys climbs up a nearby tree. How do vervet monkeys fight?",
           "choices": [
-            "They stand on their hind l egs, bite, and bark an alarm call.",
+            "They stand on their hind legs, bite, and bark an alarm call.",
             "They swing their arms, bit, and climb up a tree.",
             "They jump oneach other, bite, and bark.",
             "They bite and run."
@@ -188599,11 +188599,11 @@
         {
           "id": "reading-comprehension-test-taking-reading-skills-q0185",
           "version": 3,
-          "contentHash": "sha256:fc463f5c2ce5ed2063d7c448a357ae763e9cb607fb1dbbd92515bba26d034196",
+          "contentHash": "sha256:75d99a05170eae436493dfdeaf196983afa09c7c67ef504d52f4a31d7a21c76a",
           "question": "Read the passage. The teacher told the class, “Every student who had cereal for breakfast last year received a passing grade on the test. So, if you want to pass, have cereal for breakfast.” What is faulty about the teacher’s reasoning?",
           "choices": [
             "Perhaps students other than those who ate cereal also pass the test.",
-            "A lot of people eat cereal for breakfast, so it could have been a coin cidence.",
+            "A lot of people eat cereal for breakfast, so it could have been a coincidence.",
             "There is nothing wrong with the teacher’s reasoning.",
             "Bo th A and B"
           ],
@@ -188617,8 +188617,8 @@
                 "reason": "While this is true, it is only one part of the error. The teacher's reasoning is faulty for multiple reasons, not just this one."
               },
               {
-                "choice": "A lot of people eat cereal for breakfast, so it could have been a coin cidence.",
-                "reason": "\"A lot of people eat cereal for breakfast, so it could have been a coin cidence.\" is a weak test strategy because it ignores evidence or relies on a shortcut."
+                "choice": "A lot of people eat cereal for breakfast, so it could have been a coincidence.",
+                "reason": "\"A lot of people eat cereal for breakfast, so it could have been a coincidence.\" is a weak test strategy because it ignores evidence or relies on a shortcut."
               },
               {
                 "choice": "There is nothing wrong with the teacher’s reasoning.",
@@ -188672,12 +188672,12 @@
         {
           "id": "reading-comprehension-test-taking-reading-skills-q0186",
           "version": 3,
-          "contentHash": "sha256:ebe4c9be2a2534b66043be15361c109ad226e60a098e11d003a3857cbc5ff449",
+          "contentHash": "sha256:bcc5d3b9b0e5bcd059c0de7492e127d2df04ab4adffc303976998ff1ffa9354e",
           "question": "Read the passage and answer the question. Amy opened the doo r to the bathroom. “What is that dripping sound? Why is the carpet wet and squishy all around the bathtub? The rest of the carpet is dry. Oh n o!” What is the problem?",
           "choices": [
-            "There is no soap in the bathroo m.",
+            "There is no soap in the bathroom.",
             "The television set is broken.",
-            "The bathtu b is overflowing.",
+            "The bathtub is overflowing.",
             "The carpet is dry."
           ],
           "correct": 2,
@@ -188685,8 +188685,8 @@
             "correct": "Answer: The bathtub is overflowing. The text describes a wet, squishy carpet and a dripping sound specifically located around the bathtub, which directly implies water is spilling out of it.",
             "incorrect": [
               {
-                "choice": "There is no soap in the bathroo m.",
-                "reason": "\"There is no soap in the bathroo m.\" is a weak test strategy because it ignores evidence or relies on a shortcut."
+                "choice": "There is no soap in the bathroom.",
+                "reason": "\"There is no soap in the bathroom.\" is a weak test strategy because it ignores evidence or relies on a shortcut."
               },
               {
                 "choice": "The television set is broken.",
@@ -188745,12 +188745,12 @@
         {
           "id": "reading-comprehension-test-taking-reading-skills-q0187",
           "version": 3,
-          "contentHash": "sha256:6cd3d3a412ea17a894e7dccb355b71605b21ab4c5a89ae934adf8d8d23eacf11",
+          "contentHash": "sha256:11903d15f307a7a8aead82df63638936dee07e5fa0ae07b6e6b227b981dff0ca",
           "question": "Read the passage and answer the question. Robert practiced for his baseball game with his orange glove, his purple practice uniform, and his green game hat. Robert’s mom washed his dirty blue and white striped game uniform while Robert sat in the yellow chair watch ing TV. Wha t did Robert’s game uniform look like?",
           "choices": [
             "orange glove, green hat, purple uniform",
-            "orange glove, green hat, blue and white striped un iform",
-            "orange glove, blue and white striped hat, green unif orm",
+            "orange glove, green hat, blue and white striped uniform",
+            "orange glove, blue and white striped hat, green uniform",
             "o range glove, purple hat, blue and white striped uniform"
           ],
           "correct": 1,
@@ -188764,8 +188764,8 @@
               },
               "",
               {
-                "choice": "orange glove, blue and white striped hat, green unif orm",
-                "reason": "\"orange glove, blue and white striped hat, green unif orm\" is a weak test strategy because it ignores evidence or relies on a shortcut."
+                "choice": "orange glove, blue and white striped hat, green uniform",
+                "reason": "\"orange glove, blue and white striped hat, green uniform\" is a weak test strategy because it ignores evidence or relies on a shortcut."
               },
               {
                 "choice": "o range glove, purple hat, blue and white striped uniform",

@@ -6198,8 +6198,8 @@
         {
           "id": "grammar-pronouns-q0048",
           "version": 2,
-          "contentHash": "sha256:63a29b80245215273fff9f38a51612ad99a94518ab52fe856fa9d01e432e804b",
-          "question": "Choose the correct prono un to complete the sentence. My cats love to play with _____ feat her toys.",
+          "contentHash": "sha256:89438686848654678e04748598db0ea622949ee5dda97d1f15ea9cea957a0641",
+          "question": "Choose the correct pronoun to complete the sentence. My cats love to play with _____ feat her toys.",
           "choices": [
             "her",
             "its",
@@ -6340,17 +6340,17 @@
         {
           "id": "grammar-pronouns-q0052",
           "version": 2,
-          "contentHash": "sha256:41ae3825c33347a412de980ab6aee74fd94673bd0175dc312d8c428f895ab7bc",
+          "contentHash": "sha256:5ff16c6e0a4a326ddd3a665a401e0c85f3530b74cab032896bea58f15ea80539",
           "question": "Choose the sentence that uses verb tenses correctly.",
           "choices": [
             "The teacher was told us about our homework assignment.",
             "Therain will starting this afternoon.",
-            "The weat herman is explaining the effects of global warming.",
+            "The weatherman is explaining the effects of global warming.",
             "He were walking his dogs after work."
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: The weat herman is explaining the effects of global warming. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"The weat herman is explaining the effects of global warming.\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: The weatherman is explaining the effects of global warming. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"The weatherman is explaining the effects of global warming.\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
                 "choice": "The teacher was told us about our homework assignment.",
@@ -6908,17 +6908,17 @@
         {
           "id": "grammar-pronouns-q0065",
           "version": 2,
-          "contentHash": "sha256:fbed16d9c08534f1374a013478271466e459f4788383d192dca66087be80f5a3",
+          "contentHash": "sha256:38f4a62a1855d4d1a29dd646c103f030073690a262f54fa3b289cd3f9c3d4967",
           "question": "What is the purpose of the modal auxiliary verb, “may” in the sentence? Miranda may go to practice tomorrow if her fever goes away.",
           "choices": [
             "It is being used to question.",
             "It is being used to talk about something that is not going to happen.",
             "It is being used to talk about something that will happen.",
-            "It is being used to talk about a future event with u ncertainty."
+            "It is being used to talk about a future event with uncertainty."
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: It is being used to talk about a future event with u ncertainty. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"It is being used to talk about a future event with u ncertainty.\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: It is being used to talk about a future event with uncertainty. Rule or clue: Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness. \"It is being used to talk about a future event with uncertainty.\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
                 "choice": "It is being used to question.",
@@ -7831,8 +7831,8 @@
         {
           "id": "grammar-pronouns-q0089",
           "version": 2,
-          "contentHash": "sha256:8380cc05ac0e4a7e8f006f7234218d24b107a69e2157d0f40043de7582da0ec5",
-          "question": "Choose the correct word to complete the sentence. Mom and Dad are thankful _______ child ren were able to visit them over the holiday.",
+          "contentHash": "sha256:e559a91df61d60eecbf1511f0274fb51fadbda3887bce6f96ae81b8e62eddee6",
+          "question": "Choose the correct word to complete the sentence. Mom and Dad are thankful _______ children were able to visit them over the holiday.",
           "choices": [
             "they’re",
             "their",
@@ -8673,17 +8673,17 @@
         {
           "id": "grammar-pronouns-q0036",
           "version": 2,
-          "contentHash": "sha256:e64d6139832978f96290960273119493ea5c6477271caed55da98b238311d3fb",
+          "contentHash": "sha256:e45a60f5d06da817234ff2297723d6077c0bdf649335294f3456b8f4ac166679",
           "question": "Which word shows emotion?",
           "choices": [
-            "en vious",
+            "envious",
             "fired",
             "failed",
             "slam"
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: en vious. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"en vious\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: envious. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"envious\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               "",
               {
@@ -10283,8 +10283,8 @@
         {
           "id": "grammar-pronouns-q0107",
           "version": 2,
-          "contentHash": "sha256:96184e77f181e9b3ceeafdb1bf8c309217f7baa6a3738424b0c8dc1997444049",
-          "question": "Which word is the helping verb? She was given a pony on her tenth birthday and then a trip to Ireland on her eleve nth.",
+          "contentHash": "sha256:a7ed3c1bd2b4c78ca7fdd27640deb7c34b39e1dfa1b915939728766b4b748e2a",
+          "question": "Which word is the helping verb? She was given a pony on her tenth birthday and then a trip to Ireland on her eleventh.",
           "choices": [
             "was",
             "given",
@@ -10493,10 +10493,10 @@
         {
           "id": "grammar-pronouns-q0110",
           "version": 2,
-          "contentHash": "sha256:e914324832d7929e7c5f3711345afd19e651a1e85fc024b6d5fe4d2cb6420906",
+          "contentHash": "sha256:b97f947fab9f5e951ad008fc2f49d94f9e644bfdfe564b37179b9bda26ed6287",
           "question": "In the passage below, what is the meaning of the word, miser? At the beginning of",
           "choices": [
-            "Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver",
+            "Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someone who is a gift giver",
             "someone who thinks of others first",
             "someone who wishes to spend as little money as possible",
             "someone who is very old"
@@ -10506,8 +10506,8 @@
             "correct": "Answer: someone who wishes to spend as little money as possible. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"someone who wishes to spend as little money as possible\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
-                "choice": "Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver",
-                "reason": "A. someo ne who is a gift giver. \"Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someo ne who is a gift giver\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someone who is a gift giver",
+                "reason": "A. someone who is a gift giver. \"Christmas Carol in abundant evidence is provided to support Prose, the conclusion that Ebenezer Scrooge is a miser who doesn’t want to s pend any more money than is absolutely essential, and who begrudges spending what is necessary. A. someone who is a gift giver\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "someone who thinks of others first",
@@ -10773,17 +10773,17 @@
         {
           "id": "grammar-pronouns-q0138",
           "version": 2,
-          "contentHash": "sha256:e05c583e52183d1243c7fce5910d7f69577fd1e0cc8fb17f38448ff3ce05c5c4",
+          "contentHash": "sha256:7d2651b2c8e17b992d9187fa32e2f7d8b96a924758eda5094853fdb3c84bf0dd",
           "question": "Which word? contains the Greek root word that means “wrong”",
           "choices": [
-            "misn omer",
+            "misnomer",
             "antisocial",
             "epidemic",
             "oxymoron"
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: misn omer. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"misn omer\" matches the word meaning, spelling pattern, or word relationship asked for in the prompt.",
+            "correct": "Answer: misnomer. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"misnomer\" matches the word meaning, spelling pattern, or word relationship asked for in the prompt.",
             "incorrect": [
               "",
               {
@@ -10983,13 +10983,13 @@
         {
           "id": "grammar-pronouns-q0149",
           "version": 2,
-          "contentHash": "sha256:02469f8f7c697e1b418cb1dd80f79435d703c1e509a44b04e99b36e79f280874",
+          "contentHash": "sha256:f82c00b724e5ae4777018dfd5215f44455a438618739160e4ab9c19d5514c995",
           "question": "Which answer choice corrects this run-on sentence? Manny wants to play basketball with his friends hi s mother said that he had to mow the lawn first.",
           "choices": [
             "Manny wants to play basketball with his friends, but his mother said that he had to mow the lawn first.",
             "Manny wants to play basketball with his friends but his mother said that he had to mow the lawn first.",
-            "M anny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.”",
-            "M anny wants to play basketball. With his friends. But his mother said that he had to mow the lawn first."
+            "Manny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.”",
+            "Manny wants to play basketball. With his friends. But his mother said that he had to mow the lawn first."
           ],
           "correct": 0,
           "explanation": {
@@ -11001,12 +11001,12 @@
                 "reason": "\"Manny wants to play basketball with his friends but his mother said that he had to mow the lawn first.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
-                "choice": "M anny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.”",
-                "reason": "Not: M anny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.” \"M anny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.”\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Manny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.”",
+                "reason": "Not: Manny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.” \"Manny wants to play basketball with his friends, b ut his mother said that “he had to mow the lawn first.”\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
-                "choice": "M anny wants to play basketball. With his friends. But his mother said that he had to mow the lawn first.",
-                "reason": "With his friends. But his mother said that he had to mow the lawn first. \"M anny wants to play basketball. With his friends. But his mother said that he had to mow the lawn first.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Manny wants to play basketball. With his friends. But his mother said that he had to mow the lawn first.",
+                "reason": "With his friends. But his mother said that he had to mow the lawn first. \"Manny wants to play basketball. With his friends. But his mother said that he had to mow the lawn first.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               }
             ]
           },
@@ -13441,10 +13441,10 @@
         {
           "id": "grammar-pronouns-q0262",
           "version": 2,
-          "contentHash": "sha256:da8f18f605e9ea7b0f6d12324cbba86827be52e6a1f694efd150014dc293f2a4",
+          "contentHash": "sha256:970a35799f869e6c32612ba3dc072365c45acd83d81fb2a2f49855483bbf1068",
           "question": "Which sentence is past tense?",
           "choices": [
-            "The train is speeding through the tunn el.",
+            "The train is speeding through the tunnel.",
             "The dog sniffed at the bone.",
             "The wind will blow hard tonight.",
             "A flower dies without w ater."
@@ -13454,7 +13454,7 @@
             "correct": "Answer: The dog sniffed at the bone. The verb 'sniffed' ends with '-ed', which is the standard clue that an action already happened in the past.",
             "incorrect": [
               {
-                "choice": "The train is speeding through the tunn el.",
+                "choice": "The train is speeding through the tunnel.",
                 "category": "present continuous tense",
                 "reason": "The phrase 'is speeding' shows an action that is happening right now, which means this sentence is in the present tense."
               },
@@ -13589,25 +13589,25 @@
         {
           "id": "grammar-pronouns-q0267",
           "version": 2,
-          "contentHash": "sha256:a97352101b25d3dee049276a8971f76dc0495f9cd1e874a2f9b1625a1ff420fb",
+          "contentHash": "sha256:f90fe1b6502d39b2cf6a360626b715b6c13413dfb210723647fcb010d8628f4d",
           "question": "Which statement is a fact?",
           "choices": [
-            "Summertim e is always so hot.",
-            "I can do m agic tricks like a pro.",
+            "Summertime is always so hot.",
+            "I can do magic tricks like a pro.",
             "The cake was too ex pensive.",
-            "The headpho nes hurt my ears."
+            "The headphones hurt my ears."
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: The headpho nes hurt my ears. This statement is a fact because it describes a physical event that can be proven true or false, unlike the other choices which contain personal judgments or feelings.",
+            "correct": "Answer: The headphones hurt my ears. This statement is a fact because it describes a physical event that can be proven true or false, unlike the other choices which contain personal judgments or feelings.",
             "incorrect": [
               {
-                "choice": "Summertim e is always so hot.",
+                "choice": "Summertime is always so hot.",
                 "category": "sweeping generalization",
                 "reason": "Using words like 'always' and 'so hot' makes this a statement of feeling. Someone else from a different climate might not think the summer is 'so hot', which means this is an opinion."
               },
               {
-                "choice": "I can do m agic tricks like a pro.",
+                "choice": "I can do magic tricks like a pro.",
                 "category": "subjective comparison",
                 "reason": "The phrase 'like a pro' is a personal judgment or boast. Since people have different ideas of what makes someone a professional, this cannot be strictly proven as a fact."
               },
@@ -13663,8 +13663,8 @@
         {
           "id": "grammar-pronouns-q0268",
           "version": 2,
-          "contentHash": "sha256:bf516671d75c2ccd6327564f4dfd218da51402290fb995f0fda5d8ff1f61ab22",
-          "question": "Which word is incorrect in this sentence? Jim and J ohn insisted they needed tofind an favorite notebook they left behind.",
+          "contentHash": "sha256:607f8d2ba213f7cebf8e43e8c9e8ac8125f2edcd08014ce4a01e25f3b599aa9c",
+          "question": "Which word is incorrect in this sentence? Jim and John insisted they needed tofind an favorite notebook they left behind.",
           "choices": [
             "insisted",
             "find",
@@ -13737,8 +13737,8 @@
         {
           "id": "grammar-pronouns-q0273",
           "version": 2,
-          "contentHash": "sha256:ee3101055197af423b176bf9e752207544c33db4e54565072452c468ed1c37ce",
-          "question": "Which the following similes wo uld best complete the comparison? of Marcelle cooked the pie so long that the crust was as.",
+          "contentHash": "sha256:7a14e5169d88db1a446cf1e565d9f8927eb2673d729585b0d5c348e7cb865b46",
+          "question": "Which the following similes would best complete the comparison? of Marcelle cooked the pie so long that the crust was as.",
           "choices": [
             "light at air",
             "hard as nails",
@@ -13811,23 +13811,23 @@
         {
           "id": "grammar-pronouns-q0280",
           "version": 2,
-          "contentHash": "sha256:43a6590d17a49b4d9ef4bc651b6ebb082d7a45a197fa165311d642c1af6048bc",
+          "contentHash": "sha256:433dbb09d1c174bcd7357afc0c1c0859f06360222942ae6f53c2fab092342045",
           "question": "Which answer is a fragment and not a sentence?",
           "choices": [
-            "Jump ing after the spid er.",
-            "The bunn y hopped.",
+            "Jump ing after the spider.",
+            "The bunny hopped.",
             "The cold wind blew.",
             "Her right ankle swelled up."
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: Jump ing after the spid er. A complete sentence must have both a subject (who or what) and a predicate (the action). This choice is a fragment because it is an action missing a subject—we don't know who or what is jumping.",
+            "correct": "Answer: Jump ing after the spider. A complete sentence must have both a subject (who or what) and a predicate (the action). This choice is a fragment because it is an action missing a subject—we don't know who or what is jumping.",
             "incorrect": [
               "",
               {
-                "choice": "The bunn y hopped.",
+                "choice": "The bunny hopped.",
                 "category": "complete sentence",
-                "reason": "This is a complete sentence because it has a subject ('The bunn y') and an action ('hopped'). It tells a whole thought, so it is not a fragment."
+                "reason": "This is a complete sentence because it has a subject ('The bunny') and an action ('hopped'). It tells a whole thought, so it is not a fragment."
               },
               {
                 "choice": "The cold wind blew.",
@@ -13955,8 +13955,8 @@
         {
           "id": "grammar-pronouns-q0288",
           "version": 2,
-          "contentHash": "sha256:c465b57bcf3a8d86e38639067e385c6e588037b4ceefe61d0c387aa043150c1b",
-          "question": "Which statement is an opinio n?",
+          "contentHash": "sha256:c319ef8c981eebd457eb2af7dcabdfef5915812a4b08a722bf24774ad648ad42",
+          "question": "Which statement is an opinion?",
           "choices": [
             "We live one mile from school.",
             "The car has a rip in the backseat.",
@@ -14309,17 +14309,17 @@
         {
           "id": "grammar-pronouns-q0302",
           "version": 2,
-          "contentHash": "sha256:bb3a18875d0da6e8d28534fb8d04995e17e84b42e4332282721edf1cdf7d0db8",
+          "contentHash": "sha256:56c90e0a7f819b7ad1aea0f5d05249b885d81321104f3590e7947e7a51437c29",
           "question": "Which word is spelled correctly?",
           "choices": [
             "displase",
             "disapear",
-            "preoccup y",
+            "preoccupy",
             "creeates"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: preoccup y. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"preoccup y\" uses the pronoun case and agreement needed by its job in the sentence.",
+            "correct": "Answer: preoccupy. Rule or clue: Language usage questions ask you to apply grammar, capitalization, and sentence rules in context. \"preoccupy\" uses the pronoun case and agreement needed by its job in the sentence.",
             "incorrect": [
               {
                 "choice": "displase",
@@ -17009,13 +17009,13 @@
         {
           "id": "grammar-singular-plural-nouns-q0037",
           "version": 3,
-          "contentHash": "sha256:796c21e978dec2e616f8e359556ddc3c39659c0af2ff038c22834338a66194f9",
+          "contentHash": "sha256:25fe5e9e9b8841bb719d9e4b34e8d7988f69e20330b25d6b572e9f3621b5fa1d",
           "question": "Which of the underlined words is NOT correct? The airplanes circled the mountains looking for the wolfs who were preying on the cattle.",
           "choices": [
             "airplanes",
-            "moun tains",
-            "wo lfs",
-            "c attle"
+            "mountains",
+            "wolfs",
+            "cattle"
           ],
           "correct": 2,
           "explanation": {
@@ -17027,13 +17027,13 @@
                 "reason": "This word is spelled correctly. It follows the standard rule of adding '-s' to a noun to make it plural."
               },
               {
-                "choice": "moun tains",
-                "reason": "\"moun tains\" is a correct noun form, so it is not the incorrect or non-plural choice the prompt asks for."
+                "choice": "mountains",
+                "reason": "\"mountains\" is a correct noun form, so it is not the incorrect or non-plural choice the prompt asks for."
               },
               "",
               {
-                "choice": "c attle",
-                "reason": "\"c attle\" is a correct noun form, so it is not the incorrect or non-plural choice the prompt asks for."
+                "choice": "cattle",
+                "reason": "\"cattle\" is a correct noun form, so it is not the incorrect or non-plural choice the prompt asks for."
               }
             ]
           },
@@ -17238,10 +17238,10 @@
         {
           "id": "grammar-singular-plural-nouns-q0040",
           "version": 2,
-          "contentHash": "sha256:27479656f66590f8658ff2cb9582f5ced32fc2e9636275d95951e41ebc6afde1",
+          "contentHash": "sha256:57ad4de4aa4ca89e7d9876311637c54b036ac1f955602d9bfac2ba4636b01c4a",
           "question": "Which noun pair has a correct plural form?",
           "choices": [
-            "w olf - wolfs",
+            "wolf - wolfs",
             "child - children",
             "ox - oxes",
             "mouse - mouses"
@@ -17251,7 +17251,7 @@
             "correct": "Answer: child - children. The noun 'child' is an irregular noun that does not follow the standard 's' or 'es' rule for plurals; its plural form is 'children'.",
             "incorrect": [
               {
-                "choice": "w olf - wolfs",
+                "choice": "wolf - wolfs",
                 "category": "irregular plural error",
                 "reason": "When a noun ends in 'f' or 'fe', we often change the ending to 'ves' to make it plural. The correct plural for 'wolf' is 'wolves'."
               },
@@ -19837,13 +19837,13 @@
         {
           "id": "grammar-verb-forms-q0021",
           "version": 3,
-          "contentHash": "sha256:1d78573d1eb686a3c3ff19754c172ed8b3e615ecc17a1646cd92b582587ce061",
+          "contentHash": "sha256:42c87d003cc2a77dd3981d54d387b9466d0895e2044fd6f7ceed0c2525c60a32",
           "question": "Choose the sentence that contains an error in verb tense.",
           "choices": [
-            "Rob erto turns on the television and watched a baseball game.",
+            "Roberto turns on the television and watched a baseball game.",
             "Sasha read all the directions then completed the assignment.",
             "Eduardo finishes his paper route before he goes to school.",
-            "Great literature, which stirs the imagin ation, also challenges the intellect."
+            "Great literature, which stirs the imagination, also challenges the intellect."
           ],
           "correct": 0,
           "explanation": {
@@ -19861,7 +19861,7 @@
                 "reason": "Both 'finishes' and 'goes' are present tense verbs. This shows the actions happen regularly in the present, so the sentence is grammatically correct."
               },
               {
-                "choice": "Great literature, which stirs the imagin ation, also challenges the intellect.",
+                "choice": "Great literature, which stirs the imagination, also challenges the intellect.",
                 "category": "consistent verb tense",
                 "reason": "The verbs 'stirs' and 'challenges' are both in the present tense. Using the same tense for both actions keeps the sentence flowing smoothly."
               }
@@ -20760,10 +20760,10 @@
         {
           "id": "grammar-verb-forms-q0033",
           "version": 2,
-          "contentHash": "sha256:aa36566e6cf383e094e06533c47c6ff59483e4ef821be26ed0950b912b8c9133",
+          "contentHash": "sha256:f3f53a48486fb967b6f796b7c8996ba097ffef7a58f2f273d54563a976b047a5",
           "question": "If you wanted to tell about something that has already happened, you would use a:",
           "choices": [
-            "Fu ture tense verb",
+            "Future tense verb",
             "Past tense verb",
             "Present tense verb",
             "Future perfect verb"
@@ -20773,7 +20773,7 @@
             "correct": "Answer: Past tense verb. Verbs in the past tense describe actions or states that have already finished or taken place in the past.",
             "incorrect": [
               {
-                "choice": "Fu ture tense verb",
+                "choice": "Future tense verb",
                 "category": "future time reference",
                 "reason": "Future tense verbs describe things that haven't happened yet, so they are not appropriate for actions that have already occurred."
               },
@@ -23384,10 +23384,10 @@
         {
           "id": "grammar-verb-forms-q0067",
           "version": 2,
-          "contentHash": "sha256:7c441bf23965c29cddebc54c2db971799e1be4a748ecdb21e4b00e139315b12f",
+          "contentHash": "sha256:348e2b9a4d01647a98315a8e9d853a3c4f4dd1b20ce505625072b60ad84cc1f8",
           "question": "What would transform the fragment into a complete sentence? A really nice set of dishes.",
           "choices": [
-            "A really nice set of dishes, twelve sets of silverwa re, and twelve glasses.",
+            "A really nice set of dishes, twelve sets of silverware, and twelve glasses.",
             "A really nice set of dishes will be great to have for Thanksgiving.",
             "Doesn’t really need a nice set of dishes.",
             "My grandmother’s really nice set of dishes."
@@ -23397,7 +23397,7 @@
             "correct": "Answer: A really nice set of dishes will be great to have for Thanksgiving. A complete sentence must contain both a subject and a predicate (a verb phrase that says what the subject is doing or being). This option adds the verb 'will be' to create a complete thought.",
             "incorrect": [
               {
-                "choice": "A really nice set of dishes, twelve sets of silverwa re, and twelve glasses.",
+                "choice": "A really nice set of dishes, twelve sets of silverware, and twelve glasses.",
                 "category": "fragment list",
                 "reason": "This is just a long list of items (a noun phrase). Even though it is long, it lacks a verb to tell us what is happening with these items."
               },
@@ -33552,10 +33552,10 @@
         {
           "id": "grammar-parts-of-speech-nouns-q0045",
           "version": 4,
-          "contentHash": "sha256:ce731ebcdf7e5050864831982aeb4eab54a847ec15a3e6d774de09d9e4bc8b3c",
+          "contentHash": "sha256:426b094ecf77dd80daae674fa6212224ab7fb1fd0ef3c535d2b7874604356ff9",
           "question": "In which one of the sentences is the compound noun used correctly?",
           "choices": [
-            "When all of his daughters were married, Walter c ounted five sons -in-law.",
+            "When all of his daughters were married, Walter counted five sons -in-law.",
             "The girls at the lemonade stand waved to the passerby.",
             "How many daughter - in - laws to you have?",
             "They attended a convention of editor- in -chiefs of school newspapers."
@@ -33629,10 +33629,10 @@
         {
           "id": "grammar-parts-of-speech-nouns-q0046",
           "version": 4,
-          "contentHash": "sha256:2a2ff5a5eef9eef11bff6c57c38e2d54e8c82f4074cade2f371f9876f7b3987a",
+          "contentHash": "sha256:0f5391652711d291c0d8e131b43b986f9f2e5e8f7b468beabe2a766d487b2fb9",
           "question": "Which of the underlined words is NOT an abstract noun? The integrity of our company depends on our employee’s honesty and dedication.",
           "choices": [
-            "in tegrity",
+            "integrity",
             "company",
             "honesty",
             "dedication"
@@ -33642,8 +33642,8 @@
             "correct": "Answer: company. An abstract noun refers to ideas, qualities, or states that cannot be touched or seen. A 'company' is a concrete noun because it is a physical group of people and a place you can visit or see.",
             "incorrect": [
               {
-                "choice": "in tegrity",
-                "reason": "\"in tegrity\" is not the noun type or noun job the prompt asks for."
+                "choice": "integrity",
+                "reason": "\"integrity\" is not the noun type or noun job the prompt asks for."
               },
               "",
               {
@@ -33782,10 +33782,10 @@
         {
           "id": "grammar-parts-of-speech-nouns-q0048",
           "version": 4,
-          "contentHash": "sha256:43eeb3e5d741bcc9b5a35ccd3fa15f621f54aadda40ea721a92fb2ca958be752",
+          "contentHash": "sha256:c971fc068cc17db3e7949bd351334bff401c79b626b018dba9686842602f0f4a",
           "question": "Which form of the word is a noun?",
           "choices": [
-            "h appy",
+            "happy",
             "happily",
             "happier",
             "happiness"
@@ -33795,7 +33795,7 @@
             "correct": "Answer: happiness. Nouns represent people, places, things, or ideas. 'Happiness' is an abstract noun because it refers to the state of being happy, which is a feeling or idea.",
             "incorrect": [
               {
-                "choice": "h appy",
+                "choice": "happy",
                 "category": "adjective",
                 "reason": "'Happy' is an adjective used to describe a person, place, or thing, such as 'a happy child'."
               },
@@ -35225,10 +35225,10 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0016",
           "version": 4,
-          "contentHash": "sha256:6fce074d35fb3e8c3f4705ad746ddd0633fa7c62ba5468f695d8f0dcbecad02c",
+          "contentHash": "sha256:f9229e17edc471a00ab3aec85f18383baa29d4dbef3efe91642f1d073755e8f1",
           "question": "Which of the underlined words is an adjective? Many recreational activities are available during the winter.",
           "choices": [
-            "recre ational",
+            "recreational",
             "activities",
             "during",
             "winter"
@@ -35379,10 +35379,10 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0018",
           "version": 4,
-          "contentHash": "sha256:91d26552327b7cb2444e541d32b85262aee047fcb52b1b136d45c5e7400915c8",
+          "contentHash": "sha256:3f3d58b187b7fab1758873c5a3b370850dc3cb0cce65cd3e704141ee15b22905",
           "question": "In which sentence is ‘that’ used as an adjective?",
           "choices": [
-            "I kno w that Henry will arrive on time.",
+            "I know that Henry will arrive on time.",
             "That man arrived in a taxi.",
             "I will never agree to that.",
             "That the storm was coming is known by all."
@@ -35392,7 +35392,7 @@
             "correct": "Answer: That man arrived in a taxi. In this sentence, 'that' acts as a demonstrative adjective because it immediately describes the noun 'man' by pointing out which person is being discussed.",
             "incorrect": [
               {
-                "choice": "I kno w that Henry will arrive on time.",
+                "choice": "I know that Henry will arrive on time.",
                 "category": "conjunction usage",
                 "reason": "In this sentence, 'that' acts as a conjunction connecting two parts of the sentence, not as an adjective describing a noun."
               },
@@ -35533,13 +35533,13 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0020",
           "version": 4,
-          "contentHash": "sha256:78a7b0cf09eb2883f640ef8b0cc9d3d29bcb86991e543d37b380d017883c64bb",
+          "contentHash": "sha256:8377f3a831637e79b4633c28800e8d2679b6148841c0f994b3729d665f3d9724",
           "question": "Identify the sentence with the misplaced modifier.",
           "choices": [
             "When I was a baby, my mother taught me to drink from a cup.",
             "The teacher complimented the students at the beginning of class.",
             "I read a story in my literature book about a man who took care of sick animals",
-            "Karen made cookies for the scout troop that had c hocolate chips. for non-pay ing members of TestingMo m.com is strictly p rohibited."
+            "Karen made cookies for the scout troop that had chocolate chips. for non-pay ing members of TestingMom.com is strictly prohibited."
           ],
           "correct": 3,
           "explanation": {
@@ -35610,10 +35610,10 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0021",
           "version": 4,
-          "contentHash": "sha256:d4604061e60a053a3218a36ae98fa53df97e64fd0d11e52845bd1915779eae1b",
+          "contentHash": "sha256:def81948222f9e26b1c394f81453058d724db1aea8285cd1cc00a6d19628299e",
           "question": "If you want to describe the funny costumes your teachers wore to a school dance, which type of writing should you choose?",
           "choices": [
-            "b usiness letter",
+            "business letter",
             "an informal essay",
             "a research paper",
             "a poem"
@@ -35623,8 +35623,8 @@
             "correct": "Answer: an informal essay. An informal essay is the best choice because it allows for a casual, descriptive tone, which is perfect for sharing personal or funny stories.",
             "incorrect": [
               {
-                "choice": "b usiness letter",
-                "reason": "\"b usiness letter\" points to a word or phrase with a different job from the one the question asks for."
+                "choice": "business letter",
+                "reason": "\"business letter\" points to a word or phrase with a different job from the one the question asks for."
               },
               "",
               {
@@ -36545,13 +36545,13 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0033",
           "version": 4,
-          "contentHash": "sha256:851409f455e3be3635eae7ca9bb933494d894f1f1141903db2b88ecbd9ebb7e3",
+          "contentHash": "sha256:1baa3edb91960002ba40853cebdcd94353604c3b640e6bd9894e3d59b3215149",
           "question": "Which listof words would be used to describe something?",
           "choices": [
             "food, clothing, shelter",
             "soft, fluffy, gentle",
             "tack, hammer, nail",
-            "tre es, fences, rocks"
+            "trees, fences, rocks"
           ],
           "correct": 1,
           "explanation": {
@@ -36569,7 +36569,7 @@
                 "reason": "These words name tools or objects; they are nouns and cannot be used to describe what something is like."
               },
               {
-                "choice": "tre es, fences, rocks",
+                "choice": "trees, fences, rocks",
                 "category": "noun identification error",
                 "reason": "These words are nouns because they name physical objects in the world, whereas descriptive words must explain how an object feels or looks."
               }
@@ -37013,20 +37013,20 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0039",
           "version": 4,
-          "contentHash": "sha256:e1b2bd03168586ad288cdfd1e6904c0d84b5cd84e73dbcc09a13110427004e6f",
+          "contentHash": "sha256:5009d325c4c6b6536d141f0813532218a1f70bb5e855b2d8fbca44149581e5d7",
           "question": "You are writing a sports story. You want it to show excitemen tof the game. How would you best describe the events to make them sound exciting?",
           "choices": [
-            "Slo wly, the disappointed crowd movedoutof the stadium and into the park ing lot.",
+            "Slowly, the disappointed crowd movedoutof the stadium and into the park ing lot.",
             "Bernie Jones ran for seventy-three yards on sixteen carries.",
-            "The Bearcat defense inte rcepted the Pirate quarterback twice.",
-            "With reckless abandon, Jake Lee pounded into the Tiger’s defense, carryin g line backers in to the end zone for the game-winning score."
+            "The Bearcat defense intercepted the Pirate quarterback twice.",
+            "With reckless abandon, Jake Lee pounded into the Tiger’s defense, carrying line backers in to the end zone for the game-winning score."
           ],
           "correct": 3,
           "explanation": {
             "correct": "Answer: With reckless abandon, Jake Lee pounded into the Tiger’s defense, carrying linebackers into the end zone for the game-winning score. This sentence uses strong, active verbs like 'pounded' and descriptive phrases like 'reckless abandon' to create a sense of intensity and action.",
             "incorrect": [
               {
-                "choice": "Slo wly, the disappointed crowd movedoutof the stadium and into the park ing lot.",
+                "choice": "Slowly, the disappointed crowd movedoutof the stadium and into the park ing lot.",
                 "category": "passive tone",
                 "reason": "This sentence focuses on people leaving, which creates a feeling of sadness or boredom rather than the excitement of a high-stakes game."
               },
@@ -37036,7 +37036,7 @@
                 "reason": "While this provides information, it sounds like a dry statistic rather than a vivid, exciting moment of action."
               },
               {
-                "choice": "The Bearcat defense inte rcepted the Pirate quarterback twice.",
+                "choice": "The Bearcat defense intercepted the Pirate quarterback twice.",
                 "category": "summary vs scene",
                 "reason": "This tells us what happened in a summary style but lacks the sensory details and energetic word choices needed to make the reader feel the excitement."
               },
@@ -37091,10 +37091,10 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0040",
           "version": 4,
-          "contentHash": "sha256:3b0570554448c996d3541fb8935641eeae5363ed4590f3195a77a72737e98f5a",
+          "contentHash": "sha256:1b272ff157d640996f2ce3c7590fb7a62b1b3513814443012291ce33a813907a",
           "question": "Read the following group of sentences. 1. Did you know that you have probably eaten seaweed? 2. Different kinds of ice cream and hot fudge have seaweed in them. 3. We need to prevent water pollution. 4. So me people also eat seaweed as a vegetable. It can be served with rice. Which sentence does NOT describe uses of seaweed?",
           "choices": [
-            "Sen tence 1",
+            "Sentence 1",
             "Sentence 4",
             "Sentence 2",
             "Sentence 3"
@@ -37104,7 +37104,7 @@
             "correct": "Answer: Sentence 3. This sentence talks about preventing water pollution in general, which is not a way that humans use or consume seaweed.",
             "incorrect": [
               {
-                "choice": "Sen tence 1",
+                "choice": "Sentence 1",
                 "category": "factual error",
                 "reason": "Sentence 1 is actually asking if you have eaten seaweed, which introduces the topic of seaweed being used as food. It relates directly to the uses of seaweed."
               },
@@ -37871,8 +37871,8 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0050",
           "version": 4,
-          "contentHash": "sha256:837342f2742011da18a5db7dd024f786e2773d436ff85a0fd61b850845cad2b3",
-          "question": "Which word modifies or enhances details? Snow hung on all the icy tree limbs after the stor m.",
+          "contentHash": "sha256:caebff5818a861d5f019784cd02b72e59538e04108d0e122068970d19c498100",
+          "question": "Which word modifies or enhances details? Snow hung on all the icy tree limbs after the storm.",
           "choices": [
             "on",
             "icy",
@@ -38252,22 +38252,22 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0055",
           "version": 4,
-          "contentHash": "sha256:1b07cc9d7916ae82db663b3fe78d229c7df624d7e456d150993e90e5909d2879",
+          "contentHash": "sha256:21351807917e882c2d334997e953032ca0a180f58a9b5f43fa40bf61f0b305fb",
           "question": "Which sentence correctly orders the adjectives?",
           "choices": [
-            "I like the j uicy rm pear.",
+            "I like the juicy rm pear.",
             "I like the new sparkly necklace.",
             "I like the blue large ball.",
-            "I like the soft stuffed an imal."
+            "I like the soft stuffed animal."
           ],
           "correct": 3,
           "explanation": {
             "correct": "Answer: I like the soft stuffed animal. Adjectives should follow the order of opinion (soft) before type or material (stuffed) when describing a noun.",
             "incorrect": [
               {
-                "choice": "I like the j uicy rm pear.",
+                "choice": "I like the juicy rm pear.",
                 "category": "Incorrect adjective placement",
-                "reason": "The words 'j uicy' and 'rm' are placed incorrectly and seem to be misspelled. Adjectives should be placed clearly before the noun 'pear' without awkward breaks."
+                "reason": "The words 'juicy' and 'rm' are placed incorrectly and seem to be misspelled. Adjectives should be placed clearly before the noun 'pear' without awkward breaks."
               },
               {
                 "choice": "I like the new sparkly necklace.",
@@ -38623,8 +38623,8 @@
         {
           "id": "grammar-parts-of-speech-adjectives-q0139",
           "version": 4,
-          "contentHash": "sha256:79c9d2090ac38d390d6492a55211f7e3aff325f3b38bf27b41a1522f06ab6d1b",
-          "question": "Choose the correct comparative adjective to complete the sentence belo w. The temperature was much __________ than i t was yesterday.",
+          "contentHash": "sha256:e4d7268cba7b76e8db05d4e4c3fd939716d4fb415645a67791ee839c76d36c1d",
+          "question": "Choose the correct comparative adjective to complete the sentence below. The temperature was much __________ than i t was yesterday.",
           "choices": [
             "w arm",
             "warmest",
@@ -39825,10 +39825,10 @@
         {
           "id": "grammar-parts-of-speech-adverbs-q0016",
           "version": 2,
-          "contentHash": "sha256:e2c43c1a09a5d906fa8260b9af04cf720f7c50ddc2d2b310178e37b6c6806f48",
-          "question": "The travelers spoke somewhat cautiously about whether or not they should ca ncel their tour to Europe. Which of the following pairs function as adverbs in the sentence?",
+          "contentHash": "sha256:cb9c957550142021070394c7b6e34172b6e7457112dd1bfe44685fa286b57e6c",
+          "question": "The travelers spoke somewhat cautiously about whether or not they should cancel their tour to Europe. Which of the following pairs function as adverbs in the sentence?",
           "choices": [
-            "sh ould cancel",
+            "should cancel",
             "to Europe",
             "their tour",
             "somewhat cautiously"
@@ -39838,8 +39838,8 @@
             "correct": "Answer: somewhat cautiously. 'Cautiously' is an adverb because it describes how the travelers spoke, and 'somewhat' is an adverb because it modifies the adverb 'cautiously' to tell us to what degree.",
             "incorrect": [
               {
-                "choice": "sh ould cancel",
-                "reason": "\"sh ould cancel\" does not match the tense, helping verb, or subject-verb pattern required here."
+                "choice": "should cancel",
+                "reason": "\"should cancel\" does not match the tense, helping verb, or subject-verb pattern required here."
               },
               {
                 "choice": "to Europe",
@@ -40132,12 +40132,12 @@
         {
           "id": "grammar-parts-of-speech-adverbs-q0020",
           "version": 3,
-          "contentHash": "sha256:040c00bc3b7abdce2dd60ec27b10c0af264deacd9f339634e306273a2842dcfa",
+          "contentHash": "sha256:aa45a0ba6f219ced2892cbef49349d3ba0a2b8a31b8653f988df81d68b78c4a5",
           "question": "Choose the best missing word. _________ the whistle sounded, and the train __ ______ left.",
           "choices": [
             "Quickly, highly",
             "Anxiously, happily",
-            "Cautiou sly, tearfully",
+            "Cautiously, tearfully",
             "Suddenly, slowly"
           ],
           "correct": 3,
@@ -40155,9 +40155,9 @@
                 "reason": "These adverbs describe feelings or emotions. Trains are machines and do not have feelings, so these words do not make sense in this context."
               },
               {
-                "choice": "Cautiou sly, tearfully",
+                "choice": "Cautiously, tearfully",
                 "category": "spelling and usage",
-                "reason": "The word 'cautiou sly' contains a typo (it should be one word: 'cautiously'), and 'tearfully' describes a human crying, which does not fit a train's departure."
+                "reason": "The word 'cautiously' contains a typo (it should be one word: 'cautiously'), and 'tearfully' describes a human crying, which does not fit a train's departure."
               },
               ""
             ]
@@ -40209,10 +40209,10 @@
         {
           "id": "grammar-parts-of-speech-adverbs-q0021",
           "version": 2,
-          "contentHash": "sha256:125defc02391203167c32ede153498f9906cc6f1ddd97a228f527a6ae1cc995e",
-          "question": "The travelers spoke somewhat cautiously about whether or not they should ca ncel their tour to Europe. Which of the following pairs function as adverbs in the sentence above?",
+          "contentHash": "sha256:9b7e27dbf31289e5575fe826d1b906a44eefef28689cfeca442353ba0c112dd8",
+          "question": "The travelers spoke somewhat cautiously about whether or not they should cancel their tour to Europe. Which of the following pairs function as adverbs in the sentence above?",
           "choices": [
-            "sh ould cancel",
+            "should cancel",
             "to Europe",
             "their tour",
             "somewhat cautiously"
@@ -40222,8 +40222,8 @@
             "correct": "Answer: somewhat cautiously. Adverbs are words that modify verbs, adjectives, or other adverbs, often describing how or to what degree an action is performed.",
             "incorrect": [
               {
-                "choice": "sh ould cancel",
-                "reason": "\"sh ould cancel\" does not match the tense, helping verb, or subject-verb pattern required here."
+                "choice": "should cancel",
+                "reason": "\"should cancel\" does not match the tense, helping verb, or subject-verb pattern required here."
               },
               {
                 "choice": "to Europe",
@@ -41372,10 +41372,10 @@
         {
           "id": "grammar-parts-of-speech-adverbs-q0036",
           "version": 2,
-          "contentHash": "sha256:25d0c2a407aee893f38d460845ab53c629ec551854d9a12c076edf4ba3602896",
+          "contentHash": "sha256:064ccc6b78c8788f52cc727476469a66556f46424763a2fae0fb50138f1d2106",
           "question": "Which is the basic English pattern of the sentence? The flower is fragrant.",
           "choices": [
-            "n oun-linking verb-adjective",
+            "noun-linking verb-adjective",
             "noun-linking verb-noun",
             "noun- verb-noun",
             "noun-verb-adverb"
@@ -41450,10 +41450,10 @@
         {
           "id": "grammar-parts-of-speech-adverbs-q0037",
           "version": 2,
-          "contentHash": "sha256:f7f4b0af3f07ba131997ca1efc1dd78a823938f07623c9856e5f5dcbc0be1be7",
+          "contentHash": "sha256:7b914c92e1f00a2c7846e6b1432da49e2ec121fe7c0e0322247d0ea4d83d6523",
           "question": "Read the sentence below. That is Sharon’s book. Sharon’s is what partof speech?",
           "choices": [
-            "n oun",
+            "noun",
             "verb",
             "adjective",
             "adverb"
@@ -41463,7 +41463,7 @@
             "correct": "Answer: adjective. In this sentence, 'Sharon’s' functions as a possessive adjective because it modifies the noun 'book' by telling us who owns it.",
             "incorrect": [
               {
-                "choice": "n oun",
+                "choice": "noun",
                 "category": "noun vs adjective",
                 "reason": "While Sharon is a noun, when it is used as 'Sharon's' to describe possession, it acts as an adjective that modifies the noun 'book'."
               },
@@ -41684,10 +41684,10 @@
         {
           "id": "grammar-parts-of-speech-adverbs-q0040",
           "version": 2,
-          "contentHash": "sha256:c556988d9f805be07305297cd721ee129e9b5c5b582aa71adfb3d55e43ee63f1",
-          "question": "What is the correct order of adverbs in the sente nce below? The huge lion hungrily and stealthily stalked the brown, aloof rabbit.",
+          "contentHash": "sha256:81fc0da32ca7a80d54773204e1058fba2795ab9ba69061e860cf052c866a013b",
+          "question": "What is the correct order of adverbs in the sentence below? The huge lion hungrily and stealthily stalked the brown, aloof rabbit.",
           "choices": [
-            "h uge, aloof",
+            "huge, aloof",
             "hungrily and stealthily",
             "stealthily and hungrily",
             "brown aloof"
@@ -41697,8 +41697,8 @@
             "correct": "Answer: hungrily and stealthily. Adverbs describe how an action is performed. In this sentence, the lion stalked in a 'hungrily' and 'stealthily' manner, making these the correct adverbs to modify the verb 'stalked'.",
             "incorrect": [
               {
-                "choice": "h uge, aloof",
-                "reason": "\"h uge, aloof\" does not match the tense, helping verb, or subject-verb pattern required here."
+                "choice": "huge, aloof",
+                "reason": "\"huge, aloof\" does not match the tense, helping verb, or subject-verb pattern required here."
               },
               "",
               {
@@ -47963,13 +47963,13 @@
         {
           "id": "grammar-identify-sentence-q0022",
           "version": 4,
-          "contentHash": "sha256:7332b7c80ff08d1405f67ab75808b6e7223dcc4fdc99f52bcb552a03183823c4",
+          "contentHash": "sha256:8f034cc74466474c5cde3c155f4aea3db14a497e012e13fd27de56826e740f2b",
           "question": "Which is a sentence fragment?",
           "choices": [
             "Two or three miles down the highway at the traffic light.",
             "The blue truck backed into the fence.",
             "She found the game on the top shelf of the closet.",
-            "This is the agreement that Gary e xplained to me."
+            "This is the agreement that Gary explained to me."
           ],
           "correct": 0,
           "explanation": {
@@ -47987,7 +47987,7 @@
                 "reason": "This is a complete sentence because it identifies the person performing the action ('She') and the action being performed ('found')."
               },
               {
-                "choice": "This is the agreement that Gary e xplained to me.",
+                "choice": "This is the agreement that Gary explained to me.",
                 "category": "complete sentence",
                 "reason": "This is a complete sentence with a clear subject ('This') and a verb ('is') that connects to the rest of the idea."
               }
@@ -48733,10 +48733,10 @@
         {
           "id": "grammar-identify-sentence-q0032",
           "version": 4,
-          "contentHash": "sha256:87bd60915a94cc843f7f320044d2566a0e6e25ab9d431239e31409e9ccd505da",
+          "contentHash": "sha256:da5e6a8cee609db21be16da16438bf4ce14b2579cbf19ae141f1079464d44e9c",
           "question": "Which sentence includes a verb phrase?",
           "choices": [
-            "The reporter from the local station has raced to the fire in the n earby town.",
+            "The reporter from the local station has raced to the fire in the nearby town.",
             "Swooping through the night sky, the owl and the eagle search f or food.",
             "Swimming near the beach, Allen and Annie found lots of beautiful shells.",
             "Following the scent of the rabbit, the fox and the wolf met at the tree."
@@ -48809,12 +48809,12 @@
         {
           "id": "grammar-identify-sentence-q0033",
           "version": 4,
-          "contentHash": "sha256:8413fb25a07d5c08409ef2f8cc36e0c75fefe154982c8a28f79165261e7d866b",
+          "contentHash": "sha256:fdbbf84baff35b2f1d5363454288e88963d9633b4312b8b56d05dd9d94819f2a",
           "question": "Which is a complete sentence?",
           "choices": [
             "The money stolen from the largest bank in town.",
             "The road leads to the state assembly building.",
-            "Two or three miles down the h ighway at the traffi c light.",
+            "Two or three miles down the highway at the traffic light.",
             "Because she waited too long to call for help."
           ],
           "correct": 1,
@@ -48828,7 +48828,7 @@
               },
               "",
               {
-                "choice": "Two or three miles down the h ighway at the traffi c light.",
+                "choice": "Two or three miles down the highway at the traffic light.",
                 "category": "missing subject and verb",
                 "reason": "This is a prepositional phrase describing a location, but it lacks a subject and an action. It tells us where, but not who or what."
               },
@@ -48963,10 +48963,10 @@
         {
           "id": "grammar-identify-sentence-q0035",
           "version": 4,
-          "contentHash": "sha256:5a84ac7aea959890af5839817658dfa626c5f47fd75b249177d38e6cfbd2c6ed",
+          "contentHash": "sha256:5af0910511ba4d2928aee699e29815e6029c667efad79c2788881c1361942cc9",
           "question": "Which phrase will make this fragment a complete sentence? While I was walking in the alley, ______________________.",
           "choices": [
-            "w ith my hands in my pockets.",
+            "with my hands in my pockets.",
             "giggling to myself.",
             "a black cat crossed my path.",
             "on the way to the library."
@@ -48976,7 +48976,7 @@
             "correct": "Answer: a black cat crossed my path. A complete sentence requires both a subject (a black cat) and a predicate (crossed my path) to express a full thought.",
             "incorrect": [
               {
-                "choice": "w ith my hands in my pockets.",
+                "choice": "with my hands in my pockets.",
                 "category": "missing subject",
                 "reason": "This phrase describes an action or state, but it does not tell us who or what is doing it, leaving the sentence incomplete."
               },
@@ -49040,10 +49040,10 @@
         {
           "id": "grammar-identify-sentence-q0036",
           "version": 4,
-          "contentHash": "sha256:9326c490b2bbbbabc329ba5460cfd8631d521ff5adc900200d765791297a2bcd",
+          "contentHash": "sha256:fba69feba8f63d6c40ce7b1aeac24cc698f9365d64f257477012842eca23f41a",
           "question": "What sentence part is needed to form a complete sentence? traveled to see the concert",
           "choices": [
-            "n othing, it is already complete",
+            "nothing, it is already complete",
             "a subject for the main verb",
             "an object for the main verb",
             "an adjective to complete the linking verb"
@@ -49053,7 +49053,7 @@
             "correct": "Answer: a subject for the main verb. A complete sentence requires a subject to perform the action. 'Traveled' is a verb that needs a noun or pronoun like 'My brother' or 'They' to tell us who took the trip.",
             "incorrect": [
               {
-                "choice": "n othing, it is already complete",
+                "choice": "nothing, it is already complete",
                 "category": "sentence fragment error",
                 "reason": "A sentence cannot be complete without a subject. 'Traveled' is an action, but we have no idea who is performing that action."
               },
@@ -56933,8 +56933,8 @@
         {
           "id": "grammar-friendly-letter-q0037",
           "version": 3,
-          "contentHash": "sha256:222973f87a2dfa972419ae35e33aac37184881d888a5b26ed47d3cfcd01e8761",
-          "question": "Wellmark Light bulb Company 660 Main Street Moscow, ID 83343 Dear Sir or Mada m: I recently bought a box of your light bulbs ando ne of them wor ked. Ple ase refund my mone y. I have enclosed a re ceipt for $8.99. Yours Truly. Janet Monk Which line of the letter is written incorrectly?",
+          "contentHash": "sha256:f81d25d40cd7aba7160ecd074e312b5d2010a7a729b25e05303837e6ffcafeee",
+          "question": "Wellmark Light bulb Company 660 Main Street Moscow, ID 83343 Dear Sir or Madam: I recently bought a box of your light bulbs ando ne of them worked. Please refund my mone y. I have enclosed a receipt for $8.99. Yours Truly. Janet Monk Which line of the letter is written incorrectly?",
           "choices": [
             "d ate line",
             "greeting",
@@ -59320,8 +59320,8 @@
         {
           "id": "grammar-tenses-q0049",
           "version": 3,
-          "contentHash": "sha256:015d40d6b1b9f0fbba8ee5d840e4396c997cde6df98388f6b1ec641783cdc312",
-          "question": "Choose the correct verb tense. Victoria and I _________ the ballet rec ital this weekend.",
+          "contentHash": "sha256:ea1e918b2f59e73acb8be18caa2fbb6d0780f40fccd29e5af92285178da42c05",
+          "question": "Choose the correct verb tense. Victoria and I _________ the ballet recital this weekend.",
           "choices": [
             "is attending",
             "am attending",
@@ -78845,10 +78845,10 @@
         {
           "id": "grammar-sentence-correction-q0249",
           "version": 3,
-          "contentHash": "sha256:32ee95bbb399026bd7b14464d7756c89b5f2632ac1027eb1aa4137a9993b120e",
+          "contentHash": "sha256:f49b17160b6235f1092262f0d4fb3095beb9398e95c9a2b607746f1afbb2f65a",
           "question": "My complaint to the principal is about the student counsel, and whether they will raise enough capital to fundour new computer lab. In the above sentence:",
           "choices": [
-            "‘princip al ’ should be ‘principle ’.",
+            "‘principal ’ should be ‘principle ’.",
             "‘ counsel’ should be council’.",
             "‘whether’ should be ‘weather’.",
             "‘ capital’ should be ‘capitol’."
@@ -78858,7 +78858,7 @@
             "correct": "Answer: ‘ counsel’ should be council’. A 'council' is a group of people who meet to make decisions, whereas 'counsel' is advice or a person who gives advice.",
             "incorrect": [
               {
-                "choice": "‘princip al ’ should be ‘principle ’.",
+                "choice": "‘principal ’ should be ‘principle ’.",
                 "category": "homophone error",
                 "reason": "Actually, 'principal' is the correct spelling for the head of a school. 'Principle' refers to a fundamental truth or rule, not a person."
               },
@@ -79153,13 +79153,13 @@
         {
           "id": "grammar-sentence-correction-q0253",
           "version": 3,
-          "contentHash": "sha256:7fcc285919a9b3549e3c6589f3de1bcd937a4769a24a19cac8c71df984f584df",
+          "contentHash": "sha256:95eeb7486ca2e7616d028445da1046bedb8e8688b85ee40b656e2c531bb65715",
           "question": "Which sentence is NOT written correctly?",
           "choices": [
             "I d id goodon the test!",
             "That haircut looks goodon you.",
             "Bryce runs well, now that he has new shoes.",
-            "How well do you know the material for the Frenc h exam?"
+            "How well do you know the material for the French exam?"
           ],
           "correct": 0,
           "explanation": {
@@ -79176,8 +79176,8 @@
                 "reason": "This is correct because 'well' is an adverb used to modify the verb 'runs'. It describes how Bryce is running."
               },
               {
-                "choice": "How well do you know the material for the Frenc h exam?",
-                "reason": "Not: How well do you know the material for the Frenc h exam? \"How well do you know the material for the Frenc h exam?\" still leaves a grammar, capitalization, punctuation, spelling, or meaning problem in the sentence."
+                "choice": "How well do you know the material for the French exam?",
+                "reason": "Not: How well do you know the material for the French exam? \"How well do you know the material for the French exam?\" still leaves a grammar, capitalization, punctuation, spelling, or meaning problem in the sentence."
               }
             ]
           },
@@ -79459,10 +79459,10 @@
         {
           "id": "grammar-sentence-correction-q0257",
           "version": 3,
-          "contentHash": "sha256:c4af5f97ae1683bc1f34c070732bef5331ab0448a267e65b90c41f9fb652f939",
+          "contentHash": "sha256:e5732d0318ed44efed57a9962f5aaceebe5e83d6fbbdfe4eb09a8980d3491e8f",
           "question": "Which verb pair is NOT correct?",
           "choices": [
-            "b egin - began",
+            "begin - began",
             "do - did",
             "eat - ate",
             "choose - chosed"
@@ -79472,7 +79472,7 @@
             "correct": "Answer: choose - chosed. This pair is incorrect because 'choose' is an irregular verb. The past tense of 'choose' is 'chose', not 'chosed'.",
             "incorrect": [
               {
-                "choice": "b egin - began",
+                "choice": "begin - began",
                 "category": "irregular verb pair",
                 "reason": "This is a correct irregular verb pair. The verb 'begin' changes to 'began' in the past tense, so it is not the correct choice for this question."
               },
@@ -79843,8 +79843,8 @@
         {
           "id": "grammar-sentence-correction-q0262",
           "version": 5,
-          "contentHash": "sha256:b5a31c14832ec1652bd8a4927a0ac60d1aa9d12aa82d39a4da0d0fa950df8549",
-          "question": "Choose the correct missing words. _______________ is our scho ol’s new principal.",
+          "contentHash": "sha256:99af5ce102baaf8b7f2dc344b1339e2d741f209238787d4bbdafc7d4bf8fc198",
+          "question": "Choose the correct missing words. _______________ is our school’s new principal.",
           "choices": [
             "Mr. j.a. Brown",
             "mr. J.A. Brown",
@@ -81701,8 +81701,8 @@
         {
           "id": "grammar-sentence-correction-q0286",
           "version": 4,
-          "contentHash": "sha256:5a52dc2273fdfb7e3da4f24849e825a3c96a452e89cd5617eff5452e70e8deb9",
-          "question": "Which answer below uses all the words to make a sentence that mak es sense? movie difficult the it to screen se e was",
+          "contentHash": "sha256:dcc5dc55b65f549637cc63ea5915221365a129cd2d5c19454572a32f6915144e",
+          "question": "Which answer below uses all the words to make a sentence that makes sense? movie difficult the it to screen se e was",
           "choices": [
             "Was the movie screen difficult to see?",
             "It was difficult to see the movie screen.",
@@ -81935,13 +81935,13 @@
         {
           "id": "grammar-sentence-correction-q0289",
           "version": 4,
-          "contentHash": "sha256:eba22a8ac1cab68c5e2eb3de03a3954504a31365bd8c616198b3b6fa18e7bd47",
+          "contentHash": "sha256:4323e6f3cc36fd2aebe63ce59bcbef77c252e9be6e9fbce60f023770f624df4b",
           "question": "Which is the best way to edit the fragmented sentence below? The room with the high ceiling.",
           "choices": [
             "The room with the high ceiling is.",
             "The room with the high ceiling clean.",
-            "The room with the high c eiling white.",
-            "The room with the high ceiling is white. for non-pay ing members of TestingMo m.com is strictly p rohibited."
+            "The room with the high ceiling white.",
+            "The room with the high ceiling is white. for non-pay ing members of TestingMom.com is strictly prohibited."
           ],
           "correct": 3,
           "explanation": {
@@ -81958,7 +81958,7 @@
                 "reason": "This sentence has a subject, but it is missing a linking verb (like 'is') to connect the subject to the description. Without a verb, it is still a fragment."
               },
               {
-                "choice": "The room with the high c eiling white.",
+                "choice": "The room with the high ceiling white.",
                 "category": "missing linking verb",
                 "reason": "Similar to the previous option, this phrase is missing a linking verb. 'The room' is the subject and 'white' is the description, but you need a word like 'is' to join them together."
               },
@@ -94725,10 +94725,10 @@
         {
           "id": "grammar-paragraph-structure-q0181",
           "version": 5,
-          "contentHash": "sha256:9a85e6ec11606fdd04bbe2b90654430284f4a79aad894a9ced2c92a07b9b7fde",
+          "contentHash": "sha256:eacde423464dc154aa459ae659e87f3092117b5b26aced3ed0ab24ba9d0019e1",
           "question": "These sentences could form a paragraph. Which is the best topic sentence?",
           "choices": [
-            "Dad picked up the toys in the li ving room.",
+            "Dad picked up the toys in the living room.",
             "Sarah dusted the shelves.",
             "Bobby vacuumed the floors in the bedrooms and family room.",
             "By the time mom got home, the house would be spotless."
@@ -94738,8 +94738,8 @@
             "correct": "Answer: By the time mom got home, the house would be spotless. A good topic sentence introduces the main idea that all the following details support; this sentence summarizes the result of the chores mentioned in the other sentences.",
             "incorrect": [
               {
-                "choice": "Dad picked up the toys in the li ving room.",
-                "reason": "\"Dad picked up the toys in the li ving room.\" is too narrow, unrelated, or only a detail, so it does not work as the topic sentence."
+                "choice": "Dad picked up the toys in the living room.",
+                "reason": "\"Dad picked up the toys in the living room.\" is too narrow, unrelated, or only a detail, so it does not work as the topic sentence."
               },
               {
                 "choice": "Sarah dusted the shelves.",
@@ -94802,13 +94802,13 @@
         {
           "id": "grammar-paragraph-structure-q0182",
           "version": 4,
-          "contentHash": "sha256:8c15570d236aa60494f597e6c215bff8ea9864248092979272411718a25507b4",
+          "contentHash": "sha256:0b83f55aab791d896de866eb9f3086bf259dc529790335d5d695c64a0b2c38a8",
           "question": "Read the following passage: We had just begun our hike when it began to snow. One trail was slick and many of us were wearing sandals, butour crazy teacher insisted that the flakes would stop falling soon and the sun would melt the drifts that were forming. Later that afternoon, as we climbed back on the bus, our teacher apologized. Too bad many of us had frostbite by then. We will never forget that trip. To revise the passage, where should you start a new paragraph?",
           "choices": [
             "after “…it began to snow.”",
             "after “…drifts that were forming.”",
             "after “…our teacher apologized.”",
-            "Afte r “…is certain though.”"
+            "After “…is certain though.”"
           ],
           "correct": 1,
           "explanation": {
@@ -94826,7 +94826,7 @@
                 "reason": "This choice would bundle the climax of the story and the resolution into a single paragraph, missing the chance to separate the event's action from the aftermath."
               },
               {
-                "choice": "Afte r “…is certain though.”",
+                "choice": "After “…is certain though.”",
                 "category": "invalid choice reference",
                 "reason": "This option contains a typo and refers to a phrase not found in the original passage, making it an invalid choice for revision."
               }
@@ -95036,13 +95036,13 @@
         {
           "id": "grammar-paragraph-structure-q0185",
           "version": 4,
-          "contentHash": "sha256:a8138a6546e6b240cc727041a308c1a2cb1f5a2dbd69f00c228cfb16ca83e984",
+          "contentHash": "sha256:f47ea5e893cb4fc57c3e9fec193c7f6c6dcda160b7a3e1ad7574bdc684c4e552",
           "question": "Read the following passage insert. We had just begun our hike, when it began to snow. One trail was slick and many of us were wearing sandals, butour crazy teacher insisted that the flakes would stop falling soon and the sun would meltoff the drifts that were f orming. Later that afternoon, as we climbed back on the bus, our teacher apologized. Too bad many of us had frostbite by then. We will never forget that trip. To revise the passage, where should you start a new paragraph?",
           "choices": [
             "a f ter “... frostbite by then.”",
             "after “... our teacher apologized.”",
             "after “... drifts that were forming.”",
-            "a fter “... it began to snow.”"
+            "after “... it began to snow.”"
           ],
           "correct": 2,
           "explanation": {
@@ -95060,7 +95060,7 @@
               },
               "",
               {
-                "choice": "a fter “... it began to snow.”",
+                "choice": "after “... it began to snow.”",
                 "category": "insufficient topical shift",
                 "reason": "If you break the paragraph here, the first part is too short. It is better to keep the setup of the hike and the group's reaction to the weather in the same paragraph before moving to the later portion of the day."
               }
@@ -95114,8 +95114,8 @@
         {
           "id": "grammar-paragraph-structure-q0186",
           "version": 4,
-          "contentHash": "sha256:e0bb558a9858553293aed473f06f4e01e23a55d61b8d621581567532d1e3ba39",
-          "question": "Choose the correctordered pair that best completes the paragraph. Begin by mixing pancake mix and water. _______ beat mixture into a smo oth batter. Next, heat the griddle. Pour a small amountof batter onto the heated surf ace. Flip the pancakes once as they cook. ______ enjoy your breakfast.",
+          "contentHash": "sha256:fc1e7515334e8f3e0e61f6fcc6441976a6ff51e8f83a7c571816b149081684eb",
+          "question": "Choose the correctordered pair that best completes the paragraph. Begin by mixing pancake mix and water. _______ beat mixture into a smooth batter. Next, heat the griddle. Pour a small amountof batter onto the heated surf ace. Flip the pancakes once as they cook. ______ enjoy your breakfast.",
           "choices": [
             "Then, Finally",
             "Finally, First",
@@ -107428,13 +107428,13 @@
         {
           "id": "grammar-opinion-persuasive-writing-q0183",
           "version": 4,
-          "contentHash": "sha256:6a9abff65cf50a7a7f7a07a42e295eb0e7744b9a019db179bdce5e1dbbd15015",
+          "contentHash": "sha256:eb30bfd0f79f2efa628040657057f22ace62cfad6f0fc83b12d7e0caef26f625",
           "question": "You are writing a paragraph about how to make chocolate chi p cookies. What form of writing would you use?",
           "choices": [
             "in formational essay",
             "persuasive paragraph",
             "narrative paragraph",
-            "expository paragraph May 10, 2019 – Today we started studyin g myths."
+            "expository paragraph May 10, 2019 – Today we started studying myths."
           ],
           "correct": 3,
           "explanation": {
@@ -131696,13 +131696,13 @@
         {
           "id": "grammar-narrative-writing-q0183",
           "version": 4,
-          "contentHash": "sha256:4a42fb5b16cbe6f12514f0fef54052b13a96a10049d2c3ff93ac062f04c64b35",
+          "contentHash": "sha256:a1d7c0c54203e5648d89157b37e173511d937c1315d475a386e2c676b5c0c03a",
           "question": "If you were assigned to reminisce a story fromyour life, the best pointof view to use would be:",
           "choices": [
             "first person",
             "second person",
             "third person",
-            "t hir d person omniscient"
+            "thir d person omniscient"
           ],
           "correct": 0,
           "explanation": {
@@ -131720,7 +131720,7 @@
                 "reason": "Third-person uses 'he', 'she', or 'they'. This is used to describe other people or characters, not to share your own personal memories or life experiences."
               },
               {
-                "choice": "t hir d person omniscient",
+                "choice": "thir d person omniscient",
                 "category": "wrong perspective",
                 "reason": "This is a form of third-person narration where the narrator knows the thoughts of all characters. It is not suitable for a personal memory, which should be told from your own point of view."
               }
@@ -132317,13 +132317,13 @@
         {
           "id": "grammar-narrative-writing-q0191",
           "version": 4,
-          "contentHash": "sha256:e331ed30096b0b7cd6d713333871c71b8ac5cc2ff055715877de6c7282bfe5ac",
+          "contentHash": "sha256:4f4b20ca83c487f7e2bb40d8da587bdfa983e467e8df0048ade2e4dbc71efcc3",
           "question": "Determine how the story most likely ends. It snowed throughout the night. Huge snow drifts closed school. It was as if everything stopped.",
           "choices": [
             "The wind blew all nigh t.",
             "It was a great day to go outside to play in the snow.",
             "It looked white outside my window.",
-            "My m ittens were lost."
+            "My mittens were lost."
           ],
           "correct": 1,
           "explanation": {
@@ -132341,7 +132341,7 @@
                 "reason": "While descriptive, this is a static observation rather than an ending that resolves the narrative created by the closed school and the feeling that everything stopped."
               },
               {
-                "choice": "My m ittens were lost.",
+                "choice": "My mittens were lost.",
                 "category": "unrelated plot point",
                 "reason": "This introduces a sudden, minor conflict that has no connection to the previous sentences about heavy snow and the world coming to a stop."
               }
@@ -132551,10 +132551,10 @@
         {
           "id": "grammar-narrative-writing-q0194",
           "version": 4,
-          "contentHash": "sha256:a5edb633aaa6da4dc42733030d861abad0e0b02bd07f0657f1ee1cb5ea3c6b7b",
+          "contentHash": "sha256:2b762287031231ad9968bbf0d71ffe72e984a3d7110118294b4c86ff55750910",
           "question": "Identify the correct category for the following listof words. pages, chapters, paragraphs, pictures",
           "choices": [
-            "Pa rts of a story",
+            "Parts of a story",
             "Parts of a title",
             "Parts of a book",
             "Parts of a dictionary"
@@ -132564,7 +132564,7 @@
             "correct": "Answer: Parts of a book. The listed items—pages, chapters, paragraphs, and pictures—are all physical or structural components typically found within a book.",
             "incorrect": [
               {
-                "choice": "Pa rts of a story",
+                "choice": "Parts of a story",
                 "category": "Structural vs narrative",
                 "reason": "While a story can have chapters, 'pages', 'paragraphs', and 'pictures' are physical formatting elements rather than narrative plot points like 'climax' or 'resolution'."
               },
@@ -132707,8 +132707,8 @@
         {
           "id": "grammar-narrative-writing-q0196",
           "version": 4,
-          "contentHash": "sha256:530ae4e5140e8031b8c4e36b286b259c0ffbca7ae3d8d98f32bbc40442e77095",
-          "question": "If the following four sentences make a story, w hich of the following sentences would be the main idea?",
+          "contentHash": "sha256:770918166fce31cfa403e09f6ae4f914fa5014aad64308007548b342567d345e",
+          "question": "If the following four sentences make a story, which of the following sentences would be the main idea?",
           "choices": [
             "I got to pet the baby calves.",
             "The farm had many animals.",
@@ -132863,8 +132863,8 @@
         {
           "id": "grammar-narrative-writing-q0198",
           "version": 4,
-          "contentHash": "sha256:2ce3536d5fedbfd20f5d6cbee3f435fdfd678324a4c5a784585bc59e7be8d25f",
-          "question": "Read the paragraph below. Which sentence desc ribes the main idea of the paragraph? Earthquakes can be deadly. The earth shakes, causing buildings to fall, roads to break, and rivers to flood. Many people are killed during an earthquake. The safest place to be during an earthquake is in a doorway. Forecasting an earthquak e is difficult.",
+          "contentHash": "sha256:efeada1dfe0ea9775444c7ca34508d0ae61c76970466f986fef03cedc9dff9d9",
+          "question": "Read the paragraph below. Which sentence describes the main idea of the paragraph? Earthquakes can be deadly. The earth shakes, causing buildings to fall, roads to break, and rivers to flood. Many people are killed during an earthquake. The safest place to be during an earthquake is in a doorway. Forecasting an earthquake is difficult.",
           "choices": [
             "Fo recasting an earthquake is difficult.",
             "Building fall, roads break, and rivers flood.",
@@ -133096,12 +133096,12 @@
         {
           "id": "grammar-narrative-writing-q0201",
           "version": 4,
-          "contentHash": "sha256:e3782c01843962d8855e89a7e9aa7525c5fc7d6abb533f7b58982614ff9162ac",
-          "question": "May 4, 2019 – We took a quiz a bout characters in mytho logy today. Which type of writing is this?",
+          "contentHash": "sha256:38ee7ef81658aa32a268e5d6150ea4bfb08222b5508f046c027e951d58c00298",
+          "question": "May 4, 2019 – We took a quiz a bout characters in mythology today. Which type of writing is this?",
           "choices": [
             "let ter",
             "story",
-            "journ al",
+            "journal",
             "poem"
           ],
           "correct": 2,
@@ -145253,8 +145253,8 @@
         {
           "id": "grammar-revising-editing-strategy-q0181",
           "version": 4,
-          "contentHash": "sha256:56690718eff51ca4eee9a8682878b42f4ec937ad399f2f389d10a5fc8a995912",
-          "question": "In the sentence below, which verb would show the boy was angry? The boy _____ away with his hands jammed in his p ockets.",
+          "contentHash": "sha256:48c324ce46cdb6b0f4eb2833e06c50742a326b931d29b2f7918da3cf948d0240",
+          "question": "In the sentence below, which verb would show the boy was angry? The boy _____ away with his hands jammed in his pockets.",
           "choices": [
             "st rolled",
             "ran",
@@ -146420,13 +146420,13 @@
         {
           "id": "grammar-revising-editing-strategy-q0196",
           "version": 4,
-          "contentHash": "sha256:8aa3345c9a04d4a54957639dd560ae93e10847a7441f6b5613fc8211a86e8651",
+          "contentHash": "sha256:cb615740a25a08bf147e77029b00aac7ceb1d4d2b1ef6b951e288663f643d701",
           "question": "Which is a complete sentence?",
           "choices": [
             "The spider next to the lamp on the table.",
             "Suddenly sprouted all over the front lawn.",
             "She considered warmth and exercise to be the best therapy.",
-            "His many eve nts from World War II."
+            "His many events from World War II."
           ],
           "correct": 2,
           "explanation": {
@@ -146444,7 +146444,7 @@
               },
               "",
               {
-                "choice": "His many eve nts from World War II.",
+                "choice": "His many events from World War II.",
                 "category": "fragment missing verb",
                 "reason": "This phrase identifies a collection of things, but it tells us nothing about them. Without a verb, it cannot form a complete sentence."
               }
@@ -147902,10 +147902,10 @@
         {
           "id": "grammar-revising-editing-strategy-q0215",
           "version": 5,
-          "contentHash": "sha256:f8c6e71cc1828440d4e611da380a3b090595e5de357386995aee8ff9dd15c29f",
+          "contentHash": "sha256:c03b4d0b4e90d13623e95cf752a7cc3f037c4a223947d6f0327f84fb57b27f92",
           "question": "Which sentence does not indicate a moodor a tone?",
           "choices": [
-            "His h ouse is hot and stuffy.",
+            "His house is hot and stuffy.",
             "I feel sleepy and tired.",
             "It is cold and damp outside.",
             "The airplane is arriving on time."
@@ -147915,7 +147915,7 @@
             "correct": "Answer: The airplane is arriving on time. This sentence provides a factual, neutral update about a schedule. It does not contain descriptive words that express a speaker's personal feeling or the atmospheric quality of a setting.",
             "incorrect": [
               {
-                "choice": "His h ouse is hot and stuffy.",
+                "choice": "His house is hot and stuffy.",
                 "category": "expresses physical discomfort",
                 "reason": "The words 'hot' and 'stuffy' describe the condition of the house, which creates a specific uncomfortable mood or tone for the person inside."
               },
@@ -148682,8 +148682,8 @@
         {
           "id": "grammar-revising-editing-strategy-q0225",
           "version": 4,
-          "contentHash": "sha256:5d7ed9b56d27bf020bf7cd7dd555ee689d88c00cc71c831e39718072d47c8776",
-          "question": "Which linking verb fits best in the sentence belo w? Sally and Harry ________ the president and vice-presidentof the senior class.",
+          "contentHash": "sha256:227277bdf020f466840d90e76e0773abe7b2376dc1a3a16ff5a94f671f08078c",
+          "question": "Which linking verb fits best in the sentence below? Sally and Harry ________ the president and vice-presidentof the senior class.",
           "choices": [
             "loo k",
             "seem",
@@ -149928,11 +149928,11 @@
         {
           "id": "grammar-revising-editing-strategy-q0241",
           "version": 4,
-          "contentHash": "sha256:12b102a1583bc593e76ec86159ae6bd18f87dc91b2a0f6bb8c850a6870fb32f3",
-          "question": "Which is another way to write this sentence? The terrifying dog growled menacingly at me as I slowly backed up towar d the crumbling building.",
+          "contentHash": "sha256:c065398981c3ac1e41823b02990bf055a319e60484c5455ca6d5c1f4372d9ce1",
+          "question": "Which is another way to write this sentence? The terrifying dog growled menacingly at me as I slowly backed up toward the crumbling building.",
           "choices": [
-            "I slo wly crumbled toward the menacing building as the slow dog terrified me.",
-            "The crumbled dog terrified me slowly as I backed up towar d the menacing building.",
+            "I slowly crumbled toward the menacing building as the slow dog terrified me.",
+            "The crumbled dog terrified me slowly as I backed up toward the menacing building.",
             "I slowly backed up toward the crumbling building as the terrifying dog growled menacingly at me.",
             "The terrified dog menaced me slowly as I crumbled toward the growling building."
           ],
@@ -149941,12 +149941,12 @@
             "correct": "Answer: I slowly backed up toward the crumbling building as the terrifying dog growled menacingly at me. This choice correctly maintains the original meaning by moving the second half of the sentence to the front while keeping the same verbs and descriptions.",
             "incorrect": [
               {
-                "choice": "I slo wly crumbled toward the menacing building as the slow dog terrified me.",
+                "choice": "I slowly crumbled toward the menacing building as the slow dog terrified me.",
                 "category": "changes sentence meaning",
                 "reason": "This version changes the meaning by suggesting that the building crumbled and the dog was slow. Always ensure your rewritten sentence keeps the same details as the original."
               },
               {
-                "choice": "The crumbled dog terrified me slowly as I backed up towar d the menacing building.",
+                "choice": "The crumbled dog terrified me slowly as I backed up toward the menacing building.",
                 "category": "changes descriptive adjectives",
                 "reason": "This changes 'terrifying dog' to 'crumbled dog' and 'menacing building' to 'menacing'. Swapping adjectives changes the specific scene you are describing."
               },
@@ -161880,10 +161880,10 @@
         {
           "id": "grammar-prepositions-prepositional-phrases-q0183",
           "version": 5,
-          "contentHash": "sha256:cfb04195c9a1e523c22da6ac62390dbe765af2df0b1e3f51529f3161359e2849",
+          "contentHash": "sha256:bdfe4c843d76ec8ef861c63191fcfcae7a30c69e82528cd1d2dd45ba6d4cd7d7",
           "question": "Choose the best missing word. Bob and Diane found _______ in a strange place.",
           "choices": [
-            "t hemself",
+            "themself",
             "themselves",
             "herself",
             "theirself"
@@ -161893,7 +161893,7 @@
             "correct": "Answer: themselves. Since the subject is 'Bob and Diane' (plural), we must use the plural reflexive pronoun 'themselves' to refer back to the subject.",
             "incorrect": [
               {
-                "choice": "t hemself",
+                "choice": "themself",
                 "category": "spelling error",
                 "reason": "This is a typo and is not a valid English word. Even if it were spelled correctly as 'himself', it would be singular and wouldn't match the plural subject 'Bob and Diane'."
               },
@@ -162492,13 +162492,13 @@
         {
           "id": "grammar-prepositions-prepositional-phrases-q0191",
           "version": 4,
-          "contentHash": "sha256:b4821323ea1892737f3b0ad03a69a134976f519939a6f7c0050064da81ec050b",
+          "contentHash": "sha256:f537d834c4466ed967e7d045b36796bd538c8d9a5e557d0b730c2828dba39b4b",
           "question": "Choose the best preposition toll in the blan k. The light switch is ____________ the kitchen cabinet.",
           "choices": [
             "toward",
             "across",
-            "und erneath",
-            "b etween"
+            "underneath",
+            "between"
           ],
           "correct": 2,
           "explanation": {
@@ -162516,8 +162516,8 @@
               },
               "",
               {
-                "choice": "b etween",
-                "reason": "\"b etween\" is a noun, verb, adjective, or other word here, not the preposition showing the relationship."
+                "choice": "between",
+                "reason": "\"between\" is a noun, verb, adjective, or other word here, not the preposition showing the relationship."
               }
             ]
           },
@@ -162787,10 +162787,10 @@
         {
           "id": "grammar-prepositions-prepositional-phrases-q0195",
           "version": 4,
-          "contentHash": "sha256:5e229ea06d6f45cb9505851cfc074af67beff91e344203231f886b1274ac4b84",
+          "contentHash": "sha256:c6f97e0f58933fe313557c1ad42052dfc17ccb271c130a187fa51c836c8529f8",
           "question": "Identify the prepositional phrase in the sentence below. Raiding his piggy bank, Julio ran to buy discount tickets for the carnival.",
           "choices": [
-            "Raidin g his piggy bank",
+            "Raiding his piggy bank",
             "ran to buy",
             "discount tickets",
             "for the carnival"
@@ -162800,7 +162800,7 @@
             "correct": "Answer: for the carnival. A prepositional phrase begins with a preposition (like 'for') and ends with the object of the preposition (like 'the carnival').",
             "incorrect": [
               {
-                "choice": "Raidin g his piggy bank",
+                "choice": "Raiding his piggy bank",
                 "category": "participial phrase",
                 "reason": "This is a participial phrase, which describes the subject 'Julio'. It starts with an action verb (participle) rather than a preposition."
               },
@@ -162861,8 +162861,8 @@
         {
           "id": "grammar-prepositions-prepositional-phrases-q0196",
           "version": 4,
-          "contentHash": "sha256:18a517ea2a694b4f8385f15d917ee33d9e1837663cf26e4455b2da28bde80f55",
-          "question": "Identify the preposition p hrase in the sentence below. al The tattered and torn hardback book with missing pages has been donated.",
+          "contentHash": "sha256:5b00156ee40bbd756a1f5f8a64115802fd10dbd3223bab0ef999cbeb562d6900",
+          "question": "Identify the preposition phrase in the sentence below. al The tattered and torn hardback book with missing pages has been donated.",
           "choices": [
             "The tattered and torn",
             "hardback book",
@@ -163157,10 +163157,10 @@
         {
           "id": "grammar-prepositions-prepositional-phrases-q0200",
           "version": 4,
-          "contentHash": "sha256:30bffe8576f52165daf2ba52b955f0cb55e1eed26e03ba5854d2044465f7a550",
+          "contentHash": "sha256:aacd0c8e46aefa974c735b63fd46383d75ad53251460bec3d83cba41ca90ed66",
           "question": "Identify the prepositional phrase in the sentence below. Using his tools, Matthew and Jeffrey dug deep tofind gold under the ground.",
           "choices": [
-            "u nder the ground",
+            "under the ground",
             "tofind gold",
             "dug deep",
             "using his tools"
@@ -187370,8 +187370,8 @@
         {
           "id": "grammar-pronoun-agreement-case-q0181",
           "version": 3,
-          "contentHash": "sha256:49453e09b7ab68a584dfc0506cb026134773c070e1b486338bc0632539300f46",
-          "question": "___________ spent time in the library preparing for our presenta tion. Which of the following is correct?",
+          "contentHash": "sha256:1c8d3cc1e777a4c5118f0424bf62747d393bdf07d14373b8fed4d8b8c58a99b7",
+          "question": "___________ spent time in the library preparing for our presentation. Which of the following is correct?",
           "choices": [
             "Us girls",
             "Them boys",
@@ -187524,13 +187524,13 @@
         {
           "id": "grammar-pronoun-agreement-case-q0183",
           "version": 3,
-          "contentHash": "sha256:403c7e8c17450fcb38c11e87c304eeb29333ce03f33fb40b77d30d9d76c4e1ab",
+          "contentHash": "sha256:121091d1a8dd1d483e000fb7906a92d5420ea5cce396a1edf371fe52a6354505",
           "question": "Which pronoun would correctly complete this sentence? _________ took the bus to school.",
           "choices": [
             "Many",
             "Some",
             "Either",
-            "Seve ral"
+            "Several"
           ],
           "correct": 2,
           "explanation": {
@@ -187548,7 +187548,7 @@
               },
               "",
               {
-                "choice": "Seve ral",
+                "choice": "Several",
                 "category": "spelling and usage",
                 "reason": "This word is misspelled and also represents a plural quantity. Like 'many', it does not fit the singular focus of the verb 'took' as naturally as 'either' does."
               }
@@ -187678,10 +187678,10 @@
         {
           "id": "grammar-pronoun-agreement-case-q0185",
           "version": 4,
-          "contentHash": "sha256:6d9585b2803ad1a1467d4bdb3dee2c5f7f227ee1de34d8183df06c6363a56bae",
+          "contentHash": "sha256:92c37996ae64b79b66225d918fd3fbcd2993dbde38ed1e990d08f56e18001546",
           "question": "Choose the best missing word. The students completed all the work _____________.",
           "choices": [
-            "t hemself",
+            "themself",
             "theirselves",
             "themselfs",
             "themselves"
@@ -187691,7 +187691,7 @@
             "correct": "Answer: themselves. The pronoun 'themselves' is the correct reflexive pronoun to use when referring to a plural subject like 'The students'.",
             "incorrect": [
               {
-                "choice": "t hemself",
+                "choice": "themself",
                 "category": "incorrect spelling",
                 "reason": "This word is misspelled and incorrectly uses a singular form. Since 'students' is plural, the pronoun must also be plural."
               },
@@ -187984,10 +187984,10 @@
         {
           "id": "grammar-pronoun-agreement-case-q0189",
           "version": 3,
-          "contentHash": "sha256:8208b97f8fdbc7b64b4a721f06819de64880b75de613321f55f95e72eebecf98",
+          "contentHash": "sha256:35288a63f16374729ea9b99b57ace1a3af24f06725bb1e97f016a171e3b8baf5",
           "question": "Which sentence is NOT written correctly?",
           "choices": [
-            "His d esire to complete the lesson himself has driven him to s tudy carefully.",
+            "His desire to complete the lesson himself has driven him to study carefully.",
             "Gail was so upset about her grade on her essay that she signed herself u p for a class in basic writing.",
             "This new class gave herself the confidence to write well.",
             "I myself could use a course in writing."
@@ -187997,8 +187997,8 @@
             "correct": "Answer: This new class gave herself the confidence to write well. This sentence is incorrect because the reflexive pronoun 'herself' does not have a matching noun (antecedent) in the sentence to refer back to. The subject is 'class', and a class cannot be 'herself'.",
             "incorrect": [
               {
-                "choice": "His d esire to complete the lesson himself has driven him to s tudy carefully.",
-                "reason": "\"His d esire to complete the lesson himself has driven him to s tudy carefully.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "His desire to complete the lesson himself has driven him to study carefully.",
+                "reason": "\"His desire to complete the lesson himself has driven him to study carefully.\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "Gail was so upset about her grade on her essay that she signed herself u p for a class in basic writing.",
@@ -188675,13 +188675,13 @@
         {
           "id": "grammar-pronoun-agreement-case-q0198",
           "version": 4,
-          "contentHash": "sha256:f6eae2fd5c67085748e9cad127092019902eee455560a9c2f6a0f93026759317",
+          "contentHash": "sha256:dc1fcd1232124e10f2458f8bc501982ee54ff8870662dc9b652669788800636e",
           "question": "Choose the best missing word. __________ left cookies on our doorstep.",
           "choices": [
-            "Som eone",
+            "Someone",
             "Something",
             "Some",
-            "S omeone’s"
+            "Someone’s"
           ],
           "correct": 0,
           "explanation": {
@@ -188699,8 +188699,8 @@
                 "reason": "'Some' is an adjective or a determiner that needs a noun after it to make sense, such as 'Some person'. On its own, it cannot act as the subject of this sentence."
               },
               {
-                "choice": "S omeone’s",
-                "reason": "\"S omeone’s\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "Someone’s",
+                "reason": "\"Someone’s\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               }
             ]
           },
@@ -188905,8 +188905,8 @@
         {
           "id": "grammar-pronoun-agreement-case-q0201",
           "version": 4,
-          "contentHash": "sha256:836d06a7ee1a5b62b72e7925d9e7a7d277461299d0eb9938c22f9bd685db9e4e",
-          "question": "Choose the best missing word. The girls’ basketball team was in the locker r oom. C oach Mendez gave ____ a pep talk.",
+          "contentHash": "sha256:b798470f6bb3076e3c9d041221079f722f226a341b6d7f0d399e758aba81a6d4",
+          "question": "Choose the best missing word. The girls’ basketball team was in the locker room. Coach Mendez gave ____ a pep talk.",
           "choices": [
             "that",
             "those",
@@ -188982,17 +188982,17 @@
         {
           "id": "grammar-pronoun-agreement-case-q0202",
           "version": 3,
-          "contentHash": "sha256:91c01fbe92e4ef9713bca80f42c0f45ab66c376e4b6bc5139a5ff26ee1e49fed",
+          "contentHash": "sha256:81e814107db267f842fcba3c76093237150f26f9c32a91416289907cb46525f0",
           "question": "Which sentence is NOT correct?",
           "choices": [
             "Sam is playing on the football team.",
-            "The teacher are thinking abou t her lesson.",
-            "The president is meeting with his com mittee.",
+            "The teacher are thinking about her lesson.",
+            "The president is meeting with his committee.",
             "Holly is giving a party for her friend Gail."
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: The teacher are thinking abou t her lesson. This sentence contains subject-verb disagreement. Because 'The teacher' is a singular subject, it requires the singular verb 'is' instead of the plural verb 'are'.",
+            "correct": "Answer: The teacher are thinking about her lesson. This sentence contains subject-verb disagreement. Because 'The teacher' is a singular subject, it requires the singular verb 'is' instead of the plural verb 'are'.",
             "incorrect": [
               {
                 "choice": "Sam is playing on the football team.",
@@ -189001,7 +189001,7 @@
               },
               "",
               {
-                "choice": "The president is meeting with his com mittee.",
+                "choice": "The president is meeting with his committee.",
                 "category": "subject-verb agreement",
                 "reason": "This sentence is correct. 'The president' is a singular subject and correctly uses the singular helping verb 'is'."
               },
@@ -189059,8 +189059,8 @@
         {
           "id": "grammar-pronoun-agreement-case-q0203",
           "version": 3,
-          "contentHash": "sha256:35235a7faede216634f70028633a92f21195314c42d1fadcd72a0255b1697841",
-          "question": "Which one of the followin g verbs uses the past tense?",
+          "contentHash": "sha256:8ab8fc8dcc297e3749310a2a7b8581ba3a20430b3c5bc8bab24d1c33aa858f59",
+          "question": "Which one of the following verbs uses the past tense?",
           "choices": [
             "We will come to your ho me after school.",
             "Most of the team cho s e to practice in the morning.",
@@ -190134,10 +190134,10 @@
         {
           "id": "grammar-pronoun-agreement-case-q0217",
           "version": 3,
-          "contentHash": "sha256:0576e6fed2bcbda88de22fcc063dfb4326db33130698d5bbd8576649b38b8d63",
+          "contentHash": "sha256:de53dfe952e644dfe8258d86f8c81720e2eda0a8bd6bc846ebb7e62540a2a993",
           "question": "Which word tells “how”. Today, we went out and danced wildly in the hall.",
           "choices": [
-            "t oday",
+            "today",
             "went",
             "out",
             "wildly for non-pay ing members of TestingMom.com is strictly prohibited."
@@ -190147,8 +190147,8 @@
             "correct": "Answer: wildly. Adverbs that answer 'how' often describe an action by explaining the manner in which it was performed. In this sentence, 'wildly' tells us how they danced.",
             "incorrect": [
               {
-                "choice": "t oday",
-                "reason": "\"t oday\" uses a pronoun form that does not match the noun, number, or sentence job required here."
+                "choice": "today",
+                "reason": "\"today\" uses a pronoun form that does not match the noun, number, or sentence job required here."
               },
               {
                 "choice": "went",
@@ -190518,10 +190518,10 @@
         {
           "id": "grammar-pronoun-agreement-case-q0222",
           "version": 4,
-          "contentHash": "sha256:c65024673014a13721d9ccf65c2f27d6aec235fbb360d059f40563ef155d613d",
+          "contentHash": "sha256:9df56af77bc8ebd3a29d8801b1a1fb1880db937ca76fe8b8a76806d7a55519de",
           "question": "Choose the best missing word. Lindsay and Danielle found _________ lost in the shopping center.",
           "choices": [
-            "t heirselves",
+            "theirselves",
             "herself",
             "themselves",
             "themself"
@@ -190531,7 +190531,7 @@
             "correct": "Answer: themselves. The subject of the sentence is the plural noun phrase 'Lindsay and Danielle', so we must use the plural reflexive pronoun 'themselves' to refer back to them.",
             "incorrect": [
               {
-                "choice": "t heirselves",
+                "choice": "theirselves",
                 "category": "incorrect spelling",
                 "reason": "This is not a real word in the English language. Even though it sounds like 'themselves', it contains an unnecessary space and incorrect letters."
               },
@@ -238605,10 +238605,10 @@
         {
           "id": "grammar-formal-informal-language-q0182",
           "version": 3,
-          "contentHash": "sha256:8941d9686d0554198234216e6f920c88ff1d6d80377e2bed7e43cf077e8841fa",
+          "contentHash": "sha256:22dc9fd64738fa78fe474f3f91f023c3dd1b9e407354c9f31ad28f0114bf6a65",
           "question": "Identify the type of language used in the following statement. Would you mind spelling your last name?",
           "choices": [
-            "f ormal",
+            "formal",
             "semi-formal",
             "informal",
             "informational"
@@ -239047,10 +239047,10 @@
         {
           "id": "grammar-formal-informal-language-q0188",
           "version": 3,
-          "contentHash": "sha256:2e32c10e1c02289b1350042fd90e457347c37b0fc82374e88dbe70023c7671db",
+          "contentHash": "sha256:8a52ce1c9316a50377c4a69542ab5169483d502fe8ac8312749a2aafe6f486c6",
           "question": "Identify the type of language used in the following statement. Please refrain from smoking in the building.",
           "choices": [
-            "f ormal",
+            "formal",
             "semi-formal",
             "informal",
             "informational"

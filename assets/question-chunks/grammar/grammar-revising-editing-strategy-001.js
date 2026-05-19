@@ -2,7 +2,7 @@
  * English Language Quiz App - grammar subchunk: grammar-revising-editing-strategy 1
  * Generated from assets/question-bank-source/grammar.json.
  * Generator version: 1.
- * Source hash: sha256:ce7c7137091a4531c021e929875d5adf70087b5f280883c9703f3eff04dcc482.
+ * Source hash: sha256:2be705ce68c6ae1d1b090dd92c6e29186be6ed2831208fb9498efece8ee15382.
  */
 (function () {
   'use strict';

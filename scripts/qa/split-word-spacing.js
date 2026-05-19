@@ -106,14 +106,39 @@ const WORD_RE = /[A-Za-z]+(?:[’'][A-Za-z]+)?/g;
 const SUFFIXES = ['s', 'es', 'ed', 'ing', 'er', 'est', 'ly', 'ful', 'less', 'ness'];
 
 function buildSplitWordLexicon(bankLoad = loadQuestionBanks({ sourceType: 'json' })) {
-  const words = new Set();
-  COMMON_WORDS.concat(SHORT_JOIN_WORDS, KNOWN_LEARNER_WORDS).forEach(word => words.add(word));
-  loadSystemDictionaryWords().forEach(word => words.add(word));
+  const baseLexicon = new Set();
+  COMMON_WORDS.concat(SHORT_JOIN_WORDS, KNOWN_LEARNER_WORDS).forEach(word => baseLexicon.add(word));
+  loadSystemDictionaryWords().forEach(word => baseLexicon.add(word));
+
+  const words = new Set(baseLexicon);
+
   flattenQuestions(bankLoad).forEach(record => {
     getQuestionScanFields(record.question).forEach(field => {
-      String(field.value || '').match(WORD_RE)?.forEach(token => {
-        const word = normalizeWord(token);
-        if (word.length >= 3 && !isLikelyFragment(word)) words.add(word);
+      const text = String(field.value || '');
+      const tokens = tokenizeWords(text);
+
+      const skipIndices = new Set();
+      for (let i = 0; i < tokens.length - 1; i++) {
+        const leftToken = tokens[i];
+        const rightToken = tokens[i + 1];
+        const gap = text.slice(leftToken.end, rightToken.start);
+        if (/^ +$/.test(gap)) {
+          const left = normalizeWord(leftToken.text);
+          const right = normalizeWord(rightToken.text);
+          const joined = `${left}${right}`;
+          if (isJoinableWord(joined, baseLexicon)) {
+            skipIndices.add(i);
+            skipIndices.add(i + 1);
+          }
+        }
+      }
+
+      tokens.forEach((token, index) => {
+        if (skipIndices.has(index)) return;
+        const word = normalizeWord(token.text);
+        if (word.length >= 3 && !isLikelyFragment(word)) {
+          words.add(word);
+        }
       });
     });
   });
@@ -170,7 +195,7 @@ function findSuspiciousSplitWordsInText(value, options = {}) {
     const phrase = `${left} ${right}`;
     const forcedReplacement = FORCED_SPLIT_PAIRS.get(phrase);
     if (!forcedReplacement && LEGITIMATE_TWO_WORD_PHRASES.has(phrase)) continue;
-    if (!forcedReplacement && isLetterOrSyllableContext(text, leftToken, rightToken)) continue;
+    if (!forcedReplacement && isLetterOrSyllableContext(text, leftToken, rightToken, lexicon)) continue;
     if (!forcedReplacement && isWordLike(left, lexicon) && /^[A-Z]/.test(rightToken.text)) continue;
 
     const joined = forcedReplacement || `${left}${right}`;
@@ -310,12 +335,21 @@ function isLikelyFragment(word) {
   return /^[bcdfghjklmnpqrstvwxyz]$/.test(word) || /^(acc|bec|capit|choic|correc|inc|mov|peo|sentenc|wh|yo)$/.test(word);
 }
 
-function isLetterOrSyllableContext(text, leftToken, rightToken) {
+function isLetterOrSyllableContext(text, leftToken, rightToken, lexicon) {
   const context = text.slice(
     Math.max(0, leftToken.start - 18),
     Math.min(text.length, rightToken.end + 18)
   );
-  return LETTER_CONTEXT_RE.test(context) && (leftToken.text.length === 1 || rightToken.text.length === 1);
+  if (!LETTER_CONTEXT_RE.test(context)) return false;
+
+  if (leftToken.text.length === 1 && rightToken.text.length > 1) {
+    return isWordLike(normalizeWord(rightToken.text), lexicon);
+  }
+  if (rightToken.text.length === 1 && leftToken.text.length > 1) {
+    return isWordLike(normalizeWord(leftToken.text), lexicon);
+  }
+
+  return leftToken.text.length === 1 || rightToken.text.length === 1;
 }
 
 function chooseNonOverlappingMatches(matches) {

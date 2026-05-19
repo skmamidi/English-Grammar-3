@@ -1,10 +1,10 @@
 {
   "releaseManifest": {
-    "releaseId": "local",
+    "releaseId": "rel_e66977475821d28b",
     "appVersion": "1.0.0",
-    "questionManifestSourceHash": "sha256:5befa5430dac78fdcffdec318ad6223b39900923f78aad40bd1a8ecf5a29c596",
-    "serviceWorkerCacheVersion": "gq-5befa5430dac78fdcff",
-    "featureFlagConfigHash": "sha256:local"
+    "questionManifestSourceHash": "sha256:c039e009dcc888fbc2e96a6de9fc95c1aa7718776d3bad44ab03cfc0f23a3fc0",
+    "serviceWorkerCacheVersion": "gq-sha256c039e009dcc888",
+    "featureFlagConfigHash": "sha256:bca6286591779719d36b51c1045be08050a18f030a9acc2b060c1a4a10bf1b3c"
   },
   "frontendManifest": {
     "sha256": "f7937ab19fa286bf51747d19ced8c28937702655a450ca991a3f968ea55c5d00"
@@ -31,7 +31,7 @@
     { "path": "/admin-operations.html", "status": 200 }
   ],
   "securityHeaders": {
-    "Content-Security-Policy-Report-Only": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data:; connect-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'",
+    "Content-Security-Policy-Report-Only": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data:; connect-src 'self'; script-src 'self' 'unsafe-inline'; frame-src 'none'; style-src 'self' 'unsafe-inline'",
     "Referrer-Policy": "strict-origin-when-cross-origin",
     "X-Content-Type-Options": "nosniff",
     "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=()",
@@ -44,6 +44,6 @@
   },
   "healthReadiness": {
     "status": "ready",
-    "releaseId": "local"
+    "releaseId": "rel_e66977475821d28b"
   }
 }

@@ -2067,10 +2067,10 @@
         {
           "id": "vocabulary-base-words-q0152",
           "version": 3,
-          "contentHash": "sha256:4b58429d48bff155eaeb4d3fd6dd82fde80e7d8e4a93de422d01164b69e4691a",
+          "contentHash": "sha256:5551188255b15c75c8a3acfe36ae5c2e157d736db2ee9795ad514e62aed93de3",
           "question": "Read the definitions of the prefixes. anti – against con – with pre – before Given these prefixes, which word would mean unfriendly or not wanting to be aro und others?",
           "choices": [
-            "an tidote",
+            "antidote",
             "context",
             "predict",
             "antisocial"
@@ -2080,8 +2080,8 @@
             "correct": "Answer: antisocial. Rule or clue: Prefixes, suffixes, and base words are meaningful parts that help build and explain a word. \"antisocial\" correctly separates the meaningful word parts asked for in the prompt.",
             "incorrect": [
               {
-                "choice": "an tidote",
-                "reason": "\"an tidote\" splits the word parts incorrectly or gives a meaning that does not match the root, prefix, or suffix."
+                "choice": "antidote",
+                "reason": "\"antidote\" splits the word parts incorrectly or gives a meaning that does not match the root, prefix, or suffix."
               },
               {
                 "choice": "context",
@@ -2803,10 +2803,10 @@
         {
           "id": "vocabulary-base-words-q0044",
           "version": 3,
-          "contentHash": "sha256:891f6036fee77182d2d01e08cab1f0e6eaa16c2a7080ac8ef1ba4dbc3251e86e",
+          "contentHash": "sha256:a4b3bb767f7227b36b37af2773339d8499eda5d853d25a19f43a5444059ba694",
           "question": "What is the meaning of the root word geo? “”",
           "choices": [
-            "w ithout",
+            "without",
             "carry",
             "earth",
             "universe"
@@ -2816,7 +2816,7 @@
             "correct": "Answer: earth. The root 'geo-' is derived from the Greek word for earth and appears in words like geography, geology, and geometry.",
             "incorrect": [
               {
-                "choice": "w ithout",
+                "choice": "without",
                 "category": "Greek prefix meaning",
                 "reason": "The prefix 'a-' or 'an-' usually means 'without' or 'not', such as in the word 'asleep' or 'amoral'. It does not refer to the root 'geo'."
               },
@@ -3099,10 +3099,10 @@
         {
           "id": "vocabulary-base-words-q0058",
           "version": 3,
-          "contentHash": "sha256:cd8901a9c2e2e31fc580888dfadb4008021535269c27e283dc6236b4a846818c",
+          "contentHash": "sha256:4f8b3da92fa6dabf595606752fd9db7c5ec09cfb3c131b5c413eda747a115e7d",
           "question": "Which of the following words would be a synonym for lost?",
           "choices": [
-            "f ound",
+            "found",
             "sickly",
             "returned",
             "missing"
@@ -3112,7 +3112,7 @@
             "correct": "Answer: missing. A synonym is a word that has the same or a very similar meaning. If something is lost, it is currently missing or unable to be found.",
             "incorrect": [
               {
-                "choice": "f ound",
+                "choice": "found",
                 "category": "antonym confusion",
                 "reason": "This is actually an antonym, or the opposite of lost, rather than a synonym. If something is found, it is no longer lost."
               },
@@ -4357,8 +4357,8 @@
         {
           "id": "vocabulary-base-words-q0261",
           "version": 3,
-          "contentHash": "sha256:1c2b0fae159a664c43a412b3f458e1f1a1f2e78e9c106490a6ea99f4e38d0526",
-          "question": "If the root word means to pull, then what woul d the word tract tractor mean?",
+          "contentHash": "sha256:f6ea3b4350fc8cfafc3fd261d1fb13b7c6e92a9d3878f4791e61271cfe09d297",
+          "question": "If the root word means to pull, then what would the word tract tractor mean?",
           "choices": [
             "related to pulling",
             "that whic h pulls",
@@ -4431,13 +4431,13 @@
         {
           "id": "vocabulary-base-words-q0297",
           "version": 3,
-          "contentHash": "sha256:0250d22f2bb48ae000adadd08aef5f8ee09d0e1d92cf9223b235a5cbdd98c406",
+          "contentHash": "sha256:ab33108710f2712bb35cd60d1c2910b488489fbc882920e4737b3adff0af7499",
           "question": "What does the root word mean as in the word? meter thermometer",
           "choices": [
             "sickness",
             "measure",
-            "docto r",
-            "medicin e"
+            "doctor",
+            "medicine"
           ],
           "correct": 1,
           "explanation": {
@@ -4450,12 +4450,12 @@
               },
               "",
               {
-                "choice": "docto r",
+                "choice": "doctor",
                 "category": "incorrect noun definition",
                 "reason": "A doctor is a person who uses a thermometer, but 'meter' does not describe a profession or a person. Look for a word related to quantity or size."
               },
               {
-                "choice": "medicin e",
+                "choice": "medicine",
                 "category": "incorrect concept association",
                 "reason": "Medicine is related to health, but 'meter' describes the function of the tool (measuring) rather than the substance used for healing."
               }
@@ -10370,13 +10370,13 @@
         {
           "id": "vocabulary-homophones-q0046",
           "version": 3,
-          "contentHash": "sha256:c202aa10329e8c7d9c51daf4f26e2688d537c140e0b12f6699aac95986a63f75",
+          "contentHash": "sha256:32c37eb6420c97287197f84112fcf69af8197b476ef23477afa7cd1a2a41d2f7",
           "question": "Which sentence tells me there were dirty dishes in the sink?",
           "choices": [
             "There are pots and pans everywhere when I cook dinner.",
             "I had to move the pots and pans so I could fill the sink with water.",
             "We cleared all the dishes off the table before we broughtout dessert.",
-            "The water took a while to heat up when I turnedon the kitche n faucet."
+            "The water took a while to heat up when I turnedon the kitchen faucet."
           ],
           "correct": 1,
           "explanation": {
@@ -10394,7 +10394,7 @@
                 "reason": "This sentence describes cleaning the table, not the sink. Being cleared from the table does not guarantee they ended up in the sink."
               },
               {
-                "choice": "The water took a while to heat up when I turnedon the kitche n faucet.",
+                "choice": "The water took a while to heat up when I turnedon the kitchen faucet.",
                 "category": "missing object context",
                 "reason": "This sentence describes the temperature of the water, but it mentions nothing about dishes or anything else being inside the sink."
               }
@@ -16462,10 +16462,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0041",
           "version": 3,
-          "contentHash": "sha256:6f5c55b12a96dd61469c4edacc9937e0a5c4ab245f824fd99c21f03362599940",
+          "contentHash": "sha256:1abfcf7b0da9b2df858c8f18a3470816614f5fbc35ac10732538d5d368912c98",
           "question": "Give the synonym for predicate.",
           "choices": [
-            "art icle",
+            "article",
             "noun",
             "verb",
             "adverb"
@@ -16475,7 +16475,7 @@
             "correct": "Answer: verb. In grammar, the predicate of a sentence is the part that tells what the subject is doing or being; the main word in the predicate is the verb.",
             "incorrect": [
               {
-                "choice": "art icle",
+                "choice": "article",
                 "category": "wrong part of speech",
                 "reason": "An article is a word like 'a', 'an', or 'the'. It describes a noun, not the action or state of being that defines a predicate."
               },
@@ -17158,13 +17158,13 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0050",
           "version": 3,
-          "contentHash": "sha256:bf87ca49413d5db2712b7bcdc422fb990850f15cf5e44f49626e4f2f52850aca",
+          "contentHash": "sha256:030b8dca16771419855a5d19d20506c80fe0a20fa623c106b2f6a9a8a9a4bc39",
           "question": "Which sentence has the same meaning as the sentences below. Elison packed his suitcase. Elison packed socks. Elison packed shirts. Elison packed an extra pair of shoes. Elison packed his teddy bear.",
           "choices": [
             "Eliso n packed socks, shirts, an extra pair of shoes, and his teddy bear in his suitcase.",
             "Elison packed in his teddy bear a suitcase, extra pair of shoes, socks and shirts.",
             "Elison packed socks, extra shoes, a teddy bear, and a suitcase in his shirts.",
-            "In his socks, Elison packed his teddy bear, extra shoes, a sui tcase, and his shirts."
+            "In his socks, Elison packed his teddy bear, extra shoes, a suitcase, and his shirts."
           ],
           "correct": 0,
           "explanation": {
@@ -17180,8 +17180,8 @@
                 "reason": "\"Elison packed socks, extra shoes, a teddy bear, and a suitcase in his shirts.\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
               },
               {
-                "choice": "In his socks, Elison packed his teddy bear, extra shoes, a sui tcase, and his shirts.",
-                "reason": "\"In his socks, Elison packed his teddy bear, extra shoes, a sui tcase, and his shirts.\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
+                "choice": "In his socks, Elison packed his teddy bear, extra shoes, a suitcase, and his shirts.",
+                "reason": "\"In his socks, Elison packed his teddy bear, extra shoes, a suitcase, and his shirts.\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
               }
             ]
           },
@@ -17305,8 +17305,8 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0052",
           "version": 3,
-          "contentHash": "sha256:366a8398e0628183ccc235dfeef2a5b2da721dae5638662f0903611aa0051df9",
-          "question": "Which word means the same as the underlined w ord? My father opened his present first. He felthe couldn’t wait any longer.",
+          "contentHash": "sha256:0b00f9d00cbc6012f102cb4b58192742a2b1613f2a2a7be5b0bb55661da22969",
+          "question": "Which word means the same as the underlined word? My father opened his present first. He felthe couldn’t wait any longer.",
           "choices": [
             "cou ldn’t",
             "longer",
@@ -17772,10 +17772,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0058",
           "version": 3,
-          "contentHash": "sha256:6d2f083a4450b5d10cb26f072d348369b27fffa7582208afbb0be3728d34751f",
+          "contentHash": "sha256:a6d0bac8e91af0405b860398ffd6c836d07515952888ac0dcf7c88d556768f76",
           "question": "What does the underlined word mean in this sentence? The stubborn nail refused to move.",
           "choices": [
-            "ju mped",
+            "jumped",
             "went",
             "failed",
             "begged"
@@ -17785,8 +17785,8 @@
             "correct": "Answer: failed. In this context, 'refused' means the nail would not change position or cooperate with the person trying to move it, so it 'failed' to move.",
             "incorrect": [
               {
-                "choice": "ju mped",
-                "reason": "\"ju mped\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
+                "choice": "jumped",
+                "reason": "\"jumped\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
               },
               {
                 "choice": "went",
@@ -18219,13 +18219,13 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0100",
           "version": 3,
-          "contentHash": "sha256:cb9d7a87593f8f7a9766bd6a444302dc05609bdb0ace3a1518573256ba9e5e36",
+          "contentHash": "sha256:461da8853f32cf4dc5777451e0e456bfdddb6ae1a7f0c6b6b6c2b06ea029bc2f",
           "question": "Which word means the opposite of hard?",
           "choices": [
             "hot",
             "cold",
             "easy",
-            "fun Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2"
+            "fun Copyright © TestingMom.com. All rights reserved worldwide. Use of this document 2"
           ],
           "correct": 2,
           "explanation": {
@@ -18243,7 +18243,7 @@
               },
               "",
               {
-                "choice": "fun Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2",
+                "choice": "fun Copyright © TestingMom.com. All rights reserved worldwide. Use of this document 2",
                 "category": "unrelated vocabulary choice",
                 "reason": "This phrase contains extra text that is not a word meaning the opposite of hard. 'Fun' describes enjoyment, but it is not the opposite of a difficult task."
               }
@@ -18293,10 +18293,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0148",
           "version": 3,
-          "contentHash": "sha256:c7d254e2300295612e46cce9704f1c47d4a5a5326c19f85ce3d6af6764d013fb",
+          "contentHash": "sha256:e7b96854d617af742b2a03990384ad65a551dcaa3285b27314874beca32d3cee",
           "question": "Which word is the opposite of shrink?",
           "choices": [
-            "d isappear",
+            "disappear",
             "grow",
             "reduce",
             "wash"
@@ -18306,8 +18306,8 @@
             "correct": "Answer: grow. Shrink means to get smaller, while grow means to increase in size. They are antonyms, or opposites.",
             "incorrect": [
               {
-                "choice": "d isappear",
-                "reason": "\"d isappear\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
+                "choice": "disappear",
+                "reason": "\"disappear\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
               },
               "",
               {
@@ -18440,13 +18440,13 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0206",
           "version": 3,
-          "contentHash": "sha256:5609b919032d81d7cce5aecadc9c2b3506ebd0b98819d5b013c5a24b9d61fdfb",
+          "contentHash": "sha256:2ab5d960676e712b1d44776c8891280cddba1377843b1e65b6cb16476fbfd350",
           "question": "Read the sentence and choose the best synonym for the u nderlined word. In the gloom of the rainy dawn, Kayla scanned the horizon searching for the long -promised arrival of the horse-drawn carriage.",
           "choices": [
             "looked",
             "glanced",
             "searched",
-            "noticed Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3"
+            "noticed Copyright © TestingMom.com. All rights reserved worldwide. Use of this document 3"
           ],
           "correct": 2,
           "explanation": {
@@ -18464,8 +18464,8 @@
               },
               "",
               {
-                "choice": "noticed Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3",
-                "reason": "All rights reserved worldwide. Use of this do cument 3. \"noticed Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
+                "choice": "noticed Copyright © TestingMom.com. All rights reserved worldwide. Use of this document 3",
+                "reason": "All rights reserved worldwide. Use of this document 3. \"noticed Copyright © TestingMom.com. All rights reserved worldwide. Use of this document 3\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
               }
             ]
           },
@@ -18957,10 +18957,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0074",
           "version": 3,
-          "contentHash": "sha256:9c2c3cf7a18bd1d87b36f036032852a5856b04e327cfa46578cd8ca54ab59c51",
+          "contentHash": "sha256:2ebec648fdd03eecab8fdd15ce00f74ea193e1f12c967e5b2eaaed54ee1271c8",
           "question": "Which reference material would you use to fi nda synonym for a word?",
           "choices": [
-            "d ictionary",
+            "dictionary",
             "encyclopedia",
             "glossary",
             "thesaurus"
@@ -18970,7 +18970,7 @@
             "correct": "Answer: thesaurus. A thesaurus is a specialized reference book or digital tool used specifically to find synonyms—words that have the same or similar meanings—for other words.",
             "incorrect": [
               {
-                "choice": "d ictionary",
+                "choice": "dictionary",
                 "category": "dictionary function",
                 "reason": "A dictionary is primarily used to check the spelling, pronunciation, and definition of a word, rather than finding synonyms."
               },
@@ -19031,10 +19031,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0075",
           "version": 3,
-          "contentHash": "sha256:0cd95db554eefce51315f55cd1348f3d6077fa7d746b4fcf4ab303d51df52870",
+          "contentHash": "sha256:32498258784d4666dc426892a0e65bf9dfbd25067b716a6de03c41c50f1d9a2f",
           "question": "Which of the following words would be an antonym for devastated? “”",
           "choices": [
-            "misera ble",
+            "miserable",
             "disappointed",
             "angry",
             "overjoyed"
@@ -19044,7 +19044,7 @@
             "correct": "Answer: overjoyed. 'Devastated' means to be overwhelmed by grief or shock, so its antonym must mean feeling great happiness or delight.",
             "incorrect": [
               {
-                "choice": "misera ble",
+                "choice": "miserable",
                 "category": "synonym confusion",
                 "reason": "Being 'miserable' is similar to feeling 'devastated,' not the opposite. An antonym should express a feeling that is completely different."
               },
@@ -19105,10 +19105,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0076",
           "version": 3,
-          "contentHash": "sha256:d6f8b12f5a05b61dd4148c3bb2a8fbdf3a966c329cb1975115f1f93b2e16ca45",
+          "contentHash": "sha256:0df4bb2a2195808fad45d5bf07fd3e11f66b86710fb5488402fefbb04e249fd8",
           "question": "Which of the following words would be a synonym for enormous? “”",
           "choices": [
-            "h uge",
+            "huge",
             "average",
             "tiny",
             "regular"
@@ -19401,8 +19401,8 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0081",
           "version": 3,
-          "contentHash": "sha256:4787d26769a3d3629851929cae72248377fad3a88c9420e955004233b7a0fb02",
-          "question": "Which of the following? is not a synonym for “edge” Edge – n. edge, verge, brink, brow, brim, margin, border, confine, skirt, rim, flange, side, mouth; jaws, chops, chaps, fauces; lip, muzzle. threshold, door, porch; coast, shore. frame fringe, flounce, frill, list, trimming, edging, skirting, hem, selvedge, welt, furbelow, valance, gimp, adj. border, marginal, skirting; labial, labiat ed, marginated.",
+          "contentHash": "sha256:95de36156bcb062acada9a5fbaa7656d5f8ae04c2fbc3b4c322a932a05261c43",
+          "question": "Which of the following? is not a synonym for “edge” Edge – n. edge, verge, brink, brow, brim, margin, border, confine, skirt, rim, flange, side, mouth; jaws, chops, chaps, fauces; lip, muzzle. threshold, door, porch; coast, shore. frame fringe, flounce, frill, list, trimming, edging, skirting, hem, selvedge, welt, furbelow, valance, gimp, adj. border, marginal, skirting; labial, labiated, marginated.",
           "choices": [
             "b rim",
             "faucet",
@@ -19549,10 +19549,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0083",
           "version": 3,
-          "contentHash": "sha256:cf83c4a905968cc03f8ffdebfe0e2ce6e1e7cad366ed9ba3682127d633348306",
+          "contentHash": "sha256:cba41d995c5b31df0349b020d7228e0b2a322148139712ff6e014ee4fe049db7",
           "question": "Which is the antonym for the word active?",
           "choices": [
-            "en ergetic",
+            "energetic",
             "lazy",
             "spirited",
             "alive"
@@ -19562,7 +19562,7 @@
             "correct": "Answer: lazy. An antonym is a word that means the opposite. Since 'active' means full of energy or movement, 'lazy'—which describes someone not wanting to move or work—is the correct opposite.",
             "incorrect": [
               {
-                "choice": "en ergetic",
+                "choice": "energetic",
                 "category": "synonym confusion",
                 "reason": "The word 'energetic' is actually a synonym of 'active,' meaning it has a similar meaning rather than an opposite one."
               },
@@ -19623,10 +19623,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0084",
           "version": 3,
-          "contentHash": "sha256:bae9fd73cd96b076ee223ef8dd89fd45f19b588aee5c1527951236a0789d3f54",
+          "contentHash": "sha256:bb4b095d43d2369432b164475bcfb335c40c99de19058b041cc09d8f56363c73",
           "question": "Choose the antonym for the underlined word. The little girl was devastated that her fish died.",
           "choices": [
-            "very misera ble",
+            "very miserable",
             "very unhappy",
             "very sad",
             "very happy"
@@ -19636,7 +19636,7 @@
             "correct": "Answer: very happy. An antonym is a word or phrase that means the opposite. Since 'devastated' means to be very sad or overwhelmed with grief, 'very happy' is the opposite meaning.",
             "incorrect": [
               {
-                "choice": "very misera ble",
+                "choice": "very miserable",
                 "category": "synonym, not antonym",
                 "reason": "This phrase means nearly the same thing as 'devastated.' An antonym must be the opposite, not a word that shares a similar meaning."
               },
@@ -20067,10 +20067,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0123",
           "version": 3,
-          "contentHash": "sha256:de3872591109b5f623ec4a17771e23ef74237edd5a6e9c80daf12249cdb5702d",
+          "contentHash": "sha256:971b82c94c9c949db7ad662132384d5006c6fcdae1010018e809510b8e5c5dee",
           "question": "Choose the correct set of synonyms for the word. crazy",
           "choices": [
-            "b ird, cuckoo",
+            "bird, cuckoo",
             "cuckoo, wacky",
             "calm, balanced",
             "sane, insane"
@@ -20080,7 +20080,7 @@
             "correct": "Answer: cuckoo, wacky. Both 'cuckoo' and 'wacky' share the same meaning as 'crazy' because they all describe someone or something that acts in a strange, silly, or unusual way.",
             "incorrect": [
               {
-                "choice": "b ird, cuckoo",
+                "choice": "bird, cuckoo",
                 "category": "mismatched word meanings",
                 "reason": "While 'cuckoo' is a synonym for 'crazy', the word 'bird' is not. They must both describe the same idea to be a correct pair."
               },
@@ -20141,10 +20141,10 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0126",
           "version": 3,
-          "contentHash": "sha256:c32ed71db713d5b68a74cb56db60a3762e9adbc98b2f0b22dc41e12ea3432438",
+          "contentHash": "sha256:8375799c1ff275ab516982b21af3a65c177f9649c00a021d814d0c107345f499",
           "question": "Find the correct set of antonyms.",
           "choices": [
-            "p eculiar and general",
+            "peculiar and general",
             "common and peculiar",
             "general and common",
             "included and general"
@@ -20154,7 +20154,7 @@
             "correct": "Answer: common and peculiar. Antonyms are words that have opposite meanings. 'Common' means something found often or everywhere, while 'peculiar' means strange or rare.",
             "incorrect": [
               {
-                "choice": "p eculiar and general",
+                "choice": "peculiar and general",
                 "category": "incorrect word pairing",
                 "reason": "This choice has a spelling error with a space in 'peculiar' and the words 'peculiar' and 'general' have similar meanings in some contexts, so they are not clear opposites."
               },
@@ -20807,11 +20807,11 @@
         {
           "id": "vocabulary-synonyms-antonyms-q0303",
           "version": 3,
-          "contentHash": "sha256:1a97d49525f131237b288b6e986a14192b9d81be47d001f983855daf7bb11ae5",
+          "contentHash": "sha256:a820bd9d0ea6342241ed9c80e5586cae46415f24581da748dc1c1aabe9160f40",
           "question": "Choose the antonym for the und erlined word. Our apartment was adjacent to my grandmother’s.",
           "choices": [
             "below",
-            "connec t",
+            "connect",
             "separate",
             "old"
           ],
@@ -20825,8 +20825,8 @@
                 "reason": "The word 'below' describes position, but it does not represent the opposite of being next to something. Two things can be below each other and still be touching."
               },
               {
-                "choice": "connec t",
-                "reason": "\"connec t\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
+                "choice": "connect",
+                "reason": "\"connect\" has a different meaning or strength, so it does not match the requested synonym, antonym, or shade of meaning."
               },
               "",
               {
@@ -22213,10 +22213,10 @@
         {
           "id": "vocabulary-comparatives-superlatives-q0020",
           "version": 3,
-          "contentHash": "sha256:8cf36214ba1d2f56515dccbabeb421906dae90e82e58b96c3cdf967f05fd6d27",
+          "contentHash": "sha256:889dc77368ea997a67666c54e43c70ecb0f024c07fba1f4157e7bb28d89fe67f",
           "question": "Which set of comparative adjectives is NOT written correctly?",
           "choices": [
-            "h appy - happier - happiest",
+            "happy - happier - happiest",
             "friendly - friendlier - f riendliest",
             "silly - sillyer - sillyest",
             "funny - funnier - funniest"
@@ -22226,7 +22226,7 @@
             "correct": "Answer: silly - sillyer - sillyest. Adjectives ending in 'y' that have two syllables follow a specific rule: drop the 'y' and add '-ier' for the comparative and '-iest' for the superlative.",
             "incorrect": [
               {
-                "choice": "h appy - happier - happiest",
+                "choice": "happy - happier - happiest",
                 "category": "correct comparative form",
                 "reason": "This is actually a correct example of the rule! You correctly changed the 'y' to an 'i' before adding '-er' and '-est'."
               },
@@ -22289,10 +22289,10 @@
         {
           "id": "vocabulary-comparatives-superlatives-q0021",
           "version": 3,
-          "contentHash": "sha256:35e8c14df1fedaa29ef7debfe5636fb7d35260ef61c15f2883dfcf60773ffad5",
+          "contentHash": "sha256:ca7147f050c630ad95e67cd697329ae1aef8bf4b3c309e0cb14d5b449ef11800",
           "question": "Which sentence contains the correct comparison?",
           "choices": [
-            "Belind a is the olde st of the two sisters.",
+            "Belinda is the oldest of the two sisters.",
             "Belinda is the older of the two sisters.",
             "Belinda is the most oldof the two sisters.",
             "Belinda is the more oldof the two sisters."
@@ -22302,7 +22302,7 @@
             "correct": "Answer: Belinda is the older of the two sisters. When comparing exactly two people, we use the comparative adjective form ending in '-er' rather than the superlative form.",
             "incorrect": [
               {
-                "choice": "Belind a is the olde st of the two sisters.",
+                "choice": "Belinda is the oldest of the two sisters.",
                 "category": "spelling error",
                 "reason": "This choice contains typos where the words 'Belinda' and 'oldest' have been split into two separate words. Always ensure your adjectives are spelled correctly."
               },
@@ -22751,10 +22751,10 @@
         {
           "id": "vocabulary-comparatives-superlatives-q0027",
           "version": 4,
-          "contentHash": "sha256:03cb49b0f9481b1a98422afeeaccdeb7b95b6e4d806d54fc8885d465f0db179f",
+          "contentHash": "sha256:52145cc9a6892c7b06315e1cd991f9b236283e529e3b7676c85bf6d971f20874",
           "question": "Choose the best missing wordor words. My broken leg was the ______ injury I have ever had.",
           "choices": [
-            "p ainfullest",
+            "painfullest",
             "more painful",
             "most painful",
             "more painfullest"
@@ -22764,7 +22764,7 @@
             "correct": "Answer: most painful. When comparing one thing to three or more others (or the entire group of injuries you have had), you must use the superlative form 'most' followed by the adjective.",
             "incorrect": [
               {
-                "choice": "p ainfullest",
+                "choice": "painfullest",
                 "category": "nonexistent word form",
                 "reason": "The word 'painfullest' is not a real word. Also, for longer adjectives like 'painful,' we add 'most' before the word instead of adding '-est' to the end."
               },
@@ -22905,10 +22905,10 @@
         {
           "id": "vocabulary-comparatives-superlatives-q0029",
           "version": 4,
-          "contentHash": "sha256:e254aa430471325ba743b852521fde0a267549d26da0e655ca0a7a66b524a4ef",
+          "contentHash": "sha256:68c9cb7ea2256b7b39b624f914ae7c85b2baca173ddefa65bccade5bd1690172",
           "question": "Choose the best missing wordor words. She was _______ after the race than before.",
           "choices": [
-            "t ired",
+            "tired",
             "more tired",
             "more tireder",
             "most tiredest"
@@ -22918,7 +22918,7 @@
             "correct": "Answer: more tired. When comparing two things—in this case, her tiredness level at two different times—we use the comparative form 'more' with the adjective 'tired'.",
             "incorrect": [
               {
-                "choice": "t ired",
+                "choice": "tired",
                 "category": "missing comparative word",
                 "reason": "This is just the base adjective. Because the sentence uses 'than' to compare two moments in time, you must add the word 'more' to show the difference."
               },
@@ -26739,10 +26739,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0066",
           "version": 2,
-          "contentHash": "sha256:b8a4fb3a5c4473f78d23faf02a1593072150dacbb6062cfdca56e243e3100080",
+          "contentHash": "sha256:731039e6e4b0582f77132a859856fb7cf9484d3759f0f9ba8dc4968730bfe680",
           "question": "It is not _________ to talk with strangers.",
           "choices": [
-            "h appy",
+            "happy",
             "afraid",
             "fun",
             "safe"
@@ -26752,7 +26752,7 @@
             "correct": "Answer: safe. The sentence uses the negative 'not,' so we need a word that completes the logical warning about talking to strangers. 'Safe' fits the context of providing a cautionary message.",
             "incorrect": [
               {
-                "choice": "h appy",
+                "choice": "happy",
                 "category": "contextual word choice",
                 "reason": "The sentence is a warning about talking to strangers, and 'happy' does not fit the serious tone required to explain why one should avoid strangers."
               },
@@ -28515,13 +28515,13 @@
         {
           "id": "vocabulary-word-meaning-context-q0102",
           "version": 2,
-          "contentHash": "sha256:94da4abe7cd604e7d8ab414ccd17673bac20aa994db9e578e4711e7ab86ade9c",
+          "contentHash": "sha256:cd9528e4bef2f85167cb1aebd5dca21481d52154149d543e71d080055f1d86c9",
           "question": "Which group of letters only contains vowels?",
           "choices": [
             "a, o, n, d",
             "i, s, y, u",
             "e, a, i, u",
-            "u, a, i, g Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3"
+            "u, a, i, g Copyright © TestingMom.com. All rights reserved worldwide. Use of this document 3"
           ],
           "correct": 2,
           "explanation": {
@@ -28539,7 +28539,7 @@
               },
               "",
               {
-                "choice": "u, a, i, g Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3",
+                "choice": "u, a, i, g Copyright © TestingMom.com. All rights reserved worldwide. Use of this document 3",
                 "category": "includes consonants",
                 "reason": "The letter 'g' is a consonant. The remaining text is extra formatting and not part of the letter list."
               }
@@ -28811,10 +28811,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0151",
           "version": 2,
-          "contentHash": "sha256:e825b3cb63830a4ae773c651b8b8e380d16e3612164fc29cafeeaa793a40b0d0",
-          "question": "Read the passage. Yes, Utzel hated everybody and everything, buthe adored his daughter. He daydreamed that a rich young man would fall in love with her, marry her, and “Utzel and His Daughter, Poverty,” p age 149. Teacher auth ors: Phillips, provide for his wife and his fat her- in -law. But not a young man in the village showed Blackman, Felts). the slightest interest in poverty. In the passage, what does the compound word daydream ed mean?",
+          "contentHash": "sha256:91b20a30ed5c730a0ee609323f696562b040c369b7e1ba8ef8634eb63be70038",
+          "question": "Read the passage. Yes, Utzel hated everybody and everything, buthe adored his daughter. He daydreamed that a rich young man would fall in love with her, marry her, and “Utzel and His Daughter, Poverty,” p age 149. Teacher authors: Phillips, provide for his wife and his fat her- in -law. But not a young man in the village showed Blackman, Felts). the slightest interest in poverty. In the passage, what does the compound word daydream ed mean?",
           "choices": [
-            "p leasant thoughts",
+            "pleasant thoughts",
             "sleeping pictures",
             "terrible thoughts",
             "daily pictures"
@@ -29181,13 +29181,13 @@
         {
           "id": "vocabulary-word-meaning-context-q0202",
           "version": 2,
-          "contentHash": "sha256:9728ed49824114a65bae522321a1982210d28297aa2cc6d9f0127cbd4e7a169b",
+          "contentHash": "sha256:21559ef83b26937af6e6ca3e7d31f4a5f53609bffcdcaed960684c17d6de5cf2",
           "question": "Choose the correct contraction for the underlined words. It does not make sense to put your shoes on before your socks.",
           "choices": [
             "isn’t",
             "don’t",
             "wasn’t",
-            "doesn’t Copyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2"
+            "doesn’t Copyright © TestingMom.com. All rights reserved worldwide. Use of this document 2"
           ],
           "correct": 3,
           "explanation": {
@@ -29255,10 +29255,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0203",
           "version": 2,
-          "contentHash": "sha256:6045408e57b45f041a0c736125f84dc5ba95ab6640753663ae0adef30d77c94b",
-          "question": "Read the passage. We selected for our victim the only child of a prominent citizen named Ebenezer Henry. “The Rans om of Red Chief” page 25. (T eacher auth ors: Phillips, Blackman, Felts). Dorset. The fat her was respectable and tight, a mortgage fancier and a stern, upright collection-plate passer and forecloser. The kid was a boy of ten, with freckles. In the passage, what does the word prominent mean?",
+          "contentHash": "sha256:d0646739c7f4ec6f3e1ad9a07aca112c83c38cdc3f9c7ab65086e20e733eb870",
+          "question": "Read the passage. We selected for our victim the only child of a prominent citizen named Ebenezer Henry. “The Rans om of Red Chief” page 25. (T eacher authors: Phillips, Blackman, Felts). Dorset. The fat her was respectable and tight, a mortgage fancier and a stern, upright collection-plate passer and forecloser. The kid was a boy of ten, with freckles. In the passage, what does the word prominent mean?",
           "choices": [
-            "u nnoticeable",
+            "unnoticeable",
             "well-known",
             "mean- spirited",
             "wealthy"
@@ -29268,7 +29268,7 @@
             "correct": "Answer: well-known. In this context, a 'prominent citizen' refers to someone who is important and widely recognized in their community.",
             "incorrect": [
               {
-                "choice": "u nnoticeable",
+                "choice": "unnoticeable",
                 "category": "opposite word meaning",
                 "reason": "This is an antonym for prominent. If a person is prominent, they stand out in the community rather than being hidden or unnoticed."
               },
@@ -29625,10 +29625,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0215",
           "version": 2,
-          "contentHash": "sha256:3817b2e6619d992779a305a9ca3031c97241068fe3678b654374941dc2d2eac1",
+          "contentHash": "sha256:dde1ef894081fd94c6e63e03e7ec8c9227ce8b8116721963c00508518076a4c4",
           "question": "Fill in the blank. When we went to Cheyenne, we drove ________ a tunnel.",
           "choices": [
-            "t hrew",
+            "threw",
             "through",
             "though",
             "thorough"
@@ -29638,7 +29638,7 @@
             "correct": "Answer: through. The preposition 'through' describes movement from one end of an enclosed space, such as a tunnel, to the other.",
             "incorrect": [
               {
-                "choice": "t hrew",
+                "choice": "threw",
                 "category": "homophone error",
                 "reason": "'Threw' is the past tense of the verb 'throw.' It is an action you do with your hands, not a word used to describe moving inside a tunnel."
               },
@@ -29847,10 +29847,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0095",
           "version": 2,
-          "contentHash": "sha256:6411dfdb7b477225a5d707b8ee86a04de29eb03866f26a2dc579075f50030bd3",
+          "contentHash": "sha256:ef835c2374888889bb5f62a3c6a14ad04a4cd72199db7fe795a072664db8c727",
           "question": "The word “cease” most nearly means: If the arguing does not cease immediately, you will both be sent to your room.",
           "choices": [
-            "b ecome less noisy",
+            "become less noisy",
             "continue",
             "decrease",
             "stop"
@@ -29860,7 +29860,7 @@
             "correct": "Answer: stop. To 'cease' means to come to an end or to stop doing something. In the sentence, the arguing needs to come to an end immediately.",
             "incorrect": [
               {
-                "choice": "b ecome less noisy",
+                "choice": "become less noisy",
                 "category": "imprecise meaning",
                 "reason": "While arguing often involves noise, 'cease' means to end the action entirely, not just to turn the volume down."
               },
@@ -29921,8 +29921,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0097",
           "version": 2,
-          "contentHash": "sha256:ab8da9b60726617134c629a64498a88ef7d59b409fe8e57e4a86fb20717427b3",
-          "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. There are several different ways minerals ca n be ext racted from the earth, but two main methods are called surface mining and subsurface mining.",
+          "contentHash": "sha256:c0ac716127019a1fa0d258f9ffe621a22a035129907ff174b0e355f15351092c",
+          "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. There are several different ways minerals ca n be extracted from the earth, but two main methods are called surface mining and subsurface mining.",
           "choices": [
             "to put in",
             "to take out of something",
@@ -30143,10 +30143,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0103",
           "version": 2,
-          "contentHash": "sha256:1415a8defcc82fa9ec6daf1e30f62add1e1f9888aa8a0ee236e6f4804ade46e8",
+          "contentHash": "sha256:da310bbaea5b39e807b0068b568951a1cedd7016ea1acf1c2dc4c47cdb206e99",
           "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. When it healed, and fears of never being able to do gymnastics again Sarah’s were assuaged, she was seldom self-conscious about h injury. er",
           "choices": [
-            "w orsened",
+            "worsened",
             "eased",
             "heighten ed",
             "strengthen ed"
@@ -30156,8 +30156,8 @@
             "correct": "Answer: eased. To be 'assuaged' means to make an unpleasant feeling less intense. Since Sarah's fears were healed, 'eased' is the correct synonym because it describes her fears becoming less severe.",
             "incorrect": [
               {
-                "choice": "w orsened",
-                "reason": "\"w orsened\" does not fit the context clues around the word."
+                "choice": "worsened",
+                "reason": "\"worsened\" does not fit the context clues around the word."
               },
               "",
               {
@@ -30287,10 +30287,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0105",
           "version": 2,
-          "contentHash": "sha256:72add5353c5f113997fa698382db38e94ff1c03cb724f5786efb3fbb7790f226",
+          "contentHash": "sha256:9554c22f88f7d2e372fdc097bea30f58a68372d2ab11e53cad55f4e903437f7b",
           "question": "Use the context of the sentence to determine the meaning of the underlined word, t hen choose a word that best fits the meaning. I had to select one toy, and it was hard because I wanted them both.",
           "choices": [
-            "d ivide",
+            "divide",
             "grab",
             "look for",
             "choose"
@@ -30300,8 +30300,8 @@
             "correct": "Answer: choose. The word 'select' means to pick out or make a choice from a group, which is exactly what 'choose' means in this context.",
             "incorrect": [
               {
-                "choice": "d ivide",
-                "reason": "\"d ivide\" does not fit the context clues around the word."
+                "choice": "divide",
+                "reason": "\"divide\" does not fit the context clues around the word."
               },
               {
                 "choice": "grab",
@@ -30360,10 +30360,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0106",
           "version": 2,
-          "contentHash": "sha256:51c54e55612d5f704e41351945817dcd3806c8fe80f1edbfc43a8ddca01abedc",
-          "question": "Read the following sentence, use the context clues, and choose the word that best fits the meaning of the underlined word. The doctor had to consult w ith his colleagues before coming up with a diagnosis.",
+          "contentHash": "sha256:78fde0f2399db5cc55f6d495736d6003825c0f971abe654706acd76b76de77ec",
+          "question": "Read the following sentence, use the context clues, and choose the word that best fits the meaning of the underlined word. The doctor had to consult with his colleagues before coming up with a diagnosis.",
           "choices": [
-            "rest rict",
+            "restrict",
             "discuss",
             "agree",
             "argue"
@@ -30373,8 +30373,8 @@
             "correct": "Answer: discuss. To 'consult' means to seek advice or information from others, which is exactly what one does when they discuss a problem with colleagues to find a diagnosis.",
             "incorrect": [
               {
-                "choice": "rest rict",
-                "reason": "\"rest rict\" does not fit the context clues around the word."
+                "choice": "restrict",
+                "reason": "\"restrict\" does not fit the context clues around the word."
               },
               "",
               {
@@ -30581,10 +30581,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0051",
           "version": 2,
-          "contentHash": "sha256:54aef07f9f607f53e97c4d736788765c1812751aefefb65583233d30315a8aca",
+          "contentHash": "sha256:6b2cfa4c136e7c75dbab76d6eb9cff99fe272cb7af509a1c388a83536c286cbe",
           "question": "Use the context of the sentence to determine the meaning of the underlined word, t hen choose a word that best fits the meaning. My brothers are both lifeguards, but they work at different pools and don’t see each other very often.",
           "choices": [
-            "sep arate",
+            "separate",
             "formal",
             "same",
             "far away"
@@ -30655,10 +30655,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0056",
           "version": 2,
-          "contentHash": "sha256:ff22d701c8409e505c15ec3a4b7859a3bb6d5559990599bd200f9b81d3db82a3",
+          "contentHash": "sha256:d282e917ce4d65b3e0cc3171d61937912cc408452d59e7dd40ac9f70540e2d3a",
           "question": "If a word had multiple meanings, which reference source would you use to see what the different meanings were?",
           "choices": [
-            "d ictionary",
+            "dictionary",
             "phone book",
             "thesaurus",
             "encyclopedia"
@@ -31173,10 +31173,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0111",
           "version": 2,
-          "contentHash": "sha256:bd5d199c34bdcde826fffcf6e3ea36a503c2b0db2edbf4f410b97411ae53fcbd",
+          "contentHash": "sha256:86ee92fab215014764510c2732b44964e5cec42b9a673b1be959f32a0e08ff47",
           "question": "Choose the correct word for the sentence below. My dog is the _________ when he gets his dog treat with peanut butter on top.",
           "choices": [
-            "h appy",
+            "happy",
             "happiest",
             "happier",
             "more happy"
@@ -31186,7 +31186,7 @@
             "correct": "Answer: happiest. When comparing the dog's level of joy against all other times, you must use the superlative form 'happiest' to indicate he is the most joyful of all.",
             "incorrect": [
               {
-                "choice": "h appy",
+                "choice": "happy",
                 "category": "incorrect spelling",
                 "reason": "This choice is misspelled with an extra space. Always ensure your descriptive words are written as single, complete words."
               },
@@ -31321,10 +31321,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0113",
           "version": 2,
-          "contentHash": "sha256:ba03bd214ff53a7c7756d4f990b135dc3ef6083032a85f49c616b610c58fde28",
+          "contentHash": "sha256:13bb913d8404c87dfdfea207827064c7c5d6853b6633d4dbaa7dd9af4e70dce0",
           "question": "Choose the word that best completes the sentence. Trey is a(n) ________. He always likes to be the center of attention and can perform in an instant.",
           "choices": [
-            "in trovert",
+            "introvert",
             "ham",
             "intoxicator",
             "behaviorist"
@@ -31334,7 +31334,7 @@
             "correct": "Answer: ham. A 'ham' is an informal term for someone who is an over-the-top actor or performer who loves to be the center of attention.",
             "incorrect": [
               {
-                "choice": "in trovert",
+                "choice": "introvert",
                 "category": "incorrect vocabulary definition",
                 "reason": "An introvert is someone who is shy or prefers to be alone, which is the opposite of a person who wants to be the center of attention."
               },
@@ -31395,8 +31395,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0114",
           "version": 2,
-          "contentHash": "sha256:bef7e149de5eabcb62b04dc0d4ea2e9f004a2c2d85228fb8964a4a6265ecc359",
-          "question": "What word best completes the sentence? My mom was __________ with me when I went outside to play instea d of finishing my chores.",
+          "contentHash": "sha256:a742532d28604cdd3e5139571cecb2de44dcbd9490142038f2e7b97335b7eb19",
+          "question": "What word best completes the sentence? My mom was __________ with me when I went outside to play instead of finishing my chores.",
           "choices": [
             "h orrified",
             "envious",
@@ -31541,10 +31541,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0116",
           "version": 2,
-          "contentHash": "sha256:6594f64055828481536a25b73875fac7b7665f06dc692684590b557fa4ae7297",
+          "contentHash": "sha256:6121e84c6cbcff926260739c58803de67f7af7f2d89472b554206a7481b263c5",
           "question": "Choose the correct word to complete the sentence. Josh _______ the ball and broke the window.",
           "choices": [
-            "t hrew",
+            "threw",
             "through",
             "thorough",
             "throw"
@@ -31837,20 +31837,20 @@
         {
           "id": "vocabulary-word-meaning-context-q0119",
           "version": 2,
-          "contentHash": "sha256:9c5fc43bac5eb127b5576a242ec3beb581badc936d7ad546d65c227f329f772f",
+          "contentHash": "sha256:7f4b4a6846fab252602aa11f873dbcbc27e947b6b1b1f33ee3aac4aead043721",
           "question": "What is the correct order of the words in the sentence? Fariq and his family visited the Statue of Liberty yesterday although it was cold, alarmingly and snowy.",
           "choices": [
-            "Fariq and his family visited the Statue of Li berty yesterday although it was cold alarmingly, and snowy.",
+            "Fariq and his family visited the Statue of Liberty yesterday although it was cold alarmingly, and snowy.",
             "Fariq and his family visited the Statue of Liberty yester day although it was cold and snowy.",
             "Fariq and his family visited the Statue of Liberty yesterday alt hough it was alarmingly cold and snowy.",
-            "Fariq and his family visited the Statue of Li berty yesterday although it was cold, snowy, and alarmingly."
+            "Fariq and his family visited the Statue of Liberty yesterday although it was cold, snowy, and alarmingly."
           ],
           "correct": 2,
           "explanation": {
             "correct": "Answer: Fariq and his family visited the Statue of Liberty yesterday although it was alarmingly cold and snowy. Adverbs like 'alarmingly' should be placed before the adjectives they describe ('cold') to make the sentence flow logically.",
             "incorrect": [
               {
-                "choice": "Fariq and his family visited the Statue of Li berty yesterday although it was cold alarmingly, and snowy.",
+                "choice": "Fariq and his family visited the Statue of Liberty yesterday although it was cold alarmingly, and snowy.",
                 "category": "adverb placement error",
                 "reason": "Placing 'alarmingly' after the adjective 'cold' disrupts the natural flow. Adverbs usually come before the adjective they modify."
               },
@@ -31861,7 +31861,7 @@
               },
               "",
               {
-                "choice": "Fariq and his family visited the Statue of Li berty yesterday although it was cold, snowy, and alarmingly.",
+                "choice": "Fariq and his family visited the Statue of Liberty yesterday although it was cold, snowy, and alarmingly.",
                 "category": "dangling adverb",
                 "reason": "The word 'alarmingly' cannot stand alone at the end of the list; it needs to modify an adjective like 'cold' to make sense."
               }
@@ -31911,10 +31911,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0120",
           "version": 2,
-          "contentHash": "sha256:d6967852d7e3c05ef96fe75bfe3672f92a52e0c000c4072d669bf8fe9cdc6665",
-          "question": "Read the passage below. What does the speaker mean when he compares Alex to a brick wall? The starting keeper was out with a concussion, so Alex was finally ge tting to play. He had practiced and prepared for this opportunity. He knew he could do it. Alex was a brick wall.",
+          "contentHash": "sha256:ea347ba90760f3fc0d9bc27262cb8e157efc7648598caf7a7dea76da42d105e4",
+          "question": "Read the passage below. What does the speaker mean when he compares Alex to a brick wall? The starting keeper was out with a concussion, so Alex was finally getting to play. He had practiced and prepared for this opportunity. He knew he could do it. Alex was a brick wall.",
           "choices": [
-            "He w ould not let a ball get by him.",
+            "He would not let a ball get by him.",
             "He was stubborn.",
             "He built a wall in front of the goal.",
             "He worked out by lifting bricks to get stronger."
@@ -32207,10 +32207,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0128",
           "version": 2,
-          "contentHash": "sha256:a641f002ab01b1acca49cb27baed52f83a26fb5ca6381140a28e1ed25424ffdd",
+          "contentHash": "sha256:17129f5e2ed5da3f4ced9da1517c650d2d6f13a7272e32a0572eb41e7b1d5694",
           "question": "What does the word mean in the sentence below? despondent The poor woman was despondent after losing her purse at the State Fair.",
           "choices": [
-            "overjo yed",
+            "overjoyed",
             "hopeful",
             "discouraged",
             "elated"
@@ -32220,8 +32220,8 @@
             "correct": "Answer: discouraged. 'Despondent' means feeling extreme gloom or hopelessness. When someone loses a valuable item, they are likely to feel down and discouraged rather than happy.",
             "incorrect": [
               {
-                "choice": "overjo yed",
-                "reason": "\"overjo yed\" does not fit the context clues around the word."
+                "choice": "overjoyed",
+                "reason": "\"overjoyed\" does not fit the context clues around the word."
               },
               {
                 "choice": "hopeful",
@@ -32354,10 +32354,10 @@
         {
           "id": "vocabulary-word-meaning-context-q0135",
           "version": 2,
-          "contentHash": "sha256:762759116240bf7d854b9a4416bb50a1af142f1e08a2cc89f20b241d3d4ac471",
+          "contentHash": "sha256:9358253d55f0e021d8d98a4622c1c6027ce6bb8a778d4b519ec13231f46754a2",
           "question": "What word best completes the sentence? The prosecutor presented his case. The jury had a great deal of ________ to sort through before reaching a verdict.",
           "choices": [
-            "ref utation",
+            "refutation",
             "chapters",
             "evidence",
             "concealment"
@@ -32367,7 +32367,7 @@
             "correct": "Answer: evidence. In legal terms, 'evidence' refers to the facts, documents, or objects presented in a court of law to prove or disprove a claim, which is exactly what a jury must analyze to reach a verdict.",
             "incorrect": [
               {
-                "choice": "ref utation",
+                "choice": "refutation",
                 "category": "Incorrect vocabulary usage",
                 "reason": "While a 'refutation' is a way to prove something wrong, a jury doesn't sort through 'refutations' as a collective body of information; they examine the raw data or proof provided in the trial."
               },
@@ -32650,11 +32650,11 @@
         {
           "id": "vocabulary-word-meaning-context-q0131",
           "version": 2,
-          "contentHash": "sha256:c119431f5c55a73b28dadedf2a71a5c21cc6424d9948039d94f38330ce8ccb32",
-          "question": "Identify the sentence that contains two prepositio nal phrases.",
+          "contentHash": "sha256:5ebb82ccc00f60aaf6ce3b06529edf3737bed8020595d113a619d1df3e451545",
+          "question": "Identify the sentence that contains two prepositional phrases.",
           "choices": [
             "Ab dul went into the room to get his basketball.",
-            "Abdul went into the room and grabbed his favori te basketball.",
+            "Abdul went into the room and grabbed his favorite basketball.",
             "Abdul grabbed his favorite basketball to play a pick up game.",
             "Abdul went into the room and found his basketball under his desk."
           ],
@@ -32667,8 +32667,8 @@
                 "reason": "\"Ab dul went into the room to get his basketball.\" does not fit the context clues around the word."
               },
               {
-                "choice": "Abdul went into the room and grabbed his favori te basketball.",
-                "reason": "\"Abdul went into the room and grabbed his favori te basketball.\" does not fit the context clues around the word."
+                "choice": "Abdul went into the room and grabbed his favorite basketball.",
+                "reason": "\"Abdul went into the room and grabbed his favorite basketball.\" does not fit the context clues around the word."
               },
               {
                 "choice": "Abdul grabbed his favorite basketball to play a pick up game.",
@@ -33239,13 +33239,13 @@
         {
           "id": "vocabulary-word-meaning-context-q0257",
           "version": 2,
-          "contentHash": "sha256:65da81c831c10ac533cc76719548d965e42b69b0fa6a3e7c847144f07a7907f4",
+          "contentHash": "sha256:185a88cab347a915fed09df88e661a37325c0f85c12ec8732b3cba631fa47f23",
           "question": "Choose the sentence that is punc tuated correctly.",
           "choices": [
             "Mrs. Dennis went shopping, to the groomers, and to work.",
             "Boyd hit a single, and a homerun during the game.",
-            "I had to clean the bedroo m, living room, and kitchen, before my mom cam e.",
-            "The bike had blu e, and silver handles, and a red seat."
+            "I had to clean the bedroom, living room, and kitchen, before my mom cam e.",
+            "The bike had blue, and silver handles, and a red seat."
           ],
           "correct": 0,
           "explanation": {
@@ -33258,12 +33258,12 @@
                 "reason": "You should not place a comma between just two items in a list. Because there are only two things mentioned (a single and a homerun), no comma is needed."
               },
               {
-                "choice": "I had to clean the bedroo m, living room, and kitchen, before my mom cam e.",
-                "reason": "\"I had to clean the bedroo m, living room, and kitchen, before my mom cam e.\" does not fit the context clues around the word."
+                "choice": "I had to clean the bedroom, living room, and kitchen, before my mom cam e.",
+                "reason": "\"I had to clean the bedroom, living room, and kitchen, before my mom cam e.\" does not fit the context clues around the word."
               },
               {
-                "choice": "The bike had blu e, and silver handles, and a red seat.",
-                "reason": "\"The bike had blu e, and silver handles, and a red seat.\" does not fit the context clues around the word."
+                "choice": "The bike had blue, and silver handles, and a red seat.",
+                "reason": "\"The bike had blue, and silver handles, and a red seat.\" does not fit the context clues around the word."
               }
             ]
           },
@@ -33533,8 +33533,8 @@
         {
           "id": "vocabulary-word-meaning-context-q0295",
           "version": 2,
-          "contentHash": "sha256:51d518d6b144f6fe849282bd4338d04f980cc89e30d7aec1764cc792cbd281c2",
-          "question": "Choose the best answer complete the following sentence. to After I’mowed the lawn, I swimmin g at the park.",
+          "contentHash": "sha256:4f07859429d490f77530e4201519d3ecabd7db79e6ce94aca910db4e294f0bf1",
+          "question": "Choose the best answer complete the following sentence. to After I’mowed the lawn, I swimming at the park.",
           "choices": [
             "am going",
             "did go",
@@ -39720,10 +39720,10 @@
         {
           "id": "vocabulary-spelling-q0088",
           "version": 3,
-          "contentHash": "sha256:37d11997e80e67602905dbc1a4a2990c528bdfccb31e016e363300db377f19f0",
+          "contentHash": "sha256:9879e3ff03a6cc996afd5b8e89a6b98974417d37db0e248fe6ca809f32b7de11",
           "question": "Which underlined word is NOT spelled correctly? Does the packet contain an extra pair of scissers?",
           "choices": [
-            "p acket",
+            "packet",
             "contain",
             "pair",
             "scissers"
@@ -39733,7 +39733,7 @@
             "correct": "Answer: scissers. The correct spelling of this word is 'scissors'. It ends with the suffix '-ors' rather than '-ers'.",
             "incorrect": [
               {
-                "choice": "p acket",
+                "choice": "packet",
                 "category": "incorrect word choice",
                 "reason": "This word is spelled correctly. It follows the standard 'ck' pattern used after short vowels."
               },
@@ -39951,11 +39951,11 @@
         {
           "id": "vocabulary-spelling-q0091",
           "version": 3,
-          "contentHash": "sha256:fe802b8f2ae4b4c5de6bbae3f020a7e9dfea254d016fd0255c718f37c3a49c8d",
+          "contentHash": "sha256:854f81309e23a24a2556d6ba4ed710743278f1ee84be2e578d0d6053c0fb1126",
           "question": "Whic h word is spelled in correctly?",
           "choices": [
             "consist e ncy",
-            "appeara nce",
+            "appearance",
             "prefer e nce",
             "exce llance"
           ],
@@ -39969,7 +39969,7 @@
                 "reason": "This word is spelled correctly. It follows the standard pattern for words ending in '-ency'."
               },
               {
-                "choice": "appeara nce",
+                "choice": "appearance",
                 "category": "correctly spelled word",
                 "reason": "This word is spelled correctly. It follows the standard pattern for words ending in '-ance'."
               },
@@ -40028,13 +40028,13 @@
         {
           "id": "vocabulary-spelling-q0092",
           "version": 6,
-          "contentHash": "sha256:521fbf6f1d018bbc90c37df02438eb9f25e18a94e95b80485ca22cd842f0903d",
+          "contentHash": "sha256:7f9bff75fb58c1e6b87512c016a457bdf7a1fb564b18b5f8dcbce3e754e77c48",
           "question": "Which title is capitalized correctly?",
           "choices": [
             "the President of the United States",
             "doctor Tom Smith",
             "Novelist John Steinbeck",
-            "The Pre sident of the class"
+            "The President of the class"
           ],
           "correct": 0,
           "explanation": {
@@ -40052,7 +40052,7 @@
                 "reason": "While 'John Steinbeck' is a proper name, 'Novelist' is simply a job description, not a formal title, so it should not be capitalized."
               },
               {
-                "choice": "The Pre sident of the class",
+                "choice": "The President of the class",
                 "category": "incorrect spacing and capitalization",
                 "reason": "This choice has an incorrect space in the middle of a word and 'president' should not be capitalized here because it is a common classroom role, not a specific unique title."
               }
@@ -40105,10 +40105,10 @@
         {
           "id": "vocabulary-spelling-q0093",
           "version": 3,
-          "contentHash": "sha256:df5ea2a95c94d22dd90707d38ba9b97e35e396053e1782fa81e5e135c22d3637",
+          "contentHash": "sha256:be3cec961934c8ecb7a048ffba54cf67f9c269de221e5cb97f3e0855b1f1806d",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
-            "st ationery",
+            "stationery",
             "machinery",
             "exemplary",
             "disciplinery"
@@ -40118,9 +40118,9 @@
             "correct": "Answer: disciplinery. This word is spelled incorrectly. The correct spelling is 'disciplinary,' ending with the suffix '-ary' rather than '-ery'.",
             "incorrect": [
               {
-                "choice": "st ationery",
+                "choice": "stationery",
                 "category": "improper spacing",
-                "reason": "While there is a space in the middle of the word 'st ationery' that makes it incorrect, in typical spelling quizzes, if you are looking for the word that is missing a letter or has an incorrect vowel substitution in its standard dictionary form, 'disciplinery' is the intended error."
+                "reason": "While there is a space in the middle of the word 'stationery' that makes it incorrect, in typical spelling quizzes, if you are looking for the word that is missing a letter or has an incorrect vowel substitution in its standard dictionary form, 'disciplinery' is the intended error."
               },
               {
                 "choice": "machinery",
@@ -40490,10 +40490,10 @@
         {
           "id": "vocabulary-spelling-q0098",
           "version": 3,
-          "contentHash": "sha256:95207c99d5f11dc3c43bc56e2d3e70b9f6f370853f4f45bb8676a0346fbca6cb",
+          "contentHash": "sha256:883a083fa444a10b23b64c806a84ec5c7c498dc1e6369353de09be48beb130e3",
           "question": "Which is the correct spelling for more than one cemetery?",
           "choices": [
-            "cemet eryes",
+            "cemeteryes",
             "cemeterys’",
             "cemeteries",
             "cemeterys"
@@ -40503,7 +40503,7 @@
             "correct": "Answer: cemeteries. When a word ends in a consonant plus 'y', you must change the 'y' to an 'i' and add 'es' to make it plural.",
             "incorrect": [
               {
-                "choice": "cemet eryes",
+                "choice": "cemeteryes",
                 "category": "incorrect spacing",
                 "reason": "This choice adds an extra space in the middle of the word. Words should be written as one solid piece without spaces inside them."
               },
@@ -40644,10 +40644,10 @@
         {
           "id": "vocabulary-spelling-q0100",
           "version": 3,
-          "contentHash": "sha256:c97a48b4e4baf3bcd9ab661fc4a1bb71090b89049d68e6566c1a17124db89e45",
+          "contentHash": "sha256:bdc0a004248ab50d6614f5f3ac16b737a4f0b9bc844a4b18b1466a98a3ccf27c",
           "question": "Which underlined word is NOT spelled correctly? The grizzly bare frightened me in the forest.",
           "choices": [
-            "griz zly",
+            "grizzly",
             "frightened",
             "bare",
             "forest"
@@ -40657,7 +40657,7 @@
             "correct": "Answer: bare. In this sentence, the word should be spelled 'bear' because it refers to the large animal, not the adjective 'bare' which means uncovered or empty.",
             "incorrect": [
               {
-                "choice": "griz zly",
+                "choice": "grizzly",
                 "category": "incorrect spacing",
                 "reason": "This word is spelled 'grizzly' with no space. You likely identified it as a potential error, but it is spelled correctly as one single word."
               },
@@ -41183,10 +41183,10 @@
         {
           "id": "vocabulary-spelling-q0107",
           "version": 3,
-          "contentHash": "sha256:598cad4cff06e3aecda28eaf2851d9a7d298f8b44ddec586d1a522a6235d10ce",
+          "contentHash": "sha256:9ac209ef582a015f4c11692fd0a13d88ccfbb42dd04c62364a5032b614a1b1a4",
           "question": "Which word is spelled correctly?",
           "choices": [
-            "t eeth",
+            "teeth",
             "teefe",
             "teethe",
             "teef"
@@ -41337,10 +41337,10 @@
         {
           "id": "vocabulary-spelling-q0109",
           "version": 3,
-          "contentHash": "sha256:5acf7f7fc411ad8a546b28f5f922305c0d1f6987ff34b345372a6b3df5507942",
+          "contentHash": "sha256:b782f5d4206f103f6dad04715fb06ffa509908cea4707fb6cd1c6384cc2786ab",
           "question": "Which spelling is correct?",
           "choices": [
-            "t hiefs",
+            "thiefs",
             "thieves",
             "thiefes",
             "thieveses"
@@ -41350,7 +41350,7 @@
             "correct": "Answer: thieves. When a word ends in 'f' or 'fe', we usually change the ending to 'ves' to make it plural.",
             "incorrect": [
               {
-                "choice": "t hiefs",
+                "choice": "thiefs",
                 "category": "incorrect spacing",
                 "reason": "This choice includes an extra space in the middle of the word, which breaks the spelling rules for standard English nouns."
               },
@@ -41559,10 +41559,10 @@
         {
           "id": "vocabulary-spelling-q0112",
           "version": 3,
-          "contentHash": "sha256:f8ce8453322e6bbbc27a8c3611a429358bc2a9648290273be7c4e096436e12e5",
+          "contentHash": "sha256:81e2311bf747b0cab89e7819eee1bcac5d4bf185e0a567a77728329335ff6b39",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
-            "sep arate",
+            "separate",
             "library",
             "niusan ce",
             "necessary"
@@ -41572,7 +41572,7 @@
             "correct": "Answer: niusan ce. This word is spelled incorrectly; the correct spelling is 'nuisance'.",
             "incorrect": [
               {
-                "choice": "sep arate",
+                "choice": "separate",
                 "category": "common spelling error",
                 "reason": "Actually, 'separate' is a tricky word, but it is spelled correctly here as 'sep-a-rate'. Remember the 'a' in the middle!"
               },
@@ -41713,10 +41713,10 @@
         {
           "id": "vocabulary-spelling-q0114",
           "version": 3,
-          "contentHash": "sha256:5957e67126b83075a1d46def4104969b116a717a67127c3542173e7664ae4cf5",
+          "contentHash": "sha256:1c4c5f951e7a005de9d3f352ff21ad56fce803f8117794ff781e41c12d6f7f35",
           "question": "Which word in the list would NOT use the same criteria in selecting a movi e?",
           "choices": [
-            "En glish",
+            "English",
             "Spanish",
             "Drama",
             "French"
@@ -41726,8 +41726,8 @@
             "correct": "Answer: Drama. A movie is classified by its genre, not by the language in which it is spoken or filmed. English, Spanish, and French refer to languages, making Drama the odd one out as it is a genre.",
             "incorrect": [
               {
-                "choice": "En glish",
-                "reason": "\"En glish\" changes, adds, or leaves out letters from the standard spelling \"Drama\"."
+                "choice": "English",
+                "reason": "\"English\" changes, adds, or leaves out letters from the standard spelling \"Drama\"."
               },
               {
                 "choice": "Spanish",
@@ -43973,8 +43973,8 @@
         {
           "id": "vocabulary-spelling-q0143",
           "version": 3,
-          "contentHash": "sha256:663791d8d47fb4c9c84d8d68478e5d74be10cacf247a538d972f727cb612d497",
-          "question": "If you were writing a letter to the editor, w hich sentence would you most likely use to persuade the town council to save a tree that was about to be cut down?",
+          "contentHash": "sha256:7d3d0f598cee99eb2bbe807271b880a6d16f0c7115524779e157ebf299e13b8b",
+          "question": "If you were writing a letter to the editor, which sentence would you most likely use to persuade the town council to save a tree that was about to be cut down?",
           "choices": [
             "The tree is an oak tree and a landmark.",
             "My dad and uncle used to climb that tree.",
@@ -44050,10 +44050,10 @@
         {
           "id": "vocabulary-spelling-q0144",
           "version": 3,
-          "contentHash": "sha256:c1f675256e4f64197df2dd22a824089e4600d3e1abb35b234e30b2d2af0bcdbe",
+          "contentHash": "sha256:9f66628806dc2f43f70a7155b38d8bbf715aa8d71b7a53dc8fa19cbd84fcf7b7",
           "question": "Which word is NOT spelled correctly?",
           "choices": [
-            "emb arrass",
+            "embarrass",
             "government",
             "Wednesday",
             "tomorrow"
@@ -44063,7 +44063,7 @@
             "correct": "Answer: government. This word is spelled correctly. It comes from the verb 'govern' with the suffix '-ment' added to the end.",
             "incorrect": [
               {
-                "choice": "emb arrass",
+                "choice": "embarrass",
                 "category": "incorrect spacing",
                 "reason": "This word has an unnecessary space in the middle. The correct spelling is 'embarrass', which features two sets of double letters: double 'r' and double 's'."
               },
@@ -44362,8 +44362,8 @@
         {
           "id": "vocabulary-spelling-q0148",
           "version": 3,
-          "contentHash": "sha256:716bea317e2ae2e5628c7cd2ba0b86b89bf445107af3e56106a49d57fb88fb67",
-          "question": "If you want to convince the library president to startopening the library on Satu rday afternoons, which would you most likely want to write?",
+          "contentHash": "sha256:16ba188a20c1d23d12d4c281a8870b29c83b46ec0b0d36319a4c6dd839a5444d",
+          "question": "If you want to convince the library president to startopening the library on Saturday afternoons, which would you most likely want to write?",
           "choices": [
             "review",
             "description",
@@ -44830,10 +44830,10 @@
         {
           "id": "vocabulary-spelling-q0154",
           "version": 3,
-          "contentHash": "sha256:66d5829b110d5f6b68ee768db889455263e30afac15b905b29730590c8431dbe",
+          "contentHash": "sha256:22e0f0c70b0ce19d7b539c64de8103a0b98d350bb622aeaa4a16b3bf7dcdefd9",
           "question": "Identify the best word to complete the following sentence. My friends planned a ____________ party.",
           "choices": [
-            "f ood",
+            "food",
             "brave",
             "surprise",
             "wind"
@@ -44843,9 +44843,9 @@
             "correct": "Answer: surprise. In this context, 'surprise' is the only word that logically describes a type of party. Adjectives must make sense when paired with the noun they describe.",
             "incorrect": [
               {
-                "choice": "f ood",
+                "choice": "food",
                 "category": "spelling and spacing",
-                "reason": "The word 'f ood' contains an extra space and is a noun, not an adjective. A party isn't usually described as a 'food party' in this way."
+                "reason": "The word 'food' contains an extra space and is a noun, not an adjective. A party isn't usually described as a 'food party' in this way."
               },
               {
                 "choice": "brave",
@@ -44983,12 +44983,12 @@
         {
           "id": "vocabulary-spelling-q0156",
           "version": 3,
-          "contentHash": "sha256:0584e1f7a61ba799eb6dc1e046a2dd73f7229b3873dcbc2da67d86a8e14cc4c9",
+          "contentHash": "sha256:8ce2cafa80825a5c1d7419bd162a5f7750bacbb550a51242d1ad01c0b69cc356",
           "question": "In which section of the following sentence is a word used incorrectly? The heard of cattle ate twice as many bales of hay during the winter.",
           "choices": [
             "The heard of cattle",
             "ate twice as many bales",
-            "of hay durin g the winter.",
+            "of hay during the winter.",
             "no errors"
           ],
           "correct": 0,
@@ -45002,9 +45002,9 @@
                 "reason": "The verb 'ate' is used correctly here to describe the action of the cattle eating. There is no spelling or grammar mistake in this phrase."
               },
               {
-                "choice": "of hay durin g the winter.",
+                "choice": "of hay during the winter.",
                 "category": "correct prepositional phrase",
-                "reason": "This phrase correctly describes what was eaten and when. Aside from the intentional spacing error in 'durin g' which was part of the prompt, the grammar of the phrase itself is sound."
+                "reason": "This phrase correctly describes what was eaten and when. Aside from the intentional spacing error in 'during' which was part of the prompt, the grammar of the phrase itself is sound."
               },
               {
                 "choice": "no errors",
@@ -45433,10 +45433,10 @@
         {
           "id": "vocabulary-spelling-q0162",
           "version": 3,
-          "contentHash": "sha256:01d02f89d43122f76d29f19780f139cb6bcfb361b6eb0d13b0f792d1e8290276",
+          "contentHash": "sha256:34b0235056539bd3ea16aa21a48852d9d720e4b808efadf423f1278d57b5c9eb",
           "question": "Find the misspelled word.",
           "choices": [
-            "ost rich",
+            "ostrich",
             "wings",
             "horse",
             "vehicel"
@@ -45446,7 +45446,7 @@
             "correct": "Answer: vehicel. The correct spelling of this word is 'vehicle'. The letters 'l' and 'e' are swapped at the end of the word.",
             "incorrect": [
               {
-                "choice": "ost rich",
+                "choice": "ostrich",
                 "category": "correctly spelled word",
                 "reason": "The word 'ostrich' is spelled correctly here. Double-check your dictionary if you are unsure about the spelling of bird names!"
               },
@@ -45583,11 +45583,11 @@
         {
           "id": "vocabulary-spelling-q0164",
           "version": 3,
-          "contentHash": "sha256:2381af8e6cddca2a045629ec4937ed11c9168e0e3e93474fe0c646006b89d5e0",
-          "question": "In whic h section of the following sentence is a word used incorrectly? Aunt Joann e scent me a bunch of red sweaters.",
+          "contentHash": "sha256:a5e19db17e15af5541b780d6d3f876b1aa98551234327b093a3857a70afc645c",
+          "question": "In whic h section of the following sentence is a word used incorrectly? Aunt Joanne scent me a bunch of red sweaters.",
           "choices": [
             "Aunt Joanne",
-            "scent me a bunc h",
+            "scent me a bunch",
             "of red sweaters.",
             "No errors"
           ],
@@ -46108,10 +46108,10 @@
         {
           "id": "vocabulary-spelling-q0171",
           "version": 3,
-          "contentHash": "sha256:f9d61d9b155884ac34a78d28fbb373e190e07cb2bd79b17786a2a41d7715182d",
+          "contentHash": "sha256:50661ecac1997c0c0d54a2e6111b9be1a8225bb2ee4a6995b93f3fddf21f4bfb",
           "question": "In which section of the following sentence is a word used incorrectly? I threw the ball up so high in the sky it got lost in the bright son.",
           "choices": [
-            "I t hrew the ball up",
+            "I threw the ball up",
             "so high in the sky",
             "it got lost in the bright son.",
             "no errors"
@@ -46121,7 +46121,7 @@
             "correct": "Answer: it got lost in the bright son. The word 'son' is a homophone error. In this context, you need the word 'sun', which refers to the star at the center of our solar system, rather than a male child.",
             "incorrect": [
               {
-                "choice": "I t hrew the ball up",
+                "choice": "I threw the ball up",
                 "category": "verb usage error",
                 "reason": "The word 'threw' is the correct past tense of 'throw'. There are no spelling or grammar mistakes in this section of the sentence."
               },
@@ -46333,13 +46333,13 @@
         {
           "id": "vocabulary-spelling-q0174",
           "version": 3,
-          "contentHash": "sha256:7755aa93fe625876ffc2c928678ca3abe53ada9fa07e73d2c0f48c249e928068",
+          "contentHash": "sha256:4c512db85726529c6bb2b22f8dad2c30f3541459a3ed50d2c8cbb6cf7ebf8ed3",
           "question": "In which section of the following sentence is a word used incorrectly? I think there dog is the meanest dog in the neighborhood.",
           "choices": [
             "I think there dog",
             "is the meanest dog",
             "in the neighborhood.",
-            "no e rrors"
+            "no errors"
           ],
           "correct": 0,
           "explanation": {
@@ -46357,7 +46357,7 @@
                 "reason": "This phrase correctly uses a preposition to show where the dog is located. There are no spelling or grammar errors here."
               },
               {
-                "choice": "no e rrors",
+                "choice": "no errors",
                 "category": "identifying word errors",
                 "reason": "There is a homophone error in the sentence. 'There' and 'their' sound the same but have different meanings, and 'their' is required to show ownership."
               }
@@ -46483,10 +46483,10 @@
         {
           "id": "vocabulary-spelling-q0176",
           "version": 3,
-          "contentHash": "sha256:53113e30c921a65e3c781f6ecfe8faac898373ce2fb2490b907a0d3c4db2d970",
+          "contentHash": "sha256:4b0e96e6c64ca3f9eeda1a7b79f1bdc71989fbb9c1a9db1810e046910bcb1c9b",
           "question": "Choose the word that is incorrectly spelled.",
           "choices": [
-            "mo nkeys",
+            "monkeys",
             "babies",
             "bunnys",
             "stories"
@@ -46496,7 +46496,7 @@
             "correct": "Answer: bunnys. When a noun ends in a consonant plus 'y', you must change the 'y' to 'i' and add 'es' to make it plural. The correct spelling is 'bunnies'.",
             "incorrect": [
               {
-                "choice": "mo nkeys",
+                "choice": "monkeys",
                 "category": "irregular spacing error",
                 "reason": "This is a typo with an extra space, but 'monkeys' is actually spelled correctly as a plural. When a noun ends in a vowel plus 'y', you simply add an 's'."
               },
@@ -60678,10 +60678,10 @@
         {
           "id": "vocabulary-figurative-language-q0187",
           "version": 3,
-          "contentHash": "sha256:41cbf3ede57cbcd06d2b5b712a7f5c0092a78d2adc1bcf5e07e82994fd4bf090",
+          "contentHash": "sha256:12b82fb0bd083a280f959f8a836f08abbc32547be5aad98bbc9801f18dce8b60",
           "question": "From what root word is electioneer made?",
           "choices": [
-            "ele ctric",
+            "electric",
             "elect",
             "elective",
             "election"
@@ -60691,7 +60691,7 @@
             "correct": "Answer: elect. The root word is the smallest base form that holds the main meaning, and 'elect' is the base verb from which 'electioneer' is derived.",
             "incorrect": [
               {
-                "choice": "ele ctric",
+                "choice": "electric",
                 "category": "incorrect root spelling",
                 "reason": "This is not a word itself and splits the base part of the word incorrectly. The root of 'electioneer' relates to choosing or voting, not electricity."
               },
@@ -61122,10 +61122,10 @@
         {
           "id": "vocabulary-figurative-language-q0193",
           "version": 3,
-          "contentHash": "sha256:3d3723b832692fa64af56fe6811630a8c73843cc7213759ebe3a4dbab9fb9a7b",
+          "contentHash": "sha256:f1e02dc80a35754f25c82f7f95936f4d82232b564a889768f608b9725b54f6e8",
           "question": "Which metaphor below would be helpful in describing a huge crowd of people at a festival?",
           "choices": [
-            "The people marched through the streets on a mi ssion, like an army marching to battle.",
+            "The people marched through the streets on a mission, like an army marching to battle.",
             "The rides were deserted, and the silence was chilling.",
             "A stream of excited people hurried towards the gates and into the park as they ran to their favorite attraction.",
             "I woke up an emotional wreck on the morning of the festival."
@@ -61135,8 +61135,8 @@
             "correct": "Answer: A stream of excited people hurried towards the gates and into the park as they ran to their favorite attraction. A metaphor compares two different things by stating one thing IS another; describing a crowd as a 'stream' creates a vivid image of constant, flowing movement.",
             "incorrect": [
               {
-                "choice": "The people marched through the streets on a mi ssion, like an army marching to battle.",
-                "reason": "\"The people marched through the streets on a mi ssion, like an army marching to battle.\" does not match the meaning, spelling pattern, or word relationship needed here."
+                "choice": "The people marched through the streets on a mission, like an army marching to battle.",
+                "reason": "\"The people marched through the streets on a mission, like an army marching to battle.\" does not match the meaning, spelling pattern, or word relationship needed here."
               },
               {
                 "choice": "The rides were deserted, and the silence was chilling.",
@@ -61269,10 +61269,10 @@
         {
           "id": "vocabulary-figurative-language-q0195",
           "version": 3,
-          "contentHash": "sha256:4f6613d4ad054d042ca669e1b5137fa9d5a2c659878bb56324f3131973afdad3",
+          "contentHash": "sha256:de52e52520eb15af68d3d139fc13635a69d74d2b3ef0744ef8d7a77bfdbcdbd3",
           "question": "What is the meaning of the simile “as dry as a bo ne”?",
           "choices": [
-            "very q uiet",
+            "very quiet",
             "very wet",
             "very dry",
             "very short"
@@ -61282,8 +61282,8 @@
             "correct": "Answer: very dry. A simile uses 'as' or 'like' to compare two things. When someone says something is 'as dry as a bone,' they are using a figure of speech to emphasize that it is extremely dry.",
             "incorrect": [
               {
-                "choice": "very q uiet",
-                "reason": "\"very q uiet\" does not match the meaning, spelling pattern, or word relationship needed here."
+                "choice": "very quiet",
+                "reason": "\"very quiet\" does not match the meaning, spelling pattern, or word relationship needed here."
               },
               {
                 "choice": "very wet",
@@ -62822,12 +62822,12 @@
         {
           "id": "vocabulary-figurative-language-q0217",
           "version": 3,
-          "contentHash": "sha256:89f167456dfdb33f3ce51374fa84e01ee70470d98ab3275a467efc682aed8672",
+          "contentHash": "sha256:89ba670e768550be8d86fe1dc33ab059e43371602b236cc9947d6ea205026ae6",
           "question": "What is meant by the idiom costs an arm and a leg in the sentence below? I’d like to have a new sports car, but it may cost an arm and a leg.",
           "choices": [
             "make a bad situation worse",
             "give away a secret",
-            "be very expen sive",
+            "be very expensive",
             "put me in debt"
           ],
           "correct": 2,

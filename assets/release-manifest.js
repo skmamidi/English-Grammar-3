@@ -1,8 +1,8 @@
 window.GrammarQuestReleaseManifest = {
-  "releaseId": "local",
+  "releaseId": "rel_e66977475821d28b",
   "appVersion": "1.0.0",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "questionManifestSourceHash": "sha256:5befa5430dac78fdcffdec318ad6223b39900923f78aad40bd1a8ecf5a29c596",
-  "serviceWorkerCacheVersion": "gq-5befa5430dac78fdcff",
-  "featureFlagConfigHash": "sha256:local"
+  "generatedAt": "2026-05-19T21:26:39.561Z",
+  "questionManifestSourceHash": "sha256:c039e009dcc888fbc2e96a6de9fc95c1aa7718776d3bad44ab03cfc0f23a3fc0",
+  "serviceWorkerCacheVersion": "gq-sha256c039e009dcc888",
+  "featureFlagConfigHash": "sha256:bca6286591779719d36b51c1045be08050a18f030a9acc2b060c1a4a10bf1b3c"
 };

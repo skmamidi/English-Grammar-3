@@ -1044,8 +1044,8 @@
         {
           "id": "punctuation-end-sentence-q0016",
           "version": 3,
-          "contentHash": "sha256:ee960103a38d2963bcf62336bacb100ac0f4e51ce641cc3f5eca3e6a79ae5740",
-          "question": "Which of the following sentences would need a question mark as its end p unctuation?",
+          "contentHash": "sha256:fa8b9d55eaa415c10d9518d695f24ad0fb1ef95c9ad9ceb260bd75f793ddb69a",
+          "question": "Which of the following sentences would need a question mark as its end punctuation?",
           "choices": [
             "Let me do the errand",
             "Will you all pass in your homework",
@@ -1659,10 +1659,10 @@
         {
           "id": "punctuation-end-sentence-q0024",
           "version": 3,
-          "contentHash": "sha256:23f9d3632b168db4c35969428837030b41aa72dc32d4724bee541bd85b676f66",
+          "contentHash": "sha256:1ecd7b56356038d3e9380de440d325d654ee844770750bc13934b5853d49a741",
           "question": "Which of the following is an interrogative sentence?",
           "choices": [
-            "When will your family be going on vacatio n",
+            "When will your family be going on vacation",
             "When Jerry calls please come get me",
             "When you finish your math, you can watch TV",
             "When the cookies are done, bring one to Mary"
@@ -3005,8 +3005,8 @@
         {
           "id": "punctuation-end-sentence-q0054",
           "version": 4,
-          "contentHash": "sha256:8a8eab90b8ffa473de3b12ec0a23115dff7f82201a0e64f2ec0267affc21f6fd",
-          "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, cho ose “Correct as is.” I like to ride my bike but my sister prefer s to ride a h orse.",
+          "contentHash": "sha256:498abd7bc4193682ea49b2a956127d4f10c4b64d239331dd4a678ce854130f84",
+          "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, cho ose “Correct as is.” I like to ride my bike but my sister prefer s to ride a horse.",
           "choices": [
             "bike but,",
             "bike. But",
@@ -3079,13 +3079,13 @@
         {
           "id": "punctuation-end-sentence-q0057",
           "version": 3,
-          "contentHash": "sha256:54443fae82da13bdbb4ebb6e0209c86aae7a8c9e568fd5c8a982f0fc2f93f12e",
-          "question": "Choose the word that best c ompletes the sentence. Sheri was a(n) _______. She was full of ene rgy and enthu siasm. She didn’t let anythin g get her down.",
+          "contentHash": "sha256:c1ac389ee0237b38ec71be4996001c4ac9ac96bb4bf6cce5dd588a9f43b6f9f0",
+          "question": "Choose the word that best completes the sentence. Sheri was a(n) _______. She was full of energy and enthusiasm. She didn’t let anything get her down.",
           "choices": [
             "angel",
             "bully",
             "fireball",
-            "p istol"
+            "pistol"
           ],
           "correct": 2,
           "explanation": {
@@ -3103,8 +3103,8 @@
               },
               "",
               {
-                "choice": "p istol",
-                "reason": "\"p istol\" does not match the sentence purpose described in the prompt."
+                "choice": "pistol",
+                "reason": "\"pistol\" does not match the sentence purpose described in the prompt."
               }
             ]
           },
@@ -3226,10 +3226,10 @@
         {
           "id": "punctuation-end-sentence-q0062",
           "version": 4,
-          "contentHash": "sha256:1644130e85800c6aacc47866ba30d47a21a3e32c7d7d6a66695379eda94ee986",
+          "contentHash": "sha256:5e49b4e7252c76afa67a0e17ca10ec42645059a4489fc111cf5f2677a962de7b",
           "question": "Choose the line that has a punctuation error. If there is no error, choose “No mistakes.”",
           "choices": [
-            "Th omas called his mother.",
+            "Thomas called his mother.",
             "He forgot his homework again,",
             "and knew hed be in trouble with his teacher.",
             "No mistakes"
@@ -3239,7 +3239,7 @@
             "correct": "Answer: and knew hed be in trouble with his teacher. This sentence contains an error because 'hed' is a contraction of 'he would' or 'he had' and requires an apostrophe between the 'e' and the 'd'.",
             "incorrect": [
               {
-                "choice": "Th omas called his mother.",
+                "choice": "Thomas called his mother.",
                 "category": "correct punctuation",
                 "reason": "This sentence is punctuated correctly. It uses a capital letter for a proper noun and a period at the end of the sentence."
               },
@@ -3374,10 +3374,10 @@
         {
           "id": "punctuation-end-sentence-q0069",
           "version": 3,
-          "contentHash": "sha256:4b13d8ee8b37535be78727134424d272856ad586580b9477b028d1a7abb106da",
-          "question": "What would be the correct punctuation to end the following se ntence? Put your book down",
+          "contentHash": "sha256:83b1aeaaca450370a009b0c2a1aab43179c44f9cff182ffe6421a75a06fcbd78",
+          "question": "What would be the correct punctuation to end the following sentence? Put your book down",
           "choices": [
-            ". (p eriod)",
+            ". (period)",
             "! (exclamation)",
             "? (question)",
             "None"
@@ -3596,8 +3596,8 @@
         {
           "id": "punctuation-end-sentence-q0094",
           "version": 3,
-          "contentHash": "sha256:e46591af51e8796aa4feb4e8b6e89288ccf1684b1af415010d265cec1888943c",
-          "question": "Read the sentence below. Then choose a more p recise and descriptive word to replace the underlined word in the sentence. The cat crawled along the grass, desperate not to be seen.",
+          "contentHash": "sha256:890044bbe245dd85013b8ff048edc2c30f3509147085cedaab5e84f3c0a94387",
+          "question": "Read the sentence below. Then choose a more precise and descriptive word to replace the underlined word in the sentence. The cat crawled along the grass, desperate not to be seen.",
           "choices": [
             "slit hered",
             "moved",
@@ -3892,10 +3892,10 @@
         {
           "id": "punctuation-end-sentence-q0055",
           "version": 3,
-          "contentHash": "sha256:0bf43400b0f044a7d4f74f41d425a1dda2df671dfdd9fd2459e18b104e3e3ac3",
+          "contentHash": "sha256:a3b89f800e1f82af135b338a0c15e1638fdd2d7afb2a7ae256fe3082feaa1a48",
           "question": "Read the sentence carefully. Determine the appropriate ending punctuation. Oh dear, my favorite sweatshirt is completely ruined __",
           "choices": [
-            "St atement (.)",
+            "Statement (.)",
             "Questions (?)",
             "Exclamation (!)",
             "Command (!)"
@@ -3905,7 +3905,7 @@
             "correct": "Answer: Exclamation (!). The phrase 'Oh dear' expresses a strong feeling or sudden emotion, which requires an exclamation point to show the intensity of the speaker's reaction.",
             "incorrect": [
               {
-                "choice": "St atement (.)",
+                "choice": "Statement (.)",
                 "category": "Incorrect terminal punctuation",
                 "reason": "A period is used for neutral, calm sentences. Because the speaker is upset about their ruined sweatshirt, a period does not match the emotional tone."
               },
@@ -4114,8 +4114,8 @@
         {
           "id": "punctuation-end-sentence-q0059",
           "version": 3,
-          "contentHash": "sha256:4f2ac40b4389f430e204cc4f1b6fe5c51ba100d2b917d971ba54ad4b03914373",
-          "question": "Look at the sentence below. Correctly name the type of se ntence. The coffee is hot!",
+          "contentHash": "sha256:f10de7cc983f16e015be92b8c68718db07cee7b4b8f23ddbb1b417cd8e26ceea",
+          "question": "Look at the sentence below. Correctly name the type of sentence. The coffee is hot!",
           "choices": [
             "exclamatory",
             "interrogative",
@@ -11208,20 +11208,20 @@
         {
           "id": "punctuation-commas-series-q0023",
           "version": 3,
-          "contentHash": "sha256:cfeb37d6d25ecd2c12107910028fce68afb123ab86d8ed30f1c22d7f945d7356",
+          "contentHash": "sha256:dbf1d487bf835ec1b0af8137763197c641ba3a51cf3b6a670c38527239fb7aa0",
           "question": "Which sentence is punctuated correctly?",
           "choices": [
-            "Billy, on the other hand turned his report in yeste rday.",
+            "Billy, on the other hand turned his report in yesterday.",
             "Billy, on the other hand, turned his report in yesterday.",
             "Billy on the other hand turned his report in yesterday.",
-            "Billy on the other hand, turned his report in yeste rday."
+            "Billy on the other hand, turned his report in yesterday."
           ],
           "correct": 1,
           "explanation": {
             "correct": "Answer: Billy, on the other hand, turned his report in yesterday. Interrupter phrases like 'on the other hand' must be set off by commas on both sides when they break the flow of a sentence.",
             "incorrect": [
               {
-                "choice": "Billy, on the other hand turned his report in yeste rday.",
+                "choice": "Billy, on the other hand turned his report in yesterday.",
                 "category": "missing comma",
                 "reason": "This choice misses the second comma after 'hand'. Because the phrase 'on the other hand' acts as an interrupter, it needs a closing comma before the verb 'turned'."
               },
@@ -11232,7 +11232,7 @@
                 "reason": "This choice is missing both commas. Without them, it is hard to tell that the phrase 'on the other hand' is an added detail rather than part of the main action."
               },
               {
-                "choice": "Billy on the other hand, turned his report in yeste rday.",
+                "choice": "Billy on the other hand, turned his report in yesterday.",
                 "category": "missing initial comma",
                 "reason": "This choice is missing the opening comma before 'on'. You must use a pair of commas to 'hug' the phrase 'on the other hand' to show it is an interruption."
               }
@@ -11674,13 +11674,13 @@
         {
           "id": "punctuation-commas-series-q0029",
           "version": 3,
-          "contentHash": "sha256:1051377ed4b83079d0d7c9b47662ce8fa26b542bffa2b287525be86026e06a83",
+          "contentHash": "sha256:ea79afd13415399837e8c2a79135deba33d94a103d7a1b9e889b68ead23f5e92",
           "question": "Which sentence is a command?",
           "choices": [
             "Are you going to finish your homework?",
             "At the beginning of class.",
             "I will call you later.",
-            "Answe r the phone."
+            "Answer the phone."
           ],
           "correct": 3,
           "explanation": {
@@ -12454,11 +12454,11 @@
         {
           "id": "punctuation-commas-series-q0039",
           "version": 3,
-          "contentHash": "sha256:9b8bbdbecf636234fcec15300446320072be069db2a805580318a61051dac5e7",
+          "contentHash": "sha256:e501fc8f468298958d30fdef61367702faa64998eaa4afaadc8eadb20c9edddc",
           "question": "Which sentence is punctuated correctly?",
           "choices": [
             "Sin ce, I’m starting in the game today, I’m really nervous.",
-            "Since I’m starting in the game today, I’m really n ervous.",
+            "Since I’m starting in the game today, I’m really nervous.",
             "Since I’m starting, in the game today I’m really nervous.",
             "Since I’m starting in the game today; I’m really nervous."
           ],
@@ -12610,8 +12610,8 @@
         {
           "id": "punctuation-commas-series-q0041",
           "version": 3,
-          "contentHash": "sha256:f95f6fb0e583089c60f021bb38bbad223551a497d800bd0813a7ff9f7356f3e1",
-          "question": "Read the sentences. Waiting impatiently (a) the students shoved (b) and jostled each other (c) at the bus stop. Weighed down by his heavy backpack (d) Pete was squeezed to the endof the line. The bright yellow bus (e) arrived in a blue of flashing lig hts and familiar faces. Knowing it was inevitable (f) the students boarde d the bus to school. Where should commas be placed in the passage above?",
+          "contentHash": "sha256:e386b81ad039780e18bbbc790227c2256a79e3b696665b4d0fe99ed7c5ef0281",
+          "question": "Read the sentences. Waiting impatiently (a) the students shoved (b) and jostled each other (c) at the bus stop. Weighed down by his heavy backpack (d) Pete was squeezed to the endof the line. The bright yellow bus (e) arrived in a blue of flashing lights and familiar faces. Knowing it was inevitable (f) the students boarded the bus to school. Where should commas be placed in the passage above?",
           "choices": [
             "b, c, d",
             "a, c, d",
@@ -13817,31 +13817,31 @@
         {
           "id": "punctuation-commas-series-q0269",
           "version": 3,
-          "contentHash": "sha256:a53be3dca119e9e2a693d44061cf238599d4aa216383f79333d6624d0b3cbb6c",
+          "contentHash": "sha256:cfbebca495394d2ab79580443bac9ddf3b718de7b8a43bf202e6eae1f9031fc6",
           "question": "Choose the sentence that shows correct punctuation.",
           "choices": [
-            "The grocery store in Helo Alabama is closed on Tu esdays and Wednesdays.",
+            "The grocery store in Helo Alabama is closed on Tuesdays and Wednesdays.",
             "The grocery store in Helo, Alabama is closed on Tuesdays and Wednesdays.",
-            "The grocery store Helo, Alabama is closed on Tu esdays, and Wednesdays. in",
-            "The grocery store, in Helo Alabama is closed on Tu esdays and Wednesdays."
+            "The grocery store Helo, Alabama is closed on Tuesdays, and Wednesdays. in",
+            "The grocery store, in Helo Alabama is closed on Tuesdays and Wednesdays."
           ],
           "correct": 1,
           "explanation": {
             "correct": "Answer: The grocery store in Helo, Alabama is closed on Tuesdays and Wednesdays. When writing a city and state together, you must place a comma after the city name and another comma after the state name if the sentence continues.",
             "incorrect": [
               {
-                "choice": "The grocery store in Helo Alabama is closed on Tu esdays and Wednesdays.",
+                "choice": "The grocery store in Helo Alabama is closed on Tuesdays and Wednesdays.",
                 "category": "missing comma",
                 "reason": "This sentence is missing a comma between the city name 'Helo' and the state name 'Alabama'. A comma is required to separate the two locations."
               },
               "",
               {
-                "choice": "The grocery store Helo, Alabama is closed on Tu esdays, and Wednesdays. in",
+                "choice": "The grocery store Helo, Alabama is closed on Tuesdays, and Wednesdays. in",
                 "category": "incorrect word order",
                 "reason": "The preposition 'in' and the comma after 'Tuesdays' are misplaced. Placing 'in' after the day makes the sentence difficult to read, and you do not need a comma before 'and' when connecting only two items."
               },
               {
-                "choice": "The grocery store, in Helo Alabama is closed on Tu esdays and Wednesdays.",
+                "choice": "The grocery store, in Helo Alabama is closed on Tuesdays and Wednesdays.",
                 "category": "unnecessary punctuation",
                 "reason": "Placing a comma after 'store' interrupts the flow of the sentence because it separates the subject from the prepositional phrase that describes it."
               }
@@ -20020,10 +20020,10 @@
         {
           "id": "punctuation-apostrophes-contractions-q0027",
           "version": 2,
-          "contentHash": "sha256:04b5581d75b34b32ae55a24c70b91aaf83c79bde7b4e9dd8b84a3b550be132df",
+          "contentHash": "sha256:3f4c548a1485ba642d6db3a5491c3a4a65f0618af66a56554c19bdaa4e28a7ba",
           "question": "Which sentence below is written in Standard English?",
           "choices": [
-            "I won’t be able to complete my assignment withou t the book.",
+            "I won’t be able to complete my assignment without the book.",
             "Helen don’t need to help Sam with his math.",
             "Harvey wouldnt’let me borrow his bicycle.",
             "Whose knocking on the door?"
@@ -20410,10 +20410,10 @@
         {
           "id": "punctuation-apostrophes-contractions-q0032",
           "version": 2,
-          "contentHash": "sha256:14da32606b4ac827c2db62fa060f394f810acba5f59b313907233a81e0a86bc3",
+          "contentHash": "sha256:4867c29e5b189a999639d63625773a7287e0f1d331018ee84566a5fb6dddaa27",
           "question": "Select the best way to complete the sentence below. Unless I study hard, _________________________________________.",
           "choices": [
-            "I w on’t understand the principles of the math theory.",
+            "I won’t understand the principles of the math theory.",
             "understanding the principles of the math theory.",
             "because the principles of the math theory are hard to understand.",
             "the principles of the math theory are understanding."
@@ -20859,13 +20859,13 @@
         {
           "id": "punctuation-apostrophes-contractions-q0053",
           "version": 3,
-          "contentHash": "sha256:4813f6eed543332310e1d0f12425ad8c4e60613eecdd1a5f5c82dfdb6cba14e3",
-          "question": "Choose the word that fits best in the blank and shows the correct pun ctuation. ___________ don’t forget that you have a pian o lesson after school.",
+          "contentHash": "sha256:8b76df811ab052ded8e0b7f2e1ef3a8c0fa7409e8245575e2fc3ea1fd59d404a",
+          "question": "Choose the word that fits best in the blank and shows the correct punctuation. ___________ don’t forget that you have a pian o lesson after school.",
           "choices": [
             "Sophia",
             "Sophia:",
             "Sop hia,",
-            "So phia;"
+            "Sophia;"
           ],
           "correct": 2,
           "explanation": {
@@ -20883,8 +20883,8 @@
               },
               "",
               {
-                "choice": "So phia;",
-                "reason": "Not: So phia; \"So phia;\" is missing the apostrophe that contractions need to show omitted letters."
+                "choice": "Sophia;",
+                "reason": "Not: Sophia; \"Sophia;\" is missing the apostrophe that contractions need to show omitted letters."
               }
             ]
           },
@@ -20932,10 +20932,10 @@
         {
           "id": "punctuation-apostrophes-contractions-q0081",
           "version": 2,
-          "contentHash": "sha256:deecd1110a19f2f28d7778fb8a2aedf2e6f0c3b566e55684381b8c7a27f52bc4",
+          "contentHash": "sha256:83ce88c422b4b3b579d6fe0c9bd21592afe700a8c30fe25a7e21368b2aba3b4f",
           "question": "Choose the sentence that is punctuated correctly.",
           "choices": [
-            "Befor e I leave the house each day I grab my l unch.",
+            "Before I leave the house each day I grab my lunch.",
             "The dog ran across the yard, and retrieved the frisbee.",
             "I don’t like to watch Hall mark movies but I like Hallmark greeting cards.",
             "Our teacher gave us each a pencil before she gave us the test."
@@ -20945,9 +20945,9 @@
             "correct": "Answer: Our teacher gave us each a pencil before she gave us the test. This sentence correctly connects two independent clauses with 'before' without needing a comma, as the subordinating conjunction is in the middle of the sentence.",
             "incorrect": [
               {
-                "choice": "Befor e I leave the house each day I grab my l unch.",
+                "choice": "Before I leave the house each day I grab my lunch.",
                 "category": "spelling and punctuation",
-                "reason": "This choice contains two spelling errors ('Befor e' and 'l unch') and is missing a comma after the introductory phrase 'before I leave the house'."
+                "reason": "This choice contains two spelling errors ('Before' and 'lunch') and is missing a comma after the introductory phrase 'before I leave the house'."
               },
               {
                 "choice": "The dog ran across the yard, and retrieved the frisbee.",
@@ -21006,8 +21006,8 @@
         {
           "id": "punctuation-apostrophes-contractions-q0104",
           "version": 4,
-          "contentHash": "sha256:1294151f5a73ff071bd639c19ca7509354d952f24d6f86e58e54dfea62fbd2c8",
-          "question": "Which of the following statements would be an e xample of informal language?",
+          "contentHash": "sha256:3213efd3325d40b9c01f13b80d64a213f494e08b6a5882c1d66792f90e2fab26",
+          "question": "Which of the following statements would be an example of informal language?",
           "choices": [
             "Excuse me, I am a bit hungry at the moment. Would there be anything to eat?",
             "If it would not be too much trouble, could I get a bite to eat?",
@@ -21446,10 +21446,10 @@
         {
           "id": "punctuation-apostrophes-contractions-q0046",
           "version": 2,
-          "contentHash": "sha256:9d3706d6938c448b3470a1cb5f6fc1225818aaa0f6667803a56855af7388efa8",
+          "contentHash": "sha256:09adc148f80789e7eebd02bc2e7dc28455312f41e9ccc622ecf3d0c3e9d29675",
           "question": "Choose the best word to complete the sentence. When the children wouldn’t listen, the teacher became _________________ and took away 10 minutes of their recess.",
           "choices": [
-            "elat ed",
+            "elated",
             "agreeable",
             "joyful",
             "agitated"
@@ -21459,7 +21459,7 @@
             "correct": "Answer: agitated. The sentence describes a negative situation where children wouldn't listen, causing the teacher to lose patience. 'Agitated' describes someone feeling troubled, annoyed, or restless, which fits the context of taking away recess.",
             "incorrect": [
               {
-                "choice": "elat ed",
+                "choice": "elated",
                 "category": "incorrect word spelling",
                 "reason": "This is not a real word. 'Elated' is a word, but it means to be very happy, which contradicts the teacher's negative reaction to the children's behavior."
               },
@@ -22038,13 +22038,13 @@
         {
           "id": "punctuation-apostrophes-contractions-q0109",
           "version": 2,
-          "contentHash": "sha256:e8313581ff8a16f84c984e9422ad28b02f9397c206054bfe5677fdf04d58f902",
+          "contentHash": "sha256:d30fe569fa524b11db48e193a2ebc4c5fa675b86afe7d0ba012a8f94a5a99c2f",
           "question": "Choose the sentence that contains a modal auxiliary verb.",
           "choices": [
             "You shouldn’t wait until the last minute to do your homework.",
             "I want to go to the zoo with my friends next week end.",
             "Everyone needs to look down at their feet when they walk.",
-            "That painting is the most beautiful portrai t of a sunset."
+            "That painting is the most beautiful portrait of a sunset."
           ],
           "correct": 0,
           "explanation": {
@@ -22061,8 +22061,8 @@
                 "reason": "The word 'needs' acts as the main verb here. It describes a requirement rather than expressing mood or necessity through an auxiliary verb like 'can,' 'may,' or 'should'."
               },
               {
-                "choice": "That painting is the most beautiful portrai t of a sunset.",
-                "reason": "\"That painting is the most beautiful portrai t of a sunset.\" is missing the apostrophe that contractions need to show omitted letters."
+                "choice": "That painting is the most beautiful portrait of a sunset.",
+                "reason": "\"That painting is the most beautiful portrait of a sunset.\" is missing the apostrophe that contractions need to show omitted letters."
               }
             ]
           },
@@ -23442,8 +23442,8 @@
         {
           "id": "punctuation-apostrophes-contractions-q0265",
           "version": 2,
-          "contentHash": "sha256:24173a742c99ea7bb841cfb44b60f9ee5bf2b72a7732f6ffdcc653f508ffbb6f",
-          "question": "Choose the correct prono un to complete the sentence below. The dogs shared their food with the cat, but didn’t like it.",
+          "contentHash": "sha256:a1d078d76909c859f8083a6046483a4905f08502f20371f2c5203fcabff5bbec",
+          "question": "Choose the correct pronoun to complete the sentence below. The dogs shared their food with the cat, but didn’t like it.",
           "choices": [
             "he",
             "them",
@@ -23660,8 +23660,8 @@
         {
           "id": "punctuation-apostrophes-contractions-q0298",
           "version": 2,
-          "contentHash": "sha256:f1167ecdbfa208e44d01db627c036d446d3d80479b885605a0056d4ef443db12",
-          "question": "Which answer is a possessive pronou n?",
+          "contentHash": "sha256:3499aee80a22ba04c537f3134c59a72bc257c4e5ae3a2b1c31b77661a5d07ed2",
+          "question": "Which answer is a possessive pronoun?",
           "choices": [
             "him",
             "ours",
@@ -24940,10 +24940,10 @@
         {
           "id": "punctuation-apostrophes-possessives-q0017",
           "version": 2,
-          "contentHash": "sha256:6d097261dcb658e2a9080395cef08d33a87d51a9890b48df7da8b66c50d0377e",
+          "contentHash": "sha256:5c6bfe58f4d6faaa1f45184782c577788559e20637d36405b173091fd8a189e7",
           "question": "Which word is both plural and possessive?",
           "choices": [
-            "an imal’s",
+            "animal’s",
             "giraffes",
             "girl’s",
             "children’s"
@@ -24953,7 +24953,7 @@
             "correct": "Answer: children’s. The word 'children' is the irregular plural of 'child,' and adding an apostrophe followed by an 's' shows possession for that group.",
             "incorrect": [
               {
-                "choice": "an imal’s",
+                "choice": "animal’s",
                 "category": "singular possessive noun",
                 "reason": "This form uses an apostrophe before the 's', which indicates possession for only one animal. It is also misspelled with a space."
               },
@@ -62973,10 +62973,10 @@
         {
           "id": "punctuation-abbreviations-acronyms-q0181",
           "version": 5,
-          "contentHash": "sha256:470c0a841849216c542219ba0573ffc96470544481658907e60f0de962b672ab",
+          "contentHash": "sha256:81d978d8782c8d9cf9a412aedccdc7128ea8631ed882dec3bd975009146b048f",
           "question": "Which should be combined into one sentence?",
           "choices": [
-            "Cindy left all her cosmetics at the offi ce. Her clothing appeared rumpled and wrinkled.",
+            "Cindy left all her cosmetics at the office. Her clothing appeared rumpled and wrinkled.",
             "Martha fell when she tried to walk through the aisles in her classroom. Jack trippedover Sally’s backpack.",
             "Joe wanted to earn an A in Mrs. Cosmo’s class. Mr. Smithexpected him to fail his class.",
             "Janelle wanted her entire family to attend the reunion. Several of her grandchildren chose not to oblige."
@@ -62986,7 +62986,7 @@
             "correct": "Answer: Janelle wanted her entire family to attend the reunion. Several of her grandchildren chose not to oblige. These two sentences share a common subject matter regarding the family reunion, allowing them to be combined logically with a conjunction like 'but' or 'although'.",
             "incorrect": [
               {
-                "choice": "Cindy left all her cosmetics at the offi ce. Her clothing appeared rumpled and wrinkled.",
+                "choice": "Cindy left all her cosmetics at the office. Her clothing appeared rumpled and wrinkled.",
                 "category": "unrelated sentence content",
                 "reason": "These sentences describe two completely different topics: misplaced cosmetics and the appearance of clothing. They do not share enough context to be combined smoothly."
               },
@@ -63129,10 +63129,10 @@
         {
           "id": "punctuation-abbreviations-acronyms-q0183",
           "version": 7,
-          "contentHash": "sha256:0f66fad8a31b66a8bf02d24c07269b42eb2b4a5bb28ae4ac56b6f1d732c9f89a",
+          "contentHash": "sha256:1649940338552f54c6e6346c885bf1b91d5bf4ca083af3a50a000758a0fc877e",
           "question": "Which sentence is capitalized correctly?",
           "choices": [
-            "mr. and mrs. johns own the neighb orhood store.",
+            "mr. and mrs. johns own the neighborhood store.",
             "My mother took me to see Dr. Fred E. Meyer.",
             "James’sister, Mary b. Goode, is now a physician.",
             "Mr. Sam R. smith conducted the symphony orchestra."
@@ -63142,7 +63142,7 @@
             "correct": "Answer: My mother took me to see Dr. Fred E. Meyer. Proper nouns, including names, titles, and initials, must always be capitalized. In this sentence, the title 'Dr.' and the name 'Fred E. Meyer' are all correctly capitalized.",
             "incorrect": [
               {
-                "choice": "mr. and mrs. johns own the neighb orhood store.",
+                "choice": "mr. and mrs. johns own the neighborhood store.",
                 "category": "missing name capitalization",
                 "reason": "Titles like 'Mr.' and 'Mrs.' and proper surnames like 'Johns' must be capitalized. Lowercase letters here make these words look like common nouns instead of specific titles and names."
               },

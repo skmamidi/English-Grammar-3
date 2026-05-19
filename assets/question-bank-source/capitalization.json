@@ -1521,11 +1521,11 @@
         {
           "id": "capitalization-sentence-beginning-q0022",
           "version": 3,
-          "contentHash": "sha256:1c812bdb7ee41d0fe4b2d89c0f8e5ec862fe5462e1991e5e4688b14910019cdd",
+          "contentHash": "sha256:36cfaf0470d9f9a41f4e62cd940f1608ea2586bdda451ca925c0e90760b72124",
           "question": "Which sentence is written correctly?",
           "choices": [
             "all the children wanted to pet the cute, warm, cuddly kitten.",
-            "the kitten was terrified at first when fifteen chil dren ran to pet it.",
+            "the kitten was terrified at first when fifteen children ran to pet it.",
             "Many children Screamed with Laughter when the little cat meowed.",
             "Two children in the class eventually became the kitty’s care takers."
           ],
@@ -1539,7 +1539,7 @@
                 "reason": "Sentences must start with a capital letter, and the word 'cuddly' should not have a space in the middle."
               },
               {
-                "choice": "the kitten was terrified at first when fifteen chil dren ran to pet it.",
+                "choice": "the kitten was terrified at first when fifteen children ran to pet it.",
                 "category": "capitalization and spacing",
                 "reason": "This sentence fails to start with a capital letter, and the word 'children' is incorrectly split into two separate words."
               },
@@ -2218,8 +2218,8 @@
         {
           "id": "capitalization-sentence-beginning-q0059",
           "version": 2,
-          "contentHash": "sha256:53f807407269e08c9998396c09c66a59d30aa58529f2438aad2a245e8e9dabdc",
-          "question": "Choose the answer that fits best in the blank and shows correct capitalization and punctuation. The new sch ool will open ____________.",
+          "contentHash": "sha256:39d87c8fefe97354a8056000732f1f485a1c157b59d9c438eb6796a31bf9fbe7",
+          "question": "Choose the answer that fits best in the blank and shows correct capitalization and punctuation. The new school will open ____________.",
           "choices": [
             "August 15 2020",
             "august 15, 20 20",
@@ -2290,10 +2290,10 @@
         {
           "id": "capitalization-sentence-beginning-q0074",
           "version": 2,
-          "contentHash": "sha256:ed80edaf303c447c1fa065c321a6f2ce03b97927340ccc5cddd44ca0843821cf",
+          "contentHash": "sha256:1d742398d1226657576590cee9e7eab794d470acc1dfe26db4198f7af69528c9",
           "question": "Choose the sentence that shows correct punctuation and capitalization.",
           "choices": [
-            "Christ ine gave joshua her stuffed animal.",
+            "Christine gave joshua her stuffed animal.",
             "We can leave now but, we have to say good-bye first.",
             "That dress is gorgeous?",
             "Is blue your favorite color?"
@@ -2303,7 +2303,7 @@
             "correct": "Answer: Is blue your favorite color?. This sentence correctly begins with a capital letter and ends with a question mark because it asks for information.",
             "incorrect": [
               {
-                "choice": "Christ ine gave joshua her stuffed animal.",
+                "choice": "Christine gave joshua her stuffed animal.",
                 "category": "improper noun capitalization",
                 "reason": "Names like 'Christine' and 'Joshua' must be spelled as one word and capitalized because they are proper nouns. Also, proper nouns should never have a space in the middle."
               },
@@ -2438,11 +2438,11 @@
         {
           "id": "capitalization-sentence-beginning-q0091",
           "version": 2,
-          "contentHash": "sha256:d90130f57958c8ccce5d3d61ba615f9406de9f9c8efb81213b05632058e226c4",
+          "contentHash": "sha256:df2db4c103972fd54ca9d7b33b604d17b68d81110576d56972e5f5126656931d",
           "question": "Identify the sentence with the correct capitalization.",
           "choices": [
             "Zach ordered Grilled Cheese from a restaurant called Grilled Cheese company in Dallas, Texas.",
-            "Zach ordered grilled cheese from a Restaurant ca lled Grilled Cheese Company in Dallas, Texas.",
+            "Zach ordered grilled cheese from a Restaurant called Grilled Cheese Company in Dallas, Texas.",
             "Zach ordered grilled cheese from a restaurant called Grilled Cheese Company in Dallas, Texas.",
             "Zach ordered grilled cheese from a restaurant called grilled cheese company in Dallas, Texas."
           ],
@@ -2456,7 +2456,7 @@
                 "reason": "The common noun 'grilled cheese' should not be capitalized as a dish name, and 'company' must be capitalized because it is part of the proper name of the business."
               },
               {
-                "choice": "Zach ordered grilled cheese from a Restaurant ca lled Grilled Cheese Company in Dallas, Texas.",
+                "choice": "Zach ordered grilled cheese from a Restaurant called Grilled Cheese Company in Dallas, Texas.",
                 "category": "common noun capitalization",
                 "reason": "The word 'restaurant' is a common noun here and should not be capitalized unless it is the start of a sentence or part of a specific store's formal name."
               },
@@ -2882,13 +2882,13 @@
         {
           "id": "capitalization-sentence-beginning-q0104",
           "version": 3,
-          "contentHash": "sha256:097d43ec19b4b76f5cac77dee25ec2ecd7dca5fb3c934ad3c7084b964ee2e3e1",
+          "contentHash": "sha256:b994c3f47a830099f87c232d190b3dc2c7ca2e9ee9344df2feea1534360ea99b",
           "question": "Choose the correctly capitalized version of the sentence below. The entire family is excited and looking forward to our vacation with uncle jerry, my aunt, grannie, and my grandpa.",
           "choices": [
             "The entire Family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.",
             "The entire family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.",
             "The entire family is excited and looking forward to our vacation with Uncle Jerry, my aunt, Grannie, and my grandpa.",
-            "The entire family is excited and looking forward to our vacation with uncl e Jerry, my aunt, grannie, and my grandpa."
+            "The entire family is excited and looking forward to our vacation with uncle Jerry, my aunt, grannie, and my grandpa."
           ],
           "correct": 2,
           "explanation": {
@@ -2906,7 +2906,7 @@
               },
               "",
               {
-                "choice": "The entire family is excited and looking forward to our vacation with uncl e Jerry, my aunt, grannie, and my grandpa.",
+                "choice": "The entire family is excited and looking forward to our vacation with uncle Jerry, my aunt, grannie, and my grandpa.",
                 "category": "incorrect proper noun capitalization",
                 "reason": "The title 'Uncle' and the name 'Jerry' are proper nouns and must start with capital letters. 'Grannie' is also a specific name here and requires a capital letter."
               }
@@ -2956,20 +2956,20 @@
         {
           "id": "capitalization-sentence-beginning-q0140",
           "version": 2,
-          "contentHash": "sha256:3c51e96b90fd09ab1d581859cd2b5cdd29c11eb43f75835f99b8af2f7bd519c8",
+          "contentHash": "sha256:a882b15d78a546810b4f3d8e5c3c8bb48e6ecb4f48170b7fec87b02cf6d05e60",
           "question": "Edit the sentence below for capitalization. Choose the sentence that is correctly written. Next fall, I registered to take german, biology, english, and band.",
           "choices": [
-            "N ext Fall, I registered to take German, biology, English, and band.",
+            "Next Fall, I registered to take German, biology, English, and band.",
             "Next fall, I registered to take German, biology, English, and band.",
             "Next Fall, I registered to take german, biology, english, and band.",
-            "Next fall, I registered to take german, Biology, eng lish, and Band."
+            "Next fall, I registered to take german, Biology, english, and Band."
           ],
           "correct": 1,
           "explanation": {
             "correct": "Answer: Next fall, I registered to take German, biology, English, and band. Languages like German and English are proper nouns and must always be capitalized, while subjects like biology and band are common nouns and should stay lowercase.",
             "incorrect": [
               {
-                "choice": "N ext Fall, I registered to take German, biology, English, and band.",
+                "choice": "Next Fall, I registered to take German, biology, English, and band.",
                 "category": "Incorrect capitalization and spacing",
                 "reason": "The word 'Next' has an unnecessary space, and 'Fall' is a season which should not be capitalized unless it is the first word of a sentence or part of a title."
               },
@@ -2980,9 +2980,9 @@
                 "reason": "The word 'Fall' should not be capitalized as it is just a season, while 'german' and 'english' must be capitalized because they are proper nouns representing languages."
               },
               {
-                "choice": "Next fall, I registered to take german, Biology, eng lish, and Band.",
+                "choice": "Next fall, I registered to take german, Biology, english, and Band.",
                 "category": "Incorrect capitalization and spacing",
-                "reason": "The word 'german' and 'english' were left lowercase, while 'Biology' and 'Band' were incorrectly capitalized. Additionally, 'eng lish' has an extra space which is a spelling error."
+                "reason": "The word 'german' and 'english' were left lowercase, while 'Biology' and 'Band' were incorrectly capitalized. Additionally, 'english' has an extra space which is a spelling error."
               }
             ]
           },
@@ -3178,8 +3178,8 @@
         {
           "id": "capitalization-sentence-beginning-q0275",
           "version": 4,
-          "contentHash": "sha256:f58610e9ee8e3427412819cc6f8028a37cf4fe76196fce8c4bf6655e40636393",
-          "question": "Which word is correctly capitalized? My Teacher can speak hindi and english, and she writes child ren’s books.",
+          "contentHash": "sha256:57b010912110e6007e2e9f9a2cac0be27449fa5d0a69490f1e2b762e67614e1d",
+          "question": "Which word is correctly capitalized? My Teacher can speak hindi and english, and she writes children’s books.",
           "choices": [
             "Teacher",
             "hindi",
@@ -6677,10 +6677,10 @@
         {
           "id": "capitalization-books-magazines-songs-plays-q0017",
           "version": 3,
-          "contentHash": "sha256:d3ad77c29d7354e05178710b6aec963fa165d41270c3f56ab0c0186a6177b1f1",
+          "contentHash": "sha256:53f26210eaa49cc5595157b778b1b89ec107544805e8bd985af03f5c00802eeb",
           "question": "Which sentence is correctly punctuated?",
           "choices": [
-            "We read “Romeo and Juliet” in nin th grade.",
+            "We read “Romeo and Juliet” in ninth grade.",
             "We read Romeo and Juliet in ninth grade. Romeo and Juliet",
             "We read Romeo and Juliet in ninth grade.",
             "We read in ninth grade."
@@ -6690,7 +6690,7 @@
             "correct": "Answer: We read “Romeo and Juliet” in ninth grade. Book titles are major works that require italics or quotation marks to set them apart from the rest of the sentence.",
             "incorrect": [
               {
-                "choice": "We read “Romeo and Juliet” in nin th grade.",
+                "choice": "We read “Romeo and Juliet” in ninth grade.",
                 "category": "incorrect spelling",
                 "reason": "The word 'ninth' is a single word and should not have a space in the middle. Always check for typos in your spelling."
               },
@@ -6831,10 +6831,10 @@
         {
           "id": "capitalization-books-magazines-songs-plays-q0019",
           "version": 3,
-          "contentHash": "sha256:b16267455b51550784f3508bcc2c1e421e4fbdb3f05d12b9bc5000ea8993d5e6",
+          "contentHash": "sha256:6f2daf6d2e9424939071aafadfbf45e8e26df09fbf8b004ce677b61401653cb3",
           "question": "Choose the correctly written book title.",
           "choices": [
-            "Harry Po tter and The chamber of secrets",
+            "Harry Potter and The chamber of secrets",
             "harry Potter and The Chamber of Secrets",
             "Harry Potter and The Chamber of secrets",
             "Harry Potter and The Chamber of Secrets"
@@ -6844,7 +6844,7 @@
             "correct": "Answer: Harry Potter and The Chamber of Secrets. In titles, all major words such as nouns, pronouns, verbs, adjectives, and adverbs must be capitalized. Minor words like 'and' or 'of' are usually lowercase unless they appear as the first word.",
             "incorrect": [
               {
-                "choice": "Harry Po tter and The chamber of secrets",
+                "choice": "Harry Potter and The chamber of secrets",
                 "category": "capitalization and spelling",
                 "reason": "This choice contains a typo splitting 'Potter' and fails to capitalize the major words 'Chamber' and 'Secrets' at the end of the title."
               },
@@ -8824,12 +8824,12 @@
         {
           "id": "capitalization-proper-names-titles-q0025",
           "version": 4,
-          "contentHash": "sha256:1a858cc2cc27274becb0a260a3419d4e14c722956c7a22d750ccddb193b2965f",
+          "contentHash": "sha256:e50ce25b4babea6d8b43410d0a0ed79a1eff6ac2af5870cbe12028cb1a04ec50",
           "question": "Which words are not correctly capitalized? The Columbia river flows under The Broadway Bridge in Portland, Oregon.",
           "choices": [
-            "R iver, The",
+            "River, The",
             "Columbia, Portland",
-            "Broadway, O regon",
+            "Broadway, Oregon",
             "Bridge, Portland"
           ],
           "correct": 0,
@@ -8843,12 +8843,12 @@
                 "reason": "These are correctly capitalized! 'Columbia' is the specific name of the river and 'Portland' is the name of a city; both are proper nouns that must start with a capital letter."
               },
               {
-                "choice": "Broadway, O regon",
-                "reason": "\"Broadway, O regon\" is not the best answer because it leaves out R iver, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Broadway, but Broadway is not one of the words that needs a capital in this sentence.; it includes O regon, but O regon is not one of the words that needs a capital in this sentence.."
+                "choice": "Broadway, Oregon",
+                "reason": "\"Broadway, Oregon\" is not the best answer because it leaves out River, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Broadway, but Broadway is not one of the words that needs a capital in this sentence.; it includes Oregon, but Oregon is not one of the words that needs a capital in this sentence.."
               },
               {
                 "choice": "Bridge, Portland",
-                "reason": "\"Bridge, Portland\" is not the best answer because it leaves out R iver, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Bridge, but Bridge is not one of the words that needs a capital in this sentence.; it includes Portland, but Portland is not one of the words that needs a capital in this sentence.."
+                "reason": "\"Bridge, Portland\" is not the best answer because it leaves out River, which is being used as part of a proper name, title, sentence beginning, or quoted sentence beginning.; it leaves out The, which starts a sentence or passage, so it needs a capital letter.; it includes Bridge, but Bridge is not one of the words that needs a capital in this sentence.; it includes Portland, but Portland is not one of the words that needs a capital in this sentence.."
               }
             ]
           },
@@ -8899,10 +8899,10 @@
         {
           "id": "capitalization-proper-names-titles-q0026",
           "version": 6,
-          "contentHash": "sha256:a5dc6c129921c54c6a6c2c43a20158fd17d4fa0ad0b3aa2b005314e98f8ecfa1",
+          "contentHash": "sha256:9ce471e0e223810e5b0597f673fd928d55a59150547657ccb494dcb476de4e4a",
           "question": "Which course title is correctly capitalized?",
           "choices": [
-            "Histor y",
+            "History",
             "English",
             "Algebra",
             "Chemistry"
@@ -8912,7 +8912,7 @@
             "correct": "Answer: English. Proper nouns that name specific languages, nationalities, or subjects like 'English' are always capitalized, regardless of where they appear in a title.",
             "incorrect": [
               {
-                "choice": "Histor y",
+                "choice": "History",
                 "category": "incorrect spacing",
                 "reason": "This choice contains a typo with a space in the middle of the word. Additionally, while school subjects are capitalized in titles, ensure there are no spelling errors."
               },
@@ -9515,8 +9515,8 @@
         {
           "id": "capitalization-proper-names-titles-q0034",
           "version": 3,
-          "contentHash": "sha256:4e233f8ac0a3b8f792e8a11a754c78255e74bdef60d3010d478de613502815e9",
-          "question": "Which of the following sentences is written corre ctly?",
+          "contentHash": "sha256:44770f06083f037e737fb8434deb21798eb394897e6fbdff491fa5eb9145d0f2",
+          "question": "Which of the following sentences is written correctly?",
           "choices": [
             "i think i’ll call her.",
             "She answered My letter.",
@@ -9592,10 +9592,10 @@
         {
           "id": "capitalization-proper-names-titles-q0035",
           "version": 3,
-          "contentHash": "sha256:1f095e764ab5e69914aae0c050fe2737aca37e9f5b8a8dd90b8ba31588705a97",
+          "contentHash": "sha256:512f9c92d2858fb742c97735a39a0e473281684f11ea0b2f38726f439004e3e8",
           "question": "Which of the following is a proper noun?",
           "choices": [
-            "p umpkin",
+            "pumpkin",
             "her mirror",
             "my friends",
             "Sandy Turner"
@@ -9605,7 +9605,7 @@
             "correct": "Answer: Sandy Turner. A proper noun is the specific name of a particular person, place, or organization and should always be capitalized.",
             "incorrect": [
               {
-                "choice": "p umpkin",
+                "choice": "pumpkin",
                 "category": "common noun error",
                 "reason": "A pumpkin is a common noun because it refers to a general type of plant, not one specific plant with a unique name."
               },
@@ -10360,8 +10360,8 @@
         {
           "id": "capitalization-proper-names-titles-q0045",
           "version": 7,
-          "contentHash": "sha256:d6224c47075b7ab63fe6e4dba4e6f07e3e16d085bfff82cf6e3a3a1b14d927ba",
-          "question": "Which underlined wor d is incorrectly capitalized? On our next Vacation, we will visit the Alamo near San Antonio, Texas.",
+          "contentHash": "sha256:35d262cd8bd905782dc7830969d98b9bf68428ee62c7a92650d557bea211bfb0",
+          "question": "Which underlined word is incorrectly capitalized? On our next Vacation, we will visit the Alamo near San Antonio, Texas.",
           "choices": [
             "Vacation",
             "Alamo",
@@ -10750,20 +10750,20 @@
         {
           "id": "capitalization-proper-names-titles-q0050",
           "version": 5,
-          "contentHash": "sha256:694b2e0ee184077e53cd86441b2a34b055ea63eee82366e631b9cfc47411791d",
+          "contentHash": "sha256:33dcf7fee1099423da507ca87ae97cde2a8af069dc64f31c01060ee432283cb2",
           "question": "Which words should be capitalized in the sentence below? Two little dogs named jessie and annie were once the only two in the Jones family. Three years later, sam, a german shepherd, was added to the happy household.",
           "choices": [
-            "dogs, jessie, annie, sheph erd",
+            "dogs, jessie, annie, shepherd",
             "jessie, annie, sam, german",
             "jessie, family, german, household",
-            "annie, sam, ge rman, household"
+            "annie, sam, german, household"
           ],
           "correct": 1,
           "explanation": {
             "correct": "Answer: jessie, annie, sam, german. Proper nouns naming specific individuals or specific breeds must be capitalized. Since 'Jessie', 'Annie', and 'Sam' are the names of the dogs, they need capital letters. 'German' is also capitalized because it is derived from a proper noun (the country Germany).",
             "incorrect": [
               {
-                "choice": "dogs, jessie, annie, sheph erd",
+                "choice": "dogs, jessie, annie, shepherd",
                 "category": "incorrect noun classification",
                 "reason": "'Dogs' is a common noun and should not be capitalized. Additionally, 'shepherd' is part of a breed name, not a proper noun itself, unless it is part of a specific title."
               },
@@ -10774,7 +10774,7 @@
                 "reason": "'Family' and 'household' are common nouns used in a general sense, so they do not require capitalization."
               },
               {
-                "choice": "annie, sam, ge rman, household",
+                "choice": "annie, sam, german, household",
                 "category": "missing proper nouns",
                 "reason": "This choice misses the name 'Jessie', which must be capitalized as it is the name of a specific dog."
               }
@@ -10828,8 +10828,8 @@
         {
           "id": "capitalization-proper-names-titles-q0051",
           "version": 4,
-          "contentHash": "sha256:cbf415240a42c9d72ab0446e41098cc1fde0b093c319aad5232af7f831be9e3e",
-          "question": "Which underlined words should be capitalized? The b oy scouts of America, a youth organization, gets some funding from united way.",
+          "contentHash": "sha256:47719d1a09f78e52fe52e4879c3cf5b7ec143274c438c8d51175d34373bf64bb",
+          "question": "Which underlined words should be capitalized? The boy scouts of America, a youth organization, gets some funding from united way.",
           "choices": [
             "boy, scouts, united, way",
             "boy, scouts, youth, way",
@@ -11140,8 +11140,8 @@
         {
           "id": "capitalization-proper-names-titles-q0055",
           "version": 3,
-          "contentHash": "sha256:be48190b2deb50f0f1e60163cf188bac352523ad7ded39e6f45dfc59a807dbc4",
-          "question": "Choose the correct format to complete this sente nce. To get to the lake, turn ________ and then __________.",
+          "contentHash": "sha256:4ff00820609594583d7862c6aa0095d713c66f28f5f75b60b2d0a30ba56eb74d",
+          "question": "Choose the correct format to complete this sentence. To get to the lake, turn ________ and then __________.",
           "choices": [
             "sou th, West",
             "south, west",
@@ -11296,8 +11296,8 @@
         {
           "id": "capitalization-proper-names-titles-q0057",
           "version": 3,
-          "contentHash": "sha256:6217659338e4ded8dc1fed32c51a5925a887d9916a0bd713e22fced116e92336",
-          "question": "Identify the correctorder of sentences in this par agraph. 1. Then she called her family to the table. 2. Everyone had a great time. 3. Maureen made a special birthday dinner for Sam. 4. She baked a cake and cooked a roast.",
+          "contentHash": "sha256:18fa1e8c79a680a6d353de81de853032e7aef578091b901175f27f13a1c3c976",
+          "question": "Identify the correctorder of sentences in this paragraph. 1. Then she called her family to the table. 2. Everyone had a great time. 3. Maureen made a special birthday dinner for Sam. 4. She baked a cake and cooked a roast.",
           "choices": [
             "3, 4, 1, 2",
             "1, 2, 3, 4",
@@ -13358,8 +13358,8 @@
         {
           "id": "capitalization-names-of-places-q0018",
           "version": 4,
-          "contentHash": "sha256:fe11c33a2676a67b3f13589dca451fbea178191c9a059c14e510654420a2043a",
-          "question": "Which words must be capitalized in this sentence? robb and steele Inc. is located in the E mpire State building.",
+          "contentHash": "sha256:2a814de1ff6d02316080e30ff224d7cb127a72bb622f2e7983c099dd2fb8385c",
+          "question": "Which words must be capitalized in this sentence? robb and steele Inc. is located in the Empire State building.",
           "choices": [
             "robb, located, empire",
             "robb, steele, building",
@@ -13435,8 +13435,8 @@
         {
           "id": "capitalization-names-of-places-q0019",
           "version": 4,
-          "contentHash": "sha256:f899adaab5e0e8785a6b6a446605c5a2dc2f4122cab6588197208a20c465ba77",
-          "question": "Which words should be capitalized? On the west side of town is a museum featuring a rtifacts from the far east.",
+          "contentHash": "sha256:5e1a6a1a431d6d8422571c0a48f987f1f7e0def69afd7980711db625ac1b9a42",
+          "question": "Which words should be capitalized? On the west side of town is a museum featuring artifacts from the far east.",
           "choices": [
             "w est, side",
             "west, museum",
@@ -14051,10 +14051,10 @@
         {
           "id": "capitalization-names-of-places-q0027",
           "version": 4,
-          "contentHash": "sha256:5b3b78be27e90608c1f95103c89927e909e7ed83916e4b0e199def125fc8fd1c",
+          "contentHash": "sha256:da6d461212ae85a8dfc6aa378af96e13a13d2ae3a80fed52a0816a8a0a33ddfa",
           "question": "Which underlined words should be capitalized? The first battle of the civil war began at Fort Sumter off the coast of south carolina.",
           "choices": [
-            "b attle, civil, coast, south",
+            "battle, civil, coast, south",
             "battle, war, coast, carolina",
             "war, coast, south, carolina",
             "civil, war, south, carolina"
@@ -14064,7 +14064,7 @@
             "correct": "Answer: civil, war, south, carolina. Specific historical events like the 'Civil War' and specific geographic locations like 'South Carolina' are proper nouns and must be capitalized.",
             "incorrect": [
               {
-                "choice": "b attle, civil, coast, south",
+                "choice": "battle, civil, coast, south",
                 "category": "incorrect capitalization of nouns",
                 "reason": "The word 'battle' is only capitalized if it is part of a specific title like 'Battle of Gettysburg', and 'coast' is a common noun here, so it should not be capitalized."
               },
@@ -15118,13 +15118,13 @@
         {
           "id": "capitalization-names-of-places-q0041",
           "version": 2,
-          "contentHash": "sha256:d87f46585f2653d814f6486d8f38890cb80130509b8eb28793c6de028f8f9120",
+          "contentHash": "sha256:42860b1cc398e529adbb1391385119d02220126cb1ca47a518511b856f07a82c",
           "question": "Choose the sentence in which the adjectives are in the correct order.",
           "choices": [
             "I w ore my Spanish leather riding boots for my horseback riding lesson.",
             "We went to dinner and I ordered noodle Vietnamese soup.",
             "My mother cherishes her crystal German flower vase.",
-            "The French yellow cheese was served as a di nner appetizer."
+            "The French yellow cheese was served as a dinner appetizer."
           ],
           "correct": 0,
           "explanation": {
@@ -15142,8 +15142,8 @@
                 "reason": "Origin (German) should come before material (crystal). Placing the material before the origin confuses the standard adjective order."
               },
               {
-                "choice": "The French yellow cheese was served as a di nner appetizer.",
-                "reason": "\"The French yellow cheese was served as a di nner appetizer.\" does not match the capitalization pattern required by the sentence or title."
+                "choice": "The French yellow cheese was served as a dinner appetizer.",
+                "reason": "\"The French yellow cheese was served as a dinner appetizer.\" does not match the capitalization pattern required by the sentence or title."
               }
             ]
           },
@@ -15339,10 +15339,10 @@
         {
           "id": "capitalization-names-of-places-q0137",
           "version": 4,
-          "contentHash": "sha256:e24bd05b8d9e763d9791b8acf257588c535ce0fcea43159b490e1447c482bd80",
+          "contentHash": "sha256:d97689575811cc4daddafd7fb6c49d2a8b3ab3a68c755aed152f55e45b9b28d3",
           "question": "In the sentence below, which of the following words should be capitalized? I really want some of those royal blue adidas shoes that my grandmother got me for my birthday.",
           "choices": [
-            "Gran dmother",
+            "Grandmother",
             "Adidas",
             "Birthday",
             "Royal"
@@ -15352,7 +15352,7 @@
             "correct": "Answer: Adidas. Brand names are proper nouns and must always be capitalized, regardless of where they appear in a sentence.",
             "incorrect": [
               {
-                "choice": "Gran dmother",
+                "choice": "Grandmother",
                 "category": "incorrect noun capitalization",
                 "reason": "The word 'grandmother' is a common noun here because it refers to a general family member, not a specific person's name or title, so it should remain lowercase."
               },

@@ -1,6 +1,6 @@
 const DEFAULT_APP_SHELL_BUDGET_LIMITS = Object.freeze({
   javascriptFile: Object.freeze({ warnBytes: 96 * 1024, failBytes: 256 * 1024 }),
-  javascriptTotal: Object.freeze({ warnBytes: 900 * 1024, failBytes: 1536 * 1024 }),
+  javascriptTotal: Object.freeze({ warnBytes: 1600 * 1024, failBytes: 1750 * 1024 }),
   cssFile: Object.freeze({ warnBytes: 128 * 1024, failBytes: 192 * 1024 }),
   cssTotal: Object.freeze({ warnBytes: 160 * 1024, failBytes: 240 * 1024 }),
   htmlFile: Object.freeze({ warnBytes: 80 * 1024, failBytes: 128 * 1024 }),

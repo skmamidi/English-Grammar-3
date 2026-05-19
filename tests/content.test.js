@@ -492,6 +492,24 @@ test('content QA rejects suspicious spaces inside a learner-facing word', () => 
   assertIssue(result.errors, 'split-word-spacing', { questionId: 'content-qa-fixture-q0001' });
 });
 
+test('content QA rejects split words even in letter or syllable contexts if fragment is not a word', () => {
+  const questions = [
+    makeQaQuestion(1, {
+      question: 'Whic h word is spelled incorrectly?',
+      choices: ['correct', 'wrong', 'typo', 'mistake'],
+      correct: 0,
+      explanation: {
+        correct: 'Correct answer.',
+        incorrect: ['', '', '', '']
+      }
+    })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.errors, 'split-word-spacing', { questionId: 'content-qa-fixture-q0001' });
+});
+
 test('content QA rejects spaces inside single-word possessive owner names', () => {
   const questions = [
     makeQaQuestion(1, {

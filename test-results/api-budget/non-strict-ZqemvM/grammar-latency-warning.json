@@ -1,0 +1,19 @@
+{
+  "domain": "grammar",
+  "budget": {
+    "maxP95LatencyMs": 100
+  },
+  "stats": {
+    "minMs": 1,
+    "medianMs": 2,
+    "p95Ms": 250,
+    "maxResponseBytes": 1024,
+    "responseBytes": 2048,
+    "selectedCount": 12,
+    "sourceHash": "sha256:c039e009dcc888fbc2e96a6de9fc95c1aa7718776d3bad44ab03cfc0f23a3fc0"
+  },
+  "selectedCount": 12,
+  "responseBytes": 2048,
+  "sourceHash": "sha256:c039e009dcc888fbc2e96a6de9fc95c1aa7718776d3bad44ab03cfc0f23a3fc0",
+  "strict": false
+}

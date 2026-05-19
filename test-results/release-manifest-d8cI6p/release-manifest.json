@@ -1,0 +1,8 @@
+{
+  "releaseId": "rel_d77d01060806080d",
+  "appVersion": "1.0.0",
+  "generatedAt": "2030-04-29T12:00:00.000Z",
+  "questionManifestSourceHash": "sha256:source",
+  "serviceWorkerCacheVersion": "gq-static-source",
+  "featureFlagConfigHash": "sha256:bca6286591779719d36b51c1045be08050a18f030a9acc2b060c1a4a10bf1b3c"
+}

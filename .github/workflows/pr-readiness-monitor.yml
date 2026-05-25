@@ -1,26 +1,19 @@
 name: PR Readiness Monitor
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  monitor:
+  retired:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 1
 
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: npm
-      - run: npm ci
-      - name: Check recent PR completions and ready queue
-        run: npm run qa:pr-readiness
-      - name: Double-check core regression gates
-        run: npm run test:fast
+      - name: Explain retired monitor
+        run: |
+          echo "PR readiness monitor retired."
+          echo "The old 30-minute queue check depended on docs/prs/status.json, which is local planning data and is not tracked in CI."
+          echo "Use the QA and Full Regression workflows for active readiness signals."

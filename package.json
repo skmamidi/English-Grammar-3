@@ -27,7 +27,7 @@
     "qa:config-rotation": "node scripts/qa/config-rotation-rehearsal.js",
     "qa:deployment-attestation": "node scripts/qa/deployment-attestation.js",
     "qa:source-license": "node scripts/qa/source-license-qa.js",
-    "qa:pr-readiness": "node scripts/qa/pr-readiness-monitor.js",
+    "qa:pr-readiness": "node scripts/qa/pr-readiness-monitor.js --retired",
     "qa:lessons": "node scripts/qa/story-lesson-qa.js",
     "qa:missions": "node scripts/qa/guided-mission-qa.js",
     "qa:schema": "node scripts/qa/question-source-schema-qa.js",

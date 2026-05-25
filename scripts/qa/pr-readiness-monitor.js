@@ -30,6 +30,7 @@ function parseArgs(argv) {
     now: new Date(),
     lookbackMinutes: null,
     json: false,
+    retired: false,
     rootDir: process.cwd()
   };
 
@@ -37,6 +38,8 @@ function parseArgs(argv) {
     const arg = argv[index];
     if (arg === '--json') {
       options.json = true;
+    } else if (arg === '--retired') {
+      options.retired = true;
     } else if (arg === '--now') {
       index += 1;
       options.now = new Date(argv[index]);
@@ -325,6 +328,22 @@ function formatResult(result) {
 
 function main(argv = process.argv) {
   const options = parseArgs(argv);
+  if (options.retired) {
+    const result = {
+      ok: true,
+      retired: true,
+      message: 'The PR readiness monitor is retired because docs/prs/status.json is local planning data and no longer a CI contract. Use npm run test:fast and the Full Regression workflow for active readiness gates.'
+    };
+
+    if (options.json) {
+      process.stdout.write(`${JSON.stringify(result, null, 2)}\n`);
+    } else {
+      process.stdout.write(`PR readiness monitor: retired\n${result.message}\n`);
+    }
+
+    return result;
+  }
+
   const registryPath = path.join(options.rootDir, 'docs/prs/status.json');
   const registry = readJson(registryPath);
   const result = validateRegistry(registry, options.rootDir, options);

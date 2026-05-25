@@ -70,7 +70,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.equal(pkg.scripts['qa:deployment-attestation'], 'node scripts/qa/deployment-attestation.js');
   assert.match(pkg.scripts['qa:content'], /npm run qa:ai-authoring/);
   assert.match(pkg.scripts['test:fast'], /npm run qa:static-assets/);
-  assert.equal(pkg.scripts['qa:pr-readiness'], 'node scripts/qa/pr-readiness-monitor.js');
+  assert.equal(pkg.scripts['qa:pr-readiness'], 'node scripts/qa/pr-readiness-monitor.js --retired');
   assert.equal(pkg.scripts['qa:lessons'], 'node scripts/qa/story-lesson-qa.js');
   assert.equal(pkg.scripts['qa:missions'], 'node scripts/qa/guided-mission-qa.js');
   assert.ok(fs.existsSync(path.join(repoRoot, 'content-review', 'story-lesson-review-records.json')));
@@ -280,21 +280,17 @@ test('github qa workflow uses npm ci, installs chromium, and runs npm test', () 
   assert.doesNotMatch(workflow, /actions\/setup-node@v4/);
 });
 
-test('scheduled PR readiness monitor checks recent completions and ready queue', () => {
+test('retired PR readiness monitor is manual-only and non-alerting', () => {
   const workflow = fs.readFileSync(path.join(repoRoot, '.github', 'workflows', 'pr-readiness-monitor.yml'), 'utf8');
-  const registry = readJson('docs/prs/status.json');
+  const pkg = readJson('package.json');
 
-  assert.match(workflow, /cron:\s*'\*\/30 \* \* \* \*'/);
-  assert.match(workflow, /FORCE_JAVASCRIPT_ACTIONS_TO_NODE24:\s*true/);
-  assert.match(workflow, /actions\/checkout@v6/);
-  assert.match(workflow, /actions\/setup-node@v6/);
-  assert.match(workflow, /node-version:\s*24/);
-  assert.match(workflow, /run:\s*npm run qa:pr-readiness/);
-  assert.match(workflow, /run:\s*npm run test:fast/);
-  assert.equal(registry.policy.readyPrMinimum, 5);
-  const activeQueue = registry.prs.filter(pr => pr.status === 'ready' || (pr.status === 'completed' && pr.review?.status === 'passed')).length;
-  assert.ok(activeQueue >= 5);
-  assert.ok(registry.prs.some(pr => pr.status === 'completed' && pr.review?.status === 'passed'));
+  assert.match(workflow, /workflow_dispatch:/);
+  assert.match(workflow, /PR readiness monitor retired/);
+  assert.match(pkg.scripts['qa:pr-readiness'], /--retired/);
+  assert.doesNotMatch(workflow, /schedule:/);
+  assert.doesNotMatch(workflow, /cron:/);
+  assert.doesNotMatch(workflow, /run:\s*npm run qa:pr-readiness/);
+  assert.doesNotMatch(workflow, /run:\s*npm run test:fast/);
 });
 
 test('github workflows use approved pinned action majors and no insecure runtime opt-out', () => {
